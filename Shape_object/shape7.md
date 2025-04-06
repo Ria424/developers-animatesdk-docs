@@ -1,4 +1,4 @@
-## shape.isFloating
+## Shape.isFloating
 
 #### Availability
 

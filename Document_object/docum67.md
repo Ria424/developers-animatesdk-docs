@@ -1,4 +1,4 @@
-## document.space()
+## Document.space()
 
 #### Availability
 

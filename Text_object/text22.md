@@ -1,4 +1,4 @@
-## text.setTextAttr()
+## Text.setTextAttr()
 
 #### Availability
 

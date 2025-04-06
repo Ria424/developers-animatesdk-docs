@@ -1,4 +1,4 @@
-## document.clipCopy()
+## Document.clipCopy()
 
 #### Availability
 

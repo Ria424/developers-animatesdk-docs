@@ -1,4 +1,4 @@
-## text.antiAliasThickness
+## Text.antiAliasThickness
 
 #### Availability
 

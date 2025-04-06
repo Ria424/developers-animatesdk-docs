@@ -1,4 +1,4 @@
-## symbolItem.timeline
+## SymbolItem.timeline
 
 #### Availability
 

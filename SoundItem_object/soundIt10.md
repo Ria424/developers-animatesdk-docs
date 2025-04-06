@@ -1,4 +1,4 @@
-## soundItem.sourceFileExists
+## SoundItem.sourceFileExists
 
 #### Availability
 

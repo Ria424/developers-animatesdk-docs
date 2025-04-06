@@ -1,4 +1,4 @@
-## element.removePersistentData()
+## Element.removePersistentData()
 
 #### Availability
 

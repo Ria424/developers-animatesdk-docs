@@ -1,4 +1,4 @@
-## timeline.cutFrames()
+## Timeline.cutFrames()
 
 #### Availability
 

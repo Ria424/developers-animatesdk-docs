@@ -1,4 +1,4 @@
-## document.removeDataFromSelection()
+## Document.removeDataFromSelection()
 
 #### Availability
 

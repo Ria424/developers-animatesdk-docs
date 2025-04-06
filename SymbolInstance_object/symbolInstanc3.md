@@ -1,4 +1,4 @@
-## symbolInstance.bitmapRenderMode
+## SymbolInstance.bitmapRenderMode
 
 #### Availability
 

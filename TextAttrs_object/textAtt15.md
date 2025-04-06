@@ -1,4 +1,4 @@
-## textAttrs.size
+## TextAttrs.size
 
 #### Availability
 

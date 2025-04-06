@@ -1,4 +1,4 @@
-## text.getTextAttr()
+## Text.getTextAttr()
 
 #### Availability
 

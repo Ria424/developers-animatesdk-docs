@@ -1,4 +1,4 @@
-## frame.tweenType
+## Frame.tweenType
 
 #### Availability
 

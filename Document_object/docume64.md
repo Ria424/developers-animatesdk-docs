@@ -1,4 +1,4 @@
-## document.exportPNG()
+## Document.exportPNG()
 
 #### Availability
 

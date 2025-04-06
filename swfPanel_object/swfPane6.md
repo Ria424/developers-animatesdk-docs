@@ -1,4 +1,4 @@
-## swfPanel.setFocus()
+## SwfPanel.setFocus()
 
 #### Availability
 

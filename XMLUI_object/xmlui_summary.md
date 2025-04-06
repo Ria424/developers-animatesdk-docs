@@ -1,4 +1,4 @@
-## xmlui summary
+## XMLUI summary
 
 #### Availability
 

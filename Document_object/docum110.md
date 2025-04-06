@@ -1,4 +1,4 @@
-## document.loadCuepointXML() - dropped
+## Document.loadCuepointXML() - dropped
 
 #### Availability
 

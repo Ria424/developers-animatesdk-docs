@@ -1,4 +1,4 @@
-## fontItem.italic
+## FontItem.italic
 
 #### Availability
 

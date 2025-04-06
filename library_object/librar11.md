@@ -1,4 +1,4 @@
-## library.moveToFolder()
+## Library.moveToFolder()
 
 #### Availability
 

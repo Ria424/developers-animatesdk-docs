@@ -1,4 +1,4 @@
-## timeline.advancedLayersEnabled
+## Timeline.advancedLayersEnabled
 
 #### Availability
 

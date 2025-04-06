@@ -1,4 +1,4 @@
-## layer.frameCount
+## Layer.frameCount
 
 #### Availability
 

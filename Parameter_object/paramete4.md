@@ -1,4 +1,4 @@
-## parameter.removeItem()
+## Parameter.removeItem()
 
 #### Availability
 

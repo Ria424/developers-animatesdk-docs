@@ -1,4 +1,4 @@
-## xmlui.cancel()
+## XMLUI.cancel()
 
 #### Availability
 

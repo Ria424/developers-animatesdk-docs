@@ -1,4 +1,4 @@
-## frame.motionTweenSnap
+## Frame.motionTweenSnap
 
 #### Availability
 

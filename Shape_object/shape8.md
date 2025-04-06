@@ -1,4 +1,4 @@
-## shape.isGroup
+## Shape.isGroup
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## symbolInstance.accName
+## SymbolInstance.accName
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.addItem()
+## Document.addItem()
 
 #### Availability
 

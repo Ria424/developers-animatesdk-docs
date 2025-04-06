@@ -1,4 +1,4 @@
-## document.currentTimeline
+## Document.currentTimeline
 
 #### Availability
 

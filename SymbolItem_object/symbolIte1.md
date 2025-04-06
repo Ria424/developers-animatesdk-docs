@@ -1,4 +1,4 @@
-## symbolItem.exportSWC()
+## SymbolItem.exportSWC()
 
 #### Availability
 

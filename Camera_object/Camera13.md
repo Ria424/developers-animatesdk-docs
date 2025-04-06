@@ -1,4 +1,4 @@
-## resetPosition()
+## Camera.resetPosition()
 
 #### Availability
 

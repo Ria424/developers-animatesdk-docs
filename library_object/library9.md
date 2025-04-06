@@ -1,4 +1,4 @@
-## library.itemExists()
+## Library.itemExists()
 
 #### Availability
 

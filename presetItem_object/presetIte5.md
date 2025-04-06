@@ -1,4 +1,4 @@
-## presetItem.path
+## PresetItem.path
 
 #### Availability
 

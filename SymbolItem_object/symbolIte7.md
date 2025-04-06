@@ -1,4 +1,4 @@
-## symbolItem.scalingGridRect
+## SymbolItem.scalingGridRect
 
 #### Availability
 

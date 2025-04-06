@@ -1,4 +1,4 @@
-## symbolInstance.firstFrame
+## SymbolInstance.firstFrame
 
 #### Availability
 

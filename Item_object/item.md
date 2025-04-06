@@ -1,4 +1,4 @@
-## item.addData()
+## Item.addData()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## stroke.dash2
+## Stroke.dash2
 
 #### Availability
 

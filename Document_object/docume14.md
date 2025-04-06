@@ -1,4 +1,4 @@
-## document.allowScreens() - dropped
+## Document.allowScreens() - dropped
 
 #### Availability
 

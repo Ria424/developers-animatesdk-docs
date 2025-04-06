@@ -1,4 +1,4 @@
-## compiledClipInstance.brightness
+## CompiledClipInstance.brightness
 
 #### Availability
 

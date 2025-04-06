@@ -1,4 +1,4 @@
-## symbolInstance.actionScript - dropped
+## SymbolInstance.actionScript - dropped
 
 #### Availability
 

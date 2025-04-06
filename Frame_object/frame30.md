@@ -1,4 +1,4 @@
-## frame.soundEffect
+## Frame.soundEffect
 
 #### Availability
 

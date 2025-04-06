@@ -1,4 +1,4 @@
-## timeline.setGuidelines()
+## Timeline.setGuidelines()
 
 #### Availability
 

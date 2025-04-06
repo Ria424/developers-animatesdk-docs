@@ -1,4 +1,4 @@
-## tools.ctlIsDown
+## Tools.ctlIsDown
 
 #### Availability
 

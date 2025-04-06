@@ -1,4 +1,4 @@
-## symbolInstance.cacheAsBitmap
+## SymbolInstance.cacheAsBitmap
 
 #### Availability
 

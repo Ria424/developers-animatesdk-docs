@@ -1,4 +1,4 @@
-## document.swapElement()
+## Document.swapElement()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.addNewRectangle()
+## Document.addNewRectangle()
 
 #### Availability
 

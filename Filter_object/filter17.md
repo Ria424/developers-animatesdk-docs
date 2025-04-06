@@ -1,4 +1,4 @@
-## filter.strength
+## Filter.strength
 
 #### Availability
 

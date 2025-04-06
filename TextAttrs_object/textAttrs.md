@@ -1,4 +1,4 @@
-## textAttrs.aliasText
+## TextAttrs.aliasText
 
 #### Availability
 

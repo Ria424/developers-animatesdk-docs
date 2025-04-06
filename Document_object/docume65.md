@@ -1,4 +1,4 @@
-## document.exportPublishProfile()
+## Document.exportPublishProfile()
 
 #### Availability
 

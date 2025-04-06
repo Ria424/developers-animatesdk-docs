@@ -1,4 +1,4 @@
-## document.setOvalObjectProperty()
+## Document.setOvalObjectProperty()
 
 #### Availability
 

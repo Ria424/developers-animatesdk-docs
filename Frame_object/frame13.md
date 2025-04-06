@@ -1,4 +1,4 @@
-## frame.isEmpty()
+## Frame.isEmpty()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## stroke.thickness
+## Stroke.thickness
 
 #### Availability
 

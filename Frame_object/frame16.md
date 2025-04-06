@@ -1,4 +1,4 @@
-## frame.motionTweenOrientToPath
+## Frame.motionTweenOrientToPath
 
 #### Availability
 

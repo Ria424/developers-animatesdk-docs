@@ -1,4 +1,4 @@
-## compiledClipInstance.actionScript - dropped
+## CompiledClipInstance.actionScript - dropped
 
 #### Availability
 

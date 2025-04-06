@@ -1,4 +1,4 @@
-## timeline.getSelectedLayers()
+## Timeline.getSelectedLayers()
 
 #### Availability
 

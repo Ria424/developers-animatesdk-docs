@@ -1,4 +1,4 @@
-## bitmapItem.sourceFileExists
+## BitmapItem.sourceFileExists
 
 #### Availability
 
@@ -15,12 +15,12 @@ Read-only property; a Boolean value of true if the file that was imported to the
 #### Example
 
 ```javascript
-Assuming the first item in the Library is a bitmap item, the following code displays "true" if the file that was imported into the Library still exists.
+// Assuming the first item in the Library is a bitmap item, the following code displays "true" if the file that was imported into the Library still exists.
 
 var libItem = fl.getDocumentDOM().library.items[0]; 
 fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
-
 ```
+
 #### See also
 
 [bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIte11.md)

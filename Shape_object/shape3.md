@@ -1,4 +1,4 @@
-## shape.edges
+## Shape.edges
 
 #### Availability
 

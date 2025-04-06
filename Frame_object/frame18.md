@@ -1,4 +1,4 @@
-## frame.motionTweenRotateTimes
+## Frame.motionTweenRotateTimes
 
 #### Availability
 

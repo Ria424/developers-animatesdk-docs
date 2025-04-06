@@ -1,4 +1,4 @@
-## soundItem.convertStereoToMono
+## SoundItem.convertStereoToMono
 
 #### Availability
 

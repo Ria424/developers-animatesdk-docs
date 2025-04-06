@@ -1,4 +1,4 @@
-## frame.hasCustomEase
+## Frame.hasCustomEase
 
 #### Availability
 

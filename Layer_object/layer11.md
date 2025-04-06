@@ -1,4 +1,4 @@
-## layer.getZDepthAtFrame()	
+## Layer.getZDepthAtFrame()	
 
 #### Availability
 

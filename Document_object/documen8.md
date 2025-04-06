@@ -1,4 +1,4 @@
-## document.addNewPrimitiveRectangle()
+## Document.addNewPrimitiveRectangle()
 
 #### Availability
 

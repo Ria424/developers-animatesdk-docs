@@ -1,4 +1,4 @@
-## document.setFilterProperty()
+## Document.setFilterProperty()
 
 #### Availability
 

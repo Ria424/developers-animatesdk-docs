@@ -1,4 +1,4 @@
-## toolObj.setIcon()
+## ToolObj.setIcon()
 
 #### Availability
 

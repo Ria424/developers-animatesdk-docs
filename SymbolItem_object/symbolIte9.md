@@ -1,4 +1,4 @@
-## symbolItem.sourceFilePath
+## SymbolItem.sourceFilePath
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## drawingLayer.cubicCurveTo()
+## DrawingLayer.cubicCurveTo()
 
 #### Availability
 

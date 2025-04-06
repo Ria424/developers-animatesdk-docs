@@ -1,4 +1,4 @@
-## edge.cubicSegmentIndex
+## Edge.cubicSegmentIndex
 
 #### Availability
 

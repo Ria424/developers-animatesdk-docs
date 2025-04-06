@@ -1,4 +1,4 @@
-## document.as3AutoDeclare
+## Document.as3AutoDeclare
 
 #### Availability
 

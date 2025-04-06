@@ -1,4 +1,4 @@
-## document.reorderScene()
+## Document.reorderScene()
 
 #### Availability
 

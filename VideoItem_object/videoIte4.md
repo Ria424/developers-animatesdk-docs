@@ -1,4 +1,4 @@
-## videoItem.sourceFileIsCurrent
+## VideoItem.sourceFileIsCurrent
 
 #### Availability
 

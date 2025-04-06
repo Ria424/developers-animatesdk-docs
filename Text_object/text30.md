@@ -1,4 +1,4 @@
-## text.variableName
+## Text.variableName
 
 #### Availability
 

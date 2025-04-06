@@ -1,4 +1,4 @@
-## library.getSelectedItems()
+## Library.getSelectedItems()
 
 #### Availability
 

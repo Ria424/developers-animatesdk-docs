@@ -1,4 +1,4 @@
-## document.addNewOval()
+## Document.addNewOval()
 
 #### Availability
 

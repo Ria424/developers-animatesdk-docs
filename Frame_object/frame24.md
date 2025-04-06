@@ -1,4 +1,4 @@
-## frame.setCustomEase()
+## Frame.setCustomEase()
 
 #### Availability
 

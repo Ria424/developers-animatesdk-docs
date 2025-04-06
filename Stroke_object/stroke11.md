@@ -1,4 +1,4 @@
-## stroke.joinType
+## Stroke.joinType
 
 #### Availability
 

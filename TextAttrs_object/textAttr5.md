@@ -1,4 +1,4 @@
-## textAttrs.characterSpacing
+## TextAttrs.characterSpacing
 
 #### Availability
 

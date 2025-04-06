@@ -1,4 +1,4 @@
-## outputPanel.clear()
+## OutputPanel.clear()
 
 #### Availability
 

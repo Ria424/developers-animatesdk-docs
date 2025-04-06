@@ -1,4 +1,4 @@
-## document.height
+## Document.height
 
 #### Availability
 

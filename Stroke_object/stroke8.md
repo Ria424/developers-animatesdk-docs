@@ -1,4 +1,4 @@
-## stroke.dotSpace
+## Stroke.dotSpace
 
 #### Availability
 

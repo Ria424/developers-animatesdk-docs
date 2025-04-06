@@ -1,4 +1,4 @@
-## symbolItem.scalingGrid
+## SymbolItem.scalingGrid
 
 #### Availability
 

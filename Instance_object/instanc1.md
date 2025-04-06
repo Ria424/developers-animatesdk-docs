@@ -1,4 +1,4 @@
-## instance.libraryItem
+## Instance.libraryItem
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.moveSelectedBezierPointsBy()
+## Document.moveSelectedBezierPointsBy()
 
 #### Availability
 

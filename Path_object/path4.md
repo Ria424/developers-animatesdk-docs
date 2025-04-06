@@ -1,4 +1,4 @@
-## path.close()
+## Path.close()
 
 #### Availability
 

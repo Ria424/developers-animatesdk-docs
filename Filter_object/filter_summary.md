@@ -1,4 +1,4 @@
-## filter summary
+## Filter summary
 
 #### Availability
 

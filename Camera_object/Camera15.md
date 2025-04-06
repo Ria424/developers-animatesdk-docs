@@ -1,4 +1,4 @@
-## resetColorFilter()
+## Camera.resetColorFilter()
 
 #### Availability
 

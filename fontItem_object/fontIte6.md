@@ -1,4 +1,4 @@
-## fontItem.isDefineFont4Symbol
+## FontItem.isDefineFont4Symbol
 
 #### Availability
 

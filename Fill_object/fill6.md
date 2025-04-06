@@ -1,4 +1,4 @@
-## fill.matrix
+## Fill.matrix
 
 #### Availability
 

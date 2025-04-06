@@ -1,4 +1,4 @@
-## presetPanel.getSelectedItems()
+## PresetPanel.getSelectedItems()
 
 #### Availability
 

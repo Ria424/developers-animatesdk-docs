@@ -1,4 +1,4 @@
-## parameter.listIndex
+## Parameter.listIndex
 
 #### Availability
 

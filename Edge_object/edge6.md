@@ -1,4 +1,4 @@
-## edge.splitEdge()
+## Edge.splitEdge()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## stroke.breakAtCorners
+## Stroke.breakAtCorners
 
 #### Availability
 

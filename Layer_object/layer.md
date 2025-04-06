@@ -1,4 +1,4 @@
-## layer.animationType
+## Layer.animationType
 
 #### Availability
 

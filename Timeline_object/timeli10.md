@@ -1,4 +1,4 @@
-## timeline.createMotionObject()
+## Timeline.createMotionObject()
 
 #### Availability
 

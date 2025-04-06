@@ -27,7 +27,6 @@ The following code closes all open files, prompting the user to save any new or 
 fl.closeAll();
 ```
 
-
 #### See also
 
 [fl.closeAllPlayerDocuments()](../flash_object_(fl)/fl8.md), [fl.closeDocument()](../flash_object_(fl)/fl9.md)

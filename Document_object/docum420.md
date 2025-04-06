@@ -1,4 +1,4 @@
-## document.selectAll()
+## Document.selectAll()
 
 #### Availability
 

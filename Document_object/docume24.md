@@ -1,4 +1,4 @@
-## document.breakApart()
+## Document.breakApart()
 
 #### Availability
 

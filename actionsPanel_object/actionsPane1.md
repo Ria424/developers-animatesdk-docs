@@ -1,4 +1,4 @@
-## actionsPanel.getScriptAssistMode() - dropped
+## ActionsPanel.getScriptAssistMode() - dropped
 
 #### Availability
 
@@ -27,10 +27,10 @@ The following example displays a message if Script Assist mode is not enabled.
 ```javascript
 mAssist = fl.actionsPanel.getScriptAssistMode();
 if (!mAssist) {
-alert("For more guidance when writing ActionScript code, try Script Assist mode");
-}Script code, try Script Assist mode");
+    alert("For more guidance when writing ActionScript code, try Script Assist mode");
 }
 ```
+
 #### See also
 
 [actionsPanel.setScriptAssistMode() - dropped](../actionsPanel_object/actionsPane6.md)

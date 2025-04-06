@@ -1,4 +1,4 @@
-## document.getPublishDocumentData()
+## Document.getPublishDocumentData()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## edge.stroke
+## Edge.stroke
 
 #### Availability
 

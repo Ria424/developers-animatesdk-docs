@@ -1,4 +1,4 @@
-## document.setInstanceTint()
+## Document.setInstanceTint()
 
 #### Availability
 

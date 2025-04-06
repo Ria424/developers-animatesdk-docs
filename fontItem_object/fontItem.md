@@ -1,4 +1,4 @@
-## fontItem.bitmap
+## FontItem.bitmap
 
 #### Availability
 

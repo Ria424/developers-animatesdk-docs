@@ -1,4 +1,4 @@
-## symbolInstance.visible
+## SymbolInstance.visible
 
 #### Availability
 

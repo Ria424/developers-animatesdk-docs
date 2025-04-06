@@ -1,4 +1,4 @@
-## compiledClipInstance.tintPercent
+## CompiledClipInstance.tintPercent
 
 #### Availability
 

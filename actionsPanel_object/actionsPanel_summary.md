@@ -1,4 +1,4 @@
-## actionsPanel summary
+## ActionsPanel summary
 
 #### Availability
 

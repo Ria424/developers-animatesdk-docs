@@ -1,4 +1,4 @@
-## document.addNewText()
+## Document.addNewText()
 
 #### Availability
 

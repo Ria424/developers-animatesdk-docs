@@ -1,4 +1,4 @@
-## xmlui.set()
+## XMLUI.set()
 
 #### Availability
 

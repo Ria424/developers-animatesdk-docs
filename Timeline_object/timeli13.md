@@ -1,4 +1,4 @@
-## timeline.currentLayer
+## Timeline.currentLayer
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.crop()
+## Document.crop()
 
 #### Availability
 

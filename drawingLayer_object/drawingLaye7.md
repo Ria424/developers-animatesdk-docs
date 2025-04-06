@@ -1,4 +1,4 @@
-## drawingLayer.lineTo()
+## DrawingLayer.lineTo()
 
 #### Availability
 

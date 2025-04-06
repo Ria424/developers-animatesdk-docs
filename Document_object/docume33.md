@@ -1,4 +1,4 @@
-## document.close()
+## Document.close()
 
 #### Availability
 

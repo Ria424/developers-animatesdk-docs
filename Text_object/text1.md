@@ -1,4 +1,4 @@
-## text.antiAliasSharpness
+## Text.antiAliasSharpness
 
 #### Availability
 

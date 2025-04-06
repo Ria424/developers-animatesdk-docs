@@ -1,4 +1,4 @@
-## timeline.selectAllFrames()
+## Timeline.selectAllFrames()
 
 #### Availability
 

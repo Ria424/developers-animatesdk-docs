@@ -1,4 +1,4 @@
-## document.getTransformationPoint()
+## Document.getTransformationPoint()
 
 #### Availability
 

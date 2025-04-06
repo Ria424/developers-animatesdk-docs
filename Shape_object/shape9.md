@@ -1,4 +1,4 @@
-## shape.isOvalObject
+## Shape.isOvalObject
 
 #### Availability
 

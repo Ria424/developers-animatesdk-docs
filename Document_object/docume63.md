@@ -1,4 +1,4 @@
-## document.exportInstanceToPNGSequence()
+## Document.exportInstanceToPNGSequence()
 
 #### Availability
 

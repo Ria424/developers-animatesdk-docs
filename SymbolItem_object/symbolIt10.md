@@ -1,4 +1,4 @@
-## symbolItem.sourceLibraryName
+## SymbolItem.sourceLibraryName
 
 #### Availability
 

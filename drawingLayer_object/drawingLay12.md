@@ -1,3 +1,3 @@
-## drawingLayer.setStroke()
+## DrawingLayer.setStroke()
 
 This method is not available.

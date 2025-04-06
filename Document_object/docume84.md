@@ -1,4 +1,4 @@
-## document.getSelectionRect()
+## Document.getSelectionRect()
 
 #### Availability
 

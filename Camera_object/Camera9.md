@@ -1,4 +1,4 @@
-## setTint()
+## Camera.setTint()
 
 #### Availability
 

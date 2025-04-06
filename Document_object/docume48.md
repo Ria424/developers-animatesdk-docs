@@ -1,4 +1,4 @@
-## document.disableOtherFilters()
+## Document.disableOtherFilters()
 
 #### Availability
 

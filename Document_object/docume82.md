@@ -1,4 +1,4 @@
-## document.getPlayerVersion()
+## Document.getPlayerVersion()
 
 #### Availability
 

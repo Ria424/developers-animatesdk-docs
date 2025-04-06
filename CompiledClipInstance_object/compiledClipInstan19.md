@@ -1,4 +1,4 @@
-## compiledClipInstance.silent
+## CompiledClipInstance.silent
 
 #### Availability
 

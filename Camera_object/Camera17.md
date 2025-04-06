@@ -1,4 +1,4 @@
-## camera.cameraEnabled	
+## Camera.cameraEnabled	
 
 #### Availability
 

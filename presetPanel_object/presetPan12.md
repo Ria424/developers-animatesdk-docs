@@ -1,4 +1,4 @@
-## presetPanel.renameItem()
+## PresetPanel.renameItem()
 
 #### Availability
 

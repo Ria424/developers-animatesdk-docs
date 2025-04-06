@@ -1,4 +1,4 @@
-## drawingLayer.endDraw()
+## DrawingLayer.endDraw()
 
 #### Availability
 

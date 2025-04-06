@@ -1,4 +1,4 @@
-## filter.distance
+## Filter.distance
 
 #### Availability
 

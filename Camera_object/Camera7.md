@@ -1,4 +1,4 @@
-## setZoom()
+## Camera.setZoom()
 
 #### Availability
 

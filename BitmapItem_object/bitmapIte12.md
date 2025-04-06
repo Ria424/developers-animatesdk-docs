@@ -1,4 +1,4 @@
-## bitmapItem.useDeblocking
+## BitmapItem.useDeblocking
 
 #### Availability
 
@@ -15,9 +15,8 @@ Property; a Boolean value that specifies whether deblocking is enabled (*true*) 
 #### Example
 
 ```javascript
-Assuming the first item in the Library is a bitmap item, the following code enables deblocking for the item:
+// Assuming the first item in the Library is a bitmap item, the following code enables deblocking for the item:
 
 var libItem = fl.getDocumentDOM().library.items[0]; 
 libItem.useDeblocking = true;
-
 ```

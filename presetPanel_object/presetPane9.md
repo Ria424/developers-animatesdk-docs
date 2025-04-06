@@ -1,4 +1,4 @@
-## presetPanel.items
+## PresetPanel.items
 
 #### Availability
 

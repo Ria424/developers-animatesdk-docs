@@ -1,4 +1,4 @@
-## presetPanel.moveToFolder()
+## PresetPanel.moveToFolder()
 
 #### Availability
 

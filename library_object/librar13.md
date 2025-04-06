@@ -1,4 +1,4 @@
-## library.renameItem()
+## Library.renameItem()
 
 #### Availability
 

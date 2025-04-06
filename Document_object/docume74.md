@@ -1,4 +1,4 @@
-## document.getCustomFill()
+## Document.getCustomFill()
 
 #### Availability
 

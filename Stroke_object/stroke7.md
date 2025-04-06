@@ -1,4 +1,4 @@
-## stroke.dotSize
+## Stroke.dotSize
 
 #### Availability
 

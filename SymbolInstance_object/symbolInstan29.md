@@ -1,4 +1,4 @@
-## symbolInstance.useBackgroundColor
+## SymbolInstance.useBackgroundColor
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## frame.soundName
+## Frame.soundName
 
 #### Availability
 

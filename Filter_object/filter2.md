@@ -1,4 +1,4 @@
-## filter.blurY
+## Filter.blurY
 
 #### Availability
 

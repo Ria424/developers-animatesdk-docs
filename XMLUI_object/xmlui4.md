@@ -1,4 +1,4 @@
-## xmlui.getEnabled()
+## XMLUI.getEnabled()
 
 #### Availability
 

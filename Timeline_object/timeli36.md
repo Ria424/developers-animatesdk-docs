@@ -1,4 +1,4 @@
-## timeline.pasteMotion()
+## Timeline.pasteMotion()
 
 #### Availability
 

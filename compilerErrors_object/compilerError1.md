@@ -1,4 +1,4 @@
-## compilerErrors.save()
+## CompilerErrors.save()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## layer.getRigMatrixAtFrame()
+## Layer.getRigMatrixAtFrame()
 
 #### Availability
 

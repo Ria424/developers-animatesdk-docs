@@ -1,4 +1,4 @@
-## symbolInstance.shortcut
+## SymbolInstance.shortcut
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## frame.hasMotionPath()
+## Frame.hasMotionPath()
 
 #### Availability
 

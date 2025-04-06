@@ -1,4 +1,4 @@
-## symbolItem.convertToCompiledClip()
+## SymbolItem.convertToCompiledClip()
 
 #### Availability
 

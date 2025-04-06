@@ -1,4 +1,4 @@
-## soundItem.bits
+## SoundItem.bits
 
 #### Availability
 

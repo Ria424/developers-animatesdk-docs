@@ -1,4 +1,4 @@
-## stroke.hatchThickness
+## Stroke.hatchThickness
 
 #### Availability
 

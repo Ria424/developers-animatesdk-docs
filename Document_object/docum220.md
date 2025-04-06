@@ -1,4 +1,4 @@
-## document.publishProfiles
+## Document.publishProfiles
 
 #### Availability
 

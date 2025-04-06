@@ -1,4 +1,4 @@
-## timeline.expandFolder()
+## Timeline.expandFolder()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## presetPanel.deleteFolder()
+## PresetPanel.deleteFolder()
 
 #### Availability
 

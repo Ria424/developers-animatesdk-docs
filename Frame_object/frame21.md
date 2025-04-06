@@ -1,4 +1,4 @@
-## frame.motionTweenSync
+## Frame.motionTweenSync
 
 #### Availability
 

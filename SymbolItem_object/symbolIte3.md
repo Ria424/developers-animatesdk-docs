@@ -1,4 +1,4 @@
-## symbolItem.exportToLibrary()
+## SymbolItem.exportToLibrary()
 
 #### Availability
 

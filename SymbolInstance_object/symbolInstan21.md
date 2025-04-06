@@ -1,4 +1,4 @@
-## symbolInstance.is3D
+## SymbolInstance.is3D
 
 #### Availability
 

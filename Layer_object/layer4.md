@@ -1,4 +1,4 @@
-## layer.height
+## Layer.height
 
 #### Availability
 

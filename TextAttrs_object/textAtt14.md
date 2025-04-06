@@ -1,4 +1,4 @@
-## textAttrs.rotation
+## TextAttrs.rotation
 
 #### Availability
 

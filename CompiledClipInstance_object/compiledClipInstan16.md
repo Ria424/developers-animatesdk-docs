@@ -1,4 +1,4 @@
-## compiledClipInstance.filters
+## CompiledClipInstance.filters
 
 #### Availability
 

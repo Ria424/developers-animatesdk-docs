@@ -1,4 +1,4 @@
-## document.convertSelectionToBitmap()
+## Document.convertSelectionToBitmap()
 
 #### Availability
 

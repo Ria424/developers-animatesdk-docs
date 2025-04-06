@@ -1,4 +1,4 @@
-## compiledClipInstance.colorMode
+## CompiledClipInstance.colorMode
 
 #### Availability
 

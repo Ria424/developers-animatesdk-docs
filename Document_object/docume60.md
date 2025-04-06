@@ -1,4 +1,4 @@
-## document.enterEditMode()
+## Document.enterEditMode()
 
 #### Availability
 

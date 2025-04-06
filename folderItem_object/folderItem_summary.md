@@ -1,4 +1,4 @@
-## folderItem summary
+## FolderItem summary
 
 **Inheritance** [Item object](../Item_object/item_summary.md) > folderItem object
 

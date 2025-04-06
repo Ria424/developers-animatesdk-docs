@@ -19,12 +19,13 @@ The following example illustrates changing the ActionScript 3.0 Classpath settin
 fl.trace(fl.as3PackagePaths);
 // Output (assuming started with default value)
 // .;$(AppConfig)/ActionScript 3.0/Classes
-fl.as3PackagePaths="buying;selling";
+
+fl.as3PackagePaths = "buying;selling";
 fl.trace(fl.as3PackagePaths);
 // Output
-// buying; selling 
-
+// buying; selling
 ```
+
 #### See also
 
 [fl.resetAS3PackagePaths()](../flash_object_(fl)/fl59.md)

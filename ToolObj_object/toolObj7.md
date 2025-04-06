@@ -1,4 +1,4 @@
-## toolObj.setPI()
+## ToolObj.setPI()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## presetPanel.newFolder()
+## PresetPanel.newFolder()
 
 #### Availability
 

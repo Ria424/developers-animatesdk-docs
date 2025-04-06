@@ -1,4 +1,4 @@
-## compiledClipInstance.tintColor
+## CompiledClipInstance.tintColor
 
 #### Availability
 

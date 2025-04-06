@@ -1,4 +1,4 @@
-## tools.penDownLoc
+## Tools.penDownLoc
 
 #### Availability
 

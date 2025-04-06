@@ -1,4 +1,4 @@
-## document.canTestScene()
+## Document.canTestScene()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.arrange()
+## Document.arrange()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.getMetadata()
+## Document.getMetadata()
 
 #### Availability
 

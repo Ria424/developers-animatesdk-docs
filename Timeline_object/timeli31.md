@@ -1,4 +1,4 @@
-## timeline.layers
+## Timeline.layers
 
 #### Availability
 

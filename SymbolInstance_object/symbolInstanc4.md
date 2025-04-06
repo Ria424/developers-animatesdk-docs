@@ -1,4 +1,4 @@
-## symbolInstance.blendMode
+## SymbolInstance.blendMode
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## contour.getHalfEdge()
+## Contour.getHalfEdge()
 
 #### Availability
 

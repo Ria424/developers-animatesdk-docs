@@ -1,4 +1,4 @@
-## filter.hue
+## Filter.hue
 
 #### Availability
 

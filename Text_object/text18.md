@@ -1,4 +1,4 @@
-## text.scrollable
+## Text.scrollable
 
 #### Availability
 

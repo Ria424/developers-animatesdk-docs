@@ -1,4 +1,4 @@
-## soundItem.sourceFileIsCurrent
+## SoundItem.sourceFileIsCurrent
 
 #### Availability
 

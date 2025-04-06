@@ -1,4 +1,4 @@
-## filter.highlightColor
+## Filter.highlightColor
 
 #### Availability
 

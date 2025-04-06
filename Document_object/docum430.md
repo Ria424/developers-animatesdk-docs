@@ -1,4 +1,4 @@
-## document.selection
+## Document.selection
 
 #### Availability
 

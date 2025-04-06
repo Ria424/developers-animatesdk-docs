@@ -1,4 +1,4 @@
-## presetPanel.expandFolder()
+## PresetPanel.expandFolder()
 
 #### Availability
 

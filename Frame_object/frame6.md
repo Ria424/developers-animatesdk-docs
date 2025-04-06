@@ -1,4 +1,4 @@
-## frame.getCustomEase()
+## Frame.getCustomEase()
 
 #### Availability
 

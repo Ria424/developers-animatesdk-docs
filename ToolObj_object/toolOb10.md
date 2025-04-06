@@ -1,4 +1,4 @@
-## toolObj.showPIControl()
+## ToolObj.showPIControl()
 
 #### Availability
 

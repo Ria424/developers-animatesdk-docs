@@ -1,4 +1,4 @@
-## componentsPanel summary
+## ComponentsPanel summary
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## compiledClipInstance.shortcut
+## CompiledClipInstance.shortcut
 
 #### Availability
 

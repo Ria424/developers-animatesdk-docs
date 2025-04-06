@@ -1,4 +1,4 @@
-## timeline.getFrameProperty()
+## Timeline.getFrameProperty()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.accName
+## Document.accName
 
 #### Availability
 

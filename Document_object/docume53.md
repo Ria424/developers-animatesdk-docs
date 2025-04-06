@@ -1,4 +1,4 @@
-## document.documentHasData()
+## Document.documentHasData()
 
 #### Availability
 

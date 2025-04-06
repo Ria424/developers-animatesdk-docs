@@ -1,4 +1,4 @@
-## layer.locked
+## Layer.locked
 
 #### Availability
 

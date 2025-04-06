@@ -1,4 +1,4 @@
-## compiledClipInstance.accName
+## CompiledClipInstance.accName
 
 #### Availability
 

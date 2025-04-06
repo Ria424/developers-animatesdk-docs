@@ -1,4 +1,4 @@
-## vertex.getHalfEdge()
+## Vertex.getHalfEdge()
 
 #### Availability
 

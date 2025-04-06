@@ -1,4 +1,4 @@
-## element.rotation
+## Element.rotation
 
 #### Availability
 

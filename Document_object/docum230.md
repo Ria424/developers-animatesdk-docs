@@ -1,4 +1,4 @@
-## document.punch()
+## Document.punch()
 
 #### Availability
 

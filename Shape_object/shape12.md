@@ -1,4 +1,4 @@
-## shape.numCubicSegments
+## Shape.numCubicSegments
 
 #### Availability
 

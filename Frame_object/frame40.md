@@ -1,4 +1,4 @@
-## frame.useSingleEaseCurve
+## Frame.useSingleEaseCurve
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## text.silent
+## Text.silent
 
 #### Availability
 

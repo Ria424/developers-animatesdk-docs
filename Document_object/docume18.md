@@ -1,4 +1,4 @@
-## document.as3ExportFrame
+## Document.as3ExportFrame
 
 #### Availability
 

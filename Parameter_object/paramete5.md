@@ -1,4 +1,4 @@
-## parameter.value
+## Parameter.value
 
 #### Availability
 

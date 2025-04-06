@@ -1,4 +1,4 @@
-## element.transformX
+## Element.transformX
 
 #### Availability
 

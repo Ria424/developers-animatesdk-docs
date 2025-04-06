@@ -1,4 +1,4 @@
-## document.frameRate
+## Document.frameRate
 
 #### Availability
 

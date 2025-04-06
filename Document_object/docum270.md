@@ -1,4 +1,4 @@
-## document.removeFilter()
+## Document.removeFilter()
 
 #### Availability
 

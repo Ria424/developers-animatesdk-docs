@@ -1,4 +1,4 @@
-## tools.activeTool
+## Tools.activeTool
 
 #### Availability
 

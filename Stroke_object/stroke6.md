@@ -1,4 +1,4 @@
-## stroke.density
+## Stroke.density
 
 #### Availability
 

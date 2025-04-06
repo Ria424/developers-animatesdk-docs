@@ -1,4 +1,4 @@
-## textAttrs.italic
+## TextAttrs.italic
 
 #### Availability
 

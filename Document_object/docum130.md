@@ -1,4 +1,4 @@
-## document.mouseClick()
+## Document.mouseClick()
 
 #### Availability
 

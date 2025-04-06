@@ -1,4 +1,4 @@
-## fontItem summary
+## FontItem summary
 
 **Inheritance** [Item object](../Item_object/item_summary.md) > fontItem object
 

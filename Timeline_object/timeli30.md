@@ -1,4 +1,4 @@
-## timeline.layerCount
+## Timeline.layerCount
 
 #### Availability
 

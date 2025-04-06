@@ -1,4 +1,4 @@
-## Tween. duration
+## Tween.duration
 
 #### Availability
 

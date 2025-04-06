@@ -1,4 +1,4 @@
-## shape.beginEdit()
+## Shape.beginEdit()
 
 #### Availability
 

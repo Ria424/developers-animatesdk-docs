@@ -1,4 +1,4 @@
-## filter.type
+## Filter.type
 
 #### Availability
 

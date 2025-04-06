@@ -1,4 +1,4 @@
-## text.shortcut
+## Text.shortcut
 
 #### Availability
 

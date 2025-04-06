@@ -1,4 +1,4 @@
-## presetPanel.exportItem()
+## PresetPanel.exportItem()
 
 #### Availability
 

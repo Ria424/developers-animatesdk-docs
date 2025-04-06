@@ -1,4 +1,4 @@
-## componentInstance.parameters
+## ComponentInstance.parameters
 
 #### Availability
 

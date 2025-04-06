@@ -1,4 +1,4 @@
-## document.selectNone()
+## Document.selectNone()
 
 #### Availability
 

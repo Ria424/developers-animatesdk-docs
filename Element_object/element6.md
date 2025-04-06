@@ -1,4 +1,4 @@
-## element.height
+## Element.height
 
 #### Availability
 

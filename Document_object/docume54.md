@@ -1,4 +1,4 @@
-## document.duplicatePublishProfile()
+## Document.duplicatePublishProfile()
 
 #### Availability
 

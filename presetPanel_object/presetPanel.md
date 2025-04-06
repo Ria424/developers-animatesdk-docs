@@ -1,4 +1,4 @@
-## presetPanel.addNewItem()
+## PresetPanel.addNewItem()
 
 #### Availability
 

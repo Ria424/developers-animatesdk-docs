@@ -1,4 +1,4 @@
-## document.getTextString()
+## Document.getTextString()
 
 #### Availability
 

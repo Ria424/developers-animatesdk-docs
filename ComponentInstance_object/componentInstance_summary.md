@@ -1,4 +1,4 @@
-## componentInstance summary
+## ComponentInstance summary
 
 **Inheritance** [Element object](../Element_object/element_summary.md) > [Instance object](../Instance_object/instance_summary.md) > [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md) > ComponentInstance object
 

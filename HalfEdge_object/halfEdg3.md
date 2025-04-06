@@ -1,4 +1,4 @@
-## halfEdge.getPrev()
+## HalfEdge.getPrev()
 
 #### Availability
 

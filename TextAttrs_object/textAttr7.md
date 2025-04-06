@@ -1,4 +1,4 @@
-## textAttrs.fillColor
+## TextAttrs.fillColor
 
 #### Availability
 

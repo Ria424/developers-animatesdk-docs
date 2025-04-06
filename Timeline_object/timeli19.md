@@ -1,4 +1,4 @@
-## timeline.findLayerIndex()
+## Timeline.findLayerIndex()
 
 #### Availability
 

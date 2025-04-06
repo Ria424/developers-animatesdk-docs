@@ -1,4 +1,4 @@
-## text.maxCharacters
+## Text.maxCharacters
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## filter.contrast
+## Filter.contrast
 
 #### Availability
 

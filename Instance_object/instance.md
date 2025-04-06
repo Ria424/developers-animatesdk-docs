@@ -1,4 +1,4 @@
-## instance.instanceType
+## Instance.instanceType
 
 #### Availability
 

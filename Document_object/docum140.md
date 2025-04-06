@@ -1,4 +1,4 @@
-## document.mouseDblClk()
+## Document.mouseDblClk()
 
 #### Availability
 

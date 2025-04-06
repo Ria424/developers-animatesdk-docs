@@ -1,4 +1,4 @@
-## document.importFile()
+## Document.importFile()
 
 #### Availability
 

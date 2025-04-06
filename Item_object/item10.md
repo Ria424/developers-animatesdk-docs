@@ -1,4 +1,4 @@
-## item.linkageIdentifier
+## Item.linkageIdentifier
 
 #### Availability
 

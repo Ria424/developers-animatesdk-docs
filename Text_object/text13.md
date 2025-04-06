@@ -1,4 +1,4 @@
-## text.length
+## Text.length
 
 #### Availability
 

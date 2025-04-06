@@ -1,4 +1,4 @@
-## text.description
+## Text.description
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.canRevert()
+## Document.canRevert()
 
 #### Availability
 

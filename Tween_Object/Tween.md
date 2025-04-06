@@ -1,4 +1,4 @@
-## Tween.getColorTransform( )
+## Tween.getColorTransform()
 
 #### Availability
 

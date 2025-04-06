@@ -1,4 +1,4 @@
-## getZDepth()
+## Camera.getZDepth()
 
 #### Availability
 

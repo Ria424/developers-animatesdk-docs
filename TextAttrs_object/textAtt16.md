@@ -1,4 +1,4 @@
-## textAttrs.target
+## TextAttrs.target
 
 #### Availability
 

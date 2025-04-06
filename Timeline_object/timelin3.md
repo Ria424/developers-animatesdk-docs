@@ -1,4 +1,4 @@
-## timeline.clearKeyframes()
+## Timeline.clearKeyframes()
 
 #### Availability
 

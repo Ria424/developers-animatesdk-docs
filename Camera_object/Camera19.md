@@ -1,4 +1,4 @@
-## camera.colorFilterEnabled	
+## Camera.colorFilterEnabled	
 
 #### Availability
 

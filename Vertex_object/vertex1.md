@@ -1,4 +1,4 @@
-## vertex.setLocation()
+## Vertex.setLocation()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.duplicateScene()
+## Document.duplicateScene()
 
 #### Availability
 

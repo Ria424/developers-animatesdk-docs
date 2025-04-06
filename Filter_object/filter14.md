@@ -1,4 +1,4 @@
-## filter.quality
+## Filter.quality
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## toolObj.enablePIControl()
+## ToolObj.enablePIControl()
 
 #### Availability
 

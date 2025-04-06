@@ -1,4 +1,4 @@
-## fontItem.bold
+## FontItem.bold
 
 #### Availability
 

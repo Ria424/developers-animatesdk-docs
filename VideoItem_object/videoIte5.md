@@ -1,4 +1,4 @@
-## videoItem.sourceFilePath
+## VideoItem.sourceFilePath
 
 #### Availability
 

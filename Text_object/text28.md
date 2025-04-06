@@ -1,4 +1,4 @@
-## text.textType
+## Text.textType
 
 #### Availability
 

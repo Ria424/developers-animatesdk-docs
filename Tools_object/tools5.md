@@ -1,4 +1,4 @@
-## tools.mouseIsDown
+## Tools.mouseIsDown
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## edge.id
+## Edge.id
 
 #### Availability
 

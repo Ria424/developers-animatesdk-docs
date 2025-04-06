@@ -1,4 +1,4 @@
-## element.hasPersistentData()
+## Element.hasPersistentData()
 
 #### Availability
 

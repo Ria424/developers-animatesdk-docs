@@ -1,4 +1,4 @@
-## Tween.getFilters( )
+## Tween.getFilters()
 
 #### Availability
 

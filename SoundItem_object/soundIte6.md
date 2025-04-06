@@ -1,4 +1,4 @@
-## soundItem.lastModifiedDate
+## SoundItem.lastModifiedDate
 
 #### Availability
 

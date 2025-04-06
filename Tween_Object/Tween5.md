@@ -1,4 +1,4 @@
-## Tween. startFrame
+## Tween.startFrame
 
 #### Availability
 

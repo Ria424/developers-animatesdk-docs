@@ -1,4 +1,4 @@
-## document.setAlignToDocument()
+## Document.setAlignToDocument()
 
 #### Availability
 

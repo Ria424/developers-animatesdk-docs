@@ -1,4 +1,4 @@
-## document.renamePublishProfile()
+## Document.renamePublishProfile()
 
 #### Availability
 

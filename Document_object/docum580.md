@@ -1,4 +1,4 @@
-## document.setMobileSettings()
+## Document.setMobileSettings()
 
 #### Availability
 

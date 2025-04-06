@@ -1,4 +1,4 @@
-## compiledClipInstance.colorBluePercent
+## CompiledClipInstance.colorBluePercent
 
 #### Availability
 

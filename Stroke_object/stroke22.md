@@ -1,4 +1,4 @@
-## stroke.variation
+## Stroke.variation
 
 #### Availability
 

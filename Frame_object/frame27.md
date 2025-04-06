@@ -1,4 +1,4 @@
-## frame.setSoundEnvelope()
+## Frame.setSoundEnvelope()
 
 #### Availability
 

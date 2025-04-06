@@ -1,4 +1,4 @@
-## xmlui.accept()
+## XMLUI.accept()
 
 #### Availability
 

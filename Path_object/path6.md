@@ -1,4 +1,4 @@
-## path.newContour()
+## Path.newContour()
 
 #### Availability
 

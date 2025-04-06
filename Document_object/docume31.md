@@ -1,4 +1,4 @@
-## document.clipCut()
+## Document.clipCut()
 
 #### Availability
 

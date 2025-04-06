@@ -1,4 +1,4 @@
-## symbolItem.sourceAutoUpdate
+## SymbolItem.sourceAutoUpdate
 
 #### Availability
 

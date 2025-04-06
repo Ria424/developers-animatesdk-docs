@@ -1,4 +1,4 @@
-## symbolInstance.brightness
+## SymbolInstance.brightness
 
 #### Availability
 

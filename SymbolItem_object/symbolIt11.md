@@ -1,4 +1,4 @@
-## symbolItem.symbolType
+## SymbolItem.symbolType
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## timeline.copyLayers()
+## Timeline.copyLayers()
 
 #### Availability
 

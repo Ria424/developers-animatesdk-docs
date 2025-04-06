@@ -1,4 +1,4 @@
-## layer.frames
+## Layer.frames
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## actionsPanel.getText()
+## ActionsPanel.getText()
 
 #### Availability
 
@@ -24,8 +24,10 @@ Method; returns the text in the Actions panel.
 
 The following example displays the text that is in the Actions panel.
 ```javascript
-var apText = fl.actionsPanel.getText(); fl.trace(apText);
+var apText = fl.actionsPanel.getText();
+fl.trace(apText);
 ```
+
 #### See also
 
 [actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md), [actionsPanel.setText()](../actionsPanel_object/actionsPane8.md)

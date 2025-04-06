@@ -1,4 +1,4 @@
-## path.makeShape()
+## Path.makeShape()
 
 #### Availability
 

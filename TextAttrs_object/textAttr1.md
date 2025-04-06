@@ -1,4 +1,4 @@
-## textAttrs.alignment
+## TextAttrs.alignment
 
 #### Availability
 

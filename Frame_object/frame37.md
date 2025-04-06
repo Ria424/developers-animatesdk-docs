@@ -1,4 +1,4 @@
-## frame.tweenEasing
+## Frame.tweenEasing
 
 #### Availability
 

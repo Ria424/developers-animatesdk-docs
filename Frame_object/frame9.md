@@ -1,4 +1,4 @@
-## frame.getSoundEnvelopeLimits()
+## Frame.getSoundEnvelopeLimits()
 
 #### Availability
 

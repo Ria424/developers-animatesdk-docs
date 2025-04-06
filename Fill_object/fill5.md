@@ -1,4 +1,4 @@
-## fill.linearRGB
+## Fill.linearRGB
 
 #### Availability
 

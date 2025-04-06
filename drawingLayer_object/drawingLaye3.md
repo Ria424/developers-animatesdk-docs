@@ -1,4 +1,4 @@
-## drawingLayer.curveTo()
+## DrawingLayer.curveTo()
 
 #### Availability
 

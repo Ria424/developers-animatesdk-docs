@@ -1,4 +1,4 @@
-## filter.hideObject
+## Filter.hideObject
 
 #### Availability
 

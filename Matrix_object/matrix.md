@@ -1,4 +1,4 @@
-## matrix.a
+## Matrix.a
 
 #### Availability
 

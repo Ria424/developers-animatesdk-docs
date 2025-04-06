@@ -1,4 +1,4 @@
-## textRun.characters
+## TextRun.characters
 
 #### Availability
 

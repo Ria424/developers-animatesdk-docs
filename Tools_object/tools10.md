@@ -1,4 +1,4 @@
-## tools.snapPoint()
+## Tools.snapPoint()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.canTestMovie()
+## Document.canTestMovie()
 
 #### Availability
 

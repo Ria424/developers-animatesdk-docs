@@ -1,4 +1,4 @@
-## document.deleteEnvelope()
+## Document.deleteEnvelope()
 
 #### Availability
 

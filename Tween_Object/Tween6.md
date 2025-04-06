@@ -1,4 +1,4 @@
-## Tween. tweenType
+## Tween.tweenType
 
 #### Availability
 

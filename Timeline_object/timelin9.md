@@ -1,4 +1,4 @@
-## timeline.copyMotionAsAS3()
+## Timeline.copyMotionAsAS3()
 
 #### Availability
 

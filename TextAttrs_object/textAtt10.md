@@ -1,4 +1,4 @@
-## textAttrs.leftMargin
+## TextAttrs.leftMargin
 
 #### Availability
 

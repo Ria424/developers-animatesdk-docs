@@ -1,4 +1,4 @@
-## shape.deleteEdge()
+## Shape.deleteEdge()
 
 #### Availability
 

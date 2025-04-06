@@ -1,4 +1,4 @@
-## document.currentPublishProfile
+## Document.currentPublishProfile
 
 #### Availability
 

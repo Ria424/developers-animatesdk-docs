@@ -1,4 +1,4 @@
-## filter.color
+## Filter.color
 
 #### Availability
 

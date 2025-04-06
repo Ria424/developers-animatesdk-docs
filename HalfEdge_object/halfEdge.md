@@ -1,4 +1,4 @@
-## halfEdge.getEdge()
+## HalfEdge.getEdge()
 
 #### Availability
 

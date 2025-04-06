@@ -1,4 +1,4 @@
-## filter.enabled
+## Filter.enabled
 
 #### Availability
 

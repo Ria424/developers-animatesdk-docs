@@ -1,4 +1,4 @@
-## document.id
+## Document.id
 
 #### Availability
 

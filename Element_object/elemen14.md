@@ -1,4 +1,4 @@
-## element.scaleX
+## Element.scaleX
 
 #### Availability
 

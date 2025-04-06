@@ -1,4 +1,4 @@
-## layer.layerType
+## Layer.layerType
 
 #### Availability
 

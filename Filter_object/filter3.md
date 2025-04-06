@@ -1,4 +1,4 @@
-## filter.brightness
+## Filter.brightness
 
 #### Availability
 

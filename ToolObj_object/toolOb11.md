@@ -1,4 +1,4 @@
-## toolObj.showTransformHandles()
+## ToolObj.showTransformHandles()
 
 #### Availability
 

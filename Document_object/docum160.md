@@ -1,4 +1,4 @@
-## document.moveSelectionBy()
+## Document.moveSelectionBy()
 
 #### Availability
 

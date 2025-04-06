@@ -1,4 +1,4 @@
-## stroke.jiggle
+## Stroke.jiggle
 
 #### Availability
 

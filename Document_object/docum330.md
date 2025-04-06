@@ -1,4 +1,4 @@
-## document.resetTransformation()
+## Document.resetTransformation()
 
 #### Availability
 

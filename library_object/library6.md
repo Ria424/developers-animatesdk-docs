@@ -1,4 +1,4 @@
-## library.getItemProperty()
+## Library.getItemProperty()
 
 #### Availability
 

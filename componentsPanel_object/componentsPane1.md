@@ -1,4 +1,4 @@
-## componentsPanel.reload()
+## ComponentsPanel.reload()
 
 #### Availability
 

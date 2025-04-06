@@ -1,4 +1,4 @@
-## text.selectionEnd
+## Text.selectionEnd
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## text.fontRenderingMode
+## Text.fontRenderingMode
 
 #### Availability
 

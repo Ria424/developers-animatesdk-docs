@@ -1,4 +1,4 @@
-## item.name
+## Item.name
 
 #### Availability
 

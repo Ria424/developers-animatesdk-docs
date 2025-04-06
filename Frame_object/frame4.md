@@ -1,4 +1,4 @@
-## frame.duration
+## Frame.duration
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## compiledClipInstance.description
+## CompiledClipInstance.description
 
 #### Availability
 

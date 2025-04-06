@@ -1,4 +1,4 @@
-## tools.constrainPoint()
+## Tools.constrainPoint()
 
 #### Availability
 

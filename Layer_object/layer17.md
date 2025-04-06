@@ -1,4 +1,4 @@
-## layer.setColorTransformAtFrame()		
+## Layer.setColorTransformAtFrame()		
 
 #### Availability
 

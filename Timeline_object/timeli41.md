@@ -1,4 +1,4 @@
-## timeline.reverseFrames()
+## Timeline.reverseFrames()
 
 #### Availability
 

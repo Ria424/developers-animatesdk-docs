@@ -1,4 +1,4 @@
-## document.intersect()
+## Document.intersect()
 
 #### Availability
 

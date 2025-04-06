@@ -1,4 +1,4 @@
-## contour.orientation
+## Contour.orientation
 
 #### Availability
 

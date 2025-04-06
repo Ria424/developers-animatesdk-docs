@@ -1,4 +1,4 @@
-## soundItem.useImportedMP3Quality
+## SoundItem.useImportedMP3Quality
 
 #### Availability
 

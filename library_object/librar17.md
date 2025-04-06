@@ -1,4 +1,4 @@
-## library.setItemProperty()
+## Library.setItemProperty()
 
 #### Availability
 

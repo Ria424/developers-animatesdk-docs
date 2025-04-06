@@ -1,4 +1,4 @@
-## stroke.capType
+## Stroke.capType
 
 #### Availability
 

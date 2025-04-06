@@ -1,4 +1,4 @@
-## stroke.scaleType
+## Stroke.scaleType
 
 #### Availability
 

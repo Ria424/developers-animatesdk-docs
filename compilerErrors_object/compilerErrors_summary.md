@@ -1,4 +1,4 @@
-## compilerErrors summary
+## CompilerErrors summary
 
 #### Availability
 

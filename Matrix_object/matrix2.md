@@ -1,4 +1,4 @@
-## matrix.c
+## Matrix.c
 
 #### Availability
 

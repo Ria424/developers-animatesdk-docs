@@ -1,4 +1,4 @@
-## frame.selectMotionPath()
+## Frame.selectMotionPath()
 
 #### Availability
 

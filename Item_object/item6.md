@@ -1,4 +1,4 @@
-## item.linkageClassName
+## Item.linkageClassName
 
 #### Availability
 

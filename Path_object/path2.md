@@ -1,4 +1,4 @@
-## path.addPoint()
+## Path.addPoint()
 
 #### Availability
 

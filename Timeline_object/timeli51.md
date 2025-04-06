@@ -1,4 +1,4 @@
-## timeline.mergeLayers()
+## Timeline.mergeLayers()
 
 #### Availability
 

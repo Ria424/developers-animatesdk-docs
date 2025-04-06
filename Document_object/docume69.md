@@ -1,4 +1,4 @@
-## document.externalLibraryPath
+## Document.externalLibraryPath
 
 #### Availability
 

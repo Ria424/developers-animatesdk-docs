@@ -1,4 +1,4 @@
-## element.width
+## Element.width
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## textAttrs.characterPosition
+## TextAttrs.characterPosition
 
 #### Availability
 

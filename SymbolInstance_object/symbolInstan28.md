@@ -1,4 +1,4 @@
-## symbolInstance.tintPercent
+## SymbolInstance.tintPercent
 
 #### Availability
 

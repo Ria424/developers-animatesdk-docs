@@ -1,4 +1,4 @@
-## document.as3WarningsMode
+## Document.as3WarningsMode
 
 #### Availability
 

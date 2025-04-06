@@ -1,4 +1,4 @@
-## document.exportInstanceToLibrary()
+## Document.exportInstanceToLibrary()
 
 #### Availability
 

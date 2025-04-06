@@ -1,4 +1,4 @@
-## symbolInstance.forceSimple
+## SymbolInstance.forceSimple
 
 #### Availability
 

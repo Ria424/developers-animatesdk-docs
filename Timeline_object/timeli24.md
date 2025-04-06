@@ -1,4 +1,4 @@
-## timeline.getLayerProperty()
+## Timeline.getLayerProperty()
 
 #### Availability
 

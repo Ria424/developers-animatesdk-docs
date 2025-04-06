@@ -1,4 +1,4 @@
-## vertex.x
+## Vertex.x
 
 #### Availability
 

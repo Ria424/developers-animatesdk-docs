@@ -1,4 +1,4 @@
-## document.getCustomStroke()
+## Document.getCustomStroke()
 
 #### Availability
 

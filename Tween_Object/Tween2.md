@@ -1,4 +1,4 @@
-## Tween. getGeometricTransform()
+## Tween.getGeometricTransform()
 
 #### Availability
 
@@ -6,7 +6,7 @@ Flash Pro CC.
 
 #### Usage
 
-Tween. getGeometricTransform(frameIndex)
+Tween.getGeometricTransform(frameIndex)
 
 #### Parameters
 

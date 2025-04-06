@@ -1,4 +1,4 @@
-## layer. setFiltersAtFrame()	
+## Layer.setFiltersAtFrame()	
 
 #### Availability
 

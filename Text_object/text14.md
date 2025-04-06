@@ -1,4 +1,4 @@
-## text.lineType
+## Text.lineType
 
 #### Availability
 

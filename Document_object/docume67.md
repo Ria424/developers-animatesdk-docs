@@ -1,4 +1,4 @@
-## document.exportSWF()
+## Document.exportSWF()
 
 #### Availability
 

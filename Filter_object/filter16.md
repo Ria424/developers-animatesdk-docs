@@ -1,4 +1,4 @@
-## filter.shadowColor
+## Filter.shadowColor
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## frame.labelType
+## Frame.labelType
 
 #### Availability
 

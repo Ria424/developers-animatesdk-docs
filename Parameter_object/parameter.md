@@ -1,4 +1,4 @@
-## parameter.category
+## Parameter.category
 
 #### Availability
 

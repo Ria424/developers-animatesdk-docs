@@ -1,4 +1,4 @@
-## item.linkageExportForAS
+## Item.linkageExportForAS
 
 #### Availability
 

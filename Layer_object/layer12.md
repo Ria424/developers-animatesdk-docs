@@ -1,4 +1,4 @@
-## layer.setZDepthAtFrame()	
+## Layer.setZDepthAtFrame()	
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## presetPanel.deleteItem()
+## PresetPanel.deleteItem()
 
 #### Availability
 

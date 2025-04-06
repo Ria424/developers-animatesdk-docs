@@ -1,4 +1,4 @@
-## document.backgroundColor
+## Document.backgroundColor
 
 #### Availability
 

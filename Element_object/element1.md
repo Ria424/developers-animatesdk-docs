@@ -1,4 +1,4 @@
-## element.elementType
+## Element.elementType
 
 #### Availability
 

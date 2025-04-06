@@ -1,4 +1,4 @@
-## swfPanel.dpiScaleFactorY
+## SwfPanel.dpiScaleFactorY
 
 #### Availability
 

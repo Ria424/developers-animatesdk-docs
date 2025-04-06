@@ -1,4 +1,4 @@
-## soundItem.exportToFile()
+## SoundItem.exportToFile()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## item.hasData()
+## Item.hasData()
 
 #### Availability
 

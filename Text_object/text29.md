@@ -1,4 +1,4 @@
-## text.useDeviceFonts
+## Text.useDeviceFonts
 
 #### Availability
 

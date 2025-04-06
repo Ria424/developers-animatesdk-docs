@@ -1,4 +1,4 @@
-## document.getBlendMode()
+## Document.getBlendMode()
 
 #### Availability
 

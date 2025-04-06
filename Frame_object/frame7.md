@@ -1,4 +1,4 @@
-## frame.getMotionObjectXML()
+## Frame.getMotionObjectXML()
 
 #### Availability
 

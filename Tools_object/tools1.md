@@ -1,4 +1,4 @@
-## tools.altIsDown
+## Tools.altIsDown
 
 #### Availability
 

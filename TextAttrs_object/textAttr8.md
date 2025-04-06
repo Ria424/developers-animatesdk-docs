@@ -1,4 +1,4 @@
-## textAttrs.indent
+## TextAttrs.indent
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## resetRotation()
+## Camera.resetRotation()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## compiledClipInstance.cacheAsBitmap
+## CompiledClipInstance.cacheAsBitmap
 
 #### Availability
 

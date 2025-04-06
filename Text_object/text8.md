@@ -1,4 +1,4 @@
-## text.embedVariantGlyphs
+## Text.embedVariantGlyphs
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## soundItem.sourceFilePath
+## SoundItem.sourceFilePath
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## timeline.copyMotion()
+## Timeline.copyMotion()
 
 #### Availability
 

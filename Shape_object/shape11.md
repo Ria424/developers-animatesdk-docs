@@ -1,4 +1,4 @@
-## shape.members
+## Shape.members
 
 #### Availability
 

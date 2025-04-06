@@ -1,4 +1,4 @@
-## document.align()
+## Document.align()
 
 #### Availability
 

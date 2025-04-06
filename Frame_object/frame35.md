@@ -1,4 +1,4 @@
-## frame.soundSync
+## Frame.soundSync
 
 #### Availability
 

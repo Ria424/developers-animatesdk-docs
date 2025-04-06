@@ -1,4 +1,4 @@
-## stroke.miterLimit
+## Stroke.miterLimit
 
 #### Availability
 

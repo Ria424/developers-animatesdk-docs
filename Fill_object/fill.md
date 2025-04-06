@@ -1,4 +1,4 @@
-## fill.bitmapIsClipped
+## Fill.bitmapIsClipped
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## item.linkageURL
+## Item.linkageURL
 
 #### Availability
 

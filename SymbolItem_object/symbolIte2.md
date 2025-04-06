@@ -1,4 +1,4 @@
-## symbolItem.exportSWF()
+## SymbolItem.exportSWF()
 
 #### Availability
 

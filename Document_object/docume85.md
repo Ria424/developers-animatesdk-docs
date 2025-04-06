@@ -1,4 +1,4 @@
-## document.getSWFPathFromProfile()
+## Document.getSWFPathFromProfile()
 
 #### Availability
 

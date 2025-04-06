@@ -1,4 +1,4 @@
-## textAttrs.rightMargin
+## TextAttrs.rightMargin
 
 #### Availability
 

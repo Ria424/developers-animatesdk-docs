@@ -1,4 +1,4 @@
-## outputPanel.save()
+## OutputPanel.save()
 
 #### Availability
 

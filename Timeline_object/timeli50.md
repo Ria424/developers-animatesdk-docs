@@ -1,4 +1,4 @@
-## timeline.stopPlayback()
+## Timeline.stopPlayback()
 
 #### Availability
 

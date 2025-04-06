@@ -1,4 +1,4 @@
-## document.addFilter()
+## Document.addFilter()
 
 #### Availability
 Flash 8.

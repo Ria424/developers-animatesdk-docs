@@ -1,4 +1,4 @@
-## timeline.reorderLayer()
+## Timeline.reorderLayer()
 
 #### Availability
 

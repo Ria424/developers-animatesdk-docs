@@ -1,4 +1,4 @@
-## document.addDataToSelection()
+## Document.addDataToSelection()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.asVersion
+## Document.asVersion
 
 #### Availability
 

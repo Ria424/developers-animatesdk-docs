@@ -1,4 +1,4 @@
-## soundItem.originalCompressionType
+## SoundItem.originalCompressionType
 
 #### Availability
 

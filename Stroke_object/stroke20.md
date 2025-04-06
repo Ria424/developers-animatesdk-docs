@@ -1,4 +1,4 @@
-## stroke.style
+## Stroke.style
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## getColorFilter()
+## Camera.getColorFilter()
 
 #### Availability
 

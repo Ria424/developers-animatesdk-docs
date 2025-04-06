@@ -1,4 +1,4 @@
-## document.deleteScene()
+## Document.deleteScene()
 
 #### Availability
 

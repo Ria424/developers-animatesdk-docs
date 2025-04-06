@@ -1,4 +1,4 @@
-## actionsPanel.setScriptAssistMode() - dropped
+## ActionsPanel.setScriptAssistMode() - dropped
 
 #### Availability
 
@@ -28,13 +28,14 @@ The following example toggles the state of Script Assist mode.
 ```javascript
 fl.trace(fl.actionsPanel.getScriptAssistMode());
 if (fl.actionsPanel.getScriptAssistMode()){
-fl.actionsPanel.setScriptAssistMode(false);
+    fl.actionsPanel.setScriptAssistMode(false);
 }
 else {
-fl.actionsPanel.setScriptAssistMode(true);
+    fl.actionsPanel.setScriptAssistMode(true);
 }
 fl.trace(fl.actionsPanel.getScriptAssistMode());
 ```
+
 #### See also
 
 [actionsPanel.getScriptAssistMode() - dropped](../actionsPanel_object/actionsPane1.md)

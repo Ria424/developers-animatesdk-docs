@@ -1,4 +1,4 @@
-## layer.visible
+## Layer.visible
 
 #### Availability
 

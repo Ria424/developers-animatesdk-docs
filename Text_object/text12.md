@@ -1,4 +1,4 @@
-## text.getTextString()
+## Text.getTextString()
 
 #### Availability
 

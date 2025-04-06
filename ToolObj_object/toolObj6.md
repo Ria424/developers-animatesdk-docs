@@ -1,4 +1,4 @@
-## toolObj.setOptionsFile()
+## ToolObj.setOptionsFile()
 
 #### Availability
 

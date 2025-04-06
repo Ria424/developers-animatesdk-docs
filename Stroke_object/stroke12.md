@@ -1,4 +1,4 @@
-## stroke.length
+## Stroke.length
 
 #### Availability
 

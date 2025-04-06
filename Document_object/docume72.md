@@ -1,4 +1,4 @@
-## document.getAlignToDocument()
+## Document.getAlignToDocument()
 
 #### Availability
 

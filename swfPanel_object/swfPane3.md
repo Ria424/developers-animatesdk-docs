@@ -1,4 +1,4 @@
-## swfPanel.name
+## SwfPanel.name
 
 #### Availability
 

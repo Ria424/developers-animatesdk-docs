@@ -1,4 +1,4 @@
-## library.editItem()
+## Library.editItem()
 
 #### Availability
 

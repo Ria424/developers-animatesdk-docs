@@ -1,4 +1,4 @@
-## text.renderAsHTML
+## Text.renderAsHTML
 
 #### Availability
 

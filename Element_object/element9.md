@@ -1,4 +1,4 @@
-## element.locked
+## Element.locked
 
 #### Availability
 

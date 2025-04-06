@@ -1,4 +1,4 @@
-## document.addNewPrimitiveOval()
+## Document.addNewPrimitiveOval()
 
 #### Availability
 

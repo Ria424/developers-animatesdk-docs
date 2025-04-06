@@ -1,4 +1,4 @@
-## actionsPanel.getClassForObject() - dropped
+## ActionsPanel.getClassForObject() - dropped
 
 #### Availability
 

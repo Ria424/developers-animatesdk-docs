@@ -1,4 +1,4 @@
-## document.smoothSelection()
+## Document.smoothSelection()
 
 #### Availability
 

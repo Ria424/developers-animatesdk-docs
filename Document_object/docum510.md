@@ -1,4 +1,4 @@
-## document.setFillColor()
+## Document.setFillColor()
 
 #### Availability
 

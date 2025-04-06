@@ -1,4 +1,4 @@
-## halfEdge.id
+## HalfEdge.id
 
 #### Availability
 

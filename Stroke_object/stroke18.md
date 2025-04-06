@@ -1,4 +1,4 @@
-## stroke.space
+## Stroke.space
 
 #### Availability
 

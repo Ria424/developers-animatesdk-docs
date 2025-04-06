@@ -1,4 +1,4 @@
-## element.scaleY
+## Element.scaleY
 
 #### Availability
 

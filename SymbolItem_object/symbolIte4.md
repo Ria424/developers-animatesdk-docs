@@ -1,4 +1,4 @@
-## symbolItem.exportToPNGSequence()
+## SymbolItem.exportToPNGSequence()
 
 #### Availability
 

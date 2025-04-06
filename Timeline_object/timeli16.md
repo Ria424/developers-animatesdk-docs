@@ -1,4 +1,4 @@
-## timeline.deleteLayer()
+## Timeline.deleteLayer()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.getDataFromDocument()
+## Document.getDataFromDocument()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## xmlui.setControlItemElement()
+## XMLUI.setControlItemElement()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.save()
+## Document.save()
 
 #### Availability
 

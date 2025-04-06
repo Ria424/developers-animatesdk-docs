@@ -1,4 +1,4 @@
-## element.getPublishPersistentData()
+## Element.getPublishPersistentData()
 
 #### Availability
 

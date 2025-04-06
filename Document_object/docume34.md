@@ -1,4 +1,4 @@
-## document.convertLinesToFills()
+## Document.convertLinesToFills()
 
 #### Availability
 

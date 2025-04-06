@@ -31,8 +31,8 @@ fl.closeDocument(fl.documents[0]);
 fl.closeDocument(fl.documents[0] , true); // Use of true is optional.
 // Closes the specified document without prompting to save changes.
 fl.closeDocument(fl.documents[0], false);
-
 ```
+
 #### See also
 
 [fl.closeAll()](../flash_object_(fl)/fl7.md)

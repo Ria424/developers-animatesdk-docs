@@ -1,4 +1,4 @@
-## edge.getControl()
+## Edge.getControl()
 
 #### Availability
 

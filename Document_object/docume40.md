@@ -1,4 +1,4 @@
-## document.debugMovie()
+## Document.debugMovie()
 
 #### Availability
 

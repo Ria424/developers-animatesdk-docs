@@ -1,4 +1,4 @@
-## presetPanel.importItem()
+## PresetPanel.importItem()
 
 #### Availability
 

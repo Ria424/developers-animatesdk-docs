@@ -1,4 +1,4 @@
-## library.findItemIndex()
+## Library.findItemIndex()
 
 #### Availability
 

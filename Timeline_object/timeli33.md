@@ -1,4 +1,4 @@
-## timeline.name
+## Timeline.name
 
 #### Availability
 

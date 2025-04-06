@@ -1,4 +1,4 @@
-## parameter.insertItem()
+## Parameter.insertItem()
 
 #### Availability
 

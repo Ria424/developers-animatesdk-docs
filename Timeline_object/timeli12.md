@@ -1,4 +1,4 @@
-## timeline.currentFrame
+## Timeline.currentFrame
 
 #### Availability
 

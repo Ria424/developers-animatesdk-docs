@@ -1,4 +1,4 @@
-## stroke.waveLength
+## Stroke.waveLength
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## document.as3StrictMode
+## Document.as3StrictMode
 
 #### Availability
 

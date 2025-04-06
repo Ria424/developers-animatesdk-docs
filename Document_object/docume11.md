@@ -1,4 +1,4 @@
-## document.addNewScene()
+## Document.addNewScene()
 
 #### Availability
 

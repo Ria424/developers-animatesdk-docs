@@ -1,4 +1,4 @@
-## symbolInstance.tabIndex
+## SymbolInstance.tabIndex
 
 #### Availability
 

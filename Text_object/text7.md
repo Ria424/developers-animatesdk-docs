@@ -1,4 +1,4 @@
-## text.embedRanges
+## Text.embedRanges
 
 #### Availability
 

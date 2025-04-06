@@ -1,4 +1,4 @@
-## document.distributeToLayers()
+## Document.distributeToLayers()
 
 #### Availability
 

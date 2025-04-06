@@ -1,4 +1,4 @@
-## timeline.setSelectedLayers()
+## Timeline.setSelectedLayers()
 
 #### Availability
 

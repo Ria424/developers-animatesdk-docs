@@ -1,4 +1,4 @@
-## timeline.cutLayers()
+## Timeline.cutLayers()
 
 #### Availability
 

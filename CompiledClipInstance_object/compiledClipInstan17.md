@@ -1,4 +1,4 @@
-## compiledClipInstance.forceSimple
+## CompiledClipInstance.forceSimple
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## symbolItem.lastModifiedDate
+## SymbolItem.lastModifiedDate
 
 #### Availability
 

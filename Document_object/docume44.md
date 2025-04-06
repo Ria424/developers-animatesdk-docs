@@ -1,4 +1,4 @@
-## document.deleteSelection()
+## Document.deleteSelection()
 
 #### Availability
 

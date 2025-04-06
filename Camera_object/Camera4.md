@@ -1,4 +1,4 @@
-## getTint()
+## Camera.getTint()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## compiledClipInstance.tabIndex
+## CompiledClipInstance.tabIndex
 
 #### Availability
 

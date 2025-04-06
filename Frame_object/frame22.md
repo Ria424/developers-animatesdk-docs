@@ -1,4 +1,4 @@
-## frame.name
+## Frame.name
 
 #### Availability
 

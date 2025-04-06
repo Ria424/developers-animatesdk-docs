@@ -1,4 +1,4 @@
-## compiledClipInstance.useBackgroundColor
+## CompiledClipInstance.useBackgroundColor
 
 #### Availability
 

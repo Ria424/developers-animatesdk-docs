@@ -1,4 +1,4 @@
-## document.sourcePath
+## Document.sourcePath
 
 #### Availability
 

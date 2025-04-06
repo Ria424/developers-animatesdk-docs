@@ -1,4 +1,4 @@
-## item.getPublishData()
+## Item.getPublishData()
 
 #### Availability
 

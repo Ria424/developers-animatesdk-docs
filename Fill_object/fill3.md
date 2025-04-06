@@ -1,4 +1,4 @@
-## fill.colorArray
+## Fill.colorArray
 
 #### Availability
 

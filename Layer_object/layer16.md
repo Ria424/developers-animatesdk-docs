@@ -1,4 +1,4 @@
-## layer.setBlendModeAtFrame()
+## Layer.setBlendModeAtFrame()
 
 #### Availability
 

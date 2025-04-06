@@ -1,4 +1,4 @@
-## text.orientation
+## Text.orientation
 
 #### Availability
 

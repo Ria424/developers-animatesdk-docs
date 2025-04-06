@@ -1,4 +1,4 @@
-## document.deletePublishProfile()
+## Document.deletePublishProfile()
 
 #### Availability
 

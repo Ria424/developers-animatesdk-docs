@@ -1,4 +1,4 @@
-## document.forceSimple
+## Document.forceSimple
 
 #### Availability
 

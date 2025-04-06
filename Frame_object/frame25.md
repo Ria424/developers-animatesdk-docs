@@ -1,4 +1,4 @@
-## frame.setMotionObjectDuration()
+## Frame.setMotionObjectDuration()
 
 #### Availability
 

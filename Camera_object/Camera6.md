@@ -1,4 +1,4 @@
-## setZDepth()
+## Camera.setZDepth()
 
 #### Availability
 

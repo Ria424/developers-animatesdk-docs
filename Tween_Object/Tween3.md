@@ -1,4 +1,4 @@
-## Tween. getShape( )
+## Tween.getShape()
 
 #### Availability
 
@@ -6,7 +6,7 @@ Flash Pro CC.
 
 #### Usage
 
-Tween.getShape( )
+Tween.getShape()
 
 #### Parameters
 

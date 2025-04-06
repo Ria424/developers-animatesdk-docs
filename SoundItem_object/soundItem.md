@@ -1,4 +1,4 @@
-## soundItem.bitRate
+## SoundItem.bitRate
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## timeline.pasteFrames()
+## Timeline.pasteFrames()
 
 #### Availability
 

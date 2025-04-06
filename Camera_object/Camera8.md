@@ -1,4 +1,4 @@
-## setRotation()
+## Camera.setRotation()
 
 #### Availability
 

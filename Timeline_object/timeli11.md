@@ -1,4 +1,4 @@
-## timeline.createMotionTween()
+## Timeline.createMotionTween()
 
 #### Availability
 

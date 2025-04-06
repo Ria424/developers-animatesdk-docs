@@ -1,4 +1,4 @@
-## timeline.addMotionGuide()
+## Timeline.addMotionGuide()
 
 #### Availability
 

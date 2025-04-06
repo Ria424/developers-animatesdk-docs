@@ -1,4 +1,4 @@
-## text.autoExpand
+## Text.autoExpand
 
 #### Availability
 

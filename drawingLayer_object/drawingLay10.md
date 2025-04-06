@@ -1,4 +1,4 @@
-## drawingLayer.setColor()
+## DrawingLayer.setColor()
 
 #### Availability
 

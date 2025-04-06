@@ -1,4 +1,4 @@
-## document.straightenSelection()
+## Document.straightenSelection()
 
 #### Availability
 

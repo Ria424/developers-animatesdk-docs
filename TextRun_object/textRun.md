@@ -1,4 +1,4 @@
-## textRun.textAttrs
+## TextRun.textAttrs
 
 #### Availability
 

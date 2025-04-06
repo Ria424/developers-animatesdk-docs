@@ -1,4 +1,4 @@
-## soundItem.quality
+## SoundItem.quality
 
 #### Availability
 

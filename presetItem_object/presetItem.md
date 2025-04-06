@@ -1,4 +1,4 @@
-## presetItem.isDefault
+## PresetItem.isDefault
 
 #### Availability
 

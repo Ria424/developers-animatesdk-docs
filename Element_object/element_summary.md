@@ -1,4 +1,4 @@
-## element summary
+## Element summary
 
 #### Availability
 

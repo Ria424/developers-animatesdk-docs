@@ -1,4 +1,4 @@
-## document.resetRectangleObject()
+## Document.resetRectangleObject()
 
 #### Availability
 

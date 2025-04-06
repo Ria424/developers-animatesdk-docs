@@ -27,6 +27,7 @@ The following example lets the user select a folder and then displays a list of 
 var folderURI = fl.browseForFolderURL("Select a folder.");
 var folderContents = FLfile.listFolder(folderURI);
 ```
+
 #### See also
 
 [fl.browseForFileURL()](../flash_object_(fl)/fl3.md), [FLfile object](../FLfile_object/FLfile_summary.md)

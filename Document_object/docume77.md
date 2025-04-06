@@ -1,4 +1,4 @@
-## document.getElementProperty()
+## Document.getElementProperty()
 
 #### Availability
 

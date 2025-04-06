@@ -1,4 +1,4 @@
-## frame.shapeTweenBlend
+## Frame.shapeTweenBlend
 
 #### Availability
 

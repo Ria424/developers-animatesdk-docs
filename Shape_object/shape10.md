@@ -1,4 +1,4 @@
-## shape.isRectangleObject
+## Shape.isRectangleObject
 
 #### Availability
 

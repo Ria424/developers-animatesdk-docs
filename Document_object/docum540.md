@@ -1,4 +1,4 @@
-## document.setInstanceAlpha()
+## Document.setInstanceAlpha()
 
 #### Availability
 

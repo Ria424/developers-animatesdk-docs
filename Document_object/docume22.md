@@ -1,4 +1,4 @@
-## document.autoLabel
+## Document.autoLabel
 
 #### Availability
 

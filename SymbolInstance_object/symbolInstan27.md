@@ -1,4 +1,4 @@
-## symbolInstance.tintColor
+## SymbolInstance.tintColor
 
 #### Availability
 

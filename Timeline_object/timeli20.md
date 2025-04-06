@@ -1,4 +1,4 @@
-## timeline.frameCount
+## Timeline.frameCount
 
 #### Availability
 

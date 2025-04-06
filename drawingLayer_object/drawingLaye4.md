@@ -1,4 +1,4 @@
-## drawingLayer.drawPath()
+## DrawingLayer.drawPath()
 
 #### Availability
 

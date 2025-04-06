@@ -1,4 +1,4 @@
-## symbolInstance.silent
+## SymbolInstance.silent
 
 #### Availability
 

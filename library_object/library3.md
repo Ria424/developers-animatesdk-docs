@@ -1,4 +1,4 @@
-## library.duplicateItem()
+## Library.duplicateItem()
 
 #### Availability
 

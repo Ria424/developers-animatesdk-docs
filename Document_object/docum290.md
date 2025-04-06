@@ -1,4 +1,4 @@
-## document.renameScene()
+## Document.renameScene()
 
 #### Availability
 

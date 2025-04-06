@@ -1,4 +1,4 @@
-## document.exitEditMode()
+## Document.exitEditMode()
 
 #### Availability
 

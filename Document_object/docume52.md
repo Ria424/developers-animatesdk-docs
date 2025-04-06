@@ -1,4 +1,4 @@
-## document.docClass
+## Document.docClass
 
 #### Availability
 

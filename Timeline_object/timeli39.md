@@ -1,4 +1,4 @@
-## timeline.removeMotionObject()
+## Timeline.removeMotionObject()
 
 #### Availability
 

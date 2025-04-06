@@ -1,4 +1,4 @@
-## compilerErrors.clear()
+## CompilerErrors.clear()
 
 #### Availability
 

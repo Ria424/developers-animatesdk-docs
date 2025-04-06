@@ -1,4 +1,4 @@
-## document.duplicateSelection()
+## Document.duplicateSelection()
 
 #### Availability
 

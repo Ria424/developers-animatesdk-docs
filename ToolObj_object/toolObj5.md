@@ -1,4 +1,4 @@
-## toolObj.setMenuString()
+## ToolObj.setMenuString()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## timeline.insertFrames()
+## Timeline.insertFrames()
 
 #### Availability
 

@@ -25,8 +25,8 @@ Method; empties the publish cache.
 The following code empties the publish cache:
 ```javascript
 fl.clearPublishCache()
-
 ```
+
 #### See also
 
 [fl.publishCacheDiskSizeMax](../flash_object_(fl)/fl50.md), [fl.publishCacheEnabled](../flash_object_(fl)/fl51.md), [fl.publishCacheMemoryEntrySizeLimit](../flash_object_(fl)/fl52.md), [fl.publishCacheMemorySizeMax](../flash_object_(fl)/fl53.md)

@@ -1,4 +1,4 @@
-## document.rotate3DSelection()
+## Document.rotate3DSelection()
 
 #### Availability
 

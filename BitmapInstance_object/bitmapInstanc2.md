@@ -1,4 +1,4 @@
-## bitmapInstance.setBits()
+## BitmapInstance.setBits()
 
 #### Availability
 
@@ -27,12 +27,13 @@ The following code tests whether the current selection is a bitmap and then sets
 
 ```javascript
 var isBitmap = fl.getDocumentDOM().selection[0].instanceType;
-if(isBitmap == "bitmap"){
-var bits = fl.getDocumentDOM().selection[0].getBits();
-bits.height = 150;
-fl.getDocumentDOM().selection[0].setBits(bits);
+if (isBitmap == "bitmap") {
+    var bits = fl.getDocumentDOM().selection[0].getBits();
+    bits.height = 150;
+    fl.getDocumentDOM().selection[0].setBits(bits);
 } 
 ```
+
 #### See also
 
 [bitmapInstance.getBits()](../BitmapInstance_object/bitmapInstance.md)

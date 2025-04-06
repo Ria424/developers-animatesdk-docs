@@ -1,4 +1,4 @@
-## layer.getRigParentAtFrame()
+## Layer.getRigParentAtFrame()
 
 #### Availability
 

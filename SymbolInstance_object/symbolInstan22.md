@@ -1,4 +1,4 @@
-## symbolInstance.loop
+## SymbolInstance.loop
 
 #### Availability
 

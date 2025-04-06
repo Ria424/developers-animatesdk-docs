@@ -1,4 +1,4 @@
-## symbolInstance.buttonTracking
+## SymbolInstance.buttonTracking
 
 #### Availability
 

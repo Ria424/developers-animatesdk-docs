@@ -1,4 +1,4 @@
-## swfPanel.call()
+## SwfPanel.call()
 
 #### Availability
 

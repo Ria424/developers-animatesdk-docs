@@ -1,4 +1,4 @@
-## textAttrs.bold
+## TextAttrs.bold
 
 #### Availability
 

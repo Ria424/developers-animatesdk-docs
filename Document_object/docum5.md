@@ -1,4 +1,4 @@
-## document.skewSelection()
+## Document.skewSelection()
 
 #### Availability
 

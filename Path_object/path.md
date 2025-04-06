@@ -1,4 +1,4 @@
-## path.addCubicCurve()
+## Path.addCubicCurve()
 
 #### Availability
 

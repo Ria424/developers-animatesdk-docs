@@ -1,4 +1,4 @@
-## document.pathURI
+## Document.pathURI
 
 #### Availability
 

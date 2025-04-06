@@ -1,4 +1,4 @@
-## toolObj.setToolTip()
+## ToolObj.setToolTip()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## library.addItemToDocument()
+## Library.addItemToDocument()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## item.linkageExportInFirstFrame
+## Item.linkageExportInFirstFrame
 
 #### Availability
 

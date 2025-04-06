@@ -1,4 +1,4 @@
-## soundItem.sampleRate
+## SoundItem.sampleRate
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## fontItem.size
+## FontItem.size
 
 #### Availability
 

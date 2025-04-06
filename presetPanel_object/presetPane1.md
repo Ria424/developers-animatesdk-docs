@@ -1,4 +1,4 @@
-## presetPanel.applyPreset()
+## PresetPanel.applyPreset()
 
 #### Availability
 

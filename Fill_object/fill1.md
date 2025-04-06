@@ -1,4 +1,4 @@
-## fill.bitmapPath
+## Fill.bitmapPath
 
 #### Availability
 

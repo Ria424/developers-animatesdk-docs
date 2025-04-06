@@ -1,4 +1,4 @@
-## halfEdge.getOppositeHalfEdge()
+## HalfEdge.getOppositeHalfEdge()
 
 #### Availability
 

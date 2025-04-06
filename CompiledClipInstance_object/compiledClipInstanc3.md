@@ -1,4 +1,4 @@
-## compiledClipInstance.blendMode
+## CompiledClipInstance.blendMode
 
 #### Availability
 

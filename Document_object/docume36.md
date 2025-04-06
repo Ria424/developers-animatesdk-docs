@@ -1,4 +1,4 @@
-## document.convertToSymbol()
+## Document.convertToSymbol()
 
 #### Availability
 

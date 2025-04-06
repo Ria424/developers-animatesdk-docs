@@ -1,4 +1,4 @@
-## matrix.ty
+## Matrix.ty
 
 #### Availability
 

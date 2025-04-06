@@ -1,4 +1,4 @@
-## getPosition()
+## Camera.getPosition()
 
 #### Availability
 

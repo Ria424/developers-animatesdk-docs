@@ -1,4 +1,4 @@
-## stroke.curve
+## Stroke.curve
 
 #### Availability
 

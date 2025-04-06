@@ -1,4 +1,4 @@
-## frame.soundLoop
+## Frame.soundLoop
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## library.deleteItem()
+## Library.deleteItem()
 
 #### Availability
 

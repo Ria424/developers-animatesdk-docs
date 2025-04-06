@@ -1,4 +1,4 @@
-## symbolInstance.filters
+## SymbolInstance.filters
 
 #### Availability
 

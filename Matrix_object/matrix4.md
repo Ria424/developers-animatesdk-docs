@@ -1,4 +1,4 @@
-## matrix.tx
+## Matrix.tx
 
 #### Availability
 

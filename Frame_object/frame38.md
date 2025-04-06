@@ -1,4 +1,4 @@
-## frame.tweenInstanceName
+## Frame.tweenInstanceName
 
 #### Availability
 

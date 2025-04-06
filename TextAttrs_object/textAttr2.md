@@ -1,4 +1,4 @@
-## textAttrs.autoKern
+## TextAttrs.autoKern
 
 #### Availability
 

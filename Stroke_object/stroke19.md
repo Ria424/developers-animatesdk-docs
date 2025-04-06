@@ -1,4 +1,4 @@
-## stroke.strokeHinting
+## Stroke.strokeHinting
 
 #### Availability
 

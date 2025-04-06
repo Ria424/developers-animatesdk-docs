@@ -1,4 +1,4 @@
-## timeline.convertToKeyframes()
+## Timeline.convertToKeyframes()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## symbolInstance.colorMode
+## SymbolInstance.colorMode
 
 #### Availability
 

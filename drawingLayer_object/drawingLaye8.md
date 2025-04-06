@@ -1,4 +1,4 @@
-## drawingLayer.moveTo()
+## DrawingLayer.moveTo()
 
 #### Availability
 

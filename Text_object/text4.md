@@ -1,4 +1,4 @@
-## text.border
+## Text.border
 
 #### Availability
 

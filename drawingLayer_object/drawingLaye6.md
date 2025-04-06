@@ -1,4 +1,4 @@
-## drawingLayer.endFrame()
+## DrawingLayer.endFrame()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## edge summary
+## Edge summary
 
 #### Availability
 

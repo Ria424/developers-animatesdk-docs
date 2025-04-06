@@ -1,4 +1,4 @@
-## shape.vertices
+## Shape.vertices
 
 #### Availability
 

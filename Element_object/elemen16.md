@@ -1,4 +1,4 @@
-## element.selected
+## Element.selected
 
 #### Availability
 

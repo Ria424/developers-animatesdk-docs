@@ -1,4 +1,4 @@
-## frame.is3DMotionObject()
+## Frame.is3DMotionObject()
 
 #### Availability
 

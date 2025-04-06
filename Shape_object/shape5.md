@@ -1,4 +1,4 @@
-## shape.getCubicSegmentPoints()
+## Shape.getCubicSegmentPoints()
 
 #### Availability
 

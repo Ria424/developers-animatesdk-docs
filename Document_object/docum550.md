@@ -1,4 +1,4 @@
-## document.setInstanceBrightness()
+## Document.setInstanceBrightness()
 
 #### Availability
 

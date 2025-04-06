@@ -1,4 +1,4 @@
-## videoItem.lastModifiedDate
+## VideoItem.lastModifiedDate
 
 #### Availability
 

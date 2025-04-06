@@ -1,4 +1,4 @@
-## layer.name
+## Layer.name
 
 #### Availability
 

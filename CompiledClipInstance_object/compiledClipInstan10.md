@@ -1,4 +1,4 @@
-## compiledClipInstance.colorGreenAmount
+## CompiledClipInstance.colorGreenAmount
 
 #### Availability
 

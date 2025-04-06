@@ -1,4 +1,4 @@
-## timeline.insertBlankKeyframe()
+## Timeline.insertBlankKeyframe()
 
 #### Availability
 

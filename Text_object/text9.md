@@ -1,4 +1,4 @@
-## text.filters
+## Text.filters
 
 #### Availability
 

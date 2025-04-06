@@ -1,4 +1,4 @@
-## stroke.rotate
+## Stroke.rotate
 
 #### Availability
 

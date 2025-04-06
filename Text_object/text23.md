@@ -1,4 +1,4 @@
-## text.setTextString()
+## Text.setTextString()
 
 #### Availability
 

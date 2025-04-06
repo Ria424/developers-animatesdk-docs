@@ -1,4 +1,4 @@
-## library.newFolder()
+## Library.newFolder()
 
 #### Availability
 

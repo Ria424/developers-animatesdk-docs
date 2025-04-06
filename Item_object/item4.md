@@ -1,4 +1,4 @@
-## item.itemType
+## Item.itemType
 
 #### Availability
 

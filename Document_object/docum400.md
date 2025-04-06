@@ -1,4 +1,4 @@
-## document.scaleSelection()
+## Document.scaleSelection()
 
 #### Availability
 

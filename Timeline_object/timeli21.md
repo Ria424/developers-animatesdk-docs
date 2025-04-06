@@ -1,4 +1,4 @@
-## timeline.getBounds()
+## Timeline.getBounds()
 
 #### Availability
 

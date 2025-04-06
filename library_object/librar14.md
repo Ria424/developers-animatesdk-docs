@@ -1,4 +1,4 @@
-## library.selectAll()
+## Library.selectAll()
 
 #### Availability
 

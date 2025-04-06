@@ -1,4 +1,4 @@
-## actionsPanel.getSelectedText()
+## ActionsPanel.getSelectedText()
 
 #### Availability
 
@@ -23,10 +23,11 @@ Method; returns the text that is currently selected in the Actions panel.
 #### Example
 
 The following example displays the text that is currently selected in the Actions panel.
-
 ```javascript
-var apText = fl.actionsPanel.getSelectedText(); fl.trace(apText);
+var apText = fl.actionsPanel.getSelectedText();
+fl.trace(apText);
 ```
+
 #### See also
 
 [actionsPanel.getText()](../actionsPanel_object/actionsPane3.md), [actionsPanel.hasSelection()](../actionsPanel_object/actionsPane4.md), [actionsPanel.replaceSelectedText()](../actionsPanel_object/actionsPane5.md), [actionsPanel.setSelection()](../actionsPanel_object/actionsPane7.md)

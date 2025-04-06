@@ -1,4 +1,4 @@
-## item.removeData()
+## Item.removeData()
 
 #### Availability
 

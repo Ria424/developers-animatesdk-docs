@@ -1,4 +1,4 @@
-## document.removeDataFromDocument()
+## Document.removeDataFromDocument()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## presetItem.isFolder
+## PresetItem.isFolder
 
 #### Availability
 

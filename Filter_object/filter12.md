@@ -1,4 +1,4 @@
-## filter.knockout
+## Filter.knockout
 
 #### Availability
 

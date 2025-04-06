@@ -1,4 +1,4 @@
-## document.setElementTextAttr()
+## Document.setElementTextAttr()
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## timeline.showLayerMasking()
+## Timeline.showLayerMasking()
 
 #### Availability
 

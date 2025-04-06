@@ -1,4 +1,4 @@
-## document.group()
+## Document.group()
 
 #### Availability
 

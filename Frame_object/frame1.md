@@ -1,4 +1,4 @@
-## frame.convertMotionObjectTo3D()
+## Frame.convertMotionObjectTo3D()
 
 #### Availability
 

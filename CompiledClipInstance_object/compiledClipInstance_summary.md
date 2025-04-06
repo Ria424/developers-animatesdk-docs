@@ -1,4 +1,4 @@
-## compiledClipInstance summary
+## CompiledClipInstance summary
 
 **Inheritance** [Element object](../Element_object/element_summary.md) > [Instance object](../Instance_object/instance_summary.md) > CompiledClipInstance object
 

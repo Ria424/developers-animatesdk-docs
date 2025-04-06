@@ -1,4 +1,4 @@
-## frame.actionScript
+## Frame.actionScript
 
 #### Availability
 

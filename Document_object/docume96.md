@@ -1,4 +1,4 @@
-## document.importSWF() - dropped
+## Document.importSWF() - dropped
 
 #### Availability
 

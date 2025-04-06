@@ -1,4 +1,4 @@
-## document.as3Dialect
+## Document.as3Dialect
 
 #### Availability
 

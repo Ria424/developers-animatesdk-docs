@@ -1,4 +1,4 @@
-## timeline.setSelectedFrames()
+## Timeline.setSelectedFrames()
 
 #### Availability
 

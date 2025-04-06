@@ -1,4 +1,4 @@
-## document.distribute()
+## Document.distribute()
 
 #### Availability
 

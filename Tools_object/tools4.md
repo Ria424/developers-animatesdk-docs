@@ -1,4 +1,4 @@
-## tools.getKeyDown()
+## Tools.getKeyDown()
 
 #### Availability
 

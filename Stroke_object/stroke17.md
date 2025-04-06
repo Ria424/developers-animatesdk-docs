@@ -1,4 +1,4 @@
-## stroke.shapeFill
+## Stroke.shapeFill
 
 #### Availability
 

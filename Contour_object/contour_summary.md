@@ -1,4 +1,4 @@
-## contour summary
+## Contour summary
 
 #### Availability
 

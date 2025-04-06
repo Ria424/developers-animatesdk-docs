@@ -1,4 +1,4 @@
-## fontItem.embedRanges
+## FontItem.embedRanges
 
 #### Availability
 

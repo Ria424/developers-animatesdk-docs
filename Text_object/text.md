@@ -1,4 +1,4 @@
-## text.accName
+## Text.accName
 
 #### Availability
 

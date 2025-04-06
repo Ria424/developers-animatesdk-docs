@@ -1,4 +1,4 @@
-## filter.angle
+## Filter.angle
 
 #### Availability
 

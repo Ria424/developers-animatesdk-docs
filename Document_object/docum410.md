@@ -1,4 +1,4 @@
-## document.screenOutline - dropped
+## Document.screenOutline - dropped
 
 #### Availability
 

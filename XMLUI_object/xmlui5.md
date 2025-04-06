@@ -1,4 +1,4 @@
-## xmlui.getVisible()
+## XMLUI.getVisible()
 
 #### Availability
 

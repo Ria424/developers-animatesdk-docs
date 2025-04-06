@@ -1,4 +1,4 @@
-## document.saveAndCompact() - dropped
+## Document.saveAndCompact() - dropped
 
 #### Availability
 

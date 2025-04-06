@@ -1,4 +1,4 @@
-## fontItem.embedVariantGlyphs
+## FontItem.embedVariantGlyphs
 
 #### Availability
 

@@ -1,4 +1,4 @@
-## fontItem.embeddedCharacters
+## FontItem.embeddedCharacters
 
 #### Availability
 

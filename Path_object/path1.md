@@ -1,4 +1,4 @@
-## path.addCurve()
+## Path.addCurve()
 
 #### Availability
 

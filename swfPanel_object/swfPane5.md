@@ -1,4 +1,4 @@
-## swfPanel.reload()
+## SwfPanel.reload()
 
 #### Availability
 

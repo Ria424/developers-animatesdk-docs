@@ -1,4 +1,4 @@
-## path.clear()
+## Path.clear()
 
 #### Availability
 

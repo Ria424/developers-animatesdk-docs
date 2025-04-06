@@ -1,4 +1,4 @@
-## bitmapInstance.hPixels
+## BitmapInstance.hPixels
 
 #### Availability
 
@@ -19,8 +19,8 @@ The following code retrieves the width of the bitmap in pixels:
 // Get the number of pixels in the horizontal dimension.
 var bmObj = fl.getDocumentDOM().selection[0];
 var isBitmap = bmObj.instanceType;
-if(isBitmap == "bitmap"){
-var numHorizontalPixels = bmObj.hPixels;
+if (isBitmap == "bitmap") {
+    var numHorizontalPixels = bmObj.hPixels;
 }
 ```
 #### See also

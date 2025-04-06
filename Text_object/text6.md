@@ -1,4 +1,4 @@
-## text.embeddedCharacters
+## Text.embeddedCharacters
 
 #### Availability
 

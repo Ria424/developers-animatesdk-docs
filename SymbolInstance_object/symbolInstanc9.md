@@ -1,4 +1,4 @@
-## symbolInstance.colorAlphaPercent
+## SymbolInstance.colorAlphaPercent
 
 #### Availability
 

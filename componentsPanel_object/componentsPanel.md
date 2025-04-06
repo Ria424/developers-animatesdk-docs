@@ -1,4 +1,4 @@
-## componentsPanel.addItemToDocument()
+## ComponentsPanel.addItemToDocument()
 
 #### Availability
 

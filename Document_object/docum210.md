@@ -1,4 +1,4 @@
-## document.publish()
+## Document.publish()
 
 #### Availability
 

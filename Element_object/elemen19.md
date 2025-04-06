@@ -1,4 +1,4 @@
-## element.setTransformationPoint()
+## Element.setTransformationPoint()
 
 #### Availability
 

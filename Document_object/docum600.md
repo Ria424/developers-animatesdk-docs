@@ -1,4 +1,4 @@
-## document.setPlayerVersion()
+## Document.setPlayerVersion()
 
 #### Availability
 

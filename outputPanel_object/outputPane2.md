@@ -1,4 +1,4 @@
-## outputPanel.trace()
+## OutputPanel.trace()
 
 #### Availability
 

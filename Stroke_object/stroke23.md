@@ -1,4 +1,4 @@
-## stroke.waveHeight
+## Stroke.waveHeight
 
 #### Availability
 

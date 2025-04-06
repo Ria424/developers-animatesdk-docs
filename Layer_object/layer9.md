@@ -1,4 +1,4 @@
-## layer.parentLayer
+## Layer.parentLayer
 
 #### Availability
 

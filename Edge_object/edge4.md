@@ -1,4 +1,4 @@
-## edge.isLine
+## Edge.isLine
 
 #### Availability
 

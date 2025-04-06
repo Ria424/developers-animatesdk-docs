@@ -1,4 +1,4 @@
-## layer.color
+## Layer.color
 
 #### Availability
 

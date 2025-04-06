@@ -1,4 +1,4 @@
-## document.editScene()
+## Document.editScene()
 
 #### Availability
 

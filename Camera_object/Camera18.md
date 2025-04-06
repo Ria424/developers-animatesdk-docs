@@ -1,4 +1,4 @@
-## camera.tintEnabled	
+## Camera.tintEnabled	
 
 #### Availability
 

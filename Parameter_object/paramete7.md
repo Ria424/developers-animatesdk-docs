@@ -1,4 +1,4 @@
-## parameter.verbose
+## Parameter.verbose
 
 #### Availability
 

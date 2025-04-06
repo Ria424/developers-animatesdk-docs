@@ -1,4 +1,4 @@
-## element.depth
+## Element.depth
 
 #### Availability
 

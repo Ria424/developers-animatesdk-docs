@@ -1,4 +1,4 @@
-## element.name
+## Element.name
 
 #### Availability
 

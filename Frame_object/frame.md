@@ -1,4 +1,4 @@
-## frame.convertMotionObjectTo2D()
+## Frame.convertMotionObjectTo2D()
 
 #### Availability
 

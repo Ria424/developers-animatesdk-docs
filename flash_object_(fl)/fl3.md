@@ -40,7 +40,7 @@ The following examples illustrate various options of the fl.browseForFileURL() m
 
 //CC
 var uri = fl.browseForFileURL("open", "Select a FLA", "FLA Document (*.fla)", "fla");
-or
+// or
 var fileDescription = "FLA document (*.fla);Actionscript File (*.as)";
 var fileFilter = "fla;as";
 var uri = fl.browseForFileURL("open", "Select a FLA or AS file", fileDescription, fileFilter);
@@ -66,10 +66,9 @@ var uri = fl.browseForFileURL("open", "Select a FLA file", previewArea, macForma
 var macFormat = "Flash Document|SPA[*.fla|ActionScript File|TEXT[*.as||";
 var winFormat = "Flash Document|*.fla|ActionScript File|*.as||";
 var previewArea = {};
-var uri = fl.browseForFileURL("open", "Select a FLA or AS file", previewArea, macFormat,
-winFormat);
-
+var uri = fl.browseForFileURL("open", "Select a FLA or AS file", previewArea, macFormat, winFormat);
 ```
+
 #### See also
 
 [fl.browseForFolderURL()](#fl.browseForFolderURL())

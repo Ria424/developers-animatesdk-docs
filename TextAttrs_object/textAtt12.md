@@ -1,4 +1,4 @@
-## textAttrs.lineSpacing
+## TextAttrs.lineSpacing
 
 #### Availability
 

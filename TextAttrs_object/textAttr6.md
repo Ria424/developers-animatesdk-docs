@@ -1,4 +1,4 @@
-## textAttrs.face
+## TextAttrs.face
 
 #### Availability
 

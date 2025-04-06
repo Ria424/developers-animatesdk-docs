@@ -1,4 +1,4 @@
-## document.addNewLine()
+## Document.addNewLine()
 
 #### Availability
 

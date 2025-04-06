@@ -1,4 +1,4 @@
-## frame.motionTweenScale
+## Frame.motionTweenScale
 
 #### Availability
 

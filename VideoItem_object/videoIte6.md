@@ -1,4 +1,4 @@
-## videoItem.videoType
+## VideoItem.videoType
 
 #### Availability
 

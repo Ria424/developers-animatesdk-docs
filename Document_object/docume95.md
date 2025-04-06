@@ -1,4 +1,4 @@
-## document.importPublishProfileString()
+## Document.importPublishProfileString()
 
 #### Availability
 

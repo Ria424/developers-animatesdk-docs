@@ -1,4 +1,4 @@
-## symbolInstance.colorRedAmount
+## SymbolInstance.colorRedAmount
 
 #### Availability
 

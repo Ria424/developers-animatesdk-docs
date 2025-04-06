@@ -1,4 +1,4 @@
-## fill.focalPoint
+## Fill.focalPoint
 
 #### Availability
 

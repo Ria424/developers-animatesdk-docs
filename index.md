@@ -8,72 +8,71 @@ description: This is the home page of Animate APIs
 
 ## Table of Contents
 
- - [Introduction](#introduction)
-  	* [Working with the JavaScript API](#working-with-the-javascript-api)
-  	* [Creating JSFL files](#creating-jsfl-files)
-  	* [Saving JSFL files](#saving-jsfl-files)
-  	* [Running scripts](#running-scripts)
-  	* [What’s new in the JavaScript API](#whats-new-in-the-javascript-api)
-  	* [JavaScript API objects](#javascript-api-objects)
-  	* [Specifying the target of an action](#specifying-the-target-of-an-action)
-  	* [Summary of the DOM structure](#summary-of-the-dom-structure)
-  	* [Sample implementations](#sample-implementations)
- - [Top-Level Functions and Methods](#top-level-functions-and-methods-1)
- - [actionsPanel Object](#actionspanel-object)
- - [bitmapInstance Object](#bitmapinstance-object)
- - [bitmapItem Object](#bitmapitem-object)
- - [camera Object](#camera-object)
- - [compiledClipInstance Object](#compiledclipinstance-object)
- - [compilerErrors Object](#compilererrors-object)
- - [componentInstance Object](#componentinstance-object)
- - [componentsPanel Object](#componentspanel-object)
- - [contour Object](#contour-object)
- - [document Object](#document-object)
- - [drawingLayer](#drawinglayer)
- - [edge Object](#edge-object)
- - [element Object](#element-object)
- - [fill Object](#fill-object)
- - [filter Object](#filter-object)
- - [flash(fl.()) Object](#flashfl-object)
- - [FLfile Object](#flfile-object)
- - [folderItem Object](#folderitem-object)
- - [fontItem Object](#fontitem-object)
- - [frame Object](#frame-object)
- - [HalfEdge Object](#halfedge-object)
- - [Instance Object](#instance-object)
- - [Item Object](#item-object)
- - [Layer Object](#layer-object)
- - [LayerParenting Object](#layerparenting-object)
- - [library Object](#library-object)
- - [Math Object](#math-object)
- - [Matrix Object](#matrix-object)
- - [outputPanel Object](#outputpanel-object)
- - [Oval Object](#oval-object)
- - [Parameter object](#parameter-object)
- - [Path object](#path-object)
- - [presetItem object](#presetitem-object)
- - [presetPanel object](#presetpanel-object)
- - [Rectangle object](#rectangle-object)
- - [Shape object](#shape-object)
- - [SoundItem object](#sounditem-object)
- - [SpriteSheetExporter object](#spritesheetexporter-object)
- - [Stroke object](#stroke-object)
- - [swfPanel object](#swfpanel-object)
- - [SymbolInstance object](#symbolinstance-object)
- - [SymbolItem object](#symbolitem-object)
- - [Text Object](#text-object)
- - [TextAttrs Object](#textattrs-object)
- - [TextRun Object](#textrun-object)
- - [TextureAtlasExporter object](#textureatlasexporter-object)
- - [Timeline Object](#timeline-object)
- - [ToolObj object](#toolobj-object)
- - [Tools Object](#tools-object)
- - [Tween Object](#tween-object)
- - [Vertex object](#vertex-object)  
- - [VideoItem Object](#videoitem-object)
- - [XMLUI Object](#xmlui-object)
- - [C-LevelExtensibility](#c-levelextensibility)
-        
+- [Introduction](#introduction)
+  - [Working with the JavaScript API](#working-with-the-javascript-api)
+  - [Creating JSFL files](#creating-jsfl-files)
+  - [Saving JSFL files](#saving-jsfl-files)
+  - [Running scripts](#running-scripts)
+  - [What’s new in the JavaScript API](#whats-new-in-the-javascript-api)
+  - [JavaScript API objects](#javascript-api-objects)
+  - [Specifying the target of an action](#specifying-the-target-of-an-action)
+  - [Summary of the DOM structure](#summary-of-the-dom-structure)
+  - [Sample implementations](#sample-implementations)
+- [Top-Level Functions and Methods](#top-level-functions-and-methods-1)
+- [actionsPanel Object](#actionspanel-object)
+- [bitmapInstance Object](#bitmapinstance-object)
+- [bitmapItem Object](#bitmapitem-object)
+- [camera Object](#camera-object)
+- [compiledClipInstance Object](#compiledclipinstance-object)
+- [compilerErrors Object](#compilererrors-object)
+- [componentInstance Object](#componentinstance-object)
+- [componentsPanel Object](#componentspanel-object)
+- [contour Object](#contour-object)
+- [document Object](#document-object)
+- [drawingLayer](#drawinglayer)
+- [edge Object](#edge-object)
+- [element Object](#element-object)
+- [fill Object](#fill-object)
+- [filter Object](#filter-object)
+- [flash(fl.()) Object](#flashfl-object)
+- [FLfile Object](#flfile-object)
+- [folderItem Object](#folderitem-object)
+- [fontItem Object](#fontitem-object)
+- [frame Object](#frame-object)
+- [HalfEdge Object](#halfedge-object)
+- [Instance Object](#instance-object)
+- [Item Object](#item-object)
+- [Layer Object](#layer-object)
+- [LayerParenting Object](#layerparenting-object)
+- [library Object](#library-object)
+- [Math Object](#math-object)
+- [Matrix Object](#matrix-object)
+- [outputPanel Object](#outputpanel-object)
+- [Oval Object](#oval-object)
+- [Parameter object](#parameter-object)
+- [Path object](#path-object)
+- [presetItem object](#presetitem-object)
+- [presetPanel object](#presetpanel-object)
+- [Rectangle object](#rectangle-object)
+- [Shape object](#shape-object)
+- [SoundItem object](#sounditem-object)
+- [SpriteSheetExporter object](#spritesheetexporter-object)
+- [Stroke object](#stroke-object)
+- [swfPanel object](#swfpanel-object)
+- [SymbolInstance object](#symbolinstance-object)
+- [SymbolItem object](#symbolitem-object)
+- [Text Object](#text-object)
+- [TextAttrs Object](#textattrs-object)
+- [TextRun Object](#textrun-object)
+- [TextureAtlasExporter object](#textureatlasexporter-object)
+- [Timeline Object](#timeline-object)
+- [ToolObj object](#toolobj-object)
+- [Tools Object](#tools-object)
+- [Tween Object](#tween-object)
+- [Vertex object](#vertex-object)  
+- [VideoItem Object](#videoitem-object)
+- [XMLUI Object](#xmlui-object)
+- [C-LevelExtensibility](#c-levelextensibility)
 
 ## Introduction
 
@@ -105,29 +104,29 @@ You can also create a JSFL file by selecting commands in the History panel. Then
 
 The History panel provides some other useful options as well. You can copy selected commands to the Clipboard, and you can view JavaScript commands that are generated while you are working in Animate.
 
-#### To copy commands from the History panel to the clipboard:
+#### To copy commands from the History panel to the clipboard
 
-1.  Select one or more commands in the History panel.
+1. Select one or more commands in the History panel.
 
-2.  Do one of the following:
+2. Do one of the following:
 
-    -   Click the Copy button.
+    - Click the Copy button.
 
-    -   Select Copy Steps from the panel menu.
+    - Select Copy Steps from the panel menu.
 
-#### To view JavaScript commands in the History panel:
+#### To view JavaScript commands in the History panel
 
--   Select View > JavaScript in Panel from the panel menu.
+- Select View > JavaScript in Panel from the panel menu.
 
 ### Saving JSFL files
 
 You can have JSFL scripts available within the Animate authoring environment by storing them in one of several folders within the Configuration folder. By default, the Configuration folder is in the following location:
 
--   Windows® 10™:
+- Windows® 10™:
 
 *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate *version*\\*language*\\Configuration\\
 
--   Mac OS® X:
+- Mac OS® X:
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/
 
@@ -145,7 +144,7 @@ Within the Configuration folder, the following folders can contain scripts that 
 If you edit a script in the Commands folder, the new script is immediately available in Animate. If you edit a script for an extensible tool, close and restart Animate, or else use the [fl.reloadTools()](flash_object_(fl)/fl57.md) command. However, if you used a script to add an extensible tool to the Tools panel and you then edit the script, either remove and then add the tool to the Tools panel again, or else close and restart Animate for the revised tool to be available.
 There are two locations where you can store command and tool files so they can be accessed in the authoring environment.
 
--   For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
+- For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
 
 <table>
     <thead>
@@ -178,7 +177,7 @@ There are two locations where you can store command and tool files so they can b
     </tbody>
 </table>
 
--   For scripts that appear as extensible tools in the Tools panel, save the JSFL file in the Tools folder in the following location:
+- For scripts that appear as extensible tools in the Tools panel, save the JSFL file in the Tools folder in the following location:
 
 <table>
     <thead>
@@ -217,75 +216,82 @@ If a JSFL file has other files that go with it, such as XML files, store them in
 
 There are several ways to run scripts. The most common ways are explained in this section.
 
-#### To run a script that you are currently viewing or editing:
+#### To run a script that you are currently viewing or editing
 
--   Right-click (Command-click on the Macintosh) and choose Run Script.
+- Right-click (Command-click on the Macintosh) and choose Run Script.
 
--   Click the Run Script icon on the Script window toolbar.
+- Click the Run Script icon on the Script window toolbar.
 
 This option lets you run a script before you have saved it. This option also lets you run a script even if no FLA files are open.
 
-#### To run a script that is in the Commands folder, do one of the following:
+#### To run a script that is in the Commands folder, do one of the following
 
--   From the authoring environment, select Commands > *Script Name*.
+- From the authoring environment, select Commands > *Script Name*.
 
--   Use a keyboard shortcut that you have assigned to the script. To assign a keyboard shortcut, use Edit > Keyboard Shortcuts and select Drawing Menu Commands from the Commands pop-up menu. Expand the Commands node in the menu tree to view a list of available scripts.
+- Use a keyboard shortcut that you have assigned to the script. To assign a keyboard shortcut, use Edit > Keyboard Shortcuts and select Drawing Menu Commands from the Commands pop-up menu. Expand the Commands node in the menu tree to view a list of available scripts.
 
-#### To run a command script that is not in the Commands folder, do one of the following:
+#### To run a command script that is not in the Commands folder, do one of the following
 
--   From the authoring environment, select Commands > Run Command, and then select the script to run.
+- From the authoring environment, select Commands > Run Command, and then select the script to run.
 
--   From within a script, use the [fl.runScript()](flash_object_(fl)/fl62.md) command.
+- From within a script, use the [fl.runScript()](flash_object_(fl)/fl62.md) command.
 
--   From the file system, double-click the script file.
+- From the file system, double-click the script file.
 
-#### To add a tool implemented in a JSFL file to the Tools panel:
+#### To add a tool implemented in a JSFL file to the Tools panel
 
-1.  Copy the JSFL file for the tool and any other associated files to the Tools folder (see ["Saving JSFL files"](#saving-jsfl-files)).
+1. Copy the JSFL file for the tool and any other associated files to the Tools folder (see ["Saving JSFL files"](#saving-jsfl-files)).
 
-2.  If tool is not visible in toolbar, click three dots (Edit Toolbar...)
+2. If tool is not visible in toolbar, click three dots (Edit Toolbar...)
 
-3.  Add the tool to the list of available tools.
+3. Add the tool to the list of available tools.
 
 You can add individual JavaScript API commands to ActionScript files by using the MMExecute() function, which is documented in the *ActionScript 3.0 Language and Components Reference*. However, the MMExecute() function has an effect only when it is used in the context of a custom user interface element, such as a component Property inspector, or a SWF panel within the authoring environment. Even if called from ActionScript, JavaScript API commands have no effect in Flash Player or outside the authoring environment.
 
-#### To issue a command from an ActionScript script:
+#### To issue a command from an ActionScript script
 
--   Use the following syntax (you can concatenate several commands into one string):
+- Use the following syntax (you can concatenate several commands into one string):
+
 ```
 MMExecute(Javascript command string);
 ```
+
 You can also run a script from the command line.
 
-#### To run a script from the command line on Windows:
+#### To run a script from the command line on Windows
 
--   Use the following syntax (add path information as required):
+- Use the following syntax (add path information as required):
+
 ```
 "Animate.exe" myTestFile.jsfl [-AlwaysRunJSFL]
 ```
+
 Use the `-AlwaysRunJSFL` option to bypass the dialog box that prompts you to confirm script execution.
 
-#### To run a script from the "Terminal" application on the Macintosh, use either of the following:
+#### To run a script from the "Terminal" application on the Macintosh, use either of the following
 
--   Use the following osacript syntax (add path information as required):
+- Use the following osacript syntax (add path information as required):
+
 ```
 osascript -e 'tell application "Animate" to open alias "Mac OS X:Users:user:myTestFile.jsfl" '
 ```
+
 The osascript command can also run AppleScript in a file. For example, you could include the following text in a file named myScript:
+
 ```
 tell application "Animate"
 open alias "Mac OS X:Users:user:myTestFile.jsfl" 
 end tell
 ```
+
 Then, to run the script, you would use this command:
 osascript myScript
 
--   Use the Animate command:
+- Use the Animate command:
+
 ```
 /Applications/Adobe\ Animate\ 2020/Animate.app/Contents/MacOS/Animate \<path of the jsfl file\>
 ```
-
-
 
 ### What’s new in the JavaScript API
 
@@ -293,463 +299,460 @@ The following section lists new objects, methods, and properties in Animate. It 
 If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](/Introduction/JavaScript_API_objects.md).
 
 #### New methods and properties in Animate 2020
+
 The following methods and properties for existing objects are new in Animate 2020:
 
--   [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/document_summary.md)
 
-    -   [document.getTaggedSwatches()](/Document_object/docu6064.md)
+  - [document.getTaggedSwatches()](/Document_object/docu6064.md)
 
-    -   [document.getTaggedSwatchByName()](/Document_object/docu6062.md)
+  - [document.getTaggedSwatchByName()](/Document_object/docu6062.md)
 
-    -   [document.getTaggedSwatchAtIndex()](/Document_object/docu6061.md)
+  - [document.getTaggedSwatchAtIndex()](/Document_object/docu6061.md)
 
-    -   [document.setTaggedSwatchByName()](/Document_object/docu6068.md)
+  - [document.setTaggedSwatchByName()](/Document_object/docu6068.md)
 
-    -   [document.setTaggedSwatchAtIndex()](/Document_object/docu6067.md)
+  - [document.setTaggedSwatchAtIndex()](/Document_object/docu6067.md)
 
-    -   [document.addTaggedSwatch()](/Document_object/docu6058.md)
+  - [document.addTaggedSwatch()](/Document_object/docu6058.md)
 
-    -   [document.addTaggedSwatchWithColor()](/Document_object/docu6059.md)
+  - [document.addTaggedSwatchWithColor()](/Document_object/docu6059.md)
 
-    -  [document.deleteTaggedSwatchByName()](/Document_object/docu6066.md)
+  - [document.deleteTaggedSwatchByName()](/Document_object/docu6066.md)
 
-    -   [document.deleteTaggedSwatchAtIndex()](/Document_object/docu6065.md)
+  - [document.deleteTaggedSwatchAtIndex()](/Document_object/docu6065.md)
 
-    -   [document.getTaggedSwatchesPaletteList()](/Document_object/docu6063.md)
+  - [document.getTaggedSwatchesPaletteList()](/Document_object/docu6063.md)
 
-    -   [document.getIndexForTaggedSwatchesPalette()](/Document_object/docu6060.md)
+  - [document.getIndexForTaggedSwatchesPalette()](/Document_object/docu6060.md)
 
-    -   [document.convertToDoc()](/Document_object/docu6069.md)
+  - [document.convertToDoc()](/Document_object/docu6069.md)
 
-    -   [document.exportCanvasPublishTemplate()](/Document_object/docu6070.md)
+  - [document.exportCanvasPublishTemplate()](/Document_object/docu6070.md)
 
-    -   [document.importCanvasPublishTemplate()](/Document_object/docu6071.md)
+  - [document.importCanvasPublishTemplate()](/Document_object/docu6071.md)
 
-    -  [document.exportMedia()](/Document_object/docu6072.md)
+  - [document.exportMedia()](/Document_object/docu6072.md)
 
-    -   [document.exportSVG()](/Document_object/docu6074.md)
+  - [document.exportSVG()](/Document_object/docu6074.md)
 
--   [Layer object](/Layer_object/layer_summary.md)
+- [Layer object](/Layer_object/layer_summary.md)
 
-    -   [layer.getZDepthAtFrame()](/Layer_object/layer11.md)
+  - [layer.getZDepthAtFrame()](/Layer_object/layer11.md)
 
-    -   [layer.setZDepthAtFrame()](/Layer_object/layer12.md)
+  - [layer.setZDepthAtFrame()](/Layer_object/layer12.md)
 
-    -   [layer.getRigParentAtFrame()](/Layer_Parenting_Object/layerParenting1.md)
+  - [layer.getRigParentAtFrame()](/Layer_Parenting_Object/layerParenting1.md)
 
-    -   [layer.setRigParentAtFrame()](/Layer_Parenting_Object/layerParenting2.md)
+  - [layer.setRigParentAtFrame()](/Layer_Parenting_Object/layerParenting2.md)
 
-    -   [layer.getRigMatrixAtFrame()](/Layer_Parenting_Object/layerParenting3.md)
+  - [layer.getRigMatrixAtFrame()](/Layer_Parenting_Object/layerParenting3.md)
 
-    -   [layer.getFiltersAtFrame()](/Layer_object/layer15.md)
+  - [layer.getFiltersAtFrame()](/Layer_object/layer15.md)
 
-    -   [layer. setFiltersAtFrame()](/Layer_object/layer18.md)
+  - [layer. setFiltersAtFrame()](/Layer_object/layer18.md)
 
-    -   [layer.getColorTransformAtFrame()](/Layer_object/layer14.md)
+  - [layer.getColorTransformAtFrame()](/Layer_object/layer14.md)
 
-    -   [layer.setColorTransformAtFrame()](/Layer_object/layer17.md)
+  - [layer.setColorTransformAtFrame()](/Layer_object/layer17.md)
 
-    -   [layer.getBlendModeAtFrame()](/Layer_object/layer13.md)
+  - [layer.getBlendModeAtFrame()](/Layer_object/layer13.md)
 
-    -   [layer.setBlendModeAtFrame()](/Layer_object/layer16.md)
+  - [layer.setBlendModeAtFrame()](/Layer_object/layer16.md)
 
--   [Timeline object](/Timeline_object/timeline_summary.md)
+- [Timeline object](/Timeline_object/timeline_summary.md)
 
-    -   [timeline.advancedLayersEnabled](/Timeline_object/timeli52.md)
+  - [timeline.advancedLayersEnabled](/Timeline_object/timeli52.md)
 
-    -   [timeline.mergeLayers()](/Timeline_object/timeli51.md)
+  - [timeline.mergeLayers()](/Timeline_object/timeli51.md)
 
--   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
-    -   [fl.addToolInToolbar()](/flash_object_(fl)/fl82.md)
-
+  - [fl.addToolInToolbar()](/flash_object_(fl)/fl82.md)
 
 #### New objects in Animate 2020
+
 The following object is new in Flash CS6:
 
--   [TextureAtlasExporter object](/TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
+- [TextureAtlasExporter object](/TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
 
--   [Camera object](/Camera_object/Camera_Summary.md)
+- [Camera object](/Camera_object/Camera_Summary.md)
 
 #### New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
--   [Tween Object](/Tween_Object/Tween_object_Summary.md)
+- [Tween Object](/Tween_Object/Tween_object_Summary.md)
 
-    -   Tween.getColorTransform( )
+  - Tween.getColorTransform( )
 
-    -   Tween.getFilters( )
+  - Tween.getFilters( )
 
-    -   Tween.getGeometricTransform()
+  - Tween.getGeometricTransform()
 
-    -   Tween.getShape( )
+  - Tween.getShape( )
 
-    -   Tween.duration
+  - Tween.duration
 
-    -   Tween.startFrame
+  - Tween.startFrame
 
-    -   Tween.tweenType
+  - Tween.tweenType
 
--   [CompiledClipInstance object](/CompiledClipInstance_object/compiledClipInstance_summary.md)
+- [CompiledClipInstance object](/CompiledClipInstance_object/compiledClipInstance_summary.md)
 
-    -   CompiledClipInstance.backgroundColor
+  - CompiledClipInstance.backgroundColor
 
-    -   CompiledClipInstance.blendMode
+  - CompiledClipInstance.blendMode
 
-    -   CompiledClipInstance.brightness
+  - CompiledClipInstance.brightness
 
-    -   CompiledClipInstance.cacheAsBitmap
+  - CompiledClipInstance.cacheAsBitmap
 
-    -   CompiledClipInstance.colorAlphaAmount
+  - CompiledClipInstance.colorAlphaAmount
 
-    -   CompiledClipInstance.colorAlphaPercent
+  - CompiledClipInstance.colorAlphaPercent
 
-    -   CompiledClipInstance.colorBlueAmount
+  - CompiledClipInstance.colorBlueAmount
 
-    -   CompiledClipInstance.colorBluePercent
+  - CompiledClipInstance.colorBluePercent
 
-    -   CompiledClipInstance.colorGreenAmount
+  - CompiledClipInstance.colorGreenAmount
 
-    -   CompiledClipInstance.colorGreenPercent
+  - CompiledClipInstance.colorGreenPercent
 
-    -   CompiledClipInstance.colorMode
+  - CompiledClipInstance.colorMode
 
-    -   CompiledClipInstance.colorRedAmount
+  - CompiledClipInstance.colorRedAmount
 
-    -   CompiledClipInstance.colorRedPercent
+  - CompiledClipInstance.colorRedPercent
 
-    -   CompiledClipInstance.filters
+  - CompiledClipInstance.filters
 
-    -   CompiledClipInstance.tintColor
+  - CompiledClipInstance.tintColor
 
-    -   CompiledClipInstance.tintPercent
+  - CompiledClipInstance.tintPercent
 
-    -   CompiledClipInstance.useBackgroundColor
+  - CompiledClipInstance.useBackgroundColor
 
-    -   CompiledClipInstance.visible
+  - CompiledClipInstance.visible
 
--   [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/document_summary.md)
 
-    -   Document.convertSelectionToBitmap()
+  - Document.convertSelectionToBitmap()
 
-    -   Document.distributeToKeyframes()
+  - Document.distributeToKeyframes()
 
-    -   Document.exportVideo()
+  - Document.exportVideo()
 
-    -   Document.getPublishDocumentData()
+  - Document.getPublishDocumentData()
 
-    -   Document.getTelemetryForSwf()
+  - Document.getTelemetryForSwf()
 
-    -   Document.importFile() showDialog and showImporterUI properties
+  - Document.importFile() showDialog and showImporterUI properties
 
-    -   Document.setPublishDocumenData()
+  - Document.setPublishDocumenData()
 
--   [Element object](/Element_object/element_summary.md)
+- [Element object](/Element_object/element_summary.md)
 
-    -   Element.getPublishPersistentData()
+  - Element.getPublishPersistentData()
 
-    -   Element.setPublishPersistentData()
+  - Element.setPublishPersistentData()
 
--   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
-    -   Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
+  - Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
-    -   fl.getThemeColor()
+  - fl.getThemeColor()
 
-    -   fl.getThemeColorParameters()
+  - fl.getThemeColorParameters()
 
-    -   fl.getThemeFontInfo()
+  - fl.getThemeFontInfo()
 
-    -   fl.setPrefBoolean()
+  - fl.setPrefBoolean()
 
-    -   fl.toggleBreakPoint()
+  - fl.toggleBreakPoint()
 
-    -   fl.xmlPanel()
+  - fl.xmlPanel()
 
-    -   fl.xmlPanelFromString()
+  - fl.xmlPanelFromString()
 
--   [Frame object](/Frame_object/frame_summary.md)
+- [Frame object](/Frame_object/frame_summary.md)
 
-    -   Frame.convertToFrameByFrameAnimation()
+  - Frame.convertToFrameByFrameAnimation()
 
-    -   Frame.getSoundEnvelope()
+  - Frame.getSoundEnvelope()
 
-    -   Frame.getSoundEnvelopeLimits()
+  - Frame.getSoundEnvelopeLimits()
 
-    -   Frame.setSoundEnvelope()
+  - Frame.setSoundEnvelope()
 
-    -   Frame.setSoundEnvelopeLimits()
+  - Frame.setSoundEnvelopeLimits()
 
-    -   Frame.isEmpty()
+  - Frame.isEmpty()
 
--   [Item object](/Item_object/item_summary.md)
+- [Item object](/Item_object/item_summary.md)
 
-    -   item.getPublishData()
+  - item.getPublishData()
 
-    -   item.setPublishData()
+  - item.setPublishData()
 
--   [library object](/library_object/library_summary.md)
+- [library object](/library_object/library_summary.md)
 
-    -   library.unusedItems
+  - library.unusedItems
 
--   [swfPanel object](/swfPanel_object/swfPanel_summary.md)
+- [swfPanel object](/swfPanel_object/swfPanel_summary.md)
 
-    -   swfPanel.dpiScaleFactorX
+  - swfPanel.dpiScaleFactorX
 
-    -   swfPanel.dpiScaleFactorY
+  - swfPanel.dpiScaleFactorY
 
-    -   swfPanel.reload()
+  - swfPanel.reload()
 
--   [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
+- [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
 
-    -   SymbolInstance.brightness
+  - SymbolInstance.brightness
 
-    -   SymbolInstance.tintColor
+  - SymbolInstance.tintColor
 
-    -   SymbolInstance.tintPercent
+  - SymbolInstance.tintPercent
 
--   [Timeline object](/Timeline_object/timeline_summary.md)
+- [Timeline object](/Timeline_object/timeline_summary.md)
 
-    -   getBounds()
+  - getBounds()
 
 #### Dropped methods and properties in Flash CC
 
 The following methods and properties for existing objects are dropped in Adobe Animate:
 
--   ActionsPanel.getClassForObject()
+- ActionsPanel.getClassForObject()
 
--   ActionsPanel.getScriptAssistMode()
+- ActionsPanel.getScriptAssistMode()
 
--   ActionsPanel.setScriptAssistMode()
+- ActionsPanel.setScriptAssistMode()
 
--   CompiledClipInstance.actionscript
+- CompiledClipInstance.actionscript
 
--   fl.reloadEffects()
+- fl.reloadEffects()
 
--   fl.resetPackagePaths()
+- fl.resetPackagePaths()
 
--   document.activeEffect
+- document.activeEffect
 
--   document.allowScreens()
+- document.allowScreens()
 
--   document.drawingLayer
+- document.drawingLayer
 
--   document.importSWF()
+- document.importSWF()
 
--   document.loadCuePointXML()
+- document.loadCuePointXML()
 
--   document.packagePaths
+- document.packagePaths
 
--   document.saveAndCompact()
+- document.saveAndCompact()
 
--   document.screenType
+- document.screenType
 
--   library.importEmbeddedSWF()
+- library.importEmbeddedSWF()
 
--   SymbolInstance.actionscript
+- SymbolInstance.actionscript
 
 #### New objects in Flash CS6
 
 The following object is new in Flash CS6:
 
--   [SpriteSheetExporter object](/SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
+- [SpriteSheetExporter object](/SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
 #### New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
--   [BitmapItem object](/BitmapItem_object/bitmapItem_summary.md)
+- [BitmapItem object](/BitmapItem_object/bitmapItem_summary.md)
 
-    -   bitmapItem.exportToFile()quality parameter
+  - bitmapItem.exportToFile()quality parameter
 
-    -   bitmapItem.hasValidAlphaLayer
+  - bitmapItem.hasValidAlphaLayer
 
-    -   bitmapItem.lastModifiedDate
+  - bitmapItem.lastModifiedDate
 
--   [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/document_summary.md)
 
-    -   document.exportInstanceToLibrary()
+  - document.exportInstanceToLibrary()
 
-    -   document.exportInstanceToPNGSequence()
+  - document.exportInstanceToPNGSequence()
 
-    -   document.getSWFPathFromProfile()
+  - document.getSWFPathFromProfile()
 
-    -   document.saveAsCopy()
+  - document.saveAsCopy()
 
-    -   document.swfJPEGQuality
+  - document.swfJPEGQuality
 
--   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
-    -   fl.spriteSheetExporter
+  - fl.spriteSheetExporter
 
--   [Layer object](/Layer_object/layer_summary.md)
+- [Layer object](/Layer_object/layer_summary.md)
 
-    -   layer.animationType
+  - layer.animationType
 
--   [Math object](/Math_object/Math_summary.md)
+- [Math object](/Math_object/Math_summary.md)
 
-    -   Math.transformPoint()
+  - Math.transformPoint()
 
--   [Shape object](/Shape_object/shape_summary.md)
+- [Shape object](/Shape_object/shape_summary.md)
 
-    -   shape.isFloating
+  - shape.isFloating
 
--   [SoundItem object](/SoundItem_object/soundItem_summary.md)
+- [SoundItem object](/SoundItem_object/soundItem_summary.md)
 
-    -   soundItem.lastModifiedDate
+  - soundItem.lastModifiedDate
 
--   [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
+- [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
 
-    -   symbolInstance.is3D
+  - symbolInstance.is3D
 
--   [SymbolItem object](/SymbolItem_object/symbolItem_summary.md)
+- [SymbolItem object](/SymbolItem_object/symbolItem_summary.md)
 
-    -   symbolItem.exportToLibrary()
+  - symbolItem.exportToLibrary()
 
-    -   symbolItem.exportToPNGSequence()
+  - symbolItem.exportToPNGSequence()
 
-    -   symbolItem.lastModifiedDate
+  - symbolItem.lastModifiedDate
 
--   [Text object](/Text_object/text_summary.md)
+- [Text object](/Text_object/text_summary.md)
 
-    -   text.filters
+  - text.filters
 
--   [VideoItem object](/VideoItem_object/videoItem_summary.md)
+- [VideoItem object](/VideoItem_object/videoItem_summary.md)
 
-    -   videoItem.lastModifiedDate
+  - videoItem.lastModifiedDate
 
 #### New methods and properties in Flash CS5 and CS5.5
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
--   [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/document_summary.md)
 
-    -   document.debugMovie()
+  - document.debugMovie()
 
-    -   document.loadCuepointXML()
+  - document.loadCuepointXML()
 
--   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
-    -   fl.languageCode
+  - fl.languageCode
 
-    -   fl.toggleBreakpoint
+  - fl.toggleBreakpoint
 
--   [Frame object](/Frame_object/frame_summary.md)
+- [Frame object](/Frame_object/frame_summary.md)
 
-    -   frame.convertMotionObjectTo2D()
+  - frame.convertMotionObjectTo2D()
 
-    -   frame.convertMotionObjectTo3D()
+  - frame.convertMotionObjectTo3D()
 
-    -   frame.getMotionObjectXML()
+  - frame.getMotionObjectXML()
 
-    -   frame.hasMotionPath()
+  - frame.hasMotionPath()
 
-    -   frame.isMotionObject()
+  - frame.isMotionObject()
 
-    -   frame.is3DMotionObject()
+  - frame.is3DMotionObject()
 
-    -   frame.selectMotionPath()
+  - frame.selectMotionPath()
 
-    -   frame.setMotionObjectDuration()
+  - frame.setMotionObjectDuration()
 
-    -   frame.setMotionObjectXML()
+  - frame.setMotionObjectXML()
 
-    -   frame.tweenInstanceName
+  - frame.tweenInstanceName
 
--   [Timeline object](/Timeline_object/timeline_summary.md)
+- [Timeline object](/Timeline_object/timeline_summary.md)
 
-    -   timeline.createMotionObject()
+  - timeline.createMotionObject()
 
-    -   timeline.libraryItem
+  - timeline.libraryItem
 
-    -   timeline.removeMotionObject()
+  - timeline.removeMotionObject()
 
-    -   timeline.startPlayback
+  - timeline.startPlayback
 
-    -   timeline.stopPlayback
+  - timeline.stopPlayback
 
 The following methods and properties for existing objects are new in Flash Pro CS5.5:
 
--   [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
+- [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
 
-    -   symbolInstance.bitmapRenderMode
+  - symbolInstance.bitmapRenderMode
 
-    -   symbolInstance.backgroundColor
+  - symbolInstance.backgroundColor
 
-    -   symbolInstance.usesBackgroundColor
+  - symbolInstance.usesBackgroundColor
 
-    -   symbolInstance.visible
+  - symbolInstance.visible
 
--   [Timeline object](/Timeline_object/timeline_summary.md)
+- [Timeline object](/Timeline_object/timeline_summary.md)
 
-    -   timeline.copyLayers()
+  - timeline.copyLayers()
 
-    -   timeline.cutLayers()
+  - timeline.cutLayers()
 
-    -   timeline.duplicateLayers()
+  - timeline.duplicateLayers()
 
-    -   timeline.pasteLayers()
+  - timeline.pasteLayers()
 
--   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
-    -   fl.getSwfPanel()
+  - fl.getSwfPanel()
 
-    -   fl.installedPlayers()
+  - fl.installedPlayers()
 
-    -   fl.publishCacheEnabled
+  - fl.publishCacheEnabled
 
-    -   fl.publishCacheDiskSizeMax
+  - fl.publishCacheDiskSizeMax
 
-    -   fl.publishCacheMemorySizeMax
+  - fl.publishCacheMemorySizeMax
 
-    -   fl.publishCacheMemoryEntrySizeLimit
+  - fl.publishCacheMemoryEntrySizeLimit
 
-    -   fl.clearPublishCache()
+  - fl.clearPublishCache()
 
--   [swfPanel object](/swfPanel_object/swfPanel_summary.md)
+- [swfPanel object](/swfPanel_object/swfPanel_summary.md)
 
-    -   swfPanel.setFocus()
+  - swfPanel.setFocus()
 
 #### Other changes in Flash CS5 and CS5.5
 
 The following methods and properties are updated in Flash CS5:
 
--   fl.openScript()
+- fl.openScript()
 
--   fl.publishDocument()
+- fl.publishDocument()
 
--   fontItem.embedRanges
+- fontItem.embedRanges
 
--   fontItem.embeddedCharacters
+- fontItem.embeddedCharacters
 
--   fontItem.embedVariantGlyphs
+- fontItem.embedVariantGlyphs
 
 The following objects and method are no longer available in Flash CS5:
 
--   Screen object
+- Screen object
 
--   ScreenOutline object
+- ScreenOutline object
 
--   document.canSaveAVersion()
+- document.canSaveAVersion()
 
--   document.revertToLastVersion()
+- document.revertToLastVersion()
 
--   document.saveAVersion()
+- document.saveAVersion()
 
--   document.synchronizeWithHeadVersion()
+- document.synchronizeWithHeadVersion()
 
--   fl.downloadLatestVersion()
+- fl.downloadLatestVersion()
 
--   fl.revertDocumentToLastVersion()
+- fl.revertDocumentToLastVersion()
 
--   fl.saveAVersionOfDocument()
+- fl.saveAVersionOfDocument()
 
--   fl.synchronizeDocumentWithHeadVersion()
-
-
-
-
+- fl.synchronizeDocumentWithHeadVersion()
 
 ### JavaScript API objects
 
@@ -820,11 +823,13 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](/Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](/FLfile_object/FLfile_summary.md) and [flash object (fl)](/flash_object_(fl)/fl_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
+
 ```javascript
 flash.closeAll(); 
 an.closeAll();
 fl.closeAll();
 ```
+
 The flash object contains the following *child objects*:
 
 | **Object**             | **How to access**                                                                                                                                                                                        |
@@ -882,6 +887,7 @@ In some cases, you might want an action to specifically target the currently sel
 ```var accDescription = fl.getDocumentDOM().selection[0].description;```
 
 The following script doubles the size of the first element on the Stage that is stored in the element array, instead of the current selection:
+
 ```javascript
 var element = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
 if (element) {
@@ -889,7 +895,9 @@ if (element) {
     element.height = element.height*2;
 }
 ```
+
 You can also do something such as loop through all the elements on the Stage and increase the width and height by a specified amount, as shown in the following example:
+
 ```javascript
 var elementArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
 for (var i=0; i < elementArray.length; i++) {
@@ -898,6 +906,7 @@ for (var i=0; i < elementArray.length; i++) {
     elementArray[i].height += offset;
 }
 ```
+
 ### Summary of the DOM structure
 
 The following list displays the DOM structure in outline format. Numbers at the beginning of each line represent the level of an object. For example, an object preceded by "03" is a child of next highest "02" object, which, in turn, is a child of the next highest "01" object.
@@ -906,8 +915,8 @@ In some cases, an object is available by specifying a property of its parent obj
 
 Some objects are subclasses of other objects, rather than being children of other objects. An object that is a subclass of another object has methods and/or properties of its own in addition to the methods and properties of the parent object (the superclass). Subclasses share the same level in the hierarchy as their superclass. For example, the Item object is a superclass of the BitmapItem object. These relationships are illustrated in the following outline:
 
+#### Top-Level Functions and Methods
 
-#### Top-Level Functions and Methods 
 01 [FLfile object](#flfile-object)
 
 01 [flash object (fl)](#flashfl-object)
@@ -919,79 +928,80 @@ Some objects are subclasses of other objects, rather than being children of othe
    02 [Document object (fl.documents array)](#document-object)
 
    02 [Filter object](#filter-object)
-   -  [Matrix object](#matrix-object)
-   - [Fill object](#fill-object)
-   - [Stroke object](#stroke-object)
 
-   - [library object](#library-object)
+- [Matrix object](#matrix-object)
+- [Fill object](#fill-object)
+- [Stroke object](#stroke-object)
 
-        * [Item object (library.items array)](#item-object)
+- [library object](#library-object)
 
-        * [BitmapItem object(subclass of Item object) ](#bitmapitem-object)
+  - [Item object (library.items array)](#item-object)
 
-        * [folderItem object (subclass of Item object) ](#folderitem-object)
+  - [BitmapItem object(subclass of Item object)](#bitmapitem-object)
 
-        * [fontItem object (subclass of Item object) ](#fontitem-object)
+  - [folderItem object (subclass of Item object)](#folderitem-object)
 
-        * [SoundItem object (subclass of Item object) ](#sounditem-object)
+  - [fontItem object (subclass of Item object)](#fontitem-object)
 
-        * [SymbolItem object (subclass of Item object) ](#symbolitem-object)
+  - [SoundItem object (subclass of Item object)](#sounditem-object)
 
-        * [VideoItem object (subclass of Item object)](#videoitem-object)
+  - [SymbolItem object (subclass of Item object)](#symbolitem-object)
 
-   - [Timeline object (document.timelines array) ](#timeline-object)
+  - [VideoItem object (subclass of Item object)](#videoitem-object)
 
-   - [Layer object (timeline.layers array)](#layer-object)
+- [Timeline object (document.timelines array)](#timeline-object)
 
-        - [Frame object (layer.frames array)](#frame-object)
+- [Layer object (timeline.layers array)](#layer-object)
 
-        - [Element object (frame.elements array) ](#element-object)
+  - [Frame object (layer.frames array)](#frame-object)
 
-   - [Matrix object (element.matrix)](#matrix-object)
+  - [Element object (frame.elements array)](#element-object)
 
-   - [Instance object (abstract class, subclass of Element object) ](#instance-object)
+- [Matrix object (element.matrix)](#matrix-object)
 
-   - [BitmapInstance object (subclass of Instance object)](#bitmapinstance-object)
+- [Instance object (abstract class, subclass of Element object)](#instance-object)
 
-   - [CompiledClipInstance object (subclass of Instance object)](#compiledclipinstance-object)
+- [BitmapInstance object (subclass of Instance object)](#bitmapinstance-object)
 
-   - [ComponentInstance object (subclass of SymbolInstance object) ](#componentinstance-object)
+- [CompiledClipInstance object (subclass of Instance object)](#compiledclipinstance-object)
 
-   - [Parameter object (componentInstance.parameters array)](#parameter-object)
+- [ComponentInstance object (subclass of SymbolInstance object)](#componentinstance-object)
 
-   - [SymbolInstance object (subclass of Instance object) ](#symbolinstance-object)
+- [Parameter object (componentInstance.parameters array)](#parameter-object)
 
-   - [Text object (subclass of Element object)](#text-object)
+- [SymbolInstance object (subclass of Instance object)](#symbolinstance-object)
 
-   - [TextRun object (text.textRuns array)](#textrun-object)
+- [Text object (subclass of Element object)](#text-object)
 
-   - [TextAttrs object (textRun.textAttrs array) ](#textattrs-object)
+- [TextRun object (text.textRuns array)](#textrun-object)
 
-   - [Shape object (subclass of Element object)](#shape-object)
+- [TextAttrs object (textRun.textAttrs array)](#textattrs-object)
 
-   - [Oval object](#oval-object)
+- [Shape object (subclass of Element object)](#shape-object)
 
-   - [Rectangle object](#rectangle-object)
+- [Oval object](#oval-object)
 
-   - [Contour object (shape.contours array) ](#contour-object)
+- [Rectangle object](#rectangle-object)
 
-   - [HalfEdge object](#halfedge-object)
+- [Contour object (shape.contours array)](#contour-object)
 
-   - [Vertex object](#vertex-object)
+- [HalfEdge object](#halfedge-object)
 
-   - [Edge object](#edge-object)
+- [Vertex object](#vertex-object)
 
-   - [Edge object (shape.edges array) ](#edge-object)
+- [Edge object](#edge-object)
 
-   - [HalfEdge object](#halfedge-object)
+- [Edge object (shape.edges array)](#edge-object)
 
-   - [Parameter object (screen.parameters array) ](#parameter-object)
+- [HalfEdge object](#halfedge-object)
+
+- [Parameter object (screen.parameters array)](#parameter-object)
 
  02 [drawingLayer object](#drawinglayer)
 
-   * [Path object](#path-object)
+- [Path object](#path-object)
 
-        - [Contour object](#contour-object)
+  - [Contour object](#contour-object)
 
  02 [Math object](#math-object)
 
@@ -999,17 +1009,15 @@ Some objects are subclasses of other objects, rather than being children of othe
 
  02 [presetPanel object](#presetpanel-object)
 
-- [presetItem object ](#presetitem-object)
+- [presetItem object](#presetitem-object)
 
  02 [swfPanel object](#swfpanel-object)
 
  02 [Tools object (fl.tools array)](#tools-object)
 
-   * [ToolObj object (tools.toolObjs array) ](#toolobj-object)
+- [ToolObj object (tools.toolObjs array)](#toolobj-object)
 
  02 [XMLUI object](#xmlui-object)
-    
-
 
 ### Sample implementations
 
@@ -1019,25 +1027,25 @@ Several sample JSFL implementations are available for Adobe Animate. You can rev
 
 A sample JavaScript API script named Shape.jsfl is located in the Shape folder (see "Sample implementations" above). This script displays information about the contours of the shape in the Output panel.
 
-#### To install and run the Shape script:
+#### To install and run the Shape script
 
-1.  Copy the Shape.jsfl file to the Configuration > Commands folder (see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
+1. Copy the Shape.jsfl file to the Configuration > Commands folder (see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
 
-2.  In a Animate document (FLA file), select a shape object.
+2. In a Animate document (FLA file), select a shape object.
 
-3.  Select Commands > Shape to run the script.
+3. Select Commands > Shape to run the script.
 
 #### Sample get and set filters command
 
 A sample JavaScript API script named filtersGetSet.jsfl is located in the filtersGetSet folder (see "Sample implementations" above). This script adds filters to a selected object and displays information about the filters being added in the Output panel.
 
-#### To install and run the filtersGetSet script:
+#### To install and run the filtersGetSet script
 
-1.  Copy the filtersGetSet.jsfl file to the Configuration/Commands folder (see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
+1. Copy the filtersGetSet.jsfl file to the Configuration/Commands folder (see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
 
-2.  In a Animate document (FLA file), select a text, movie clip, or button object.
+2. In a Animate document (FLA file), select a text, movie clip, or button object.
 
-3.  Select Commands > filtersGetSet to run the script.
+3. Select Commands > filtersGetSet to run the script.
 
 #### Sample PolyStar tool
 
@@ -1048,38 +1056,33 @@ The PolyStar.jsfl replicates the PolyStar tool that can be found in the Animate 
 
 A set of files named TraceBitmap.fla and TraceBitmap.swf are located in the TraceBitmapPanel folder (see "Sample implementations" above). These files illustrate how to design and build a panel to control the functions of Animate. They also show the use of the MMExecute() function to call JavaScript commands from an ActionScript script.
 
-#### To run the TraceBitmap sample:
+#### To run the TraceBitmap sample
 
-1.  If Animate is running, exit from Animate.
+1. If Animate is running, exit from Animate.
 
-2.  Copy the TraceBitmap.swf file to the WindowSWF folder, which is a subdirectory of the Configuration folder (see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows 10, the folder is in *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate 2020\\*language*\\Configuration\\WindowSWF.
+2. Copy the TraceBitmap.swf file to the WindowSWF folder, which is a subdirectory of the Configuration folder (see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows 10, the folder is in *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate 2020\\*language*\\Configuration\\WindowSWF.
 
-3.  Start Animate.
+3. Start Animate.
 
-4.  Create or open a Animate document (FLA file), and import a bitmap or JPEG image into the file.
+4. Create or open a Animate document (FLA file), and import a bitmap or JPEG image into the file.
 
 You can use the flower.jpg file provided in the TraceBitmapPanel folder or another image of your choice.
 
-1.  With the imported image selected, select Window > Other Panels > TraceBitmap.
+1. With the imported image selected, select Window > Other Panels > TraceBitmap.
 
-2.  Click Submit.
+2. Click Submit.
 
 The image is converted into a group of shapes.
 
 #### Sample DLL
 
-A sample DLL implementation is located in the dllSampleComputeSum folder (see "Sample implementations" above). For more information about building DLLs, see[ "C-Level Extensibility"](/C-Level_Extensibility/About_extensibility.md).
-
-
-
+A sample DLL implementation is located in the dllSampleComputeSum folder (see "Sample implementations" above). For more information about building DLLs, see["C-Level Extensibility"](/C-Level_Extensibility/About_extensibility.md).
 
 ## Top-Level Functions and Methods
 
 #### About this section
 
-
 This section describes the top-level functions and methods that are available when you use the Adobe Flash JavaScript application programming interface (JavaScript API). For information about where to store JavaScript API files, see ["Saving JSFL files"](/Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files).
-
 
 #### Global methods
 
@@ -1102,8 +1105,6 @@ mouseMove()
 mouseUp()
 notifySettingsChanged()
 setCursor()
-
-
 
 [activate()](./Top-Level_Functions_and_Methods/activate.md)
 
@@ -1133,7 +1134,6 @@ setCursor()
 
 [setCursor()](./Top-Level_Functions_and_Methods/setCursor.md)
 
-
 ## actionsPanel Object
 
 #### Availability
@@ -1162,11 +1162,7 @@ The following methods can be used with the actionsPanel object:
 
 <span id="actionsPanel.getClassForObject()_-_dropp" class="anchor"></span>
 
-
-
-
 ## bitmapInstance Object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > BitmapInstance object
 
@@ -1198,12 +1194,7 @@ In addition to the [Instance object](/Instance_object/instance_summary.md) prope
 
 <span id="bitmapInstance.getBits()" class="anchor"></span>
 
-
-
-
-
 ## bitmapItem Object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > BitmapItem object
 
@@ -1231,11 +1222,7 @@ In addition to the [Item object](/Item_object/item_summary.md) properties, the B
 
 <span id="bitmapItem.allowSmoothing" class="anchor"></span>
 
-
-
-
 ## Camera Object
-
 
 #### Availability
 
@@ -1257,7 +1244,7 @@ Animators can use the following features that are integral to any motion film.
 
 5. Rotating the camera
 
-6. Using color tint or filters to apply color effects on a scene 
+6. Using color tint or filters to apply color effects on a scene
 
 #### Method summary
 
@@ -1290,20 +1277,12 @@ The following properties can be used with the Camera object:
 | **Property**                           | **Description**                                                                                 |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|
 | [camera.cameraEnabled](/Camera_object/Camera17.md)          |       Enable/Disable camera|
-| [camera.colorFilterEnabled](/Camera_object/Camera19.md)          |  Enable/Disable camera's color Filter|   
+| [camera.colorFilterEnabled](/Camera_object/Camera19.md)          |  Enable/Disable camera's color Filter|
 | [camera.tintEnabled](/Camera_object/Camera18.md)          |     Enable/Disable tint           |            |
-
-
-
 
 <span id="filter.angle" class="anchor"></span>
 
-
-
-
-
 ## compiledClipInstance Object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > CompiledClipInstance object
 
@@ -1322,7 +1301,7 @@ In addition to the properties of the [Instance object](/Instance_object/instance
 | **Property**                                                                | **Description**                                                                           |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [compiledClipInstance.accName](/CompiledClipInstance_object/compiledClipInstance.md)               | A string that is equivalent to the Name field in the Accessibility panel.                 |
-| [compiledClipInstance.actionScript - dropped ](/CompiledClipInstance_object/compiledClipInstanc1.md) | Dropped in Adobe Animate.                                                                 |
+| [compiledClipInstance.actionScript - dropped](/CompiledClipInstance_object/compiledClipInstanc1.md) | Dropped in Adobe Animate.                                                                 |
 | [compiledClipInstance.backgroundColor](/CompiledClipInstance_object/compiledClipInstanc2.md)                        | A string that specifies the matte color when Opaque is selected.                          |
 | [compiledClipInstance.description](/CompiledClipInstance_object/compiledClipInstan15.md)                            | A string that is equivalent to the Description field in the Accessibility panel.          |
 | [compiledClipInstance.blendMode](/CompiledClipInstance_object/compiledClipInstanc3.md)                              | A string that specifies the blend mode.                                                   |
@@ -1353,11 +1332,6 @@ In addition to the properties of the [Instance object](/Instance_object/instance
 
 <span id="compiledClipInstance.accName" class="anchor"></span>
 
-
-
-
-
-
 ## compilerErrors Object
 
 #### Availability
@@ -1380,11 +1354,7 @@ The following methods can be used with the compilerErrors object:
 
 <span id="compilerErrors.clear()" class="anchor"></span>
 
-
-
-
 ## componentInstance Object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md) > ComponentInstance object
 
@@ -1405,9 +1375,6 @@ In addition to all the properties of the [SymbolInstance object](/SymbolInstance
 | [componentInstance.parameters](/ComponentInstance_object/componentInstance.md) | Read-only; an array of ActionScript 2.0 properties that are accessible from the component Property inspector. |
 
 <span id="componentInstance.parameters" class="anchor"></span>
-
-
-
 
 ## componentsPanel Object
 
@@ -1430,11 +1397,7 @@ You can use the following methods with the componentsPanel object:
 
 <span id="componentsPanel.addItemToDocument()" class="anchor"></span>
 
-
-
-
 ## contour Object
-
 
 #### Availability
 
@@ -1464,11 +1427,7 @@ You can use the following properties with the Contour object:
 
 <span id="contour.fill" class="anchor"></span>
 
-
-
-
 ## document Object
-
 
 #### Availability
 
@@ -1490,7 +1449,7 @@ You can use the following methods with the Document object:
 
 | **Method**                                             | **Description**                                                                                                                                                                  |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [document.getSWFPathFromProfile()](/Document_object/docume85.md)      | Gets the full path to the SWF file that is set in the current Publish profile.      
+| [document.getSWFPathFromProfile()](/Document_object/docume85.md)      | Gets the full path to the SWF file that is set in the current Publish profile.
 | [document.getTaggedSwatchAtIndex()](/Document_object/docu6061.md)      | Returns the Tagged Swatch with the given index.                                                                            |
 | [document.getTaggedSwatchByName()](/Document_object/docu6062.md)      | Returns the Tagged Swatch with the given name.                                                                  |
 | [document.getTaggedSwatches()](/Document_object/docu6064.md)      | Returns array of tagged swatch objects.                                                             |
@@ -1499,7 +1458,7 @@ You can use the following methods with the Document object:
 | [document.getTextString()](/Document_object/docume87.md)              | Gets the currently selected text.                                                                                                                                                |
 | [document.getTimeline()](/Document_object/docume88.md)                | Retrieves the current [Timeline object](/Timeline_object/timeline_summary.md) in the document.                                                                                                         |
 | [document.getTransformationPoint()](/Document_object/docume89.md)     | Gets the location of the transformation point of the current selection.                                                                                                          |
-| [document.group()](/Document_object/docume90.md)                      | Converts the current selection to a group.     
+| [document.group()](/Document_object/docume90.md)                      | Converts the current selection to a group.
  |
 | [document.importCanvasPublishTemplate()](/Document_object/docu6071.md)                      | Imports and sets the HTML5 Canvas Publishing Template for given document, from the specified location pathURI.                                                                                                                                 |
 | [document.importFile()](/Document_object/docume93.md)                 | Imports a file into the document.                                                                                                                                                |
@@ -1565,7 +1524,7 @@ You can use the following methods with the Document object:
 | [document.setStroke()](/Document_object/docu9752.md)                  | Sets the color, width, and style of the selected strokes.                                                                               |
 | [document.setStrokeColor()](/Document_object/docu9768.md)             | Changes the stroke color of the selection to the specified color.                                                                       |
 | [document.setStrokeSize()](/Document_object/docu9799.md)              | Changes the stroke size of the selection to the specified size.                                                                         |
-| [document.setStrokeStyle()](/Document_object/docu9814.md)             | Changes the stroke style of the selection to the specified style. 
+| [document.setStrokeStyle()](/Document_object/docu9814.md)             | Changes the stroke style of the selection to the specified style.
 |
 | [document.setTaggedSwatchAtIndex()](/Document_object/docu6067.md)             | Replace the tagged swatch with the given index to the given new swatch object.  
 |
@@ -1594,7 +1553,6 @@ You can use the following methods with the Document object:
 | [document.unlockAllElements()](/Document_object/docu6135.md)    | Unlocks all locked elements on the currently selected frame. |
 | [document.xmlPanel()](/Document_object/docu6198.md)             | Posts a XMLUI dialog box.                                    |
 
-    
 #### Property summary
 
 You can use the following properties with the Document object.
@@ -1641,9 +1599,7 @@ You can use the following properties with the Document object.
 
 <span id="document.accName" class="anchor"></span>
 
-
 ## drawingLayer
-
 
 #### Availability
 
@@ -1675,10 +1631,7 @@ The following methods are available for the drawingLayer object:
 
 <span id="drawingLayer.beginDraw()" class="anchor"></span>
 
-
-
 ## edge Object
-
 
 #### Availability
 
@@ -1711,8 +1664,6 @@ The following properties are available for the Edge object:
 | [edge.stroke](/Edge_object/edge7.md)                      | A [Stroke object](/Stroke_object/stroke_summary.md).                                         |
 
 <span id="edge.cubicSegmentIndex" class="anchor"></span>
-
-
 
 ## element Object
 
@@ -1772,9 +1723,7 @@ The following properties are available for the Edge object:
 
 [element.y](./Element_object/elemen27.md)
 
-
 ## fill Object
-
 
 #### Availability
 
@@ -1803,10 +1752,7 @@ The following properties are available for the Fill object:
 
 <span id="fill.bitmapIsClipped" class="anchor"></span>
 
-
-
 ## filter Object
-
 
 #### Availability
 
@@ -1846,11 +1792,7 @@ The following properties can be used with the Filter object:
 
 <span id="filter.angle" class="anchor"></span>
 
-
-
 ## flash(fl.()) Object
-
-
 
 #### Availability
 
@@ -1935,11 +1877,7 @@ The following properties can be used with the flash object.
 
 <span id="fl.actionsPanel" class="anchor"></span>
 
-
-
 ## FLfile Object
-
-
 
 #### Availability
 
@@ -1949,11 +1887,11 @@ Flash MX 2004 7.2.
 
 The FLfile object lets you write Flash extensions that can access, modify, and remove files and folders on the local file system. The FLfile API is provided in the form of an extension to the JavaScript API. This extension is called a *shared library* and is located in the following folder:
 
--   Windows 7 and 8:
+- Windows 7 and 8:
 
 *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Flash CC\\*language*\\Configuration\\External Libraries\\FLfile.dll
 
--   Mac OS X:
+- Mac OS X:
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash CC/*language*/Configuration/External Libraries/FLfile.dll
 
@@ -2003,10 +1941,7 @@ The following methods can be used with the FLfile object:
 
 <span id="FLfile.copy()" class="anchor"></span>
 
-
 ## folderItem Object
-
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > folderItem object
 
@@ -2018,11 +1953,7 @@ Flash MX 2004.
 
 The folderItem object is a subclass of the Item object. There are no unique methods or properties for folderItem. See [Item object](/Item_object/item_summary.md).
 
-
-
-
 ## fontItem Object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > fontItem object
 
@@ -2052,10 +1983,7 @@ In addition to the Item object properties, the following properties are availabl
 
 <span id="fontItem.bitmap" class="anchor"></span>
 
-
-
 ## Frame Object
-
 
 #### Availability
 
@@ -2104,9 +2032,7 @@ The following properties can be used with the Frame object:
 
 <span id="frame.convertMotionObjectTo2D()" class="anchor"></span>
 
-
 ## HalfEdge Object
-
 
 #### Availability
 
@@ -2139,11 +2065,7 @@ The following properties are available for the HalfEdge object:
 
 <span id="halfEdge.getEdge()" class="anchor"></span>
 
-
-
-
 ## Instance Object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Instance object
 
@@ -2166,10 +2088,7 @@ In addition to all of the Element object properties, Instance has the following 
 
 <span id="instance.instanceType" class="anchor"></span>
 
-
-
 ## Item Object
-
 
 #### Availability
 
@@ -2211,10 +2130,7 @@ The following properties are available for the Item object:
 
 <span id="item.addData()" class="anchor"></span>
 
-
-
 ## Layer Object
-
 
 #### Availability
 
@@ -2233,11 +2149,11 @@ The following methods are available for the Item object:
 | [layer.getBlendModeAtFrame()](/Layer_object/layer13.md)      | A string value that specifies the blend mode at frame.                                                                                         |
 | [layer.getColorTransformAtFrame()](/Layer_object/layer14.md)        | Based on the mode, the paramters will be updated here. For example, if tint is present, the value corresponding to tint only will be present along with the color matrix values..                                                                                     |
 | [layer.getFiltersAtFrame()](/Layer_object/layer15.md)      | An array that contains a list of filters applied to the frame at frameIndex.                                                                                         |
-| [layer.getZDepthAtFrame() ](/Layer_object/layer11.md)      | An integer value that specifies the ZDepth valur at the frame.                                                                                         |
+| [layer.getZDepthAtFrame()](/Layer_object/layer11.md)      | An integer value that specifies the ZDepth valur at the frame.                                                                                         |
 | [layer.setBlendModeAtFrame()](/Layer_object/layer16.md)      |FrameNumber :frame index,  ZVal:int.                                                                                         |
 | [layer.setColorTransformAtFrame()](/Layer_object/layer17.md)      | frameIndex – int, cxFormObject - The cxform to be set   .                                                                                         |
 | [layer. setFiltersAtFrame()](/Layer_object/layer18.md)      | frameIndex – int, filterArray - The array of filters to be set.                                                                                         |
-| [layer.setZDepthAtFrame() ](/Layer_object/layer12.md)        | Enables to set ZDepth value at the frame.                                                                                     |
+| [layer.setZDepthAtFrame()](/Layer_object/layer12.md)        | Enables to set ZDepth value at the frame.                                                                                     |
 
 #### Property summary
 
@@ -2259,10 +2175,7 @@ The following properties are available for the Layer object:
 
 <span id="layer.animationType" class="anchor"></span>
 
-
-    
 ## LayerParenting Object
-
 
 #### Availability
 
@@ -2278,10 +2191,7 @@ You can use the following methods with the layer object:
 | [layer.getRigParentAtFrame()](/Layer_Parenting_Object/layerParenting1.md) | layer.getRigParentAtFrame(frameIndex)       |
 | [layer.setRigParentAtFrame()](/Layer_Parenting_Object/layerParenting2.md) | layer.setRigParentAtFrame(frameIndex,layer)   |
 
-
-
 ## library Object
-
 
 #### Availability
 
@@ -2329,10 +2239,7 @@ The following property is available for the library object:
 
 <span id="library.addItemToDocument()" class="anchor"></span>
 
-
-
 ## Math Object
-
 
 #### Availability
 
@@ -2355,10 +2262,7 @@ The following methods are available for the Math object:
 
 <span id="Math.concatMatrix()" class="anchor"></span>
 
-
-
 ## Matrix Object
-
 
 #### Availability
 
@@ -2383,10 +2287,7 @@ The following properties are available for the Matrix object:
 
 <span id="matrix.a" class="anchor"></span>
 
-
-
 ## outputPanel Object
-
 
 #### Availability
 
@@ -2408,10 +2309,7 @@ The outputPanel object uses the following methods:
 
 <span id="outputPanel.clear()" class="anchor"></span>
 
-
-
 ## Oval Object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) >[Shape object](/Shape_object/shape_summary.md) Oval object
 
@@ -2437,10 +2335,7 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 <span id="OvalObject.closePath" class="anchor"></span>
 
-
-
 ## Parameter object
-
 
 #### Availability
 
@@ -2467,8 +2362,6 @@ The following properties are available for the Parameter object:
 
 <span id="parameter.category" class="anchor"></span>
 
-
- 
 ## Path object
 
 #### Availability
@@ -2507,10 +2400,7 @@ The following properties are available for the Path object:
 
 <span id="path.addCubicCurve()" class="anchor"></span>
 
-
-
 ## presetItem object
-
 
 #### Availability
 
@@ -2537,10 +2427,7 @@ You can use the following properties with the presetItem object:
 
 <span id="presetItem.isDefault" class="anchor"></span>
 
-
-
 ## presetPanel object
-
 
 #### Availability
 
@@ -2580,11 +2467,7 @@ You can use the following property with the presetPanel object:
 
 <span id="presetPanel.addNewItem()" class="anchor"></span>
 
-
-
-
 ## Rectangle object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Shape object](/Shape_object/shape_summary.md) > Rectangle object
 
@@ -2610,11 +2493,7 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 <span id="RectangleObject.bottomLeftRadius" class="anchor"></span>
 
-
-
-
 ## Shape object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Shape object
 
@@ -2658,10 +2537,7 @@ In addition to the Element object properties, the following properties are avail
 
 <span id="shape.beginEdit()" class="anchor"></span>
 
-
-
 ## SoundItem object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > SoundItem object
 
@@ -2706,10 +2582,7 @@ In addition to the Item object properties, the following properties are availabl
 
 <span id="soundItem.bitRate" class="anchor"></span>
 
-
-
 ## SpriteSheetExporter object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) >SpriteSheetExporter object
 
@@ -2769,11 +2642,7 @@ In addition to the Item object properties, the following properties are availabl
 
 <span id="SpriteSheetExporter.addBitmap()" class="anchor"></span>
 
-
-
-
 ## Stroke object
-
 
 #### Availability
 
@@ -2821,8 +2690,6 @@ The following properties are available for the Stroke object:
 
 <span id="stroke.breakAtCorners" class="anchor"></span>
 
-
-
 ## swfPanel object
 
 #### Availability
@@ -2856,10 +2723,7 @@ You can use the following properties with the swfPanel object:
 
 <span id="swfPanel.call()" class="anchor"></span>
 
-
-
 ## SymbolInstance object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) >[Instance object](/Instance_object/instance_summary.md) >SymbolInstance object
 
@@ -2881,10 +2745,7 @@ In addition to the Instance object properties, the SymbolInstance object has the
 
 <span id="symbolInstance.accName" class="anchor"></span>
 
-
-
 ## SymbolItem object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > SymbolItem object
 
@@ -2925,10 +2786,7 @@ In addition to the Item object properties, the following properties are availabl
 
 <span id="symbolItem.convertToCompiledClip()" class="anchor"></span>
 
-
-
 ## Text Object
-
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Text object
 
@@ -2944,7 +2802,7 @@ To set properties of a text run within the text field, see the Property summary 
 
 To set generic properties of the selected text field, use [document.setElementProperty()](/Document_object/docum490.md). The following example sets the x value of the selected text field's registration point to 50:
 
- fl.getDocumentDOM().setElementProperty("x", 50); 
+ fl.getDocumentDOM().setElementProperty("x", 50);
 
 #### Method summary
 
@@ -2973,7 +2831,6 @@ In addition to the Element object properties, the following properties are avail
 <table><thead><tr class="header"><th><strong>Property</strong></th><th><strong>Description</strong></th></tr></thead><tbody><tr class="odd"><td><a href="/Text_object/text6.md">text.embeddedCharacters</a></td><td>A string that specifies characters to embed. This is equivalent to entering text in the Character Embedding dialog box.</td></tr><tr class="even"><td><a href="/Text_object/text7.md">text.embedRanges</a></td><td>A string that consists of delimited integers that correspond to the items that can be selected in the Character Embedding dialog box.</td></tr><tr class="odd"><td><a href="/Text_object/text8.md">text.embedVariantGlyphs</a></td><td>A Boolean value that specifies whether to enable the embedding of variant glyphs.</td></tr><tr class="even"><td><a href="/Text_object/text9.md">text.filters</a></td><td>An array of filters applied to the text element</td></tr><tr class="odd"><td><a href="/Text_object/text10.md">text.fontRenderingMode</a></td><td>A string that specifies the rendering mode for the text.</td></tr><tr class="even"><td><a href="/Text_object/text13.md">text.length</a></td><td>Read-only; an integer that represents the number of characters in the Text object.</td></tr><tr class="odd"><td><a href="/Text_object/text14.md">text.lineType</a></td><td><p>A string that sets the line type to "single line", "multiline", "multiline no wrap", or</p><p>"password".</p></td></tr><tr class="even"><td><a href="/Text_object/text15.md">text.maxCharacters</a></td><td>An integer that specifies the maximum characters the user can enter into this Text object.</td></tr><tr class="odd"><td><a href="/Text_object/text16.md">text.orientation</a></td><td>A string that specifies the orientation of the text field.</td></tr><tr class="even"><td><a href="/Text_object/text17.md">text.renderAsHTML</a></td><td>A Boolean value that controls whether Flash draws the text as HTML and interprets embedded HTML tags.</td></tr><tr class="odd"><td><a href="/Text_object/text18.md">text.scrollable</a></td><td>A Boolean value that controls whether the text can (true) or cannot (false) be scrolled.</td></tr><tr class="even"><td><a href="/Text_object/text19.md">text.selectable</a></td><td>A Boolean value that controls whether the text can (true) or cannot (false) be selected. Input text is always selectable.</td></tr><tr class="odd"><td><a href="/Text_object/text20.md">text.selectionEnd</a></td><td>A zero-based integer that specifies the offset of the end of a text subselection.</td></tr><tr class="even"><td><a href="/Text_object/text21.md">text.selectionStart</a></td><td>A zero-based integer that specifies the offset of the beginning of a text subselection.</td></tr><tr class="odd"><td><a href="/Text_object/text24.md">text.shortcut</a></td><td>A string that is equivalent to the Shortcut field in the Accessibility panel.</td></tr><tr class="even"><td><a href="/Text_object/text25.md">text.silent</a></td><td>A Boolean value that specifies whether the object is accessible.</td></tr><tr class="odd"><td><a href="/Text_object/text26.md">text.tabIndex</a></td><td>An integer that is equivalent to the Tab Index field in the Accessibility panel.</td></tr><tr class="even"><td><a href="/Text_object/text27.md">text.textRuns</a></td><td>Read-only; an array of TextRun objects.</td></tr><tr class="odd"><td><a href="/Text_object/text28.md">text.textType</a></td><td><p>A string that specifies the type of text field. Acceptable values are "static", "dynamic", and</p><p>"input".</p></td></tr><tr class="even"><td><a href="/Text_object/text29.md">text.useDeviceFonts</a></td><td>A Boolean value. A value of true causes Flash to draw text using device fonts.</td></tr><tr class="odd"><td><a href="/Text_object/text30.md">text.variableName</a></td><td>A string that contains the contents of the Text object.</td></tr></tbody></table>
 
 <span id="text.accName" class="anchor"></span>
-
 
 ## TextAttrs Object
 
@@ -3012,10 +2869,7 @@ The following properties are available for the TextAttrs object:
 
 <span id="textAttrs.aliasText" class="anchor"></span>
 
-
-
 ## TextRun Object
-
 
 #### Availability
 
@@ -3036,10 +2890,7 @@ In addition to the properties available for use with the Text object, the TextRu
 
 <span id="textRun.textAttrs" class="anchor"></span>
 
-
-
 ## TextureAtlasExporter object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) >TextureAtlasExporter object
 
@@ -3066,10 +2917,10 @@ In addition to the Item object properties, the following properties are availabl
 | **Property**                                       | **Description**                                                                                                          |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | [TextureAtlasExporter.algorithm](/TextureAtlasExporter_object/TextureAtlasExporter1.md)     | Sets the encoding algorithm for the TextureAtlas                                |
-| [TextureAtlasExporter.allowRotate](/TextureAtlasExporter_object/TextureAtlasExporter2.md)   | Allows sprites to be rotated when added to the TextureAtlas                                       
+| [TextureAtlasExporter.allowRotate](/TextureAtlasExporter_object/TextureAtlasExporter2.md)   | Allows sprites to be rotated when added to the TextureAtlas
 | [TextureAtlasExporter.app](/TextureAtlasExporter_object/TextureAtlasExporter3.md)           | A string indicating the name of the application that is generating the TextureAtlas.                                             |
 | [TextureAtlasExporter.autoSize](/TextureAtlasExporter_object/TextureAtlasExporter4.md)      | A boolean value indicating whether the TextureAtlasExporter should calculate the overall size of TextureAtlas on its own.                                                                  |
-| [TextureAtlasExporter.borderPadding](/TextureAtlasExporter_object/TextureAtlasExporter5.md) | An integer indicating the number of pixels of padding to add around each texture in the texture atlas.        
+| [TextureAtlasExporter.borderPadding](/TextureAtlasExporter_object/TextureAtlasExporter5.md) | An integer indicating the number of pixels of padding to add around each texture in the texture atlas.
 | [TextureAtlasExporter.canRotate](/TextureAtlasExporter_object/TextureAtlasExporter6.md)     | A boolean value indicating whether the framework specified by the TextureAtlasExporter.layoutFormat property may rotate textures when adding them to the texture atlas. |
 | [TextureAtlasExporter.filePath](/TextureAtlasExporter_object/TextureAtlasExporter7.md)   | It's the location where the texture atlas files needs to be exported.    |
 | [TextureAtlasExporter.flattenSkewObject](/TextureAtlasExporter_object/TextureAtlasExporter8.md)   | It's the location where the texture atlas files needs to be exported.    |
@@ -3083,10 +2934,7 @@ In addition to the Item object properties, the following properties are availabl
 | [TextureAtlasExporter.sheetWidth](/TextureAtlasExporter_object/TextureAtlasExporter16.md)   | An integer value specifying the width of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true.    |
 | [TextureAtlasExporter.version](/TextureAtlasExporter_object/TextureAtlasExporter17.md)   | Read-only property; A stinrg indicating the version number of the Animate application. This property is provided for use by texture atlas plugins.    |
 
-
-
 ## Timeline Object
-
 
 #### Availability
 
@@ -3141,13 +2989,9 @@ The following properties are available for the Timeline object:
 | [timeline.libraryItem](/Timeline_object/timeli32.md)  | Read-only property; indicates whether the timeline belongs to a scene.                       |
 | [timeline.name](/Timeline_object/timeli33.md)         | A string that represents the name of the current timeline.                                   |
 
-
 <span id="timeline.addMotionGuide()" class="anchor"></span>
 
-
-
 ## ToolObj object
-
 
 #### Availability
 
@@ -3187,10 +3031,7 @@ The following properties are available for the ToolObj object:
 
 <span id="toolObj.depth" class="anchor"></span>
 
-
-
 ## Tools Object
-
 
 #### Availability
 
@@ -3229,8 +3070,6 @@ The following properties are available for the Tools object:
 | [tools.toolObjs](/Tools_object/tools11.md)      | Read-only; an array of ToolObj objects.                                                    |
 
 <span id="tools.activeTool" class="anchor"></span>
-
-
 
 ## Tween Object
 
@@ -3310,10 +3149,7 @@ fl.trace(" blue : amount = "+colors.colorBlueAmount+" percent = "+colors.colorBl
 
 <span id="Tween.getColorTransform(_)" class="anchor"></span>
 
-
-
 ## Vertex object
-
 
 #### Availability
 
@@ -3343,10 +3179,7 @@ The following properties are available for the Vertex object:
 
 <span id="vertex.getHalfEdge()" class="anchor"></span>
 
-
-
 ## VideoItem Object
-
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > VideoItem object
 
@@ -3381,8 +3214,6 @@ In addition to the Item object properties, you can use the following properties 
 
 <span id="videoItem.exportToFLV()" class="anchor"></span>
 
-
-
 ## XMLUI Object
 
 #### Availability
@@ -3414,8 +3245,6 @@ The following methods are available for the XMLUI object:
 
 <span id="xmlui.accept()" class="anchor"></span>
 
-
-
 ## C-LevelExtensibility
 
 #### About extensibility
@@ -3428,17 +3257,15 @@ To implement extensibility, you define functions using C, bundle them in a dynam
 For example, you might want to define a function that performs intense calculations more efficiently than JavaScript does, which improves performance, or when you want to create more advanced tools or effects.
 This extensibility mechanism is a subset of the Adobe Dreamweaver API. If you are familiar with that API, you might recognize the functions in the C-level extensibility mechanism API. However, this API differs from the Dreamweaver API in the following ways:
 
--   This API does not contain all the commands in the Dreamweaver API.
+- This API does not contain all the commands in the Dreamweaver API.
 
--   All declarations of type *wchar_t* and char in the Dreamweaver API are implemented as unsigned short declarations in this API, to support Unicode when strings are passed.
+- All declarations of type *wchar_t* and char in the Dreamweaver API are implemented as unsigned short declarations in this API, to support Unicode when strings are passed.
 
--   The [JSVal JS_BytesToValue()](/C-Level_Extensibility/The_C.md) function in this API is not part of the Dreamweaver API.
+- The [JSVal JS_BytesToValue()](/C-Level_Extensibility/The_C.md) function in this API is not part of the Dreamweaver API.
 
--   The location in which the DLL or shared library files must be stored is different (see ["Integrating C functions"](/C-Level_Extensibility/Integrating_C_functions.md)).
+- The location in which the DLL or shared library files must be stored is different (see ["Integrating C functions"](/C-Level_Extensibility/Integrating_C_functions.md)).
 
 <span id="Integrating_C_functions" class="anchor"></span>
-
-
 
 [IntegratingCfunctions](./C-Level_Extensibility/Integrating_C_functions.md)
 

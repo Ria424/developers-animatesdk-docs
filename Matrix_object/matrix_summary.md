@@ -22,4 +22,3 @@ The following properties are available for the Matrix object:
 | [matrix.ty](../Matrix_object/matrix5.md) | A floating-point value that specifies the *y*-axis location of a symbol’s registration point or the center of a shape. |
 
 <span id="matrix.a" class="anchor"></span>
-

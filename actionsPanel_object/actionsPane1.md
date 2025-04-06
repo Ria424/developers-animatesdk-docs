@@ -24,6 +24,7 @@ Method; specifies whether Script Assist mode is enabled.
 #### Example
 
 The following example displays a message if Script Assist mode is not enabled.
+
 ```javascript
 mAssist = fl.actionsPanel.getScriptAssistMode();
 if (!mAssist) {

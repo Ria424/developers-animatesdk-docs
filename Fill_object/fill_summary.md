@@ -26,4 +26,3 @@ The following properties are available for the Fill object:
 | [fill.style](../Fill_object/fill9.md)                                             | A string that specifies the fill style.                                                                                   |
 
 <span id="fill.bitmapIsClipped" class="anchor"></span>
-

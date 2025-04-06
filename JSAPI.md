@@ -3,8 +3,7 @@ title: Animate JSAPI Documentation
 description: This is the home page of Animate APIs
 ---
 
-# Animate JSAPI Documentation      
- 
+# Animate JSAPI Documentation
 
 ## Introduction
 
@@ -15,7 +14,6 @@ description: This is the home page of Animate APIs
 [JavaScriptAPIobjects](./Introduction/JavaScript_API_objects.md)
 
 [Sampleimplementations](./Introduction/Sample_implementations.md)
-
 
 ## Top-LevelFunctionsandMethods
 
@@ -49,7 +47,6 @@ description: This is the home page of Animate APIs
 
 [setCursor.()](./Top-Level_Functions_and_Methods/setCursor.md)
 
-
 ## actionsPanelObject
 
 [actionsPanelsummary](./actionsPanel_object/actionsPanel_summary.md)
@@ -72,7 +69,6 @@ description: This is the home page of Animate APIs
 
 [actionsPanel.setText.()](./actionsPanel_object/actionsPane8.md)
 
-
 ## bitmapInstanceObject
 
 [bitmapInstancesummary](./BitmapInstance_object/bitmapInstance_summary.md)
@@ -84,7 +80,6 @@ description: This is the home page of Animate APIs
 [bitmapInstance.setBits.()](./BitmapInstance_object/bitmapInstanc2.md)
 
 [bitmapInstance.vPixels](./BitmapInstance_object/bitmapInstanc3.md)
-
 
 ## bitmapItemObject
 
@@ -119,7 +114,6 @@ description: This is the home page of Animate APIs
 [bitmapItem.useImportedJPEGQuality](./BitmapItem_object/bitmapIte13.md)
 
 [bitmapItem.vPixels](./BitmapItem_object/bitmapIte14.md)
-
 
 ## CameraObject
 
@@ -164,7 +158,6 @@ description: This is the home page of Animate APIs
 [camera.colorFilterEnabled](./Camera_object/Camera19.md)
 
 [camera.tintEnabled](./Camera_object/Camera18.md)
-
 
 ## compiledClipInstanceObject
 
@@ -220,7 +213,6 @@ description: This is the home page of Animate APIs
 
 [compiledClipInstance.visible](./CompiledClipInstance_object/compiledClipInstan24.md)
 
-
 ## compilerErrorsObject
 
 [compilerErrorssummary](./compilerErrors_object/compilerErrors_summary.md)
@@ -229,13 +221,11 @@ description: This is the home page of Animate APIs
 
 [compilerErrors.save.()](./compilerErrors_object/compilerError1.md)
 
-
 ## componentInstanceObject
 
 [componentInstancesummary](./ComponentInstance_object/componentInstance_summary.md)
 
 [componentInstance.parameters](./ComponentInstance_object/componentInstance.md)
-
 
 ## componentsPanelObject
 
@@ -244,7 +234,6 @@ description: This is the home page of Animate APIs
 [componentsPanel.addItemToDocument.()](./componentsPanel_object/componentsPanel.md)
 
 [componentsPanel.reload.()](./componentsPanel_object/componentsPane1.md)
-
 
 ## contourObject
 
@@ -257,7 +246,6 @@ description: This is the home page of Animate APIs
 [contour.interior](./Contour_object/contour2.md)
 
 [contour.orientation](./Contour_object/contour3.md)
-
 
 ## documentObject
 
@@ -361,7 +349,6 @@ description: This is the home page of Animate APIs
 
 [document.deleteTaggedSwatchAtIndex.()](./Document_object/docu6065.md)
 
-
 [document.deleteTaggedSwatchByName.()](./Document_object/docu6066.md)
 
 [document.description](./Document_object/docume45.md)
@@ -456,12 +443,9 @@ description: This is the home page of Animate APIs
 
 [document.getTaggedSwatchAtIndex.()](./Document_object/docu6061.md)
 
-
 [document.getTaggedSwatchByName.()](./Document_object/docu6062.md)
 
-
 [document.getTaggedSwatches.()](./Document_object/docu6064.md)
-
 
 [document.getTaggedSwatchesPaletteList.()](./Document_object/docu6063.md)
 
@@ -675,8 +659,6 @@ description: This is the home page of Animate APIs
 
 [document.zoomFactor](./Document_object/docu6229.md)
 
-
-
 ## drawingLayer
 
 [drawingLayersummary](./drawingLayer_object/drawingLayersummary.md)
@@ -726,7 +708,6 @@ description: This is the home page of Animate APIs
 [edge.splitEdge.()](./Edge_object/edge6.md)
 
 [edge.stroke](./Edge_object/edge7.md)
-
 
 ## elementObject
 
@@ -786,7 +767,6 @@ description: This is the home page of Animate APIs
 
 [element.y](./Element_object/elemen27.md)
 
-
 ## fillObject
 
 [fillsummary](./Fill_object/fill_summary.md)
@@ -810,7 +790,6 @@ description: This is the home page of Animate APIs
 [fill.posArray](./Fill_object/fill8.md)
 
 [fill.style](./Fill_object/fill9.md)
-
 
 ## filterObject
 
@@ -853,7 +832,6 @@ description: This is the home page of Animate APIs
 [filter.strength](./Filter_object/filter17.md)
 
 [filter.type](./Filter_object/filter18.md)
-
 
 ## flash(fl.())Object
 
@@ -1025,7 +1003,6 @@ description: This is the home page of Animate APIs
 
 [fl.xmlui](./flash_object_(fl)/fl81.md)
 
-
 ## FLfileObject
 
 [FLfilesummary](./FLfile_object/FLfile_summary.md)
@@ -1062,11 +1039,9 @@ description: This is the home page of Animate APIs
 
 [FLfile.write.()](./FLfile_object/FLfile15.md)
 
-
 ## folderItemObject
 
 [folderItemsummary](./folderItem_object/folderItem_summary.md)
-
 
 ## fontItemObject
 
@@ -1089,7 +1064,6 @@ description: This is the home page of Animate APIs
 [fontItem.italic](./fontItem_object/fontIte7.md)
 
 [fontItem.size](./fontItem_object/fontIte8.md)
-
 
 ## FrameObject
 
@@ -1177,7 +1151,6 @@ description: This is the home page of Animate APIs
 
 [frame.useSingleEaseCurve](./Frame_object/frame40.md)
 
-
 ## HalfEdgeObject
 
 [halfEdgesummary](./HalfEdge_object/halfEdge_summary.md)
@@ -1194,7 +1167,6 @@ description: This is the home page of Animate APIs
 
 [halfEdge.id](./HalfEdge_object/halfEdg5.md)
 
-
 ## InstanceObject
 
 [instancesummary](./Instance_object/instance_summary.md)
@@ -1202,7 +1174,6 @@ description: This is the home page of Animate APIs
 [instance.instanceType](./Instance_object/instance.md)
 
 [instance.libraryItem](./Instance_object/instanc1.md)
-
 
 ## ItemObject
 
@@ -1239,7 +1210,6 @@ description: This is the home page of Animate APIs
 [item.removeData.()](./Item_object/item14.md)
 
 [item.setPublishData.()](./Item_object/item15.md)
-
 
 ## LayerObject
 
@@ -1283,7 +1253,6 @@ description: This is the home page of Animate APIs
 
 [layer.visible](./Layer_object/layer10.md)
 
-    
 ## LayerParentingObject
 
 [layerParentingsummary](./Layer_Parenting_Object/layerParenting_summary.md)
@@ -1293,7 +1262,6 @@ description: This is the home page of Animate APIs
 [layer.getRigParentAtFrame.()](./Layer_Parenting_Object/layerParenting1.md)
 
 [layer.setRigParentAtFrame.()](./Layer_Parenting_Object/layerParenting2.md)
-
 
 ## libraryObject
 
@@ -1339,7 +1307,6 @@ description: This is the home page of Animate APIs
 
 [library.updateItem.()](./library_object/librar19.md)
 
-
 ## MathObject
 
 [Mathsummary](./Math_object/Math_summary.md)
@@ -1351,7 +1318,6 @@ description: This is the home page of Animate APIs
 [Math.pointDistance.()](./Math_object/Math2.md)
 
 [Math.transformPoint.()](./Math_object/Math3.md)
-
 
 ## MatrixObject
 
@@ -1369,7 +1335,6 @@ description: This is the home page of Animate APIs
 
 [matrix.ty](./Matrix_object/matrix5.md)
 
-
 ## outputPanelObject
 
 [outputPanelsummary](./outputPanel_object/outputPanel_summary.md)
@@ -1379,7 +1344,6 @@ description: This is the home page of Animate APIs
 [outputPanel.save.()](./outputPanel_object/outputPane1.md)
 
 [outputPanel.trace.()](./outputPanel_object/outputPane2.md)
-
 
 ## OvalObject
 
@@ -1392,7 +1356,6 @@ description: This is the home page of Animate APIs
 [OvalObject.innerRadius](./Oval_object/OvalObjec2.md)
 
 [OvalObject.startAngle](./Oval_object/OvalObjec3.md)
-
 
 ## Parameterobject
 
@@ -1414,7 +1377,6 @@ description: This is the home page of Animate APIs
 
 [parameter.verbose](./Parameter_object/paramete7.md)
 
-
 ## Pathobject
 
 [pathsummary](./Path_object/path_summary.md)
@@ -1435,7 +1397,6 @@ description: This is the home page of Animate APIs
 
 [path.nPts](./Path_object/path7.md)
 
-
 ## presetItemobject
 
 [presetItemsummary](./presetItem_object/presetItem_summary.md)
@@ -1451,7 +1412,6 @@ description: This is the home page of Animate APIs
 [presetItem.open](./presetItem_object/presetIte4.md)
 
 [presetItem.path](./presetItem_object/presetIte5.md)
-
 
 ## presetPanelobject
 
@@ -1485,7 +1445,6 @@ description: This is the home page of Animate APIs
 
 [presetPanel.selectItem.()](./presetPanel_object/presetPan13.md)
 
-
 ## Rectangleobject
 
 [RectangleObjectsummary](./Rectangle_object/RectangleObject_summary.md)
@@ -1499,7 +1458,6 @@ description: This is the home page of Animate APIs
 [RectangleObject.topLeftRadius](./Rectangle_object/RectangleObjec3.md)
 
 [RectangleObject.topRightRadius](./Rectangle_object/RectangleObjec4.md)
-
 
 ## Shapeobject
 
@@ -1533,7 +1491,6 @@ description: This is the home page of Animate APIs
 
 [shape.vertices](./Shape_object/shape13.md)
 
-
 ## SoundItemobject
 
 [soundItemsummary](./SoundItem_object/soundItem_summary.md)
@@ -1565,7 +1522,6 @@ description: This is the home page of Animate APIs
 [soundItem.sourceFilePath](./SoundItem_object/soundIt12.md)
 
 [soundItem.useImportedMP3Quality](./SoundItem_object/soundIt13.md)
-
 
 ## SpriteSheetExporterobject
 
@@ -1629,7 +1585,6 @@ description: This is the home page of Animate APIs
 
 [SpriteSheetExporter.version](./SpriteSheetExporter_object/SpriteSheetExport28.md)
 
-
 ## Strokeobject
 
 [strokesummary](./Stroke_object/stroke_summary.md)
@@ -1684,7 +1639,6 @@ description: This is the home page of Animate APIs
 
 [stroke.waveLength](./Stroke_object/stroke24.md)
 
-
 ## swfPanelobject
 
 [swfPanelsummary](./swfPanel_object/swfPanel_summary.md)
@@ -1702,7 +1656,6 @@ description: This is the home page of Animate APIs
 [swfPanel.reload.()](./swfPanel_object/swfPane5.md)
 
 [swfPanel.setFocus.()](./swfPanel_object/swfPane6.md)
-
 
 ## SymbolInstanceobject
 
@@ -1770,7 +1723,6 @@ description: This is the home page of Animate APIs
 
 [symbolInstance.visible](./SymbolInstance_object/symbolInstan30.md)
 
-
 ## SymbolItemobject
 
 [symbolItemsummary](./SymbolItem_object/symbolItem_summary.md)
@@ -1800,7 +1752,6 @@ description: This is the home page of Animate APIs
 [symbolItem.symbolType](./SymbolItem_object/symbolIt11.md)
 
 [symbolItem.timeline](./SymbolItem_object/symbolIt12.md)
-
 
 ## TextObject
 
@@ -1868,7 +1819,6 @@ description: This is the home page of Animate APIs
 
 [text.variableName](./Text_object/text30.md)
 
-
 ## TextAttrsObject
 
 [textAttrssummary](./TextAttrs_object/textAttrs_summary.md)
@@ -1909,7 +1859,6 @@ description: This is the home page of Animate APIs
 
 [textAttrs.url](./TextAttrs_object/textAtt17.md)
 
-
 ## TextRunObject
 
 [textRunsummary](./TextRun_object/textRun_summary.md)
@@ -1917,7 +1866,6 @@ description: This is the home page of Animate APIs
 [textRun.textAttrs](./TextRun_object/textRun.md)
 
 [textRun.characters](./TextRun_object/textRun1.md)
-
 
 ## TextureAtlasExporterobject
 
@@ -1958,7 +1906,6 @@ description: This is the home page of Animate APIs
 [TextureAtlasExporter.sheetWidth](./TextureAtlasExporter_object/TextureAtlasExporter16.md)
 
 [TextureAtlasExporter.version](./TextureAtlasExporter_object/TextureAtlasExporter17.md)
-
 
 ## TimelineObject
 
@@ -2070,7 +2017,6 @@ description: This is the home page of Animate APIs
 
 [timeline.stopPlayback.()](./Timeline_object/timeli50.md)
 
-
 ## ToolObjobject
 
 [toolObjsummary](./ToolObj_object/toolObj_summary.md)
@@ -2098,7 +2044,6 @@ description: This is the home page of Animate APIs
 [toolObj.showPIControl.()](./ToolObj_object/toolOb10.md)
 
 [toolObj.showTransformHandles.()](./ToolObj_object/toolOb11.md)
-
 
 ## ToolsObject
 
@@ -2128,7 +2073,6 @@ description: This is the home page of Animate APIs
 
 [tools.toolObjs](./Tools_object/tools11.md)
 
-
 ## TweenObject
 
 [TweenobjectSummary](./Tween_Object/Tween_object_Summary.md)
@@ -2147,7 +2091,6 @@ description: This is the home page of Animate APIs
 
 [Tween.tweenType](./Tween_Object/Tween6.md)
 
-
 ## Vertexobject
 
 [vertexsummary](./Vertex_object/vertex_summary.md)
@@ -2159,7 +2102,6 @@ description: This is the home page of Animate APIs
 [vertex.x](./Vertex_object/vertex2.md)
 
 [vertex.y](./Vertex_object/vertex3.md)
-
 
 ## VideoItemObject
 
@@ -2178,7 +2120,6 @@ description: This is the home page of Animate APIs
 [videoItem.sourceFilePath](./VideoItem_object/videoIte5.md)
 
 [videoItem.videoType](./VideoItem_object/videoIte6.md)
-
 
 ## XMLUIObject
 
@@ -2205,7 +2146,6 @@ description: This is the home page of Animate APIs
 [xmlui.setEnabled.()](./XMLUI_object/xmlui9.md)
 
 [xmlui.setVisible.()](./XMLUI_object/xmlui10.md)
-
 
 ## C-LevelExtensibility
 

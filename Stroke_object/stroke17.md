@@ -14,14 +14,17 @@ Property; a [Fill object](../Fill_object/fill_summary.md) that represents the fi
 
 #### Example
 
-
 The following example specifies fill settings and then applies them to the stroke:
+
 ```javascript
 var fill = fl.getDocumentDOM().getCustomFill(); 
 fill.linearGradient = true;
-fill.colorArray = [ 00ff00, ff0000, fffff ];
+fill.colorArray = [
+    00ff00,
+    ff0000,
+    fffff
+];
 var stroke = fl.getDocumentDOM().getCustomStroke(); 
 stroke.shapeFill = fill; 
 fl.getDocumentDOM().setCustomStroke(stroke);
-
 ```

@@ -12,9 +12,9 @@ document.getCustomFill([objectToFill])
 
 **objectToFill** A string that specifies the location of the fill object. The following values are valid:
 
--   "toolbar" returns the fill object of the Tools panel and Property inspector.
+- "toolbar" returns the fill object of the Tools panel and Property inspector.
 
--   "selection" returns the fill object of the selection.
+- "selection" returns the fill object of the selection.
 
 If you omit this parameter, the default value is "selection". If there is no selection, the method returns
 undefined. This parameter is optional.
@@ -44,6 +44,7 @@ fill.posArray = [0, 100, 200];
 fl.getDocumentDOM().setCustomFill( fill );
 
 ```
+
 #### See also
 
 [document.setCustomFill()](../Document_object/docum470.md)

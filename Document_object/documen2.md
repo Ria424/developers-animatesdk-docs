@@ -29,6 +29,7 @@ The following example adds an integer value of 12 to the selected object:
 fl.getDocumentDOM().addDataToSelection("myData", "integer", 12);
 
 ```
+
 #### See also
 
 [document.removeDataFromSelection()](../Document_object/docum260.md)

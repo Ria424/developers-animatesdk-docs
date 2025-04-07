@@ -38,6 +38,7 @@ fl.getDocumentDOM().getTimeline().layers[0].frames[1].soundLibraryItem
 fl.getDocumentDOM().getTimeline().layers[0].frames[1].setSoundEnvelope(soundEnv);
 
 ```
+
 #### See also
 
 [frame.setSoundEnvelope()](../Frame_object/frame27.md)

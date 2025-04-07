@@ -15,6 +15,7 @@ Property; a Boolean value that specifies whether the filter is a knockout filter
 #### Example
 
 The following example sets the knockout property to true for the Glow filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){
@@ -25,6 +26,7 @@ myFilters[i].knockout = true;
 fl.getDocumentDOM().setFilters(myFilters);
 
 ```
+
 #### See also
 
 [document.setFilterProperty()](../Document_object/docum520.md)

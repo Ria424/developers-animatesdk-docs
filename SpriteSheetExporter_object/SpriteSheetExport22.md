@@ -19,4 +19,3 @@ Nothing.
 #### Description
 
 Method; Removes the specified bitmap or bitmapItem from the sprite sheet object.
-

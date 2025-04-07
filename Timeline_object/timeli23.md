@@ -23,6 +23,7 @@ Method: returns an XML string that represents the current positions of the horiz
 #### Example
 
 Assuming that you have some guide lines on the first timeline, the following example displays them as an XML string in the Output panel:
+
 ```javascript
 var currentTimeline = fl.getDocumentDOM().timelines[0];
 fl.trace(currentTimeline.getGuidelines());

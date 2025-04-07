@@ -38,5 +38,3 @@ fl.trace(apText);
 #### See also
 
 [actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md), [actionsPanel.getText()](../actionsPanel_object/actionsPane3.md), [actionsPanel.replaceSelectedText()](../actionsPanel_object/actionsPane5.md), [actionsPanel.setSelection()](../actionsPanel_object/actionsPane7.md)
-
-<span id="actionsPanel.replaceSelectedText()" class="anchor"></span>

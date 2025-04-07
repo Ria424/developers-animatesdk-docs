@@ -20,11 +20,11 @@ Nothing.
 
 Method; Sets the sound envelope of any frame with sound file. The soundEnv object is an array and every element of array contains the following properties:
 
--   *mark*
+- *mark*
 
--   *leftChannel*
+- *leftChannel*
 
--   *rightChannel*
+- *rightChannel*
 
 #### Example
 
@@ -48,6 +48,7 @@ for (int i=0; i<soundEnv.length; i++) {
 }
 
 ```
+
 #### See also
 
 [frame.getSoundEnvelope()](../Frame_object/frame8.md)

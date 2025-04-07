@@ -26,7 +26,6 @@ For information on making a selection, see [document.setSelectionRect()](../Docu
 
 #### Example
 
-
 The following example moves the selected item 62 pixels to the right and 84 pixels down:
 
 ```javascript

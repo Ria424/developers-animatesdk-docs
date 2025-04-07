@@ -10,7 +10,7 @@ TextureAtlasExporter.resolution
 
 #### Description
 
-Property; Floating value which indicates in which resolution the textures needs to be exported. 
+Property; Floating value which indicates in which resolution the textures needs to be exported.
 
 #### Example
 

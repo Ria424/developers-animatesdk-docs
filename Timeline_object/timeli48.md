@@ -23,6 +23,7 @@ Method; shows the layer masking during authoring by locking the mask and masked 
 #### Example
 
 The following example specifies that the layer masking of the first layer should show during authoring.
+
 ```javascript
 fl.getDocumentDOM().getTimeline().showLayerMasking(0);
 ```

@@ -27,16 +27,21 @@ Property; changes the text string within this Text object. If you omit the optio
 #### Example
 
 The following example assigns the string this is a string to the selected text field:
+
 ```javascript
 fl.getDocumentDOM().selection[0].setTextString("this is a string");
 ```
+
 The following example inserts the string abc beginning at the fifth character of the selected text field:
+
 ```javascript
 fl.getDocumentDOM().selection[0].setTextString("01234567890");
 fl.getDocumentDOM().selection[0].setTextString("abc", 4);
 // text field is now "0123abc4567890"
 ```
+
 The following example replaces the text from the third through the eighth character of the selected text string with the string abcdefghij. Characters between *startIndex* and *endIndex* are overwritten. Characters beginning with *endIndex* follow the inserted string.
+
 ```javascript
 fl.getDocumentDOM().selection[0].setTextString("01234567890");
 fl.getDocumentDOM().selection[0].setTextString("abcdefghij", 2, 8);

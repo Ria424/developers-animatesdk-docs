@@ -24,5 +24,3 @@ fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
 #### See also
 
 [bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIte11.md)
-
-<span id="bitmapItem.sourceFileIsCurrent" class="anchor"></span>

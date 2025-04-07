@@ -12,22 +12,23 @@ stroke.color
 
 Property; the color of the stroke, in one of the following formats:
 
--   A string in the format "#RRGGBB" or "#RRGGBBAA"
+- A string in the format "#RRGGBB" or "#RRGGBBAA"
 
--   A hexadecimal number in the format 0xRRGGBB
+- A hexadecimal number in the format 0xRRGGBB
 
--   An integer that represents the decimal equivalent of a hexadecimal number
+- An integer that represents the decimal equivalent of a hexadecimal number
 
 #### Example
 
-
 The following example sets the stroke color:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.color = "#000000"; 
 fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```
+
 #### See also
 
 [stroke.shapeFill](../Stroke_object/stroke17.md)

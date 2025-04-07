@@ -22,6 +22,7 @@ var theFrame = fl.getDocumentDOM().getTimeline().layers[0].frames[0]
 theFrame.useSingleEaseCurve = true;
 
 ```
+
 #### See also
 
 [frame.getCustomEase()](../Frame_object/frame6.md), [frame.hasCustomEase](../Frame_object/frame10.md), [frame.setCustomEase()](../Frame_object/frame24.md)

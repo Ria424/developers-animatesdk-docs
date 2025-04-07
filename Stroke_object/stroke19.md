@@ -14,8 +14,8 @@ Property; a Boolean value that specifies whether stroke hinting is set on the st
 
 #### Example
 
-
 The following example enables stroke hinting for the stroke:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.strokeHinting = true; 

@@ -67,11 +67,13 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../flash_object_(fl)/fl_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
+
 ```javascript
 flash.closeAll(); 
 an.closeAll();
 fl.closeAll();
 ```
+
 The flash object contains the following *child objects*:
 
 | **Object**             | **How to access**                                                                                                                                                                                        |
@@ -129,6 +131,7 @@ In some cases, you might want an action to specifically target the currently sel
 ```var accDescription = fl.getDocumentDOM().selection[0].description;```
 
 The following script doubles the size of the first element on the Stage that is stored in the element array, instead of the current selection:
+
 ```javascript
 var element = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
 if (element) {
@@ -136,7 +139,9 @@ if (element) {
     element.height = element.height*2;
 }
 ```
+
 You can also do something such as loop through all the elements on the Stage and increase the width and height by a specified amount, as shown in the following example:
+
 ```javascript
 var elementArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
 for (var i=0; i < elementArray.length; i++) {
@@ -145,6 +150,7 @@ for (var i=0; i < elementArray.length; i++) {
     elementArray[i].height += offset;
 }
 ```
+
 ### Summary of the DOM structure
 
 The following list displays the DOM structure in outline format. Numbers at the beginning of each line represent the level of an object. For example, an object preceded by "03" is a child of next highest "02" object, which, in turn, is a child of the next highest "01" object.

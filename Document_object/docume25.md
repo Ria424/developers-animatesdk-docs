@@ -22,7 +22,6 @@ Method; indicates whether the Edit Symbols menu and functionality are enabled. T
 
 #### Example
 
-
 The following example displays in the Output panel the state of the Edit Symbols menu and functionality:
 
 ```javascript

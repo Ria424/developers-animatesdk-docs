@@ -15,6 +15,7 @@ Property; a string that specifies the color mode as identified in the symbol Pro
 #### Example
 
 The following example changes the colorMode property of the first element in the first frame of the first layer in the timeline to alpha:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].colorMode = "alpha";
 

@@ -19,4 +19,5 @@ The following example sets this property to true for the specified library item:
 ```javascript
 fl.getDocumentDOM().library.items[0].linkageImportForRS = true;
 ```
+
 <span id="item.linkageURL" class="anchor"></span>

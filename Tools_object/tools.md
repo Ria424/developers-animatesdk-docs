@@ -15,6 +15,7 @@ Read-only property; returns the [ToolObj object](../ToolObj_object/toolObj_summa
 #### Example
 
 The following example saves an object that represents the currently active tool in the theTool variable:
+
 ```javascript
 var theTool = fl.tools.activeTool;
 ```

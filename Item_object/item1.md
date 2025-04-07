@@ -24,7 +24,6 @@ Method; retrieves the value of the specified data.
 
 The following example gets the value of the data named myData from the first item in the library and stores it in the variable libData:
 
-
 ```javascript
 var libData = fl.getDocumentDOM().library.items[0].getData("myData");
 ```

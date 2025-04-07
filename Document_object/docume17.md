@@ -14,7 +14,6 @@ Property; a string that describes the ActionScript 3.0 "dialect" being used in t
 
 #### Example
 
-
 The following example specifies that the dialect being used in the current document is ECMAScript:
 
 ```javascript
@@ -22,6 +21,7 @@ The following example specifies that the dialect being used in the current docum
 fl.getDocumentDOM().as3Dialect="ES";
 
 ```
+
 #### See also
 
 [document.asVersion](../Document_object/docume21.md)

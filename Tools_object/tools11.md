@@ -11,4 +11,3 @@ tools.toolObjs
 #### Description
 
 Read-only property; an array of ToolObj objects (see [ToolObj object](../ToolObj_object/toolObj_summary.md)).
-

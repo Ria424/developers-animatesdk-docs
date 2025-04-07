@@ -21,6 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
 
 ```
+
 #### See also
 
 [soundItem.sourceFileIsCurrent](../SoundItem_object/soundIt11.md), [soundItem.sourceFilePath](../SoundItem_object/soundIt12.md)

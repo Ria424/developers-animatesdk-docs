@@ -15,4 +15,3 @@ Read-only property: a string that represents the name of the preset or folder, w
 #### Example
 
 See [presetItem.path](../presetItem_object/presetIte5.md).
-

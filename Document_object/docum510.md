@@ -12,11 +12,11 @@ document.setFillColor(color)
 
 **color** The color of the fill, in one of the following formats:
 
--   A string in the format "#RRGGBB" or "#RRGGBBAA"
+- A string in the format "#RRGGBB" or "#RRGGBBAA"
 
--   A hexadecimal number in the format 0xRRGGBB
+- A hexadecimal number in the format 0xRRGGBB
 
--   An integer that represents the decimal equivalent of a hexadecimal number
+- An integer that represents the decimal equivalent of a hexadecimal number
 
 If set to null, no fill color is set, which is the same as setting the Fill color swatch in the user interface to no fill.
 

@@ -23,6 +23,7 @@ Method; takes two points and returns a new adjusted or constrained point. If the
 #### Example
 
 The following example returns a constrained point:
+
 ```javascript
 pt2 = fl.tools.constrainPoint(pt1, tempPt);
 ```

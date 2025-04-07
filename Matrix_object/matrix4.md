@@ -16,7 +16,6 @@ You can move an object by setting the matrix.tx and matrix.ty properties (see [m
 
 #### Example
 
-
 In the following example, setting tx and ty to 0 moves the registration point of the object to point 0,0 in the document:
 
 ```javascript

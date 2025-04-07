@@ -21,6 +21,7 @@ The following example sets the sample rate of an item in the library to 5 kHz if
 fl.getDocumentDOM().library.items[0].sampleRate = "5 kHz";
 
 ```
+
 #### See also
 
 [soundItem.compressionType](../SoundItem_object/soundIte2.md)

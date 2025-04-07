@@ -23,7 +23,6 @@ Method; returns a string that specifies the blending mode for the selected objec
 
 #### Example
 
-
 The following example displays the name of the blending mode in the Output panel:
 
 ```javascript

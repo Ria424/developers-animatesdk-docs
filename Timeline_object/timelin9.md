@@ -28,6 +28,7 @@ The following example copies the motion from the selected frame or frames to the
 ```javascript
 fl.getDocumentDOM().getTimeline().copyMotionAsAS3();
 ```
+
 #### See also
 
 [timeline.copyMotion()](../Timeline_object/timelin8.md)

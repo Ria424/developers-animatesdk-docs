@@ -30,6 +30,7 @@ The following code deletes a preset named aDribble from the Custom Presets folde
 fl.presetPanel.deleteItem("Custom Presets/aDribble");
 
 ```
+
 #### See also
 
 [presetPanel.deleteFolder()](../presetPanel_object/presetPane2.md)

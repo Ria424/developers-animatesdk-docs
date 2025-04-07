@@ -24,11 +24,14 @@ Method; creates a new motion object. The parameters are optional, and if specifi
 #### Example
 
 The following example creates a motion objects at the current playhead position on the top layer:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0; fl.getDocumentDOM().getTimeline().createMotionObject();
 ```
-The following example creates a motion object starting at Frame 5, and extending up to, but 
+
+The following example creates a motion object starting at Frame 5, and extending up to, but
 not including, Frame 15 of the top layer in the current scene:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
 fl.getDocumentDOM().getTimeline().createMotionObject(5, 15);

@@ -32,6 +32,7 @@ number values):
 fl.getDocumentDOM().getTimeline().insertBlankKeyframe(19);
 
 ```
+
 The following example inserts a blank keyframe at the currently selected frame (or playhead location if no frame is selected):
 
 ```javascript

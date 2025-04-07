@@ -15,6 +15,7 @@ Property; an integer that is part of the color transformation for the instance. 
 #### Example
 
 The following example sets the colorRedAmount of the selected symbol instance to 255:
+
 ```javascript
 fl.getDocumentDOM().selection[0].colorRedAmount = 255;
 

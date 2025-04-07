@@ -15,6 +15,7 @@ Property; a string that specifies the blur quality. Acceptable values are "low",
 #### Example
 
 The following example sets the blur quality to "medium" for the Glow filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){
@@ -25,6 +26,7 @@ myFilters[i].quality = 'medium';
 fl.getDocumentDOM().setFilters(myFilters);
 
 ```
+
 #### See also
 
 [document.setFilterProperty()](../Document_object/docum520.md)

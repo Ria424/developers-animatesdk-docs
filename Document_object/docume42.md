@@ -27,6 +27,7 @@ The following example deletes the currently active profile, if there is more tha
 alert(fl.getDocumentDOM().deletePublishProfile());
 
 ```
+
 #### See also
 
 [document.addNewPublishProfile()](../Document_object/documen9.md)

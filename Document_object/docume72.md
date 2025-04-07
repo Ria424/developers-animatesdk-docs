@@ -22,7 +22,6 @@ Method; identical to retrieving the value of the To Stage button in the Align pa
 
 #### Example
 
-
 The following example retrieves the value of the To Stage button in the Align panel. If the return value is true, the To Stage button is active; otherwise, it is not.
 
 ```javascript
@@ -30,6 +29,7 @@ var isAlignToDoc = fl.getDocumentDOM().getAlignToDocument();
 fl.getDocumentDOM().align("left", isAlignToDoc);
 
 ```
+
 #### See also
 
 [document.setAlignToDocument()](../Document_object/docum450.md)

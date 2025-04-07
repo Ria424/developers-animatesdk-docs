@@ -27,6 +27,7 @@ The following example clears the contents of the Compiler Errors panel:
 fl.compilerErrors.clear();
 
 ```
+
 #### See also
 
 [compilerErrors.save()](../compilerErrors_object/compilerError1.md)

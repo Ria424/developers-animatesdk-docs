@@ -15,10 +15,12 @@ Read-only property: a string that represents the name of the specified Window SW
 #### Example
 
 The following code displays the name of the first registered Window SWF panel in the Output panel:
+
 ```javascript
 fl.trace(fl.swfPanels[0].name);
 
 ```
+
 #### See also
 
 [swfPanel.path](../swfPanel_object/swfPane4.md), [fl.swfPanels](../flash_object_(fl)/fl74.md)

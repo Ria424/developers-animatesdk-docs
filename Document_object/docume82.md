@@ -23,7 +23,6 @@ To determine which version of ActionScript is being targeted in the specified fi
 
 #### Example
 
-
 The following example illustrates targeting specified player versions for the current document and then retrieving those values:
 
 ```javascript
@@ -35,6 +34,7 @@ var version = fl.getDocumentDOM().getPlayerVersion();
 fl.trace(version) // displays ""FlashPlayer10""
 
 ```
+
 #### See also
 
 [document.setPlayerVersion()](../Document_object/docum600.md)

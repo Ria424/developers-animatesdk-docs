@@ -23,11 +23,11 @@ Set camera color filter using decomposed values of (Brightness,Contrast,saturati
 #### Example
 
 The following example sets Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
+
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 timeline.camera.cameraEnabled = true;
 timeline.camera.colorFilterEnabled = true;
 
 timeline.camera.setColorFilter(0, 50, 255, 255, 100);
-
 ```

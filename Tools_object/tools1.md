@@ -15,6 +15,7 @@ Read-only property; a Boolean value that identifies if the Alt key is being pres
 #### Example
 
 The following example determines whether the Alt key is being pressed:
+
 ```javascript
 var isAltDown = fl.tools.altIsDown;
 ```

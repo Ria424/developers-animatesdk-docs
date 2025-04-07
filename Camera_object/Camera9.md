@@ -23,11 +23,11 @@ Set camera tint using tint color(RGB) & tint percent (percentage of tint).
 #### Example
 
 The following example sets camera tint using tint color(RGB) & tint percent (percentage of tint).
+
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 timeline.camera.cameraEnabled = true;
 timeline.camera.tintEnabled = true;
 
-timeline.camera.setTint(0, 100,255,255,255 );
-
+timeline.camera.setTint(0, 100, 255, 255, 255);
 ```

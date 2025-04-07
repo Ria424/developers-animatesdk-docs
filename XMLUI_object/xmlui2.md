@@ -23,12 +23,13 @@ Method; retrieves the value of the specified property of the current XMLUI dialo
 
 #### Example
 
-The following example returns the value of a property named URL: 
+The following example returns the value of a property named URL:
 
 ```javascript
 fl.xmlui.get("URL");
 
 ```
+
 #### See also
 
 [fl.xmlui](../flash_object_(fl)/fl81.md), [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md), [xmlui.set()](../XMLUI_object/xmlui6.md)

@@ -20,6 +20,7 @@ The following example sets an item in the library to use the imported MP3 qualit
 fl.getDocumentDOM().library.items[0].useImportedMP3Quality = true;
 
 ```
+
 #### See also
 
 [soundItem.compressionType](../SoundItem_object/soundIte2.md)

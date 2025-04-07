@@ -19,6 +19,7 @@ Method; starts automatic playback of the timeline if it is currently playing. Th
 #### Example
 
 The following example starts playback of the timeline.
+
 ```javascript
 fl.getDocumentDOM().getTimeline().startPlayback();
 ```

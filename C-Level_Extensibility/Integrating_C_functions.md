@@ -6,34 +6,34 @@ The C-level extensibility mechanism lets you implement Animate extensibility fil
 
 The process for implementing this capability is summarized in the following steps:
 
-1.  Define functions using the C or C++ language.
+1. Define functions using the C or C++ language.
 
-2.  Bundle them in a DLL file (Windows) or a shared library (Macintosh).
+2. Bundle them in a DLL file (Windows) or a shared library (Macintosh).
 
-3.  Save the DLL file or library in the appropriate location:
+3. Save the DLL file or library in the appropriate location:
 
-    -   Windows 10:
+    - Windows 10:
 
         *boot drive\Users\username\AppData\Local\Adobe\Animate version\language\Configuration\External Libraries*
 
-    -   Mac OS X:
+    - Mac OS X:
 
         Macintosh HD/Users/*username*/Library/Application Support/Adobe/Animate
         *version*/*language*/Configuration/External Libraries
 
-1.  Create a JSFL file that calls the functions.
+4. Create a JSFL file that calls the functions.
 
-2.  Run the JSFL file from the Commands menu in the Animate authoring environment. For more information, see ["Sample DLL implementation"](#sample-dll-implementation).
+5. Run the JSFL file from the Commands menu in the Animate authoring environment. For more information, see ["Sample DLL implementation"](#sample-dll-implementation).
 
 ### C-level extensibility and the JavaScript interpreter
 
 The C code in the DLL or shared library interacts with the Animate JavaScript API at three different times:
 
--   At startup, to register the library’s functions
+- At startup, to register the library’s functions
 
--   When the C function is called, to unpack the arguments that are being passed from JavaScript to C
+- When the C function is called, to unpack the arguments that are being passed from JavaScript to C
 
--   Before the C function returns, to package the return value
+- Before the C function returns, to package the return value
 
 To accomplish these tasks, the interpreter defines several data types and exposes an API. Definitions for the data types and functions that are listed in this section appear in the mm_jsapi.h file. For your library to work properly, you must include the mm_jsapi.h file at the top of each file in your library, with the following line:
 
@@ -234,11 +234,11 @@ MM_Init();\
 
 This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingAnimate/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](../Introduction/Sample_implementations.md) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
 
--   Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
+- Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
--   Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)).
+- Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)).
 
--   In the Animate authoring environment, select Commands >Sample. The trace statement in the JSFL file sends the results of the function defined in Sample.dll to the Output panel.
+- In the Animate authoring environment, select Commands >Sample. The trace statement in the JSFL file sends the results of the function defined in Sample.dll to the Output panel.
 
 The rest of this section discusses the development of the sample. In this case, the DLL contains only one function, which adds two numbers. The C code is shown in the following example:
 
@@ -274,6 +274,7 @@ JSBool computeSum(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, 
     return JS_TRUE;
 }
 ```
+
 After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
 ```javascript
@@ -285,4 +286,3 @@ fl.trace("The sum of " + a + " and " + b + " is " + sum );
 ```
 
 To run the function defined in the DLL, select Commands > Sample in the Animate authoring environment.
-

@@ -50,6 +50,7 @@ function embedFontSymbol(symbolName, fontName, includeVariants) {
  }
 }
 ```
+
 The following function displays all the font symbols in the Output panel.
 function dumpFontSymbols()
 
@@ -72,6 +73,7 @@ function dumpFontSymbols()
  }
 }
 ```
+
 #### See also
 
 [fontItem.isDefineFont4Symbol](../fontItem_object/fontIte6.md), [text.embedVariantGlyphs](../Text_object/text8.md)

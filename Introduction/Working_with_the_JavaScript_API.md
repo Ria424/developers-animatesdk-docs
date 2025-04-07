@@ -26,29 +26,29 @@ You can also create a JSFL file by selecting commands in the History panel. Then
 
 The History panel provides some other useful options as well. You can copy selected commands to the Clipboard, and you can view JavaScript commands that are generated while you are working in Animate.
 
-#### To copy commands from the History panel to the clipboard:
+#### To copy commands from the History panel to the clipboard
 
-1.  Select one or more commands in the History panel.
+1. Select one or more commands in the History panel.
 
-2.  Do one of the following:
+2. Do one of the following:
 
-    -   Click the Copy button.
+    - Click the Copy button.
 
-    -   Select Copy Steps from the panel menu.
+    - Select Copy Steps from the panel menu.
 
-#### To view JavaScript commands in the History panel:
+#### To view JavaScript commands in the History panel
 
--   Select View > JavaScript in Panel from the panel menu.
+- Select View > JavaScript in Panel from the panel menu.
 
 ### Saving JSFL files
 
 You can have JSFL scripts available within the Animate authoring environment by storing them in one of several folders within the Configuration folder. By default, the Configuration folder is in the following location:
 
--   Windows® 10™:
+- Windows® 10™:
 
 *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate *version*\\*language*\\Configuration\\
 
--   Mac OS® X:
+- Mac OS® X:
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/
 
@@ -66,7 +66,7 @@ Within the Configuration folder, the following folders can contain scripts that 
 If you edit a script in the Commands folder, the new script is immediately available in Animate. If you edit a script for an extensible tool, close and restart Animate, or else use the [fl.reloadTools()](../flash_object_(fl)/fl57.md) command. However, if you used a script to add an extensible tool to the Tools panel and you then edit the script, either remove and then add the tool to the Tools panel again, or else close and restart Animate for the revised tool to be available.
 There are two locations where you can store command and tool files so they can be accessed in the authoring environment.
 
--   For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
+- For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
 
 <table>
     <thead>
@@ -99,7 +99,7 @@ There are two locations where you can store command and tool files so they can b
     </tbody>
 </table>
 
--   For scripts that appear as extensible tools in the Tools panel, save the JSFL file in the Tools folder in the following location:
+- For scripts that appear as extensible tools in the Tools panel, save the JSFL file in the Tools folder in the following location:
 
 <table>
     <thead>
@@ -138,70 +138,79 @@ If a JSFL file has other files that go with it, such as XML files, store them in
 
 There are several ways to run scripts. The most common ways are explained in this section.
 
-#### To run a script that you are currently viewing or editing:
+#### To run a script that you are currently viewing or editing
 
--   Right-click (Command-click on the Macintosh) and choose Run Script.
+- Right-click (Command-click on the Macintosh) and choose Run Script.
 
--   Click the Run Script icon on the Script window toolbar.
+- Click the Run Script icon on the Script window toolbar.
 
 This option lets you run a script before you have saved it. This option also lets you run a script even if no FLA files are open.
 
-#### To run a script that is in the Commands folder, do one of the following:
+#### To run a script that is in the Commands folder, do one of the following
 
--   From the authoring environment, select Commands > *Script Name*.
+- From the authoring environment, select Commands > *Script Name*.
 
--   Use a keyboard shortcut that you have assigned to the script. To assign a keyboard shortcut, use Edit > Keyboard Shortcuts and select Drawing Menu Commands from the Commands pop-up menu. Expand the Commands node in the menu tree to view a list of available scripts.
+- Use a keyboard shortcut that you have assigned to the script. To assign a keyboard shortcut, use Edit > Keyboard Shortcuts and select Drawing Menu Commands from the Commands pop-up menu. Expand the Commands node in the menu tree to view a list of available scripts.
 
-#### To run a command script that is not in the Commands folder, do one of the following:
+#### To run a command script that is not in the Commands folder, do one of the following
 
--   From the authoring environment, select Commands > Run Command, and then select the script to run.
+- From the authoring environment, select Commands > Run Command, and then select the script to run.
 
--   From within a script, use the [fl.runScript()](../flash_object_(fl)/fl62.md) command.
+- From within a script, use the [fl.runScript()](../flash_object_(fl)/fl62.md) command.
 
--   From the file system, double-click the script file.
+- From the file system, double-click the script file.
 
-#### To add a tool implemented in a JSFL file to the Tools panel:
+#### To add a tool implemented in a JSFL file to the Tools panel
 
-1.  Copy the JSFL file for the tool and any other associated files to the Tools folder (see ["Saving JSFL files"](#saving-jsfl-files)).
+1. Copy the JSFL file for the tool and any other associated files to the Tools folder (see ["Saving JSFL files"](#saving-jsfl-files)).
 
-2.  If tool is not visible in toolbar, click three dots (Edit Toolbar...)
+2. If tool is not visible in toolbar, click three dots (Edit Toolbar...)
 
-3.  Add the tool to the list of available tools.
+3. Add the tool to the list of available tools.
 
 You can add individual JavaScript API commands to ActionScript files by using the MMExecute() function, which is documented in the *ActionScript 3.0 Language and Components Reference*. However, the MMExecute() function has an effect only when it is used in the context of a custom user interface element, such as a component Property inspector, or a SWF panel within the authoring environment. Even if called from ActionScript, JavaScript API commands have no effect in Flash Player or outside the authoring environment.
 
-#### To issue a command from an ActionScript script:
+#### To issue a command from an ActionScript script
 
--   Use the following syntax (you can concatenate several commands into one string):
+- Use the following syntax (you can concatenate several commands into one string):
+
 ```
 MMExecute(Javascript command string);
 ```
+
 You can also run a script from the command line.
 
-#### To run a script from the command line on Windows:
+#### To run a script from the command line on Windows
 
--   Use the following syntax (add path information as required):
+- Use the following syntax (add path information as required):
+
 ```
 "Animate.exe" myTestFile.jsfl [-AlwaysRunJSFL]
 ```
+
 Use the `-AlwaysRunJSFL` option to bypass the dialog box that prompts you to confirm script execution.
 
-#### To run a script from the "Terminal" application on the Macintosh, use either of the following:
+#### To run a script from the "Terminal" application on the Macintosh, use either of the following
 
--   Use the following osacript syntax (add path information as required):
+- Use the following osacript syntax (add path information as required):
+
 ```
 osascript -e 'tell application "Animate" to open alias "Mac OS X:Users:user:myTestFile.jsfl" '
 ```
+
 The osascript command can also run AppleScript in a file. For example, you could include the following text in a file named myScript:
+
 ```
 tell application "Animate"
 open alias "Mac OS X:Users:user:myTestFile.jsfl" 
 end tell
 ```
+
 Then, to run the script, you would use this command:
 osascript myScript
 
--   Use the Animate command:
+- Use the Animate command:
+
 ```
 /Applications/Adobe\ Animate\ 2020/Animate.app/Contents/MacOS/Animate \<path of the jsfl file\>
 ```

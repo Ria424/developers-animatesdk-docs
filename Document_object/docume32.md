@@ -30,6 +30,7 @@ The following example pastes the Clipboard contents in place in the current docu
 fl.getDocumentDOM().clipPaste(true);
 
 ```
+
 #### See also
 
 [document.clipCopy()](../Document_object/docume30.md), [document.clipCut()](../Document_object/docume31.md), [fl.clipCopyString()](../flash_object_(fl)/fl6.md).

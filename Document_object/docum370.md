@@ -30,6 +30,7 @@ The following example saves the current document in its default location:
 fl.getDocumentDOM().save();
 
 ```
+
 #### See also
 
 [fl.saveAll()](../flash_object_(fl)/fl63.md), [fl.saveDocument()](../flash_object_(fl)/fl64.md), [fl.saveDocumentAs()](../flash_object_(fl)/fl65.md).

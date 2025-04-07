@@ -12,11 +12,11 @@ filter.color
 
 Property; the color of the filter, in one of the following formats:
 
--   A string in the format "#RRGGBB" or "#RRGGBBAA"
+- A string in the format "#RRGGBB" or "#RRGGBBAA"
 
--   A hexadecimal number in the format 0xRRGGBB
+- A hexadecimal number in the format 0xRRGGBB
 
--   An integer that represents the decimal equivalent of a hexadecimal number
+- An integer that represents the decimal equivalent of a hexadecimal number
 
 This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the
 [filter.name](../Filter_object/filter13.md) property.
@@ -24,6 +24,7 @@ This property is defined for Filter objects with a value of "dropShadowFilter" o
 #### Example
 
 The following example sets the color to "#ff00003e" for the Drop Shadow filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){
@@ -34,6 +35,7 @@ myFilters[i].color = '#ff00003e';
 fl.getDocumentDOM().setFilters(myFilters);
 
 ```
+
 #### See also
 
 [document.setFilterProperty()](../Document_object/docum520.md)

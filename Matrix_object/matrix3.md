@@ -14,5 +14,4 @@ Property; a floating-point value that specifies the (1,1) element in the matrix.
 
 #### Example
 
-
 See the [matrix.a](../Matrix_object/matrix.md) example.

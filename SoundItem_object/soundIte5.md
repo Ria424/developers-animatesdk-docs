@@ -21,6 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("Mod date when imported = " + libItem.fileLastModifiedDate);
 
 ```
+
 #### See also
 
 [soundItem.sourceFileExists](../SoundItem_object/soundIt10.md), [soundItem.sourceFileIsCurrent](../SoundItem_object/soundIt11.md), [soundItem.sourceFilePath](../SoundItem_object/soundIt12.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)

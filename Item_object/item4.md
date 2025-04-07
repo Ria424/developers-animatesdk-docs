@@ -14,7 +14,6 @@ Read-only property; a string that specifies the type of element. The value is on
 
 #### Example
 
-
 The following example shows the type of the specified library item in the Output panel:
 
 ```javascript

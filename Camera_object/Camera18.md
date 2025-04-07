@@ -1,4 +1,4 @@
-## Camera.tintEnabled	
+## Camera.tintEnabled 
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2019
 
 #### Usage
 
-camera.tintEnabled	
+camera.tintEnabled 
 
 #### Type
 
@@ -22,7 +22,5 @@ The following example enables the tint:
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
-
 timeline.camera.tintEnabled = true;
-
 ```

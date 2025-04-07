@@ -12,11 +12,11 @@ document.backgroundColor
 
 Property; the color of the background, in one of the following formats:
 
--   A string in the format "#RRGGBB" or "#RRGGBBAA"
+- A string in the format "#RRGGBB" or "#RRGGBBAA"
 
--   A hexadecimal number in the format 0xRRGGBB
+- A hexadecimal number in the format 0xRRGGBB
 
--   An integer that represents the decimal equivalent of a hexadecimal number
+- An integer that represents the decimal equivalent of a hexadecimal number
 
 #### Example
 

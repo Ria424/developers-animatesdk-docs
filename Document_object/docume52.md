@@ -24,6 +24,7 @@ myDocument.docClass = "com.mycompany.ManagerClass";
 fl.outputPanel.trace("document.docClass has been set to " + myDocument.docClass);
 
 ```
+
 #### See also
 
 [item.linkageBaseClass](../Item_object/item5.md)

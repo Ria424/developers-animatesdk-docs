@@ -30,6 +30,7 @@ The following example displays the message "Sort data?" in an Alert dialog box:
 confirm("Sort data?");
 
 ```
+
 #### See also
 
 [alert()](../Top-Level_Functions_and_Methods/alert.md), [prompt()](../Top-Level_Functions_and_Methods/prompt.md)

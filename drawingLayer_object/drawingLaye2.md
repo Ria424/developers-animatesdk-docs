@@ -10,15 +10,15 @@ Flash MX 2004.
 
 #### Parameters
 
-**x1Ctl** A floating-point value that is the *x* location of the first control point. 
+**x1Ctl** A floating-point value that is the *x* location of the first control point.
 
-**y1Ctl** A floating-point value that is the *y* location of the first control point. 
+**y1Ctl** A floating-point value that is the *y* location of the first control point.
 
 **x2Ctl** A floating-point value that is the *x* position of the middle control point.
 
 **y2Ctl** A floating-point value that is the *y* position of the middle control point.
 
-**xEnd** A floating-point value that is the *x* position of the end control point. 
+**xEnd** A floating-point value that is the *x* position of the end control point.
 
 **yEnd** A floating-point value that is the *y* position of the end control point.
 

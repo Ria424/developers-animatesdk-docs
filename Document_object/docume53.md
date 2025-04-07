@@ -27,6 +27,7 @@ The following example checks the document for persistent data with the name "myD
 var hasData = fl.getDocumentDOM().documentHasData("myData");
 
 ```
+
 #### See also
 
 [document.addDataToDocument()](../Document_object/documen1.md), [document.getDataFromDocument()](../Document_object/docume76.md), [document.removeDataFromDocument()](../Document_object/docum250.md)

@@ -19,4 +19,5 @@ The following example displays the depth of the specified element in the Output 
 // Select an object and run this script.
 fl.trace("Depth of selected object: " + fl.getDocumentDOM().selection[0].depth);
 ```
+
 See the example for [element.elementType](../Element_object/element1.md).

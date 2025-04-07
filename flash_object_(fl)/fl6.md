@@ -24,6 +24,7 @@ To copy the current selection to the Clipboard, use [document.clipCopy()](../Doc
 #### Example
 
 The following example copies the path of the current document to the Clipboard:
+
 ```javascript
 var documentPath = fl.getDocumentDOM().path;
 fl.clipCopyString(documentPath);

@@ -21,7 +21,9 @@ The value of the specified property. Animate looks at the layer’s properties t
 Method; retrieves the specified property’s value for the selected layers.
 
 #### Example
+
 The following example retrieves the name of the top layer in the current document and displays it in the Output panel:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
 var layerName = fl.getDocumentDOM().getTimeline().getLayerProperty("name");

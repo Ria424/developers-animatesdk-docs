@@ -24,5 +24,3 @@ fl.trace("fileIsCurrent = "+ libItem.sourceFileIsCurrent);
 #### See also
 
 [bitmapItem.fileLastModifiedDate](../BitmapItem_object/bitmapIte3.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIte11.md)
-
-<span id="bitmapItem.sourceFilePath" class="anchor"></span>

@@ -14,4 +14,3 @@ Property; a Boolean value that specifies whether the tweened element rotates the
 If you want to specify a value for this property, you should set [frame.motionTweenRotate](../Frame_object/frame17.md) to "none".
 
 <span id="frame.motionTweenRotate" class="anchor"></span>
-

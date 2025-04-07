@@ -15,6 +15,7 @@ Read-only property; a Color object that, when the Color Effect Property Inspecto
 #### Example
 
 The following example illustrates use of this property:
+
 ```javascript
 var elem = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
 if (elem.colorMode = 'tint') {

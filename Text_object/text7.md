@@ -27,6 +27,7 @@ doc.selection[0].embedRanges = "1|3|7";
 ```
 
 The following example resets the property:
+
 ```javascript
 var doc = fl.getDocumentDOM();
 doc.selection[0].embedRanges = "";

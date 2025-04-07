@@ -11,8 +11,8 @@ Adobe Animate 2020.
 
 #### Usage
 
- layer.setRigParentAtFrame(frameIndex,layer) 
- 
+ layer.setRigParentAtFrame(frameIndex,layer)
+
 #### Returns
 
 Nothing

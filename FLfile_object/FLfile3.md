@@ -22,15 +22,15 @@ Results are unpredictable if the file or folder doesn’t exist. You should use 
 Method; returns a string representing the attributes of the specified file or folder, or an empty string if the file has no specific attributes (that it, it is not read-only, not hidden, and so on). You should always use [FLfile.exists()](../FLfile_object/FLfile2.md) to test for the existence of a file or folder before using this method.
 Characters in the string represent the attributes as follows:
 
--   R — *fileOrFolderURI* is read-only
+- R — *fileOrFolderURI* is read-only
 
--   D — *fileOrFolderURI* is a folder (directory)
+- D — *fileOrFolderURI* is a folder (directory)
 
--   H — *fileOrFolderURI* is hidden (Windows only)
+- H — *fileOrFolderURI* is hidden (Windows only)
 
--   S — *fileOrFolderURI* is a system file or folder (Windows only)
+- S — *fileOrFolderURI* is a system file or folder (Windows only)
 
--   A — *fileOrFolderURI* is ready for archiving (Windows only)
+- A — *fileOrFolderURI* is ready for archiving (Windows only)
 
 For example, if *fileOrFolderURI* is a hidden folder, the string returned is *"DH"*.
 
@@ -47,6 +47,7 @@ if (FLfile.exists(URI)){
 }
 
 ```
+
 #### See also
 
 [FLfile.setAttributes()](../FLfile_object/FLfile13.md)

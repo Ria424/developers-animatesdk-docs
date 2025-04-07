@@ -19,6 +19,7 @@ The following example specifies that the string my\_mc will be used to identify 
 ```javascript
 fl.getDocumentDOM().library.items[0].linkageIdentifier = "my_mc";
 ```
+
 #### See also
 
 [item.linkageURL](../Item_object/item12.md)

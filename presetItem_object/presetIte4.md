@@ -17,6 +17,7 @@ This property is true if the item is not a folder. To determine if an item is a 
 #### Example
 
 The following example displays information on whether folders in the Motion Presets panel are expanded or collapsed:
+
 ```javascript
 fl.outputPanel.clear();
 var presetItemArray=fl.presetPanel.items;

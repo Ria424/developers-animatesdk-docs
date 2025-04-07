@@ -28,6 +28,7 @@ The following example targets Flash Player 6 as the player version for the curre
 fl.getDocumentDOM().setPlayerVersion("6");
 
 ```
+
 #### See also
 
 [document.getPlayerVersion()](../Document_object/docume82.md)

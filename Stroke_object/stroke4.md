@@ -14,8 +14,8 @@ Property; an integer that specifies the lengths of the solid parts of a dashed l
 
 #### Example
 
-
 The following example sets the dash1 and dash2 properties for a stroke style of dashed:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
 myStroke.style = "dashed";

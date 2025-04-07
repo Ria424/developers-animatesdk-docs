@@ -30,6 +30,7 @@ var stroke = fl.getDocumentDOM().getCustomStroke(); stroke.thickness += 2;
 fl.getDocumentDOM().setCustomStroke(stroke);
 
 ```
+
 #### See also
 
 [document.getCustomStroke()](../Document_object/docume75.md)

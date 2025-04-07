@@ -13,9 +13,9 @@ SpriteSheetExporter.exportSpriteSheet( path, imageFormat [, writeMetaData] )
 **path** String; A file path with no extension to be used as the base name of the exported files.
 **imageFormat** String or Object. A string or an object that describes the type of image format to generate.
 
--   String: Valid values are either "png" or "jpg", the exporter use whatever values where last used.
+- String: Valid values are either "png" or "jpg", the exporter use whatever values where last used.
 
--   Object: If you pass an object, it needs at least a string property "format" which is either "png" or "jpg". Optionally the object may include "backgroundColor," which is a valid color value (alpha may be included); "quality" (jpg only), which is an integer from 1 to 100; and "bitDepth" (png only) which can be 8, 24 or 32.
+- Object: If you pass an object, it needs at least a string property "format" which is either "png" or "jpg". Optionally the object may include "backgroundColor," which is a valid color value (alpha may be included); "quality" (jpg only), which is an integer from 1 to 100; and "bitDepth" (png only) which can be 8, 24 or 32.
 
 **writeMetaData** Optional. Boolean; Whether or not to write the metadata file with the image file. The default value is true.
 
@@ -29,8 +29,8 @@ Method; Exports the sprite sheet into a an image file and a metadata file based 
 
 #### Example
 
-
 The following examples exports to a PNG with transparency:
+
 ```javascript
 var sse = new SpriteSheetExporter;
 sse.exportSpriteSheet("file:///C|/xxx/sprite-sheet/test" ,{format:"png", bitDepth:32, backgroundColor:"#00000000"})

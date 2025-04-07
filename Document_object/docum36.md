@@ -22,6 +22,7 @@ myDoc.sourcePath = "./Class files;" + myDoc.sourcePath;
 fl.trace(myDoc.sourcePath);
 
 ```
+
 #### See also
 
 [document.externalLibraryPath](../Document_object/docume69.md), [document.libraryPath](../Document_object/docume99.md), [fl.sourcePath](../flash_object_(fl)/fl72.md)

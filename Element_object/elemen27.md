@@ -14,6 +14,4 @@ Property; a float value that specifies the *y* value of the selected element’s
 
 #### Example
 
-
 See [element.x](../Element_object/elemen26.md)
-

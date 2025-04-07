@@ -30,6 +30,7 @@ The following example hides the control with the ID attribute myControl:
 fl.xmlui.setVisible("myControl", false);
 
 ```
+
 #### See also
 
 [xmlui.getVisible()](../XMLUI_object/xmlui5.md)

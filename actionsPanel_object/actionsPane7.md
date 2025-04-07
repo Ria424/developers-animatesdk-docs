@@ -30,6 +30,7 @@ The following example replaces the characters "2006" in the Actions panel with t
 // 2006 - Addresses user request 40196
 // Type the following in the JSFL file fl.actionsPanel.setSelection(3,4); fl.actionsPanel.replaceSelectedText("// Last updated: 2007");
 ```
+
 #### See also
 
 [actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md), [actionsPanel.hasSelection()](../actionsPanel_object/actionsPane4.md), [actionsPanel.replaceSelectedText()](../actionsPanel_object/actionsPane5.md)

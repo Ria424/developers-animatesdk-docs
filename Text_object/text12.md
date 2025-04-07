@@ -25,11 +25,14 @@ Method; retrieves the specified range of text. If you omit the optional paramete
 #### Example
 
 The following example gets the character(s) from the fifth character through the end of the selected text field:
+
 ```javascript
 var myText = fl.getDocumentDOM().selection[0].getTextString(4);
 fl.trace(myText);
 ```
+
 The following example gets the fourth through the ninth characters starting in the selected text field:
+
 ```javascript
 var myText = fl.getDocumentDOM().selection[0].getTextString(3, 9);
 fl.trace(myText);

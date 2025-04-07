@@ -13,19 +13,19 @@ document.selection
 Property; an array of the selected objects in the document. If nothing is selected, returns an array of length zero. If no document is open, returns null.
 To add objects to the array, you must first select them in one of the following ways:
 
--   Manually select objects on the Stage.
+- Manually select objects on the Stage.
 
--   Use one of the selection methods, such as [document.setSelectionRect()](../Document_object/docu9689.md), [document.setSelectionBounds()](../Document_object/docu9658.md), [document.mouseClick()](../Document_object/docum130.md), [document.mouseDblClk()](../Document_object/docum140.md), or [document.selectAll()](../Document_object/docum420.md).
+- Use one of the selection methods, such as [document.setSelectionRect()](../Document_object/docu9689.md), [document.setSelectionBounds()](../Document_object/docu9658.md), [document.mouseClick()](../Document_object/docum130.md), [document.mouseDblClk()](../Document_object/docum140.md), or [document.selectAll()](../Document_object/docum420.md).
 
--   Manually select a frame or frames.
+- Manually select a frame or frames.
 
--   Use one of the methods of the [Timeline object](../Timeline_object/timeline_summary.md) to select a frame or frames, such as
+- Use one of the methods of the [Timeline object](../Timeline_object/timeline_summary.md) to select a frame or frames, such as
 
 [timeline.getSelectedFrames()](../Timeline_object/timeli25.md), [timeline.setSelectedFrames()](../Timeline_object/timeli46.md), or [timeline.selectAllFrames()](../Timeline_object/timeli42.md).
 
--   Specify all the elements in a particular frame (see [Element object](../Element_object/element_summary.md)). See the first example below.
+- Specify all the elements in a particular frame (see [Element object](../Element_object/element_summary.md)). See the first example below.
 
--   Create an array of one or more elements and then assign that array to the document.selection array. See the third example below.
+- Create an array of one or more elements and then assign that array to the document.selection array. See the third example below.
 
 #### Example
 

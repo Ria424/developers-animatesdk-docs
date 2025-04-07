@@ -15,7 +15,6 @@ In Flash MX 2004, the value of instance.instanceType for an item added to the li
 
 #### Example
 
-
 The following example shows that the instance type of a movie clip is symbol:
 
 ```javascript

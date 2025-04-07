@@ -22,17 +22,17 @@ Method; sets the XML metadata for the specified document, overwriting any existi
 ***Note:** Even if true is returned, the XML that is set may not be exactly the same string that you passed in. To get the exact value to which the XML was set, use [document.getMetadata()](../Document_object/docume80.md).*
 The format of the metadata is RDF that is compliant with the XMP specification. For more information about RDF and XMP, see the following sources:
 
--   The RDF Primer at [www.w3.org/TR/rdf-primer/](http://www.w3.org/TR/rdf-primer/)
+- The RDF Primer at [www.w3.org/TR/rdf-primer/](http://www.w3.org/TR/rdf-primer/)
 
--   The RDF specification at [www.w3.org/TR/1999/REC-rdf-syntax-19990222/](http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/)
+- The RDF specification at [www.w3.org/TR/1999/REC-rdf-syntax-19990222/](http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/)
 
--   The XMP home page at [www.adobe.com/products/xmp/](http://www.adobe.com/products/xmp/)
+- The XMP home page at [www.adobe.com/products/xmp/](http://www.adobe.com/products/xmp/)
 
 #### Example
 
-
 The following examples show several different legal ways to represent the same data. In all of these cases but the second one, if the data were sent to Document.setMetadata(), it would not be rewritten (aside from removing line breaks).
 In the first example, metadata is in tags, with different schemas placed in separate rdf:Description tags:
+
 ```xml
 <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
 <rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/1.1'>
@@ -66,6 +66,7 @@ In the third example, metadata is in attributes, and different schemas are all i
 <rdf:Description rdf:about='' xmlns:xmp='http://ns.adobe.com/xap/1.0/' xmp:CreateDate='2004-10-12T10:29-07:00' xmp:CreatorTool='Flash Authoring WIN 8,0,0,215' />
 </rdf:RDF>
 ```
+
 #### See also
 
 [document.getMetadata()](../Document_object/docume80.md)

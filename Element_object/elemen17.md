@@ -27,6 +27,4 @@ Method; stores data with an element. The data is available when the FLA file con
 
 #### Example
 
-
 See [element.getPersistentData()](../Element_object/element2.md).
-

@@ -23,6 +23,7 @@ var shapeDrawingObject = (sel.elementType == "shape") && sel.isDrawingObject;
 fl.trace(shapeDrawingObject);
 
 ```
+
 #### See also
 
 [document.crop()](../Document_object/docume37.md), [document.deleteEnvelope()](../Document_object/docume41.md), [document.intersect()](../Document_object/docume97.md), [document.punch()](../Document_object/docum230.md), [document.union()](../Document_object/docu6120.md), [shape.isGroup](../Shape_object/shape8.md)

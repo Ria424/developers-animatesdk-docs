@@ -32,14 +32,19 @@ If you omit the optional parameters, the method uses the entire Text object’s 
 #### Example
 
 The following example sets the selected text field to italic:
+
 ```javascript
 fl.getDocumentDOM().selection[0].setTextAttr("italic", true);
  ```
- The following example sets the size of the third character to 10: 
+
+ The following example sets the size of the third character to 10:
+
  ```javascript
 fl.getDocumentDOM().selection[0].setTextAttr("size", 10, 2);
  ```
+
 The following example sets the color to red for the third through the eighth character of the selected text:
+
 ```javascript
 fl.getDocumentDOM().selection[0].setTextAttr("fillColor", 0xff0000, 2, 8);
 ```

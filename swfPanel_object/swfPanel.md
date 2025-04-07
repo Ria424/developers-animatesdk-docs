@@ -25,19 +25,20 @@ methods to communicate with the SWF panel from the authoring environment.
 
 The following example illustrates how to use ActionScript and JavaScript code to create a Window SWF panel and communicate with it from the authoring environment.
 
-1.  Create an ActionScript 3.0 FLA file, set its color to a medium gray, and set its size to 400 pixels wide and 250 pixels high.
+1. Create an ActionScript 3.0 FLA file, set its color to a medium gray, and set its size to 400 pixels wide and 250 pixels high.
 
-2.  Place a dynamic text box in the center of the Stage, set its Instance name to myTextField, and type the word "Status" in the text box.
+2. Place a dynamic text box in the center of the Stage, set its Instance name to myTextField, and type the word "Status" in the text box.
 
-3.  Set other text box properties similar to the following:
+3. Set other text box properties similar to the following:
 
-    -   Center aligned
+    - Center aligned
 
-    -   355 pixels wide and 46 pixels high
+    - 355 pixels wide and 46 pixels high
 
-    -   Times New Roman font, 28 points, red
+    - Times New Roman font, 28 points, red
 
-4.  Add the following ActionScript code:
+4. Add the following ActionScript code:
+
 ```javascript
 // Here's the callback function to be called from JSAPI
 function callMeFromJavascript(arg:String):void
@@ -57,15 +58,17 @@ MMExecute("fl.runScript( fl.configURI + \"WindowSWF/fileOp.jsfl\" );");
 
 MMExecute("fl.trace(\"AS3 File Status Panel Initialized\");");
 ```
-5.  Save the file as fileStatus.fla, and publish the SWF file with the default Publish settings.
 
-6.  Close Flash.
+5. Save the file as fileStatus.fla, and publish the SWF file with the default Publish settings.
 
-7.  Copy the fileStatus.swf file to the WindowSWF folder, which is a subfolder of the Configuration folder (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows XP, the folder is in \boot drive\Documents and Settings\\user\Local Settings\Application Data\Adobe\Flash CS4\language\Configuration\WindowSWF.
+6. Close Flash.
 
-8.  Start Flash.
+7. Copy the fileStatus.swf file to the WindowSWF folder, which is a subfolder of the Configuration folder (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows XP, the folder is in \boot drive\Documents and Settings\\user\Local Settings\Application Data\Adobe\Flash CS4\language\Configuration\WindowSWF.
 
-9.  Create a JSFL file with the following code:
+8. Start Flash.
+
+9. Create a JSFL file with the following code:
+
 ```javascript
 function callMyPanel(panelName, arg)
 {
@@ -96,9 +99,9 @@ fl.addEventListener("documentNew", documentNewHandler );
 documentOpenedHandler = function () { callMyPanel("fileStatus", "Document Opened");};
 fl.addEventListener("documentOpened", documentOpenedHandler );
 ```
-10.  Save the JSFL file in the same directory as the SWF file, with the name fileOp.jsfl.
 
-11.  Choose Window > Other panels > fileStatus.
+10. Save the JSFL file in the same directory as the SWF file, with the name fileOp.jsfl.
+
+11. Choose Window > Other panels > fileStatus.
 
 Now, as you create, open, and close FLA files, the fileStatus panel displays a message indicating the action you have taken.
-

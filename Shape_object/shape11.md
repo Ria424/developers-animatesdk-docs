@@ -17,7 +17,6 @@ For example, if the group contains three drawing objects and three raw shapes, t
 
 #### Example
 
-
 The following code displays the number of cubic segments of each drawing object in the currently selected group:
 
 ```javascript
@@ -27,6 +26,7 @@ for (i=0; i<shapesArray.length; i++) {
 }
 
 ```
+
 #### See also
 
 [shape.isGroup](../Shape_object/shape8.md)

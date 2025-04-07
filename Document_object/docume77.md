@@ -29,6 +29,7 @@ The following example gets the name of the Element property for the current sele
 var elementName = fl.getDocumentDOM().getElementProperty("name");
 
 ```
+
 #### See also
 
 [document.setElementProperty()](../Document_object/docum490.md)

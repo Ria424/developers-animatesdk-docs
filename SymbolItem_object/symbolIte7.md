@@ -20,6 +20,7 @@ The following example specifies the locations of the 9-slice guides:
 fl.getDocumentDOM().library.items[0].scalingGridRect = {left:338, top:237, right:3859, bottom:713};
 
 ```
+
 #### See also
 
 [symbolItem.scalingGrid](../SymbolItem_object/symbolIte6.md)

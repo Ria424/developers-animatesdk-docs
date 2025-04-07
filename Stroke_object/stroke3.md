@@ -14,8 +14,8 @@ Property; a string that specifies the type of hatching for the stroke. This prop
 
 #### Example
 
-
 The following example sets the curve property, as well as others, for a stroke having the hatched style:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
 myStroke.style = "hatched";

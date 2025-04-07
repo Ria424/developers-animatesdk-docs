@@ -25,6 +25,7 @@ if (fl.getDocumentDOM().library.items[idx].itemType == "video") {
 }
 
 ```
+
 #### See also
 
 [videoItem.sourceFileExists](../VideoItem_object/videoIte3.md)

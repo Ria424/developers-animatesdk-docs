@@ -23,6 +23,7 @@ Method; clears any text in the Actions panel and then adds the text specified in
 #### Example
 
 The following example replaces any text currently in the Actions panel with the specified text.
+
 ```javascript
 fl.actionsPanel.setText("// Deleted this code - no longer needed");
 ```

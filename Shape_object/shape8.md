@@ -23,6 +23,7 @@ var shapeGroup = (sel.elementType == "shape") && sel.isGroup;
 fl.trace(shapeGroup);
 
 ```
+
 #### See also
 
 [shape.isDrawingObject](../Shape_object/shape6.md)

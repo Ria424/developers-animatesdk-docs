@@ -22,6 +22,7 @@ var frameArray = fl.getDocumentDOM().getTimeline().layers[0].frames;
 
 To determine if a frame is a keyframe, check whether the [frame.startFrame](../Frame_object/frame36.md) property
 matches the array index, as shown in the following example:
+
 ```javascript
 var frameArray = fl.getDocumentDOM().getTimeline().layers[0].frames;
 var n = frameArray.length;

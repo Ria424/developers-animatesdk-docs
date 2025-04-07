@@ -14,9 +14,6 @@ TheComponentInstance object is a subclass of the SymbolInstance object and repre
 
 In addition to all the properties of the [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md), the ComponentInstance object has the following property:
 
-| **Property**                                                  | **Description**                                                                                               |
-|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Property** | **Description** |
+| --- | --- |
 | [componentInstance.parameters](../ComponentInstance_object/componentInstance.md) | Read-only; an array of ActionScript 2.0 properties that are accessible from the component Property inspector. |
-
-<span id="componentInstance.parameters" class="anchor"></span>
-

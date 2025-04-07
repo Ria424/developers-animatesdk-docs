@@ -29,6 +29,7 @@ The following example gets the transformation point for the current selection. T
 var transPoint = fl.getDocumentDOM().getTransformationPoint();
 
 ```
+
 #### See also
 
 [document.setTransformationPoint()](../Document_object/docu9939.md), [element.getTransformationPoint()](../Element_object/element4.md)

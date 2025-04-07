@@ -22,14 +22,11 @@ Return current angle of camera.
 
 #### Example
 
-The following example :
-
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 timeline.camera.cameraEnabled = true;
 var val = timeline.camera.getRotation(0);
 ```
-
 
 #### See also
 

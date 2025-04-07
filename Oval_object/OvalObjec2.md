@@ -16,9 +16,11 @@ To set this value, use [document.setOvalObjectProperty()](../Document_object/doc
 #### Example
 
 The following example sets the inner radius of selected Oval objects to 50 percent:
+
 ```javascript
 fl.getDocumentDOM().setOvalObjectProperty("innerRadius",50);
 ```
+
 #### See also
 
 [document.setOvalObjectProperty()](../Document_object/docum590.md), [shape.isOvalObject](../Shape_object/shape9.md)

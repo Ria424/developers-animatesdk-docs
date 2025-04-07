@@ -22,6 +22,7 @@ fill.style = "bitmap";
 fill.bitmapPath = "myBitmap.jpg";
 fl.getDocumentDOM().setCustomFill(fill);
 ```
+
 #### See also
 
 [fill.bitmapIsClipped](../Fill_object/fill.md)

@@ -22,5 +22,4 @@ Method; removes any persistent data with the specified name that has been attach
 
 #### Example
 
-
 See [element.getPersistentData()](../Element_object/element2.md).

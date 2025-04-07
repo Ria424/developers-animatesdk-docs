@@ -19,4 +19,3 @@ Nothing.
 #### Description
 
 Method; Adds the specified bitmap or bitmapItem to the sprite sheet object.
-

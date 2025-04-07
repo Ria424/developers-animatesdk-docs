@@ -49,6 +49,7 @@ alert("elem.metaData.myAlign = '" + elem.getPersistentData("myAlign") + "' will 
 }
 
 ```
+
 #### See also
 
 [document.setPublishDocumentData()](../Document_object/docu9627.md)

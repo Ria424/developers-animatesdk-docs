@@ -27,13 +27,13 @@ Method; performs a double mouse click from the Selection tool.
 
 #### Example
 
-
 The following example performs a double mouse click at the specified location:
 
 ```javascript
 fl.getDocumentDOM().mouseDblClk({x:392.9, y:73}, false, false, true);
 
 ```
+
 #### See also
 
 [document.mouseClick()](../Document_object/docum130.md)

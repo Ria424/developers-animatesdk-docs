@@ -26,13 +26,13 @@ If you don’t pass a value for *folderPath*, any folders that are currently sel
 
 #### Example
 
-
 The following code deletes a folder named Bouncing below the Custom Presets folder; any subfolders of Bouncing are also deleted:
 
 ```javascript
 fl.presetPanel.deleteFolder("Custom Presets/Bouncing");
 
 ```
+
 #### See also
 
 [presetPanel.deleteItem()](../presetPanel_object/presetPane3.md)

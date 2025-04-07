@@ -29,6 +29,7 @@ When using this method, be aware that if the event occurs frequently (as might b
 #### Example
 
 The following example displays a message in the Output panel when a document is closed:
+
 ```javascript
 myFunction = function () {
     fl.trace('document was closed');

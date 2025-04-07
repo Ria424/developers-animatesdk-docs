@@ -15,6 +15,7 @@ Property; a Boolean value that specifies whether the specified filter is enabled
 #### Example
 
 The following example disables the Color filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){

@@ -21,6 +21,7 @@ var theFrame = fl.getDocumentDOM().getTimeline().layers[0].frames[0]
 theFrame.hasCustomEase = false;
 
 ```
+
 #### See also
 
 [frame.getCustomEase()](../Frame_object/frame6.md), [frame.setCustomEase()](../Frame_object/frame24.md), [frame.useSingleEaseCurve](../Frame_object/frame40.md)

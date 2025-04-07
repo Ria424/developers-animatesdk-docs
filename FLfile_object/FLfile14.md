@@ -30,6 +30,7 @@ var URI = FLfile.platformPathToURI(dir);
 fl.trace(URI == fl.configURI); // displays "true"
 
 ```
+
 #### See also
 
 [FLfile.platformPathToURI()](../FLfile_object/FLfile10.md)

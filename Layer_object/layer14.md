@@ -1,4 +1,4 @@
-## Layer.getColorTransformAtFrame()	
+## Layer.getColorTransformAtFrame() 
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-layer.getColorTransformAtFrame(frameIndex)		
+layer.getColorTransformAtFrame(frameIndex)  
 
 #### Parameters
 
@@ -14,7 +14,7 @@ layer.getColorTransformAtFrame(frameIndex)
 
 #### Returns
 
-Value object 
+Value object
 
 #### Description
 

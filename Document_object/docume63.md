@@ -28,8 +28,8 @@ Method; Exports a selected instance of a movie clip, graphic, or button symbol o
 
 #### Example
 
-
 The following example exports the entire Timeline to a numbered PNG sequence starting with the file name "myTest.png":
+
 ```javascript
 fl.getDocumentDOM().exportInstanceToPNGSequence("file:///c\|/tests/mytest.png");
 

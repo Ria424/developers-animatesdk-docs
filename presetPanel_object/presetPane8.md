@@ -32,6 +32,7 @@ The following example imports a preset into the Custom Presets/Pulse folder, and
 fl.presetPanel.importItem("file:///C|/My Presets/thePulsePreset.xml", "Custom Presets/Pulse/fastPulse");
 
 ```
+
 #### See also
 
 [presetPanel.exportItem()](../presetPanel_object/presetPane5.md)

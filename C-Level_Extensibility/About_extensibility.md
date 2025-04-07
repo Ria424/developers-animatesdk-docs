@@ -8,13 +8,10 @@ To implement extensibility, you define functions using C, bundle them in a dynam
 For example, you might want to define a function that performs intense calculations more efficiently than JavaScript does, which improves performance, or when you want to create more advanced tools or effects.
 This extensibility mechanism is a subset of the Adobe Dreamweaver API. If you are familiar with that API, you might recognize the functions in the C-level extensibility mechanism API. However, this API differs from the Dreamweaver API in the following ways:
 
--   This API does not contain all the commands in the Dreamweaver API.
+- This API does not contain all the commands in the Dreamweaver API.
 
--   All declarations of type *wchar_t* and char in the Dreamweaver API are implemented as unsigned short declarations in this API, to support Unicode when strings are passed.
+- All declarations of type *wchar_t* and char in the Dreamweaver API are implemented as unsigned short declarations in this API, to support Unicode when strings are passed.
 
--   The [JSVal JS_BytesToValue()](../C-Level_Extensibility/The_C.md) function in this API is not part of the Dreamweaver API.
+- The [JSVal JS_BytesToValue()](../C-Level_Extensibility/The_C.md) function in this API is not part of the Dreamweaver API.
 
--   The location in which the DLL or shared library files must be stored is different (see ["Integrating C functions"](../C-Level_Extensibility/Integrating_C_functions.md)).
-
-<span id="Integrating_C_functions" class="anchor"></span>
-
+- The location in which the DLL or shared library files must be stored is different (see ["Integrating C functions"](../C-Level_Extensibility/Integrating_C_functions.md)).

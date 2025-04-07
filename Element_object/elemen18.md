@@ -53,6 +53,7 @@ if (doc && doc.getPublishDocumentData("_EMBED_SWF_")) {
 }
 
 ```
+
 #### See also
 
 [element.getPublishPersistentData()](../Element_object/element3.md)

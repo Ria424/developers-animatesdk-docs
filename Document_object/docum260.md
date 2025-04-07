@@ -22,12 +22,13 @@ Method; removes persistent data with the specified name that has been attached t
 
 #### Example
 
-The following example removes from the selection the persistent data named "myData": 
+The following example removes from the selection the persistent data named "myData":
 
 ```javascript
 fl.getDocumentDOM().removeDataFromSelection("myData");
 
 ```
+
 #### See also
 
 [document.addDataToSelection()](../Document_object/documen2.md)

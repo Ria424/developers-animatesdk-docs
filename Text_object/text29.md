@@ -15,6 +15,7 @@ Property; a Boolean value. A value of true causes Flash to draw text using devic
 #### Example
 
 The following example causes Flash to use device fonts when drawing text:
+
 ```javascript
 fl.getDocumentDOM().selection[0].useDeviceFonts = true;
 ```

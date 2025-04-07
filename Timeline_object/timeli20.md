@@ -15,6 +15,7 @@ Read-only property; an integer that represents the number of frames in this time
 #### Example
 
 The following example uses a countNum variable to store the number of frames in the current document’s longest layer:
+
 ```javascript
 var countNum = fl.getDocumentDOM().getTimeline().frameCount;
 

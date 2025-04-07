@@ -34,6 +34,7 @@ The following example returns the value of the data named "myData" and displays 
 fl.trace(fl.getDocumentDOM().getDataFromDocument("myData"));
 
 ```
+
 #### See also
 
 [document.getDataFromDocument()](../Document_object/docume76.md), [document.removeDataFromDocument()](../Document_object/docum250.md)

@@ -23,8 +23,8 @@ Method; sets the [frame.tweenType](../Frame_object/frame39.md) property to motio
 
 #### Example
 
-
 The following example converts the shape in the first frame up to, but not including, Frame 10 to a graphic symbol instance and sets the frame.tweenType to motion (remember that index values are different from frame number values):
+
 ```javascript
 fl.getDocumentDOM().getTimeline().createMotionTween(0, 9);
 ```

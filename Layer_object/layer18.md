@@ -1,4 +1,4 @@
-## Layer.setFiltersAtFrame()	
+## Layer.setFiltersAtFrame() 
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-layer. setFiltersAtFrame (frameIndex,filterArray)	
+layer. setFiltersAtFrame (frameIndex,filterArray) 
 
 #### Parameters
 
@@ -15,7 +15,7 @@ layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Returns
 
-Nothing	
+Nothing 
 
 #### Description
 

@@ -14,33 +14,52 @@ To set properties of a text run within the text field, see the Property summary 
 
 To set generic properties of the selected text field, use [document.setElementProperty()](../Document_object/docum490.md). The following example sets the x value of the selected text field's registration point to 50:
 
- fl.getDocumentDOM().setElementProperty("x", 50); 
+ fl.getDocumentDOM().setElementProperty("x", 50);
 
 #### Method summary
 
 In addition to the Element object methods, the following methods are available for the Text object:
 
-| **Method**                            | **Description**                                                                                                           |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [text.getTextAttr()](../Text_object/text11.md)   | Retrieves the specified attribute for the text identified by the optional ***startIndex*** and ***endIndex*** parameters. |
-| [text.getTextString()](../Text_object/text12.md) | Retrieves the specified range of text.                                                                                    |
-| [text.setTextAttr()](../Text_object/text22.md)   | Sets the specified attribute associated with the text identified by ***startIndex*** and ***endIndex***.                  |
-| [text.setTextString()](../Text_object/text23.md) | Changes the text string within this Text object.                                                                          |
+| **Method** | **Description** |
+| --- | --- |
+| [text.getTextAttr()](../Text_object/text11.md) | Retrieves the specified attribute for the text identified by the optional ***startIndex*** and ***endIndex*** parameters. |
+| [text.getTextString()](../Text_object/text12.md) | Retrieves the specified range of text. |
+| [text.setTextAttr()](../Text_object/text22.md) | Sets the specified attribute associated with the text identified by ***startIndex*** and ***endIndex***. |
+| [text.setTextString()](../Text_object/text23.md) | Changes the text string within this Text object. |
 
 #### Property summary
 
 In addition to the Element object properties, the following properties are available for the Text object:
 
-| **Property**                             | **Description**                                                                                                                                      |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [text.accName](../Text_object/text.md)            | A string that is equivalent to the Name field in the Accessibility panel.                                                                            |
-| [text.antiAliasSharpness](../Text_object/text1.md) | A float value that specifies the anti-aliasing sharpness of the text.                                                                                |
-| [text.antiAliasThickness](../Text_object/text2.md) | A float value that specifies the anti-aliasing thickness of the text.                                                                                |
-| [text.autoExpand](../Text_object/text3.md)         | A Boolean value that controls the expansion of the bounding width for static text fields or the bounding width and height for dynamic or input text. |
-| [text.border](../Text_object/text4.md)             | A Boolean value that controls whether Flash shows (true) or hides (false) a border around dynamic or input text.                                     |
-| [text.description](../Text_object/text5.md)        | A string that is equivalent to the Description field in the Accessibility panel.                                                                     |
+| **Property** | **Description** |
+| --- | --- |
+| [text.accName](../Text_object/text.md) | A string that is equivalent to the Name field in the Accessibility panel. |
+| [text.antiAliasSharpness](../Text_object/text1.md) | A float value that specifies the anti-aliasing sharpness of the text. |
+| [text.antiAliasThickness](../Text_object/text2.md) | A float value that specifies the anti-aliasing thickness of the text. |
+| [text.autoExpand](../Text_object/text3.md) | A Boolean value that controls the expansion of the bounding width for static text fields or the bounding width and height for dynamic or input text. |
+| [text.border](../Text_object/text4.md) | A Boolean value that controls whether Flash shows (true) or hides (false) a border around dynamic or input text. |
+| [text.description](../Text_object/text5.md) | A string that is equivalent to the Description field in the Accessibility panel. |
 
-<table><thead><tr class="header"><th><strong>Property</strong></th><th><strong>Description</strong></th></tr></thead><tbody><tr class="odd"><td><a href="../Text_object/text6.md">text.embeddedCharacters</a></td><td>A string that specifies characters to embed. This is equivalent to entering text in the Character Embedding dialog box.</td></tr><tr class="even"><td><a href="../Text_object/text7.md">text.embedRanges</a></td><td>A string that consists of delimited integers that correspond to the items that can be selected in the Character Embedding dialog box.</td></tr><tr class="odd"><td><a href="../Text_object/text8.md">text.embedVariantGlyphs</a></td><td>A Boolean value that specifies whether to enable the embedding of variant glyphs.</td></tr><tr class="even"><td><a href="../Text_object/text9.md">text.filters</a></td><td>An array of filters applied to the text element</td></tr><tr class="odd"><td><a href="../Text_object/text10.md">text.fontRenderingMode</a></td><td>A string that specifies the rendering mode for the text.</td></tr><tr class="even"><td><a href="../Text_object/text13.md">text.length</a></td><td>Read-only; an integer that represents the number of characters in the Text object.</td></tr><tr class="odd"><td><a href="../Text_object/text14.md">text.lineType</a></td><td><p>A string that sets the line type to "single line", "multiline", "multiline no wrap", or</p><p>"password".</p></td></tr><tr class="even"><td><a href="../Text_object/text15.md">text.maxCharacters</a></td><td>An integer that specifies the maximum characters the user can enter into this Text object.</td></tr><tr class="odd"><td><a href="../Text_object/text16.md">text.orientation</a></td><td>A string that specifies the orientation of the text field.</td></tr><tr class="even"><td><a href="../Text_object/text17.md">text.renderAsHTML</a></td><td>A Boolean value that controls whether Flash draws the text as HTML and interprets embedded HTML tags.</td></tr><tr class="odd"><td><a href="../Text_object/text18.md">text.scrollable</a></td><td>A Boolean value that controls whether the text can (true) or cannot (false) be scrolled.</td></tr><tr class="even"><td><a href="../Text_object/text19.md">text.selectable</a></td><td>A Boolean value that controls whether the text can (true) or cannot (false) be selected. Input text is always selectable.</td></tr><tr class="odd"><td><a href="../Text_object/text20.md">text.selectionEnd</a></td><td>A zero-based integer that specifies the offset of the end of a text subselection.</td></tr><tr class="even"><td><a href="../Text_object/text21.md">text.selectionStart</a></td><td>A zero-based integer that specifies the offset of the beginning of a text subselection.</td></tr><tr class="odd"><td><a href="../Text_object/text24.md">text.shortcut</a></td><td>A string that is equivalent to the Shortcut field in the Accessibility panel.</td></tr><tr class="even"><td><a href="../Text_object/text25.md">text.silent</a></td><td>A Boolean value that specifies whether the object is accessible.</td></tr><tr class="odd"><td><a href="../Text_object/text26.md">text.tabIndex</a></td><td>An integer that is equivalent to the Tab Index field in the Accessibility panel.</td></tr><tr class="even"><td><a href="../Text_object/text27.md">text.textRuns</a></td><td>Read-only; an array of TextRun objects.</td></tr><tr class="odd"><td><a href="../Text_object/text28.md">text.textType</a></td><td><p>A string that specifies the type of text field. Acceptable values are "static", "dynamic", and</p><p>"input".</p></td></tr><tr class="even"><td><a href="../Text_object/text29.md">text.useDeviceFonts</a></td><td>A Boolean value. A value of true causes Flash to draw text using device fonts.</td></tr><tr class="odd"><td><a href="../Text_object/text30.md">text.variableName</a></td><td>A string that contains the contents of the Text object.</td></tr></tbody></table>
-
-<span id="text.accName" class="anchor"></span>
-
+| **Property** | **Description** |
+| --- | --- |
+| [text.embeddedCharacters](../Text_object/text6.md) | A string that specifies characters to embed. This is equivalent to entering text in the Character Embedding dialog box. |
+| [text.embedRanges](../Text_object/text7.md) | A string that consists of delimited integers that correspond to the items that can be selected in the Character Embedding dialog box. |
+| [text.embedVariantGlyphs](../Text_object/text8.md) | A Boolean value that specifies whether to enable the embedding of variant glyphs. |
+| [text.filters](../Text_object/text9.md) | An array of filters applied to the text element |
+| [text.fontRenderingMode](../Text_object/text10.md) | A string that specifies the rendering mode for the text. |
+| [text.length](../Text_object/text13.md) | Read-only; an integer that represents the number of characters in the Text object. |
+| [text.lineType](../Text_object/text14.md) | A string that sets the line type to "single line", "multiline", "multiline no wrap", or "password". |
+| [text.maxCharacters](../Text_object/text15.md) | An integer that specifies the maximum characters the user can enter into this Text object. |
+| [text.orientation](../Text_object/text16.md) | A string that specifies the orientation of the text field. |
+| [text.renderAsHTML](../Text_object/text17.md) | A Boolean value that controls whether Flash draws the text as HTML and interprets embedded HTML tags. |
+| [text.scrollable](../Text_object/text18.md) | A Boolean value that controls whether the text can (true) or cannot (false) be scrolled. |
+| [text.selectable](../Text_object/text19.md) | A Boolean value that controls whether the text can (true) or cannot (false) be selected. Input text is always selectable. |
+| [text.selectionEnd](../Text_object/text20.md) | A zero-based integer that specifies the offset of the end of a text subselection. |
+| [text.selectionStart](../Text_object/text21.md) | A zero-based integer that specifies the offset of the beginning of a text subselection. |
+| [text.shortcut](../Text_object/text24.md) | A string that is equivalent to the Shortcut field in the Accessibility panel. |
+| [text.silent](../Text_object/text25.md) | A Boolean value that specifies whether the object is accessible. |
+| [text.tabIndex](../Text_object/text26.md) | An integer that is equivalent to the Tab Index field in the Accessibility panel. |
+| [text.textRuns](../Text_object/text27.md) | Read-only; an array of TextRun objects. |
+| [text.textType](../Text_object/text28.md) | A string that specifies the type of text field. Acceptable values are "static", "dynamic", and "input". |
+| [text.useDeviceFonts](../Text_object/text29.md) | A Boolean value. A value of true causes Flash to draw text using device fonts. |
+| [text.variableName](../Text_object/text30.md) | A string that contains the contents of the Text object. |

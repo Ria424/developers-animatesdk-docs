@@ -30,6 +30,7 @@ fl.getDocumentDOM().setMobileSettings("<? xml version="1.0" encoding="UTF-16" st
 ?><mobileSettings><contentType id="standalonePlayer" name="Standalone Player"/><testDevices><testDevice id="1170" name="Generic Phone" selected="yes"/></testDevices><outputMsgFiltering info="no" trace="yes" warning="yes"/><testWindowState height="496" splitterClosed="No" splitterXPos="400" width="907"/></mobileSettings>");
 
 ```
+
 #### See also
 
 [document.getMobileSettings()](../Document_object/docume81.md)

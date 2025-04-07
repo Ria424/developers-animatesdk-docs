@@ -25,10 +25,13 @@ Method; moves the first specified layer before or after the second specified lay
 #### Example
 
 The following example moves the layer at index 2 to the top (on top of the layer at index 0):
+
 ```javascript
 fl.getDocumentDOM().getTimeline().reorderLayer(2, 0);
 ```
+
 The following example places the layer at index 3 after the layer at index 5:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().reorderLayer(3, 5, false);
 ```

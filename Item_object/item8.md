@@ -21,4 +21,5 @@ The following example sets this property for the specified library item:
 ```javascript
 fl.getDocumentDOM().library.items[0].linkageExportForRS = true;
 ```
+
 <span id="item.linkageExportInFirstFrame" class="anchor"></span>

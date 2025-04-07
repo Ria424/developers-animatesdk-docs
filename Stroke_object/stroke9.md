@@ -14,8 +14,8 @@ Property; a string that specifies the thickness of a hatch line. This property i
 
 #### Example
 
-
 The following example sets the hatchThickness property to thin for a stroke style of hatched:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.style = "hatched";

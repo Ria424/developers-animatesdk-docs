@@ -15,6 +15,7 @@ Property; a string that specifies the matte color when Opaque is selected. This 
 #### Example
 
 The following example illustrates getting the backgroundColor property:
+
 ```javascript
 var bitmapInstance = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
 bitmapInstance.backgroundColor = "#000000";

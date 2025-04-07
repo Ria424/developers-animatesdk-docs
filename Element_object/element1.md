@@ -12,15 +12,15 @@ Flash MX 2004.
 
 Read-only property; a string that represents the type of the specified element. The value is one of the following:
 
--   "shape"
+- "shape"
 
--   "text"
+- "text"
 
--   "tlfText" (Flash Pro CS5 and later)
+- "tlfText" (Flash Pro CS5 and later)
 
--   "instance"
+- "instance"
 
--   "shapeObj"
+- "shapeObj"
 
 #### Example
 

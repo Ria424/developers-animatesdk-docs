@@ -14,8 +14,8 @@ Property; a string that specifies the length of a hatch line. This property is a
 
 #### Example
 
-
 The following example sets the length property to slight for a stroke style of hatched:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.style = "hatched";

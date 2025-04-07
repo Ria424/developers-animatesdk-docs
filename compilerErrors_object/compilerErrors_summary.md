@@ -13,10 +13,7 @@ The compilerErrors object, which represents the Compiler Errors panel, is a prop
 
 The following methods can be used with the compilerErrors object:
 
-| **Method**                                        | **Description**                                                       |
-|---------------------------------------------------|-----------------------------------------------------------------------|
-| [compilerErrors.clear()](../compilerErrors_object/compilerErrors.md) | Clears the contents of the Compiler Errors panel.                     |
-| [compilerErrors.save()](../compilerErrors_object/compilerError1.md)             | Saves the contents of the Compiler Errors panel to a local text file. |
-
-<span id="compilerErrors.clear()" class="anchor"></span>
-
+| **Method** | **Description** |
+| --- | --- |
+| [compilerErrors.clear()](../compilerErrors_object/compilerErrors.md) | Clears the contents of the Compiler Errors panel. |
+| [compilerErrors.save()](../compilerErrors_object/compilerError1.md) | Saves the contents of the Compiler Errors panel to a local text file. |

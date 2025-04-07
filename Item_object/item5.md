@@ -28,6 +28,7 @@ fl.getDocumentDOM().library.items[0].linkageBaseClass = "";
 fl.trace(fl.getDocumentDOM().library.items[0].linkageBaseClass); 
 
 ```
+
 #### See also
 
 [document.docClass](../Document_object/docume52.md)

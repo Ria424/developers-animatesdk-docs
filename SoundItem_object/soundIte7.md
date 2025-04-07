@@ -21,6 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("Imported compression type = "+ libItem.originalCompressionType);
 
 ```
+
 #### See also
 
 [soundItem.compressionType](../SoundItem_object/soundIte2.md)

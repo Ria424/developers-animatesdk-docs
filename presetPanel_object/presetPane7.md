@@ -22,7 +22,6 @@ Method; returns an array of presetItem objects corresponding to the currently se
 
 #### Example
 
-
 The following code displays the full pathnames of the currently selected items in the Motion Presets panel:
 
 ```javascript
@@ -33,6 +32,7 @@ for (x=0; x<length; x++) {
 }
 
 ```
+
 #### See also
 
 [presetPanel.items](../presetPanel_object/presetPane9.md)

@@ -14,8 +14,8 @@ Property; a string that specifies the variation of a stippled line. This propert
 
 #### Example
 
-
 The following example sets the variation property to random sizes for a stroke style of stipple:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.style = "stipple";

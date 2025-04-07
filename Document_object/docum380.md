@@ -27,6 +27,7 @@ The following example saves and compacts the current document:
 fl.getDocumentDOM().saveAndCompact();
 
 ```
+
 #### See also
 
 [document.save()](../Document_object/docum370.md), [fl.saveDocumentAs()](../flash_object_(fl)/fl65.md), [fl.saveDocument()](../flash_object_(fl)/fl64.md), [fl.saveAll()](../flash_object_(fl)/fl63.md).

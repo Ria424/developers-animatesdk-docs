@@ -14,8 +14,8 @@ Property; an integer that specifies the spacing between dots in a dotted line. T
 
 #### Example
 
-
 The following example sets the dotSpace property to 3 for a stroke style of dotted:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.style = "dotted";

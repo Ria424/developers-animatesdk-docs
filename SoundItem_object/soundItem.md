@@ -22,6 +22,7 @@ The following example displays the bitRate value in the Output panel if the spec
 alert(fl.getDocumentDOM().library.items[0].bitRate);
 
 ```
+
 #### See also
 
 [soundItem.compressionType](../SoundItem_object/soundIte2.md), [soundItem.convertStereoToMono](../SoundItem_object/soundIte3.md)

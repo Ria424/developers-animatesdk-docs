@@ -25,9 +25,11 @@ Method; Cuts the layers that are currently selected in the Timeline, or the laye
 #### Example
 
 The following example cuts the layers from index 2 to index 7 in the Timeline:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().cutLayers(2, 7);
 ```
+
 #### See also
 
 [timeline.copyLayers()](../Timeline_object/timelin7.md), [timeline.pasteLayers()](../Timeline_object/timeli35.md), [timeline.duplicateLayers()](../Timeline_object/timeli17.md)

@@ -14,8 +14,8 @@ Property; a string that specifies the wave height of a ragged line. This propert
 
 #### Example
 
-
 The following example sets the waveHeight property to flat for a stroke style of ragged:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
 myStroke.style = "ragged";

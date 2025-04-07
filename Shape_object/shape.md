@@ -22,7 +22,6 @@ Method; defines the start of an edit session. You must use this method before is
 
 #### Example
 
-
 The following example takes the currently selected shape and removes the first edge in the edge array from it:
 
 ```javascript

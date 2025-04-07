@@ -4,458 +4,457 @@ The following section lists new objects, methods, and properties in Animate. It 
 If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](../Introduction/JavaScript_API_objects.md).
 
 ### New methods and properties in Animate 2020
+
 The following methods and properties for existing objects are new in Animate 2020:
 
--   [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/document_summary.md)
 
-    -   [document.getTaggedSwatches()](../Document_object/docu6064.md)
+  - [document.getTaggedSwatches()](../Document_object/docu6064.md)
 
-    -   [document.getTaggedSwatchByName()](../Document_object/docu6062.md)
+  - [document.getTaggedSwatchByName()](../Document_object/docu6062.md)
 
-    -   [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)
+  - [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)
 
-    -   [document.setTaggedSwatchByName()](../Document_object/docu6068.md)
+  - [document.setTaggedSwatchByName()](../Document_object/docu6068.md)
 
-    -   [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)
+  - [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)
 
-    -   [document.addTaggedSwatch()](../Document_object/docu6058.md)
+  - [document.addTaggedSwatch()](../Document_object/docu6058.md)
 
-    -   [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)
+  - [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)
 
-    -  [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)
+  - [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)
 
-    -   [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)
+  - [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)
 
-    -   [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)
+  - [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)
 
-    -   [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)
+  - [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)
 
-    -   [document.convertToDoc()](../Document_object/docu6069.md)
+  - [document.convertToDoc()](../Document_object/docu6069.md)
 
-    -   [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
+  - [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
 
-    -   [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
+  - [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
 
-    -  [document.exportMedia()](../Document_object/docu6072.md)
+  - [document.exportMedia()](../Document_object/docu6072.md)
 
-    -   [document.exportSVG()](../Document_object/docu6074.md)
+  - [document.exportSVG()](../Document_object/docu6074.md)
 
--   [Layer object](../Layer_object/layer_summary.md)
+- [Layer object](../Layer_object/layer_summary.md)
 
-    -   [layer.getZDepthAtFrame()](../Layer_object/layer11.md)
+  - [layer.getZDepthAtFrame()](../Layer_object/layer11.md)
 
-    -   [layer.setZDepthAtFrame()](../Layer_object/layer12.md)
+  - [layer.setZDepthAtFrame()](../Layer_object/layer12.md)
 
-    -   [layer.getRigParentAtFrame()](../Layer_Parenting_Object/layerParenting1.md)
+  - [layer.getRigParentAtFrame()](../Layer_Parenting_Object/layerParenting1.md)
 
-    -   [layer.setRigParentAtFrame()](../Layer_Parenting_Object/layerParenting2.md)
+  - [layer.setRigParentAtFrame()](../Layer_Parenting_Object/layerParenting2.md)
 
-    -   [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting3.md)
+  - [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting3.md)
 
-    -   [layer.getFiltersAtFrame()](../Layer_object/layer15.md)
+  - [layer.getFiltersAtFrame()](../Layer_object/layer15.md)
 
-    -   [layer. setFiltersAtFrame()](../Layer_object/layer18.md)
+  - [layer. setFiltersAtFrame()](../Layer_object/layer18.md)
 
-    -   [layer.getColorTransformAtFrame()](../Layer_object/layer14.md)
+  - [layer.getColorTransformAtFrame()](../Layer_object/layer14.md)
 
-    -   [layer.setColorTransformAtFrame()](../Layer_object/layer17.md)
+  - [layer.setColorTransformAtFrame()](../Layer_object/layer17.md)
 
-    -   [layer.getBlendModeAtFrame()](../Layer_object/layer13.md)
+  - [layer.getBlendModeAtFrame()](../Layer_object/layer13.md)
 
-    -   [layer.setBlendModeAtFrame()](../Layer_object/layer16.md)
+  - [layer.setBlendModeAtFrame()](../Layer_object/layer16.md)
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+- [Timeline object](../Timeline_object/timeline_summary.md)
 
-    -   [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)
+  - [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)
 
-    -   [timeline.mergeLayers()](../Timeline_object/timeli51.md)
+  - [timeline.mergeLayers()](../Timeline_object/timeli51.md)
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   [fl.addToolInToolbar()](../flash_object_(fl)/fl82.md)
-
+  - [fl.addToolInToolbar()](../flash_object_(fl)/fl82.md)
 
 ### New objects in Animate 2020
+
 The following object is new in Flash CS6:
 
--   [TextureAtlasExporter object](../TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
+- [TextureAtlasExporter object](../TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
 
--   [Camera object](../Camera_object/Camera_Summary.md)
+- [Camera object](../Camera_object/Camera_Summary.md)
 
 ### New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
--   [Tween Object](../Tween_Object/Tween_object_Summary.md)
+- [Tween Object](../Tween_Object/Tween_object_Summary.md)
 
-    -   Tween.getColorTransform( )
+  - Tween.getColorTransform( )
 
-    -   Tween.getFilters( )
+  - Tween.getFilters( )
 
-    -   Tween.getGeometricTransform()
+  - Tween.getGeometricTransform()
 
-    -   Tween.getShape( )
+  - Tween.getShape( )
 
-    -   Tween.duration
+  - Tween.duration
 
-    -   Tween.startFrame
+  - Tween.startFrame
 
-    -   Tween.tweenType
+  - Tween.tweenType
 
--   [CompiledClipInstance object](../CompiledClipInstance_object/compiledClipInstance_summary.md)
+- [CompiledClipInstance object](../CompiledClipInstance_object/compiledClipInstance_summary.md)
 
-    -   CompiledClipInstance.backgroundColor
+  - CompiledClipInstance.backgroundColor
 
-    -   CompiledClipInstance.blendMode
+  - CompiledClipInstance.blendMode
 
-    -   CompiledClipInstance.brightness
+  - CompiledClipInstance.brightness
 
-    -   CompiledClipInstance.cacheAsBitmap
+  - CompiledClipInstance.cacheAsBitmap
 
-    -   CompiledClipInstance.colorAlphaAmount
+  - CompiledClipInstance.colorAlphaAmount
 
-    -   CompiledClipInstance.colorAlphaPercent
+  - CompiledClipInstance.colorAlphaPercent
 
-    -   CompiledClipInstance.colorBlueAmount
+  - CompiledClipInstance.colorBlueAmount
 
-    -   CompiledClipInstance.colorBluePercent
+  - CompiledClipInstance.colorBluePercent
 
-    -   CompiledClipInstance.colorGreenAmount
+  - CompiledClipInstance.colorGreenAmount
 
-    -   CompiledClipInstance.colorGreenPercent
+  - CompiledClipInstance.colorGreenPercent
 
-    -   CompiledClipInstance.colorMode
+  - CompiledClipInstance.colorMode
 
-    -   CompiledClipInstance.colorRedAmount
+  - CompiledClipInstance.colorRedAmount
 
-    -   CompiledClipInstance.colorRedPercent
+  - CompiledClipInstance.colorRedPercent
 
-    -   CompiledClipInstance.filters
+  - CompiledClipInstance.filters
 
-    -   CompiledClipInstance.tintColor
+  - CompiledClipInstance.tintColor
 
-    -   CompiledClipInstance.tintPercent
+  - CompiledClipInstance.tintPercent
 
-    -   CompiledClipInstance.useBackgroundColor
+  - CompiledClipInstance.useBackgroundColor
 
-    -   CompiledClipInstance.visible
+  - CompiledClipInstance.visible
 
--   [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/document_summary.md)
 
-    -   Document.convertSelectionToBitmap()
+  - Document.convertSelectionToBitmap()
 
-    -   Document.distributeToKeyframes()
+  - Document.distributeToKeyframes()
 
-    -   Document.exportVideo()
+  - Document.exportVideo()
 
-    -   Document.getPublishDocumentData()
+  - Document.getPublishDocumentData()
 
-    -   Document.getTelemetryForSwf()
+  - Document.getTelemetryForSwf()
 
-    -   Document.importFile() showDialog and showImporterUI properties
+  - Document.importFile() showDialog and showImporterUI properties
 
-    -   Document.setPublishDocumenData()
+  - Document.setPublishDocumenData()
 
--   [Element object](../Element_object/element_summary.md)
+- [Element object](../Element_object/element_summary.md)
 
-    -   Element.getPublishPersistentData()
+  - Element.getPublishPersistentData()
 
-    -   Element.setPublishPersistentData()
+  - Element.setPublishPersistentData()
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
+  - Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
-    -   fl.getThemeColor()
+  - fl.getThemeColor()
 
-    -   fl.getThemeColorParameters()
+  - fl.getThemeColorParameters()
 
-    -   fl.getThemeFontInfo()
+  - fl.getThemeFontInfo()
 
-    -   fl.setPrefBoolean()
+  - fl.setPrefBoolean()
 
-    -   fl.toggleBreakPoint()
+  - fl.toggleBreakPoint()
 
-    -   fl.xmlPanel()
+  - fl.xmlPanel()
 
-    -   fl.xmlPanelFromString()
+  - fl.xmlPanelFromString()
 
--   [Frame object](../Frame_object/frame_summary.md)
+- [Frame object](../Frame_object/frame_summary.md)
 
-    -   Frame.convertToFrameByFrameAnimation()
+  - Frame.convertToFrameByFrameAnimation()
 
-    -   Frame.getSoundEnvelope()
+  - Frame.getSoundEnvelope()
 
-    -   Frame.getSoundEnvelopeLimits()
+  - Frame.getSoundEnvelopeLimits()
 
-    -   Frame.setSoundEnvelope()
+  - Frame.setSoundEnvelope()
 
-    -   Frame.setSoundEnvelopeLimits()
+  - Frame.setSoundEnvelopeLimits()
 
-    -   Frame.isEmpty()
+  - Frame.isEmpty()
 
--   [Item object](../Item_object/item_summary.md)
+- [Item object](../Item_object/item_summary.md)
 
-    -   item.getPublishData()
+  - item.getPublishData()
 
-    -   item.setPublishData()
+  - item.setPublishData()
 
--   [library object](../library_object/library_summary.md)
+- [library object](../library_object/library_summary.md)
 
-    -   library.unusedItems
+  - library.unusedItems
 
--   [swfPanel object](../swfPanel_object/swfPanel_summary.md)
+- [swfPanel object](../swfPanel_object/swfPanel_summary.md)
 
-    -   swfPanel.dpiScaleFactorX
+  - swfPanel.dpiScaleFactorX
 
-    -   swfPanel.dpiScaleFactorY
+  - swfPanel.dpiScaleFactorY
 
-    -   swfPanel.reload()
+  - swfPanel.reload()
 
--   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
+- [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
 
-    -   SymbolInstance.brightness
+  - SymbolInstance.brightness
 
-    -   SymbolInstance.tintColor
+  - SymbolInstance.tintColor
 
-    -   SymbolInstance.tintPercent
+  - SymbolInstance.tintPercent
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+- [Timeline object](../Timeline_object/timeline_summary.md)
 
-    -   getBounds()
+  - getBounds()
 
 ### Dropped methods and properties in Flash CC
 
 The following methods and properties for existing objects are dropped in Adobe Animate:
 
--   ActionsPanel.getClassForObject()
+- ActionsPanel.getClassForObject()
 
--   ActionsPanel.getScriptAssistMode()
+- ActionsPanel.getScriptAssistMode()
 
--   ActionsPanel.setScriptAssistMode()
+- ActionsPanel.setScriptAssistMode()
 
--   CompiledClipInstance.actionscript
+- CompiledClipInstance.actionscript
 
--   fl.reloadEffects()
+- fl.reloadEffects()
 
--   fl.resetPackagePaths()
+- fl.resetPackagePaths()
 
--   document.activeEffect
+- document.activeEffect
 
--   document.allowScreens()
+- document.allowScreens()
 
--   document.drawingLayer
+- document.drawingLayer
 
--   document.importSWF()
+- document.importSWF()
 
--   document.loadCuePointXML()
+- document.loadCuePointXML()
 
--   document.packagePaths
+- document.packagePaths
 
--   document.saveAndCompact()
+- document.saveAndCompact()
 
--   document.screenType
+- document.screenType
 
--   library.importEmbeddedSWF()
+- library.importEmbeddedSWF()
 
--   SymbolInstance.actionscript
+- SymbolInstance.actionscript
 
 ### New objects in Flash CS6
 
 The following object is new in Flash CS6:
 
--   [SpriteSheetExporter object](../SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
+- [SpriteSheetExporter object](../SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
 ### New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
--   [BitmapItem object](../BitmapItem_object/bitmapItem_summary.md)
+- [BitmapItem object](../BitmapItem_object/bitmapItem_summary.md)
 
-    -   bitmapItem.exportToFile()quality parameter
+  - bitmapItem.exportToFile()quality parameter
 
-    -   bitmapItem.hasValidAlphaLayer
+  - bitmapItem.hasValidAlphaLayer
 
-    -   bitmapItem.lastModifiedDate
+  - bitmapItem.lastModifiedDate
 
--   [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/document_summary.md)
 
-    -   document.exportInstanceToLibrary()
+  - document.exportInstanceToLibrary()
 
-    -   document.exportInstanceToPNGSequence()
+  - document.exportInstanceToPNGSequence()
 
-    -   document.getSWFPathFromProfile()
+  - document.getSWFPathFromProfile()
 
-    -   document.saveAsCopy()
+  - document.saveAsCopy()
 
-    -   document.swfJPEGQuality
+  - document.swfJPEGQuality
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   fl.spriteSheetExporter
+  - fl.spriteSheetExporter
 
--   [Layer object](../Layer_object/layer_summary.md)
+- [Layer object](../Layer_object/layer_summary.md)
 
-    -   layer.animationType
+  - layer.animationType
 
--   [Math object](../Math_object/Math_summary.md)
+- [Math object](../Math_object/Math_summary.md)
 
-    -   Math.transformPoint()
+  - Math.transformPoint()
 
--   [Shape object](../Shape_object/shape_summary.md)
+- [Shape object](../Shape_object/shape_summary.md)
 
-    -   shape.isFloating
+  - shape.isFloating
 
--   [SoundItem object](../SoundItem_object/soundItem_summary.md)
+- [SoundItem object](../SoundItem_object/soundItem_summary.md)
 
-    -   soundItem.lastModifiedDate
+  - soundItem.lastModifiedDate
 
--   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
+- [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
 
-    -   symbolInstance.is3D
+  - symbolInstance.is3D
 
--   [SymbolItem object](../SymbolItem_object/symbolItem_summary.md)
+- [SymbolItem object](../SymbolItem_object/symbolItem_summary.md)
 
-    -   symbolItem.exportToLibrary()
+  - symbolItem.exportToLibrary()
 
-    -   symbolItem.exportToPNGSequence()
+  - symbolItem.exportToPNGSequence()
 
-    -   symbolItem.lastModifiedDate
+  - symbolItem.lastModifiedDate
 
--   [Text object](../Text_object/text_summary.md)
+- [Text object](../Text_object/text_summary.md)
 
-    -   text.filters
+  - text.filters
 
--   [VideoItem object](../VideoItem_object/videoItem_summary.md)
+- [VideoItem object](../VideoItem_object/videoItem_summary.md)
 
-    -   videoItem.lastModifiedDate
+  - videoItem.lastModifiedDate
 
 ### New methods and properties in Flash CS5 and CS5.5
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
--   [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/document_summary.md)
 
-    -   document.debugMovie()
+  - document.debugMovie()
 
-    -   document.loadCuepointXML()
+  - document.loadCuepointXML()
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   fl.languageCode
+  - fl.languageCode
 
-    -   fl.toggleBreakpoint
+  - fl.toggleBreakpoint
 
--   [Frame object](../Frame_object/frame_summary.md)
+- [Frame object](../Frame_object/frame_summary.md)
 
-    -   frame.convertMotionObjectTo2D()
+  - frame.convertMotionObjectTo2D()
 
-    -   frame.convertMotionObjectTo3D()
+  - frame.convertMotionObjectTo3D()
 
-    -   frame.getMotionObjectXML()
+  - frame.getMotionObjectXML()
 
-    -   frame.hasMotionPath()
+  - frame.hasMotionPath()
 
-    -   frame.isMotionObject()
+  - frame.isMotionObject()
 
-    -   frame.is3DMotionObject()
+  - frame.is3DMotionObject()
 
-    -   frame.selectMotionPath()
+  - frame.selectMotionPath()
 
-    -   frame.setMotionObjectDuration()
+  - frame.setMotionObjectDuration()
 
-    -   frame.setMotionObjectXML()
+  - frame.setMotionObjectXML()
 
-    -   frame.tweenInstanceName
+  - frame.tweenInstanceName
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+- [Timeline object](../Timeline_object/timeline_summary.md)
 
-    -   timeline.createMotionObject()
+  - timeline.createMotionObject()
 
-    -   timeline.libraryItem
+  - timeline.libraryItem
 
-    -   timeline.removeMotionObject()
+  - timeline.removeMotionObject()
 
-    -   timeline.startPlayback
+  - timeline.startPlayback
 
-    -   timeline.stopPlayback
+  - timeline.stopPlayback
 
 The following methods and properties for existing objects are new in Flash Pro CS5.5:
 
--   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
+- [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
 
-    -   symbolInstance.bitmapRenderMode
+  - symbolInstance.bitmapRenderMode
 
-    -   symbolInstance.backgroundColor
+  - symbolInstance.backgroundColor
 
-    -   symbolInstance.usesBackgroundColor
+  - symbolInstance.usesBackgroundColor
 
-    -   symbolInstance.visible
+  - symbolInstance.visible
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+- [Timeline object](../Timeline_object/timeline_summary.md)
 
-    -   timeline.copyLayers()
+  - timeline.copyLayers()
 
-    -   timeline.cutLayers()
+  - timeline.cutLayers()
 
-    -   timeline.duplicateLayers()
+  - timeline.duplicateLayers()
 
-    -   timeline.pasteLayers()
+  - timeline.pasteLayers()
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+- [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   fl.getSwfPanel()
+  - fl.getSwfPanel()
 
-    -   fl.installedPlayers()
+  - fl.installedPlayers()
 
-    -   fl.publishCacheEnabled
+  - fl.publishCacheEnabled
 
-    -   fl.publishCacheDiskSizeMax
+  - fl.publishCacheDiskSizeMax
 
-    -   fl.publishCacheMemorySizeMax
+  - fl.publishCacheMemorySizeMax
 
-    -   fl.publishCacheMemoryEntrySizeLimit
+  - fl.publishCacheMemoryEntrySizeLimit
 
-    -   fl.clearPublishCache()
+  - fl.clearPublishCache()
 
--   [swfPanel object](../swfPanel_object/swfPanel_summary.md)
+- [swfPanel object](../swfPanel_object/swfPanel_summary.md)
 
-    -   swfPanel.setFocus()
+  - swfPanel.setFocus()
 
 ### Other changes in Flash CS5 and CS5.5
 
 The following methods and properties are updated in Flash CS5:
 
--   fl.openScript()
+- fl.openScript()
 
--   fl.publishDocument()
+- fl.publishDocument()
 
--   fontItem.embedRanges
+- fontItem.embedRanges
 
--   fontItem.embeddedCharacters
+- fontItem.embeddedCharacters
 
--   fontItem.embedVariantGlyphs
+- fontItem.embedVariantGlyphs
 
 The following objects and method are no longer available in Flash CS5:
 
--   Screen object
+- Screen object
 
--   ScreenOutline object
+- ScreenOutline object
 
--   document.canSaveAVersion()
+- document.canSaveAVersion()
 
--   document.revertToLastVersion()
+- document.revertToLastVersion()
 
--   document.saveAVersion()
+- document.saveAVersion()
 
--   document.synchronizeWithHeadVersion()
+- document.synchronizeWithHeadVersion()
 
--   fl.downloadLatestVersion()
+- fl.downloadLatestVersion()
 
--   fl.revertDocumentToLastVersion()
+- fl.revertDocumentToLastVersion()
 
--   fl.saveAVersionOfDocument()
+- fl.saveAVersionOfDocument()
 
--   fl.synchronizeDocumentWithHeadVersion()
-
-
+- fl.synchronizeDocumentWithHeadVersion()

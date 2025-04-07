@@ -44,6 +44,7 @@ The following example adds a new rectangle with no rounding on the corners and w
 fl.getDocumentDOM().addNewRectangle({left:20,top:20,right:220,bottom:120},0, false, true);
 
 ```
+
 #### See also
 
 [document.addNewPrimitiveRectangle()](../Document_object/documen8.md)

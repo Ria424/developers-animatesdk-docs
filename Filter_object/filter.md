@@ -15,6 +15,7 @@ Property; a float value that specifies the angle of the shadow or highlight colo
 #### Example
 
 The following example sets the angle to 120 for the Bevel filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++) {
@@ -25,6 +26,7 @@ myFilters[i].angle = 120;
 fl.getDocumentDOM().setFilters(myFilters);
 
 ```
+
 #### See also
 
 [document.setFilterProperty()](../Document_object/docum520.md)

@@ -22,7 +22,6 @@ Method; returns an array that contains the list of filters applied to the curren
 
 #### Example
 
-
 See  [document.setFilters()](../Document_object/docum530.md).
 
 #### See also

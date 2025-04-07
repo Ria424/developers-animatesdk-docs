@@ -15,9 +15,11 @@ Read-only property; a float value that specifies the start angle of the Oval obj
 #### Example
 
 The following example sets the start angle of selected Oval objects to 270:
+
 ```javascript
 fl.getDocumentDOM().setOvalObjectProperty("startAngle",270);
 ```
+
 #### See also
 
 [document.setOvalObjectProperty()](../Document_object/docum590.md), [OvalObject.endAngle](../Oval_object/OvalObjec1.md), [shape.isOvalObject](../Shape_object/shape9.md)

@@ -23,6 +23,7 @@ Method; removes an element of the object or array type of a screen or component 
 #### Example
 
 The following example removes the element at index 1 from the labelPlacement parameter of a component:
+
 ```javascript
 // Select an instance of a Button component on the Stage.
 var parms = fl.getDocumentDOM().selection[0].parameters;
@@ -38,7 +39,9 @@ for(var prop in newValues){
 fl.trace("labelPlacement value = " + newValues[prop].value);
 }
 ```
+
 The following example removes the element at index 1 from the autoKeyNav parameter of a screen:
+
 ```javascript
 // Open a presentation document.
 var parms = fl.getDocumentDOM().screenOutline.screens[1].parameters;

@@ -21,6 +21,7 @@ var fill = fl.getDocumentDOM().getCustomFill();
 if (fill.style == "bitmap")
 fl.trace("Fill image is clipped: " + fill.bitmapIsClipped);
 ```
+
 #### See also
 
 [fill.bitmapPath](../Fill_object/fill1.md)

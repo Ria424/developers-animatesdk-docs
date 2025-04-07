@@ -29,6 +29,7 @@ var isVisible = fl.xmlui.getVisible("myListBox");
 fl.trace(isVisible);
 
 ```
+
 #### See also
 
 [xmlui.setVisible()](../XMLUI_object/xmlui10.md)

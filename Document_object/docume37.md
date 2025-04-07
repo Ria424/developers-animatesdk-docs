@@ -27,6 +27,7 @@ The following example crops the currently selected objects:
 fl.getDocumentDOM().crop();
 
 ```
+
 #### See also
 
 [document.deleteEnvelope()](../Document_object/docume41.md), [document.intersect()](../Document_object/docume97.md), [document.punch()](../Document_object/docum230.md), [document.union()](../Document_object/docu6120.md), [shape.isDrawingObject](../Shape_object/shape6.md)

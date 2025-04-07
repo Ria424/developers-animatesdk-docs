@@ -5,6 +5,7 @@
 Flash MX 2004.
 
 #### Usage
+
 function mouseDoubleClick() {
 // statements
 }

@@ -15,15 +15,13 @@ The matrix.b and matrix.c properties in a matrix represent skewing (see [matrix.
 
 #### Example
 
-
 In the following example, you can set b and c to -1 and 0, respectively; these settings skew the object at a 45º vertical angle:
+
 ```javascript
 var mat = fl.getDocumentDOM().selection[0].matrix; mat.b = -1;
 mat.c = 0; fl.getDocumentDOM().selection[0].matrix = mat;
 ```
 
 To skew the object back to its original shape, you can set b and c to 0. See also the [matrix.a](../Matrix_object/matrix.md) example.
-
-
 
 <span id="matrix.c" class="anchor"></span>

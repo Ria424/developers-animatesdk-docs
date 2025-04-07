@@ -22,7 +22,6 @@ Method; gets the Edge object for the HalfEdge object. See [Edge object](../Edge_
 
 #### Example
 
-
 The following example illustrates getting an edge and a half edge for the specified shape:
 
 ```javascript

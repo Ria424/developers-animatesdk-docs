@@ -15,6 +15,7 @@ Property; a Boolean value that enables or disables the accessibility of the obje
 #### Example
 
 The following example illustrates getting and setting the silent property:
+
 ```javascript
 // Query if the object is accessible.
 var isSilent = fl.getDocumentDOM().selection[0].silent;

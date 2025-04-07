@@ -22,12 +22,13 @@ Method; creates an intersection drawing object from all selected drawing objects
 
 #### Example
 
-
 The following example creates an intersection drawing object from all selected drawing objects:
+
 ```javascript
 fl.getDocumentDOM().intersect();
 
 ```
+
 #### See also
 
 [document.crop()](../Document_object/docume37.md), [document.deleteEnvelope()](../Document_object/docume41.md), [document.punch()](../Document_object/docum230.md), [document.union()](../Document_object/docu6120.md), [shape.isDrawingObject](../Shape_object/shape6.md)

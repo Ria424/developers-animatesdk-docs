@@ -29,6 +29,7 @@ var theFrame = fl.getDocumentDOM().getTimeline().layers[0].frames[0]
 var easeArray = theFrame.getCustomEase("position");
 
 ```
+
 #### See also
 
 [frame.hasCustomEase](../Frame_object/frame10.md), [frame.setCustomEase()](../Frame_object/frame24.md), [frame.useSingleEaseCurve](../Frame_object/frame40.md)

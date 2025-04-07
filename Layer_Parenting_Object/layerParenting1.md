@@ -10,7 +10,7 @@ Adobe Animate 2020.
 
 #### Usage
 
-layer.getRigParentAtFrame(frameIndex) 
+layer.getRigParentAtFrame(frameIndex)
 
 #### Returns
 

@@ -21,6 +21,7 @@ var sel = fl.getDocumentDOM().selection[0];
 fl.trace(sel.isRectangleObject);
 
 ```
+
 #### See also
 
 [shape.isOvalObject](../Shape_object/shape9.md)

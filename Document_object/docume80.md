@@ -22,13 +22,14 @@ Method; returns a string containing the XML metadata associated with the documen
 
 #### Example
 
-
 The following example displays XML metadata from the current document in the Output panel:
+
 ```javascript
 
 fl.trace("XML Metadata is :" + fl.getDocumentDOM().getMetadata());
 
 ```
+
 #### See also
 
 [document.setMetadata()](../Document_object/docum570.md)

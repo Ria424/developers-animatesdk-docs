@@ -16,7 +16,6 @@ Property; a string that specifies the actions assigned to the symbol. This appli
 
 #### Example
 
-
 The following example assigns an onClipEvent action to the first item in the first frame of the first layer in the timeline:
 
 ```javascript

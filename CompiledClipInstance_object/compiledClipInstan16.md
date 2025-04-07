@@ -15,6 +15,7 @@ Property; an array of Filter objects. The properties of Filter object in the fil
 #### Example
 
 The following example illustrates use of this property:
+
 ```javascript
 //trace the name of the filter at index 0, if == glow filter, set its blurX to 100
 var filterName =

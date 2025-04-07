@@ -14,14 +14,15 @@ Property; a Boolean value that specifies whether the ActionScript 3.0 compiler s
 
 #### Example
 
-
 The following example turns off the Strict Mode compiler option.
+
 ```javascript
 var myDocument = fl.getDocumentDOM();
 fl.outputPanel.trace("Strict Mode value before modification is " + myDocument.as3StrictMode); myDocument.as3StrictMode = false;
 fl.outputPanel.trace("Strict Mode value after modification is " + myDocument.as3StrictMode);
 
 ```
+
 #### See also
 
 [document.as3WarningsMode](../Document_object/docume20.md)

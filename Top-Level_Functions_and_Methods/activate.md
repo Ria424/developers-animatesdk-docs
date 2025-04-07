@@ -25,12 +25,14 @@ Function; called when the extensible tool becomes active (that is, when the tool
 #### Example
 
 The following example sets the value of [tools.activeTool](../Tools_object/tools.md) when the extensible tool is selected in the Tools panel:
+
 ```javascript
 function activate() {
 var theTool = fl.tools.activeTool
 }
 
 ```
+
 #### See also
 
 [tools.activeTool](../Tools_object/tools.md)

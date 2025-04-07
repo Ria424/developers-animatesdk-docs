@@ -28,6 +28,7 @@ The following example selects everything that is currently visible to the user:
 fl.getDocumentDOM().selectAll();
 
 ```
+
 #### See also
 
 [document.selection](../Document_object/docum430.md), [document.selectNone()](../Document_object/docum440.md)

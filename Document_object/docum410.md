@@ -25,6 +25,7 @@ for(var i in fl.getDocumentDOM().screenOutline) {
 fl.trace("Here is the property dump for screenOutline: "+myArray);
 
 ```
+
 #### See also
 
 [document.allowScreens() - dropped](../Document_object/docume14.md)

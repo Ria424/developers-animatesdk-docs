@@ -23,8 +23,8 @@ To send a blank line, use outputPanel.trace("") or outputPanel.trace("\n"). You 
 
 #### Example
 
-
 The following example displays several lines of text in the Output panel:
+
 ```javascript
 fl.outputPanel.clear();
 fl.outputPanel.trace("Hello World!!!");

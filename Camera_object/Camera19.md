@@ -1,4 +1,4 @@
-## Camera.colorFilterEnabled	
+## Camera.colorFilterEnabled 
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2019
 
 #### Usage
 
-camera.colorFilterEnabled	
+camera.colorFilterEnabled 
 
 #### Type
 
@@ -22,7 +22,5 @@ The following example enables the color filter:
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
-
 timeline.camera.colorFilterEnabled = true;
-
 ```

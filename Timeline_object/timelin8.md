@@ -24,9 +24,11 @@ To copy motion as text (code) that you can paste into a script, see [timeline.co
 #### Example
 
 The following example copies the motion from the selected frame or frames:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().copyMotion();
 ```
+
 #### See also
 
 [timeline.copyMotionAsAS3()](../Timeline_object/timelin9.md), [timeline.pasteMotion()](../Timeline_object/timeli36.md)

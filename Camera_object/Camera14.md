@@ -23,10 +23,8 @@ Remove camera tint.
 #### Example
 
 The following example Remove camera tint.
+
 ```javascript
 var tl = an.getDocumentDOM().getTimeline();
 tl.camera.resetTint(0); // reset camera tint at first frame in timeline
-
-
 ```
-

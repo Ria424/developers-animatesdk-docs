@@ -19,6 +19,7 @@ Method; retrieves the currently selected frames in an array.
 #### Example
 
 With the top layer being the current layer, the following example displays 0, 5, 10, 0, 20, 25 in the Output panel:
+
 ```javascript
 var timeline = fl.getDocumentDOM().getTimeline();
 timeline.setSelectedFrames(5,10);
@@ -27,6 +28,7 @@ var theSelectedFrames = timeline.getSelectedFrames();
 fl.trace(theSelectedFrames);
 
 ```
+
 #### See also
 
 [timeline.setSelectedFrames()](../Timeline_object/timeli46.md)

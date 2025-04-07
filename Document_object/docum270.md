@@ -29,6 +29,7 @@ The following example removes the first filter (index value 0) from the Filters 
 fl.getDocumentDOM().removeFilter(0);
 
 ```
+
 #### See also
 
 [document.addFilter()](../Document_object/documen3.md), [document.changeFilterOrder()](../Document_object/docume29.md), [document.disableFilter()](../Document_object/docume47.md), [document.getFilters()](../Document_object/docume79.md), [document.removeAllFilters()](../Document_object/docum240.md), [Filter object](../Filter_object/filter_summary.md)

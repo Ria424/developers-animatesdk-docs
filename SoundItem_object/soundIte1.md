@@ -21,6 +21,7 @@ The following example displays the bits value in the Output panel if the current
 alert(fl.getDocumentDOM().library.items[0].bits);
 
 ```
+
 #### See also
 
 [soundItem.compressionType](../SoundItem_object/soundIte2.md)

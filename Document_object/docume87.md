@@ -35,6 +35,7 @@ The following example gets the string from character index 2 up to, but not incl
 fl.getDocumentDOM().getTextString(2, 10);
 
 ```
+
 #### See also
 
 [document.setTextString()](../Document_object/docu9908.md)

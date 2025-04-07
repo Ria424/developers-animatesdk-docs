@@ -16,5 +16,4 @@ Property; a string that represents the URL property of the text field. This prop
 
 The following example sets the URL of the selected text field to [http://www.adobe.com:](http://www.adobe.com/)
 
-
  fl.getDocumentDOM().setElementTextAttr("url", ["http://www.adobe.com"](http://www.adobe.com/));

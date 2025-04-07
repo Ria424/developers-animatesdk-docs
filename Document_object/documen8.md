@@ -25,7 +25,6 @@ Method; adds a new rectangle primitive fitting into the specified bounds. This m
 
 #### Example
 
-
 The following example adds rectangle primitives within the specified coordinates, with and without fill and stroke, and with different amounts of roundness:
 
 ```javascript
@@ -37,6 +36,7 @@ fl.getDocumentDOM().addNewPrimitiveRectangle({left:100,top:100,right:200,bottom:
 fl.getDocumentDOM().addNewPrimitiveRectangle({left:200,top:200,right:300,bottom:300}, 50,false,true);
 
 ```
+
 #### See also
 
 [document.addNewRectangle()](../Document_object/docume10.md)

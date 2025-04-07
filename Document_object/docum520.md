@@ -34,6 +34,7 @@ fl.getDocumentDOM().setFilterProperty("quality", 1, 2);
 fl.getDocumentDOM().setFilterProperty("shadowColor", 0, "#FF00FF");
 
 ```
+
 #### See also
 
 [document.addFilter()](../Document_object/documen3.md), [document.getFilters()](../Document_object/docume79.md), [document.setBlendMode()](../Document_object/docum460.md), [document.setFilters()](../Document_object/docum530.md),[Filter object](../Filter_object/filter_summary.md)

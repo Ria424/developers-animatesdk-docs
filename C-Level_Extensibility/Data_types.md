@@ -17,4 +17,3 @@ An opaque data structure that can contain an integer, or a pointer to a float, s
 ### typedef enum { JS\_FALSE = 0, JS\_TRUE = 1 } JSBool
 
 A simple data type that stores a Boolean value.
-

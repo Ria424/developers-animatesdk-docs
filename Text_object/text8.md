@@ -21,6 +21,7 @@ The following example enables variant glyphs to be embedded in the selected Text
 ```javascript
  fl.getDocumentDOM().selection[0].embedVariantGlyphs = true;
 ```
+
 #### See also
 
 [fontItem.embedVariantGlyphs](../fontItem_object/fontIte4.md)

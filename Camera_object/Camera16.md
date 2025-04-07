@@ -23,6 +23,7 @@ Reset all camera properties to default.
 #### Example
 
 The following example reset all camera properties to default.
+
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 timeline.camera.reset(0);

@@ -19,4 +19,3 @@ Boolean.
 #### Description
 
 Method; Removes the specified SymbolItem or SymbolInstance from the sprite sheet.
-

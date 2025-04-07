@@ -14,8 +14,8 @@ Property; a string that specifies the rotation of a hatch line. This property is
 
 #### Example
 
-
 The following example sets the rotate property to free for a style stroke of hatched:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke(); 
 myStroke.style = "hatched";

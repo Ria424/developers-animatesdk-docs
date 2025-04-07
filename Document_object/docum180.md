@@ -23,8 +23,8 @@ Method; optimizes smoothing for the current selection, allowing multiple passes,
 
 #### Example
 
-
 The following example optimizes the curve of the current selection to 50º of smoothing with multiple passes:
+
 ```javascript
 fl.getDocumentDOM().optimizeCurves(50, true);
 

@@ -20,13 +20,13 @@ A Boolean value of true if the preset or folder is successfully renamed; false o
 
 Method; renames the currently selected preset or folder to a specified name. This method succeeds only if a single preset or folder in the Custom Presets folder is selected. This method fails in the following situations:
 
--   No item is selected.
+- No item is selected.
 
--   Multiple items are selected.
+- Multiple items are selected.
 
--   The selected item is in the Default Presets folder.
+- The selected item is in the Default Presets folder.
 
--   An item named *newName* exists in the same location as the selected item.
+- An item named *newName* exists in the same location as the selected item.
 
 #### Example
 

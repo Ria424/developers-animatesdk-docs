@@ -14,8 +14,8 @@ Property; a string that specifies the type of cap for the stroke. Acceptable val
 
 #### Example
 
-
 The following example sets the stroke cap type to round:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
 myStroke.capType = "round"; 

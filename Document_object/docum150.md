@@ -24,7 +24,6 @@ Method; if the selection contains at least one path with at least one Bézier po
 
 The following example moves the selected Bézier points 10 pixels to the right and 5 pixels down:
 
-
 ```javascript
 fl.getDocumentDOM().moveSelectedBezierPointsBy({x:10, y:5});
 

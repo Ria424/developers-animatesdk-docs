@@ -38,6 +38,7 @@ for (i=0; i<nameArray.length; i++){
 fl.xmlui.setControlItemElements("myControlID", monthArray);
 
 ```
+
 #### See also
 
 [xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md), [xmlui.set()](../XMLUI_object/xmlui6.md), [xmlui.setControlItemElement()](../XMLUI_object/xmlui7.md)

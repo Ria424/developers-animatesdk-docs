@@ -1,4 +1,4 @@
-## Layer.getBlendModeAtFrame()	
+## Layer.getBlendModeAtFrame() 
 
 #### Availability
 
@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-layer.getBlendModeAtFrame(frameIndex)		
+layer.getBlendModeAtFrame(frameIndex)  
 
 #### Parameters
 
-**frameIndex** - It is an integer that specifies absolute frame index.	
+**frameIndex** - It is an integer that specifies absolute frame index. 
 
 #### Returns
 

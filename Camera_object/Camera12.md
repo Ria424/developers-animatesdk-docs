@@ -23,9 +23,8 @@ Reset camera angle to zero.
 #### Example
 
 The following example resets camera angle to zero.
+
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 timeline.camera.resetRotation(0);
-
 ```
-

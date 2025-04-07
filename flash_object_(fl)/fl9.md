@@ -25,6 +25,7 @@ Method; closes the specified document.
 #### Example
 
 The following example illustrates two ways of closing a document.
+
 ```javascript
 // Closes the specified document and prompts to save changes.
 fl.closeDocument(fl.documents[0]);

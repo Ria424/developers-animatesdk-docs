@@ -39,6 +39,7 @@ The following example moves the filter that is currently in the second position 
 fl.getDocumentDOM().changeFilterOrder(1,0);
 
 ```
+
 #### See also
 
 [document.addFilter()](../Document_object/documen3.md), [document.disableFilter()](../Document_object/docume47.md), [document.enableFilter()](../Document_object/docume59.md), [document.getFilters()](../Document_object/docume79.md), [document.removeFilter()](../Document_object/docum270.md), [Filter object](../Filter_object/filter_summary.md)

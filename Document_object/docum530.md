@@ -35,6 +35,7 @@ if (myFilters[i].name == "blurFilter")
 fl.getDocumentDOM().setFilters(myFilters);
 
 ```
+
 #### See also
 
 [document.addFilter()](../Document_object/documen3.md), [document.getFilters()](../Document_object/docume79.md), [document.setFilterProperty()](../Document_object/docum520.md), [Filter object](../Filter_object/filter_summary.md)

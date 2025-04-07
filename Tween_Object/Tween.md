@@ -33,4 +33,3 @@ var colors = tweenObj.getColorTransform(i);
 fl.trace(" Frame " + i + " Matrix = a = " + mat.a + " b = " + mat.b + " c = " + mat.c + " d =
 " + mat.d + " tx = " + mat.tx + " ty = " + mat.ty );
 fl.trace(" color transform :");
-

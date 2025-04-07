@@ -23,7 +23,6 @@ Method; sets the property for all selected library items (ignoring folders).
 
 #### Example
 
-
 The following example assigns the value button to the symbolType property for the selected library item or items. In this case, the item must be a [SymbolItem object](../SymbolItem_object/symbolItem_summary.md); symbolType is a valid property for SymbolItem objects.
 
 ```javascript

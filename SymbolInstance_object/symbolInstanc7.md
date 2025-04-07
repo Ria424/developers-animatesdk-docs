@@ -17,6 +17,7 @@ Property; a Boolean value that specifies whether run-time bitmap caching is enab
 #### Example
 
 The following example enables run-time bitmap caching for the first element in the first frame on the first layer:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].cacheAsBitmap = true;
 

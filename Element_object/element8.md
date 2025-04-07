@@ -21,4 +21,5 @@ var sel = fl.getDocumentDOM().selection[0];
 fl.trace("Left (before) = " + sel.left); fl.getDocumentDOM().moveSelectionBy({x:100, y:0}); 
 fl.trace("Left (after) = " + sel.left);
 ```
+
 See the [element.elementType](../Element_object/element1.md) example.

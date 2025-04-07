@@ -14,7 +14,6 @@ Property; a [Matrix object](../Matrix_object/matrix_summary.md) that defines the
 
 #### Example
 
-
 The following example uses the fill.matrix property to specify a gradient fill for the current selection:
 
 ```javascript

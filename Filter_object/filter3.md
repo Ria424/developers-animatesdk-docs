@@ -15,6 +15,7 @@ Property; a float value that specifies the brightness of the filter. Acceptable 
 #### Example
 
 The following example sets the brightness to 30.5 for the Adjust Color filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){

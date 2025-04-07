@@ -19,7 +19,7 @@ This property works only with dynamic or input text; it generates a warning if u
 #### Example
 
 The following example assumes that the first or only item in the current selection is a classic text object and sets the
-embeddedCharacters property to abc: 
+embeddedCharacters property to abc:
 
 ```javascript
 fl.getDocumentDOM().selection[0].embeddedCharacters = "abc";

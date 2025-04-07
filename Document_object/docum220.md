@@ -14,7 +14,6 @@ Read-only property; an array of the publish profile names for the document.
 
 #### Example
 
-
 The following example displays the names of the publish profiles for the document:
 
 ```javascript

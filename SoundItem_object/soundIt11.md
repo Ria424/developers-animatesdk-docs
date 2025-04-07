@@ -21,6 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("fileIsCurrent = "+ libItem.sourceFileIsCurrent);
 
 ```
+
 #### See also
 
 [soundItem.fileLastModifiedDate](../SoundItem_object/soundIte5.md), [soundItem.sourceFilePath](../SoundItem_object/soundIt12.md)

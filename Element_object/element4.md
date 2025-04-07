@@ -29,6 +29,7 @@ The following example gets the transformation point for the third element in the
 var transPoint = fl.getDocumentDOM().getTimeline().layers[0].frames[8].elements[2].getTransformationPoint();
 
 ```
+
 #### See also
 
 [document.getTransformationPoint()](../Document_object/docume89.md), [element.setTransformationPoint()](../Element_object/elemen19.md), [element.transformX](../Element_object/elemen23.md), [element.transformY](../Element_object/elemen24.md)

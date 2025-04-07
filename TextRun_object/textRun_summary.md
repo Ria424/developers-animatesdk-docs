@@ -12,10 +12,7 @@ The TextRun object represents a run of characters that have attributes that matc
 
 In addition to the properties available for use with the Text object, the TextRun object provides the following properties:
 
-| **Property**                            | **Description**                                                    |
-|-----------------------------------------|--------------------------------------------------------------------|
-| [textRun.characters](../TextRun_object/textRun1.md)    | A string that represents the text contained in the TextRun object. |
+| **Property** | **Description** |
+| --- | --- |
+| [textRun.characters](../TextRun_object/textRun1.md) | A string that represents the text contained in the TextRun object. |
 | [textRun.textAttrs](../TextRun_object/textRun.md) | The TextAttrs object containing the attributes of the run of text. |
-
-<span id="textRun.textAttrs" class="anchor"></span>
-

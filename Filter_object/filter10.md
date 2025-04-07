@@ -15,6 +15,7 @@ Property; a float value that specifies the hue of the filter. Acceptable values 
 #### Example
 
 The following example sets the hue to 120 for the Adjust Color filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){

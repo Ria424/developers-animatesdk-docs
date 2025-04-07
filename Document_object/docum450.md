@@ -28,6 +28,7 @@ The following example enables the To Stage button in the Align panel to align ob
 fl.getDocumentDOM().setAlignToDocument(true);
 
 ```
+
 #### See also
 
 [document.getAlignToDocument()](../Document_object/docume72.md)

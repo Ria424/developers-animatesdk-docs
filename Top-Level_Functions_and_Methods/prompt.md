@@ -31,6 +31,7 @@ var userName = prompt("Enter user name", "Type user name here");
 fl.trace(userName);
 
 ```
+
 #### See also
 
 [alert()](../Top-Level_Functions_and_Methods/alert.md), [confirm()](../Top-Level_Functions_and_Methods/confirm.md)

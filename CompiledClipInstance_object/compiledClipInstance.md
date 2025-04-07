@@ -15,6 +15,7 @@ Property; a string that is equivalent to the Name field in the Accessibility pan
 #### Example
 
 The following example gets and sets the accessibility name of the first selected object:
+
 ```javascript
 // Get the name of the object.
 var theName = fl.getDocumentDOM().selection[0].accName;

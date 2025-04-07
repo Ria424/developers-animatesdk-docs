@@ -20,6 +20,7 @@ var element = fl.getDocumentDOM().selection[0];
 element.scaleY = 2;
 
 ```
+
 #### See also
 
 [element.scaleX](../Element_object/elemen14.md)

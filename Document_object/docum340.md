@@ -27,6 +27,7 @@ The following example reverts the current document to the previously saved versi
 fl.getDocumentDOM().revert();
 
 ```
+
 #### See also
 
 [document.canRevert()](../Document_object/docume26.md), [fl.revertDocument()](../flash_object_(fl)/fl61.md).

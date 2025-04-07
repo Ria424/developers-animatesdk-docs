@@ -28,6 +28,7 @@ The following example copies the current selection from the document to the Clip
 fl.getDocumentDOM().clipCopy();
 
 ```
+
 #### See also
 
 [document.clipCut()](../Document_object/docume31.md), [document.clipPaste()](../Document_object/docume32.md)

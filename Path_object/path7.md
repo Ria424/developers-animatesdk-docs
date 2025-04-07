@@ -16,6 +16,7 @@ Read-only property; an integer representing the number of points in the path. A 
 
 The following example uses the Output panel to show the number of points in the path referenced by the myPath
 variable:
+
 ```javascript
 var myPath = fl.drawingLayer.newPath();
 var numOfPoints = myPath.nPts;

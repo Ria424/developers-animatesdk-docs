@@ -26,7 +26,6 @@ Method; exports a video from the document and optionally sends it to Adobe Media
 
 #### Example
 
-
 The following example illustrates the use of this method:
 
 ```javascript

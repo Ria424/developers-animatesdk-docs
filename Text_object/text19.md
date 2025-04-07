@@ -17,6 +17,7 @@ Input text is always selectable. Flash generates a warning when this property is
 #### Example
 
 The following example sets the selectable property to true:
+
 ```javascript
 fl.getDocumentDOM().selection[0].selectable = true;
 ```

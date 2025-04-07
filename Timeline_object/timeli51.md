@@ -25,6 +25,7 @@ Method; Merge the layers within specified range of indexes.
 #### Example
 
 The following example merge layers from index 0 to 3.
+
 ```javascript
 fl.getDocumentDOM().getTimeline().mergeLayers(0,3);
 ```

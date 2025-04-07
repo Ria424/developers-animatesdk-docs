@@ -21,6 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
 
 ```
+
 #### See also
 
 [videoItem.sourceFileIsCurrent](../VideoItem_object/videoIte4.md), [videoItem.sourceFilePath](../VideoItem_object/videoIte5.md)

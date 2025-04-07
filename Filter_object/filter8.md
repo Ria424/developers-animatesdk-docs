@@ -15,6 +15,7 @@ Property; a Boolean value that specifies whether the source image is hidden (tru
 #### Example
 
 The following example sets the hideObject value to true for the Drop Shadow filters on the selected object(s):
+
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 for(i=0; i < myFilters.length; i++){

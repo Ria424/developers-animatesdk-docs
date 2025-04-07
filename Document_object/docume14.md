@@ -22,7 +22,6 @@ A Boolean value: true if document.screenOutline can be used safely; false otherw
 
 #### Example
 
-
 The following example determines whether screens methods can be used in the current document:
 
 ```javascript
@@ -34,6 +33,7 @@ else {
     }
 
 ```
+
 #### See also
 
 [document.screenOutline - dropped](../Document_object/docum410.md)

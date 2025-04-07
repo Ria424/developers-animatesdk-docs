@@ -15,6 +15,7 @@ Read-only property; an integer that specifies the index value of a cubic segment
 #### Example
 
 The following code displays the index values of all the cubic segments of the specified edge:
+
 ```javascript
 var theShape = fl.getDocumentDOM().selection[0]; var edgesArray = theShape.edges;
 for(var i=0;i<edgesArray.length; i++) { fl.trace(edgesArray[i].cubicSegmentIndex);

@@ -25,6 +25,7 @@ This method functions only on a layer of type "Normal". It has no effect on a la
 #### Example
 
 The following example adds a motion guide layer above the current layer, and converts the current layer to Guided:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().addMotionGuide();
 ```

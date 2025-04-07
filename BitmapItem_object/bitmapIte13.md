@@ -15,6 +15,7 @@ Property; a Boolean value that specifies whether to use the default imported JPE
 #### Example
 
 The following code sets the useImportedJPEGQuality property of the first item in the library of the current document to true:
+
 ```javascript
 fl.getDocumentDOM().library.items[0].useImportedJPEGQuality = true; 
 alert(fl.getDocumentDOM().library.items[0].useImportedJPEGQuality);

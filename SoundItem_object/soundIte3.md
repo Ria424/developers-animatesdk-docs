@@ -22,6 +22,7 @@ The following example converts an item in the library to mono only if the item h
 fl.getDocumentDOM().library.items[0].convertStereoToMono = true;
 
 ```
+
 #### See also
 
 [soundItem.compressionType](../SoundItem_object/soundIte2.md)

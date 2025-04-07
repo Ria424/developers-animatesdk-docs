@@ -14,7 +14,6 @@ Read-only property; an integer indicating the orientation of the contour. The va
 
 #### Example
 
-
 The following example traverses all the contours of the selected shape and shows the value of the orientation
 property of each contour in the Output panel:
 

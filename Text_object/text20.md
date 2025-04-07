@@ -14,4 +14,3 @@ Property; a zero-based integer that specifies the end of a text subselection. Fo
 [text.selectionStart](../Text_object/text21.md).
 
 <span id="text.selectionStart" class="anchor"></span>
-

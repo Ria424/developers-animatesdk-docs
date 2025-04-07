@@ -23,6 +23,7 @@ Method; starts a new contour in the path.
 #### Example
 
 The following example creates a hollow square:
+
 ```javascript
 var myPath = fl.drawingLayer.newPath();
 myPath.addPoint(0, 0);

@@ -25,11 +25,11 @@ Method; exports the currently active profile to an XML file.
 The following example exports the currently active profile to the file named profile.xml in the
 folder /Documents and Settings/username/Desktop on the C drive:
 
-
 ```javascript
 fl.getDocumentDOM().exportPublishProfile('file:///C\|/Documents and Settings/username/Desktop/profile.xml');
 
 ```
+
 #### See also
 
 [document.exportPublishProfileString()](../Document_object/docume66.md), [document.importPublishProfile()](../Document_object/docume94.md)

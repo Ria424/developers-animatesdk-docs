@@ -39,6 +39,7 @@ The following example draws the oval without a stroke:
 fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228}, false, true);
 
 ```
+
 #### See also
 
 [document.addNewPrimitiveOval()](../Document_object/documen7.md)

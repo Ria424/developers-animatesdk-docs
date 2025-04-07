@@ -21,6 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("fileIsCurrent = "+ libItem.sourceFileIsCurrent);
 
 ```
+
 #### See also
 
 [videoItem.fileLastModifiedDate](../VideoItem_object/videoIte1.md), [videoItem.sourceFilePath](../VideoItem_object/videoIte5.md)

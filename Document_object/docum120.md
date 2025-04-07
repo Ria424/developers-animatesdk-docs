@@ -35,6 +35,7 @@ The following example matches the width only to the bounds of the document:
 fl.getDocumentDOM().match(true,false,true);
 
 ```
+
 #### See also
 
 [document.getAlignToDocument()](../Document_object/docume72.md) [document.setAlignToDocument()](../Document_object/docum450.md)

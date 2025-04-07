@@ -22,12 +22,13 @@ Method; exits from symbol-editing mode and returns focus to the next level up fr
 
 #### Example
 
-
 The following example exits symbol-editing mode:
+
 ```javascript
 fl.getDocumentDOM().exitEditMode();
 
 ```
+
 #### See also
 
 [document.enterEditMode()](../Document_object/docume60.md)

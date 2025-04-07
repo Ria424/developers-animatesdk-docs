@@ -14,12 +14,13 @@ Read-only property; a unique integer (assigned automatically) that identifies a 
 
 #### Example
 
-
 The following example displays the document ID for the current document:
+
 ```javascript
 fl.trace("Current doc's internal ID is: " + fl.getDocumentDOM().id);
 
 ```
+
 #### See also
 
 [fl.findDocumentDOM()](../flash_object_(fl)/fl25.md).

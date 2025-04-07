@@ -22,12 +22,13 @@ Method; sets the blending mode for the selected objects.
 
 #### Example
 
-The following example sets the blending mode for the selected object to "add". 
+The following example sets the blending mode for the selected object to "add".
 
 ```javascript
 fl.getDocumentDOM().setBlendMode("add");
 
 ```
+
 #### See also
 
 [document.addFilter()](../Document_object/documen3.md), [document.setFilterProperty()](../Document_object/docum520.md), [symbolInstance.blendMode](../SymbolInstance_object/symbolInstanc4.md)

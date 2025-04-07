@@ -15,4 +15,3 @@ Property; an integer that specifies the lengths of the blank parts of a dashed l
 #### Example
 
 See [stroke.dash1](../Stroke_object/stroke4.md).
-

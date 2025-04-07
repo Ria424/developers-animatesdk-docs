@@ -15,6 +15,7 @@ Read-only property: a Boolean value that specifies whether the item is installed
 #### Example
 
 The following example displays the contents of the Motion Presets panel and indicates whether an item is installed along with Flash:
+
 ```javascript
 fl.outputPanel.clear();
 var presetItemArray=fl.presetPanel.items;

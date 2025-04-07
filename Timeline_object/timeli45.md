@@ -24,12 +24,14 @@ Method; sets the specified property on all the selected layers to a specified va
 
 #### Example
 
-
 The following example makes the selected layer(s) invisible:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().setLayerProperty("visible", false);
 ```
+
 The following example sets the name of the selected layer(s) to selLayer:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().setLayerProperty("name", "selLayer");
 ```

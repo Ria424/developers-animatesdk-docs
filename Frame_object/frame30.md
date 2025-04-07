@@ -20,4 +20,5 @@ The following example specifies that the sound attached to the first frame shoul
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].soundEffect = "fade in";
 
 ```
+
 <span id="frame.soundLibraryItem" class="anchor"></span>

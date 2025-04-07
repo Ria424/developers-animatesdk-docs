@@ -52,6 +52,7 @@ The following example deletes the Configuration folder and its contents:
 FLfile.remove("file:///C|/MyApplication/Configuration/");
 
 ```
+
 #### See also
 
 [FLfile.createFolder()](../FLfile_object/FLfile1.md), [FLfile.getAttributes()](../FLfile_object/FLfile3.md)

@@ -33,6 +33,7 @@ The following example spaces the objects horizontally, relative to each other, w
 fl.getDocumentDOM().space("horizontal",false);
 
 ```
+
 #### See also
 
 [document.getAlignToDocument()](../Document_object/docume72.md), [document.setAlignToDocument()](../Document_object/docum450.md)

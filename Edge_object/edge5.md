@@ -27,6 +27,7 @@ Method; sets the position of the control point of the edge. You must call shape.
 #### Example
 
 The following example sets the beginning control point of the specified edge to the (0, 1) coordinates:
+
 ```javascript
 x = 0; y = 1;
 var shape = fl.getDocumentDOM().selection[0];

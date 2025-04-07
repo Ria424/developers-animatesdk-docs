@@ -23,6 +23,7 @@ Method; splits the edge into two pieces. You must call [shape.beginEdit()](../Sh
 #### Example
 
 The following example splits the specified edge in half:
+
 ```javascript
 var shape = fl.getDocumentDOM().selection[0];
 shape.beginEdit()

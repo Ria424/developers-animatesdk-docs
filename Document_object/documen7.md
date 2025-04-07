@@ -24,7 +24,6 @@ Method; adds a new oval primitive fitting into the specified bounds. This method
 
 #### Example
 
-
 The following example adds oval primitives within the specified coordinates, with and without fill and stroke:
 
 ```javascript
@@ -36,6 +35,7 @@ fl.getDocumentDOM().addNewPrimitiveOval({left:100,top:100,right:200,bottom:200},
  fl.getDocumentDOM().addNewPrimitiveOval({left:200,top:200,right:300,bottom:300},false,true);
 
 ```
+
 #### See also
 
 [document.addNewOval()](../Document_object/documen6.md)

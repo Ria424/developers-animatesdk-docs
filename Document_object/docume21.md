@@ -15,14 +15,15 @@ To determine the targeted player version for the specified document, use [docume
 
 #### Example
 
-
 The following example sets the version of ActionScript in the current document to ActionScript 2.0 if it is currently set as ActionScript 1.0.
+
 ```javascript
 if(fl.getDocumentDOM().asVersion == 1){
     fl.getDocumentDOM().asVersion = 2;
 }
 
 ```
+
 #### See also
 
 [document.as3Dialect](../Document_object/docume17.md), [document.getPlayerVersion()](../Document_object/docume82.md)

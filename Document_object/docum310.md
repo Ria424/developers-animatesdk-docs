@@ -29,6 +29,7 @@ The following example resets Oval object properties in the current document to d
 fl.getDocumentDOM().resetOvalObject();
 
 ```
+
 #### See also
 
 [document.resetRectangleObject()](../Document_object/docum320.md).

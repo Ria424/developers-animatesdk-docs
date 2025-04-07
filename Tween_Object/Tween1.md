@@ -29,4 +29,3 @@ for( var j = 0; j< filterList.length; j++) {
 var filter = filterList[j];
 fl.trace(filter.name);
 fl.trace("Blur x = " + filter.blurX + " y = " + filter.blurY); } }
-

@@ -24,6 +24,7 @@ Method; returns the class of the specified variable, which must be defined in th
 #### Example
 
 The following example displays the class assigned to the variable myVar, if the cursor is positioned after the statement var myVar:ActivityEvent; in the Actions panel.
+
 ```javascript
 // Place the following code in the Actions panel,
 // and position the cursor somewhere after the end of the line var myVar:ActivityEvent;

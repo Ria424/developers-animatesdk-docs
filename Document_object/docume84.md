@@ -22,7 +22,6 @@ Method; gets the bounding rectangle of the current selection. If a selection is 
 
 #### Example
 
-
 The following example gets the bounding rectangle for the current selection and then displays its properties:
 
 ```javascript
@@ -32,6 +31,7 @@ var outputStr = "left: " + newRect.left + " top: " + newRect.top + " right: " + 
 alert(outputStr);
 
 ```
+
 #### See also
 
 [document.selection](../Document_object/docum430.md), [document.setSelectionRect()](../Document_object/docu9689.md)

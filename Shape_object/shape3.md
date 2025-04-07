@@ -11,4 +11,3 @@ Flash MX 2004.
 #### Description
 
 Read-only property; an array of Edge objects (see [Edge object](../Edge_object/edge_summary.md)).
-

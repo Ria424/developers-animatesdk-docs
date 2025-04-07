@@ -27,6 +27,7 @@ The following example deletes the envelope from the selected objects:
 fl.getDocumentDOM().deleteEnvelope();
 
 ```
+
 #### See also
 
 [document.crop()](../Document_object/docume37.md), [document.intersect()](../Document_object/docume97.md), [document.punch()](../Document_object/docum230.md), [document.union()](../Document_object/docu6120.md), [shape.isDrawingObject](../Shape_object/shape6.md)

@@ -29,6 +29,7 @@ var file1Date = FLfile.getCreationDateObj("file:///c|/temp/file1.txt");
 fl.trace(file1Date);
 
 ```
+
 #### See also
 
 [FLfile.getCreationDate()](../FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md)

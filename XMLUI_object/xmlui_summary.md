@@ -13,19 +13,16 @@ You can write a dialog.xml file and invoke it from the JavaScript API using the 
 
 The following methods are available for the XMLUI object:
 
-| **Method**                                       | **Description**                                                                             |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [xmlui.accept()](../XMLUI_object/xmlui.md)                | Closes the current XMLUI dialog box with an accept state.                                   |
-| [xmlui.cancel()](../XMLUI_object/xmlui1.md)                 | Closes the current XMLUI dialog box with a cancel state.                                    |
-| [xmlui.get()](../XMLUI_object/xmlui2.md)                    | Retrieves the value of the specified property of the current XMLUI dialog box.              |
-| [xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md)  | Returns the current control item for the specified control.                                 |
-| [xmlui.getEnabled()](../XMLUI_object/xmlui4.md)             | Returns a Boolean value that specifies whether the control is enabled or disabled (dimmed). |
-| [xmlui.getVisible()](../XMLUI_object/xmlui5.md)             | Returns a Boolean value that specifies whether the control is visible or hidden.            |
-| [xmlui.set()](../XMLUI_object/xmlui6.md)                    | Modifies the value of the specified property of the current XMLUI dialog box.               |
-| [xmlui.setControlItemElement()](../XMLUI_object/xmlui7.md)  | Sets the label and value for the current item.                                              |
-| [xmlui.setControlItemElements()](../XMLUI_object/xmlui8.md) | Sets the label, value pairs of the current item.                                            |
-| [xmlui.setEnabled()](../XMLUI_object/xmlui9.md)             | Enables or disables (dims) a control.                                                       |
-| [xmlui.setVisible()](../XMLUI_object/xmlui10.md)             | Shows or hides a control.                                                                   |
-
-<span id="xmlui.accept()" class="anchor"></span>
-
+| **Method** | **Description** |
+| --- | --- |
+| [xmlui.accept()](../XMLUI_object/xmlui.md) | Closes the current XMLUI dialog box with an accept state. |
+| [xmlui.cancel()](../XMLUI_object/xmlui1.md) | Closes the current XMLUI dialog box with a cancel state. |
+| [xmlui.get()](../XMLUI_object/xmlui2.md) | Retrieves the value of the specified property of the current XMLUI dialog box. |
+| [xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md) | Returns the current control item for the specified control. |
+| [xmlui.getEnabled()](../XMLUI_object/xmlui4.md) | Returns a Boolean value that specifies whether the control is enabled or disabled (dimmed). |
+| [xmlui.getVisible()](../XMLUI_object/xmlui5.md) | Returns a Boolean value that specifies whether the control is visible or hidden. |
+| [xmlui.set()](../XMLUI_object/xmlui6.md) | Modifies the value of the specified property of the current XMLUI dialog box. |
+| [xmlui.setControlItemElement()](../XMLUI_object/xmlui7.md) | Sets the label and value for the current item. |
+| [xmlui.setControlItemElements()](../XMLUI_object/xmlui8.md) | Sets the label, value pairs of the current item. |
+| [xmlui.setEnabled()](../XMLUI_object/xmlui9.md) | Enables or disables (dims) a control. |
+| [xmlui.setVisible()](../XMLUI_object/xmlui10.md) | Shows or hides a control. |

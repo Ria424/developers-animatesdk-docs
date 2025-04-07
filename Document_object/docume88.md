@@ -37,6 +37,7 @@ var timeline = fl.getDocumentDOM().getTimeline();
 alert(timeline.name);
 
 ```
+
 #### See also
 
 [document.currentTimeline](../Document_object/docume39.md), [document.timelines](../Document_object/docu5995.md), [symbolItem.timeline](../SymbolItem_object/symbolIt12.md)

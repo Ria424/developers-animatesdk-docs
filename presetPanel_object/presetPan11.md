@@ -32,6 +32,7 @@ The following example adds a folder named Bouncing below the Custom Presets fold
 fl.presetPanel.newFolder("Custom Presets/Bouncing");
 
 ```
+
 #### See also
 
 [presetPanel.addNewItem()](../presetPanel_object/presetPanel.md)

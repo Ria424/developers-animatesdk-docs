@@ -1,6 +1,7 @@
 ## Document.addFilter()
 
 #### Availability
+
 Flash 8.
 
 #### Usage
@@ -26,6 +27,7 @@ The following example applies a glow filter to the selected objects:
 fl.getDocumentDOM().addFilter("glowFilter");
 
 ```
+
 #### See also
 
 [document.changeFilterOrder()](../Document_object/docume29.md), [document.disableFilter()](../Document_object/docume47.md), [document.enableFilter()](../Document_object/docume59.md), [document.getFilters()](../Document_object/docume79.md), [document.removeFilter()](../Document_object/docum270.md), [document.setBlendMode()](../Document_object/docum460.md), [document.setFilterProperty()](../Document_object/docum520.md)

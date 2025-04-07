@@ -14,8 +14,8 @@ Property; a float value that specifies the number of frames displayed per second
 
 #### Example
 
-
 The following example sets the frame rate to 25.5 frames per second:
+
 ```javascript
 fl.getDocumentDOM().frameRate = 25.5;
 

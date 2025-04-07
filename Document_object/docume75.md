@@ -12,9 +12,9 @@ document.getCustomStroke([locationOfStroke])
 
 **locationOfStroke** A string that specifies the location of the stroke object. The following values are valid:
 
--   "toolbar", if set, returns the stroke object of the Tools panel and Property inspector.
+- "toolbar", if set, returns the stroke object of the Tools panel and Property inspector.
 
--   "selection", if set, returns the stroke object of the selection.
+- "selection", if set, returns the stroke object of the selection.
 
 If you omit this parameter, it defaults to "selection". If there is no selection, it returns undefined. This parameter is optional.
 
@@ -40,6 +40,7 @@ stroke.color = "#FF0000";
 fl.getDocumentDOM().setCustomStroke(stroke);
 
 ```
+
 #### See also
 
 [document.setCustomStroke()](../Document_object/docum480.md)

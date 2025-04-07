@@ -19,6 +19,7 @@ Method; stops automatic playback of the timeline if it is currently playing. Thi
 #### Example
 
 The following example stops playback of the timeline.
+
 ```javascript
 fl.getDocumentDOM().getTimeline().stopPlayback();
 ```

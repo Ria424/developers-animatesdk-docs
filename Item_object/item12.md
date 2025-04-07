@@ -19,6 +19,7 @@ The following example specifies a linkage URL for the specified library item:
 ```javascript
 fl.getDocumentDOM().library.items[0].linkageURL = "theShareSWF.swf";
 ```
+
 #### See also
 
 [item.linkageIdentifier](../Item_object/item10.md)

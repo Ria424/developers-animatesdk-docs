@@ -25,4 +25,3 @@ Sets camera's Z Depth value.
 ```javascript
 cameraObj.setZDepth(200);
 ```
-

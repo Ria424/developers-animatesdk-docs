@@ -32,12 +32,15 @@ Folder 1 ***
 ----Layer 5
 
 The following example expands Folder 1 only:
+
 ```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 1;
 fl.getDocumentDOM().getTimeline().expandFolder(true);
 ```
+
 The following example expands Folder 1 only (assuming that Folder 2 collapsed when Folder 1 last collapsed;
 otherwise, Folder 2 appears expanded):
+
 ```javascript
 fl.getDocumentDOM().getTimeline().expandFolder(true, false, 0);
 The following example collapses all folders in the current timeline:

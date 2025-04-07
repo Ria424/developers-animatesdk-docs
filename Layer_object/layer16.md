@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-layer.setBlendModeAtFrame(frameIndex,blendModeString)	
+layer.setBlendModeAtFrame(frameIndex,blendModeString) 
 
 #### Parameters
 
-**frameIndex** – It is an integer that specifies absolute frame index. 
+**frameIndex** – It is an integer that specifies absolute frame index.
 **blendModeString** - It is the string that specifies the blendmode to be set.
 
 #### Returns

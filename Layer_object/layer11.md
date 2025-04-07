@@ -1,4 +1,4 @@
-## Layer.getZDepthAtFrame()	
+## Layer.getZDepthAtFrame() 
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2019.
 
 #### Usage
 
-layer.getZDepthAtFrame(FrameNumber)	
+layer.getZDepthAtFrame(FrameNumber) 
 
 #### Parameters
 
@@ -14,7 +14,7 @@ layer.getZDepthAtFrame(FrameNumber)
 
 #### Returns
 
-ZVal: An integer value that specifies the ZDepth value of the frame.	
+ZVal: An integer value that specifies the ZDepth value of the frame. 
 
 #### Description
 
@@ -25,5 +25,5 @@ Method; An integer value that specifies the ZDepth value at the frame.
 The following example gets the zdepth value at first frame of the first layer:
 
 ```javascript
-fl.getDocumentDOM().getTimeline().layers[0].getZDepthAtFrame(0)	
+fl.getDocumentDOM().getTimeline().layers[0].getZDepthAtFrame(0) 
 ```

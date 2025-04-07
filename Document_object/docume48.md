@@ -27,6 +27,7 @@ The following example disables all filters except the second filter in the list 
 fl.getDocumentDom().disableOtherFilters(1);
 
 ```
+
 #### See also
 
 [document.addFilter()](../Document_object/documen3.md), [document.changeFilterOrder()](../Document_object/docume29.md), [document.disableAllFilters()](../Document_object/docume46.md), [document.disableFilter()](../Document_object/docume47.md), [document.enableFilter()](../Document_object/docume59.md), [document.getFilters()](../Document_object/docume79.md), [document.removeFilter()](../Document_object/docum270.md), [Filter object](../Filter_object/filter_summary.md)

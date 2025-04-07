@@ -14,8 +14,8 @@ Property; a Boolean value. This property is the same as the Sharp Corners settin
 
 #### Example
 
-
 The following example sets the breakAtCorners property to true:
+
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
 myStroke.breakAtCorners = true; 

@@ -27,6 +27,7 @@ The following example cuts the current selection from the document and writes it
 fl.getDocumentDOM().clipCut();
 
 ```
+
 #### See also
 
 [document.clipCopy()](../Document_object/docume30.md), [document.clipPaste()](../Document_object/docume32.md), [fl.clipCopyString()](../flash_object_(fl)/fl6.md).

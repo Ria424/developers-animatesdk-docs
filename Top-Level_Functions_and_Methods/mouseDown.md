@@ -30,8 +30,8 @@ The following examples show how this function can be used when the extensible to
 function mouseDown() {
     fl.trace("Mouse button has been pressed");
 }
-function mouseDown(pt) {
-    fl.trace("x = "+ pt.x+" :: y = "+pt.y);
-}
 
+function mouseDown(pt) {
+    fl.trace("x = "+ pt.x + " :: y = " + pt.y);
+}
 ```

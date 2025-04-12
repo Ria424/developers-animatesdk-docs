@@ -14,10 +14,11 @@ Read-only property; an integer that has a value greater than 0 for the depth of 
 
 #### Example
 
-```javascript
 The following example displays the depth of the specified element in the Output panel:
+
+```javascript
 // Select an object and run this script.
 fl.trace("Depth of selected object: " + fl.getDocumentDOM().selection[0].depth);
 ```
 
-See the example for [element.elementType](../Element_object/element1.md).
+See the example for [Element.elementType](../Element_object/Element1.md).

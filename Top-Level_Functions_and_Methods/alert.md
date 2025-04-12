@@ -26,7 +26,6 @@ The following example displays the message "Process Complete" in an Alert dialog
 
 ```javascript
 alert("Process Complete");
-
 ```
 
 #### See also

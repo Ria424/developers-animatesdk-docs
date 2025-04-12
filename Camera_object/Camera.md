@@ -30,4 +30,4 @@ var depth = timeline.camera.getZDepth(0);
 
 #### See also
 
-[getRotation()](../Camera_object/Camera2.md)
+[GetRotation()](../Camera_object/Camera2.md)

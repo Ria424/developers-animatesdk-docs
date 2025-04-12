@@ -20,20 +20,20 @@ Method; sets the duration (the tween span length) of the currently selected moti
 
 #### Example
 
-```javascript
 The following example specifies a duration of 11 frames for the selected motion object.
 
-var doc = fl.getDocumentDOM(); var my_tl = doc.getTimeline();
-this.getCurrentFrame = function(){
-var layer = my_tl.layers[my_tl.currentLayer]; 
-var frame = layer.frames[my_tl.currentFrame]; 
-return frame;
+```javascript
+var doc = fl.getDocumentDOM();
+var my_tl = doc.getTimeline();
+getCurrentFrame = function() {
+    var layer = my_tl.layers[my_tl.currentLayer];
+    var frame = layer.frames[my_tl.currentFrame];
+    return frame;
 }
-var theFrame = getCurrentFrame(); 
-if(theFrame.isMotionObject()){ 
+var theFrame = getCurrentFrame();
+if (theFrame.isMotionObject()) {
     theFrame.setMotionObjectDuration(11);
-}else{
-fl.trace("It isn't motion");
+} else {
+    fl.trace("It isn't motion");
 }
-
 ```

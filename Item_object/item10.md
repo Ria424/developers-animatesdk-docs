@@ -10,7 +10,7 @@ item.linkageIdentifier
 
 #### Description
 
-Property; a string that specifies the name Animate will use to identify the asset when linking to the destination SWF file. Animate ignores this property if [item.linkageImportForRS](../Item_object/item11.md), [item.linkageExportForAS](../Item_object/item7.md), and [item.linkageExportForRS](../Item_object/item8.md) are set to false. Conversely, this property must be set when any of those properties are set to true.
+Property; a string that specifies the name Animate will use to identify the asset when linking to the destination SWF file. Animate ignores this property if [Item.linkageImportForRS](../Item_object/Item11.md), [Item.linkageExportForAS](../Item_object/Item7.md), and [Item.linkageExportForRS](../Item_object/Item8.md) are set to false. Conversely, this property must be set when any of those properties are set to true.
 
 #### Example
 
@@ -22,6 +22,4 @@ fl.getDocumentDOM().library.items[0].linkageIdentifier = "my_mc";
 
 #### See also
 
-[item.linkageURL](../Item_object/item12.md)
-
-<span id="item.linkageImportForRS" class="anchor"></span>
+[Item.linkageURL](../Item_object/Item12.md)

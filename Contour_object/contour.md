@@ -10,7 +10,7 @@ contour.fill
 
 #### Description
 
-Property; a [Fill object](../Fill_object/fill_summary.md).
+Property; a [Fill object](../Fill_object/Fill_summary.md).
 
 #### Example
 

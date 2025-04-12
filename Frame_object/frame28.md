@@ -22,15 +22,15 @@ Method; Sets the sound envelope limits of any frame with a sound file.
 
 #### Example
 
-```javascript
 The following example illustrates the use of setSoundEnvelopeLimits:
 
+```javascript
 var limits;
-limits.start = 2000; limits.end = 15000; 
+limits.start = 2000;
+limits.end = 15000;
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].setSoundEnvelopeLimits(limits);
-
 ```
 
 #### See also
 
-[frame.getSoundEnvelopeLimits()](../Frame_object/frame9.md)
+[Frame.getSoundEnvelopeLimits()](../Frame_object/Frame9.md)

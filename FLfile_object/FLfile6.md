@@ -22,28 +22,24 @@ Method; specifies how many seconds have passed between January 1, 1970 and the t
 
 #### Example
 
-```javascript
 The following example compares the modification dates of two files and determines which of the two was modified more recently:
 
+```javascript
 // Make sure the specified files exist.
-file1 = "file:///C|/MyApplication/MyApp.fla"; 
-file2 = "file:///C|/MyApplication/MyApp.as";
-modificationTime1 = FLfile.getModificationDate(file1); 
-modificationTime2 = FLfile.getModificationDate(file2); 
-if(modificationTime1 > modificationTime2) {
-    alert("File 2 is older than File 1") ;
-}
-else if(modificationTime1 < modificationTime2) { 
-        alert("File 1 is older than File 2") ;
-}
-else {
-    alert("File 1 and File 2 were saved at the same time") ;
-}
+var file1 = "file:///C|/MyApplication/MyApp.fla";
+var file2 = "file:///C|/MyApplication/MyApp.as";
+var modificationTime1 = FLfile.getModificationDate(file1);
+var modificationTime2 = FLfile.getModificationDate(file2);
 
+if (modificationTime1 > modificationTime2) {
+    alert("File 2 is older than File 1");
+} else if (modificationTime1 < modificationTime2) {
+    alert("File 1 is older than File 2");
+} else {
+    alert("File 1 and File 2 were saved at the same time");
+}
 ```
 
 #### See also
 
 [FLfile.getCreationDate()](../FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md)
-
-<span id="FLfile.getModificationDateObj()" class="anchor"></span>

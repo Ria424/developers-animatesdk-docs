@@ -10,7 +10,7 @@ layer.frames
 
 #### Description
 
-Read-only property; an array of Frame objects (see [Frame object](../Frame_object/frame_summary.md).
+Read-only property; an array of Frame objects (see [Frame object](../Frame_object/Frame_summary.md)).
 
 #### Example
 
@@ -20,15 +20,15 @@ The following example sets the variable frameArray to the array of Frame objects
 var frameArray = fl.getDocumentDOM().getTimeline().layers[0].frames;
 ```
 
-To determine if a frame is a keyframe, check whether the [frame.startFrame](../Frame_object/frame36.md) property
+To determine if a frame is a keyframe, check whether the [Frame.startFrame](../Frame_object/Frame36.md) property
 matches the array index, as shown in the following example:
 
 ```javascript
 var frameArray = fl.getDocumentDOM().getTimeline().layers[0].frames;
 var n = frameArray.length;
-for (i=0; i<n; i++) {
-if (i==frameArray[i].startFrame) {
-alert("Keyframe at: " + i);
-}   
+for (var i = 0; i < n; i++) {
+    if (i == frameArray[i].startFrame) {
+        alert("Keyframe at: " + i);
+    }
 }
 ```

@@ -22,5 +22,4 @@ var myPath = fl.drawingLayer.newPath();
 var numOfPoints = myPath.nPts;
 fl.trace("Number of points in the path: " + numOfPoints);
 // Displays: Number of points in the path: 0
-
 ```

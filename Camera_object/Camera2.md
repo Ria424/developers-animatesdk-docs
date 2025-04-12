@@ -30,4 +30,4 @@ var val = timeline.camera.getRotation(0);
 
 #### See also
 
-[getZDepth()](../Camera_object/Camera.md), [getRotation()](../Camera_object/Camera2.md), [getZoom()](../Camera_object/Camera1.md)
+[GetZDepth()](../Camera_object/Camera.md), [GetRotation()](../Camera_object/Camera2.md), [GetZoom()](../Camera_object/Camera1.md)

@@ -1,4 +1,4 @@
-## swfPanel summary
+## SwfPanel summary
 
 #### Availability
 
@@ -14,9 +14,9 @@ You can use the following method with the swfPanel object:
 
 | **Method** | **Description** |
 | --- | --- |
-| [swfPanel.call()](../swfPanel_object/swfPanel.md) | Works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute() methods to communicate with the SWF panel from the authoring environment. |
-| [swfPanel.reload()](../swfPanel_object/swfPane5.md) | Reloads content in the SWF panel. |
-| [swfPanel.setFocus()](../swfPanel_object/swfPane6.md) | Sets the keyboard focus to the specified SWF panel. |
+| [SwfPanel.call()](../SwfPanel_object/SwfPanel.md) | Works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute() methods to communicate with the SWF panel from the authoring environment. |
+| [SwfPanel.reload()](../SwfPanel_object/SwfPanel5.md) | Reloads content in the SWF panel. |
+| [SwfPanel.setFocus()](../SwfPanel_object/SwfPanel6.md) | Sets the keyboard focus to the specified SWF panel. |
 
 #### Property summary
 
@@ -24,7 +24,7 @@ You can use the following properties with the swfPanel object:
 
 | **Property** | **Description** |
 | --- | --- |
-| [swfPanel.dpiScaleFactorX](../swfPanel_object/swfPane1.md) | A string that contains the DPI scale factor (scaleX) for swfPanel. |
-| [swfPanel.dpiScaleFactorY](../swfPanel_object/swfPane2.md) | A string that contains the DPI scale factor (scaleY) for swfPanel. |
-| [swfPanel.name](../swfPanel_object/swfPane3.md) | Read-only; a string that represents the name of the specified Window SWF panel. |
-| [swfPanel.path](../swfPanel_object/swfPane4.md) | Read-only; a string that represents the path to the SWF file used in the specified Window SWF panel. |
+| [SwfPanel.dpiScaleFactorX](../SwfPanel_object/SwfPanel1.md) | A string that contains the DPI scale factor (scaleX) for swfPanel. |
+| [SwfPanel.dpiScaleFactorY](../SwfPanel_object/SwfPanel2.md) | A string that contains the DPI scale factor (scaleY) for swfPanel. |
+| [SwfPanel.name](../SwfPanel_object/SwfPanel3.md) | Read-only; a string that represents the name of the specified Window SWF panel. |
+| [SwfPanel.path](../SwfPanel_object/SwfPanel4.md) | Read-only; a string that represents the path to the SWF file used in the specified Window SWF panel. |

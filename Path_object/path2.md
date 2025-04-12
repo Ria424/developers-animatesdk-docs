@@ -28,6 +28,5 @@ The following example creates a new path, stores it in the myPath variable, and 
 
 ```javascript
 var myPath = fl.drawingLayer.newPath();
-myPath.addPoint(10, 100); 
-
+myPath.addPoint(10, 100);
 ```

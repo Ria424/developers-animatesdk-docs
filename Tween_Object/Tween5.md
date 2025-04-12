@@ -17,5 +17,4 @@ Start frame of a tween.
 ```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;
 fl.trace(tweenObj.startFrame);
-
 ```

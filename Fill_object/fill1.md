@@ -10,7 +10,7 @@ fill.bitmapPath
 
 #### Description
 
-Property; a string that specifies the path and name of the bitmap fill in the Library. This property is available only if the value of the [fill.style](../Fill_object/fill9.md) property is "bitmap".
+Property; a string that specifies the path and name of the bitmap fill in the Library. This property is available only if the value of the [Fill.style](../Fill_object/Fill9.md) property is "bitmap".
 
 #### Example
 
@@ -25,4 +25,4 @@ fl.getDocumentDOM().setCustomFill(fill);
 
 #### See also
 
-[fill.bitmapIsClipped](../Fill_object/fill.md)
+[Fill.bitmapIsClipped](../Fill_object/Fill.md)

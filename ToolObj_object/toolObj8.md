@@ -27,5 +27,4 @@ The following example assigns the name polystar to the tool named theTool. This 
 ```javascript
 theTool = fl.tools.activeTool;
 theTool.setToolName("polystar");
-
 ```

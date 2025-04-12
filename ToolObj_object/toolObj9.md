@@ -27,5 +27,4 @@ The following example specifies that the tooltip for the tool should be PolyStar
 ```javascript
 theTool = fl.tools.activeTool;
 theTool.setToolTip("PolyStar Tool");
-
 ```

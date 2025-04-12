@@ -27,11 +27,11 @@ Function; called whenever the extensible tool is active and the mouse moves over
 The following examples show how this function can be used. The first example displays a message in the Output panel that the mouse is being moved. The second example displays the *x* and *y* coordinates of the mouse’s location as it moves.
 
 ```javascript
-function mouseMove() { 
-        fl.trace("moving");
-}
-function mouseMove(pt) {
-    fl.trace("x = "+ pt.x + " :: y = " + pt.y);
+function mouseMove() {
+    fl.trace("moving");
 }
 
+function mouseMove(pt) {
+    fl.trace("x = " + pt.x + " :: y = " + pt.y);
+}
 ```

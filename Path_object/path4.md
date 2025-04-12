@@ -27,5 +27,4 @@ The following example creates a closed path:
 ```javascript
 var myPath = fl.drawingLayer.newPath();
 myPath.close();
-
 ```

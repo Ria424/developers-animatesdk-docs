@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A [HalfEdge object](../HalfEdge_object/halfEdge_summary.md).
+A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
 
 #### Description
 
-Method; returns a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md) on the contour of the selection.
+Method; returns a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) on the contour of the selection.
 
 #### Example
 
@@ -27,25 +27,26 @@ This example traverses all the contours of the selected shape and shows the coor
 ```javascript
 var elt = fl.getDocumentDOM().selection[0];
 elt.beginEdit();
+
 var contourArray = elt.contours;
 var contourCount = 0;
-for (i=0;i<contourArray.length;i++)
-{
-var contour = contourArray[i];
-contourCount++;
-var he = contour.getHalfEdge();
-var iStart = he.id;
-var id = 0;
-while (id != iStart)
-{
-// Get the next vertex.
-var vrt = he.getVertex();
-var x = vrt.x;
-var y = vrt.y;
-fl.trace("vrt: " + x + ", " + y);
-he = he.getNext();
-id = he.id;
+for (var i = 0; i < contourArray.length; i++) {
+    var contour = contourArray[i];
+    contourCount++;
+    var he = contour.getHalfEdge();
+    var iStart = he.id;
+    var id = 0;
+
+    while (id != iStart) {
+        // Get the next vertex.
+        var vrt = he.getVertex();
+        var x = vrt.x;
+        var y = vrt.y;
+        fl.trace("vrt: " + x + ", " + y);
+        he = he.getNext();
+        id = he.id;
+    }
 }
-}
+
 elt.endEdit();
 ```

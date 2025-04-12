@@ -18,5 +18,4 @@ The following example specifies that the tool has a depth of 1, which means one 
 
 ```javascript
 fl.tools.activeTool.depth = 1;
-
 ```

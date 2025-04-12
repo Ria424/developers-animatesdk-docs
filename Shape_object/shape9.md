@@ -17,13 +17,10 @@ Read-only property; if true, the shape is a primitive Oval object (was created u
 The following example displays "true" if the first selected item is a primitive Oval object, and "false" if it is not:
 
 ```javascript
-var sel = fl.getDocumentDOM().selection[0]; 
+var sel = fl.getDocumentDOM().selection[0];
 fl.trace(sel.isOvalObject);
-
 ```
 
 #### See also
 
-[shape.isRectangleObject](../Shape_object/shape10.md)
-
-<span id="shape.isRectangleObject" class="anchor"></span>
+[Shape.isRectangleObject](../Shape_object/Shape10.md)

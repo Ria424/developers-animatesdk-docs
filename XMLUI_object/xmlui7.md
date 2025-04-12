@@ -28,15 +28,12 @@ Method; sets the label and value of the currently selected line in the ListBox o
 The following example sets the label and value for the current item of the control property named PhoneNumber:
 
 ```javascript
-var elem = new Object(); 
-elem.label = "Fax"; 
+var elem = new Object();
+elem.label = "Fax";
 elem.value = "707-555-5555";
-fl.xmlui.setControlItemElement("PhoneNumber",elem);
-
+fl.xmlui.setControlItemElement("PhoneNumber", elem);
 ```
 
 #### See also
 
-[fl.xmlui](../flash_object_(fl)/fl81.md), [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md), [xmlui.set()](../XMLUI_object/xmlui6.md), [xmlui.setControlItemElements()](../XMLUI_object/xmlui8.md)
-
-<span id="xmlui.setControlItemElements()" class="anchor"></span>
+[fl.xmlui](../flash_object_(fl)/fl81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md), [XMLUI.set()](../XMLUI_object/XMLUI6.md), [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md)

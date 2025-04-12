@@ -28,18 +28,18 @@ You can create multiple folders at one time. For example, the following command 
 The following example creates a folder and a subfolder under the configuration folder ([fl.configURI](../flash_object_(fl)/fl13.md)):
 
 ```javascript
-fl.trace(FLfile.createFolder(fl.configURI+"folder01/subfolder01"));
+fl.trace(FLfile.createFolder(fl.configURI + "folder01/subfolder01"));
+```
 
 The following example attempts to create a folder called tempFolder at the root level on the C drive and displays an alert box indicating whether the operation was successful:
 
-var folderURI = "file:///c|/tempFolder"; 
+```javascript
+var folderURI = "file:///c|/tempFolder";
 if (FLfile.createFolder(folderURI)) {
     alert("Created " + folderURI);
-}
-else {
+} else {
     alert(folderURI + " already exists");
 }
-
 ```
 
 #### See also

@@ -20,16 +20,29 @@ Value object {"colorAlphaAmount", "colorAlphaPercent", "colorRedAmount", "colorR
 
 Method; Gets color transformation data between frames.
 
-#### Usage
+#### Example
 
-var mat;
+```javascript
+var mat, colors;
 var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
 var tweenObj = frame.tweenObj;
-var frame1 = fl.getDocumentDOM().getTimeline().layers[1].frames[0];
-fl.trace(" Tween duration = " + tweenObj.duration);
-for(var i = 1; i < tweenObj.duration; i++) {
-mat = tweenObj.getGeometricTransform(i);
-var colors = tweenObj.getColorTransform(i);
-fl.trace(" Frame " + i + " Matrix = a = " + mat.a + " b = " + mat.b + " c = " + mat.c + " d =
-" + mat.d + " tx = " + mat.tx + " ty = " + mat.ty );
-fl.trace(" color transform :");
+fl.trace("Tween duration = " + tweenObj.duration);
+for (var i = 0; i < tweenObj.duration; i++) {
+    mat = tweenObj.getGeometricTransform(i);
+    colors = tweenObj.getColorTransform(i);
+    fl.trace(
+        "Frame " + i + " Matrix = a = " + mat.a
+        + " b = " + mat.b
+        + " c = " + mat.c
+        + " d = " + mat.d
+        + " tx = " + mat.tx
+        + " ty = " + mat.ty
+    );
+    fl.trace(
+        "Color transform = alpha = " + colors.colorAlphaAmount
+        + " = red = " + colors.colorRedAmount
+        + " = green = " + colors.colorGreenAmount
+        + " = blue = " + colors.colorBlueAmount
+    );
+}
+```

@@ -18,10 +18,9 @@ The following example displays the contents of the Motion Presets panel and indi
 
 ```javascript
 fl.outputPanel.clear();
-var presetItemArray=fl.presetPanel.items;
-for (i=0;i<presetItemArray.length; i++){
-var presetItem = presetItemArray[i];
-fl.trace(presetItem.name +", default =" + presetItem.isDefault);
+var presetItemArray = fl.presetPanel.items;
+for (var i = 0; i < presetItemArray.length; i++) {
+    var presetItem = presetItemArray[i];
+    fl.trace(presetItem.name + ", default =" + presetItem.isDefault);
 }
-
 ```

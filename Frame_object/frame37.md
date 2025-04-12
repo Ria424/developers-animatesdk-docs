@@ -14,9 +14,8 @@ Property; an integer that specifies the amount of easing that should be applied 
 
 #### Example
 
-```javascript
 The following example specifies that the motion of the tweened object should begin fairly rapidly and decelerate toward the end of the animation:
 
+```javascript
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenEasing = 50;
-
 ```

@@ -28,7 +28,6 @@ The following example displays the message "Sort data?" in an Alert dialog box:
 
 ```javascript
 confirm("Sort data?");
-
 ```
 
 #### See also

@@ -25,15 +25,14 @@ Method; specifies an array of control point and tangent endpoint coordinates tha
 
 #### Example
 
-```javascript
 The following example sets the ease curve for all properties of the first frame in the first layer to the Bézier curve specified by the easeCurve array:
 
-var theFrame = fl.getDocumentDOM().getTimeline().layers[0].frames[0]; 
-var easeCurve = [ {x:0,y:0}, {x:.3,y:.3}, {x:.7,y:.7}, {x:1,y:1} ]; 
-theFrame.setCustomEase( "all", easeCurve );
-
+```javascript
+var theFrame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
+var easeCurve = [{x: 0, y: 0}, {x: .3, y: .3}, {x: .7, y: .7}, {x: 1, y :1}];
+theFrame.setCustomEase("all", easeCurve);
 ```
 
 #### See also
 
-[frame.getCustomEase()](../Frame_object/frame6.md), [frame.hasCustomEase](../Frame_object/frame10.md), [frame.useSingleEaseCurve](../Frame_object/frame40.md)
+[Frame.getCustomEase()](../Frame_object/Frame6.md), [Frame.hasCustomEase](../Frame_object/Frame10.md), [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)

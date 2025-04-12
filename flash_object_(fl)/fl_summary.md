@@ -32,7 +32,7 @@ The following methods can be used with the flash object:
 | [fl.findObjectInDocByName()](../flash_object_(fl)/fl27.md) | Exposes elements with instance names that match specified text. |
 | [fl.findObjectInDocByType()](../flash_object_(fl)/fl28.md) | Exposes elements of a specified element type in a document. |
 | [fl.getAppMemoryInfo()](../flash_object_(fl)/fl30.md) | Returns an integer that represents the number of bytes being used in a specified area of Flash.exe memory. |
-| [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md) | Retrieves the DOM ([Document object](../Document_object/document_summary.md)) of the currently active document. |
+| [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md) | Retrieves the DOM ([Document object](../Document_object/Document_summary.md)) of the currently active document. |
 
 | **Method** | **Description** |
 | --- | --- |
@@ -70,17 +70,17 @@ The following properties can be used with the flash object.
 
 | **Property** | **Description** |
 | --- | --- |
-| [fl.actionsPanel](../flash_object_(fl)/fl.md) | Read-only; an [actionsPanel object](../actionsPanel_object/actionsPanel_summary.md). |
+| [fl.actionsPanel](../flash_object_(fl)/fl.md) | Read-only; an [ActionsPanel object](../ActionsPanel_object/ActionsPanel_summary.md). |
 | [fl.as3PackagePaths](../flash_object_(fl)/fl2.md) | A string that corresponds to the global Classpath setting in the ActionScript 3.0 Settings dialog box. |
-| [fl.compilerErrors](../flash_object_(fl)/fl10.md) | Read-only; a [compilerErrors object](../compilerErrors_object/compilerErrors_summary.md). |
-| [fl.componentsPanel](../flash_object_(fl)/fl11.md) | Read-only; a [componentsPanel object](../componentsPanel_object/componentsPanel_summary.md), which represents the Components panel. |
+| [fl.compilerErrors](../flash_object_(fl)/fl10.md) | Read-only; a [CompilerErrors object](../CompilerErrors_object/CompilerErrors_summary.md). |
+| [fl.componentsPanel](../flash_object_(fl)/fl11.md) | Read-only; a [ComponentsPanel object](../ComponentsPanel_object/ComponentsPanel_summary.md), which represents the Components panel. |
 | [fl.configDirectory](../flash_object_(fl)/fl12.md) | Read-only; a string that specifies the full path for the local user’s Configuration folder as a platform-specific path. |
 | [fl.configURI](../flash_object_(fl)/fl13.md) | Read-only; a string that specifies the full path for the local user’s Configuration directory as a file:/// URI. |
 | [fl.contactSensitiveSelection](../flash_object_(fl)/fl14.md) | A Boolean value that specifies whether Contact Sensitive selection mode is enabled. |
 | [fl.createNewDocList](../flash_object_(fl)/fl17.md) | Read-only; an array of strings that represent the various types of documents that can be created. |
 | [fl.createNewDocListType](../flash_object_(fl)/fl18.md) | Read-only; an array of strings that represent the file extensions of the types of documents that can be created. |
 | [fl.createNewTemplateList](../flash_object_(fl)/fl19.md) | Read-only; an array of strings that represent the various types of templates that can be created. |
-| [fl.documents](../flash_object_(fl)/fl20.md) | Read-only; an array of Document objects (see [Document object](../Document_object/document_summary.md)) that represent the documents (FLA files) that are currently open for editing. |
+| [fl.documents](../flash_object_(fl)/fl20.md) | Read-only; an array of Document objects (see [Document object](../Document_object/Document_summary.md)) that represent the documents (FLA files) that are currently open for editing. |
 | [fl.drawingLayer](../flash_object_(fl)/fl21.md) | The drawingLayer object that an extensible tool should use when the user wants to temporarily draw while dragging. |
 | [fl.externalLibraryPath](../flash_object_(fl)/fl23.md) | A string that contains a list of items in the global ActionScript 3.0 External library path, which specifies the location of SWC files used as runtime shared libraries. |
 | [fl.flexSDKPath](../flash_object_(fl)/fl29.md) | A string that specifies the path to the Flex SDK folder, which contains bin, frameworks, lib, and other folders. |
@@ -99,12 +99,12 @@ The following properties can be used with the flash object.
 | --- | --- |
 | [fl.publishCacheMemorySizeMax](../flash_object_(fl)/fl53.md) | An integer that sets the memory cache size limit preference. |
 | [fl.objectDrawingMode](../flash_object_(fl)/fl44.md) | An integer that represents the object drawing mode that is enabled. |
-| [fl.outputPanel](../flash_object_(fl)/fl47.md) | Read-only; reference to the [outputPanel object](../outputPanel_object/outputPanel_summary.md). |
-| [fl.presetPanel](../flash_object_(fl)/fl49.md) | Read-only; a [presetPanel object](../presetPanel_object/presetPanel_summary.md). |
+| [fl.outputPanel](../flash_object_(fl)/fl47.md) | Read-only; reference to the [OutputPanel object](../OutputPanel_object/OutputPanel_summary.md). |
+| [fl.presetPanel](../flash_object_(fl)/fl49.md) | Read-only; a [PresetPanel object](../PresetPanel_object/PresetPanel_summary.md). |
 | [fl.scriptURI](../flash_object_(fl)/fl66.md) | Read-only; a string that represents the path of the currently running JSFL script, expressed as a file:/// URI. |
 | [fl.sourcePath](../flash_object_(fl)/fl72.md) | A string that contains a list of items in the global ActionScript 3.0 Source path, which specifies the location of ActionScript class files. |
 | [fl.spriteSheetExporter](../flash_object_(fl)/fl73.md) | Returns an instance of SpriteSheetExporter object. |
-| [fl.swfPanels](../flash_object_(fl)/fl74.md) | An array of registered swfPanel objects (see [swfPanel object](../swfPanel_object/swfPanel_summary.md)). |
+| [fl.swfPanels](../flash_object_(fl)/fl74.md) | An array of registered swfPanel objects (see [SwfPanel object](../SwfPanel_object/SwfPanel_summary.md)). |
 | [fl.tools](../flash_object_(fl)/fl76.md) | Read-only; an array of Tools objects. |
 | [fl.version](../flash_object_(fl)/fl78.md) | Read-only; the long string version of the Flash authoring tool, including platform. |
-| [fl.xmlui](../flash_object_(fl)/fl81.md) | Read-only; an [XMLUI object](../XMLUI_object/xmlui_summary.md). |
+| [fl.xmlui](../flash_object_(fl)/fl81.md) | Read-only; an [XMLUI object](../XMLUI_object/XMLUI_summary.md). |

@@ -15,4 +15,4 @@ The matrix.b and matrix.c properties in a matrix represent skewing.
 
 #### Example
 
-See the [matrix.b](../Matrix_object/matrix1.md) example.
+See the [Matrix.b](../Matrix_object/Matrix1.md) example.

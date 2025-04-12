@@ -22,23 +22,24 @@ Method; determines whether a specified file exists. If you specify a folder and 
 
 #### Examples
 
-```javascript
 The following example checks for a file called mydata.txt in the temp folder and displays an alert box indicating whether the file exists:
 
-var fileURI = "file:///c|/temp/mydata.txt"; 
+```javascript
+var fileURI = "file:///c|/temp/mydata.txt";
 if (FLfile.exists(fileURI)) {
-    alert( fileURI + " exists.");
+    alert(fileURI + " exists.");
+} else {
+    alert(fileURI + " does not exist.");
 }
-else {
-    alert( fileURI + " does not exist.");
-}
+```
+
 The following example checks to see if a required configuration file exists in the MyApplication folder. If the file doesn’t exist, it is created.
 
-var configFile = "file:///C|/MyApplication/config.ini"; 
+```javascript
+var configFile = "file:///C|/MyApplication/config.ini";
 if (!FLfile.exists(configFile)) {
-    FLfile.write(configFile,"");
+    FLfile.write(configFile, "");
 }
-
 ```
 
 #### See also

@@ -68,69 +68,17 @@ There are two locations where you can store command and tool files so they can b
 
 - For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
 
-<table>
-    <thead>
-        <tr class="header">
-            <th>
-                <p><strong>Operating system</strong></p>
-            </th>
-            <th>
-                <p><strong>Location</strong></p>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="odd">
-            <td>
-                <p>Windows 10</p>
-            </td>
-            <td>
-                <p><em>boot drive</em>\Users\<em>username</em>\AppData\Local\Adobe\Animate <em>version</em>\<em>language</em>\Configuration\Commands</p>
-            </td>
-        </tr>
-        <tr class="even">
-            <td>
-                <p>Mac OS X</p>
-            </td>
-            <td>
-                <p>Macintosh HD/Users/<em>userName</em>/Library/Application Support/Adobe/Animate <em>version/language</em>/Configuration/Commands</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| **Operating system** | **Location** |
+| --- | --- |
+| Windows 10 | *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate *version*\\*language*\\Configuration\\Commands |
+| Mac OS X | Macintosh HD/Users/*userName*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/Commands |
 
 - For scripts that appear as extensible tools in the Tools panel, save the JSFL file in the Tools folder in the following location:
 
-<table>
-    <thead>
-        <tr class="header">
-            <th>
-                <p><strong>Operating system</strong></p>
-            </th>
-            <th>
-                <p><strong>Location</strong></p>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="odd">
-            <td>
-                <p>Windows 10</p>
-            </td>
-            <td>
-                <p><em>boot drive</em>\Users\<em>username</em>\AppData\Local\Adobe\Animate <em>version</em>\<em>language</em>\Configuration\Tools</p>
-            </td>
-        </tr>
-        <tr class="even">
-            <td>
-                <p>Mac OS X</p>
-            </td>
-            <td>
-                <p>Macintosh HD/Users/<em>userName</em>/Library/Application Support/Adobe/Animate <em>CC/language</em>/Configuration/Tools</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| **Operating system** | **Location** |
+| --- | --- |
+| Windows 10 | *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate *version*\\*language*\\Configuration\\Tools |
+| Mac OS X | Macintosh HD/Users/*userName*/Library/Application Support/Adobe/Animate *CC/language*/Configuration/Tools |
 
 If a JSFL file has other files that go with it, such as XML files, store them in the same directory as the JSFL file.
 
@@ -174,7 +122,7 @@ You can add individual JavaScript API commands to ActionScript files by using th
 
 - Use the following syntax (you can concatenate several commands into one string):
 
-```
+```text
 MMExecute(Javascript command string);
 ```
 
@@ -184,7 +132,7 @@ You can also run a script from the command line.
 
 - Use the following syntax (add path information as required):
 
-```
+```bat
 "Animate.exe" myTestFile.jsfl [-AlwaysRunJSFL]
 ```
 
@@ -194,13 +142,13 @@ Use the `-AlwaysRunJSFL` option to bypass the dialog box that prompts you to con
 
 - Use the following osacript syntax (add path information as required):
 
-```
+```bash
 osascript -e 'tell application "Animate" to open alias "Mac OS X:Users:user:myTestFile.jsfl" '
 ```
 
 The osascript command can also run AppleScript in a file. For example, you could include the following text in a file named myScript:
 
-```
+```text
 tell application "Animate"
 open alias "Mac OS X:Users:user:myTestFile.jsfl" 
 end tell
@@ -211,6 +159,6 @@ osascript myScript
 
 - Use the Animate command:
 
-```
+```bash
 /Applications/Adobe\ Animate\ 2020/Animate.app/Contents/MacOS/Animate \<path of the jsfl file\>
 ```

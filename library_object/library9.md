@@ -22,10 +22,8 @@ Method; checks to see if a specified item exists in the library.
 
 #### Example
 
+The following example displays true or false in a dialog box, depending on whether the item Symbol_1 exists in the Folder_1 library folder:
+
 ```javascript
-The following example displays true or false in a dialog box, depending on whether the item Symbol_1 exists in the
-Folder_1 library folder:
-
-alert(fl.getDocumentDOM().library.itemExists('Folder_1/Symbol_1'));
-
+alert(fl.getDocumentDOM().library.itemExists("Folder_1/Symbol_1"));
 ```

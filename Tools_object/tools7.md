@@ -22,4 +22,4 @@ var tempPt = fl.tools.penLoc;
 
 #### See also
 
-[tools.penDownLoc](../Tools_object/tools6.md)
+[Tools.penDownLoc](../Tools_object/Tools6.md)

@@ -26,5 +26,4 @@ The following example converts an item in the library to a compiled movie clip:
 
 ```javascript
 fl.getDocumentDOM().library.items[3].convertToCompiledClip();
-
 ```

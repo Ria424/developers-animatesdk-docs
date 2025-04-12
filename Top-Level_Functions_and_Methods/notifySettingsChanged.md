@@ -20,16 +20,15 @@ Nothing.
 
 #### Description
 
-Function; called when the extensible tool is active and the user changes its options in the Property inspector. You can use the tools.activeTool property to query the current values of the options (see [tools.activeTool](../Tools_object/tools.md)).
+Function; called when the extensible tool is active and the user changes its options in the Property inspector. You can use the tools.activeTool property to query the current values of the options (see [Tools.activeTool](../Tools_object/Tools.md)).
 
 #### Example
 
 The following example displays a message in the Output panel when the extensible tool is active and the user changes its options in the Property inspector.
 
 ```javascript
-function notifySettingsChanged() { 
-    var theTool = fl.tools.activeTool; 
+function notifySettingsChanged() {
+    var theTool = fl.tools.activeTool;
     var newValue = theTool.myProp;
 }
-
 ```

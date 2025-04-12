@@ -30,7 +30,7 @@ fl.compilerErrors.clear();
 
 #### See also
 
-[compilerErrors.save()](../compilerErrors_object/compilerError1.md)
+[CompilerErrors.save()](../CompilerErrors_object/CompilerErrors1.md)
 **compilerErrors object**
 
 <span id="compilerErrors.save()" class="anchor"></span>

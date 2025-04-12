@@ -34,4 +34,4 @@ fl.trace("Tint Percentage: " + tintVal.percent + " Red: " + tintVal.red + " Gree
 
 #### See also
 
-[getRotation()](../Camera_object/Camera2.md), [getZoom()](../Camera_object/Camera1.md)
+[GetRotation()](../Camera_object/Camera2.md), [GetZoom()](../Camera_object/Camera1.md)

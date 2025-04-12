@@ -27,8 +27,10 @@ Adds the specified component to the document at the specified position.
 
 #### Example
 
-```javascript
 The following examples illustrate some ways to use this method:
-fl.componentsPanel.addItemToDocument({x:0, y:0}, "User Interface", "CheckBox"); fl.componentsPanel.addItemToDocument({x:0, y:100}, "Data", "WebServiceConnector"); fl.componentsPanel.addItemToDocument({x:0, y:200}, "User Interface", "Button");
 
+```javascript
+fl.componentsPanel.addItemToDocument({x: 0, y: 0}, "User Interface", "CheckBox");
+fl.componentsPanel.addItemToDocument({x: 0, y: 100}, "Data", "WebServiceConnector");
+fl.componentsPanel.addItemToDocument({x: 0, y: 200}, "User Interface", "Button");
 ```

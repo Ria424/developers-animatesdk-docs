@@ -10,7 +10,7 @@ text.getTextAttr(attrName [, startIndex [, endIndex]])
 
 #### Parameters
 
-**attrName** A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for *attrName*, see the Property summary for the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md).
+**attrName** A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for *attrName*, see the Property summary for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
 
 **startIndex** An integer that is the index of first character. This parameter is optional.
 
@@ -29,30 +29,26 @@ Method; retrieves the attribute specified by the *attrName* parameter for the te
 The following example gets the font size of the currently selected text field and shows it:
 
 ```javascript
-var TheTextSize = fl.getDocumentDOM().selection[0].getTextAttr("size");
-fl.trace(TheTextSize);
-
+var textSize = fl.getDocumentDOM().selection[0].getTextAttr("size");
+fl.trace(textSize);
 ```
 
 The following example gets the text fill color of the selected text field:
 
 ```javascript
-var TheFill = fl.getDocumentDOM().selection[0].getTextAttr("fillColor");
-fl.trace(TheFill);
-
+var fill = fl.getDocumentDOM().selection[0].getTextAttr("fillColor");
+fl.trace(fill);
 ```
 
 The following example gets the size of the third character:
 
 ```javascript
-var Char3 = fl.getDocumentDOM().selection[0].getTextAttr("size", 2);
-fl.trace(Char3);
-
+var char3 = fl.getDocumentDOM().selection[0].getTextAttr("size", 2);
+fl.trace(char3);
 ```
 
 The following example gets the color of the selected text field from the third through the eighth character:
 
 ```javascript
 fl.getDocumentDOM().selection[0].getTextAttr("fillColor", 2, 8);
-
 ```

@@ -18,7 +18,6 @@ The following example sets the stroke cap type to round:
 
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
-myStroke.capType = "round"; 
+myStroke.capType = "round";
 fl.getDocumentDOM().setCustomStroke(myStroke);
-
 ```

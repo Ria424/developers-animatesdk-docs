@@ -1,6 +1,6 @@
 ## TextureAtlasExporter summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) >TextureAtlasExporter object
+**Inheritance** [Item object](../Item_object/Item_summary.md) >TextureAtlasExporter object
 
 #### Availability
 
@@ -8,7 +8,7 @@ Animate 2020.
 
 #### Description
 
-The TextureAtlasExporter object is a subclass of the [Item object](../Item_object/item_summary.md).
+The TextureAtlasExporter object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
 #### Method summary
 

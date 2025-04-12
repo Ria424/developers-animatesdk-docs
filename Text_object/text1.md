@@ -14,10 +14,8 @@ Property; a float value that specifies the anti-aliasing sharpness of the text. 
 
 #### Example
 
-See [text.fontRenderingMode](../Text_object/text10.md).
+See [Text.fontRenderingMode](../Text_object/Text10.md).
 
 #### See also
 
-[text.antiAliasThickness](../Text_object/text2.md), [text.fontRenderingMode](../Text_object/text10.md)
-
-<span id="text.antiAliasThickness" class="anchor"></span>
+[Text.antiAliasThickness](../Text_object/Text2.md), [Text.fontRenderingMode](../Text_object/Text10.md)

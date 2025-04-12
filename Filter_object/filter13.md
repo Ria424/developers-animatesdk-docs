@@ -19,13 +19,12 @@ The following example displays the filter names and index positions in the Outpu
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
 var traceStr = "";
-for(i=0; i < myFilters.length; i++){
-traceStr = traceStr + " At index " + i + ": " + myFilters[i].name;
+for (var i = 0; i < myFilters.length; i++) {
+    traceStr = traceStr + " At index " + i + ": " + myFilters[i].name;
 }
-fl.trace(traceStr); 
-
+fl.trace(traceStr);
 ```
 
 #### See also
 
-[document.getFilters()](../Document_object/docume79.md), [document.setFilterProperty()](../Document_object/docum520.md)
+[Document.getFilters()](../Document_object/Document79.md), [Document.setFilterProperty()](../Document_object/Document520.md)

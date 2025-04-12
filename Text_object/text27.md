@@ -10,7 +10,7 @@ text.textRuns
 
 #### Description
 
-Read-only property; an array of TextRun objects (see [TextRun object](../TextRun_object/textRun_summary.md)).
+Read-only property; an array of TextRun objects (see [TextRun object](../TextRun_object/TextRun_summary.md)).
 
 #### Example
 

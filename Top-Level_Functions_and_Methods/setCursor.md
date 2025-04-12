@@ -20,13 +20,12 @@ Nothing.
 
 #### Description
 
-Function; called when the extensible tool is active and the mouse moves, to allow the script to set custom pointers. The script should call tools.setCursor() to specify the pointer to use. For a list that shows which pointers correspond to which integer values, see [tools.setCursor()](../Tools_object/tools8.md).
+Function; called when the extensible tool is active and the mouse moves, to allow the script to set custom pointers. The script should call tools.setCursor() to specify the pointer to use. For a list that shows which pointers correspond to which integer values, see [Tools.setCursor()](../Tools_object/Tools8.md).
 
 #### Example
 
 ```javascript
-function setCursor() { 
-        fl.tools.setCursor( 1 );
+function setCursor() {
+    fl.tools.setCursor(1);
 }
-
 ```

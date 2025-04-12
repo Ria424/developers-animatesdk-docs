@@ -10,7 +10,7 @@ filter.type
 
 #### Description
 
-Property; a string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; a string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 
@@ -18,15 +18,14 @@ The following example sets the type to "full" for all Bevel filters on the selec
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'bevelFilter'){
-myFilters[i].type = 'full';
-}
+for (var i = 0; i < myFilters.length; i++) {
+    if (myFilters[i].name == "bevelFilter") {
+        myFilters[i].type = "full";
+    }
 }
 fl.getDocumentDOM().setFilters(myFilters);
-
 ```
 
 #### See also
 
-[document.setFilterProperty()](../Document_object/docum520.md)
+[Document.setFilterProperty()](../Document_object/Document520.md)

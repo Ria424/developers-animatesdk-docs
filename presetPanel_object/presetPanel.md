@@ -31,9 +31,8 @@ Assuming that a single motion tween is selected on the Stage, the following code
 
 ```javascript
 fl.presetPanel.addNewItem("Custom Presets/Bouncing Ball");
-
 ```
 
 #### See also
 
-[presetPanel.newFolder()](../presetPanel_object/presetPan11.md)
+[PresetPanel.newFolder()](../PresetPanel_object/PresetPanel11.md)

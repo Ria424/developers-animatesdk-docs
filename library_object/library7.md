@@ -14,7 +14,7 @@ Flash MX 2004.
 
 #### Returns
 
-A string value specifying the type of object. For possible return values, see [item.itemType](../Item_object/item4.md).
+A string value specifying the type of object. For possible return values, see [Item.itemType](../Item_object/Item4.md).
 
 #### Description
 
@@ -22,10 +22,8 @@ Method; gets the type of object currently selected or specified by a library pat
 
 #### Example
 
+The following example shows a dialog box that contains the item type of Symbol_1 located in the Folder_1/Folder_2 folder:
+
 ```javascript
-The following example shows a dialog box that contains the item type of Symbol_1 located in the Folder_1/Folder_2
-folder:
-
 alert(fl.getDocumentDOM().library.getItemType("Folder_1/Folder_2/Symbol_1"));
-
 ```

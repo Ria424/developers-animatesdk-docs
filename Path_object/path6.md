@@ -40,5 +40,4 @@ myPath.addPoint(20, 10);
 myPath.addPoint(10, 10);
 
 myPath.makeShape();
-
 ```

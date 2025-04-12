@@ -27,5 +27,4 @@ The following example specifies that the tool named theTool should display the n
 ```javascript
 theTool = fl.tools.activeTool;
 theTool.setMenuString("PolyStar Tool");
-
 ```

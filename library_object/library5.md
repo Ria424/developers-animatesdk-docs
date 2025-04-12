@@ -22,10 +22,9 @@ Method; returns the library item’s index value (zero-based). The library index
 
 #### Example
 
-```javascript
 The following example stores the zero-based index value of the library item square, which is in the test folder, in the variable sqIndex, and then displays the index value in a dialog box:
 
+```javascript
 var sqIndex = fl.getDocumentDOM().library.findItemIndex("test/square"); 
 alert(sqIndex);
-
 ```

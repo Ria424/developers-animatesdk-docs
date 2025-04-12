@@ -28,5 +28,4 @@ PolyStar. This code is taken from the sample PolyStar.jsfl file (see ["Sample Po
 ```javascript
 theTool = fl.tools.activeTool;
 theTool.setIcon("PolyStar.png");
-
 ```

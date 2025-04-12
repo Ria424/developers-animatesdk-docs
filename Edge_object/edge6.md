@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; splits the edge into two pieces. You must call [shape.beginEdit()](../Shape_object/shape.md) before using this method.
+Method; splits the edge into two pieces. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
 
 #### Example
 
@@ -26,8 +26,7 @@ The following example splits the specified edge in half:
 
 ```javascript
 var shape = fl.getDocumentDOM().selection[0];
-shape.beginEdit()
-shape.edges[0].splitEdge( 0.5 );
-shape.endEdit()
-
+shape.beginEdit();
+shape.edges[0].splitEdge(0.5);
+shape.endEdit();
 ```

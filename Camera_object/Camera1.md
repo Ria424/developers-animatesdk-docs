@@ -30,4 +30,4 @@ var zoomval = timeline.camera.getZoom(0);
 
 #### See also
 
-[getZDepth()](../Camera_object/Camera.md), [getRotation()](../Camera_object/Camera2.md)
+[GetZDepth()](../Camera_object/Camera.md), [GetRotation()](../Camera_object/Camera2.md)

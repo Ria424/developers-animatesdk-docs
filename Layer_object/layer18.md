@@ -1,4 +1,4 @@
-## Layer.setFiltersAtFrame() 
+## Layer.setFiltersAtFrame()
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-layer. setFiltersAtFrame (frameIndex,filterArray) 
+layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Parameters
 
@@ -15,7 +15,7 @@ layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Returns
 
-Nothing 
+Nothing.
 
 #### Description
 
@@ -26,7 +26,6 @@ Method; Apply filters at a particular frame.
 The following example copies the filter applied at the first frame and sets it to the tenth frame:
 
 ```javascript
-var myFilters = an. getDocumentDOM(). getTimeline(). layers[0].getFiltersAtFrame(0);
-
-an. getDocumentDOM(). getTimeline(). layers[0].setFiltersAtFrame(9,myFilters);
+var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);
+an. getDocumentDOM().getTimeline().layers[0].setFiltersAtFrame(9,myFilters);
 ```

@@ -10,7 +10,7 @@ Math.concatMatrix(mat1, mat2)
 
 #### Parameters
 
-**mat1, mat2** Specify the Matrix objects to be concatenated (see [Matrix object](../Matrix_object/matrix_summary.md)). Each parameter must be an object with fields a, b, c, d, tx, and ty.
+**mat1, mat2** Specify the Matrix objects to be concatenated (see [Matrix object](../Matrix_object/Matrix_summary.md)). Each parameter must be an object with fields a, b, c, d, tx, and ty.
 
 #### Returns
 
@@ -26,6 +26,5 @@ The following example stores the currently selected object in the elt variable, 
 
 ```javascript
 var elt = fl.getDocumentDOM().selection[0];
-var mat = fl.Math.concatMatrix( elt.matrix , fl.getDocumentDOM().viewMatrix );
-
+var mat = fl.Math.concatMatrix(elt.matrix , fl.getDocumentDOM().viewMatrix);
 ```

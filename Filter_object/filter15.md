@@ -10,7 +10,7 @@ filter.saturation
 
 #### Description
 
-Property; a float value that specifies the saturation value of the filter. Acceptable values are from -100 to 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; a float value that specifies the saturation value of the filter. Acceptable values are from -100 to 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 
@@ -18,15 +18,14 @@ The following example sets the saturation value to -100 (grayscale) for the Adju
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].saturation = 0-100;
-}
+for (var i = 0; i < myFilters.length; i++) {
+    if (myFilters[i].name == "adjustColorFilter") {
+        myFilters[i].saturation = -100;
+    }
 }
 fl.getDocumentDOM().setFilters(myFilters);
-
 ```
 
 #### See also
 
-[document.setFilterProperty()](../Document_object/docum520.md)
+[Document.setFilterProperty()](../Document_object/Document520.md)

@@ -11,7 +11,7 @@ matrix.b
 #### Description
 
 Property; a floating-point value that specifies the (0,1) element in the matrix. This value represents the vertical skew of a shape; it causes Anim to move the shape’s right edge along the vertical axis.
-The matrix.b and matrix.c properties in a matrix represent skewing (see [matrix.c](../Matrix_object/matrix2.md)).
+The matrix.b and matrix.c properties in a matrix represent skewing (see [Matrix.c](../Matrix_object/Matrix2.md)).
 
 #### Example
 
@@ -22,6 +22,4 @@ var mat = fl.getDocumentDOM().selection[0].matrix; mat.b = -1;
 mat.c = 0; fl.getDocumentDOM().selection[0].matrix = mat;
 ```
 
-To skew the object back to its original shape, you can set b and c to 0. See also the [matrix.a](../Matrix_object/matrix.md) example.
-
-<span id="matrix.c" class="anchor"></span>
+To skew the object back to its original shape, you can set b and c to 0. See also the [Matrix.a](../Matrix_object/Matrix.md) example.

@@ -20,21 +20,20 @@ Nothing.
 
 #### Description
 
-Method; sets the location of the vertex. You must call [shape.beginEdit()](../Shape_object/shape.md) before using this method.
+Method; sets the location of the vertex. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
 
 #### Example
 
 The following example sets the vertex to the origin point:
 
 ```javascript
-var shape = fl.getDocumentDOM().selection[0]; 
+var shape = fl.getDocumentDOM().selection[0];
 shape.beginEdit();
-var hEdge = shape.edges[0].getHalfEdge(0); 
+var hEdge = shape.edges[0].getHalfEdge(0);
 var vertex = hEdge.getVertex();
 var someHEdge = vertex.getHalfEdge();
 var vertex = someHEdge.getVertex();
-// Move the vertex to the origin. 
+// Move the vertex to the origin.
 vertex.setLocation(0.0, 0.0);
 shape.endEdit();
-
 ```

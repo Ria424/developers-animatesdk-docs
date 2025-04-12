@@ -22,23 +22,21 @@ Method; specifies how many seconds have passed between January 1, 1970 and the t
 
 #### Example
 
-```javascript
 The following example determines whether a file has been modified since it was created:
+
+```javascript
 // Make sure the specified file exists
-var fileURI = "file:///C|/MyApplication/MyApp.fla"; 
+var fileURI = "file:///C|/MyApplication/MyApp.fla";
 var creationTime = FLfile.getCreationDate(fileURI);
-var modificationTime = FLfile.getModificationDate(fileURI); 
-if ( modificationTime > creationTime ) {
+var modificationTime = FLfile.getModificationDate(fileURI);
+
+if (modificationTime > creationTime) {
     alert("The file has been modified since it was created.");
-}
-else {
+} else {
     alert("The file has not been modified since it was created.");
 }
-
 ```
 
 #### See also
 
 [FLfile.getCreationDateObj()](../FLfile_object/FLfile5.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
-
-<span id="FLfile.getCreationDateObj()" class="anchor"></span>

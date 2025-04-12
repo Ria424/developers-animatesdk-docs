@@ -14,11 +14,14 @@ Property; a string that is equivalent to the Name field in the Accessibility pan
 
 #### Example
 
+The following example sets the accessibility name of the document to "Main Movie":
+
 ```javascript
-The following example sets the accessibility name of the document to "Main Movie": 
 fl.getDocumentDOM().accName = "Main Movie";
+```
 
 The following example gets the accessibility name of the document:
-fl.trace(fl.getDocumentDOM().accName);
 
+```javascript
+fl.trace(fl.getDocumentDOM().accName);
 ```

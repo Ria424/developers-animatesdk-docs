@@ -16,6 +16,5 @@ Read-only property; A stinrg indicating the version number of the Animate applic
 
 ``` javascript
 var exporter = new TextureAtlasExporter;
-alert(exporter.version);
-// "20.0.1.19255"
+alert(exporter.version); // "20.0.1.19255"
 ````

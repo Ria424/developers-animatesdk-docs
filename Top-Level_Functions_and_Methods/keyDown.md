@@ -21,7 +21,7 @@ Nothing.
 #### Description
 
 Function; called when the extensible tool is active and the user presses a key. The script should call
-[tools.getKeyDown()](../Tools_object/tools4.md) to determine which key was pressed.
+[Tools.getKeyDown()](../Tools_object/Tools4.md) to determine which key was pressed.
 
 #### Example
 
@@ -29,13 +29,10 @@ The following example displays information about which key was pressed when the 
 
 ```javascript
 function keyDown() {
-fl.trace("key " + fl.tools.getKeyDown() + " was pressed");
+    fl.trace("key " + fl.tools.getKeyDown() + " was pressed");
 }
-
 ```
 
 #### See also
 
-[keyUp()](../Top-Level_Functions_and_Methods/keyUp.md), [tools.getKeyDown()](../Tools_object/tools4.md)
-
-<span id="keyUp()" class="anchor"></span>
+[keyUp()](../Top-Level_Functions_and_Methods/keyUp.md), [Tools.getKeyDown()](../Tools_object/Tools4.md)

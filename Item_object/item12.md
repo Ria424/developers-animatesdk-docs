@@ -10,7 +10,7 @@ item.linkageURL
 
 #### Description
 
-Property; a string that specifies the URL where the SWF file containing the shared asset is located. Animate ignores this property if [item.linkageImportForRS](../Item_object/item11.md), [item.linkageExportForAS](../Item_object/item7.md), and [item.linkageExportForRS](../Item_object/item8.md) are set to false. Conversely, this property must be set when any of those properties are set to true. You can specify a web URL or a filename in platform-dependent format (that is, forward slashes \[/\] or backward slashes \[\\\], depending on the platform).
+Property; a string that specifies the URL where the SWF file containing the shared asset is located. Animate ignores this property if [Item.linkageImportForRS](../Item_object/Item11.md), [Item.linkageExportForAS](../Item_object/Item7.md), and [Item.linkageExportForRS](../Item_object/Item8.md) are set to false. Conversely, this property must be set when any of those properties are set to true. You can specify a web URL or a filename in platform-dependent format (that is, forward slashes \[/\] or backward slashes \[\\\], depending on the platform).
 
 #### Example
 
@@ -22,4 +22,4 @@ fl.getDocumentDOM().library.items[0].linkageURL = "theShareSWF.swf";
 
 #### See also
 
-[item.linkageIdentifier](../Item_object/item10.md)
+[Item.linkageIdentifier](../Item_object/Item10.md)

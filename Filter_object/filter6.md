@@ -10,7 +10,7 @@ filter.distance
 
 #### Description
 
-Property; a float value that specifies the distance between the filter’s effect and an object, in pixels. Acceptable values are from -255 to 255. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; a float value that specifies the distance between the filter’s effect and an object, in pixels. Acceptable values are from -255 to 255. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 
@@ -18,15 +18,14 @@ The following example sets the distance to 10 pixels for the Drop Shadow filters
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'dropShadowFilter'){
-myFilters[i].distance = 10;
-}
+for (var i = 0; i < myFilters.length; i++) {
+    if (myFilters[i].name == "dropShadowFilter") {
+        myFilters[i].distance = 10;
+    }
 }
 fl.getDocumentDOM().setFilters(myFilters);
-
 ```
 
 #### See also
 
-[document.setFilterProperty()](../Document_object/docum520.md)
+[Document.setFilterProperty()](../Document_object/Document520.md)

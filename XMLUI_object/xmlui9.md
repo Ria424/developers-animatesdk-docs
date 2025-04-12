@@ -28,9 +28,8 @@ The following example dims the control with the ID attribute myControl:
 
 ```javascript
 fl.xmlui.setEnabled("myControl", false);
-
 ```
 
 #### See also
 
-[xmlui.getEnabled()](../XMLUI_object/xmlui4.md)
+[XMLUI.getEnabled()](../XMLUI_object/XMLUI4.md)

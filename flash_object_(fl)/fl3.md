@@ -38,7 +38,6 @@ Method; opens a File Open or File Save system dialog box and lets the user speci
 The following examples illustrate various options of the fl.browseForFileURL() method:
 
 ```javascript
-
 //CC
 var uri = fl.browseForFileURL("open", "Select a FLA", "FLA Document (*.fla)", "fla");
 // or
@@ -46,7 +45,7 @@ var fileDescription = "FLA document (*.fla);Actionscript File (*.as)";
 var fileFilter = "fla;as";
 var uri = fl.browseForFileURL("open", "Select a FLA or AS file", fileDescription, fileFilter);
 
-//The following are for CS4 through CS6. They do not work in CC.
+// The following are for CS4 through CS6. They do not work in CC.
 var fileURL = fl.browseForFileURL("open", "Select file");
 
 var doc = fl.openDocument(fileURL);
@@ -72,6 +71,4 @@ var uri = fl.browseForFileURL("open", "Select a FLA or AS file", previewArea, ma
 
 #### See also
 
-[fl.browseForFolderURL()](#fl.browseForFolderURL())
-
-<span id="fl.browseForFolderURL()" class="anchor"></span>
+[fl.browseForFolderURL()](../flash_object_(fl)/fl4.md)

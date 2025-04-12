@@ -14,5 +14,5 @@ You can use the following methods with the componentsPanel object:
 
 | **Method** | **Description** |
 | --- | --- |
-| [componentsPanel.addItemToDocument()](../componentsPanel_object/componentsPanel.md) | Adds the specified component to the document at the specified position. |
-| [componentsPanel.reload()](../componentsPanel_object/componentsPane1.md) | Refreshes the Components panel's list of components. |
+| [ComponentsPanel.addItemToDocument()](../ComponentsPanel_object/ComponentsPanel.md) | Adds the specified component to the document at the specified position. |
+| [ComponentsPanel.reload()](../ComponentsPanel_object/ComponentsPanel1.md) | Refreshes the Components panel's list of components. |

@@ -26,6 +26,5 @@ The following example removes all points from a path stored in the myPath variab
 
 ```javascript
 var myPath = fl.drawingLayer.newPath();
-myPath.clear(); 
-
+myPath.clear();
 ```

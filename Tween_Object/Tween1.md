@@ -20,12 +20,16 @@ Returns array of Filter objects.
 
 Method; Returns filters data of a selected frame from a tween span.
 
-#### Usage
+#### Example
 
+```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;
-for( var i = 0; i < tweenObj.duration; i++) {
-var filterList = tweenObj.getFilters(i);
-for( var j = 0; j< filterList.length; j++) {
-var filter = filterList[j];
-fl.trace(filter.name);
-fl.trace("Blur x = " + filter.blurX + " y = " + filter.blurY); } }
+for (var i = 0; i < tweenObj.duration; i++) {
+    var filterList = tweenObj.getFilters(i);
+    for (var j = 0; j < filterList.length; j++) {
+        var filter = filterList[j];
+        fl.trace(filter.name);
+        fl.trace("Blur x = " + filter.blurX + " y = " + filter.blurY);
+    }
+}
+```

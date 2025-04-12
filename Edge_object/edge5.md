@@ -22,17 +22,17 @@ Nothing.
 
 #### Description
 
-Method; sets the position of the control point of the edge. You must call shape.beginEdit() before using this method. See [shape.beginEdit()](../Shape_object/shape.md).
+Method; sets the position of the control point of the edge. You must call shape.beginEdit() before using this method. See [Shape.beginEdit()](../Shape_object/Shape.md).
 
 #### Example
 
 The following example sets the beginning control point of the specified edge to the (0, 1) coordinates:
 
 ```javascript
-x = 0; y = 1;
+var x = 0;
+var y = 1;
 var shape = fl.getDocumentDOM().selection[0];
 shape.beginEdit();
 shape.edges[0].setControl(0, x, y);
 shape.endEdit();
-
 ```

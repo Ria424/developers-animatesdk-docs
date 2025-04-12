@@ -18,7 +18,7 @@ Property; the color of the highlight, in one of the following formats:
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-This property is defined for Filter objects with a value of "bevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
+This property is defined for Filter objects with a value of "bevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 
@@ -26,11 +26,10 @@ The following example sets the highlight color to "#ff00003e" for the Bevel filt
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'bevelFilter'){
-myFilters[i].highlightColor = '#ff00003e';
-}
+for (var i = 0; i < myFilters.length; i++) {
+    if (myFilters[i].name == "bevelFilter") {
+        myFilters[i].highlightColor = "#ff00003e";
+    }
 }
 fl.getDocumentDOM().setFilters(myFilters);
-
 ```

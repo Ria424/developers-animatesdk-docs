@@ -11,14 +11,14 @@ Flash MX 2004.
 #### Description
 
 Property; a string that specifies the type of Frame name. Acceptable values are "none", "name", "comment", and
-"anchor". Setting a label to "none" clears the [frame.name](../Frame_object/frame22.md) property.
+"anchor". Setting a label to "none" clears the [Frame.name](../Frame_object/Frame22.md) property.
 
 #### Example
 
+The following example sets the name of the first frame in the top layer to "First Frame" and then sets its label to "comment":
+
 ```javascript
-The following example sets the name of the first frame in the top layer to "First Frame" and then sets its label to"comment":
-
-fl.getDocumentDOM().getTimeline().layers[0].frames[0].name = 'First Frame'; 
-fl.getDocumentDOM().getTimeline().layers[0].frames[0].labelType = 'comment';
-
+var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
+frame.name = "First Frame";
+frame.labelType = "comment";
 ```

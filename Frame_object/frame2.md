@@ -18,10 +18,9 @@ Method; Converts the current frame to Frame-by-Frame Animation.
 
 #### Example
 
-```javascript
 The following example converts the frame 0 to Frame-by-Frame Animation:
 
+```javascript
 var result = fl.getDocumentDOM().getTimeline().layers[0].frames[0].convertToFrameByFrameAnimation(); 
 fl.trace(result);
-
 ```

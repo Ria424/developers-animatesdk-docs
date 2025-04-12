@@ -32,7 +32,7 @@ The following example displays a message in the Output panel when a document is 
 
 ```javascript
 myFunction = function () {
-    fl.trace('document was closed');
+    fl.trace("document was closed");
 }
 var eventID = fl.addEventListener("documentClosed", myFunction);
 ```

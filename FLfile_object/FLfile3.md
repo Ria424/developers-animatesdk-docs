@@ -36,16 +36,16 @@ For example, if *fileOrFolderURI* is a hidden folder, the string returned is *"D
 
 #### Example
 
-```javascript
 The following example gets the attributes of the file mydata.txt and displays an alert box if the file is read-only.
 
+```javascript
 var URI = "file:///c|/temp/mydata.txt"; 
-if (FLfile.exists(URI)){
+if (FLfile.exists(URI)) {
     var attr = FLfile.getAttributes(URI);
-        if (attr && (attr.indexOf("R") != -1)) { // Returned string contains R. alert(URI + " is read only!");
+    if (attr && (attr.indexOf("R") != -1)) { // Returned string contains R.
+        alert(URI + " is read only!");
     }
 }
-
 ```
 
 #### See also

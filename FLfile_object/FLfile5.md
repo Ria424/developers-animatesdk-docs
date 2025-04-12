@@ -22,12 +22,12 @@ Method; returns a JavaScript Date object that represents the date and time when 
 
 #### Example
 
-```javascript
 The following example displays (in human-readable form) the date a file was created, in the Output panel:
-// Make sure the specified file exists.
-var file1Date = FLfile.getCreationDateObj("file:///c|/temp/file1.txt"); 
-fl.trace(file1Date);
 
+```javascript
+// Make sure the specified file exists.
+var file1Date = FLfile.getCreationDateObj("file:///c|/temp/file1.txt");
+fl.trace(file1Date);
 ```
 
 #### See also

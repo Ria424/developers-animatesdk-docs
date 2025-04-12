@@ -14,10 +14,10 @@ Method; a Boolean value. Lets you know whether the frame contains any elements.
 
 #### Example
 
-```javascript
 The following example illustrates use of this method.
 
-var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0]; 
-if (frame.isEmpty) fl.trace("first frame is empty");
-
+```javascript
+var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
+if (frame.isEmpty)
+    fl.trace("first frame is empty");
 ```

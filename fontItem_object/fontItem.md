@@ -18,5 +18,5 @@ Assuming that the first item in the Library is a Font item, the following code d
 
 ```javascript
 var theItem = fl.getDocumentDOM().library.items[0];
-fl.trace("bitmap: "+ theItem.bitmap);
+fl.trace("bitmap: " + theItem.bitmap);
 ```

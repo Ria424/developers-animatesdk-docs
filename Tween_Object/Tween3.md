@@ -20,8 +20,13 @@ Returns shape coordinates at the frame offset.
 
 Method; Returns interpolated shape of a selected frame within a tween-span.
 
-#### Usage
+#### Example
 
-var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;if( tweenObj.tweenType ==
-"shape") {for(var i = 1; i < tweenObj.duration; i++) {var shape = tweenObj.getShape(i); ///// code to perform some
-operation on returned shape } }
+```javascript
+var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;
+if (tweenObj.tweenType == "shape") {
+    for (var i = 1; i < tweenObj.duration; i++) {
+        var shape = tweenObj.getShape(i); // code to perform some operation on returned shape
+    }
+}
+```

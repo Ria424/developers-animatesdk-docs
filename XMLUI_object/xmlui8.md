@@ -27,18 +27,17 @@ Method; clears the values of the ListBox or ComboBox control specified by *contr
 The following example sets the label and value of items in the control with the ID attribute myControlID to the label, value pairs specified:
 
 ```javascript
-var nameArray = new Array("January", "February", "March"); 
+var nameArray = new Array("January", "February", "March");
 var monthArray = new Array();
-for (i=0; i<nameArray.length; i++){ 
-    elem = new Object(); 
-    elem.label = nameArray[i]; 
+for (var i = 0; i < nameArray.length; i++) {
+    elem = new Object();
+    elem.label = nameArray[i];
     elem.value = i;
     monthArray[i] = elem;
 }
 fl.xmlui.setControlItemElements("myControlID", monthArray);
-
 ```
 
 #### See also
 
-[xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md), [xmlui.set()](../XMLUI_object/xmlui6.md), [xmlui.setControlItemElement()](../XMLUI_object/xmlui7.md)
+[XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md), [XMLUI.set()](../XMLUI_object/XMLUI6.md), [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md)

@@ -46,5 +46,4 @@ The following example replaces the text from the third through the eighth charac
 fl.getDocumentDOM().selection[0].setTextString("01234567890");
 fl.getDocumentDOM().selection[0].setTextString("abcdefghij", 2, 8);
 // text field is now "01abcdefghij890"
-
 ```

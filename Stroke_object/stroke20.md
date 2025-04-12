@@ -30,7 +30,6 @@ The following example sets the stroke style to ragged:
 
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
-myStroke.style = "ragged"; 
+myStroke.style = "ragged";
 fl.getDocumentDOM().setCustomStroke(myStroke);
-
 ```

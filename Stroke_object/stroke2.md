@@ -23,12 +23,11 @@ Property; the color of the stroke, in one of the following formats:
 The following example sets the stroke color:
 
 ```javascript
-var myStroke = fl.getDocumentDOM().getCustomStroke(); 
-myStroke.color = "#000000"; 
+var myStroke = fl.getDocumentDOM().getCustomStroke();
+myStroke.color = "#000000";
 fl.getDocumentDOM().setCustomStroke(myStroke);
-
 ```
 
 #### See also
 
-[stroke.shapeFill](../Stroke_object/stroke17.md)
+[Stroke.shapeFill](../Stroke_object/Stroke17.md)

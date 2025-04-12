@@ -20,5 +20,4 @@ The following example displays the characters that make up the first run of char
 
 ```javascript
 fl.trace(fl.getDocumentDOM().selection[0].textRuns[0].characters);
-
 ```

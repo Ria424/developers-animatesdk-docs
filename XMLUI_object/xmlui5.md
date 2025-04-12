@@ -25,11 +25,10 @@ Method; returns a Boolean value that specifies whether the control is visible or
 The following example returns a value that indicates whether the control with the ID attribute *myListBox* is visible:
 
 ```javascript
-var isVisible = fl.xmlui.getVisible("myListBox"); 
+var isVisible = fl.xmlui.getVisible("myListBox");
 fl.trace(isVisible);
-
 ```
 
 #### See also
 
-[xmlui.setVisible()](../XMLUI_object/xmlui10.md)
+[XMLUI.setVisible()](../XMLUI_object/XMLUI10.md)

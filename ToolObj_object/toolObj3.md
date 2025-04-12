@@ -19,5 +19,4 @@ The following commands in the mouseDown() method of a tool’s JavaScript file w
 ```javascript
 myToolPos = fl.tools.activeTool.position;
 fl.trace(myToolPos);
-
 ```

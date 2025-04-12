@@ -25,5 +25,5 @@ The following example sets the fill color of the current selection:
 ```javascript
 var fill = fl.getDocumentDOM().getCustomFill();
 fill.color = "#FFFFFF";
-fl.getDocumentDOM().setCustomFill( fill );
+fl.getDocumentDOM().setCustomFill(fill);
 ```

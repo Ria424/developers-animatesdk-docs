@@ -10,7 +10,7 @@ filter.contrast
 
 #### Description
 
-Property; a float value that specifies the contrast value of the filter. Acceptable values are between -100 and 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; a float value that specifies the contrast value of the filter. Acceptable values are between -100 and 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 
@@ -18,11 +18,10 @@ The following example sets the contrast value to -15.5 for the Adjust Color filt
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].contrast = -15.5;
-}
+for(var i = 0; i < myFilters.length; i++) {
+    if (myFilters[i].name == "adjustColorFilter") {
+        myFilters[i].contrast = -15.5;
+    }
 }
 fl.getDocumentDOM().setFilters(myFilters);
-
 ```

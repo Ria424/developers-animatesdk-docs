@@ -28,7 +28,6 @@ The following example displays a message in the Output panel when the tool becom
 
 ```javascript
 function deactivate() {
-    fl.trace( "Tool is no longer active" );
+    fl.trace("Tool is no longer active");
 }
-
 ```

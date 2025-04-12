@@ -14,10 +14,10 @@ Property; an integer that specifies the number of times the tweened element rota
 
 #### Example
 
-```javascript
 The following example rotates the element in this frame counter-clockwise three times by the time it reaches the next keyframe:
 
-fl.getDocumentDOM().getTimeline().layers[0].frames[0].motionTweenRotate = "counter- clockwise"; 
-fl.getDocumentDOM().getTimeline().layers[0].frames[0].motionTweenRotateTimes = 3;
-
+```javascript
+var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
+frame.motionTweenRotate = "counter- clockwise"; 
+frame.motionTweenRotateTimes = 3;
 ```

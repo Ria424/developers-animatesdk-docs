@@ -18,7 +18,7 @@ The following example gets the shortcut key of the selected object and shows the
 
 ```javascript
 var theShortcut = fl.getDocumentDOM().selection[0].shortcut;
-fl.trace(theShortcut); 
+fl.trace(theShortcut);
 ```
 
 The following example sets the shortcut key of the selected object:

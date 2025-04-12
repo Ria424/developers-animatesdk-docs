@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-layer.setBlendModeAtFrame(frameIndex,blendModeString) 
+layer.setBlendModeAtFrame(frameIndex,blendModeString)
 
 #### Parameters
 
@@ -26,5 +26,5 @@ Method; Sets the blending mode at the particular frame.
 The following example sets the blending mode of the frame number 5.
 
 ```javascript
-an.getDocumentDOM().getTimeline().layers[0].setBlendModeAtFrame(4,"Subtract");
+an.getDocumentDOM().getTimeline().layers[0].setBlendModeAtFrame(4, "Subtract");
 ```

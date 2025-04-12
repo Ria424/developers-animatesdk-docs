@@ -18,11 +18,10 @@ The following example disables the Color filters on the selected object(s):
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].enabled = false;
-}
+for (var i = 0; i < myFilters.length; i++) {
+    if (myFilters[i].name == "adjustColorFilter") {
+        myFilters[i].enabled = false;
+    }
 }
 fl.getDocumentDOM().setFilters(myFilters);
-
 ```

@@ -22,14 +22,12 @@ Method; converts a filename in a platform-specific format to a file:/// URI.
 
 #### Example
 
+The following example converts a filename from a platform-specific format to a file:/// URI, which is passed to outputPanel.save():
+
 ```javascript
-The following example converts a filename from a platform-specific format to a file:/// URI, which is passed to
-outputPanel.save():
-
 var myFilename = "C:\\outputPanel.txt";
-var myURI=FLfile.platformPathToURI(myFilename); 
+var myURI = FLfile.platformPathToURI(myFilename);
 fl.outputPanel.save(myURI);
-
 ```
 
 #### See also

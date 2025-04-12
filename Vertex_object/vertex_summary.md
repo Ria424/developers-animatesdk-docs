@@ -1,4 +1,4 @@
-## vertex summary
+## Vertex summary
 
 #### Availability
 
@@ -14,8 +14,8 @@ You can use the following methods with the Vertex object:
 
 | **Method** | **Description** |
 | --- | --- |
-| [vertex.getHalfEdge()](../Vertex_object/vertex.md) | Gets a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md) that shares this vertex. |
-| [vertex.setLocation()](../Vertex_object/vertex1.md) | Sets the location of the vertex. |
+| [Vertex.getHalfEdge()](../Vertex_object/Vertex.md) | Gets a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) that shares this vertex. |
+| [Vertex.setLocation()](../Vertex_object/Vertex1.md) | Sets the location of the vertex. |
 
 #### Property summary
 
@@ -23,5 +23,5 @@ The following properties are available for the Vertex object:
 
 | **Property** | **Description** |
 | --- | --- |
-| [vertex.x](../Vertex_object/vertex2.md) | Read-only; the *x* location of the vertex in pixels. |
-| [vertex.y](../Vertex_object/vertex3.md) | Read-only; the *y* location of the vertex in pixels. |
+| [Vertex.x](../Vertex_object/Vertex2.md) | Read-only; the *x* location of the vertex in pixels. |
+| [Vertex.y](../Vertex_object/Vertex3.md) | Read-only; the *y* location of the vertex in pixels. |

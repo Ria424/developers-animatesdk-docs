@@ -10,8 +10,7 @@ TextureAtlasExporter.shapePadding
 
 #### Description
 
-Property; An integer value indicating how many pixels of padding should be added to each exported symbol frame
-when adding it to the TextureAtlas.
+Property; An integer value indicating how many pixels of padding should be added to each exported symbol frame when adding it to the TextureAtlas.
 
 #### Example
 

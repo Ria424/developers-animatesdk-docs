@@ -14,4 +14,4 @@ Property; a string that specifies the type of join for the stroke. Acceptable va
 
 #### See also
 
-[stroke.capType](../Stroke_object/stroke1.md)
+[Stroke.capType](../Stroke_object/Stroke1.md)

@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; clears the contents of the Output panel. You can use this method in a batch processing application to clear a list of errors, or to save them incrementally by using this method with [outputPanel.save()](../outputPanel_object/outputPane1.md).
+Method; clears the contents of the Output panel. You can use this method in a batch processing application to clear a list of errors, or to save them incrementally by using this method with [OutputPanel.save()](../OutputPanel_object/OutputPanel1.md).
 
 #### Example
 
@@ -27,5 +27,3 @@ The following example clears the current contents of the Output panel:
 ```javascript
 fl.outputPanel.clear();
 ```
-
-<span id="outputPanel.save()" class="anchor"></span>

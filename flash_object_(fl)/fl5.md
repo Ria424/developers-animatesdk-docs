@@ -25,7 +25,7 @@ Method; empties the publish cache.
 The following code empties the publish cache:
 
 ```javascript
-fl.clearPublishCache()
+fl.clearPublishCache();
 ```
 
 #### See also

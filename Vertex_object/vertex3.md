@@ -14,4 +14,4 @@ Read-only property; the *y* location of the vertex, in pixels.
 
 #### Example
 
-See [vertex.x](../Vertex_object/vertex2.md).
+See [Vertex.x](../Vertex_object/Vertex2.md).

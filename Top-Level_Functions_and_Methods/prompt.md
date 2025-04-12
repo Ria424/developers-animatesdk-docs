@@ -27,9 +27,8 @@ Method; displays a prompt and optional text in a modal Alert dialog box, along w
 The following example prompts the user to enter a user name. If the user types a name and clicks OK, the name appears in the Output panel.
 
 ```javascript
-var userName = prompt("Enter user name", "Type user name here"); 
+var userName = prompt("Enter user name", "Type user name here");
 fl.trace(userName);
-
 ```
 
 #### See also

@@ -19,5 +19,4 @@ The following example determines whether the specified edge is a straight line a
 ```javascript
 var shape = fl.getDocumentDOM().selection[0];
 fl.trace(shape.edges[0].isLine);
-
 ```

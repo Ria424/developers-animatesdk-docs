@@ -26,7 +26,5 @@ The following example shows a message in the Output panel if the first item in t
 
 ```javascript
 if (fl.getDocumentDOM().library.items[0].hasData("myData"))
-{
-fl.trace("Yep, it's there!");
-}
+    fl.trace("Yep, it's there!");
 ```

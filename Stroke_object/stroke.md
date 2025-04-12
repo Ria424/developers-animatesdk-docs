@@ -2,7 +2,7 @@
 
 #### Availability
 
-Flash MX 2004. Deprecated in Flash CS3 in favor of [stroke.joinType](../Stroke_object/stroke11.md).
+Flash MX 2004. Deprecated in Flash CS3 in favor of [Stroke.joinType](../Stroke_object/Stroke11.md).
 
 #### Usage
 
@@ -18,7 +18,6 @@ The following example sets the breakAtCorners property to true:
 
 ```javascript
 var myStroke = fl.getDocumentDOM().getCustomStroke();
-myStroke.breakAtCorners = true; 
+myStroke.breakAtCorners = true;
 fl.getDocumentDOM().setCustomStroke(myStroke);
-
 ```

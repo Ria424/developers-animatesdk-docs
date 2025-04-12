@@ -27,5 +27,4 @@ The following example specifies that the shape Property inspector should be used
 ```javascript
 theTool = fl.tools.activeTool;
 theTool.setPI("shape");
-
 ```

@@ -20,16 +20,16 @@ Method; applies the specified motion XML to the selected motion object.
 
 #### Example
 
-```javascript
 This example specifies that the motion XML identified as myMotionXML be applied to the selected motion object.
 
-var doc = fl.getDocumentDOM(); 
+```javascript
+var doc = fl.getDocumentDOM();
 var my_tl = doc.getTimeline();
-this.getCurrentFrame = function(){
-    var layer = my_tl.layers[my_tl.currentLayer]; 
-    var frame = layer.frames[my_tl.currentFrame]; 
+getCurrentFrame = function() {
+    var layer = my_tl.layers[my_tl.currentLayer];
+    var frame = layer.frames[my_tl.currentFrame];
     return frame;
-    }
-var theFrame = getCurrentFrame(); theFrame.setMotionObjectXML(myMotionXML.toString(), false);
-
+}
+var theFrame = getCurrentFrame();
+theFrame.setMotionObjectXML(myMotionXML.toString(), false);
 ```

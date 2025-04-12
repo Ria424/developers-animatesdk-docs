@@ -18,14 +18,11 @@ The following example traces the name of the filter at index 0. If it is a Glow 
 
 ```javascript
 //trace the name of the filter at index 0, if it's glow filter, set its blurX to 100
-var filterName =
-fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters[0].name;
+var filterName = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters[0].name;
 fl.trace(filterName);
 var filterArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters;
-if (filterName == 'glowFilter')
-{
-filterArray[0].blurX = 100;
+if (filterName == "glowFilter") {
+    filterArray[0].blurX = 100;
 }
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters = filterArray;
-
 ```

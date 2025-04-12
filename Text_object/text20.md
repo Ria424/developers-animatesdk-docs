@@ -11,6 +11,4 @@ text.selectionEnd
 #### Description
 
 Property; a zero-based integer that specifies the end of a text subselection. For more information, see
-[text.selectionStart](../Text_object/text21.md).
-
-<span id="text.selectionStart" class="anchor"></span>
+[Text.selectionStart](../Text_object/Text21.md).

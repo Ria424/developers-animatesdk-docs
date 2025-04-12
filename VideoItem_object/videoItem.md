@@ -26,7 +26,6 @@ Assuming that the first item in the Library is a video item, the following code 
 
 ```javascript
 var videoFileURL = "file:///C|/out.flv";
-var libItem = fl.getDocumentDOM().library.items[0]; 
+var libItem = fl.getDocumentDOM().library.items[0];
 libItem.exportToFLV(videoFileURL);
-
 ```

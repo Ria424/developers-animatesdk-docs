@@ -17,7 +17,7 @@ Property; a Boolean value that specifies whether the object is accessible. This 
 The following example determines if the object is accessible (a value of false means that it is accessible):
 
 ```javascript
-var isSilent = fl.getDocumentDOM().selection[0].silent; 
+var isSilent = fl.getDocumentDOM().selection[0].silent;
 ```
 
 The following example sets the object to be accessible:

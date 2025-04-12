@@ -31,5 +31,3 @@ fl.closeAll();
 #### See also
 
 [fl.closeAllPlayerDocuments()](../flash_object_(fl)/fl8.md), [fl.closeDocument()](../flash_object_(fl)/fl9.md)
-
-<span id="fl.closeAllPlayerDocuments()" class="anchor"></span>

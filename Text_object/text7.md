@@ -14,7 +14,7 @@ Property; a string that consists of delimited integers that correspond to the it
 
 This property corresponds to the XML file in the Configuration/Font Embedding folder.
 
-***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["fontItem.embedRanges"](../fontItem_object/fontIte3.md#fontitem.embedranges) property instead of the text.embedRanges property.*
+***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["FontItem.embedRanges"](../FontItem_object/FontItem3.md#Fontitem.embedRanges) property instead of the text.embedRanges property.*
 
 #### Example
 
@@ -31,5 +31,4 @@ The following example resets the property:
 ```javascript
 var doc = fl.getDocumentDOM();
 doc.selection[0].embedRanges = "";
-
 ```

@@ -1,4 +1,4 @@
-## Layer.getFiltersAtFrame() 
+## Layer.getFiltersAtFrame()
 
 #### Availability
 
@@ -25,5 +25,5 @@ Method; An array that contains a list of filters applied to the frame at frameIn
 The following example gets the filters at the first frame of the first layer:
 
 ```javascript
-var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0); 
+var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);
 ```

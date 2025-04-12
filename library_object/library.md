@@ -24,11 +24,14 @@ Method; adds the current or specified item to the Stage at the specified positio
 
 #### Example
 
-```javascript
 The following example adds the currently selected item to the Stage at the (3, 60) position:
-fl.getDocumentDOM().library.addItemToDocument({x:3, y:60});
+
+```javascript
+fl.getDocumentDOM().library.addItemToDocument({x: 3, y: 60});
+```
 
 The following example adds the item Symbol1 located in folder1 of the library to the Stage at the (550, 485) position:
-fl.getDocumentDOM().library.addItemToDocument({x:550.0, y:485.0}, "folder1/Symbol1");
 
+```javascript
+fl.getDocumentDOM().library.addItemToDocument({x: 550.0, y: 485.0}, "folder1/Symbol1");
 ```

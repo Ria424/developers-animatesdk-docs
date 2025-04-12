@@ -28,27 +28,26 @@ Method; Sets the sound envelope of any frame with sound file. The soundEnv objec
 
 #### Example
 
-```javascript
 The following example illustrates the use of setSoundEnvelope:
+
+```javascript
 // Add a sound item to the first Frame
 
 // Get the sound Envelope
 var soundEnv = fl.getDocumentDOM().getTimeline().layers[0].frames[0].getSoundEnvelope();
 
 //Assigning the sound 1 in the library to Frame 2 
-fl.getDocumentDOM().getTimeline().layers[0].frames[1].soundLibraryItem
-=fl.getDocumentDOM().library.items[1];
+fl.getDocumentDOM().getTimeline().layers[0].frames[1].soundLibraryItem = fl.getDocumentDOM().library.items[1];
 
 //Set the Sound Envelope 
 fl.getDocumentDOM().getTimeline().layers[0].frames[1].setSoundEnvelope(soundEnv);
-for (int i=0; i<soundEnv.length; i++) { 
+for (var i = 0; i < soundEnv.length; i++) { 
     fl.trace(soundEnv[i].mark);
     fl.trace(soundEnv[i].leftChannel); 
     fl.trace(soundEnv[i].rightChannel);
 }
-
 ```
 
 #### See also
 
-[frame.getSoundEnvelope()](../Frame_object/frame8.md)
+[Frame.getSoundEnvelope()](../Frame_object/Frame8.md)

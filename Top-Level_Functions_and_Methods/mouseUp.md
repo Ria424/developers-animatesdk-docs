@@ -27,8 +27,7 @@ Function; called whenever the extensible tool is active and the mouse button is 
 The following example displays a message in the Output panel when the extensible tool is active and the mouse button is released.
 
 ```javascript
-function mouseUp() { 
+function mouseUp() {
     fl.trace("mouse is up");
 }
-
 ```

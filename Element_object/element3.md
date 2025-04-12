@@ -10,7 +10,7 @@ Adobe Animate.
 
 #### Parameters
 
-**name** A string that specifies the name of the persistent data item (set with [element.setPersistentData()](../Element_object/elemen17.md)).
+**name** A string that specifies the name of the persistent data item (set with [Element.setPersistentData()](../Element_object/Element17.md)).
 
 **format** A string that specifies the publishing format.
 
@@ -26,32 +26,35 @@ Method; Indicates whether publishing of a specified persistent data item is enab
 
 #### Example
 
-```javascript
 The following example illustrates the use of this method:
+
+```javascript
 var doc = fl.getDocumentDOM();
-// set the data 
+
+// set the data
 if (doc) {
-// get the first selected element
-var elem = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0]; if (elem) {
-// add persistent data "myAlign" of "left" 
-elem.setPersistentData( "myAlign", "string", "left" );
-// enable publishing of persistent data to SWF for the element
-elem.setPublishPersistentData("myAlign", "_EMBED_SWF_", true);
-// enable publishing to SWF for entire document 
-doc.setPublishDocumentData("_EMBED_SWF_", true);
-    }
-}
-// example getting data
-if (doc && doc.getPublishDocumentData("_EMBED_SWF_")) {
     // get the first selected element
-    var elem = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
-if (elem && elem.hasPersistentData("myAlign") && elem.getPublishPersistentData("myAlign", "_EMBED_SWF_")) {
-    alert("elem.metaData.myAlign = '" + elem.getPersistentData("myAlign") + "' will be embedded in SWF when published.");
+    var elem = doc.getTimeline().layers[0].frames[0].elements[0];
+    if (elem) {
+        // add persistent data "myAlign" of "left"
+        elem.setPersistentData("myAlign", "string", "left");
+        // enable publishing of persistent data to SWF for the element
+        elem.setPublishPersistentData("myAlign", "_EMBED_SWF_", true);
+        // enable publishing to SWF for entire document
+        doc.setPublishDocumentData("_EMBED_SWF_", true);
     }
 }
 
+// example getting data
+if (doc && doc.getPublishDocumentData("_EMBED_SWF_")) {
+    // get the first selected element
+    var elem = doc.getTimeline().layers[0].frames[0].elements[0];
+    if (elem && elem.hasPersistentData("myAlign") && elem.getPublishPersistentData("myAlign", "_EMBED_SWF_")) {
+        alert("elem.metaData.myAlign = '" + elem.getPersistentData("myAlign") + "' will be embedded in SWF when published.");
+    }
+}
 ```
 
 #### See also
 
-[element.setPublishPersistentData()](../Element_object/elemen18.md)
+[Element.setPublishPersistentData()](../Element_object/Element18.md)

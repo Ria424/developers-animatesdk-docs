@@ -10,7 +10,7 @@ edge.stroke
 
 #### Description
 
-Property; a [Stroke object](../Stroke_object/stroke_summary.md).
+Property; a [Stroke object](../Stroke_object/Stroke_summary.md).
 
 #### Example
 
@@ -19,5 +19,4 @@ The following example displays the stroke color of the first edge of the selecte
 ```javascript
 var shape = fl.getDocumentDOM().selection[0];
 fl.trace(shape.edges[0].stroke.color);
-
 ```

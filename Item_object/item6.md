@@ -10,8 +10,8 @@ item.linkageClassName
 
 #### Description
 
-Property; a string that specifies the ActionScript 2.0 class that will be associated with the symbol. (To specify this value for an ActionScript 3.0 class, use [item.linkageBaseClass](../Item_object/item5.md) )
-For this property to be defined, the [item.linkageExportForAS](../Item_object/item7.md) and/or [item.linkageExportForRS](../Item_object/item8.md) properties must be set to true, and the [item.linkageImportForRS](../Item_object/item11.md) property must be set to false.
+Property; a string that specifies the ActionScript 2.0 class that will be associated with the symbol. (To specify this value for an ActionScript 3.0 class, use [Item.linkageBaseClass](../Item_object/Item5.md) )
+For this property to be defined, the [Item.linkageExportForAS](../Item_object/Item7.md) and/or [Item.linkageExportForRS](../Item_object/Item8.md) properties must be set to true, and the [Item.linkageImportForRS](../Item_object/Item11.md) property must be set to false.
 
 #### Example
 
@@ -20,5 +20,3 @@ The following example specifies that the ActionScript 2.0 class name associated 
 ```javascript
 fl.getDocumentDOM().library.items[0].linkageClassName = "myClass";
 ```
-
-<span id="item.linkageExportForAS" class="anchor"></span>

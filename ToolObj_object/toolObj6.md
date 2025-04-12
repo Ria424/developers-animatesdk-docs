@@ -18,32 +18,31 @@ Nothing.
 
 #### Description
 
-Method; associates an XML file with the tool. The file specifies the options to appear in a modal panel that is invoked by an Options button in the Property inspector. You would usually use this method in the configureTool() function inside your JSFL file. See [configureTool()](../Top-Level_Functions_and_Methods/configureTool.md).
+Method; associates an XML file with the tool. The file specifies the options to appear in a modal panel that is invoked by an Options button in the Property inspector. You would usually use this method in the configureTool() function inside your JSFL file. See [ConfigureTool()](../Top-Level_Functions_and_Methods/configureTool.md).
 
 For example, the PolyStar.xml file specifies three options associated with the Polygon tool:
 
-```javascript
+```xml
 <properties>
-<property name="Style"
-variable="style"
-list="polygon,star"
-defaultValue="0"
-type="Strings"/>
+    <property name="Style"
+        variable="style"
+        list="polygon,star"
+        defaultValue="0"
+        type="Strings" />
 
-<property name="Number of Sides"
-variable="nsides"
-min="3"
-max="32"
-defaultValue="5"
-type="Number" />
+    <property name="Number of Sides"
+        variable="nsides"
+        min="3"
+        max="32"
+        defaultValue="5"
+        type="Number" />
 
-<property name="Star point size"
-variable="pointParam"
-min="0"
-max="1"
-defaultValue=".5"
-type="Double" />
-
+    <property name="Star point size"
+        variable="pointParam"
+        min="0"
+        max="1"
+        defaultValue=".5"
+        type="Double" />
 </properties>
 ```
 
@@ -54,5 +53,4 @@ The following example specifies that the file named PolyStar.xml is associated w
 ```javascript
 theTool = fl.tools.activeTool;
 theTool.setOptionsFile("PolyStar.xml");
-
 ```

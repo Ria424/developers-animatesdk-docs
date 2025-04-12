@@ -25,9 +25,8 @@ Method; defines the start of an edit session. You must use this method before is
 The following example takes the currently selected shape and removes the first edge in the edge array from it:
 
 ```javascript
-var shape = fl.getDocumentDOM().selection[0]; 
+var shape = fl.getDocumentDOM().selection[0];
 shape.beginEdit();
-shape.deleteEdge(0); 
+shape.deleteEdge(0);
 shape.endEdit();
-
 ```

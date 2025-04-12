@@ -10,7 +10,7 @@ shape.vertices
 
 #### Description
 
-Read-only property; an array of Vertex objects (see [Vertex object](../Vertex_object/vertex_summary.md)).
+Read-only property; an array of Vertex objects (see [Vertex object](../Vertex_object/Vertex_summary.md)).
 
 #### Example
 
@@ -19,5 +19,4 @@ The following example stores the first selected object in the someShape variable
 ```javascript
 var someShape = fl.getDocumentDOM().selection[0];
 fl.trace("The shape has " + someShape.vertices.length + " vertices.");
-
 ```

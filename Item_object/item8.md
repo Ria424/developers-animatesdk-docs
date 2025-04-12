@@ -11,8 +11,8 @@ item.linkageExportForRS
 #### Description
 
 Property; a Boolean value. If this property is true, the item is exported for run-time sharing. You can also set the
-[item.linkageExportForAS](../Item_object/item7.md) and [item.linkageExportInFirstFrame](../Item_object/item9.md) properties to true.
-If you set this property to true, the [item.linkageImportForRS](../Item_object/item11.md) property must be set to false. Also, you must specify an identifier ([item.linkageIdentifier](../Item_object/item10.md)) and a URL ([item.linkageURL](../Item_object/item12.md)).
+[Item.linkageExportForAS](../Item_object/Item7.md) and [Item.linkageExportInFirstFrame](../Item_object/Item9.md) properties to true.
+If you set this property to true, the [Item.linkageImportForRS](../Item_object/Item11.md) property must be set to false. Also, you must specify an identifier ([Item.linkageIdentifier](../Item_object/Item10.md)) and a URL ([Item.linkageURL](../Item_object/Item12.md)).
 
 #### Example
 
@@ -21,5 +21,3 @@ The following example sets this property for the specified library item:
 ```javascript
 fl.getDocumentDOM().library.items[0].linkageExportForRS = true;
 ```
-
-<span id="item.linkageExportInFirstFrame" class="anchor"></span>

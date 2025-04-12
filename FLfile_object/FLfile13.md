@@ -42,21 +42,22 @@ If you want to make sure the archive attribute is not set, use this command with
 
 #### Examples
 
-```javascript
 The following example sets the file mydata.txt to be read-only and hidden. It has no effect on the archive attribute.
 
-var URI = "file:///c|/temp/mydata.txt"; 
+```javascript
+var URI = "file:///c|/temp/mydata.txt";
 if (FLfile.exists(URI)) {
     FLfile.setAttributes(URI, "RH");
 }
+```
 
 The following example sets the file mydata.txt to be read-only and hidden. It also ensures that the archive attribute is not set.
 
+```javascript
 var URI = "file:///c|/temp/mydata.txt";
-if (FLfile.exists(URI)) { 
+if (FLfile.exists(URI)) {
     FLfile.setAttributes(URI, "N"); FLfile.setAttributes(URI, "RH");
 }
-
 ```
 
 #### See also

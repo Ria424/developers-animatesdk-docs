@@ -37,4 +37,4 @@ if (isBitmap == "bitmap") {
 
 #### See also
 
-[bitmapInstance.setBits()](../BitmapInstance_object/bitmapInstanc2.md)
+[BitmapInstance.setBits()](../BitmapInstance_object/BitmapInstance2.md)

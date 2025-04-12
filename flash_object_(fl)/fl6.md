@@ -19,7 +19,7 @@ Nothing.
 #### Description
 
 Method; copies the specified string to the Clipboard.
-To copy the current selection to the Clipboard, use [document.clipCopy()](../Document_object/docume30.md).
+To copy the current selection to the Clipboard, use [document.clipCopy()](../Document_object/Document30.md).
 
 #### Example
 

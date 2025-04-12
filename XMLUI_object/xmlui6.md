@@ -24,12 +24,12 @@ Method; modifies the value of the specified property of the current XMLUI dialog
 
 #### Example
 
-The following example sets the value of a property named URL to [www.adobe.com:](http://www.adobe.com/)
+The following example sets the value of a property named URL to [www.adobe.com](https://www.adobe.com)
 
-fl.xmlui.set("URL", ["www.adobe.com");](http://www.adobe.com/)
+```javascript
+fl.xmlui.set("URL", "www.adobe.com");
+```
 
 #### See also
 
-[fl.xmlui](../flash_object_(fl)/fl81.md), [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.get()](../XMLUI_object/xmlui2.md), [xmlui.setControlItemElement()](../XMLUI_object/xmlui7.md), [xmlui.setControlItemElements()](../XMLUI_object/xmlui8.md)
-
-<span id="xmlui.setControlItemElement()" class="anchor"></span>
+[fl.xmlui](../flash_object_(fl)/fl81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.get()](../XMLUI_object/XMLUI2.md), [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md), [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md)

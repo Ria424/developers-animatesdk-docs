@@ -20,12 +20,14 @@ property of each contour in the Output panel:
 ```javascript
 var elt = fl.getDocumentDOM().selection[0];
 elt.beginEdit();
+
 var contourArray = elt.contours;
 var contourCount = 0;
-for (i=0;i<contourArray.length;i++) {
-var contour = contourArray[i];
-fl.trace("Next Contour, orientation:" + contour.orientation);
-contourCount++;
+for (var i = 0; i < contourArray.length; i++) {
+    var contour = contourArray[i];
+    fl.trace("Next Contour, orientation:" + contour.orientation);
+    contourCount++;
 }
+
 elt.endEdit();
 ```

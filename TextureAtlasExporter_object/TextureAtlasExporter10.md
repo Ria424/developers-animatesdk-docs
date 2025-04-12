@@ -14,7 +14,7 @@ Property; Boolean value which indicates whether texture atlas bitmaps needs to b
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 exporter.optimizeBitmap = true;
 ````

@@ -22,13 +22,14 @@ Method; deletes the current items or a specified item from the Library panel. Th
 
 #### Example
 
-```javascript
 The following example deletes the currently selected item:
 
+```javascript
 fl.getDocumentDOM().library.deleteItem();
+```
 
 The following example deletes the item Symbol_1 from the library folder Folder_1:
 
+```javascript
 fl.getDocumentDOM().library.deleteItem("Folder_1/Symbol_1");
-
 ```

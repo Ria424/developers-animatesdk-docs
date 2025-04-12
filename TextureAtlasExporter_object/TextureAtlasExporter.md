@@ -10,7 +10,7 @@ TextureAtlasExporter.exportTextureAtlas(symbol, path)
 
 #### Parameters
 
-**_symbol_**:  Object;  The SymbolItem or SymbolInstance on which texture atlas should be generated.
+**_symbol_**:  Object; The SymbolItem or SymbolInstance on which texture atlas should be generated.
 
 #### Returns
 
@@ -23,7 +23,7 @@ Method; Exports the texture atlas for the selected symbol.
 #### Example
 
 ``` javascript
-symbolsArr=fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
-
-TextureAtlasExporter.exportTextureAtlas(symbolsArr[0].libraryItem)
+var exporter = new TextureAtlasExporter;
+var symbolsArr = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
+exporter.exportTextureAtlas(symbolsArr[0].libraryItem);
 ````

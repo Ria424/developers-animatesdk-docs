@@ -19,5 +19,4 @@ The following example stores a unique identifier for the specified edge in the m
 ```javascript
 var shape = fl.getDocumentDOM().selection[0];
 var my_shape_id = shape.edges[0].id;
-
 ```

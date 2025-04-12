@@ -28,6 +28,5 @@ The following example creates a shape with the current fill and no stroke:
 
 ```javascript
 var myPath = fl.drawingLayer.newPath();
-myPath.makeShape(false, true); 
-
+myPath.makeShape(false, true);
 ```

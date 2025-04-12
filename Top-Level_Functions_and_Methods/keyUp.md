@@ -27,10 +27,9 @@ Function; called when the extensible tool is active and a key is released.
 The following example displays a message in the Output panel when the extensible tool is active and a key is released.
 
 ```javascript
-function keyUp() { 
+function keyUp() {
     fl.trace("Key is released");
 }
-
 ```
 
 #### See also

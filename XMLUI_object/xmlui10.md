@@ -28,9 +28,8 @@ The following example hides the control with the ID attribute myControl:
 
 ```javascript
 fl.xmlui.setVisible("myControl", false);
-
 ```
 
 #### See also
 
-[xmlui.getVisible()](../XMLUI_object/xmlui5.md)
+[XMLUI.getVisible()](../XMLUI_object/XMLUI5.md)

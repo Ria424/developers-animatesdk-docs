@@ -10,14 +10,14 @@ Flash MX 2004.
 
 #### Description
 
-Property; a Boolean value: true if the element is locked; false otherwise. If the value of [element.elementType](../Element_object/element1.md) is
+Property; a Boolean value: true if the element is locked; false otherwise. If the value of [Element.elementType](../Element_object/Element1.md) is
 "shape", this property is ignored.
 
 #### Example
 
-```javascript
 The following example locks the first element in the first frame, top layer:
+
+```javascript
 // Similar to Modify > Arrange > Lock: 
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].locked = true;
-
 ```

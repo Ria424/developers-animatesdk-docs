@@ -22,4 +22,4 @@ Method; determines whether the specified data has been attached to the specified
 
 #### Example
 
-See [element.getPersistentData()](../Element_object/element2.md).
+See [Element.getPersistentData()](../Element_object/Element2.md).

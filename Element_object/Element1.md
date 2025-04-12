@@ -39,6 +39,12 @@ var tl = fl.getDocumentDOM().getTimeline();
 var elts = tl.layers[tl.currentLayer].frames[tl.currentFrame].elements;
 for (var x = 0; x < elts.length; x++) {
     var elt = elts[x];
-    fl.trace("Element "+ x +" Name = " + elt.name + " Type = " + elt.elementType + " location= " + elt.left + "," + elt.top + " Depth = " + elt.depth);
+    fl.trace(
+        "Element " + x
+        + " Name = " + elt.name
+        + " Type = " + elt.elementType
+        + " Location = " + elt.left + "," + elt.top
+        + " Depth = " + elt.depth
+    );
 }
 ```

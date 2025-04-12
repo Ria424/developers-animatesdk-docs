@@ -15,7 +15,7 @@ fl.findObjectInDocByName(instanceName, document)
 
 #### Returns
 
-An array of generic objects. Use the .obj property of each item in the array to get the object. The object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object. For more information on these properties and how to access them, see [Flash.findObjectInDocByType()](../Flash_object_/Flash28.md).
+An array of generic objects. Use the .obj property of each item in the array to get the object. The object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object. For more information on these properties and how to access them, see [Flash.findObjectInDocByType()](../Flash_object/Flash28.md).
 
 You can also access methods and properties for the layer and timeline values; they are equivalent to the [Layer object](../Layer_object/Layer_summary.md) and the [Timeline object](../Timeline_object/Timeline_summary.md), respectively.
 
@@ -42,4 +42,4 @@ if (results.length > 0) {
 
 #### See also
 
-[Flash.findObjectInDocByType()](../Flash_object_/Flash28.md)
+[Flash.findObjectInDocByType()](../Flash_object/Flash28.md)

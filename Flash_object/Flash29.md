@@ -22,4 +22,4 @@ fl.trace(fl.flexSDKPath);
 
 #### See also
 
-[Flash.externalLibraryPath](../Flash_object_/Flash23.md), [Flash.libraryPath](../Flash_object_/Flash39.md), [Flash.sourcePath](../Flash_object_/Flash72.md)
+[Flash.externalLibraryPath](../Flash_object/Flash23.md), [Flash.libraryPath](../Flash_object/Flash39.md), [Flash.sourcePath](../Flash_object/Flash72.md)

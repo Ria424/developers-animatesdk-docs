@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; copies the current selection from the document to the Clipboard. To copy a string to the Clipboard, use [Flash.clipCopyString()](../Flash_object_/Flash6.md).
+Method; copies the current selection from the document to the Clipboard. To copy a string to the Clipboard, use [Flash.clipCopyString()](../Flash_object/Flash6.md).
 
 #### Example
 

@@ -84,4 +84,4 @@ if (resultsArray.length > 0) {
 
 #### See also
 
-[Flash.findObjectInDocByName()](../Flash_object_/Flash27.md)
+[Flash.findObjectInDocByName()](../Flash_object/Flash27.md)

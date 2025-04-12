@@ -22,4 +22,4 @@ fl.trace(fl.swfPanels[0].name);
 
 #### See also
 
-[SwfPanel.path](../SwfPanel_object/SwfPanel4.md), [Flash.swfPanels](../Flash_object_/Flash74.md)
+[SwfPanel.path](../SwfPanel_object/SwfPanel4.md), [Flash.swfPanels](../Flash_object/Flash74.md)

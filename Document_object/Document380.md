@@ -30,4 +30,4 @@ fl.getDocumentDOM().saveAndCompact();
 
 #### See also
 
-[Document.save()](../Document_object/Document370.md), [Flash.saveDocumentAs()](../Flash_object_/Flash65.md), [Flash.saveDocument()](../Flash_object_/Flash64.md), [Flash.saveAll()](../Flash_object_/Flash63.md).
+[Document.save()](../Document_object/Document370.md), [Flash.saveDocumentAs()](../Flash_object/Flash65.md), [Flash.saveDocument()](../Flash_object/Flash64.md), [Flash.saveAll()](../Flash_object/Flash63.md).

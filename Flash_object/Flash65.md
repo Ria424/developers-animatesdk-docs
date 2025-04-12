@@ -30,4 +30,4 @@ alert(fl.saveDocumentAs(fl.documents[1]));
 
 #### See also
 
-[Document.save()](../Document_object/Document370.md), [Document.saveAndCompact() - dropped](../Document_object/Document380.md), [Flash.saveAll()](../Flash_object_/Flash63.md), [Flash.saveDocument()](../Flash_object_/Flash64.md)
+[Document.save()](../Document_object/Document370.md), [Document.saveAndCompact() - dropped](../Document_object/Document380.md), [Flash.saveAll()](../Flash_object/Flash63.md), [Flash.saveDocument()](../Flash_object/Flash64.md)

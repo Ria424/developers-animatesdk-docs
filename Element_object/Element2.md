@@ -29,8 +29,8 @@ The following example sets and gets data for the specified element, shows its va
 var elt = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0]; 
 elt.setPersistentData("myData","integer", 12);
 if (elt.hasPersistentData("myData")) {
-    fl.trace("myData = "+ elt.getPersistentData("myData"));
+    fl.trace("myData = " + elt.getPersistentData("myData"));
     elt.removePersistentData("myData");
-    fl.trace("myData = "+ elt.getPersistentData("myData"));
+    fl.trace("myData = " + elt.getPersistentData("myData"));
 }
 ```

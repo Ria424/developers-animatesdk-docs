@@ -33,4 +33,4 @@ for (var index in docIndex)
 
 #### See also
 
-[Flash.documents](../Flash_object_/Flash20.md), [Flash.findDocumentDOM()](../Flash_object_/Flash25.md)
+[Flash.documents](../Flash_object/Flash20.md), [Flash.findDocumentDOM()](../Flash_object/Flash25.md)

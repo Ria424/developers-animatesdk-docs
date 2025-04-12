@@ -14,7 +14,7 @@ None.
 
 #### Description
 
-Method; resets the global Classpath setting in the ActionScript 3.0 Settings dialog box to the default value. To reset the ActionScript 2.0 global Classpath, use [Flash.resetPackagePaths() - dropped](../Flash_object_/Flash60.md).
+Method; resets the global Classpath setting in the ActionScript 3.0 Settings dialog box to the default value. To reset the ActionScript 2.0 global Classpath, use [Flash.resetPackagePaths() - dropped](../Flash_object/Flash60.md).
 
 #### Example
 
@@ -26,4 +26,4 @@ fl.resetAS3PackagePaths();
 
 #### See also
 
-[Flash.as3PackagePaths](../Flash_object_/Flash2.md)
+[Flash.as3PackagePaths](../Flash_object/Flash2.md)

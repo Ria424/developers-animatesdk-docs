@@ -39,4 +39,4 @@ var eventID = fl.addEventListener("documentClosed", myFunction);
 
 #### See also
 
-[Flash.removeEventListener()](../Flash_object_/Flash58.md)
+[Flash.removeEventListener()](../Flash_object/Flash58.md)

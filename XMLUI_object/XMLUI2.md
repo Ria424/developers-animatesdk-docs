@@ -31,4 +31,4 @@ fl.xmlui.get("URL");
 
 #### See also
 
-[Flash.xmlui](../Flash_object_/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md), [XMLUI.set()](../XMLUI_object/XMLUI6.md)
+[Flash.xmlui](../Flash_object/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md), [XMLUI.set()](../XMLUI_object/XMLUI6.md)

@@ -34,4 +34,4 @@ targetDoc.height = 400;
 
 #### See also
 
-[Flash.findDocumentIndex()](../Flash_object_/Flash26.md)
+[Flash.findDocumentIndex()](../Flash_object/Flash26.md)

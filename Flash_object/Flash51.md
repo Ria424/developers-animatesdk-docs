@@ -22,4 +22,4 @@ fl.trace(fl.publishCacheEnabled);
 
 #### See also
 
-[Flash.publishCacheDiskSizeMax](../Flash_object_/Flash50.md), [Flash.clearPublishCache()](../Flash_object_/Flash5.md), [Flash.publishCacheMemoryEntrySizeLimit](../Flash_object_/Flash52.md), [Flash.publishCacheMemorySizeMax](../Flash_object_/Flash53.md)
+[Flash.publishCacheDiskSizeMax](../Flash_object/Flash50.md), [Flash.clearPublishCache()](../Flash_object/Flash5.md), [Flash.publishCacheMemoryEntrySizeLimit](../Flash_object/Flash52.md), [Flash.publishCacheMemorySizeMax](../Flash_object/Flash53.md)

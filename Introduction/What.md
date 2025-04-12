@@ -71,9 +71,9 @@ The following methods and properties for existing objects are new in Animate 202
 
   - [timeline.mergeLayers()](../Timeline_object/timeli51.md)
 
-- [flash object (fl)](../Flash_object_/Flash_summary.md)
+- [flash object (fl)](../Flash_object/Flash_summary.md)
 
-  - [Flash.addToolInToolbar()](../Flash_object_/Flash82.md)
+  - [Flash.addToolInToolbar()](../Flash_object/Flash82.md)
 
 ### New objects in Animate 2020
 
@@ -163,7 +163,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - Element.setPublishPersistentData()
 
-- [flash object (fl)](../Flash_object_/Flash_summary.md)
+- [flash object (fl)](../Flash_object/Flash_summary.md)
 
   - Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
@@ -291,7 +291,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - document.swfJPEGQuality
 
-- [flash object (fl)](../Flash_object_/Flash_summary.md)
+- [flash object (fl)](../Flash_object/Flash_summary.md)
 
   - fl.spriteSheetExporter
 
@@ -341,7 +341,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - document.loadCuepointXML()
 
-- [flash object (fl)](../Flash_object_/Flash_summary.md)
+- [flash object (fl)](../Flash_object/Flash_summary.md)
 
   - fl.languageCode
 
@@ -403,7 +403,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - timeline.pasteLayers()
 
-- [flash object (fl)](../Flash_object_/Flash_summary.md)
+- [flash object (fl)](../Flash_object/Flash_summary.md)
 
   - fl.getSwfPanel()
 

@@ -10,7 +10,7 @@ fl.configDirectory
 
 #### Description
 
-Read-only property; a string that specifies the full path for the local user’s Configuration directory in a platform- specific format. To specify this path as a file:/// URI, which is not platform-specific, use [Flash.configURI](../Flash_object_/Flash13.md).
+Read-only property; a string that specifies the full path for the local user’s Configuration directory in a platform- specific format. To specify this path as a file:/// URI, which is not platform-specific, use [Flash.configURI](../Flash_object/Flash13.md).
 
 #### Example
 

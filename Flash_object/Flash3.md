@@ -71,4 +71,4 @@ var uri = fl.browseForFileURL("open", "Select a FLA or AS file", previewArea, ma
 
 #### See also
 
-[Flash.browseForFolderURL()](../Flash_object_/Flash4.md)
+[Flash.browseForFolderURL()](../Flash_object/Flash4.md)

@@ -15,7 +15,7 @@ None.
 #### Description
 
 *Dropped in Adobe Animate.*
-Method; resets the global Classpath setting in the ActionScript 2.0 Settings dialog box to the default value. To reset the ActionScript 3.0 global Classpath, use [Flash.resetAS3PackagePaths()](../Flash_object_/Flash59.md).
+Method; resets the global Classpath setting in the ActionScript 2.0 Settings dialog box to the default value. To reset the ActionScript 3.0 global Classpath, use [Flash.resetAS3PackagePaths()](../Flash_object/Flash59.md).
 
 #### Example
 
@@ -27,4 +27,4 @@ fl.resetPackagePaths();
 
 #### See also
 
-[Flash.packagePaths - dropped](../Flash_object_/Flash48.md)
+[Flash.packagePaths - dropped](../Flash_object/Flash48.md)

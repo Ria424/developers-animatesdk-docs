@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-The Math object is available as a read-only property of the flash object; see [Flash.Math](../Flash_object_/Flash41.md). This object provides methods that perform common mathematical operations.
+The Math object is available as a read-only property of the flash object; see [Flash.Math](../Flash_object/Flash41.md). This object provides methods that perform common mathematical operations.
 
 #### Method summary
 

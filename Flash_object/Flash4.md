@@ -31,4 +31,4 @@ var folderContents = FLfile.listFolder(folderURI);
 
 #### See also
 
-[Flash.browseForFileURL()](../Flash_object_/Flash3.md), [FLfile object](../FLfile_object/FLfile_summary.md)
+[Flash.browseForFileURL()](../Flash_object/Flash3.md), [FLfile object](../FLfile_object/FLfile_summary.md)

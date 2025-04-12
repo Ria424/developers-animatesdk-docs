@@ -32,4 +32,4 @@ flash.getSwfPanel("Project").setFocus();
 
 #### See also
 
-[SwfPanel.name](../SwfPanel_object/SwfPanel3.md), [Flash.swfPanels](../Flash_object_/Flash74.md)
+[SwfPanel.name](../SwfPanel_object/SwfPanel3.md), [Flash.swfPanels](../Flash_object/Flash74.md)

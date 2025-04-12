@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Description
 
-The compilerErrors object, which represents the Compiler Errors panel, is a property of the flash object (fl) and can be accessed by *fl.compilerErrors* (see [flash object (fl)](../Flash_object_/Flash_summary.md)).
+The compilerErrors object, which represents the Compiler Errors panel, is a property of the flash object (fl) and can be accessed by *fl.compilerErrors* (see [flash object (fl)](../Flash_object/Flash_summary.md)).
 
 #### Method summary
 

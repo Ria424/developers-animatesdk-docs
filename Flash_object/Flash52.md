@@ -24,4 +24,4 @@ fl.publishCacheMemoryEntrySizeLimit = 100;
 
 #### See also
 
-[Flash.publishCacheDiskSizeMax](../Flash_object_/Flash50.md), [Flash.publishCacheEnabled](../Flash_object_/Flash51.md), [Flash.clearPublishCache()](../Flash_object_/Flash5.md), [Flash.publishCacheMemorySizeMax](../Flash_object_/Flash53.md)
+[Flash.publishCacheDiskSizeMax](../Flash_object/Flash50.md), [Flash.publishCacheEnabled](../Flash_object/Flash51.md), [Flash.clearPublishCache()](../Flash_object/Flash5.md), [Flash.publishCacheMemorySizeMax](../Flash_object/Flash53.md)

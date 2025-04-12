@@ -20,7 +20,7 @@ A Boolean value of true if the element was successfully selected; false otherwis
 #### Description
 
 Method; enables selection or editing of an element. Generally, you will use this method on objects returned by
-[Flash.findObjectInDocByName()](../Flash_object_/Flash27.md) or [Flash.findObjectInDocByType()](../Flash_object_/Flash28.md).
+[Flash.findObjectInDocByName()](../Flash_object/Flash27.md) or [Flash.findObjectInDocByType()](../Flash_object/Flash28.md).
 
 #### Example
 
@@ -47,4 +47,4 @@ else {
 
 #### See also
 
-[Flash.findObjectInDocByName()](../Flash_object_/Flash27.md), [Flash.findObjectInDocByType()](../Flash_object_/Flash28.md)
+[Flash.findObjectInDocByName()](../Flash_object/Flash27.md), [Flash.findObjectInDocByType()](../Flash_object/Flash28.md)

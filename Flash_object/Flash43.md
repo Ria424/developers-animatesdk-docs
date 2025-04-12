@@ -10,7 +10,7 @@ fl.mruRecentFileListType
 
 #### Description
 
-Read-only property; an array of the file types in the MRU list that the Flash authoring tool manages. This array corresponds to the array in the [Flash.mruRecentFileList](../Flash_object_/Flash42.md) property.
+Read-only property; an array of the file types in the MRU list that the Flash authoring tool manages. This array corresponds to the array in the [Flash.mruRecentFileList](../Flash_object/Flash42.md) property.
 
 #### Example
 

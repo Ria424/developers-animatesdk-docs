@@ -31,4 +31,4 @@ fl.trace(isEnabled);
 
 #### See also
 
-[Flash.xmlui](../Flash_object_/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.setEnabled()](../XMLUI_object/XMLUI9.md)
+[Flash.xmlui](../Flash_object/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.setEnabled()](../XMLUI_object/XMLUI9.md)

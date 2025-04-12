@@ -35,4 +35,4 @@ alert(fl.saveDocument(fl.documents[1],"file:///C|/example2.fla"));
 
 #### See also
 
-[Document.save()](../Document_object/Document370.md), [Document.saveAndCompact() - dropped](../Document_object/Document380.md), [Flash.saveAll()](../Flash_object_/Flash63.md), [Flash.saveDocumentAs()](../Flash_object_/Flash65.md)
+[Document.save()](../Document_object/Document370.md), [Document.saveAndCompact() - dropped](../Document_object/Document380.md), [Flash.saveAll()](../Flash_object/Flash63.md), [Flash.saveDocumentAs()](../Flash_object/Flash65.md)

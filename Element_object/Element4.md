@@ -31,4 +31,4 @@ var transPoint = fl.getDocumentDOM().getTimeline().layers[0].frames[8].elements[
 
 #### See also
 
-[Document.getTransformationPoint()](../Document_object/docume89.md), [Element.setTransformationPoint()](../Element_object/Element19.md), [Element.transformX](../Element_object/Element23.md), [Element.transformY](../Element_object/Element24.md)
+[Document.getTransformationPoint()](../Document_object/Document89.md), [Element.setTransformationPoint()](../Element_object/Element19.md), [Element.transformX](../Element_object/Element23.md), [Element.transformY](../Element_object/Element24.md)

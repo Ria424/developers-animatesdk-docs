@@ -36,4 +36,4 @@ fl.getDocumentDOM().clipPaste(true);
 
 #### See also
 
-[Document.clipCopy()](../Document_object/Document30.md), [Document.clipCut()](../Document_object/Document31.md), [Flash.clipCopyString()](../Flash_object_/Flash6.md).
+[Document.clipCopy()](../Document_object/Document30.md), [Document.clipCut()](../Document_object/Document31.md), [Flash.clipCopyString()](../Flash_object/Flash6.md).

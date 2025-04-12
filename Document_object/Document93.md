@@ -35,4 +35,4 @@ dom.importFile(URI);
 
 #### See also
 
-[Flash.browseForFileURL()](../Flash_object_/Flash3.md).
+[Flash.browseForFileURL()](../Flash_object/Flash3.md).

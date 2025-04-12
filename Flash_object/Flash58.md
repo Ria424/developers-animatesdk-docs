@@ -20,7 +20,7 @@ A Boolean value of true if the event listener was successfully removed; false if
 
 #### Description
 
-Unregisters a function that was registered using [Flash.addEventListener()](../Flash_object_/Flash1.md).
+Unregisters a function that was registered using [Flash.addEventListener()](../Flash_object/Flash1.md).
 
 #### Example
 
@@ -32,4 +32,4 @@ fl.removeEventListener("documentClosed", eventID);
 
 #### See also
 
-[Flash.addEventListener()](../Flash_object_/Flash1.md)
+[Flash.addEventListener()](../Flash_object/Flash1.md)

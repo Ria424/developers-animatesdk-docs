@@ -33,4 +33,4 @@ fl.trace("label = " + elem.label + " value = " + elem.value);
 
 #### See also
 
-[Flash.xmlui](../Flash_object_/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.get()](../XMLUI_object/XMLUI2.md), [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md), [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md)
+[Flash.xmlui](../Flash_object/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.get()](../XMLUI_object/XMLUI2.md), [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md), [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md)

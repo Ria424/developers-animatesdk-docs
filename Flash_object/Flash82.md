@@ -10,7 +10,7 @@ fl.addToolInToolbar(toolName)
 
 #### Parameters
 
-**toolName** A string that specifies the name of the tool to select. Refer [Flash.selectTool](../Flash_object_/Flash68.md) description for the acceptable *toolName* values.
+**toolName** A string that specifies the name of the tool to select. Refer [Flash.selectTool](../Flash_object/Flash68.md) description for the acceptable *toolName* values.
 
 #### Returns
 

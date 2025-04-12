@@ -30,4 +30,4 @@ fl.closeAllPlayerDocuments();
 
 #### See also
 
-[Flash.closeAll()](../Flash_object_/Flash7.md) , [Flash.closeDocument()](../Flash_object_/Flash9.md)
+[Flash.closeAll()](../Flash_object/Flash7.md) , [Flash.closeDocument()](../Flash_object/Flash9.md)

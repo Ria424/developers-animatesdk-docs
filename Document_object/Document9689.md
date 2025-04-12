@@ -23,7 +23,7 @@ Nothing.
 Method; draws a rectangular selection marquee relative to the Stage, using the specified coordinates. This is unlike
 document.getSelectionRect(), in which the rectangle is relative to the object being edited.
 This method is equivalent to dragging a rectangle with the Selection tool. An instance must be fully enclosed by the rectangle to be selected.
-If you pass a value for *bContactSensitiveSelection*, it is valid only for this method and doesn’t affect the Contact Sensitive selection mode for the document (see [Flash.contactSensitiveSelection](../Flash_object_/Flash14.md)).
+If you pass a value for *bContactSensitiveSelection*, it is valid only for this method and doesn’t affect the Contact Sensitive selection mode for the document (see [Flash.contactSensitiveSelection](../Flash_object/Flash14.md)).
 
 ***Note:** Repeating setSelectionRect() using the History panel or menu item repeats the step previous to the setSelectionRect() operation.*
 

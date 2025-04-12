@@ -30,4 +30,4 @@ fl.getDocumentDOM().revert();
 
 #### See also
 
-[Document.canRevert()](../Document_object/Document26.md), [Flash.revertDocument()](../Flash_object_/Flash61.md).
+[Document.canRevert()](../Document_object/Document26.md), [Flash.revertDocument()](../Flash_object/Flash61.md).

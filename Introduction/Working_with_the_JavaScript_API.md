@@ -52,7 +52,7 @@ You can have JSFL scripts available within the Animate authoring environment by 
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/
 
-To determine the location of the Configuration folder, use [fl.configDirectory](../flash_object_(fl)/fl12.md) or [fl.configURI](../flash_object_(fl)/fl13.md), as shown in the following example:
+To determine the location of the Configuration folder, use [Flash.configDirectory](../Flash_object_/Flash12.md) or [Flash.configURI](../Flash_object_/Flash13.md), as shown in the following example:
 
 ```javascript
 // store directory to a variable 
@@ -63,7 +63,7 @@ fl.trace(fl.configDirectory);
 
 Within the Configuration folder, the following folders can contain scripts that you can access in the authoring environment: Behaviors (to support the user interface for behaviors); Commands (for scripts that appear on the Commands menu); JavaScript (for scripts used by Script Assist to populate the user interface controls); Tools (for extensible tools in the Tools panel); and WindowSWF (for panels that appear in the Windows menu). This document focuses on scripts used for commands and tools.
 
-If you edit a script in the Commands folder, the new script is immediately available in Animate. If you edit a script for an extensible tool, close and restart Animate, or else use the [fl.reloadTools()](../flash_object_(fl)/fl57.md) command. However, if you used a script to add an extensible tool to the Tools panel and you then edit the script, either remove and then add the tool to the Tools panel again, or else close and restart Animate for the revised tool to be available.
+If you edit a script in the Commands folder, the new script is immediately available in Animate. If you edit a script for an extensible tool, close and restart Animate, or else use the [Flash.reloadTools()](../Flash_object_/Flash57.md) command. However, if you used a script to add an extensible tool to the Tools panel and you then edit the script, either remove and then add the tool to the Tools panel again, or else close and restart Animate for the revised tool to be available.
 There are two locations where you can store command and tool files so they can be accessed in the authoring environment.
 
 - For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
@@ -104,7 +104,7 @@ This option lets you run a script before you have saved it. This option also let
 
 - From the authoring environment, select Commands > Run Command, and then select the script to run.
 
-- From within a script, use the [fl.runScript()](../flash_object_(fl)/fl62.md) command.
+- From within a script, use the [Flash.runScript()](../Flash_object_/Flash62.md) command.
 
 - From the file system, double-click the script file.
 

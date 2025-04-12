@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-The Document object represents the Stage. That is, only FLA files are considered documents. To return the Document object for the current document, use [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md)
+The Document object represents the Stage. That is, only FLA files are considered documents. To return the Document object for the current document, use [Flash.getDocumentDOM()](../Flash_object_/Flash31.md)
 
 #### Method summary
 
@@ -33,7 +33,7 @@ You can use the following methods with the Document object:
 | [Document.arrange()](../Document_object/Document15.md) | Arranges the selection on the Stage. |
 | [Document.breakApart()](../Document_object/Document24.md) | Performs a break-apart operation on the current selection. |
 | [Document.canEditSymbol()](../Document_object/Document25.md) | Indicates whether the Edit Symbols menu and functionality are enabled. |
-| [Document.canRevert()](../Document_object/Document26.md) | Determines whether you can use the [Document.revert()](../Document_object/Document340.md), [fl.revertDocument()](../flash_object_(fl)/fl61.md) |
+| [Document.canRevert()](../Document_object/Document26.md) | Determines whether you can use the [Document.revert()](../Document_object/Document340.md), [Flash.revertDocument()](../Flash_object_/Flash61.md) |
 
 | **Method** | **Description** |
 | --- | --- |

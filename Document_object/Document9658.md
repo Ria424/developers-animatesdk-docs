@@ -20,7 +20,7 @@ Nothing.
 #### Description
 
 Method; moves and resizes the selection in a single operation.
-If you pass a value for *bContactSensitiveSelection*, it is valid only for this method and doesn’t affect the Contact Sensitive selection mode for the document (see [fl.contactSensitiveSelection](../flash_object_(fl)/fl14.md)).
+If you pass a value for *bContactSensitiveSelection*, it is valid only for this method and doesn’t affect the Contact Sensitive selection mode for the document (see [Flash.contactSensitiveSelection](../Flash_object_/Flash14.md)).
 
 #### Example
 

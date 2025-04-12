@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-The componentsPanel object, which represents the Components panel, is a property of the flash object (fl) and can be accessed by *fl.componentsPanel (see [flash object (fl)](../flash_object_(fl)/fl_summary.md))*.
+The componentsPanel object, which represents the Components panel, is a property of the flash object (fl) and can be accessed by *fl.componentsPanel (see [flash object (fl)](../Flash_object_/Flash_summary.md))*.
 
 #### Method summary
 

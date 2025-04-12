@@ -18,7 +18,7 @@ An object that has properties defined for all controls defined in the XML file. 
 
 #### Description
 
-Method; posts an XMLUI dialog box. See [fl.xmlui](../flash_object_(fl)/fl81.md).
+Method; posts an XMLUI dialog box. See [Flash.xmlui](../Flash_object_/Flash81.md).
 
 #### Example
 

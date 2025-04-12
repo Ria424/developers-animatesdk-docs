@@ -24,4 +24,4 @@ fl.trace(myDocument.externalLibraryPath);
 
 #### See also
 
-[Document.libraryPath](../Document_object/Document99.md), [Document.sourcePath](../Document_object/Document36.md), [fl.externalLibraryPath](../flash_object_(fl)/fl23.md).
+[Document.libraryPath](../Document_object/Document99.md), [Document.sourcePath](../Document_object/Document36.md), [Flash.externalLibraryPath](../Flash_object_/Flash23.md).

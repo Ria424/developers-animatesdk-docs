@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-This object represents the Output panel, which displays troubleshooting information such as syntax errors. To access this object, use fl.outputPanel (or flash.outputPanel). See [fl.outputPanel](../flash_object_(fl)/fl47.md).
+This object represents the Output panel, which displays troubleshooting information such as syntax errors. To access this object, use fl.outputPanel (or flash.outputPanel). See [Flash.outputPanel](../Flash_object_/Flash47.md).
 
 #### Method summary
 

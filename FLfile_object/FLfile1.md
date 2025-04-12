@@ -25,7 +25,7 @@ You can create multiple folders at one time. For example, the following command 
 
 #### Example
 
-The following example creates a folder and a subfolder under the configuration folder ([fl.configURI](../flash_object_(fl)/fl13.md)):
+The following example creates a folder and a subfolder under the configuration folder ([Flash.configURI](../Flash_object_/Flash13.md)):
 
 ```javascript
 fl.trace(FLfile.createFolder(fl.configURI + "folder01/subfolder01"));

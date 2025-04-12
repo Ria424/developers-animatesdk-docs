@@ -19,7 +19,7 @@ false otherwise.
 
 #### Description
 
-Method; determines whether you can use the [Document.revert()](../Document_object/Document340.md) or [fl.revertDocument()](../flash_object_(fl)/fl61.md) method successfully.
+Method; determines whether you can use the [Document.revert()](../Document_object/Document340.md) or [Flash.revertDocument()](../Flash_object_/Flash61.md) method successfully.
 
 #### Example
 

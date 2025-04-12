@@ -65,7 +65,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Animate Document Object Model
 
-The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../flash_object_(fl)/fl_summary.md).
+The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../Flash_object_/Flash_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
 
 ```javascript
@@ -95,16 +95,16 @@ The flash object contains the following *child objects*:
 
 ### The Document object
 
-An important property of the top-level flash object is the [fl.documents](../flash_object_(fl)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](../Document_object/document_summary.md).
+An important property of the top-level flash object is the [Flash.documents](../Flash_object_/Flash20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](../Document_object/document_summary.md).
 
 To refer to the first open document, for example, use the statement ```flash.documents[0]``` or ```fl.documents[0]```. The first document is the first Animate document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
 
-To find a particular document’s index, use ```flash.findDocumentIndex(nameOfDocument)``` or ```fl.findDocumentIndex(nameOfDocument)```. See [fl.findDocumentIndex()](../flash_object_(fl)/fl26.md).
+To find a particular document’s index, use ```flash.findDocumentIndex(nameOfDocument)``` or ```fl.findDocumentIndex(nameOfDocument)```. See [Flash.findDocumentIndex()](../Flash_object_/Flash26.md).
 
-To access the document that is currently focused, use the statement ```flash.getDocumentDOM()``` or ```fl.getDocumentDOM()```. See [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md). The latter is the syntax used in most of the examples in this document.
+To access the document that is currently focused, use the statement ```flash.getDocumentDOM()``` or ```fl.getDocumentDOM()```. See [Flash.getDocumentDOM()](../Flash_object_/Flash31.md). The latter is the syntax used in most of the examples in this document.
 
 To find a particular document in the fl.documents array, iterate through the array and test each document for its
-```document.name``` property. See [fl.documents](../flash_object_(fl)/fl20.md) and [document.name](../Document_object/docum170.md).
+```document.name``` property. See [Flash.documents](../Flash_object_/Flash20.md) and [document.name](../Document_object/docum170.md).
 
 All the objects in the DOM that aren’t listed in the previous table (see ["The Animate Document Object Model"](#the-animate-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the ```document.library``` property, which retrieves a library object:
 

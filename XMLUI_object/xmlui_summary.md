@@ -15,14 +15,14 @@ The following methods are available for the XMLUI object:
 
 | **Method** | **Description** |
 | --- | --- |
-| [Xmlui.accept()](../XMLUI_object/XMLUI.md) | Closes the current XMLUI dialog box with an accept state. |
-| [Xmlui.cancel()](../XMLUI_object/XMLUI1.md) | Closes the current XMLUI dialog box with a cancel state. |
-| [Xmlui.get()](../XMLUI_object/XMLUI2.md) | Retrieves the value of the specified property of the current XMLUI dialog box. |
-| [Xmlui.getControlItemElement()](../XMLUI_object/XMLUI3.md) | Returns the current control item for the specified control. |
-| [Xmlui.getEnabled()](../XMLUI_object/XMLUI4.md) | Returns a Boolean value that specifies whether the control is enabled or disabled (dimmed). |
-| [Xmlui.getVisible()](../XMLUI_object/XMLUI5.md) | Returns a Boolean value that specifies whether the control is visible or hidden. |
-| [Xmlui.set()](../XMLUI_object/XMLUI6.md) | Modifies the value of the specified property of the current XMLUI dialog box. |
-| [Xmlui.setControlItemElement()](../XMLUI_object/XMLUI7.md) | Sets the label and value for the current item. |
-| [Xmlui.setControlItemElements()](../XMLUI_object/XMLUI8.md) | Sets the label, value pairs of the current item. |
-| [Xmlui.setEnabled()](../XMLUI_object/XMLUI9.md) | Enables or disables (dims) a control. |
-| [Xmlui.setVisible()](../XMLUI_object/XMLUI10.md) | Shows or hides a control. |
+| [XMLUI.accept()](../XMLUI_object/XMLUI.md) | Closes the current XMLUI dialog box with an accept state. |
+| [XMLUI.cancel()](../XMLUI_object/XMLUI1.md) | Closes the current XMLUI dialog box with a cancel state. |
+| [XMLUI.get()](../XMLUI_object/XMLUI2.md) | Retrieves the value of the specified property of the current XMLUI dialog box. |
+| [XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md) | Returns the current control item for the specified control. |
+| [XMLUI.getEnabled()](../XMLUI_object/XMLUI4.md) | Returns a Boolean value that specifies whether the control is enabled or disabled (dimmed). |
+| [XMLUI.getVisible()](../XMLUI_object/XMLUI5.md) | Returns a Boolean value that specifies whether the control is visible or hidden. |
+| [XMLUI.set()](../XMLUI_object/XMLUI6.md) | Modifies the value of the specified property of the current XMLUI dialog box. |
+| [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md) | Sets the label and value for the current item. |
+| [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md) | Sets the label, value pairs of the current item. |
+| [XMLUI.setEnabled()](../XMLUI_object/XMLUI9.md) | Enables or disables (dims) a control. |
+| [XMLUI.setVisible()](../XMLUI_object/XMLUI10.md) | Shows or hides a control. |

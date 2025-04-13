@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A string that contains the text that is currently selected in the Actions panel.
+string; A string that contains the text that is currently selected in the Actions panel.
 
 #### Description
 

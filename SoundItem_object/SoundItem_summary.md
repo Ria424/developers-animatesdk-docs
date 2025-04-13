@@ -34,9 +34,6 @@ In addition to the Item object properties, the following properties are availabl
 | [SoundItem.quality](../SoundItem_object/SoundItem8.md) | A string that specifies the playback quality of a sound in the library. Available only for the MP3 compression type. |
 | [SoundItem.sampleRate](../SoundItem_object/SoundItem9.md) | A string that specifies the sample rate for the audio clip. |
 | [SoundItem.sourceFileExists](../SoundItem_object/SoundItem10.md) | Read-only; a Boolean value that specifies whether the file that was imported to the Library still exists in the location from where it was imported. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [SoundItem.sourceFileIsCurrent](../SoundItem_object/SoundItem11.md) | Read-only; a Boolean value that specifies whether the file modification date of the Library item is the same as the modification date on disk of the file that was imported. |
 | [SoundItem.sourceFilePath](../SoundItem_object/SoundItem12.md) | Read-only; a string, expressed as a file:/// URI, that represents the path and name of the file that was imported into the Library. |
 | [SoundItem.useImportedMP3Quality](../SoundItem_object/SoundItem13.md) | A Boolean value; if true, all other properties are ignored, and the imported MP3 quality is used. |

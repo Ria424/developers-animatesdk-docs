@@ -1,6 +1,6 @@
 ## OvalObject summary
 
-**Inheritance** [Element object](../Element_object/Element_summary.md) >[Shape object](../Shape_object/Shape_summary.md) Oval object
+**Inheritance** [Element object](../Element_object/Element_summary.md) > [Shape object](../Shape_object/Shape_summary.md) > Oval object
 
 #### Availability
 

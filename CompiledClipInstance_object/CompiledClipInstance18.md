@@ -21,5 +21,4 @@ The following example illustrates getting and setting the shortcut property:
 var theShortcut = fl.getDocumentDOM().selection[0].shortcut;
 // Set the shortcut key of the object.
 fl.getDocumentDOM().selection[0].shortcut = "Ctrl+I";
-
 ```

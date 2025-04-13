@@ -43,9 +43,6 @@ The following methods can be used with the FLfile object:
 | [FLfile.copy()](../FLfile_object/FLfile.md) | Copies a file. |
 | [FLfile.createFolder()](../FLfile_object/FLfile1.md) | Creates one or more folders. |
 | [FLfile.exists()](../FLfile_object/FLfile2.md) | Determines the existence of a file or folder. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [FLfile.getAttributes()](../FLfile_object/FLfile3.md) | Finds out whether a file is writable, read-only, hidden, visible, or a system folder. |
 | [FLfile.getCreationDate()](../FLfile_object/FLfile4.md) | Specifies how many seconds have passed between January 1, 1970 and the time the file or folder was created. |
 | [FLfile.getCreationDateObj()](../FLfile_object/FLfile5.md) | Gets the date a file or folder was created. |

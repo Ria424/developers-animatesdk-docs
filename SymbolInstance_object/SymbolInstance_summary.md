@@ -1,6 +1,6 @@
 ## SymbolInstance summary
 
-**Inheritance** [Element object](../Element_object/Element_summary.md) >[Instance object](../Instance_object/Instance_summary.md) >SymbolInstance object
+**Inheritance** [Element object](../Element_object/Element_summary.md) > [Instance object](../Instance_object/Instance_summary.md) > SymbolInstance object
 
 #### Availability
 
@@ -29,9 +29,6 @@ In addition to the Instance object properties, the SymbolInstance object has the
 | [SymbolInstance.colorBlueAmount](../SymbolInstance_object/SymbolInstance10.md) | An integer that is part of the color transformation for the instance; equivalent to using the Color > Advanced setting in the instance Property inspector. |
 | [SymbolInstance.colorBluePercent](../SymbolInstance_object/SymbolInstance11.md) | An integer that is part of the color transformation for the instance; equivalent to using the Color > Advanced setting in the instance Property inspector (the percentage controls on the left of the dialog box). |
 | [SymbolInstance.colorGreenAmount](../SymbolInstance_object/SymbolInstance12.md) | An integer that is part of the color transformation for the instance; equivalent to using the Color>Advanced setting in the instance Property inspector. Allowable values are from -255 to 255. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [SymbolInstance.colorGreenPercent](../SymbolInstance_object/SymbolInstance13.md) | Part of the color transformation for the instance;equivalent to using the Color>Advanced setting in the instance Property inspector (the percentage controls on the left of the dialog box). |
 | [SymbolInstance.colorMode](../SymbolInstance_object/SymbolInstance14.md) | A string that specifies the color mode as identified in the symbol Property inspector Color pop-up menu. |
 | [SymbolInstance.colorRedAmount](../SymbolInstance_object/SymbolInstance15.md) | An integer that is part of the color transformation for the instance, equivalent to using the Color>Advanced setting in the instance Property inspector. |

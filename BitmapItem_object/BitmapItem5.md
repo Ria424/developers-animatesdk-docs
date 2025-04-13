@@ -17,8 +17,8 @@ Read-only property; an int that specifies the width of the bitmap, in pixels.
 The following code illustrates use of this property.
 
 ```javascript
-// get the number of pixels in the horizontal dimension. 
-var bmItemObj = fl.getDocumentDOM().library.items[0]; 
+// get the number of pixels in the horizontal dimension.
+var bmItemObj = fl.getDocumentDOM().library.items[0];
 var numHorizontalPixels = bmItemObj.hPixels;
 ```
 

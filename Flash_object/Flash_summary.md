@@ -33,9 +33,6 @@ The following methods can be used with the flash object:
 | [Flash.findObjectInDocByType()](../Flash_object/Flash28.md) | Exposes elements of a specified element type in a document. |
 | [Flash.getAppMemoryInfo()](../Flash_object/Flash30.md) | Returns an integer that represents the number of bytes being used in a specified area of Flash.exe memory. |
 | [Flash.getDocumentDOM()](../Flash_object/Flash31.md) | Retrieves the DOM ([Document object](../Document_object/Document_summary.md)) of the currently active document. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Flash.getSwfPanel()](../Flash_object/Flash35.md) | Returns the SWFPanel object based on the panel's localized name or its SWF filename. |
 | [Flash.getThemeColor()](../Flash_object/Flash32.md) | Retrieves a theme color that matches the parameter specified theme parameter name. |
 | [Flash.getThemeColorParameters()](../Flash_object/Flash33.md) | Retrieves an array of theme parameter names. |
@@ -94,9 +91,6 @@ The following properties can be used with the flash object.
 | [Flash.publishCacheDiskSizeMax](../Flash_object/Flash50.md) | An integer that sets the disk cache size limit preference. |
 | [Flash.publishCacheEnabled](../Flash_object/Flash51.md) | A boolean value that sets whether publish cache is enabled. |
 | [Flash.publishCacheMemoryEntrySizeLimit](../Flash_object/Flash52.md) | An integer property that sets the maximum size for the memory cache entry preference. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [Flash.publishCacheMemorySizeMax](../Flash_object/Flash53.md) | An integer that sets the memory cache size limit preference. |
 | [Flash.objectDrawingMode](../Flash_object/Flash44.md) | An integer that represents the object drawing mode that is enabled. |
 | [Flash.outputPanel](../Flash_object/Flash47.md) | Read-only; reference to the [OutputPanel object](../OutputPanel_object/OutputPanel_summary.md). |

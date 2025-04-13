@@ -18,7 +18,7 @@ The following example displays the name and source file path of any items in the
 
 ```javascript
 for (idx in fl.getDocumentDOM().library.items) {
-    if (fl.getDocumentDOM().library.items[idx].itemType == "bitmap") {      
+    if (fl.getDocumentDOM().library.items[idx].itemType == "bitmap") {
         var myItem = fl.getDocumentDOM().library.items[idx];
         fl.trace(myItem.name + " source is " + myItem.sourceFilePath);
     }

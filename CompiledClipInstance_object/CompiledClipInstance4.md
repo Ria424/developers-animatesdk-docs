@@ -18,7 +18,7 @@ The following example illustrates use of this property:
 
 ```javascript
 var elem = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
-if (elem.colorMode == 'brightness') {
-fl.trace(elem.brightness);
+if (elem.colorMode == "brightness") {
+    fl.trace(elem.brightness);
 }
 ```

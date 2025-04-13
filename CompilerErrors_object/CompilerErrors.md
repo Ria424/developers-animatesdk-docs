@@ -22,15 +22,12 @@ Method; clears the contents of the Compiler Errors panel.
 
 #### Example
 
-```javascript
 The following example clears the contents of the Compiler Errors panel:
-fl.compilerErrors.clear();
 
+```javascript
+fl.compilerErrors.clear();
 ```
 
 #### See also
 
 [CompilerErrors.save()](../CompilerErrors_object/CompilerErrors1.md)
-**compilerErrors object**
-
-<span id="compilerErrors.save()" class="anchor"></span>

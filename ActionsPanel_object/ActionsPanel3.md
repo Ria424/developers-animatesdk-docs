@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A string that contains all the text in the Actions panel.
+string; A string that contains all the text in the Actions panel.
 
 #### Description
 

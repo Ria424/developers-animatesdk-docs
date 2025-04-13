@@ -10,7 +10,7 @@ Adobe Animate 2019.
 
 #### Parameters
 
-frameIndex:int
+**frameIndex**: int
 
 #### Return
 

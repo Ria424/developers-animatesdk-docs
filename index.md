@@ -1,10 +1,6 @@
----
-title: Animate JSAPI Documentation
-description: This is the home page of Animate APIs
-
----
-
 # Animate JSAPI Documentation
+
+This is the home page of Animate APIs
 
 ## Table of Contents
 
@@ -19,46 +15,46 @@ description: This is the home page of Animate APIs
   - [Summary of the DOM structure](#summary-of-the-dom-structure)
   - [Sample implementations](#sample-implementations)
 - [Top-Level Functions and Methods](#top-level-functions-and-methods-1)
-- [actionsPanel Object](#actionspanel-object)
-- [bitmapInstance Object](#bitmapinstance-object)
-- [bitmapItem Object](#bitmapitem-object)
-- [camera Object](#camera-object)
-- [compiledClipInstance Object](#compiledclipinstance-object)
-- [compilerErrors Object](#compilererrors-object)
-- [componentInstance Object](#componentinstance-object)
-- [componentsPanel Object](#componentspanel-object)
-- [contour Object](#contour-object)
-- [document Object](#document-object)
-- [drawingLayer](#drawinglayer)
-- [edge Object](#edge-object)
-- [element Object](#element-object)
-- [fill Object](#fill-object)
-- [filter Object](#filter-object)
-- [flash(fl.()) Object](#flashfl-object)
+- [ActionsPanel Object](#actionspanel-object)
+- [BitmapInstance Object](#bitmapinstance-object)
+- [BitmapItem Object](#bitmapitem-object)
+- [Camera Object](#camera-object)
+- [CompiledClipInstance Object](#compiledclipinstance-object)
+- [CompilerErrors Object](#compilererrors-object)
+- [ComponentInstance Object](#componentinstance-object)
+- [ComponentsPanel Object](#componentspanel-object)
+- [Contour Object](#contour-object)
+- [Document Object](#document-object)
+- [DrawingLayer](#drawinglayer)
+- [Edge Object](#edge-object)
+- [Element Object](#element-object)
+- [Fill Object](#fill-object)
+- [Filter Object](#filter-object)
+- [Flash(fl) Object](#flashfl-object)
 - [FLfile Object](#flfile-object)
-- [folderItem Object](#folderitem-object)
-- [fontItem Object](#fontitem-object)
-- [frame Object](#frame-object)
+- [FolderItem Object](#folderitem-object)
+- [FontItem Object](#fontitem-object)
+- [Frame Object](#frame-object)
 - [HalfEdge Object](#halfedge-object)
 - [Instance Object](#instance-object)
 - [Item Object](#item-object)
 - [Layer Object](#layer-object)
 - [LayerParenting Object](#layerparenting-object)
-- [library Object](#library-object)
+- [Library Object](#library-object)
 - [Math Object](#math-object)
 - [Matrix Object](#matrix-object)
-- [outputPanel Object](#outputpanel-object)
+- [OutputPanel Object](#outputpanel-object)
 - [Oval Object](#oval-object)
 - [Parameter object](#parameter-object)
 - [Path object](#path-object)
-- [presetItem object](#presetitem-object)
-- [presetPanel object](#presetpanel-object)
+- [PresetItem object](#presetitem-object)
+- [PresetPanel object](#presetpanel-object)
 - [Rectangle object](#rectangle-object)
 - [Shape object](#shape-object)
 - [SoundItem object](#sounditem-object)
 - [SpriteSheetExporter object](#spritesheetexporter-object)
 - [Stroke object](#stroke-object)
-- [swfPanel object](#swfpanel-object)
+- [SwfPanel object](#swfpanel-object)
 - [SymbolInstance object](#symbolinstance-object)
 - [SymbolItem object](#symbolitem-object)
 - [Text Object](#text-object)
@@ -146,69 +142,17 @@ There are two locations where you can store command and tool files so they can b
 
 - For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
 
-<table>
-    <thead>
-        <tr class="header">
-            <th>
-                <p><strong>Operating system</strong></p>
-            </th>
-            <th>
-                <p><strong>Location</strong></p>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="odd">
-            <td>
-                <p>Windows 10</p>
-            </td>
-            <td>
-                <p><em>boot drive</em>\Users\<em>username</em>\AppData\Local\Adobe\Animate <em>version</em>\<em>language</em>\Configuration\Commands</p>
-            </td>
-        </tr>
-        <tr class="even">
-            <td>
-                <p>Mac OS X</p>
-            </td>
-            <td>
-                <p>Macintosh HD/Users/<em>userName</em>/Library/Application Support/Adobe/Animate <em>version/language</em>/Configuration/Commands</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| **Operating system** | **Location** |
+| --- | --- |
+| Windows 10 | *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate *version*\\*language*\\Configuration\\Commands |
+| Mac OS X | Macintosh HD/Users/*userName*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/Commands |
 
 - For scripts that appear as extensible tools in the Tools panel, save the JSFL file in the Tools folder in the following location:
 
-<table>
-    <thead>
-        <tr class="header">
-            <th>
-                <p><strong>Operating system</strong></p>
-            </th>
-            <th>
-                <p><strong>Location</strong></p>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="odd">
-            <td>
-                <p>Windows 10</p>
-            </td>
-            <td>
-                <p><em>boot drive</em>\Users\<em>username</em>\AppData\Local\Adobe\Animate <em>version</em>\<em>language</em>\Configuration\Tools</p>
-            </td>
-        </tr>
-        <tr class="even">
-            <td>
-                <p>Mac OS X</p>
-            </td>
-            <td>
-                <p>Macintosh HD/Users/<em>userName</em>/Library/Application Support/Adobe/Animate <em>CC/language</em>/Configuration/Tools</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| **Operating system** | **Location** |
+| --- | --- |
+| Windows 10 | *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Animate *version*\\*language*\\Configuration\\Tools |
+| Mac OS X | Macintosh HD/Users/*userName*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/Tools |
 
 If a JSFL file has other files that go with it, such as XML files, store them in the same directory as the JSFL file.
 
@@ -252,7 +196,7 @@ You can add individual JavaScript API commands to ActionScript files by using th
 
 - Use the following syntax (you can concatenate several commands into one string):
 
-```
+```javascript
 MMExecute(Javascript command string);
 ```
 
@@ -262,7 +206,7 @@ You can also run a script from the command line.
 
 - Use the following syntax (add path information as required):
 
-```
+```bash
 "Animate.exe" myTestFile.jsfl [-AlwaysRunJSFL]
 ```
 
@@ -272,13 +216,13 @@ Use the `-AlwaysRunJSFL` option to bypass the dialog box that prompts you to con
 
 - Use the following osacript syntax (add path information as required):
 
-```
+```bash
 osascript -e 'tell application "Animate" to open alias "Mac OS X:Users:user:myTestFile.jsfl" '
 ```
 
 The osascript command can also run AppleScript in a file. For example, you could include the following text in a file named myScript:
 
-```
+```text
 tell application "Animate"
 open alias "Mac OS X:Users:user:myTestFile.jsfl" 
 end tell
@@ -289,8 +233,8 @@ osascript myScript
 
 - Use the Animate command:
 
-```
-/Applications/Adobe\ Animate\ 2020/Animate.app/Contents/MacOS/Animate \<path of the jsfl file\>
+```text
+/Applications/Adobe/Animate 2020/Animate.app/Contents/MacOS/Animate \<path of the jsfl file\>
 ```
 
 ### What’s new in the JavaScript API
@@ -304,37 +248,37 @@ The following methods and properties for existing objects are new in Animate 202
 
 - [Document object](/Document_object/document_summary.md)
 
-  - [document.getTaggedSwatches()](/Document_object/docu6064.md)
+  - [Document.getTaggedSwatches()](/Document_object/docu6064.md)
 
-  - [document.getTaggedSwatchByName()](/Document_object/docu6062.md)
+  - [Document.getTaggedSwatchByName()](/Document_object/docu6062.md)
 
-  - [document.getTaggedSwatchAtIndex()](/Document_object/docu6061.md)
+  - [Document.getTaggedSwatchAtIndex()](/Document_object/docu6061.md)
 
-  - [document.setTaggedSwatchByName()](/Document_object/docu6068.md)
+  - [Document.setTaggedSwatchByName()](/Document_object/docu6068.md)
 
-  - [document.setTaggedSwatchAtIndex()](/Document_object/docu6067.md)
+  - [Document.setTaggedSwatchAtIndex()](/Document_object/docu6067.md)
 
-  - [document.addTaggedSwatch()](/Document_object/docu6058.md)
+  - [Document.addTaggedSwatch()](/Document_object/docu6058.md)
 
-  - [document.addTaggedSwatchWithColor()](/Document_object/docu6059.md)
+  - [Document.addTaggedSwatchWithColor()](/Document_object/docu6059.md)
 
-  - [document.deleteTaggedSwatchByName()](/Document_object/docu6066.md)
+  - [Document.deleteTaggedSwatchByName()](/Document_object/docu6066.md)
 
-  - [document.deleteTaggedSwatchAtIndex()](/Document_object/docu6065.md)
+  - [Document.deleteTaggedSwatchAtIndex()](/Document_object/docu6065.md)
 
-  - [document.getTaggedSwatchesPaletteList()](/Document_object/docu6063.md)
+  - [Document.getTaggedSwatchesPaletteList()](/Document_object/docu6063.md)
 
-  - [document.getIndexForTaggedSwatchesPalette()](/Document_object/docu6060.md)
+  - [Document.getIndexForTaggedSwatchesPalette()](/Document_object/docu6060.md)
 
-  - [document.convertToDoc()](/Document_object/docu6069.md)
+  - [Document.convertToDoc()](/Document_object/docu6069.md)
 
-  - [document.exportCanvasPublishTemplate()](/Document_object/docu6070.md)
+  - [Document.exportCanvasPublishTemplate()](/Document_object/docu6070.md)
 
-  - [document.importCanvasPublishTemplate()](/Document_object/docu6071.md)
+  - [Document.importCanvasPublishTemplate()](/Document_object/docu6071.md)
 
-  - [document.exportMedia()](/Document_object/docu6072.md)
+  - [Document.exportMedia()](/Document_object/docu6072.md)
 
-  - [document.exportSVG()](/Document_object/docu6074.md)
+  - [Document.exportSVG()](/Document_object/docu6074.md)
 
 - [Layer object](/Layer_object/layer_summary.md)
 
@@ -366,7 +310,7 @@ The following methods and properties for existing objects are new in Animate 202
 
   - [timeline.mergeLayers()](/Timeline_object/timeli51.md)
 
-- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [Flash object (fl)](/Flash_object/Flash_summary.md)
 
   - [Flash.addToolInToolbar()](/flash_object_(fl)/fl82.md)
 
@@ -436,7 +380,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - CompiledClipInstance.visible
 
-- [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/Document_summary.md)
 
   - Document.convertSelectionToBitmap()
 
@@ -458,7 +402,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - Element.setPublishPersistentData()
 
-- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [Flash object (fl)](/Flash_object/Flash_summary.md)
 
   - Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
@@ -536,21 +480,21 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 - fl.resetPackagePaths()
 
-- document.activeEffect
+- Document.activeEffect
 
-- document.allowScreens()
+- Document.allowScreens()
 
-- document.drawingLayer
+- Document.drawingLayer
 
-- document.importSWF()
+- Document.importSWF()
 
-- document.loadCuePointXML()
+- Document.loadCuePointXML()
 
-- document.packagePaths
+- Document.packagePaths
 
-- document.saveAndCompact()
+- Document.saveAndCompact()
 
-- document.screenType
+- Document.screenType
 
 - library.importEmbeddedSWF()
 
@@ -574,19 +518,19 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - bitmapItem.lastModifiedDate
 
-- [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/Document_summary.md)
 
-  - document.exportInstanceToLibrary()
+  - Document.exportInstanceToLibrary()
 
-  - document.exportInstanceToPNGSequence()
+  - Document.exportInstanceToPNGSequence()
 
-  - document.getSWFPathFromProfile()
+  - Document.getSWFPathFromProfile()
 
-  - document.saveAsCopy()
+  - Document.saveAsCopy()
 
-  - document.swfJPEGQuality
+  - Document.swfJPEGQuality
 
-- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [Flash object (fl)](/Flash_object/Flash_summary.md)
 
   - fl.spriteSheetExporter
 
@@ -630,13 +574,13 @@ The following methods and properties for existing objects are new in Flash Pro C
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
-- [Document object](/Document_object/document_summary.md)
+- [Document object](/Document_object/Document_summary.md)
 
-  - document.debugMovie()
+  - Document.debugMovie()
 
-  - document.loadCuepointXML()
+  - Document.loadCuepointXML()
 
-- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [Flash object (fl)](/Flash_object/Flash_summary.md)
 
   - fl.languageCode
 
@@ -698,7 +642,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - timeline.pasteLayers()
 
-- [flash object (fl)](/flash_object_(fl)/fl_summary.md)
+- [Flash object (fl)](/Flash_object/Flash_summary.md)
 
   - fl.getSwfPanel()
 
@@ -738,13 +682,13 @@ The following objects and method are no longer available in Flash CS5:
 
 - ScreenOutline object
 
-- document.canSaveAVersion()
+- Document.canSaveAVersion()
 
-- document.revertToLastVersion()
+- Document.revertToLastVersion()
 
-- document.saveAVersion()
+- Document.saveAVersion()
 
-- document.synchronizeWithHeadVersion()
+- Document.synchronizeWithHeadVersion()
 
 - fl.downloadLatestVersion()
 
@@ -821,7 +765,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 #### The Animate Document Object Model
 
-The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](/Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](/FLfile_object/FLfile_summary.md) and [flash object (fl)](/flash_object_(fl)/fl_summary.md).
+The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](/Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](/FLfile_object/FLfile_summary.md) and [Flash object (fl)](/Flash_object/Flash_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
 
 ```javascript
@@ -851,7 +795,7 @@ The flash object contains the following *child objects*:
 
 #### The Document object
 
-An important property of the top-level flash object is the [Flash.documents](/flash_object_(fl)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](/Document_object/document_summary.md).
+An important property of the top-level flash object is the [Flash.documents](/flash_object_(fl)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](/Document_object/Document_summary.md).
 
 To refer to the first open document, for example, use the statement ```flash.documents[0]``` or ```fl.documents[0]```. The first document is the first Animate document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
 
@@ -919,7 +863,7 @@ Some objects are subclasses of other objects, rather than being children of othe
 
 01 [FLfile object](#flfile-object)
 
-01 [flash object (fl)](#flashfl-object)
+01 [Flash object (fl)](#flashfl-object)
 
    02 [compilerErrors object](#compilererrors-object)
 
@@ -1340,7 +1284,7 @@ Flash CS3 Professional.
 
 #### Description
 
-The compilerErrors object, which represents the Compiler Errors panel, is a property of the flash object (fl) and can be accessed by *fl.compilerErrors* (see [flash object (fl)](/flash_object_(fl)/fl_summary.md
+The compilerErrors object, which represents the Compiler Errors panel, is a property of the flash object (fl) and can be accessed by *fl.compilerErrors* (see [Flash object (fl)](/Flash_object/Flash_summary.md
 )).
 
 #### Method summary
@@ -1384,7 +1328,7 @@ Flash MX 2004.
 
 #### Description
 
-The componentsPanel object, which represents the Components panel, is a property of the flash object (fl) and can be accessed by *fl.componentsPanel (see [flash object (fl)](/flash_object_(fl)/fl_summary.md))*.
+The componentsPanel object, which represents the Components panel, is a property of the flash object (fl) and can be accessed by *fl.componentsPanel (see [Flash object (fl)](/Flash_object/Flash_summary.md))*.
 
 #### Method summary
 

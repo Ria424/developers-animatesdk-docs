@@ -17,7 +17,7 @@ Read-only property; an int that specifies the height of the bitmap, in pixels.
 The following code illustrates use of this property.
 
 ```javascript
-// get the number of pixels in the vertical dimension 
+// get the number of pixels in the vertical dimension
 var bmitemObj = fl.getDocumentDOM().library.items[0];
 var numHorizontalPixels = bmitemObj.vPixels;
 ```

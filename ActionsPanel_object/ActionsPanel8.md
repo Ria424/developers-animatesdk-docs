@@ -14,7 +14,7 @@ actionsPanel.setText(replacementText)
 
 #### Returns
 
-A Boolean value of true if the specified text was placed in the Actions panel; false otherwise.
+boolean; A Boolean value of true if the specified text was placed in the Actions panel; false otherwise.
 
 #### Description
 

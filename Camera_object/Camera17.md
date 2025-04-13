@@ -1,4 +1,4 @@
-## Camera.cameraEnabled 
+## Camera.cameraEnabled
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2019
 
 #### Usage
 
-camera.cameraEnabled 
+camera.cameraEnabled
 
 #### Type
 

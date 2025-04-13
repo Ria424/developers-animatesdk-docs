@@ -1,4 +1,4 @@
-## Camera.colorFilterEnabled 
+## Camera.colorFilterEnabled
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2019
 
 #### Usage
 
-camera.colorFilterEnabled 
+camera.colorFilterEnabled
 
 #### Type
 

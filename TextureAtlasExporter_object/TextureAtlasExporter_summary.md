@@ -1,6 +1,6 @@
 ## TextureAtlasExporter summary
 
-**Inheritance** [Item object](../Item_object/Item_summary.md) >TextureAtlasExporter object
+**Inheritance** [Item object](../Item_object/Item_summary.md) > TextureAtlasExporter object
 
 #### Availability
 

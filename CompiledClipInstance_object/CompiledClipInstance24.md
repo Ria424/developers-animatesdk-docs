@@ -19,5 +19,4 @@ The following example illustrates use of this property:
 ```javascript
 // change visible to false on currently selected symbol instance
 fl.getDocumentDOM().selection[0].visible = false;
-
 ```

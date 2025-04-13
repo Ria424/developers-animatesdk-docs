@@ -7,39 +7,39 @@ If you have not used the JavaScript API before, you might want to skip this sect
 
 The following methods and properties for existing objects are new in Animate 2020:
 
-- [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/Document_summary.md)
 
-  - [document.getTaggedSwatches()](../Document_object/docu6064.md)
+  - [Document.getTaggedSwatches()](../Document_object/docu6064.md)
 
-  - [document.getTaggedSwatchByName()](../Document_object/docu6062.md)
+  - [Document.getTaggedSwatchByName()](../Document_object/docu6062.md)
 
-  - [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)
+  - [Document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)
 
-  - [document.setTaggedSwatchByName()](../Document_object/docu6068.md)
+  - [Document.setTaggedSwatchByName()](../Document_object/docu6068.md)
 
-  - [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)
+  - [Document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)
 
-  - [document.addTaggedSwatch()](../Document_object/docu6058.md)
+  - [Document.addTaggedSwatch()](../Document_object/docu6058.md)
 
-  - [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)
+  - [Document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)
 
-  - [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)
+  - [Document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)
 
-  - [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)
+  - [Document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)
 
-  - [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)
+  - [Document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)
 
-  - [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)
+  - [Document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)
 
-  - [document.convertToDoc()](../Document_object/docu6069.md)
+  - [Document.convertToDoc()](../Document_object/docu6069.md)
 
-  - [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
+  - [Document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
 
-  - [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
+  - [Document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
 
-  - [document.exportMedia()](../Document_object/docu6072.md)
+  - [Document.exportMedia()](../Document_object/docu6072.md)
 
-  - [document.exportSVG()](../Document_object/docu6074.md)
+  - [Document.exportSVG()](../Document_object/docu6074.md)
 
 - [Layer object](../Layer_object/layer_summary.md)
 
@@ -71,7 +71,7 @@ The following methods and properties for existing objects are new in Animate 202
 
   - [timeline.mergeLayers()](../Timeline_object/timeli51.md)
 
-- [flash object (fl)](../Flash_object/Flash_summary.md)
+- [Flash object (fl)](../Flash_object/Flash_summary.md)
 
   - [Flash.addToolInToolbar()](../Flash_object/Flash82.md)
 
@@ -141,7 +141,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - CompiledClipInstance.visible
 
-- [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/Document_summary.md)
 
   - Document.convertSelectionToBitmap()
 
@@ -163,7 +163,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - Element.setPublishPersistentData()
 
-- [flash object (fl)](../Flash_object/Flash_summary.md)
+- [Flash object (fl)](../Flash_object/Flash_summary.md)
 
   - Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
@@ -241,21 +241,21 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 - fl.resetPackagePaths()
 
-- document.activeEffect
+- Document.activeEffect
 
-- document.allowScreens()
+- Document.allowScreens()
 
-- document.drawingLayer
+- Document.drawingLayer
 
-- document.importSWF()
+- Document.importSWF()
 
-- document.loadCuePointXML()
+- Document.loadCuePointXML()
 
-- document.packagePaths
+- Document.packagePaths
 
-- document.saveAndCompact()
+- Document.saveAndCompact()
 
-- document.screenType
+- Document.screenType
 
 - library.importEmbeddedSWF()
 
@@ -279,19 +279,19 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - bitmapItem.lastModifiedDate
 
-- [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/Document_summary.md)
 
-  - document.exportInstanceToLibrary()
+  - Document.exportInstanceToLibrary()
 
-  - document.exportInstanceToPNGSequence()
+  - Document.exportInstanceToPNGSequence()
 
-  - document.getSWFPathFromProfile()
+  - Document.getSWFPathFromProfile()
 
-  - document.saveAsCopy()
+  - Document.saveAsCopy()
 
-  - document.swfJPEGQuality
+  - Document.swfJPEGQuality
 
-- [flash object (fl)](../Flash_object/Flash_summary.md)
+- [Flash object (fl)](../Flash_object/Flash_summary.md)
 
   - fl.spriteSheetExporter
 
@@ -335,13 +335,13 @@ The following methods and properties for existing objects are new in Flash Pro C
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
-- [Document object](../Document_object/document_summary.md)
+- [Document object](../Document_object/Document_summary.md)
 
-  - document.debugMovie()
+  - Document.debugMovie()
 
-  - document.loadCuepointXML()
+  - Document.loadCuepointXML()
 
-- [flash object (fl)](../Flash_object/Flash_summary.md)
+- [Flash object (fl)](../Flash_object/Flash_summary.md)
 
   - fl.languageCode
 
@@ -403,7 +403,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - timeline.pasteLayers()
 
-- [flash object (fl)](../Flash_object/Flash_summary.md)
+- [Flash object (fl)](../Flash_object/Flash_summary.md)
 
   - fl.getSwfPanel()
 
@@ -443,13 +443,13 @@ The following objects and method are no longer available in Flash CS5:
 
 - ScreenOutline object
 
-- document.canSaveAVersion()
+- Document.canSaveAVersion()
 
-- document.revertToLastVersion()
+- Document.revertToLastVersion()
 
-- document.saveAVersion()
+- Document.saveAVersion()
 
-- document.synchronizeWithHeadVersion()
+- Document.synchronizeWithHeadVersion()
 
 - fl.downloadLatestVersion()
 

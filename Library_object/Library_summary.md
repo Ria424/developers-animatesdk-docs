@@ -1,4 +1,4 @@
-## library summary
+## Library summary
 
 #### Availability
 
@@ -6,13 +6,13 @@ Flash MX 2004.
 
 #### Description
 
-The library object represents the Library panel. It is a property of the Document object (see [Document.library](../Document_object/Document98.md)) and can be accessed by `fl.getDocumentDOM().library`.
+The Library object represents the Library panel. It is a property of the Document object (see [Document.library](../Document_object/Document98.md)) and can be accessed by `fl.getDocumentDOM().library`.
 
-The library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
+The Library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
 
 #### Method summary
 
-The following methods are available for the library object:
+The following methods are available for the Library object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -37,11 +37,9 @@ The following methods are available for the library object:
 
 #### Property summary
 
-for the library object
-
-The following property is available for the library object:
+The following property is available for the Library object:
 
 | **Property** | **Description** |
 | --- | --- |
-| [Library.items](../Library_object/Library10.md) | An array of Item objects in the library |
+| [Library.items](../Library_object/Library10.md) | An array of Item objects in the library. |
 | [Library.unusedItems](../Library_object/Library18.md) | An array of library Items that are not used in the document. |

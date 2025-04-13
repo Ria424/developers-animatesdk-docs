@@ -14,7 +14,7 @@ actionsPanel.replaceSelectedText(replacementText)
 
 #### Returns
 
-A Boolean value of true if the Actions panel is found; false otherwise.
+boolean; A Boolean value of true if the Actions panel is found; false otherwise.
 
 #### Description
 

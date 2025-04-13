@@ -22,5 +22,4 @@ The following example illustrates use of this property:
 
 ```javascript
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].useBackgroundColor = true;
-
 ```

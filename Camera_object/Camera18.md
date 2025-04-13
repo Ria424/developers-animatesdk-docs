@@ -1,4 +1,4 @@
-## Camera.tintEnabled 
+## Camera.tintEnabled
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2019
 
 #### Usage
 
-camera.tintEnabled 
+camera.tintEnabled
 
 #### Type
 

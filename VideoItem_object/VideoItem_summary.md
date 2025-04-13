@@ -14,7 +14,7 @@ The VideoItem object is a subclass of the [Item object](../Item_object/Item_summ
 
 In addition to the Item object methods, the VideoItem object has the following method:
 
-| **Property** | **Description** |
+| **Method** | **Description** |
 | --- | --- |
 | [VideoItem.exportToFLV()](../VideoItem_object/VideoItem.md) | Exports the specified item to an FLV file. |
 

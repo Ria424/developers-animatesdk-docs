@@ -32,9 +32,6 @@ In addition to the properties of the [Instance object](../Instance_object/Instan
 | [CompiledClipInstance.colorMode](../CompiledClipInstance_object/CompiledClipInstance12.md) | A string that specifies the color mode, as identified in the Symbol Properties dialog. |
 | [CompiledClipInstance.colorRedAmount](../CompiledClipInstance_object/CompiledClipInstance13.md) | An int that reduces or increases the red tint value by a constant amount. |
 | [CompiledClipInstance.colorRedPercent](../CompiledClipInstance_object/CompiledClipInstance14.md) | An int that reduces the green tint value by a specified percentage. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [CompiledClipInstance.description](../CompiledClipInstance_object/CompiledClipInstance15.md) | A string that is equivalent to the Description field in the Accessibility panel. |
 | [CompiledClipInstance.filters](../CompiledClipInstance_object/CompiledClipInstance16.md) | An array of Filter objects. |
 | [CompiledClipInstance.forceSimple](../CompiledClipInstance_object/CompiledClipInstance17.md) | A Boolean value that enables and disables the children of the object to be accessible. |

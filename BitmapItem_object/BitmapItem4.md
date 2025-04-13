@@ -17,12 +17,11 @@ Read-only property; a boolean indicating if a bitmap in the library has a valid/
 The following code exports a library item with the proper file name extension depending on whether it has a valid alpha layer.
 
 ```javascript
-var bitmapItem = fl.getDocumentDOM().library.items[0]; 
+var bitmapItem = fl.getDocumentDOM().library.items[0];
 var uri = fl.browseForFileURI("open");
 if (bitmapItem.hasValidAlphaLayer) {
     uri += ".png";
-} 
-else {
+} else {
     uri += ".jpg";
 }
 bitmapItem.exportToFile(uri);

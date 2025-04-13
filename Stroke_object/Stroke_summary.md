@@ -32,9 +32,6 @@ The following properties are available for the Stroke object:
 | [Stroke.pattern](../Stroke_object/Stroke14.md) | A string that specifies the pattern of a ragged line. |
 | [Stroke.rotate](../Stroke_object/Stroke15.md) | A string that specifies the rotation of a hatch line. |
 | [Stroke.scaleType](../Stroke_object/Stroke16.md) | A string that specifies the type of scale to be applied to the stroke. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [Stroke.shapeFill](../Stroke_object/Stroke17.md) | A [Fill object](../Fill_object/Fill_summary.md) that represents the fill settings of the stroke. |
 | [Stroke.space](../Stroke_object/Stroke18.md) | A string that specifies the spacing of a hatched line. |
 | [Stroke.strokeHinting](../Stroke_object/Stroke19.md) | A Boolean value that specifies whether stroke hinting is set on the stroke. |

@@ -27,7 +27,7 @@ The following example sets and gets data for the specified element, shows its va
 ```javascript
 // At least one symbol or bitmap is selected in the first layer, first frame. 
 var elt = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0]; 
-elt.setPersistentData("myData","integer", 12);
+elt.setPersistentData("myData", "integer", 12);
 if (elt.hasPersistentData("myData")) {
     fl.trace("myData = " + elt.getPersistentData("myData"));
     elt.removePersistentData("myData");

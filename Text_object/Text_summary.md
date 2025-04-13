@@ -39,9 +39,6 @@ In addition to the Element object properties, the following properties are avail
 | [Text.autoExpand](../Text_object/Text3.md) | A Boolean value that controls the expansion of the bounding width for static text fields or the bounding width and height for dynamic or input text. |
 | [Text.border](../Text_object/Text4.md) | A Boolean value that controls whether Flash shows (true) or hides (false) a border around dynamic or input text. |
 | [Text.description](../Text_object/Text5.md) | A string that is equivalent to the Description field in the Accessibility panel. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [Text.embeddedCharacters](../Text_object/Text6.md) | A string that specifies characters to embed. This is equivalent to entering text in the Character Embedding dialog box. |
 | [Text.embedRanges](../Text_object/Text7.md) | A string that consists of delimited integers that correspond to the items that can be selected in the Character Embedding dialog box. |
 | [Text.embedVariantGlyphs](../Text_object/Text8.md) | A Boolean value that specifies whether to enable the embedding of variant glyphs. |

@@ -14,7 +14,7 @@ actionsPanel.getClassForObject(ASvariableName)
 
 #### Returns
 
-A string that represents the class of which *ASvariableName* is a member.
+string; A string that represents the class of which *ASvariableName* is a member.
 
 #### Description
 

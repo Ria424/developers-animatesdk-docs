@@ -38,9 +38,6 @@ The following properties are available for the Element object:
 | [Element.locked](../Element_object/Element9.md) | A Boolean value: true if the element is locked; false otherwise. |
 | [Element.matrix](../Element_object/Element10.md) | A [Matrix object](../Matrix_object/Matrix_summary.md). The matrix has properties *a, b, c, d, tx,* and *ty. a, b, c,* and *d* are floating- point values; tx and ty are coordinates. |
 | [Element.name](../Element_object/Element11.md) | A string that specifies the name of the element, normally referred to as the Instance name. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [Element.rotation](../Element_object/Element13.md) | An integer or float value between -180 and 180 that specifies the object’s clockwise rotation, in degrees. |
 | [Element.scaleX](../Element_object/Element14.md) | A float value that specifies the *x* scale value of symbols, drawing objects, and primitive rectangles and ovals. |
 | [Element.scaleY](../Element_object/Element15.md) | A float value that specifies the *y* scale value of symbols, drawing objects, and primitive rectangles and ovals. |

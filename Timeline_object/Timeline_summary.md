@@ -28,9 +28,6 @@ The following methods are available for the Timeline object:
 | [Timeline.copyMotionAsAS3()](../Timeline_object/Timeline9.md) | Copies motion on selected frames, either from a motion tween or from frame-by-frame animation, to the clipboard as ActionScript 3.0 code. |
 | [Timeline.createMotionObject()](../Timeline_object/Timeline10.md) | Creates a new motion object at a designated start and end frame. |
 | [Timeline.createMotionTween()](../Timeline_object/Timeline11.md) | Sets the [Frame.tweenType](../Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Timeline.cutFrames()](../Timeline_object/Timeline14.md) | Cuts a range of frames on the current layer from the timeline and saves them to the clipboard. |
 | [Timeline.cutLayers()](../Timeline_object/Timeline15.md) | Cuts a range of Timeline layers and saves them to the clipboard. |
 | [Timeline.deleteLayer()](../Timeline_object/Timeline16.md) | Deletes a layer. |
@@ -60,9 +57,6 @@ The following methods are available for the Timeline object:
 | [Timeline.setGuidelines()](../Timeline_object/Timeline44.md) | Replaces the guide lines for the timeline with the information specified. |
 | [Timeline.setLayerProperty()](../Timeline_object/Timeline45.md) | Sets the specified property on all the selected layers to a specified value. |
 | [Timeline.setSelectedFrames()](../Timeline_object/Timeline46.md) | Selects a range of frames in the current layer or sets the selected frames to the selection array passed into this method. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Timeline.setSelectedLayers()](../Timeline_object/Timeline47.md) | Sets the layer to be selected; also makes the specified layer the current layer. |
 | [Timeline.showLayerMasking()](../Timeline_object/Timeline48.md) | Shows the layer masking during authoring by locking the mask and masked layers. |
 | [Timeline.startPlayback()](../Timeline_object/Timeline49.md) | Starts automatic playback of the timeline if it is not currently playing. |

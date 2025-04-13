@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
+boolean; A Boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
 
 #### Description
 

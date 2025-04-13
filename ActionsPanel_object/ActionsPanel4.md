@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
+boolean; A Boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
 
 #### Description
 
@@ -28,8 +28,7 @@ The following example displays text that is currently selected in the Actions pa
 var apText;
 if (fl.actionsPanel.hasSelection()) {
     apText = fl.actionsPanel.getSelectedText();
-}
-else {
+} else {
     apText = fl.actionsPanel.getText();
 }
 fl.trace(apText);

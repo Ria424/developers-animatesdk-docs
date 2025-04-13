@@ -14,7 +14,20 @@ Tween.getGeometricTransform(frameIndex)
 
 #### Returns
 
-Value object {"colorAlphaAmount", "colorAlphaPercent", "colorRedAmount", "colorRedPercent", "colorGreenAmount", "colorGreenPercent", "colorBlueAmount", "colorBluePercent"}.
+object; ColorTransform object:
+
+```typescript
+declare type ColorTransform = {
+    colorAlphaAmount: number;
+    colorAlphaPercent: number;
+    colorRedAmount: number;
+    colorRedPercent: number;
+    colorGreenAmount: number;
+    colorGreenPercent: number;
+    colorBlueAmount: number;
+    colorBluePercent: number;
+}
+```
 
 #### Description
 
@@ -23,26 +36,25 @@ Method; Gets color transformation data between frames.
 #### Example
 
 ```javascript
-var mat, colors;
-var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
+var doc = fl.getDocumentDOM();
+var timeline = doc.getTimeline();
+var frame = timeline.layers[0].frames[0];
 var tweenObj = frame.tweenObj;
+
+fl.outputPanel.clear();
 fl.trace("Tween duration = " + tweenObj.duration);
 for (var i = 0; i < tweenObj.duration; i++) {
-    mat = tweenObj.getGeometricTransform(i);
-    colors = tweenObj.getColorTransform(i);
+    var colors = tweenObj.getColorTransform(i);
+    fl.trace("\nFrame " + i + ":")
     fl.trace(
-        "Frame " + i + " Matrix = a = " + mat.a
-        + " b = " + mat.b
-        + " c = " + mat.c
-        + " d = " + mat.d
-        + " tx = " + mat.tx
-        + " ty = " + mat.ty
-    );
-    fl.trace(
-        "Color transform = alpha = " + colors.colorAlphaAmount
-        + " = red = " + colors.colorRedAmount
-        + " = green = " + colors.colorGreenAmount
-        + " = blue = " + colors.colorBlueAmount
+        "\nColor transform:\nalpha: amount = " + colors.colorAlphaAmount
+        + " percent = " + colors.colorAlphaPercent
+        + "\nred: amount = " + colors.colorRedAmount
+        + " percent = " + colors.colorRedPercent
+        + "\ngreen: amount = " + colors.colorGreenAmount
+        + " percent = " + colors.colorGreenPercent
+        + "\nblue: amount = " + colors.colorBlueAmount
+        + " percent = " + colors.colorBluePercent
     );
 }
 ```

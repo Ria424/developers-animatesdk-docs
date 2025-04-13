@@ -14,7 +14,7 @@ actionsPanel.setScriptAssistMode(bScriptAssist)
 
 #### Returns
 
-A Boolean value that specifies whether Script Assist mode was enabled or disabled successfully.
+boolean; A Boolean value that specifies whether Script Assist mode was enabled or disabled successfully.
 
 #### Description
 

@@ -1,6 +1,6 @@
 ## SpriteSheetExporter summary
 
-**Inheritance** [Item object](../Item_object/Item_summary.md) >SpriteSheetExporter object
+**Inheritance** [Item object](../Item_object/Item_summary.md) > SpriteSheetExporter object
 
 #### Availability
 
@@ -39,9 +39,6 @@ In addition to the Item object properties, the following properties are availabl
 | [SpriteSheetExporter.canBorderPad](../SpriteSheetExporter_object/SpriteSheetExporter9.md) | A Boolean value indicating whether border padding is supported by the framework specified by the layoutFormat property. |
 | [SpriteSheetExporter.canRotate](../SpriteSheetExporter_object/SpriteSheetExporter10.md) | A Boolean value indicating whether sprite rotation is supported by the framework specified by the layoutFormat property. |
 | [SpriteSheetExporter.canShapePad](../SpriteSheetExporter_object/SpriteSheetExporter12.md) | A Boolean value indicating whether shape padding is supported by the framework specified by the layoutFormat property. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [SpriteSheetExporter.canStackDuplicateFrames](../SpriteSheetExporter_object/SpriteSheetExporter13.md) | A Boolean value indicating whether sprite stacking is supported by the framework specified by the layoutFormat property. |
 | [SpriteSheetExporter.canTrim](../SpriteSheetExporter_object/SpriteSheetExporter11.md) | A Boolean value indicating whether shape trimming is supported by the framework specified by the layoutFormat property. |
 | [SpriteSheetExporter.format](../SpriteSheetExporter_object/SpriteSheetExporter16.md) | The format of the sprite sheet image file. |

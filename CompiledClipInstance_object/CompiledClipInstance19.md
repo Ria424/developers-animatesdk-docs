@@ -21,5 +21,4 @@ The following example illustrates getting and setting the silent property:
 var isSilent = fl.getDocumentDOM().selection[0].silent;
 // Set the object to be accessible.
 fl.getDocumentDOM().selection[0].silent = false;
-
 ```

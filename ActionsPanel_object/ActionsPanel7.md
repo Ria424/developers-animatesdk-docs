@@ -15,7 +15,7 @@ actionsPanel.setSelection(startIndex, numberOfChars)
 
 #### Returns
 
-A Boolean value that specifies whether the requested characters can be selected (true) or not (false).
+boolean; A Boolean value that specifies whether the requested characters can be selected (true) or not (false).
 
 #### Description
 
@@ -28,7 +28,10 @@ The following example replaces the characters "2006" in the Actions panel with t
 ```javascript
 // Type the following as the first line in the Actions panel
 // 2006 - Addresses user request 40196
-// Type the following in the JSFL file fl.actionsPanel.setSelection(3,4); fl.actionsPanel.replaceSelectedText("// Last updated: 2007");
+
+// Type the following in the JSFL file
+fl.actionsPanel.setSelection(3,4);
+fl.actionsPanel.replaceSelectedText("// Last updated: 2007");
 ```
 
 #### See also

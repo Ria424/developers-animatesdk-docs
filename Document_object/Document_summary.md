@@ -34,9 +34,6 @@ You can use the following methods with the Document object:
 | [Document.breakApart()](../Document_object/Document24.md) | Performs a break-apart operation on the current selection. |
 | [Document.canEditSymbol()](../Document_object/Document25.md) | Indicates whether the Edit Symbols menu and functionality are enabled. |
 | [Document.canRevert()](../Document_object/Document26.md) | Determines whether you can use the [Document.revert()](../Document_object/Document340.md), [Flash.revertDocument()](../Flash_object/Flash61.md) |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Document.canTestMovie()](../Document_object/Document27.md) | Determines whether you can use the [Document.testMovie()](../Document_object/Document5948.md) |
 | [Document.canTestScene()](../Document_object/Document28.md) | Determines whether you can use the [Document.testScene()](../Document_object/Document5979.md) |
 | [Document.changeFilterOrder()](../Document_object/Document29.md) | Changes the index of the filter in the Filters list. |
@@ -66,9 +63,6 @@ You can use the following methods with the Document object:
 | [Document.duplicatePublishProfile()](../Document_object/Document54.md) | Duplicates the currently active profile and gives the duplicate version focus. |
 | [Document.duplicateScene()](../Document_object/Document55.md) | Makes a copy of the currently selected scene, giving the new scene a unique name and making it the current scene. |
 | [Document.duplicateSelection()](../Document_object/Document56.md) | Duplicates the selection on the Stage. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Document.editScene()](../Document_object/Document57.md) | Makes the specified scene the currently selected scene for editing. |
 | [Document.enableAllFilters()](../Document_object/Document58.md) | Enables all the filters on the Filters list for the selected objects. |
 | [Document.enableFilter()](../Document_object/Document59.md) | Enables the specified filter for the selected objects. |
@@ -98,9 +92,6 @@ You can use the following methods with the Document object:
 | [Document.getPlayerVersion()](../Document_object/Document82.md) | Returns a string that represents the targeted player version for the specified document. |
 | [Document.getPublishDocumentData()](../Document_object/Document83.md) | Indicates whether publishing of the specified persistent data is enabled for the specified format in the document. |
 | [Document.getSelectionRect()](../Document_object/Document84.md) | Gets the bounding rectangle of the current selection. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Document.getSWFPathFromProfile()](../Document_object/Document85.md) | Gets the full path to the SWF file that is set in the current Publish profile. |
 | [Document.getTaggedSwatchAtIndex()](../Document_object/Document6061.md) | Returns the Tagged Swatch with the given index. |
 | [Document.getTaggedSwatchByName()](../Document_object/Document6062.md) | Returns the Tagged Swatch with the given name. |
@@ -132,9 +123,6 @@ You can use the following methods with the Document object:
 | [Document.removeFilter()](../Document_object/Document270.md) | Removes the specified filter from the Filters list of the selected objects. |
 | [Document.renamePublishProfile()](../Document_object/Document280.md) | Renames the current profile. |
 | [Document.renameScene()](../Document_object/Document290.md) | Renames the currently selected scene in the Scenes panel. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Document.reorderScene()](../Document_object/Document300.md) | Moves the specified scene before another specified scene. |
 | [Document.resetOvalObject()](../Document_object/Document310.md) | Sets all values in the Property inspector to default Oval object settings. |
 | [Document.resetRectangleObject()](../Document_object/Document320.md) | Sets all values in the Property inspector to default Rectangle object settings. |
@@ -160,9 +148,6 @@ You can use the following methods with the Document object:
 | [Document.setInstanceAlpha()](../Document_object/Document540.md) | Sets the opacity of the instance. |
 | [Document.setInstanceBrightness()](../Document_object/Document550.md) | Sets the brightness for the instance. |
 | [Document.setInstanceTint()](../Document_object/Document560.md) | Sets the tint for the instance. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Document.setMetadata()](../Document_object/Document570.md) | Sets the XML metadata for the specified document, overwriting any existing metadata. |
 | [Document.setMobileSettings()](../Document_object/Document580.md) | Sets the value of an XML settings string in a mobile FLA file. |
 | [Document.setOvalObjectProperty()](../Document_object/Document590.md) | Specifies a value for a specified property of primitive Oval objects. |
@@ -193,9 +178,6 @@ You can use the following methods with the Document object:
 | [Document.traceBitmap()](../Document_object/Document6010.md) | Performs a trace bitmap on the current selection; equivalent to selecting Modify>Bitmap>Trace Bitmap. |
 | [Document.transformSelection()](../Document_object/Document6073.md) | Performs a general transformation on the current selection by applying the matrix specified in the arguments. |
 | [Document.translate3DCenter()](../Document_object/Document6042.md) | Sets the XYZ position around which the selection is translated or rotated. |
-
-| **Method** | **Description** |
-| --- | --- |
 | [Document.translate3DSelection()](../Document_object/Document6057.md) | Applies a 3D translation to the selection. |
 | [Document.unGroup()](../Document_object/Document6104.md) | Ungroups the current selection. |
 | [Document.union()](../Document_object/Document6120.md) | Combines all selected shapes into a drawing object. |
@@ -225,9 +207,6 @@ You can use the following properties with the Document object.
 | [Document.forceSimple](../Document_object/Document70.md) | A Boolean value that specifies whether the children of the specified object are accessible. |
 | [Document.frameRate](../Document_object/Document71.md) | A float value that specifies the number of frames displayed per second when the SWF file plays; the default is 12. |
 | [Document.height](../Document_object/Document91.md) | An integer that specifies the height of the document (Stage) in pixels. |
-
-| **Property** | **Description** |
-| --- | --- |
 | [Document.id](../Document_object/Document92.md) | A unique integer (assigned automatically) that identifies a document during a Flash session. |
 | [Document.library](../Document_object/Document98.md) | Read-only; the [Library object](../Library_object/Library_summary.md) for a document. |
 | [Document.libraryPath](../Document_object/Document99.md) | A string that contains a list of items in the document’s ActionScript 3.0 Library path, which specifies the location of SWC files or folders containing SWC files. |

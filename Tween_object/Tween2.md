@@ -10,7 +10,7 @@ Tween.getGeometricTransform(frameIndex)
 
 #### Parameters
 
-**FrameIndex** Offset index of the frame from which geometric transformations have to be retrieved.
+**frameIndex** Offset index of the frame from which geometric transformations have to be retrieved.
 
 #### Returns
 
@@ -23,19 +23,24 @@ Method; Returns Matrix object that represents geometric transformation of a twee
 #### Example
 
 ```javascript
-var mat;
-var frame = fl.getDocumentDOM().getTimeline().layers[0].frames[0];
+var doc = fl.getDocumentDOM();
+var timeline = doc.getTimeline();
+var frame = timeline.layers[0].frames[0];
 var tweenObj = frame.tweenObj;
-var frame1 = fl.getDocumentDOM().getTimeline().layers[1].frames[0];
-fl.trace(" Tween duration = " + tweenObj.duration);
-for (var i = 1; i < tweenObj.duration; i++) {
-    mat = tweenObj.getGeometricTransform(i);
+
+fl.outputPanel.clear();
+fl.trace("Tween duration = " + tweenObj.duration);
+for (var i = 0; i < tweenObj.duration; i++) {
+    var matrix = tweenObj.getGeometricTransform(i);
     var colors = tweenObj.getColorTransform(i);
-    fl.trace(" Frame " + i + " Matrix = a = " + mat.a + " b = " + mat.b + " c = " + mat.c + " d =" + mat.d + " tx = " + mat.tx + " ty = " + mat.ty);
-    fl.trace(" color transform :");
-    fl.trace(" alpha : amount = " + colors.colorAlphaAmount + " percent = " + colors.colorAlphaPercent);
-    fl.trace(" red : amount = " + colors.colorRedAmount + " percent = " + colors.colorRedPercent);
-    fl.trace(" green : amount = " + colors.colorGreenAmount + " percent = " + colors.colorGreenPercent);
-    fl.trace(" blue : amount = " + colors.colorBlueAmount + " percent = " + colors.colorBluePercent);
+    fl.trace("\nFrame " + i + ":")
+    fl.trace(
+        "\nMatrix: a = " + matrix.a
+        + ", b = " + matrix.b
+        + ", c = " + matrix.c
+        + ", d =" + matrix.d
+        + ", tx = " + matrix.tx
+        + ", ty = " + matrix.ty
+    );
 }
 ```

@@ -7,21 +7,23 @@ This section describes the top-level functions and methods that are available wh
 #### Global methods
 
 The following methods can be called from any JavaScript API script:
-alert()
-confirm()
-prompt()
+
+- alert()
+- confirm()
+- prompt()
 
 #### Extensible tools
 
 The following functions are available in scripts that create extensible tools:
-activate()
-configureTool()
-deactivate()
-keyDown()
-keyUp()
-mouseDoubleClick()
-mouseDown()
-mouseMove()
-mouseUp()
-notifySettingsChanged()
-setCursor()
+
+- activate()
+- configureTool()
+- deactivate()
+- keyDown()
+- keyUp()
+- mouseDoubleClick()
+- mouseDown()
+- mouseMove()
+- mouseUp()
+- notifySettingsChanged()
+- setCursor()

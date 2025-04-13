@@ -18,6 +18,6 @@ The following code sets the compressionType property of the first item in the li
 "photo":
 
 ```javascript
-fl.getDocumentDOM().library.items[0].compressionType = "photo"; 
+fl.getDocumentDOM().library.items[0].compressionType = "photo";
 alert(fl.getDocumentDOM().library.items[0].compressionType);
 ```

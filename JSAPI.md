@@ -1,9 +1,6 @@
----
-title: Animate JSAPI Documentation
-description: This is the home page of Animate APIs
----
-
 # Animate JSAPI Documentation
+
+This is the home page of Animate APIs
 
 ## Introduction
 

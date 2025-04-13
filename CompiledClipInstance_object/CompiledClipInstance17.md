@@ -21,5 +21,4 @@ The following example illustrates getting and setting the forceSimple property:
 var areChildrenAccessible = fl.getDocumentDOM().selection[0].forceSimple;
 // Allow the children of the object to be accessible.
 fl.getDocumentDOM().selection[0].forceSimple = false;
-
 ```

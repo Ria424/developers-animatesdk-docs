@@ -21,5 +21,4 @@ The following example illustrates getting and setting the tabIndex property:
 var theTabIndex = fl.getDocumentDOM().selection[0].tabIndex;
 // Set the tabIndex of the object.
 fl.getDocumentDOM().selection[0].tabIndex = 1;
-
 ```

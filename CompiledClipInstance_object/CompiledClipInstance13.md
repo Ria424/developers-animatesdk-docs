@@ -21,7 +21,6 @@ The following example illustrates use of this property:
 ```javascript
 // change the colorRedAmount of the first element in the first frame, top layer
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].colorRedAmount = 100;
-//change the colorRedAmount of the selected symbol instance
+// change the colorRedAmount of the selected symbol instance
 fl.getDocumentDOM().selection[0].colorRedAmount = 255;
-
 ```

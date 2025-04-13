@@ -28,7 +28,7 @@ The following example displays information about the index position of any open 
 var filename = "test.fla"
 var docIndex = fl.findDocumentIndex(filename);
 for (var index in docIndex)
-    fl.trace(filename + " is open at index " + docIndex[index]); 
+    fl.trace(filename + " is open at index " + docIndex[index]);
 ```
 
 #### See also

@@ -18,7 +18,7 @@ The following example sets the angle to 120 for the Bevel filters on the selecte
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(var i = 0; i < myFilters.length; i++) {
+for (var i = 0; i < myFilters.length; i++) {
     if (myFilters[i].name == "bevelFilter") {
         myFilters[i].angle = 120;
     }

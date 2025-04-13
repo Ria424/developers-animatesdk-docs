@@ -18,7 +18,7 @@ The following example sets the contrast value to -15.5 for the Adjust Color filt
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(var i = 0; i < myFilters.length; i++) {
+for (var i = 0; i < myFilters.length; i++) {
     if (myFilters[i].name == "adjustColorFilter") {
         myFilters[i].contrast = -15.5;
     }

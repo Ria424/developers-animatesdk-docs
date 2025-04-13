@@ -18,7 +18,7 @@ The following example sets the hideObject value to true for the Drop Shadow filt
 
 ```javascript
 var myFilters = fl.getDocumentDOM().getFilters();
-for(var i = 0; i < myFilters.length; i++) {
+for (var i = 0; i < myFilters.length; i++) {
     if (myFilters[i].name == "dropShadowFilter") {
         myFilters[i].hideObject = true;
     }

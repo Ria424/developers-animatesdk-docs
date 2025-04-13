@@ -8,22 +8,22 @@ This section describes the top-level functions and methods that are available wh
 
 The following methods can be called from any JavaScript API script:
 
-- alert()
-- confirm()
-- prompt()
+- [alert()](../Top-level_functions_and_methods/alert.md)
+- [confirm()](../Top-level_functions_and_methods/confirm.md)
+- [prompt()](../Top-level_functions_and_methods/prompt.md)
 
 #### Extensible tools
 
 The following functions are available in scripts that create extensible tools:
 
-- activate()
-- configureTool()
-- deactivate()
-- keyDown()
-- keyUp()
-- mouseDoubleClick()
-- mouseDown()
-- mouseMove()
-- mouseUp()
-- notifySettingsChanged()
-- setCursor()
+- [activate()](../Top-level_functions_and_methods/activate.md)
+- [configureTool()](../Top-level_functions_and_methods/configureTool.md)
+- [deactivate()](../Top-level_functions_and_methods/deactivate.md)
+- [keyDown()](../Top-level_functions_and_methods/keyDown.md)
+- [keyUp()](../Top-level_functions_and_methods/keyUp.md)
+- [mouseDoubleClick()](../Top-level_functions_and_methods/mouseDoubleClick.md)
+- [mouseDown()](../Top-level_functions_and_methods/mouseDown.md)
+- [mouseMove()](../Top-level_functions_and_methods/mouseMove.md)
+- [mouseUp()](../Top-level_functions_and_methods/mouseUp.md)
+- [notifySettingsChanged()](../Top-level_functions_and_methods/notifySettingsChanged.md)
+- [setCursor()](../Top-level_functions_and_methods/setCursor.md)

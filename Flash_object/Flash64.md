@@ -10,7 +10,8 @@ fl.saveDocument(document \[, fileURI\])
 
 #### Parameters
 
-**document** A [Document object](../Document_object/Document_summary.md) that specifies the document to be saved. If *document* is null, the active document is saved.
+**document** `Document`; A [Document object](../Document_object/Document_summary.md) that specifies the document to be saved. If *document* is null, the active document is saved.
+
 **fileURI** A string, expressed as a file:/// URI, that specifies the name of the saved document. If the *fileURI* parameter is null or omitted, the document is saved with its current name. This parameter is optional.
 
 #### Returns
@@ -30,7 +31,7 @@ The following example saves the current document and two specified documents:
 alert(fl.saveDocument(fl.getDocumentDOM()));
 // Save the specified documents.
 alert(fl.saveDocument(fl.documents[0], "file:///C|/example1.fla"));
-alert(fl.saveDocument(fl.documents[1],"file:///C|/example2.fla"));
+alert(fl.saveDocument(fl.documents[1], "file:///C|/example2.fla"));
 ```
 
 #### See also

@@ -6,12 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-*drawingLayer.lineTo(x, y)*
+drawingLayer.lineTo(x, y)
 
 #### Parameters
 
-**x** A floating-point value that is the *x* coordinate of the end point of the line to draw.
-**y** A floating-point value that is the *y* coordinate of the end point of the line to draw.
+**x** `number`; A floating-point value that is the *x* coordinate of the end point of the line to draw.
+
+**y** `number`; A floating-point value that is the *y* coordinate of the end point of the line to draw.
 
 #### Returns
 
@@ -19,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; draws a line from the current drawing position to the point (*x,y*). You typically use this method only when creating extensible tools.
+Method; draws a line from the current drawing position to the point (*x, y*). You typically use this method only when creating extensible tools.
 
 #### Example
 

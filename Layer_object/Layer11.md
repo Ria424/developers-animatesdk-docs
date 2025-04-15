@@ -10,11 +10,11 @@ layer.getZDepthAtFrame(FrameNumber)
 
 #### Parameters
 
-**FrameNumber :frame index** An integer specifying the frame index starting from 0.
+**FrameNumber** An integer specifying the frame index starting from 0.
 
 #### Returns
 
-ZVal: An integer value that specifies the ZDepth value of the frame.
+`integer`; ZVal: An integer value that specifies the ZDepth value of the frame.
 
 #### Description
 

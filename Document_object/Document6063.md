@@ -14,11 +14,11 @@ Nothing.
 
 #### Returns
 
-Array of tagged swatches palette name list.
+`string[]`; Array of tagged swatches palette name list.
 
 #### Description
 
-Method;To get the array of Tagged Swatches palette name.
+Method; To get the array of Tagged Swatches palette name.
 
 #### Example
 

@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value: true if the Edit Symbols menu and functionality are available for use; false otherwise.
+`boolean`; A boolean value: true if the Edit Symbols menu and functionality are available for use; false otherwise.
 
 #### Description
 

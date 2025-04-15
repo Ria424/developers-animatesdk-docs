@@ -6,13 +6,15 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.addNewPrimitiveOval( boundingRectangle [, bSpupressFill [, bSuppressStroke ]] ))
+document.addNewPrimitiveOval( boundingRectangle [, bSpupressFill [, bSuppressStroke ]] )
 
 #### Parameters
 
-**boundingRectangle** A rectangle that specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
-**bSuppressFill** A Boolean value that, if set to true, causes the method to create the oval without a fill. The default value is false. This parameter is optional.
-**bSuppressStroke** A Boolean value that, if set to true, causes the method to create the oval without a stroke**.** The default value is false. This parameter is optional.
+**boundingRectangle** `Rectangle`; A rectangle that specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+
+**bSuppressFill** `boolean`; A boolean value that, if set to true, causes the method to create the oval without a fill. The default value is false. This parameter is optional.
+
+**bSuppressStroke** `boolean`; A boolean value that, if set to true, causes the method to create the oval without a stroke**.** The default value is false. This parameter is optional.
 
 #### Returns
 

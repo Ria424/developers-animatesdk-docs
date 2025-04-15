@@ -10,9 +10,11 @@ document.mouseClick(position, bToggleSel, bShiftSel)
 
 #### Parameters
 
-**position** A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
-**bToggleSel** A Boolean value that specifies the state of the Shift key: true for pressed; false for not pressed.
-**bShiftSel** A Boolean value that specifies the state of the application preference Shift select: true for on; false for off.
+**position** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
+
+**bToggleSel** `boolean`; A boolean value that specifies the state of the Shift key: true for pressed; false for not pressed.
+
+**bShiftSel** `boolean`; A boolean value that specifies the state of the application preference Shift select: true for on; false for off.
 
 #### Returns
 

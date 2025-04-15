@@ -10,7 +10,7 @@ document.xmlPanel(fileURI)
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the path to the XML file defining the controls in the panel. The full path is required.
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path to the XML file defining the controls in the panel. The full path is required.
 
 #### Returns
 

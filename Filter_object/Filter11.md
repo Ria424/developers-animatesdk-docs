@@ -10,7 +10,7 @@ filter.inner
 
 #### Description
 
-Property; a Boolean value that specifies whether the shadow is an inner shadow (true) or not (false). This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
+Property; `boolean`; A boolean value that specifies whether the shadow is an inner shadow (true) or not (false). This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 

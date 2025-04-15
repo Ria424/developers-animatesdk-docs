@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; empties the publish cache.
+Method; Empties the publish cache.
 
 #### Example
 

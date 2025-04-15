@@ -10,7 +10,7 @@ camera.colorFilterEnabled
 
 #### Type
 
-Boolean
+boolean
 
 #### Description
 

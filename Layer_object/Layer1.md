@@ -10,7 +10,7 @@ layer.color
 
 #### Description
 
-Property; the color assigned to outline the layer, in one of the following formats:
+Property; `integer | string`; the color assigned to outline the layer, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 

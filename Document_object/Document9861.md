@@ -10,8 +10,9 @@ document.setTextSelection(startIndex, endIndex)
 
 #### Parameters
 
-**startIndex** An integer that specifies the position of the first character to select. The first character position is 0 (zero).
-**endIndex** An integer that specifies the end position of the selection up to, but not including, *endIndex*. The first character position is 0 (zero).
+**startIndex** `integer`; An integer that specifies the position of the first character to select. The first character position is 0 (zero).
+
+**endIndex** `integer`; An integer that specifies the end position of the selection up to, but not including, *endIndex*. The first character position is 0 (zero).
 
 #### Returns
 
@@ -19,8 +20,7 @@ A Boolean value: true if the method can successfully set the text selection; fal
 
 #### Description
 
-Method; sets the text selection of the currently selected text field to the values specified by the *startIndex* and *endIndex*
-values. Text editing is activated, if it isn’t already.
+Method; sets the text selection of the currently selected text field to the values specified by the *startIndex* and *endIndex* values. Text editing is activated, if it isn’t already.
 
 #### Example
 

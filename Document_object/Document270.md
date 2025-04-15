@@ -10,7 +10,7 @@ document.removeFilter(filterIndex)
 
 #### Parameters
 
-**filterIndex** An integer specifying the zero-based index of the filter to remove from the selected objects.
+**filterIndex** `integer`; An integer specifying the zero-based index of the filter to remove from the selected objects.
 
 #### Returns
 

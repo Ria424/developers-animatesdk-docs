@@ -10,7 +10,7 @@ edge.id
 
 #### Description
 
-Read-only property; an integer that represents a unique identifier for the edge.
+Read-only property; `integer`; An integer that represents a unique identifier for the edge.
 
 #### Example
 

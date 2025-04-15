@@ -33,4 +33,4 @@ fl.trace(userName);
 
 #### See also
 
-[alert()](../Top-Level_Functions_and_Methods/alert.md), [confirm()](../Top-Level_Functions_and_Methods/confirm.md)
+[alert()](../Top-level_functions_and_methods/alert.md), [confirm()](../Top-level_functions_and_methods/confirm.md)

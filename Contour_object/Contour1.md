@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
+`HalfEdge`; A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
 
 #### Description
 

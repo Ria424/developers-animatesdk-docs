@@ -10,19 +10,19 @@ camera.resetPosition(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-Nothing
+Nothing.
 
 #### Description
 
-Reset camera position to the original position i.e (0,0,0).
+Reset camera position to the original position i.e (0, 0, 0).
 
 #### Example
 
-The following example resets camera position to the original position i.e (0,0,0):
+The following example resets camera position to the original position i.e (0, 0, 0):
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();

@@ -10,7 +10,7 @@ document.swapElement(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the library item to use.
+**name** `string`; A string that specifies the name of the library item to use.
 
 #### Returns
 

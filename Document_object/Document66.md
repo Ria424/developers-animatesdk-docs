@@ -10,11 +10,11 @@ document.exportPublishProfileString( [profileName] )
 
 #### Parameters
 
-**profileName** A string that specifies the name of the profile to export to an XML string. This parameter is optional.
+**profileName** `string?`; A string that specifies the name of the profile to export to an XML string. This parameter is optional.
 
 #### Returns
 
-An XML string.
+`string`; An XML string.
 
 #### Description
 

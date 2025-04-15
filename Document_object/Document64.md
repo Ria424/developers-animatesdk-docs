@@ -10,15 +10,15 @@ document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the filename for the exported file. If *fileURI* is an empty string or is not specified, Flash displays the Export Movie dialog box.
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the filename for the exported file. If *fileURI* is an empty string or is not specified, Flash displays the Export Movie dialog box.
 
-**bCurrentPNGSettings** A Boolean value that specifies whether to use the current PNG publish settings (true) or to display the Export PNG dialog box (false). This parameter is optional. The default value is false.
+**bCurrentPNGSettings** `boolean?false`; A boolean value that specifies whether to use the current PNG publish settings (true) or to display the Export PNG dialog box (false). This parameter is optional. The default value is false.
 
-**bCurrentFrame** A Boolean value that specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate PNG file (false). This parameter is optional. The default value is false.
+**bCurrentFrame** `boolean?false`; A boolean value that specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate PNG file (false). This parameter is optional. The default value is false.
 
 #### Returns
 
-A Boolean value of true if the file is successfully exported as a PNG file; false otherwise.
+`boolean`; A boolean value of true if the file is successfully exported as a PNG file; false otherwise.
 
 #### Description
 

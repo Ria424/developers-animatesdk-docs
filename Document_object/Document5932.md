@@ -10,7 +10,7 @@ document.swfJPEGQuality
 
 #### Description
 
-Property; an integer, returns the JPEG Quality setting from the current Publish Profile in the document.
+Property; `integer`; an integer, returns the JPEG Quality setting from the current Publish Profile in the document.
 
 #### Example
 

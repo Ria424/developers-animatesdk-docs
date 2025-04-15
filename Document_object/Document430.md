@@ -10,7 +10,7 @@ document.selection
 
 #### Description
 
-Property; an array of the selected objects in the document. If nothing is selected, returns an array of length zero. If no document is open, returns null.
+Property; `Element[] | null`; an array of the selected objects in the document. If nothing is selected, returns an array of length zero. If no document is open, returns null.
 To add objects to the array, you must first select them in one of the following ways:
 
 - Manually select objects on the Stage.
@@ -40,10 +40,10 @@ The following example creates a rectangle in the upper left corner of the Stage 
 
 ```javascript
 var document = fl.getDocumentDOM();
-document.addNewRectangle({left:0, top:0, right:99, bottom:99}, 0);
-document.addNewText({left:-1, top:117.3, right:9.2, bottom:134.6});
-document.setTextString("Hello World"); 
-document.setSelectionRect({left:-28, top:-22, right:156.0, bottom:163});
+document.addNewRectangle({left: 0, top: 0, right: 99, bottom: 99}, 0);
+document.addNewText({left: -1, top: 117.3, right: 9.2, bottom: 134.6});
+document.setTextString("Hello World");
+document.setSelectionRect({left: -28, top: -22, right: 156.0, bottom: 163});
 
 var theSelectionArray = document.selection;
 for (var i = 0; i < theSelectionArray.length; i++) {

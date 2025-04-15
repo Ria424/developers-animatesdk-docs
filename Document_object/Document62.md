@@ -10,8 +10,9 @@ document.exportInstanceToLibrary(frameNumber, bitmapName)
 
 #### Parameters
 
-**frameNumber** Integer indicating the frame to be exported.
-**bitmapName** A string representing the name of the bitmap to be added to the Library.
+**frameNumber** `integer`; Integer indicating the frame to be exported.
+
+**bitmapName** `string`; A string representing the name of the bitmap to be added to the Library.
 
 #### Returns
 

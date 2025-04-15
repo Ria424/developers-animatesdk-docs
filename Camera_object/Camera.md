@@ -6,15 +6,15 @@ Adobe Animate 2019.
 
 #### Usage
 
-*camera.getZDepth(frameIndex)*
+camera.getZDepth(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-int
+`integer`;
 
 #### Description
 

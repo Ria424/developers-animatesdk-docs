@@ -10,7 +10,7 @@ document.addFilter(filterName)
 
 #### Parameters
 
-**filterName** A string specifying the filter to be added to the Filters list and enabled for the selected objects. Acceptable values are "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", and "gradientGlowFilter".
+**filterName** `"adjustColorFilter" | "bevelFilter" | "blurFilter" | "dropShadowFilter" | "glowFilter" | "gradientBevelFilter" | "gradientGlowFilter"`; A string specifying the filter to be added to the Filters list and enabled for the selected objects. Acceptable values are "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", and "gradientGlowFilter".
 
 #### Returns
 

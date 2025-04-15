@@ -10,9 +10,9 @@ camera.setRotation(frameIndex, angleDegree)
 
 #### Parameters
 
-frameIndex:int - frame Number in timeline
+**frameIndex** `integer`; Frame Number in timeline.
 
-AngleDegree:int - the angleDegree for rotation.
+**AngleDegree** `integer`; The angleDegree for rotation.
 
 #### Return
 

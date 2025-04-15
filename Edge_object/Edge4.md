@@ -10,7 +10,7 @@ edge.isLine
 
 #### Description
 
-Read-only property; an integer with a value of 0 or 1. A value of 1 indicates that the edge is a straight line. In that case, the middle control point bisects the line joining the two end points.
+Read-only property; `integer`; An integer with a value of 0 or 1. A value of 1 indicates that the edge is a straight line. In that case, the middle control point bisects the line joining the two end points.
 
 #### Example
 

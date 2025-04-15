@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-The Tools object is accessible from the flash object ([Flash.tools](../Flash_object/Flash76.md)). The [Tools.toolObjs](../Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](../Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](../ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](../Top-Level_Functions_and_Methods/Top.md).)
+The Tools object is accessible from the flash object ([Flash.tools](../Flash_object/Flash76.md)). The [Tools.toolObjs](../Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](../Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](../ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](../Top-level_functions_and_methods/Top.md).)
 
 ***Note:** The following methods and properties are used only when creating extensible tools.*
 

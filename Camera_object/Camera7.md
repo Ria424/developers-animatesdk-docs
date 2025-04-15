@@ -10,11 +10,13 @@ camera.setZoom(frameIndex, zoomVal)
 
 #### Parameters
 
-frameIndex:int zoomVal:int
+**frameIndex** `integer`;
+
+**zoomVal** `integer`;
 
 #### Return
 
-Nothing
+Nothing.
 
 #### Description
 

@@ -10,7 +10,7 @@ document.asVersion
 
 #### Description
 
-Property; an integer that specifies which version of ActionScript is being used in the specified document. Acceptable values are 1, 2, and 3.
+Property; `integer`; an integer that specifies which version of ActionScript is being used in the specified document. Acceptable values are 1, 2, and 3.
 To determine the targeted player version for the specified document, use [Document.getPlayerVersion()](../Document_object/Document82.md); this method returns a string, so it can be used by Flash® Lite™ players.
 
 #### Example

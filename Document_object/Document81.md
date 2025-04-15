@@ -14,17 +14,17 @@ None.
 
 #### Returns
 
-A string that represents the XML settings for the document. If no value has been set, returns an empty string.
+`string`; A string that represents the XML settings for the document. If no value has been set, returns an empty string.
 
 #### Description
 
-Method; returns the mobile XML settings for the document.
+Method; `string`; returns the mobile XML settings for the document.
 
 #### Example
 
-```javascript
 The following example displays the XML settings string for the current document:
 
+```javascript
 fl.trace(fl.getDocumentDOM().getMobileSettings());
 /* traces a string like the following
 

@@ -10,11 +10,11 @@ document.convertSelectionToBitmap()
 
 #### Parameters
 
-None
+None.
 
 #### Returns
 
-Boolean.
+`boolean`;
 
 #### Description
 

@@ -8,7 +8,7 @@ Flash 8.
 
 This object contains all the properties for all filters. The filter.name property specifies the type of filter, and determines which properties are applicable to each filter. See [Filter.name](../Filter_object/Filter13.md).
 
-To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [Document.getFilters()](../Document_object/docume79.md) and [Document.setFilters()](../Document_object/Document530.md).
+To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [Document.getFilters()](../Document_object/Document79.md) and [Document.setFilters()](../Document_object/Document530.md).
 
 #### Property summary
 

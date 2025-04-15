@@ -14,7 +14,7 @@ fl.createDocument([docType])
 
 #### Returns
 
-The Document object for the newly created document, if the method is successful. If an error occurs, the value is
+`Document`; The Document object for the newly created document, if the method is successful. If an error occurs, the value is
 undefined.
 
 #### Description

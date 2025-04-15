@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-*drawingLayer.newPath()*
+drawingLayer.newPath()
 
 #### Parameters
 
@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A Path object.
+`Path`; A Path object.
 
 #### Description
 
-Method; returns a new Path object. You typically use this method only when creating extensible tools. See [Path object](../Path_object/Path_summary.md).
+Method; Returns a new Path object. You typically use this method only when creating extensible tools. See [Path object](../Path_object/Path_summary.md).
 
 #### Example
 

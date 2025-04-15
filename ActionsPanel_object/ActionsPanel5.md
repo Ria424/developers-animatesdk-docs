@@ -10,11 +10,11 @@ actionsPanel.replaceSelectedText(replacementText)
 
 #### Parameters
 
-**replacementText** A string that represents text to replace selected text in the Actions panel.
+**replacementText** `string`; A string that represents text to replace selected text in the Actions panel.
 
 #### Returns
 
-boolean; A Boolean value of true if the Actions panel is found; false otherwise.
+`boolean`; A boolean value of true if the Actions panel is found; false otherwise.
 
 #### Description
 

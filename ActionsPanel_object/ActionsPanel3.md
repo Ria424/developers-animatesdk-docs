@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-string; A string that contains all the text in the Actions panel.
+`string`; A string that contains all the text in the Actions panel.
 
 #### Description
 
@@ -31,4 +31,5 @@ fl.trace(apText);
 
 #### See also
 
-[ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md), [ActionsPanel.setText()](../ActionsPanel_object/ActionsPanel8.md)
+- [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
+- [ActionsPanel.setText()](../ActionsPanel_object/ActionsPanel8.md)

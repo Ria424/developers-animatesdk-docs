@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-*element.layer*
+element.layer
 
 #### Description
 
-Read-only property; represents the [Layer object](../Layer_object/Layer_summary.md) on which the element is located.
+Read-only property; `Layer`; represents the [Layer object](../Layer_object/Layer_summary.md) on which the element is located.
 
 #### Example
 

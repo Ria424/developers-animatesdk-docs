@@ -10,7 +10,7 @@ camera.resetTint(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 

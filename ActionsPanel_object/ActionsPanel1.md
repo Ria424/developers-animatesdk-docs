@@ -14,11 +14,10 @@ None.
 
 #### Returns
 
-boolean; A Boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
+`boolean`; A boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
 
 #### Description
 
-*Dropped in Adobe Animate.*
 Method; specifies whether Script Assist mode is enabled.
 
 #### Example

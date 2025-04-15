@@ -10,8 +10,9 @@ document.translate3DSelection(xyzCoordinate, bGlobalTransform)
 
 #### Parameters
 
-**xyzCoordinate** An XYZ coordinate that specifies the axes for 3D translation.
-**bGlobalTransform** A Boolean value that specifies whether the transformation mode should be global (true) or local (false).
+**xyzCoordinate** `Point3D`; An XYZ coordinate that specifies the axes for 3D translation.
+
+**bGlobalTransform** `boolean`; A boolean value that specifies whether the transformation mode should be global (true) or local (false).
 
 #### Returns
 

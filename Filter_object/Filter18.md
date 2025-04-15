@@ -10,7 +10,7 @@ filter.type
 
 #### Description
 
-Property; a string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
+Property; `string`; A string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 

@@ -10,7 +10,7 @@ document.id
 
 #### Description
 
-Read-only property; a unique integer (assigned automatically) that identifies a document during a Flash session. Use this property in conjunction with [Flash.findDocumentDOM()](../Flash_object/Flash25.md) to specify a particular document for an action.
+Read-only property; `integer`; a unique integer (assigned automatically) that identifies a document during a Flash session. Use this property in conjunction with [Flash.findDocumentDOM()](../Flash_object/Flash25.md) to specify a particular document for an action.
 
 #### Example
 

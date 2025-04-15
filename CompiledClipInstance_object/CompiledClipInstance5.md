@@ -10,7 +10,7 @@ compiledClipInstance.cacheAsBitmap
 
 #### Description
 
-Property; a boolean that indicates whether to cache bitmaps. (Equivalent to Use runtime bitmap caching in the Property Inspector). The default is false.
+Property; `boolean`; a boolean that indicates whether to cache bitmaps. (Equivalent to Use runtime bitmap caching in the Property Inspector). The default is false.
 
 #### Example
 

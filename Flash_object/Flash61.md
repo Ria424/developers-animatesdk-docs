@@ -10,7 +10,7 @@ fl.revertDocument(documentObject)
 
 #### Parameters
 
-**documentObject** A [Document object](../Document_object/Document_summary.md). If *documentObject* refers to the active document, the Document window might not revert until the script that calls this method finishes executing.
+**documentObject** `Document`; A [Document object](../Document_object/Document_summary.md). If *documentObject* refers to the active document, the Document window might not revert until the script that calls this method finishes executing.
 
 #### Returns
 

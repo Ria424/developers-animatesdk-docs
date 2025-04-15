@@ -14,7 +14,7 @@ fl.openDocument(fileURI)
 
 #### Returns
 
-The [Document object](../Document_object/Document_summary.md) for the newly opened document, if the method is successful. If the file is not found or is not a valid FLA file, an error is reported and the script is cancelled.
+`Document`; The [Document object](../Document_object/Document_summary.md) for the newly opened document, if the method is successful. If the file is not found or is not a valid FLA file, an error is reported and the script is cancelled.
 
 #### Description
 

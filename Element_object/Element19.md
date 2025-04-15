@@ -6,11 +6,11 @@ Flash CS3 Professional.
 
 #### Usage
 
-*element.setTransformationPoint(transformationPoint)*
+element.setTransformationPoint(transformationPoint)
 
 #### Parameters
 
-**transformationPoint** A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies values for an element’s or group’s transformation point.
+**transformationPoint** `Point`; A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies values for an element’s or group’s transformation point.
 
 - Shapes: *transformationPoint* is set relative to the document (0,0 is the upper-left corner of the Stage).
 
@@ -28,7 +28,7 @@ Nothing.
 
 #### Description
 
-Method; sets the position of the element’s transformation point.
+Method; Sets the position of the element’s transformation point.
 This method is almost identical to [Document.setTransformationPoint()](../Document_object/Document9939.md). It is different in the following way:
 
 - You can set transformation points for elements without first selecting them.
@@ -41,7 +41,7 @@ This method moves the transformation point but does not move the element. By con
 The following example sets the transformation point of the third element on the Stage to 100, 200:
 
 ```javascript
-fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[2].setTransformationPoint({x: 100, y:200});
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[2].setTransformationPoint({x: 100, y: 200});
 ```
 
 #### See also

@@ -6,16 +6,15 @@ Animate 2020.
 
 #### Usage
 
-document.importCanvasPublishTemplate(pathURI) 
+document.importCanvasPublishTemplate(pathURI)
 
 #### Parameters
 
-**pathURI** :fileURI.A string, expressed as a file:/// URI, that specifies the path of the HTML template.
+**pathURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the HTML template.
 
 #### Returns
 
-Boolean value.
-True if imported successfully.False otherwise.
+`boolean`; True if imported successfully.False otherwise.
 
 #### Description
 

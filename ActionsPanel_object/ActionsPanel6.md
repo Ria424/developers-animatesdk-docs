@@ -10,16 +10,15 @@ actionsPanel.setScriptAssistMode(bScriptAssist)
 
 #### Parameters
 
-**bScriptAssist** A Boolean value that specifies whether to enable or disable Script Assist mode.
+**bScriptAssist** `boolean`; A boolean value that specifies whether to enable or disable Script Assist mode.
 
 #### Returns
 
-boolean; A Boolean value that specifies whether Script Assist mode was enabled or disabled successfully.
+`boolean`; A boolean value that specifies whether Script Assist mode was enabled or disabled successfully.
 
 #### Description
 
-*Dropped in Adobe Animate.*
-Method; enables or disables Script Assist mode.
+Method; Enables or disables Script Assist mode.
 
 #### Example
 

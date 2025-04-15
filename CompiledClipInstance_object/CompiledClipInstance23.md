@@ -10,7 +10,7 @@ compiledClipInstance.useBackgroundColor
 
 #### Description
 
-Property; a boolean that sets the background color:
+Property; `boolean`; a boolean that sets the background color:
 
 - true - Use 32-bit with alpha.
 

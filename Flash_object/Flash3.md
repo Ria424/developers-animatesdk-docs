@@ -10,16 +10,16 @@ fl.browseForFileURL(browseType [, title [, fileDescription [, fileFilter]]])
 
 #### Parameters
 
-**browseType** A string that specifies the type of file browse operation. Valid values are "open", "select" or "save". The values "open" and "select" open the system File Open dialog box. Each value is provided for compatibility with Dreamweaver. The value "save" opens a system File Save dialog box.
+**browseType** `string`; A string that specifies the type of file browse operation. Valid values are "open", "select" or "save". The values "open" and "select" open the system File Open dialog box. Each value is provided for compatibility with Dreamweaver. The value "save" opens a system File Save dialog box.
 
-**title** An optional string that specifies the title for the File Open or File Save dialog box. If this parameter is omitted, a default value is used. This parameter is optional.
+**title** `string?`; An optional string that specifies the title for the File Open or File Save dialog box. If this parameter is omitted, a default value is used.
 
-**fileDescription** An optional string that specifies a file description, for example:
+**fileDescription** `string?`; An optional string that specifies a file description, for example:
 
 FLA Document (*.fla)
 ActionScript File (*.as)
 
-**fileFilter** An optional string that specifies a filter, such that only files that match the filters are displayed in the dialog, for example:
+**fileFilter** `string?`; An optional string that specifies a filter, such that only files that match the filters are displayed in the dialog, for example:
 
 "fla"
 "fla;as"
@@ -27,15 +27,15 @@ ActionScript File (*.as)
 
 #### Returns
 
-The URL of the file, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+`string`; The URL of the file, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
 
 #### Description
 
-Method; opens a File Open or File Save system dialog box and lets the user specify a file to be opened or saved.
+Method; Opens a File Open or File Save system dialog box and lets the user specify a file to be opened or saved.
 
 #### Example
 
-The following examples illustrate various options of the fl.browseForFileURL() method:
+The following examples illustrate various options of the `Flash.browseForFileURL()` method:
 
 ```javascript
 //CC

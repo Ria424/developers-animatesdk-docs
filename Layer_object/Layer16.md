@@ -10,12 +10,13 @@ layer.setBlendModeAtFrame(frameIndex,blendModeString)
 
 #### Parameters
 
-**frameIndex** – It is an integer that specifies absolute frame index.
-**blendModeString** - It is the string that specifies the blendmode to be set.
+**frameIndex** `integer`; It is an integer that specifies absolute frame index.
+
+**blendModeString** `string`; It is the string that specifies the blendmode to be set.
 
 #### Returns
 
-Nothing
+Nothing.
 
 #### Description
 

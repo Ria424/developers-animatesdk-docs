@@ -10,11 +10,11 @@ document.setMobileSettings(xmlString)
 
 #### Parameters
 
-**xmlString** A string that describes the XML settings in a mobile FLA file.
+**xmlString** `string`; A string that describes the XML settings in a mobile FLA file.
 
 #### Returns
 
-A value of true if the settings were successfully set; false otherwise.
+`boolean`; A value of true if the settings were successfully set; false otherwise.
 
 #### Description
 

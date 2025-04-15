@@ -14,7 +14,7 @@ fl.xmlPanelFromString(xmlString)
 
 #### Returns
 
-XMLUI.
+`XMLUI`;
 
 #### Description
 

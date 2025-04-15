@@ -10,8 +10,9 @@ document.changeFilterOrder(oldIndex, newIndex)
 
 #### Parameters
 
-**oldIndex** An integer that represents the current zero-based index position of the filter you want to reposition in the Filters list.
-**newIndex** An integer that represents the new index position of the filter in the list.
+**oldIndex** `integer`; An integer that represents the current zero-based index position of the filter you want to reposition in the Filters list.
+
+**newIndex** `integer`; An integer that represents the new index position of the filter in the list.
 
 #### Returns
 
@@ -21,15 +22,15 @@ Nothing.
 
 Method; changes the index of the filter in the Filters list. Any filters above or below *newIndex* are shifted up or down accordingly. For example, using the filters shown below, if you issue the command fl.getDocumentDOM().changeFilterOrder(3, 0), the filters are rearranged as follows:
 
-| **Before**                                               | **After**                                                |
-|----------------------------------------------------------|----------------------------------------------------------|
-| blurFilterdropShadowFilterglowFiltergradien tBevelFilter | gradientBevelFilterblurFilterdropShadowFilterglo wFilter |
+| **Before** | **After** |
+| --- | --- |
+| blurFilter, dropShadowFilter, glowFilter, gradientBevelFilter | gradientBevelFilter, blurFilter, dropShadowFilter, glowFilter |
 
 If you then issue the command fl.getDocumentDOM().changeFilterOrder(0, 2), the filters are rearranged as follows:
 
-| **Before**                                               | **After**                                                |
-|----------------------------------------------------------|----------------------------------------------------------|
-| gradientBevelFilterblurFilterdropShadowFilt erglowFilter | blurFilterdropShadowFiltergradientBevelFilterglo wFilter |
+| **Before** | **After** |
+| --- | --- |
+| gradientBevelFilter, blurFilter, dropShadowFilter, glowFilter | blurFilter, dropShadowFilter, gradientBevelFilter, glowFilter |
 
 #### Example
 

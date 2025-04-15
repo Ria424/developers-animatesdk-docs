@@ -20,7 +20,7 @@ A Boolean value: true if the copy succeeds; false otherwise.
 
 #### Description
 
-Method; silently copies a library item from a document without exposing the item in the Flash Pro user interface. Call the [document.clipPaste()](../Document_object/docume32.md) method to paste the item into the new document.
+Method; silently copies a library item from a document without exposing the item in the Flash Pro user interface. Call the [document.clipPaste()](../Document_object/Document32.md) method to paste the item into the new document.
 
 #### Example
 

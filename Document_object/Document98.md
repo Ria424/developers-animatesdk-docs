@@ -10,7 +10,7 @@ document.library
 
 #### Description
 
-Read-only property; the [Library object](../Library_object/Library_summary.md) for a document.
+Read-only property; `Library`; the [Library object](../Library_object/Library_summary.md) for a document.
 
 #### Example
 

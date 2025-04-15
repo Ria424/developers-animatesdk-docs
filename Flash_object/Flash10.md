@@ -10,4 +10,4 @@ fl.compilerErrors
 
 #### Description
 
-Read-only property; a compilerErrors object, which represents the Errors panel. For information on using this property, see [CompilerErrors object](../CompilerErrors_object/CompilerErrors_summary.md).
+Read-only property; `CompilerErrors`; A [CompilerErrors object](../CompilerErrors_object/CompilerErrors_summary.md), which represents the Errors panel.

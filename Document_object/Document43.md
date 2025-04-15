@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value: true if the scene is successfully deleted; false otherwise.
+`boolean`; A boolean value: true if the scene is successfully deleted; false otherwise.
 
 #### Description
 

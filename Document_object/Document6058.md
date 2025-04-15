@@ -10,9 +10,11 @@ document.addTaggedSwatch(swatch:object [,index:int [,palette:int ]] )
 
 #### Parameters
 
-**swatch** : swatch object to add.
-**index** : An integer that specifies the index where to add swatch.It is optional.  
-**palette** :An integer that specifies the index of the tagged swatch palette.Default value is 0.It is optional.
+**swatch** `Object`; swatch object to add.
+
+**index** `integer`; An optional integer that specifies the index where to add swatch.
+
+**palette** `integer?0`; An optional integer that specifies the index of the tagged swatch palette. Default value is 0.
 
 #### Returns
 

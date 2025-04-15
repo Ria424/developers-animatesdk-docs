@@ -6,11 +6,11 @@ Flash Professional CS5. Dropped in Adobe Animate.
 
 #### Usage
 
-document.loadCuepointXML(String URI)
+document.loadCuepointXML(URI)
 
 #### Parameters
 
-**URI** String; the absolute path to the cue point XML file.
+**URI** `string`; The absolute path to the cue point XML file.
 
 #### Description
 

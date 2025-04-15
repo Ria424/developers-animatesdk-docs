@@ -10,7 +10,7 @@ bitmapInstance.vPixels
 
 #### Description
 
-Read-only property; an integer that represents the height of the bitmap—that is, the number of pixels in the vertical dimension.
+Read-only property; integer; an integer that represents the height of the bitmap—that is, the number of pixels in the vertical dimension.
 
 #### Example
 

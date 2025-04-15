@@ -10,7 +10,7 @@ compiledClipInstance.tabIndex
 
 #### Description
 
-Property; an integer that is equivalent to the Tab Index field in the Accessibility panel. Creates a tab order in which objects are accessed when the user presses the Tab key.
+Property; `integer`; an integer that is equivalent to the Tab Index field in the Accessibility panel. Creates a tab order in which objects are accessed when the user presses the Tab key.
 
 #### Example
 

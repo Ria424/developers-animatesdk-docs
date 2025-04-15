@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*element.elementType*
+element.elementType
 
 #### Description
 
-Read-only property; a string that represents the type of the specified element. The value is one of the following:
+Read-only property; `"shape" | "text" | "tlfText" | "instance" | "shapeObj"`; a string that represents the type of the specified element. The value is one of the following:
 
 - "shape"
 

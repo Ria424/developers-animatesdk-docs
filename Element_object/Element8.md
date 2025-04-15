@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*element.left*
+element.left
 
 #### Description
 
-Read-only property; a float value that represents the left side of the element. The value of *element.left* is relative to the upper left of the Stage for elements that are in a scene and is relative to the symbol’s registration point (also *origin point* or *zero point*) if the element is stored within a symbol. Use [Document.setSelectionBounds()](../Document_object/Document9658.md) or [Document.moveSelectionBy()](../Document_object/Document160.md) to set this property.
+Read-only property; `float`; a float value that represents the left side of the element. The value of *element.left* is relative to the upper left of the Stage for elements that are in a scene and is relative to the symbol’s registration point (also *origin point* or *zero point*) if the element is stored within a symbol. Use [Document.setSelectionBounds()](../Document_object/Document9658.md) or [Document.moveSelectionBy()](../Document_object/Document160.md) to set this property.
 
 #### Example
 

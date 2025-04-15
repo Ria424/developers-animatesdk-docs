@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-boolean; A Boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
+`boolean`; A Boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
 
 #### Description
 
@@ -36,4 +36,7 @@ fl.trace(apText);
 
 #### See also
 
-[ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md), [ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md), [ActionsPanel.replaceSelectedText()](../ActionsPanel_object/ActionsPanel5.md), [ActionsPanel.setSelection()](../ActionsPanel_object/ActionsPanel7.md)
+- [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
+- [ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md)
+- [ActionsPanel.replaceSelectedText()](../ActionsPanel_object/ActionsPanel5.md)
+- [ActionsPanel.setSelection()](../ActionsPanel_object/ActionsPanel7.md)

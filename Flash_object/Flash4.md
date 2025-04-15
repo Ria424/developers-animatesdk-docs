@@ -10,15 +10,15 @@ fl.browseForFolderURL([description])
 
 #### Parameters
 
-**description** An optional string that specifies the description of the Browse For Folder dialog box. If this parameter is omitted, the dialog box title is "Select Folder."
+**description** `string?"Select Folder."`; An optional string that specifies the description of the Browse For Folder dialog box. If this parameter is omitted, the dialog box title is "Select Folder."
 
 #### Returns
 
-The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+`string`; The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
 
 #### Description
 
-Method; displays a Browse for Folder dialog box and lets the user select a folder.
+Method; Displays a Browse for Folder dialog box and lets the user select a folder.
 
 #### Example
 

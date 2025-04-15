@@ -6,15 +6,15 @@ Adobe Animate 2019.
 
 #### Usage
 
-*camera.getZoom(frameIndex)*
+camera.getZoom(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-double
+`double`;
 
 #### Description
 

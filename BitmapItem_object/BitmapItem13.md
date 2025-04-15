@@ -10,7 +10,7 @@ Flash MX 2004.
 
 #### Description
 
-Property; a Boolean value that specifies whether to use the default imported JPEG quality (*true*) or not (*false*). Available only for JPEG compression.
+Property; `boolean`; a boolean value that specifies whether to use the default imported JPEG quality (*true*) or not (*false*). Available only for JPEG compression.
 
 #### Example
 

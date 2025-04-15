@@ -11,6 +11,7 @@ fl.findObjectInDocByName(instanceName, document)
 #### Parameters
 
 **instanceName** A string that specifies the instance name of an item in the specified document.
+
 **document** The [Document object](../Document_object/Document_summary.md) in which to search for the specified item.
 
 #### Returns

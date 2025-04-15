@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A string containing the XML metadata associated with the document or an empty string if there is no metadata.
+`string`; A string containing the XML metadata associated with the document or an empty string if there is no metadata.
 
 #### Description
 

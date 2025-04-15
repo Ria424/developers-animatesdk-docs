@@ -10,7 +10,7 @@ compiledClipInstance.visible
 
 #### Description
 
-Property; a boolean that sets visibility. Equivalent to the visible checkbox in the Display section of the Property Inspector for symbols.
+Property; `boolean`; a boolean that sets visibility. Equivalent to the visible checkbox in the Display section of the Property Inspector for symbols.
 
 #### Example
 

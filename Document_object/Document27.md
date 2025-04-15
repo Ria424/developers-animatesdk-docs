@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value: true if you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully: false otherwise.
+`boolean`; A boolean value: true if you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully: false otherwise.
 
 #### Description
 

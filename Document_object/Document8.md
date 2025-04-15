@@ -6,14 +6,17 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]]))
+document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]])
 
 #### Parameters
 
-**rect** A rectangle that specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
-**roundness** An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
-**bSuppressFill** A Boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
-**bSuppressStroke** A Boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
+**rect** `Rectangle`; A rectangle that specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+
+**roundness** `integer`; An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
+
+**bSuppressFill** `boolean`; A boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
+
+**bSuppressStroke** `boolean`; A boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
 
 #### Returns
 

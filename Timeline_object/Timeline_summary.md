@@ -27,7 +27,7 @@ The following methods are available for the Timeline object:
 | [Timeline.copyMotion()](../Timeline_object/Timeline8.md) | Copies motion on selected frames, either from a motion tween or from frame-by-frame animation, so it can be applied to other frames. |
 | [Timeline.copyMotionAsAS3()](../Timeline_object/Timeline9.md) | Copies motion on selected frames, either from a motion tween or from frame-by-frame animation, to the clipboard as ActionScript 3.0 code. |
 | [Timeline.createMotionObject()](../Timeline_object/Timeline10.md) | Creates a new motion object at a designated start and end frame. |
-| [Timeline.createMotionTween()](../Timeline_object/Timeline11.md) | Sets the [Frame.tweenType](../Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. |
+| [Timeline.createMotionTween()](../Timeline_object/Timeline11.md) | Sets the [Frame.tweenType](../Frame_object/Frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. |
 | [Timeline.cutFrames()](../Timeline_object/Timeline14.md) | Cuts a range of frames on the current layer from the timeline and saves them to the clipboard. |
 | [Timeline.cutLayers()](../Timeline_object/Timeline15.md) | Cuts a range of Timeline layers and saves them to the clipboard. |
 | [Timeline.deleteLayer()](../Timeline_object/Timeline16.md) | Deletes a layer. |

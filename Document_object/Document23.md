@@ -10,7 +10,7 @@ document.backgroundColor
 
 #### Description
 
-Property; the color of the background, in one of the following formats:
+Property; `integer | string`; the color of the background, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 

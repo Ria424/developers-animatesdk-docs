@@ -10,11 +10,11 @@ camera.reset(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-Nothing
+Nothing.
 
 #### Description
 

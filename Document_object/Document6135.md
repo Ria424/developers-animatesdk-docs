@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; unlocks all locked elements on the currently selected frame.
+Method; Unlocks all locked elements on the currently selected frame.
 
 #### Example
 

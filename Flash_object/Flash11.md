@@ -10,7 +10,7 @@ fl.componentsPanel
 
 #### Description
 
-Read-only property; a [ComponentsPanel object](../ComponentsPanel_object/ComponentsPanel_summary.md), which represents the Components panel.
+Read-only property; `ComponentsPanel`; A [ComponentsPanel object](../ComponentsPanel_object/ComponentsPanel_summary.md), which represents the Components panel.
 
 #### Example
 

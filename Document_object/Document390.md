@@ -10,12 +10,13 @@ document.saveAsCopy(URI [, selectionOnly])
 
 #### Parameters
 
-**URI** String: The URI to export the new FLA file to. This URI must reference a local file. Example: file:///c\|/tests/myTest.fla.
-**selectionOnly** Optional. A boolean indicating whether only the current Stage selection should be saved to the new FLA file.
+**URI** `string`; The URI to export the new FLA file to. This URI must reference a local file. Example: file:///c\|/tests/myTest.fla.
+
+**selectionOnly** `boolean?`; Optional. A boolean indicating whether only the current Stage selection should be saved to the new FLA file.
 
 #### Returns
 
-Boolean.
+`boolean`;
 
 #### Description
 

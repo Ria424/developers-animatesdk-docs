@@ -10,7 +10,9 @@ camera.setZDepth(frameIndex, tz)
 
 #### Parameters
 
-frameIndex:int, tz:int (pixels)
+**frameIndex** `integer`;
+
+**tz** `integer`; pixels
 
 #### Return
 

@@ -10,7 +10,7 @@ filter.hideObject
 
 #### Description
 
-Property; a Boolean value that specifies whether the source image is hidden (true) or displayed (false). This property is defined for Filter objects with a value of "dropShadowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
+Property; `boolean`; A boolean value that specifies whether the source image is hidden (true) or displayed (false). This property is defined for Filter objects with a value of "dropShadowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
 #### Example
 

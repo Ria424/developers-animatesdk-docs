@@ -10,7 +10,7 @@ Flash MX 2004.
 
 #### Description
 
-Read-only property; an array of ActionScript 2.0 properties that are accessible from the component Property inspector. See [Parameter object](../Parameter_object/Parameter_summary.md).
+Read-only property; `Parameter[]`; an array of ActionScript 2.0 properties that are accessible from the component Property inspector. See [Parameter object](../Parameter_object/Parameter_summary.md).
 
 #### Example
 

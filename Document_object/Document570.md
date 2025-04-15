@@ -10,11 +10,11 @@ document.setMetadata(strMetadata)
 
 #### Parameters
 
-**strMetadata** A string containing the XML metadata to be associated with the document. For more information, see the following description.
+**strMetadata** `string`; A string containing the XML metadata to be associated with the document. For more information, see the following description.
 
 #### Returns
 
-A Boolean value: true if successful; false otherwise.
+`boolean`; True if successful; false otherwise.
 
 #### Description
 

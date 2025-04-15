@@ -10,7 +10,7 @@ document.disableOtherFilters(enabledFilterIndex)
 
 #### Parameters
 
-**enabledFilterIndex** An integer representing the zero-based index of the filter that should remain enabled after other filters are disabled.
+**enabledFilterIndex** `integer`; An integer representing the zero-based index of the filter that should remain enabled after other filters are disabled.
 
 #### Returns
 

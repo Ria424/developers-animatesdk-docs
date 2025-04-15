@@ -10,7 +10,7 @@ document.removeDataFromDocument(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the data to remove.
+**name** `string`; A string that specifies the name of the data to remove.
 
 #### Returns
 

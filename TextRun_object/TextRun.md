@@ -10,7 +10,7 @@ Flash MX 2004.
 
 #### Description
 
-Property; the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md) containing the attributes of the run of text.
+Property; the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md) containing the attributes of the run of text.
 
 #### Example
 

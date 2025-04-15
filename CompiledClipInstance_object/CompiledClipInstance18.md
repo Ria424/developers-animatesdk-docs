@@ -10,7 +10,7 @@ compiledClipInstance.shortcut
 
 #### Description
 
-Property; a string that is equivalent to the Shortcut field in the Accessibility panel. The shortcut is read by the screen reader. This property is not available for dynamic text fields.
+Property; `string`; a string that is equivalent to the Shortcut field in the Accessibility panel. The shortcut is read by the screen reader. This property is not available for dynamic text fields.
 
 #### Example
 

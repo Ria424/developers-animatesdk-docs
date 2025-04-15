@@ -10,7 +10,7 @@ fl.version
 
 #### Description
 
-Read-only property; the long string version of the Flash authoring tool, including platform.
+Read-only property; `string`; The long string version of the Flash authoring tool, including platform.
 
 #### Example
 

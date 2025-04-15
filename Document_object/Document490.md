@@ -10,10 +10,11 @@ document.setElementProperty(property, value)
 
 #### Parameters
 
-**property** A string that specifies the name of the Element property to set. For a complete list of properties and values, see the Property summary table for the [Element object](../Element_object/Element_summary.md).
+**property** `string`; A string that specifies the name of the Element property to set. For a complete list of properties and values, see the Property summary table for the [Element object](../Element_object/Element_summary.md).
 You can’t use this method to set values for read-only properties, such as [Element.elementType](../Element_object/Element1.md), [Element.top](../Element_object/Element22.md), or
 [Element.left](../Element_object/Element8.md).
-**value** An integer that specifies the value to set in the specified Element property.
+
+**value** `integer`; An integer that specifies the value to set in the specified Element property.
 
 #### Returns
 

@@ -10,7 +10,7 @@ Flash CS6 Professional.
 
 #### Description
 
-Read-only property; a boolean indicating if a bitmap in the library has a valid/useful alpha channel. This flag will help you decide if you should export the bitmap item as a PNG instead of a JPEG using the *bitmapItem.exportToFile() function.*
+Read-only property; `boolean`; a boolean indicating if a bitmap in the library has a valid/useful alpha channel. This flag will help you decide if you should export the bitmap item as a PNG instead of a JPEG using the *bitmapItem.exportToFile() function.*
 
 #### Example
 

@@ -10,11 +10,11 @@ document.addNewPublishProfile([profileName])
 
 #### Parameters
 
-**profileName** The unique name of the new profile. If you do not specify a name, a default name is provided. This parameter is optional.
+**profileName** `string`; The unique name of the new profile. If you do not specify a name, a default name is provided. This parameter is optional.
 
 #### Returns
 
-An integer that is the index of the new profile in the profiles list. Returns -1 if a new profile cannot be created.
+`integer`; An integer that is the index of the new profile in the profiles list. Returns -1 if a new profile cannot be created.
 
 #### Description
 
@@ -29,7 +29,7 @@ fl.getDocumentDOM().addNewPublishProfile();
 fl.outputPanel.trace(fl.getDocumentDOM().currentPublishProfile);
 ```
 
-The following example adds a new publish profile with the name "my profile":  
+The following example adds a new publish profile with the name "my profile":
 
 ```javascript
 fl.getDocumentDOM().addNewPublishProfile("my profile");

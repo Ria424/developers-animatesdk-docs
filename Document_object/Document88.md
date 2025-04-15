@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-The current Timeline object.
+`Timeline`; The current [Timeline object](../Timeline_object/Timeline_summary.md) object.
 
 #### Description
 

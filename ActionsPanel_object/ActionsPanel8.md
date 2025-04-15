@@ -10,11 +10,11 @@ actionsPanel.setText(replacementText)
 
 #### Parameters
 
-**replacementText** A string that represents text to place in the Actions panel.
+**replacementText** `string`; A string that represents text to place in the Actions panel.
 
 #### Returns
 
-boolean; A Boolean value of true if the specified text was placed in the Actions panel; false otherwise.
+`boolean`; A Boolean value of true if the specified text was placed in the Actions panel; false otherwise.
 
 #### Description
 

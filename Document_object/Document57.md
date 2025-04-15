@@ -10,7 +10,7 @@ document.editScene(index)
 
 #### Parameters
 
-**index** A zero-based integer that specifies which scene to edit.
+**index** `integer`; A zero-based integer that specifies which scene to edit.
 
 #### Returns
 

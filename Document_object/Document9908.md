@@ -10,13 +10,15 @@ document.setTextString(text [, startIndex [, endIndex]])
 
 #### Parameters
 
-**text** A string of the characters to insert in the text field.
-**startIndex** An integer that specifies the first character to replace. The first character position is 0 (zero). This parameter is optional.
-**endIndex** An integer that specifies the last character to replace. This parameter is optional.
+**text** `string`; A string of the characters to insert in the text field.
+
+**startIndex** `integer?`; An optional integer that specifies the first character to replace. The first character position is 0 (zero).
+
+**endIndex** `integer?`; An integer that specifies the last character to replace.
 
 #### Returns
 
-A Boolean value: true if the text of at least one text string is set; false otherwise.
+`boolean`; A boolean value: true if the text of at least one text string is set; false otherwise.
 
 #### Description
 

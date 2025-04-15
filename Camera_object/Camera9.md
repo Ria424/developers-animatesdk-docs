@@ -10,11 +10,19 @@ camera.setRotation(frameIndex, amount, red, green, blue)
 
 #### Parameters
 
-frameIndex:int amount:int red:int green:int blue:int
+**frameIndex** `integer`;
+
+**amount** `integer`;
+
+**red** `integer`;
+
+**green** `integer`;
+
+**blue** `integer`;
 
 #### Return
 
-nothing
+Nothing.
 
 #### Description
 

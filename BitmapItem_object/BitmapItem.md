@@ -10,7 +10,7 @@ Flash MX 2004.
 
 #### Description
 
-Property; a Boolean value that specifies whether to allow smoothing of a bitmap *(true)* or not *(false)*.
+Property; `boolean`; a boolean value that specifies whether to allow smoothing of a bitmap *(true)* or not *(false)*.
 
 #### Example
 

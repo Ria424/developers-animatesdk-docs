@@ -10,7 +10,7 @@ contour.interior
 
 #### Description
 
-Read-only property; the value is true if the contour encloses an area; false otherwise.
+Read-only property; `boolean`; the value is true if the contour encloses an area; false otherwise.
 
 #### Example
 

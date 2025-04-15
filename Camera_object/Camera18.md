@@ -10,7 +10,7 @@ camera.tintEnabled
 
 #### Type
 
-Boolean
+boolean
 
 #### Description
 

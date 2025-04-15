@@ -10,7 +10,7 @@ compiledClipInstance.tintColor
 
 #### Description
 
-Read-only property; a Color object that, when the Color Effect Property Inspector is using style tint (colorMode == 'tint'), returns the color applied to the tint. Otherwise, using this property results in an error.
+Read-only property; a Color object that, when the Color Effect Property Inspector is using style tint (colorMode == "tint"), returns the color applied to the tint. Otherwise, using this property results in an error.
 
 #### Example
 

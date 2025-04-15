@@ -10,4 +10,4 @@ fl.presetPanel
 
 #### Description
 
-Read-only property: a [PresetPanel object](../PresetPanel_object/PresetPanel_summary.md).
+Read-only property; `PresetPanel`; A [PresetPanel object](../PresetPanel_object/PresetPanel_summary.md).

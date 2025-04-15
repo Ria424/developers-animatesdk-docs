@@ -10,7 +10,7 @@ Flash CS4 Professional.
 
 #### Description
 
-Property; a Boolean value that specifies whether deblocking is enabled (*true*) or not (*false*).
+Property; `boolean`; a boolean value that specifies whether deblocking is enabled (*true*) or not (*false*).
 
 #### Example
 

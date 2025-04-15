@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value: true if document.screenOutline can be used safely; false otherwise.
+`boolean`; A boolean value: true if `Document.screenOutline` can be used safely; false otherwise.
 
 #### Description
 
@@ -25,7 +25,7 @@ A Boolean value: true if document.screenOutline can be used safely; false otherw
 The following example determines whether screens methods can be used in the current document:
 
 ```javascript
-if (fl.getDocumentDOM().allowScreens()) { 
+if (fl.getDocumentDOM().allowScreens()) {
     fl.trace("screen outline is available.");
 } else {
     fl.trace("whoops, no screens.");

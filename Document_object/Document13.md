@@ -10,8 +10,9 @@ document.align(alignmode [, bUseDocumentBounds])
 
 #### Parameters
 
-**alignmode** A string that specifies how to align the selection. Acceptable values are "left", "right", "top", "bottom", "vertical center", and "horizontal center".
-**bUseDocumentBounds** A Boolean value that, if set to true, causes the method to align to the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false. This parameter is optional.
+**alignmode** `"left" | "right" | "top" | "bottom" | "vertical center" | "horizontal center"`; A string that specifies how to align the selection. Acceptable values are "left", "right", "top", "bottom", "vertical center", and "horizontal center".
+
+**bUseDocumentBounds** `boolean`; A boolean value that, if set to true, causes the method to align to the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false. This parameter is optional.
 
 #### Returns
 

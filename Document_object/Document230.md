@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-None.
+Nothing.
 
 #### Description
 

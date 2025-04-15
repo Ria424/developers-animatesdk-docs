@@ -10,7 +10,7 @@ document.setCustomFill(fill)
 
 #### Parameters
 
-**fill** A Fill object that specifies the fill settings to be used. See [Fill object](../Fill_object/Fill_summary.md).
+**fill** `Fill`; A Fill object that specifies the fill settings to be used. See [Fill object](../Fill_object/Fill_summary.md).
 
 #### Returns
 

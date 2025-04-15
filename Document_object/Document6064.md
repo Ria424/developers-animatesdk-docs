@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.getTaggedSwatches([palette:int ])
+document.getTaggedSwatches([palette])
 
 #### Parameters
 
-**palette**:It is an integer that specifies the index of the tagged swatch palette,it is optional.Default value is 0.
+**palette** `integer`; An integer that specifies the index of the tagged swatch palette,it is optional.Default value is 0.
 
 #### Returns
 
@@ -18,22 +18,23 @@ Array of tagged swatches.
 
 #### Description
 
-Method;It returns array of tagged swatch objects.
-swatch object has two property,
-— [Fill object](../Fill_object/Fill_summary.md)
+Method; `Swatch`; It returns array of tagged swatch objects.
 
-— name
+Swatch object has two property,
+
+- [Fill object](../Fill_object/Fill_summary.md)
+- name
 
 #### Example
 
 The following example returns the array of tagged swatches.
 
 ```javascript
-var document = fl.getDocumentDOM();
-var swatchArr = document.getTaggedSwatches();
+var doc = fl.getDocumentDOM();
+var swatchArr = doc.getTaggedSwatches();
 ```
 
 #### See also
 
-[Document.getTaggedSwatchByName()](../Document_object/Document6062.md)
-[Document.getTaggedSwatchesPaletteList()](../Document_object/Document6063.md)
+- [Document.getTaggedSwatchByName()](../Document_object/Document6062.md)
+- [Document.getTaggedSwatchesPaletteList()](../Document_object/Document6063.md)

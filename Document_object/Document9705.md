@@ -10,7 +10,7 @@ document.setStageVanishingPoint(point)
 
 #### Parameters
 
-**point** A point that specifies the *x* and *y* coordinates of the location at which to set the vanishing point for viewing 3D objects.
+**point** `Point`; A point that specifies the *x* and *y* coordinates of the location at which to set the vanishing point for viewing 3D objects.
 
 #### Returns
 

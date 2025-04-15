@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; ungroups the current selection.
+Method; Ungroups the current selection.
 
 #### Example
 

@@ -14,7 +14,7 @@ fl.findDocumentDOM(id)
 
 #### Returns
 
-A Document object, or null if no document exists with the specified *id*.
+`Document`; A Document object, or null if no document exists with the specified *id*.
 
 #### Description
 

@@ -10,7 +10,7 @@ Flash CS3 Professional.
 
 #### Description
 
-Property; a float value that specifies the *y* value of the selected element’s registration point.
+Property; `float`; a float value that specifies the *y* value of the selected element’s registration point.
 
 #### Example
 

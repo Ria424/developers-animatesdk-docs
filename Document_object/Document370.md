@@ -10,11 +10,11 @@ document.save([bOkToSaveAs])
 
 #### Parameters
 
-**bOkToSaveAs** An optional parameter that, if true or omitted, and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved.
+**bOkToSaveAs** `boolean`; An optional parameter that, if true or omitted, and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved.
 
 #### Returns
 
-A Boolean value: true if the save operation completes successfully; false otherwise.
+`boolean`; A boolean value: true if the save operation completes successfully; false otherwise.
 
 #### Description
 

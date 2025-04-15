@@ -10,16 +10,15 @@ document.exportCanvasPublishTemplate(pathURI).
 
 #### Parameters
 
-**pathURI**: fileURI.A string, expressed as a file:/// URI, that specifies the path of the generated HTML template.
+**pathURI**: `string`; A string, expressed as a file:/// URI, that specifies the path of the generated HTML template.
 
 #### Returns
 
-Boolean value.
-True if exported successfully.False otherwise.
+`boolean`; True if exported successfully.False otherwise.
 
 #### Description
 
-Method;Exports the HTML5 Canvas Publishing Template for given document,at the specified location.This method is specific to HTML Canvas document only.
+Method; Exports the HTML5 Canvas Publishing Template for given document,at the specified location.This method is specific to HTML Canvas document only.
 
 #### Example
 

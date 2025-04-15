@@ -10,7 +10,7 @@ document.setAlignToDocument(bToStage)
 
 #### Parameters
 
-**bToStage** A Boolean value that, if set to true, aligns objects to the Stage. If set to false, it does not.
+**bToStage** `boolean`; A boolean value that, if set to true, aligns objects to the Stage. If set to false, it does not.
 
 #### Returns
 

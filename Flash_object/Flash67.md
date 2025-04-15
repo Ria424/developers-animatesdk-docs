@@ -10,7 +10,8 @@ fl.selectElement(elementObject, editMode)
 
 #### Parameters
 
-**elementObject** The [Element object](../Element_object/Element_summary.md) you want to select.
+**elementObject** `Element`; The [Element object](../Element_object/Element_summary.md) you want to select.
+
 **editMode** A Boolean value that specifies whether you want to edit the element (true) or want only to select it (false).
 
 #### Returns

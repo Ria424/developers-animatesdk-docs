@@ -10,14 +10,14 @@ Flash CS3 Professional.
 
 #### Description
 
-Property; a float value that specifies the *y* scale value of symbols, drawing objects, and primitive rectangles and ovals. A value of 1 indicates 100 percent scale.
+Property; `float`; a float value that specifies the *y* scale value of symbols, drawing objects, and primitive rectangles and ovals. A value of 1 indicates 100 percent scale.
 
 #### Example
 
 The following example sets the y scale value of the current selection to 2 (doubles its value):
 
 ```javascript
-var element = fl.getDocumentDOM().selection[0]; 
+var element = fl.getDocumentDOM().selection[0];
 element.scaleY = 2;
 ```
 

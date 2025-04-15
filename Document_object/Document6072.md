@@ -6,25 +6,25 @@ Adobe Animate2020.
 
 #### Usage
 
-document.exportMedia (fileURI, format, preset [,bTransparent [, bRunBatch [, sceneName [, startFrame [, endFrame]]]]]).
+document.exportMedia(fileURI, format, preset [,bTransparent [, bRunBatch [, sceneName [, startFrame [, endFrame]]]]]).
 
 #### Parameters
 
-**fileURI**: A string, expressed as a file:/// URI, that specifies the output file path (without file extension)
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension)
 
-**format**: A string that specifies the format of the file to be exported
+**format** `string`; A string that specifies the format of the file to be exported
 
-**preset**: A string that specifies the preset to be used.
+**preset** `string`; A string that specifies the preset to be used.
 
-**bTransparent**: Boolean that specifies whether to ignore the stage colour.It is Optional. Default valu is false.
+**bTransparent** `boolean?false`; A optional boolean that specifies whether to ignore the stage colour. Default value is false.
 
-**bRunBatch**: Boolean that specifies whether to run AME batch automatically.It is Optional. Default value is true.
+**bRunBatch** `boolean?true`; A optional boolean that specifies whether to run AME batch automatically. Default value is true.
 
-**sceneName**: A string that specifies the name of the scene if only that specific scene should be exported.It is Optional. By default all scenes will be exported.
+**sceneName** `string?`; A optional string that specifies the name of the scene if only that specific scene should be exported. By default all scenes will be exported.
 
-**startFrame**: An integer, index of start frame in specific scene. Applicable only when a specific scene is exported.It is Optional. By default it will be either first frame of timeline or the start frame of the timeline loop range if defined.
+**startFrame** `integer?`; An optional integer, index of start frame in specific scene. Applicable only when a specific scene is exported. By default it will be either first frame of timeline or the start frame of the timeline loop range if defined.
 
-**endFrame**: An integer, index of end frame in specific scene. Applicable only when a specific scene is exported.It is Optional. By default it will be last frame of timeline or the end frame of the timeline loop range if defined.
+**endFrame** `integer?`; An optional integer, index of end frame in specific scene. Applicable only when a specific scene is exported. By default it will be last frame of timeline or the end frame of the timeline loop range if defined.
 
 #### Returns
 
@@ -32,7 +32,7 @@ Nothing.
 
 #### Description
 
-Method;generates the required media from the document by making use of Adobe Media Encoder.
+Method; Generates the required media from the document by making use of Adobe Media Encoder.
 
 #### Example
 

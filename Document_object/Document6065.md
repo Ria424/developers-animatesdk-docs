@@ -10,8 +10,9 @@ document.deleteTaggedSwatchAtIndex(index:int [,palette:int ])
 
 #### Parameters
 
-**index** : It is an integer that speifies the index of the tagged swatch to delete.
-**palette** : It is an integer that speifies the index of the tagged swatch palette,default value is 0.It is optional.  
+**index** `integer`; An integer that speifies the index of the tagged swatch to delete.
+
+**palette** `integer?0`; An optional integer that speifies the index of the tagged swatch palette, default value is 0.
 
 #### Returns
 
@@ -19,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method;delete tagged swatch with given index.
+Method; Delete tagged swatch with given index.
 
 #### Example
 

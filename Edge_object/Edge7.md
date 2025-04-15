@@ -10,7 +10,7 @@ edge.stroke
 
 #### Description
 
-Property; a [Stroke object](../Stroke_object/Stroke_summary.md).
+Property; `Stroke`; a [Stroke object](../Stroke_object/Stroke_summary.md).
 
 #### Example
 

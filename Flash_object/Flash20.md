@@ -10,7 +10,7 @@ fl.documents
 
 #### Description
 
-Read-only property; an array of Document objects (see [Document object](../Document_object/Document_summary.md)) that represent the documents (FLA files) that are currently open for editing.
+Read-only property; `Document[]`; An array of [Document object](../Document_object/Document_summary.md)s that represent the documents (FLA files) that are currently open for editing.
 
 #### Example
 

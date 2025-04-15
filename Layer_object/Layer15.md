@@ -10,11 +10,11 @@ layer.getFiltersAtFrame(frameIndex)
 
 #### Parameters
 
-**frameIndex** - It is an integer that specifies absolute frame index.
+**frameIndex** `integer`; It is an integer that specifies absolute frame index.
 
 #### Returns
 
-An array that contains a list of filters applied to the frame at frameIndex
+`Filter[]`; An array that contains a list of filters applied to the frame at frameIndex
 
 #### Description
 

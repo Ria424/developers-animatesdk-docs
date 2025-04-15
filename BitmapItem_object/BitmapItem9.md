@@ -10,7 +10,7 @@ Flash CS4 Professional.
 
 #### Description
 
-Read-only property; a Boolean value of true if the file that was imported to the Library still exists in the location from where it was imported; false otherwise.
+Read-only property; `boolean`; a boolean value of true if the file that was imported to the Library still exists in the location from where it was imported; false otherwise.
 
 #### Example
 
@@ -18,7 +18,7 @@ Read-only property; a Boolean value of true if the file that was imported to the
 // Assuming the first item in the Library is a bitmap item, the following code displays "true" if the file that was imported into the Library still exists.
 
 var libItem = fl.getDocumentDOM().library.items[0];
-fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
+fl.trace("sourceFileExists = " + libItem.sourceFileExists);
 ```
 
 #### See also

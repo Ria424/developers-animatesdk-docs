@@ -10,7 +10,7 @@ filter.highlightColor
 
 #### Description
 
-Property; the color of the highlight, in one of the following formats:
+Property; `integer | string`; the color of the highlight, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 

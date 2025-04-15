@@ -30,4 +30,4 @@ alert("Process Complete");
 
 #### See also
 
-[confirm()](../Top-Level_Functions_and_Methods/confirm.md), [prompt()](../Top-Level_Functions_and_Methods/prompt.md)
+[confirm()](../Top-level_functions_and_methods/confirm.md), [prompt()](../Top-level_functions_and_methods/prompt.md)

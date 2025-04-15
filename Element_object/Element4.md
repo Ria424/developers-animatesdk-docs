@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-*element.getTransformationPoint()*
+element.getTransformationPoint()
 
 #### Parameters
 
@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A point (for example, *{x:10, y:20}*, where *x* and *y* are floating-point numbers) that specifies the position of the transformation point (also *origin point* or *zero point*) within the element’s coordinate system.
+`Point`; A point (for example, *{x: 10, y: 20}*, where *x* and *y* are floating-point numbers) that specifies the position of the transformation point (also *origin point* or *zero point*) within the element’s coordinate system.
 
 #### Description
 
@@ -31,4 +31,7 @@ var transPoint = fl.getDocumentDOM().getTimeline().layers[0].frames[8].elements[
 
 #### See also
 
-[Document.getTransformationPoint()](../Document_object/Document89.md), [Element.setTransformationPoint()](../Element_object/Element19.md), [Element.transformX](../Element_object/Element23.md), [Element.transformY](../Element_object/Element24.md)
+- [Document.getTransformationPoint()](../Document_object/Document89.md)
+- [Element.setTransformationPoint()](../Element_object/Element19.md)
+- [Element.transformX](../Element_object/Element23.md)
+- [Element.transformY](../Element_object/Element24.md)

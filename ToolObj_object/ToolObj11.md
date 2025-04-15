@@ -22,4 +22,4 @@ Method; called in the configureTool() method of an extensible tool’s JavaScrip
 
 #### Example
 
-See [ConfigureTool()](../Top-Level_Functions_and_Methods/configureTool.md).
+See [ConfigureTool()](../Top-level_functions_and_methods/configureTool.md).

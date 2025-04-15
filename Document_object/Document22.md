@@ -10,7 +10,7 @@ document.autoLabel
 
 #### Description
 
-Property; a Boolean value that is equivalent to the Auto Label check box in the Accessibility panel. You can use this property to tell Flash to automatically label objects on the Stage with the text associated with them.
+Property; `boolean`; a boolean value that is equivalent to the Auto Label check box in the Accessibility panel. You can use this property to tell Flash to automatically label objects on the Stage with the text associated with them.
 
 #### Example
 

@@ -10,7 +10,7 @@ document.accName
 
 #### Description
 
-Property; a string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud.
+Property; `string`; a string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud.
 
 #### Example
 

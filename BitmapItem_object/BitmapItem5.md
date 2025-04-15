@@ -10,7 +10,7 @@ Flash CS6 Professional.
 
 #### Description
 
-Read-only property; an int that specifies the width of the bitmap, in pixels.
+Read-only property; `integer`; an int that specifies the width of the bitmap, in pixels.
 
 #### Example
 

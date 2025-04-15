@@ -10,7 +10,7 @@ document.getCustomFill([objectToFill])
 
 #### Parameters
 
-**objectToFill** A string that specifies the location of the fill object. The following values are valid:
+**objectToFill** `string?"selection"`; A string that specifies the location of the fill object. The following values are valid:
 
 - "toolbar" returns the fill object of the Tools panel and Property inspector.
 
@@ -21,7 +21,7 @@ undefined. This parameter is optional.
 
 #### Returns
 
-The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
+`Fill`; The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
 
 #### Description
 

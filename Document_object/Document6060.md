@@ -10,15 +10,15 @@ document.getIndexForTaggedSwatchesPalette(paletteName:string).
 
 #### Parameters
 
-**paletteName**:It is a string that indicates tagged swatch palette name.
+**paletteName** `string`; A string that indicates tagged swatch palette name.
 
 #### Returns
 
-An integer that specifies the index of the palette.
+`integer`; An integer that specifies the index of the palette.
 
 #### Description
 
-Method;To get the Tagged Swatches palette index for given palette name.
+Method; To get the Tagged Swatches palette index for given palette name.
 
 #### Example
 

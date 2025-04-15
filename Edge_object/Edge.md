@@ -10,7 +10,7 @@ edge.cubicSegmentIndex
 
 #### Description
 
-Read-only property; an integer that specifies the index value of a cubic segment of the edge (see [Shape.getCubicSegmentPoints()](../Shape_object/Shape5.md)).
+Read-only property; `integer`; An integer that specifies the index value of a cubic segment of the edge (see [Shape.getCubicSegmentPoints()](../Shape_object/Shape5.md)).
 
 #### Example
 

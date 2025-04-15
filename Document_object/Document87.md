@@ -10,12 +10,13 @@ document.getTextString([startIndex [, endIndex]])
 
 #### Parameters
 
-**startIndex** An integer that is an index of first character to get. This parameter is optional.
-**endIndex** An integer that is an index of last character to get. This parameter is optional.
+**startIndex** `integer`; An integer that is an index of first character to get. This parameter is optional.
+
+**endIndex** `integer`; An integer that is an index of last character to get. This parameter is optional.
 
 #### Returns
 
-A string that contains the selected text.
+`string`; A string that contains the selected text.
 
 #### Description
 

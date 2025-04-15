@@ -6,11 +6,11 @@ Adobe Animate 2019.
 
 #### Usage
 
-*camera.getPosition(frameIndex)*
+camera.getPosition(frameIndex)
 
 #### Parameters
 
-**frameIndex**: int
+**frameIndex** `integer`;
 
 #### Return
 

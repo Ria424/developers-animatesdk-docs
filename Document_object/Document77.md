@@ -10,11 +10,11 @@ document.getElementProperty(propertyName)
 
 #### Parameters
 
-**propertyName** A string that specifies the name of the Element property for which to retrieve the value.
+**propertyName** `string`; A string that specifies the name of the Element property for which to retrieve the value.
 
 #### Returns
 
-The value of the specified property. Returns null if the property is an indeterminate state, as when multiple elements are selected with different property values. Returns undefined if the property is not a valid property of the selected element.
+`integer | null | undefined`; The value of the specified property. Returns null if the property is an indeterminate state, as when multiple elements are selected with different property values. Returns undefined if the property is not a valid property of the selected element.
 
 #### Description
 

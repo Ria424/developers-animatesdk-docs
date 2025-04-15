@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*library.items*
+library.items
 
 #### Description
 
-Property; an array of item objects in the library.
+Property; `Item[]`; An array of item objects in the library.
 
 #### Example
 

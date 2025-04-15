@@ -10,7 +10,7 @@ document.setBlendMode(mode)
 
 #### Parameters
 
-**mode** A string that represents the desired blending mode for the selected objects. Acceptable values are "normal", "layer", "multiply", "screen", "overlay", "hardlight", "lighten", "darken", "difference", "add", "subtract", "invert", "alpha", and "erase".
+**mode** `"normal" | "layer" | "multiply" | "screen" | "overlay" | "hardlight" | "lighten" | "darken" | "difference" | "add" | "subtract" | "invert" | "alpha" | "erase"`; A string that represents the desired blending mode for the selected objects. Acceptable values are "normal", "layer", "multiply", "screen", "overlay", "hardlight", "lighten", "darken", "difference", "add", "subtract", "invert", "alpha", and "erase".
 
 #### Returns
 

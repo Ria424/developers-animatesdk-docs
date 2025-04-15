@@ -10,11 +10,11 @@ document.duplicatePublishProfile([profileName])
 
 #### Parameters
 
-**profileName** A string that specifies the unique name of the duplicated profile. If you do not specify a name, the method uses the default name. This parameter is optional.
+**profileName** `string`; A string that specifies the unique name of the duplicated profile. If you do not specify a name, the method uses the default name. This parameter is optional.
 
 #### Returns
 
-An integer that is the index of the new profile in the profile list. Returns -1 if the profile cannot be duplicated.
+`integer`; An integer that is the index of the new profile in the profile list. Returns -1 if the profile cannot be duplicated.
 
 #### Description
 

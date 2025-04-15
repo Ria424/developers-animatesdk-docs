@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value: true if you can use the document.testScene() method successfully; false otherwise.
+`boolean`; A boolean value: true if you can use the document.testScene() method successfully; false otherwise.
 
 #### Description
 

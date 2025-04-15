@@ -6,15 +6,15 @@ Adobe Animate 2019.
 
 #### Usage
 
-*camera.getRotation(frameIndex)*
+camera.getRotation(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-int
+`integer`;
 
 #### Description
 

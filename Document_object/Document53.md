@@ -10,11 +10,11 @@ document.documentHasData(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the data to check.
+**name** `string`; A string that specifies the name of the data to check.
 
 #### Returns
 
-A Boolean value: true if the document has persistent data; false otherwise.
+`boolean`; A boolean value: true if the document has persistent data; false otherwise.
 
 #### Description
 

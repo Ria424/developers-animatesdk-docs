@@ -10,12 +10,15 @@ document.mouseDblClk(position, bAltDown, bShiftDown, bShiftSelect)
 
 #### Parameters
 
-**position** A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
-**bAltdown** A Boolean value that records whether the Alt key is down at the time of the event: true for pressed; false
+**position** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
+
+**bAltdown** `boolean`; A boolean value that records whether the Alt key is down at the time of the event: true for pressed; false
 for not pressed.
-**bShiftDown** A Boolean value that records whether the Shift key was down when the event occurred: true for pressed;
+
+**bShiftDown** `boolean`; A boolean value that records whether the Shift key was down when the event occurred: true for pressed;
 false for not pressed.
-**bShiftSelect** A Boolean value that indicates the state of the application preference Shift select: true for on; false for off.
+
+**bShiftSelect** `boolean`; A boolean value that indicates the state of the application preference Shift select: true for on; false for off.
 
 #### Returns
 

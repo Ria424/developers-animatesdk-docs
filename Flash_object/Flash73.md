@@ -10,7 +10,7 @@ fl.spriteSheetExporter
 
 #### Description
 
-Property; returns an instance of the SpriteSheetExporter object.
+Property; `SpriteSheetExporter`; Returns an instance of the SpriteSheetExporter object.
 
 #### Example
 

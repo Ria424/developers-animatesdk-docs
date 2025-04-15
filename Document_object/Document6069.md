@@ -10,16 +10,15 @@ document.convertToDoc(fileURI, doctype [, fileClose])
 
 #### Parameters
 
-**fileURI**: A string, expressed as a file:/// URI, that specifies the path of the generated file after conversion.
+**fileURI**: `string`; A string, expressed as a file:/// URI, that specifies the path of the generated file after conversion.
 
-**docType**: A string value that specifies the required document type to be generated. To find document type, you can use document.type property. For example, fl.trace(fl.getDocumentDOM().type).
+**docType**: `string`; A string value that specifies the required document type to be generated. To find document type, you can use document.type property. For example, fl.trace(fl.getDocumentDOM().type).
 
-**fileClose**: A Boolean value that specifies whether to close the generated file after conversion. Specifying true closes the generated file. The default is false. It is optional.
+**fileClose**: `boolean?false`; A boolean value that specifies whether to close the generated file after conversion. Specifying true closes the generated file. The default is false. It is optional.
 
 #### Returns
 
-A Boolean value.
-True if document converted to expected document type successfully. False otherwise.
+`boolean`; A boolean value. True if document converted to expected document type successfully. False otherwise.
 
 #### Description
 

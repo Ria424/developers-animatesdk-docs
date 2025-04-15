@@ -13,7 +13,7 @@ fl.findObjectInDocByType(elementType, document)
 **elementType** A string that represents the type of element to search for. For acceptable values, see
 [Element.elementType](../Element_object/Element1.md).
 
-**document** The [Document object](../Document_object/Document_summary.md) in which to search for the specified item.
+**document** `Document`; The [Document object](../Document_object/Document_summary.md) in which to search for the specified item.
 
 #### Returns
 

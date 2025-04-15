@@ -10,7 +10,7 @@ Flash CS3 Professional.
 
 #### Description
 
-Property; a float value between -180 and 180 that specifies the *y* skew value of symbols, drawing objects, and primitive rectangles and ovals.
+Property; `float`; a float value between -180 and 180 that specifies the *y* skew value of symbols, drawing objects, and primitive rectangles and ovals.
 
 #### Example
 

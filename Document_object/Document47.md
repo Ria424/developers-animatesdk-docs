@@ -10,7 +10,7 @@ document.disableFilter(filterIndex)
 
 #### Parameters
 
-**filterIndex** An integer representing the zero-based index of the filter in the Filters list.
+**filterIndex** `integer`; An integer representing the zero-based index of the filter in the Filters list.
 
 #### Returns
 

@@ -10,7 +10,7 @@ layer.frames
 
 #### Description
 
-Read-only property; an array of Frame objects (see [Frame object](../Frame_object/Frame_summary.md)).
+Read-only property; `Frame[]`; An array of [Frame object](../Frame_object/Frame_summary.md)s.
 
 #### Example
 

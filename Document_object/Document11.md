@@ -10,7 +10,7 @@ document.addNewScene([name])
 
 #### Parameters
 
-**name** Specifies the name of the scene. If you do not specify a name, a new scene name is generated.
+**name** `string`; Specifies the name of the scene. If you do not specify a name, a new scene name is generated.
 
 #### Returns
 

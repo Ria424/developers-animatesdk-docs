@@ -10,7 +10,7 @@ document.enterEditMode([editMode])
 
 #### Parameters
 
-**editMode** A string that specifies the editing mode. Acceptable values are "inPlace" or "newWindow". If no parameter is specified, the default is symbol-editing mode. This parameter is optional.
+**editMode** `string`; A string that specifies the editing mode. Acceptable values are "inPlace" or "newWindow". If no parameter is specified, the default is symbol-editing mode. This parameter is optional.
 
 #### Returns
 

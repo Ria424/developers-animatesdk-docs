@@ -6,20 +6,20 @@ Adobe Animate 2019.
 
 #### Usage
 
-*camera.getTint(frameIndex)*
+camera.getTint(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-tint object
+Tint object
 e.g.{percent:0,red:0,green:0,blue:0}
 
 #### Description
 
-Return object with two properties: ‘percent’ & ‘color’.
+Return object with two properties: 'percent' & 'color'.
 
 #### Example
 
@@ -29,7 +29,12 @@ timeline.camera.cameraEnabled = true;
 timeline.camera.tintEnabled = true;
 
 var tintVal = timeline.camera.getTint(0);
-fl.trace("Tint Percentage: " + tintVal.percent + " Red: " + tintVal.red + " Green: " + tintVal.green + " Blue: " + tintVal.blue);
+fl.trace(
+    "Tint Percentage: " + tintVal.percent
+    + " Red: " + tintVal.red
+    + " Green: " + tintVal.green
+    + " Blue: " + tintVal.blue
+);
 ```
 
 #### See also

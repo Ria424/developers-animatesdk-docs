@@ -14,7 +14,7 @@ fl.toggleBreakpoint(String fileURI, int line, Boolean enable)
 
 **line** An integer; the line number at which to toggle the breakpoint.
 
-**enable** Boolean; if set to true, the breakpoint is enabled. If set to false, the breakpoint is disabled.
+**enable** `boolean`; If set to true, the breakpoint is enabled. If set to false, the breakpoint is disabled.
 
 #### Description
 

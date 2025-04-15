@@ -10,7 +10,7 @@ document.timelines
 
 #### Description
 
-Read-only property; an array of Timeline objects (see [Timeline object](../Timeline_object/Timeline_summary.md)).
+Read-only property; `Timeline[]`; an array of Timeline objects (see [Timeline object](../Timeline_object/Timeline_summary.md)).
 
 #### Example
 

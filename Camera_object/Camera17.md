@@ -10,7 +10,7 @@ camera.cameraEnabled
 
 #### Type
 
-Boolean
+boolean
 
 #### Description
 

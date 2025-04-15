@@ -10,7 +10,7 @@ document.setFilters(filterArray)
 
 #### Parameters
 
-**filterArray** The array of filters currently specified.
+**filterArray** `Filter[]`; The array of filters currently specified.
 
 #### Returns
 

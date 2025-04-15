@@ -10,7 +10,7 @@ filter.enabled
 
 #### Description
 
-Property; a Boolean value that specifies whether the specified filter is enabled (true) or disabled (false).
+Property; `boolean`; A boolean value that specifies whether the specified filter is enabled (true) or disabled (false).
 
 #### Example
 

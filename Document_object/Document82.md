@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A string that represents the Flash Player version specified by using document.setPlayerVersion(). If no value has been set, returns the value specified in the Publish Settings dialog box.
+`string`; A string that represents the Flash Player version specified by using document.setPlayerVersion(). If no value has been set, returns the value specified in the Publish Settings dialog box.
 
 #### Description
 

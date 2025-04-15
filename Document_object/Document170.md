@@ -10,7 +10,7 @@ document.name
 
 #### Description
 
-Read-only property; a string that represents the name of a document (FLA file).
+Read-only property; `string`; a string that represents the name of a document (FLA file).
 
 #### Example
 

@@ -10,7 +10,7 @@ Flash MX 2004.
 
 #### Parameters
 
-**color** The color of subsequently drawn data, in one of the following formats:
+**color** `integer | string`; The color of subsequently drawn data, in one of the following formats:
 
 - A string in the format "\#RRGGBB" or "\#RRGGBBAA"
 

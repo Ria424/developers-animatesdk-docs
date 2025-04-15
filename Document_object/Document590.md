@@ -10,8 +10,9 @@ document.setOvalObjectProperty(propertyName, value)
 
 #### Parameters
 
-**propertyName** A string that specifies the property to be set. For acceptable values, see the Property summary table for the [Oval object](../Oval_object/Oval_summary.md).
-**value** The value to be assigned to the property. Acceptable values vary depending on the property you specify in
+**propertyName** `string`; A string that specifies the property to be set. For acceptable values, see the Property summary table for the [Oval object](../Oval_object/Oval_summary.md).
+
+**value** `any`; The value to be assigned to the property. Acceptable values vary depending on the property you specify in
 *propertyName*.
 
 #### Returns

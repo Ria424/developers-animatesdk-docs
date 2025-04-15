@@ -10,7 +10,7 @@ document.width
 
 #### Description
 
-Property; an integer that specifies the width of the document (Stage) in pixels.
+Property; `integer`; An integer that specifies the width of the document (Stage) in pixels.
 
 #### Example
 

@@ -10,7 +10,7 @@ document.as3AutoDeclare
 
 #### Description
 
-Property; a Boolean value that describes whether the instances placed on the Stage are automatically added to user- defined timeline classes. The default value is true.
+Property; `boolean`; a boolean value that describes whether the instances placed on the Stage are automatically added to user- defined timeline classes. The default value is true.
 
 #### Example
 

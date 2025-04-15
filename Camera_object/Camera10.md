@@ -10,19 +10,27 @@ camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
 #### Parameters
 
-frameIndex:int brightness:number contrast:number saturation:number hue:number
+**frameIndex** `integer`;
+
+**brightness** `number`;
+
+**contrast** `number`;
+
+**saturation** `number`;
+
+**hue** `number`;
 
 #### Return
 
-nothing
+Nothing.
 
 #### Description
 
-Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
+Set camera color filter using decomposed values of (brightness, contrast, saturation, hue).
 
 #### Example
 
-The following example sets Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
+The following example sets Set camera color filter using decomposed values of (brightness, contrast, saturation, hue).
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();

@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A Document object, or null if no documents are open.
+`Document`; A [Document object](../Document_object/Document_summary.md), or null if no documents are open.
 
 #### Description
 
-Method; retrieves the DOM ([Document object](../Document_object/Document_summary.md)) of the currently active document (FLA file). If one or more documents are open but a document does not currently have focus (for example, if a JSFL file has focus), retrieves the DOM of the most recently active document.
+Method; Retrieves the DOM ([Document object](../Document_object/Document_summary.md)) of the currently active document (FLA file). If one or more documents are open but a document does not currently have focus (for example, if a JSFL file has focus), retrieves the DOM of the most recently active document.
 
 #### Example
 

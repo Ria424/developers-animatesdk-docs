@@ -10,7 +10,8 @@ layer.setColorTransformAtFrame(frameIndex,cxformObject)
 
 #### Parameters
 
-**frameIndex** – It is an integer that specifies absolute frame index.
+**frameIndex** `integer`; It is an integer that specifies absolute frame index.
+
 **cxFormObject** - The cxform to be set.
 
 #### Returns

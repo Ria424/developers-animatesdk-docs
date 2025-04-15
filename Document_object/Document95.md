@@ -10,11 +10,11 @@ document.importPublishProfileString(xmlString)
 
 #### Parameters
 
-**xmlString** A string that contains the XML data to be imported as the current profile.
+**xmlString** `string`; A string that contains the XML data to be imported as the current profile.
 
 #### Returns
 
-A Boolean value of true if the string was successfully imported; false otherwise.
+`boolean`; A boolean value of true if the string was successfully imported; false otherwise.
 
 #### Description
 

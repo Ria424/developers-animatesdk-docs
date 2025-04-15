@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*drawingLayer.drawPath(path)*
+drawingLayer.drawPath(path)
 
 #### Parameters
 
-**path** A [Path object](../Path_object/Path_summary.md) to draw.
+**path** `Path`; A [Path object](../Path_object/Path_summary.md) to draw.
 
 #### Returns
 

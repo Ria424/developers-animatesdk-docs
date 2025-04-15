@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-An array that contains a list of filters applied to the currently selected objects.
+`Filter[]`; An array that contains a list of filters applied to the currently selected objects.
 
 #### Description
 

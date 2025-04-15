@@ -10,7 +10,7 @@ document.as3ExportFrame
 
 #### Description
 
-Property; an integer that specifies in which frame to export ActionScript 3.0 classes. By default, classes are exported in Frame 1.
+Property; `integer`; an integer that specifies in which frame to export ActionScript 3.0 classes. By default, classes are exported in Frame 1.
 
 #### Example
 

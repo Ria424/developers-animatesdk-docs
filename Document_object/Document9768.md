@@ -10,7 +10,7 @@ document.setStrokeColor(color)
 
 #### Parameters
 
-**color** The color of the stroke, in one of the following formats:
+**color** `integer | string`; The color of the stroke, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 
@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; changes the stroke color of the selection to the specified color. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).
+Method; Changes the stroke color of the selection to the specified color. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).
 
 #### Example
 

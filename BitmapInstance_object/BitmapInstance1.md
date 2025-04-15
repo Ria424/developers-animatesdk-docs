@@ -10,7 +10,7 @@ bitmapInstance.hPixels
 
 #### Description
 
-Read-only property; an integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
+Read-only property; `integer`; an integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
 
 #### Example
 

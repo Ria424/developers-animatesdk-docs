@@ -10,11 +10,11 @@ document.renameScene(name)
 
 #### Parameters
 
-**name** A string that specifies the new name of the scene.
+**name** `string`; A string that specifies the new name of the scene.
 
 #### Returns
 
-A Boolean value: true if the name is changed successfully; false otherwise. If the new name is not unique, for example, the method returns false.
+`boolean`; A boolean value: true if the name is changed successfully; false otherwise. If the new name is not unique, for example, the method returns false.
 
 #### Description
 

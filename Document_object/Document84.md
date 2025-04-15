@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-The bounding rectangle of the current selection, or 0 if nothing is selected. For information on the format of the return value, see [Document.addNewRectangle()](../Document_object/Document10.md).
+`Rectangle`; The bounding rectangle of the current selection, or 0 if nothing is selected. For information on the format of the return value, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 #### Description
 

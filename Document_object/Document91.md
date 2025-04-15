@@ -10,7 +10,7 @@ document.height
 
 #### Description
 
-Property; an integer that specifies the height of the document (Stage) in pixels.
+Property; `integer`; an integer that specifies the height of the document (Stage) in pixels.
 
 #### Example
 

@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-string; A string that contains the text that is currently selected in the Actions panel.
+`string`; A string that contains the text that is currently selected in the Actions panel.
 
 #### Description
 
@@ -31,4 +31,7 @@ fl.trace(apText);
 
 #### See also
 
-[ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md), [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md), [ActionsPanel.replaceSelectedText()](../ActionsPanel_object/ActionsPanel5.md), [ActionsPanel.setSelection()](../ActionsPanel_object/ActionsPanel7.md)
+- [ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md)
+- [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md)
+- [ActionsPanel.replaceSelectedText()](../ActionsPanel_object/ActionsPanel5.md)
+- [ActionsPanel.setSelection()](../ActionsPanel_object/ActionsPanel7.md)

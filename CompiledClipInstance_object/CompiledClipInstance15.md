@@ -10,7 +10,7 @@ compiledClipInstance.description
 
 #### Description
 
-Property; a string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.
+Property; `string`; a string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.
 
 #### Example
 

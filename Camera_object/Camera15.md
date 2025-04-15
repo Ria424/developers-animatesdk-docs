@@ -10,11 +10,11 @@ camera.resetColorFilter(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-Nothing
+Nothing.
 
 #### Description
 

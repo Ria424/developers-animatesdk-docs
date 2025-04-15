@@ -10,11 +10,11 @@ document.getTaggedSwatchByName(name:string).
 
 #### Parameters
 
-**name**:It is a string that specifies the name of the tagged swatch.
+**name** `string`; A string that specifies the name of the tagged swatch.
 
 #### Returns
 
-Swatch object.
+`Swatch`; Swatch object.
 
 #### Description
 
@@ -31,5 +31,5 @@ var swatch = document.getTaggedSwatchByName("swatch1");
 
 #### See also
 
-[Document.getTaggedSwatchesPaletteList()](../Document_object/Document6063.md)
-[Document.getTaggedSwatches()](../Document_object/Document6064.md)
+- [Document.getTaggedSwatchesPaletteList()](../Document_object/Document6063.md)
+- [Document.getTaggedSwatches()](../Document_object/Document6064.md)

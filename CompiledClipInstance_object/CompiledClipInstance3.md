@@ -10,7 +10,7 @@ compiledClipInstance.blendMode
 
 #### Description
 
-Property; a string that specifies the blend mode. Valid blend modes are: normal, layer, darken, multiply, lighten, screen, overlay, hardlight, add, subtract, difference, invert, alpha, and erase.
+Property; `string`; a string that specifies the blend mode. Valid blend modes are: normal, layer, darken, multiply, lighten, screen, overlay, hardlight, add, subtract, difference, invert, alpha, and erase.
 
 #### Example
 

@@ -10,8 +10,9 @@ layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Parameters
 
-**frameIndex** – It is an integer that specifies absolute frame index.
-**filterArray** - The array of filters to be set
+**frameIndex** `integer`; It is an integer that specifies absolute frame index.
+
+**filterArray** `Filter[]`; The array of filters to be set
 
 #### Returns
 
@@ -27,5 +28,5 @@ The following example copies the filter applied at the first frame and sets it t
 
 ```javascript
 var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);
-an. getDocumentDOM().getTimeline().layers[0].setFiltersAtFrame(9,myFilters);
+an. getDocumentDOM().getTimeline().layers[0].setFiltersAtFrame(9, myFilters);
 ```

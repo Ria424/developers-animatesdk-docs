@@ -35,4 +35,4 @@ function keyDown() {
 
 #### See also
 
-[keyUp()](../Top-Level_Functions_and_Methods/keyUp.md), [Tools.getKeyDown()](../Tools_object/Tools4.md)
+[keyUp()](../Top-level_functions_and_methods/keyUp.md), [Tools.getKeyDown()](../Tools_object/Tools4.md)

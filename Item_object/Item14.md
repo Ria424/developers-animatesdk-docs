@@ -10,7 +10,7 @@ item.removeData(name)
 
 #### Parameters
 
-**name** Specifies the name of the data to remove from the library item.
+**name** `string`; Specifies the name of the data to remove from the library item.
 
 #### Returns
 

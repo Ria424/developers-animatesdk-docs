@@ -10,7 +10,7 @@ fl.as3PackagePaths
 
 #### Description
 
-Property; a string that corresponds to the global Classpath setting in the ActionScript 3.0 Settings dialog box. Items in the string are delimited by semi-colons. To view or change ActionScript 2.0 Classpath settings, use [Flash.packagePaths - dropped](../Flash_object/Flash48.md).
+Property; `string`; A string that corresponds to the global Classpath setting in the ActionScript 3.0 Settings dialog box. Items in the string are delimited by semi-colons. To view or change ActionScript 2.0 Classpath settings, use [Flash.packagePaths - dropped](../Flash_object/Flash48.md).
 
 #### Example
 

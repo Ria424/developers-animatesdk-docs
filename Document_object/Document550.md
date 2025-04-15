@@ -10,7 +10,7 @@ document.setInstanceBrightness(brightness)
 
 #### Parameters
 
-**brightness** An integer that specifies brightness as a value from -100 (black) to 100 (white).
+**brightness** `integer`; An integer that specifies brightness as a value from -100 (black) to 100 (white).
 
 #### Returns
 

@@ -10,7 +10,7 @@ document.zoomFactor
 
 #### Description
 
-Property; specifies the zoom percent of the Stage at authoring time. A value of 1 equals 100 percent zoom, 8 equals 800 percent, .5 equals 50 percent, and so on.
+Property; `number`; Specifies the zoom percent of the Stage at authoring time. A value of 1 equals 100 percent zoom, 8 equals 800 percent, .5 equals 50 percent, and so on.
 
 #### Example
 

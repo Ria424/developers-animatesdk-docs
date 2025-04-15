@@ -6,15 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-document.importPublishProfile( fileURI )
+document.importPublishProfile(fileURI)
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the path of the XML file defining the profile to import.
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the XML file defining the profile to import.
 
 #### Returns
 
-An integer that is the index of the imported profile in the profiles list. Returns -1 if the profile cannot be imported.
+`integer`; An integer that is the index of the imported profile in the profiles list. Returns -1 if the profile cannot be imported.
 
 #### Description
 

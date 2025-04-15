@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-*compilerErrors.clear()*
+compilerErrors.clear()
 
 #### Parameters
 

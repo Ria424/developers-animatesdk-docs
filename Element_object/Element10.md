@@ -10,7 +10,7 @@ Flash MX 2004.
 
 #### Description
 
-Property; a Matrix object. A matrix has properties *a, b, c, d, tx, and ty*. The *a, b, c,* and *d* properties are floating-point values; the tx and ty properties are coordinates. See [Matrix object](../Matrix_object/Matrix_summary.md).
+Property; `Matrix`; A matrix has properties *a, b, c, d, tx, and ty*. The *a, b, c,* and *d* properties are floating-point values; the tx and ty properties are coordinates. See [Matrix object](../Matrix_object/Matrix_summary.md).
 
 #### Example
 

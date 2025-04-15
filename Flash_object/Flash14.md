@@ -10,7 +10,7 @@ fl.contactSensitiveSelection
 
 #### Description
 
-A Boolean value that specifies whether Contact Sensitive selection mode is enabled (true) or not (false).
+`boolean`; A boolean value that specifies whether Contact Sensitive selection mode is enabled (true) or not (false).
 
 #### Example
 

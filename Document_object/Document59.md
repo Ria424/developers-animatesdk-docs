@@ -10,7 +10,7 @@ document.enableFilter(filterIndex)
 
 #### Parameters
 
-**filterIndex** An integer specifying the zero-based index of the filter in the Filters list to enable.
+**filterIndex** `integer`; An integer specifying the zero-based index of the filter in the Filters list to enable.
 
 #### Returns
 

@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-Returns boolean. Returns true if the "Enable detailed telemetry" checkbox is selected; otherwise false.
+`boolean`; Returns true if the "Enable detailed telemetry" checkbox is selected; otherwise false.
 
 #### Description
 

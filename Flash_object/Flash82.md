@@ -14,7 +14,7 @@ fl.addToolInToolbar(toolName)
 
 #### Returns
 
-boolean : Returns true if the specified tool was added successfully in the Tools Panel.
+`boolean`; Returns true if the specified tool was added successfully in the Tools Panel.
 
 #### Description
 

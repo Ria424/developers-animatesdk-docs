@@ -10,11 +10,11 @@ fl.xmlPanel(xmlURI)
 
 #### Parameters
 
-**xmlURI** A URI specifying the XML file that defines the controls in the panel. You must specify the full path name.
+**xmlURI** `string`; A URI specifying the XML file that defines the controls in the panel. You must specify the full path name.
 
 #### Returns
 
-XMLUI. The object returned contains properties for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss," which will have a string value that is either "accept" or "cancel".
+`XMLUI`; The object returned contains properties for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss," which will have a string value that is either "accept" or "cancel".
 
 #### Description
 

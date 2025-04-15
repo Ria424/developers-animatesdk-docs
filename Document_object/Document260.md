@@ -10,7 +10,7 @@ document.removeDataFromSelection(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the persistent data to remove.
+**name** `string`; A string that specifies the name of the persistent data to remove.
 
 #### Returns
 

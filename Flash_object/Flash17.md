@@ -10,7 +10,7 @@ fl.createNewDocList
 
 #### Description
 
-Read-only property; an array of strings that represent the various types of documents that can be created.
+Read-only property; `string[]`; an array of strings that represent the various types of documents that can be created.
 
 #### Example
 

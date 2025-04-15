@@ -10,7 +10,7 @@ fl.closeAll([bPromptToSave])
 
 #### Parameters
 
-**bPromptToSave** An optional Boolean value that specifies whether to display the Save dialog box for any files that have been changed since they were previously saved, or the Save As dialog box for files that have never been saved. The default value is true.
+**bPromptToSave** `boolean?`; An optional Boolean value that specifies whether to display the Save dialog box for any files that have been changed since they were previously saved, or the Save As dialog box for files that have never been saved. The default value is true.
 
 #### Returns
 

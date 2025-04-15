@@ -10,7 +10,7 @@ fl.outputPanel
 
 #### Description
 
-Read-only property; reference to the [OutputPanel object](../OutputPanel_object/OutputPanel_summary.md).
+Read-only property; `OutputPanel`; Reference to the [OutputPanel object](../OutputPanel_object/OutputPanel_summary.md).
 
 #### Example
 

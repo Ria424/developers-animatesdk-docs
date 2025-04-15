@@ -10,7 +10,7 @@ document.getCustomStroke([locationOfStroke])
 
 #### Parameters
 
-**locationOfStroke** A string that specifies the location of the stroke object. The following values are valid:
+**locationOfStroke** `string?"selection"`; A string that specifies the location of the stroke object. The following values are valid:
 
 - "toolbar", if set, returns the stroke object of the Tools panel and Property inspector.
 
@@ -20,7 +20,7 @@ If you omit this parameter, it defaults to "selection". If there is no selection
 
 #### Returns
 
-The [Stroke object](../Stroke_object/Stroke_summary.md) specified by the *locationOfStroke* parameter, if successful; otherwise, it returns undefined.
+`Stroke`; The [Stroke object](../Stroke_object/Stroke_summary.md) specified by the *locationOfStroke* parameter, if successful; otherwise, it returns undefined.
 
 #### Description
 

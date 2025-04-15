@@ -10,9 +10,9 @@ Flash CS4 Professional.
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
 
-**quality** A number, from 1-100, that determines the quality of the exported image file. A higher number indicates higher quality. The default is 80. New in Flash CS6 Professional.
+**quality** `integer`; A number, from 1-100, that determines the quality of the exported image file. A higher number indicates higher quality. The default is 80. New in Flash CS6 Professional.
 
 #### Returns
 

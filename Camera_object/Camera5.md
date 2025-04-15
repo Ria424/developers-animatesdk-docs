@@ -10,12 +10,11 @@ camera.getColorFilter(frameIndex)
 
 #### Parameters
 
-frameIndex:int
+**frameIndex** `integer`;
 
 #### Return
 
-object
-e.g.{brightness:0,contrast:0,saturation:0,hue:0}
+{brightness: 0,contrast: 0, saturation: 0, hue: 0}
 
 #### Description
 

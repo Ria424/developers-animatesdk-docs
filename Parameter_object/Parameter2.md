@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-parameter.listIndex
+Parameter.listIndex
 
 #### Description
 
-Property; the value of the selected list item. This property is valid only if parameter.valueType is " List ".
+Property; The value of the selected list item. This property is valid only if parameter.valueType is "List".
 
 #### Example
 

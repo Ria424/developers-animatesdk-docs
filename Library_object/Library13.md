@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-*library.renameItem(name)*
+Library.renameItem(name)
 
 #### Parameters
 
-**name** A string that specifies a new name for the library item.
+**name** `string`; Specifies a new name for the library item.
 
 #### Returns
 
-A Boolean value of true if the name of the item changes successfully, *false* otherwise. If multiple items are selected, no names are changed, and the return value is *false* (to match user interface behavior).
+`boolean`; *true* if the name of the item changes successfully, *false* otherwise. If multiple items are selected, no names are changed, and the return value is *false* (to match user interface behavior).
 
 #### Description
 
-Method; renames the currently selected library item in the Library panel.
+Method; Renames the currently selected library item in the Library panel.
 
 #### Example
 

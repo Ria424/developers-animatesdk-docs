@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.deletePublishProfile()
+Document.deletePublishProfile()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; deletes the currently active profile, if there is more than one. There must be at least one profile left.
+Method; Deletes the currently active profile, if there is more than one. There must be at least one profile left.
 
 #### Example
 

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.exportSWC(outputURI)*
+SymbolItem.exportSWC(outputURI)
 
 #### Parameters
 
-**outputURI** A string, expressed as a file:/// URI, that specifies the SWC file to which the method will export the symbol. The *outputURI* must reference a local file. Flash does not create a folder if *outputURI* does not exist.
+**outputURI** `string`; A string, expressed as a file:/// URI, that specifies the SWC file to which the method will export the symbol. The *outputURI* must reference a local file. Flash does not create a folder if *outputURI* does not exist.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; exports the symbol item to a SWC file.
+Method; Exports the symbol item to a SWC file.
 
 #### Example
 

@@ -10,7 +10,7 @@ Tween.startFrame
 
 #### Description
 
-Start frame of a tween.
+`integer`; Start frame of a tween.
 
 #### Example
 

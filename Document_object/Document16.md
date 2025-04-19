@@ -6,11 +6,11 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.as3AutoDeclare
+Document.as3AutoDeclare
 
 #### Description
 
-Property; `boolean`; a boolean value that describes whether the instances placed on the Stage are automatically added to user- defined timeline classes. The default value is true.
+Property; `boolean`; A boolean value that describes whether the instances placed on the Stage are automatically added to user-defined timeline classes. The default value is true.
 
 #### Example
 

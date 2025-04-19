@@ -6,11 +6,11 @@ Flash Pro CS6.
 
 #### Usage
 
-symbolInstance.is3D
+SymbolInstance.is3D
 
 #### Description
 
-Read-only property; a boolean value that indicates whether the symbol instance contains a 3D matrix (transform).
+Read-only property; `boolean`; Indicates whether the symbol instance contains a 3D matrix (transform).
 
 #### Example
 

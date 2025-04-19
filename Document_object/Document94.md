@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.importPublishProfile(fileURI)
+Document.importPublishProfile(fileURI)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ document.importPublishProfile(fileURI)
 
 #### Description
 
-Method; imports a profile from a file.
+Method; Imports a profile from a file.
 
 #### Example
 

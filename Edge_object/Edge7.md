@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-edge.stroke
+Edge.stroke
 
 #### Description
 

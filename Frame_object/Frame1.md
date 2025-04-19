@@ -6,7 +6,7 @@ Flash Professional CS5.
 
 #### Usage
 
-*frame.convertMotionObjectTo3D()*
+frame.convertMotionObjectTo3D()
 
 #### Description
 

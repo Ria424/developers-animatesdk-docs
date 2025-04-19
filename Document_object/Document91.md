@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.height
+Document.height
 
 #### Description
 
-Property; `integer`; an integer that specifies the height of the document (Stage) in pixels.
+Property; `integer`; Specifies the height of the document (Stage) in pixels.
 
 #### Example
 

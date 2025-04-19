@@ -10,11 +10,11 @@ None.
 
 #### Returns
 
-An array of values for all currently selected items in the library.
+`Item[]`; An array of values for all currently selected items in the library.
 
 #### Description
 
-Method; gets the array of all currently selected items in the library.
+Method; Gets the array of all currently selected items in the library.
 
 #### Example
 

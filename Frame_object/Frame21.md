@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.motionTweenSync*
+Frame.motionTweenSync
 
 #### Description
 
-Property; a Boolean value that if set to true, synchronizes the animation of the tweened object with the main timeline.
+Property; `boolean`; If set to true, synchronizes the animation of the tweened object with the main timeline.
 
 #### Example
 

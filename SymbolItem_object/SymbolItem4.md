@@ -6,17 +6,17 @@ Flash Pro CS6.
 
 #### Usage
 
-*symbolItem.exportToPNGSequence(outputURI [, startFrameNum ] [, endFrameNum ] [, matrix])*
+SymbolItem.exportToPNGSequence(outputURI [, startFrameNum ] [, endFrameNum ] [, matrix])
 
 #### Parameters
 
-**outputURI** The URI to export the PNG sequence files to. This URI must reference a local file. For example: file:///c|/tests/mytest.png.
+**outputURI** `string`; The URI to export the PNG sequence files to. This URI must reference a local file. For example: file:///c|/tests/mytest.png.
 
-**startFrameNum** An integer indicating the first frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
+**startFrameNum** `integer`; An integer indicating the first frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
 
-**endFrameNum** An integer indicating the last frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
+**endFrameNum** `integer`; An integer indicating the last frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
 
-**matrix** Optional. A matrix to be appended to the exported PNG sequence.
+**matrix** `Matrix?`; Optional. A matrix to be appended to the exported PNG sequence.
 
 #### Returns
 
@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; exports a movie clip, graphic, or button symbol to a sequence of PNG files on disk.
+Method; Exports a movie clip, graphic, or button symbol to a sequence of PNG files on disk.
 
 #### Example
 

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-bitmapInstance.setBits(bitmap)
+BitmapInstance.setBits(bitmap)
 
 #### Parameters
 
-**bitmap** An object that contains height, width, depth, bits, and cTab properties. The height, width, and depth propertiesare integers. The bits property is a byte array. The cTab property is required only for bitmaps with a bit depth of 8 or less and is a string that represents a color value in the form "\#RRGGBB".
+**bitmap** `{height: integer; width: integer; depth: integer; bits: integer; cTab: integer}`; An object that contains height, width, depth, bits, and cTab properties. The height, width, and depth propertiesare integers. The bits property is a byte array. The cTab property is required only for bitmaps with a bit depth of 8 or less and is a string that represents a color value in the form "\#RRGGBB".
 ***Note:** The byte array is meaningful only when referenced by an external library. You typically use it only when creating an extensible tool or effect.*
 
 #### Returns
@@ -19,7 +19,7 @@ Nothing.
 
 #### Description
 
-Method; sets the bits of an existing bitmap element. This lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning the bitmap to Animate.
+Method; Sets the bits of an existing bitmap element. This lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning the bitmap to Animate.
 
 #### Example
 

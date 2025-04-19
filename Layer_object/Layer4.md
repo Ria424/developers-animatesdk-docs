@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-layer.height
+Layer.height
 
 #### Description
 
-Property; an integer that specifies the percentage layer height; equivalent to the Layer height value in the Layer Properties dialog box. Acceptable values represent percentages of the default height: 100, 200, or 300.
+Property; `integer`; Specifies the percentage layer height; equivalent to the Layer height value in the Layer Properties dialog box. Acceptable values represent percentages of the default height: 100, 200, or 300.
 
 #### Example
 

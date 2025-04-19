@@ -10,7 +10,7 @@ matrix.a
 
 #### Description
 
-Property; a floating-point value that specifies the (0,0) element in the transformation matrix. This value represents the scale factor of the object’s *x*-axis.
+Property; `float`; a floating-point value that specifies the (0,0) element in the transformation matrix. This value represents the scale factor of the object’s *x*-axis.
 
 #### Example
 

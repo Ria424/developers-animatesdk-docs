@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.sourceAutoUpdate*
+SymbolItem.sourceAutoUpdate
 
 #### Description
 
-Property; a Boolean value that specifies whether the item is updated when the FLA file is published. The default value is false. Used for shared library symbols.
+Property; `boolean`; A boolean value that specifies whether the item is updated when the FLA file is published. The default value is false. Used for shared library symbols.
 
 #### Example
 

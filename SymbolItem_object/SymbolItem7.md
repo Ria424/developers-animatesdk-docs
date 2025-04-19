@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-*symbolItem.scalingGridRect*
+SymbolItem.scalingGridRect
 
 #### Description
 
-Property; a Rectangle object that specifies the locations of the four 9-slice guides. For information on the format of the rectangle, see [Document.addNewRectangle()](../Document_object/Document10.md).
+Property; `Rectangle`; A Rectangle object that specifies the locations of the four 9-slice guides. For information on the format of the rectangle, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 #### Example
 

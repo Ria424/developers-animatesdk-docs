@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getAlignToDocument()
+Document.getAlignToDocument()
 
 #### Parameters
 
@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-`boolean`; A boolean value: true if the preference is set to align the objects to the Stage; false otherwise.
+`boolean`; true if the preference is set to align the objects to the Stage; false otherwise.
 
 #### Description
 

@@ -6,13 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-document.getTextString([startIndex [, endIndex]])
+Document.getTextString([startIndex [, endIndex]])
 
 #### Parameters
 
-**startIndex** `integer`; An integer that is an index of first character to get. This parameter is optional.
+**startIndex** `integer?`; An integer that is an index of first character to get. This parameter is optional.
 
-**endIndex** `integer`; An integer that is an index of last character to get. This parameter is optional.
+**endIndex** `integer?`; An integer that is an index of last character to get. This parameter is optional.
 
 #### Returns
 
@@ -20,7 +20,7 @@ document.getTextString([startIndex [, endIndex]])
 
 #### Description
 
-Method; gets the currently selected text. If the optional parameters are not passed, the current text selection is used. If text is not currently opened for editing, the whole text string is returned. If only *startIndex* is passed, the string starting at that index and ending at the end of the field is returned. If *startIndex* and *endIndex* are passed, the string starting from *startIndex* up to, but not including, *endIndex* is returned.
+Method; Gets the currently selected text. If the optional parameters are not passed, the current text selection is used. If text is not currently opened for editing, the whole text string is returned. If only *startIndex* is passed, the string starting at that index and ending at the end of the field is returned. If *startIndex* and *endIndex* are passed, the string starting from *startIndex* up to, but not including, *endIndex* is returned.
 If there are several text fields selected, the concatenation of all the strings is returned.
 
 #### Example

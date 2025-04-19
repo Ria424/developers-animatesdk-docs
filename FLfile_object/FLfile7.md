@@ -6,11 +6,11 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.getModificationDateObj(fileOrFolderURI)*
+FLfile.getModificationDateObj(fileOrFolderURI)
 
 #### Parameters
 
-**fileOrFolderURI** A string, expressed as a file:/// URI, specifying the file or folder whose modification date and time you want to retrieve as a JavaScript Date object.
+**fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder whose modification date and time you want to retrieve as a JavaScript Date object.
 
 #### Returns
 
@@ -18,7 +18,7 @@ A JavaScript Date object that represents the date and time when the specified fi
 
 #### Description
 
-Method; returns a JavaScript Date object that represents the date and time when the specified file or folder was last modified.
+Method; Returns a JavaScript Date object that represents the date and time when the specified file or folder was last modified.
 
 #### Example
 
@@ -32,4 +32,5 @@ trace(file1Date);
 
 #### See also
 
-[FLfile.getCreationDateObj()](../FLfile_object/FLfile5.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
+- [FLfile.getCreationDateObj()](../FLfile_object/FLfile5.md)
+- [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)

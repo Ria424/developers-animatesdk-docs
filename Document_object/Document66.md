@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.exportPublishProfileString( [profileName] )
+Document.exportPublishProfileString( [profileName] )
 
 #### Parameters
 
-**profileName** `string?`; A string that specifies the name of the profile to export to an XML string. This parameter is optional.
+**profileName** `string?`; Specifies the name of the profile to export to an XML string. This parameter is optional.
 
 #### Returns
 
@@ -18,7 +18,7 @@ document.exportPublishProfileString( [profileName] )
 
 #### Description
 
-Method: returns a string that specifies, in XML format, the specified profile. If you don’t pass a value for *profileName*, the current profile is exported.
+Method; `string`; Returns a string that specifies, in XML format, the specified profile. If you don’t pass a value for *profileName*, the current profile is exported.
 
 #### Example
 
@@ -31,4 +31,5 @@ fl.trace(profileXML);
 
 #### See also
 
-[Document.exportPublishProfile()](../Document_object/Document65.md), [Document.importPublishProfileString()](../Document_object/Document95.md)
+- [Document.exportPublishProfile()](../Document_object/Document65.md)
+- [Document.importPublishProfileString()](../Document_object/Document95.md)

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getSelectionRect()
+Document.getSelectionRect()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; gets the bounding rectangle of the current selection. If a selection is non-rectangular, the smallest rectangle encompassing the entire selection is returned. The rectangle is based on the document space or, when in edit mode, the registration point (also *origin point* or *zero point*) of the symbol being edited.
+Method; Gets the bounding rectangle of the current selection. If a selection is non-rectangular, the smallest rectangle encompassing the entire selection is returned. The rectangle is based on the document space or, when in edit mode, the registration point (also *origin point* or *zero point*) of the symbol being edited.
 
 #### Example
 
@@ -32,4 +32,5 @@ alert(outputStr);
 
 #### See also
 
-[Document.selection](../Document_object/Document430.md), [Document.setSelectionRect()](../Document_object/Document9689.md)
+- [Document.selection](../Document_object/Document430.md)
+- [Document.setSelectionRect()](../Document_object/Document9689.md)

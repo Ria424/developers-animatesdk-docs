@@ -6,7 +6,7 @@ Flash CS6.
 
 #### Usage
 
-document.exportInstanceToPNGSequence(outputURI, startFrameNum, endFrameNum, matrix)
+Document.exportInstanceToPNGSequence(outputURI, startFrameNum, endFrameNum, matrix)
 
 #### Parameters
 

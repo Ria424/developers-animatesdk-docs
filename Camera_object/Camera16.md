@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.reset(frameIndex)
+Camera.reset(frameIndex)
 
 #### Parameters
 

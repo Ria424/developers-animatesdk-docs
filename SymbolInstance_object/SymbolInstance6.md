@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-symbolInstance.buttonTracking
+SymbolInstance.buttonTracking
 
 #### Description
 
-Property; a string that, for button symbols only, sets the same property as the pop-up menu for Track As Button or Track As Menu Item in the Property inspector. For other types of symbols, this property is ignored. Acceptable values are "button" or "menu".
+Property; `string`; A string that, for button symbols only, sets the same property as the pop-up menu for Track As Button or Track As Menu Item in the Property inspector. For other types of symbols, this property is ignored. Acceptable values are "button" or "menu".
 
 #### Example
 

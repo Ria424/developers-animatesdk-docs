@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-alert ( alertText )
+alert(alertText)
 
 #### Parameters
 
-**alertText** A string that specifies the message you want to display in the Alert dialog box.
+**alertText** `string`; Specifies the message you want to display in the Alert dialog box.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; displays a string in a modal Alert dialog box, along with an OK button.
+Method; Displays a string in a modal Alert dialog box, along with an OK button.
 
 #### Example
 
@@ -30,4 +30,5 @@ alert("Process Complete");
 
 #### See also
 
-[confirm()](../Top-level_functions_and_methods/confirm.md), [prompt()](../Top-level_functions_and_methods/prompt.md)
+- [confirm()](../Top-level_functions_and_methods/confirm.md)
+- [prompt()](../Top-level_functions_and_methods/prompt.md)

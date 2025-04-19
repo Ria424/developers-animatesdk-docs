@@ -6,7 +6,7 @@ Flash MX 2004. *Dropped in Adobe Animate.*
 
 #### Usage
 
-document.allowScreens()
+Document.allowScreens()
 
 #### Parameters
 
@@ -14,11 +14,7 @@ None.
 
 #### Returns
 
-`boolean`; A boolean value: true if `Document.screenOutline` can be used safely; false otherwise.
-
-#### Description
-
-*Dropped in Adobe Animate.*
+`boolean`; true if `Document.screenOutline` can be used safely; false otherwise.
 
 #### Example
 

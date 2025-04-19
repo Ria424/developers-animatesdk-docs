@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.setRotation(frameIndex, amount, red, green, blue)
+Camera.setTint(frameIndex, amount, red, green, blue)
 
 #### Parameters
 

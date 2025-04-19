@@ -6,13 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-function mouseMove( [ pt ] ) {
-// statements
+```javascript
+function mouseMove([pt]) {
+    // statements
 }
+```
 
 #### Parameters
 
-**pt** A point that specifies the current location of the mouse. It is passed to the function whenever the mouse moves, which tracks the mouse location. If the Stage is in edit or edit-in-place mode, the point coordinates are relative to the object being edited. Otherwise, the point coordinates are relative to the Stage. This parameter is optional.
+**pt** `Point?`; A point that specifies the current location of the mouse. It is passed to the function whenever the mouse moves, which tracks the mouse location. If the Stage is in edit or edit-in-place mode, the point coordinates are relative to the object being edited. Otherwise, the point coordinates are relative to the Stage. This parameter is optional.
 
 #### Returns
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Function; called whenever the extensible tool is active and the mouse moves over a specified point on the Stage. The mouse button can be down or up.
+Function; Called whenever the extensible tool is active and the mouse moves over a specified point on the Stage. The mouse button can be down or up.
 
 #### Example
 

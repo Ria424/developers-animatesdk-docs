@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.name*
+Frame.name
 
 #### Description
 
-Property; a string that specifies the name of the frame.
+Property; `string`; A string that specifies the name of the frame.
 
 #### Example
 

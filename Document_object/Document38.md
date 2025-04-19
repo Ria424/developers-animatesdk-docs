@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.currentPublishProfile
+Document.currentPublishProfile
 
 #### Description
 
-Property; `string`; a string that specifies the name of the active publish profile for the specified document.
+Property; `string`; Specifies the name of the active publish profile for the specified document.
 
 #### Example
 

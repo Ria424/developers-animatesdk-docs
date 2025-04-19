@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.labelType*
+Frame.labelType
 
 #### Description
 
-Property; a string that specifies the type of Frame name. Acceptable values are "none", "name", "comment", and
+Property; `"none" | "name" | "comment" | "anchor"`; A string that specifies the type of Frame name. Acceptable values are "none", "name", "comment", and
 "anchor". Setting a label to "none" clears the [Frame.name](../Frame_object/Frame22.md) property.
 
 #### Example

@@ -6,15 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-document.addDataToDocument(name, type, data)
+Document.addDataToDocument(name, type, data)
 
 #### Parameters
 
-**name** `string`; A string that specifies the name of the data to add.
+**name** `string`; Specifies the name of the data to add.
 
 **type** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"`; A string that defines the type of data to add. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
 
-**data** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"` The value to add. Valid types depend on the *type* parameter.
+**data** `byte[] | double | double[] | integer | integer[] | string` The value to add. Valid types depend on the *type* parameter.
 
 #### Returns
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; stores specified data with a document. Data is written to the FLA file and is available to JavaScript when the file reopens.
+Method; Stores specified data with a document. Data is written to the FLA file and is available to JavaScript when the file reopens.
 
 #### Example
 
@@ -40,4 +40,5 @@ fl.trace(fl.getDocumentDOM().getDataFromDocument("myData"));
 
 #### See also
 
-[Document.getDataFromDocument()](../Document_object/Document76.md), [Document.removeDataFromDocument()](../Document_object/Document250.md)
+- [Document.getDataFromDocument()](../Document_object/Document76.md)
+- [Document.removeDataFromDocument()](../Document_object/Document250.md)

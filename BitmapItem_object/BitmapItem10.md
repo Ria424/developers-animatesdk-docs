@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-*bitmapItem.sourceFileIsCurrent*
+BitmapItem.sourceFileIsCurrent
 
 #### Description
 
-Read-only property; `boolean`; a boolean value of *true* if the file modification date of the Library item is the same as the modification date on disk of the file that was imported. *false* otherwise.
+Read-only property; `boolean`; A boolean value of *true* if the file modification date of the Library item is the same as the modification date on disk of the file that was imported. *false* otherwise.
 
 #### Example
 
@@ -23,4 +23,5 @@ fl.trace("fileIsCurrent = " + libItem.sourceFileIsCurrent);
 
 #### See also
 
-[BitmapItem.fileLastModifiedDate](../BitmapItem_object/BitmapItem3.md), [BitmapItem.sourceFilePath](../BitmapItem_object/BitmapItem11.md)
+- [BitmapItem.fileLastModifiedDate](../BitmapItem_object/BitmapItem3.md)
+- [BitmapItem.sourceFilePath](../BitmapItem_object/BitmapItem11.md)

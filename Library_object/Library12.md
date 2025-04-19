@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-*library.newFolder([folderPath])*
+Library.newFolder([folderPath])
 
 #### Parameters
 
@@ -14,11 +14,11 @@ Flash MX 2004.
 
 #### Returns
 
-A Boolean value: true if folder is created successfully; *false* otherwise.
+`boolean`; true if folder is created successfully; *false* otherwise.
 
 #### Description
 
-Method; creates a new folder with the specified name, or a default name (*"untitled folder \#"*) if no *folderName*
+Method; Creates a new folder with the specified name, or a default name (*"untitled folder \#"*) if no *folderName*
 parameter is provided, in the currently selected folder.
 
 #### Example

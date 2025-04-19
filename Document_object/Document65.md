@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.exportPublishProfile(fileURI)
+Document.exportPublishProfile(fileURI)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; exports the currently active profile to an XML file.
+Method; Exports the currently active profile to an XML file.
 
 #### Example
 
@@ -31,4 +31,5 @@ fl.getDocumentDOM().exportPublishProfile("file:///C\|/Documents and Settings/use
 
 #### See also
 
-[Document.exportPublishProfileString()](../Document_object/Document66.md), [Document.importPublishProfile()](../Document_object/Document94.md)
+- [Document.exportPublishProfileString()](../Document_object/Document66.md)
+- [Document.importPublishProfile()](../Document_object/Document94.md)

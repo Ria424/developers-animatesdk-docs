@@ -10,17 +10,17 @@ Flash MX 2004 7.2.
 
 #### Parameters
 
-**folderURI** A string, expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
+**folderURI** `string`; Expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
 
-**filesOrDirectories** An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
+**filesOrDirectories** `string?`; An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
 
 #### Returns
 
-An array of strings representing the contents of the folder. If the folder doesn’t exist or if no files or folders match the specified criteria, returns an empty array.
+`string[]`; An array of strings representing the contents of the folder. If the folder doesn’t exist or if no files or folders match the specified criteria, returns an empty array.
 
 #### Description
 
-Method; returns an array of strings representing the contents of the folder.
+Method; Returns an array of strings representing the contents of the folder.
 
 #### Examples
 
@@ -30,8 +30,8 @@ The following example returns three arrays. The first represents all the files i
 var fileURI = "file:///C|/temp/";
 var folderURI = "file:///C|/temp";
 var fileList1 = FLfile.listFolder(fileURI, "files"); // files
-var fileList2 = FLfile.listFolder(folderURI, "directories"); //folders
-var fileList3 = FLfile.listFolder(folderURI); //files and folders
+var fileList2 = FLfile.listFolder(folderURI, "directories"); // folders
+var fileList3 = FLfile.listFolder(folderURI); // files and folders
 fl.trace("Files: " + fileList1 + "\n");
 fl.trace("Folders: " + fileList2 + "\n");
 fl.trace("Files and folders: " + fileList3);

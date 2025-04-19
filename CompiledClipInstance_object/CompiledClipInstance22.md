@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-compiledClipInstance.tintPercent
+CompiledClipInstance.tintPercent
 
 #### Description
 
-Read-only property; `string`; a string that, when the Color Effect Property Inspector is using style tint (colorMode == 'tint'), returns the tint percentage from -100 to 100. Otherwise, using this property results in an error.
+Read-only property; `integer`; A integer that, when the Color Effect Property Inspector is using style tint (colorMode == "tint"), returns the tint percentage from -100 to 100. Otherwise, using this property results in an error.
 
 #### Example
 

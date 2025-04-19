@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-*bitmapItem.useDeblocking*
+BitmapItem.useDeblocking
 
 #### Description
 
-Property; `boolean`; a boolean value that specifies whether deblocking is enabled (*true*) or not (*false*).
+Property; `boolean`; Specifies whether deblocking is enabled (*true*) or not (*false*).
 
 #### Example
 

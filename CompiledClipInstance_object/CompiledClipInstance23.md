@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-compiledClipInstance.useBackgroundColor
+CompiledClipInstance.useBackgroundColor
 
 #### Description
 
-Property; `boolean`; a boolean that sets the background color:
+Property; `boolean`; A boolean that sets the background color:
 
 - true - Use 32-bit with alpha.
 

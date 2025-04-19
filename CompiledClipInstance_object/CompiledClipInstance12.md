@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-compiledClipInstance.colorMode
+CompiledClipInstance.colorMode
 
 #### Description
 
-Property; `string`; a string that specifies the color mode, as identified in the Symbol Properties dialog. Valid values are "none", "brightness", "tint", "alpha", and "advanced".
+Property; `"none" | "brightness" | "tint" | "alpha" | "advanced"`; A string that specifies the color mode, as identified in the Symbol Properties dialog. Valid values are "none", "brightness", "tint", "alpha", and "advanced".
 
 #### Example
 

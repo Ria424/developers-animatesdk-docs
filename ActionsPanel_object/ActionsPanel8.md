@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-actionsPanel.setText(replacementText)
+ActionsPanel.setText(replacementText)
 
 #### Parameters
 
@@ -14,11 +14,11 @@ actionsPanel.setText(replacementText)
 
 #### Returns
 
-`boolean`; A Boolean value of true if the specified text was placed in the Actions panel; false otherwise.
+`boolean`; A boolean value of true if the specified text was placed in the Actions panel; false otherwise.
 
 #### Description
 
-Method; clears any text in the Actions panel and then adds the text specified in *replacementText*.
+Method; Clears any text in the Actions panel and then adds the text specified in *replacementText*.
 
 #### Example
 

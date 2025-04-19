@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.duplicatePublishProfile([profileName])
+Document.duplicatePublishProfile([profileName])
 
 #### Parameters
 
-**profileName** `string`; A string that specifies the unique name of the duplicated profile. If you do not specify a name, the method uses the default name. This parameter is optional.
+**profileName** `string?`; A string that specifies the unique name of the duplicated profile. If you do not specify a name, the method uses the default name. This parameter is optional.
 
 #### Returns
 
@@ -18,7 +18,7 @@ document.duplicatePublishProfile([profileName])
 
 #### Description
 
-Method; duplicates the currently active profile and gives the duplicate version focus.
+Method; Duplicates the currently active profile and gives the duplicate version focus.
 
 #### Example
 

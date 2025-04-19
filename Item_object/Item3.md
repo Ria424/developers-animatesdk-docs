@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-item.hasData(name)
+Item.hasData(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the data to check for in the library item.
+**name** `string`; Specifies the name of the data to check for in the library item.
 
 #### Returns
 
-A Boolean value: true if the specified data exists; false otherwise.
+`boolean`; *true* if the specified data exists; *false* otherwise.
 
 #### Description
 
-Method; determines whether the library item has the named data.
+Method; Determines whether the library item has the named data.
 
 #### Example
 

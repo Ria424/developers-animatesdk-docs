@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-contour.fill
+Contour.fill
 
 #### Description
 
-Property; `Fill`; a [Fill object](../Fill_object/Fill_summary.md).
+Property; `Fill`; A [Fill object](../Fill_object/Fill_summary.md).
 
 #### Example
 

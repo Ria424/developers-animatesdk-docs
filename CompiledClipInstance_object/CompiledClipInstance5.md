@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-compiledClipInstance.cacheAsBitmap
+CompiledClipInstance.cacheAsBitmap
 
 #### Description
 
-Property; `boolean`; a boolean that indicates whether to cache bitmaps. (Equivalent to Use runtime bitmap caching in the Property Inspector). The default is false.
+Property; `boolean`; A boolean that indicates whether to cache bitmaps. (Equivalent to Use runtime bitmap caching in the Property Inspector). The default is false.
 
 #### Example
 

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-symbolInstance.colorMode
+SymbolInstance.colorMode
 
 #### Description
 
-Property; a string that specifies the color mode as identified in the symbol Property inspector Color pop-up menu. Acceptable values are "none", "brightness", "tint", "alpha", and "advanced".
+Property; `"none" | "brightness" | "tint" | "alpha" | "advanced"`; Specifies the color mode as identified in the symbol Property inspector Color pop-up menu. Acceptable values are "none", "brightness", "tint", "alpha", and "advanced".
 
 #### Example
 

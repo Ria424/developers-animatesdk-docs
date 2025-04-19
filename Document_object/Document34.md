@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.convertLinesToFills()
+Document.convertLinesToFills()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; converts lines to fills on the selected objects.
+Method; Converts lines to fills on the selected objects.
 
 #### Example
 

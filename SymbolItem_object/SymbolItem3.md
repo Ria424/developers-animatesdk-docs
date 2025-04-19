@@ -6,13 +6,13 @@ Flash Pro CS6.
 
 #### Usage
 
-*symbolItem.exportToLibrary(frameNumber, bitmapName)*
+SymbolItem.exportToLibrary(frameNumber, bitmapName)
 
 #### Parameters
 
-**frameNumber** An integer indicating the frame within the symbol to be exported.
+**frameNumber** `integer`; An integer indicating the frame within the symbol to be exported.
 
-**bitmapName** A string indicating the name of the new bitmap to be added to the Library.
+**bitmapName** `string`; A string indicating the name of the new bitmap to be added to the Library.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; exports a frame from the selected instance of movie clip, graphic, or button symbol on the Stage to a bitmap in Library.
+Method; Exports a frame from the selected instance of movie clip, graphic, or button symbol on the Stage to a bitmap in Library.
 
 #### Example
 

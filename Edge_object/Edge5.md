@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-edge.setControl(index, x, y)
+Edge.setControl(index, x, y)
 
 #### Parameters
 
-**index** `integer`; An integer that specifies which control point to set. Use values 0, 1, or 2 to specify the beginning, middle, and end control points, respectively.
+**index** `integer`; Specifies which control point to set. Use values 0, 1, or 2 to specify the beginning, middle, and end control points, respectively.
 
 **x** `number`; A floating-point value that specifies the horizontal location of the control point. If the Stage is in edit or edit-in-place mode, the point coordinate is relative to the edited object. Otherwise, the point coordinate is relative to the Stage.
 

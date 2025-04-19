@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.enterEditMode([editMode])
+Document.enterEditMode([editMode])
 
 #### Parameters
 
-**editMode** `string`; A string that specifies the editing mode. Acceptable values are "inPlace" or "newWindow". If no parameter is specified, the default is symbol-editing mode. This parameter is optional.
+**editMode** `"inPlace" | "newWindow"?`; Specifies the editing mode. Acceptable values are "inPlace" or "newWindow". If no parameter is specified, the default is symbol-editing mode. This parameter is optional.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; switches the authoring tool into the editing mode specified by the parameter. If no parameter is specified, the method defaults to symbol-editing mode, which has the same result as right-clicking the symbol to invoke the context menu and selecting Edit.
+Method; Switches the authoring tool into the editing mode specified by the parameter. If no parameter is specified, the method defaults to symbol-editing mode, which has the same result as right-clicking the symbol to invoke the context menu and selecting Edit.
 
 #### Example
 

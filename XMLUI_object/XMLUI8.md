@@ -6,13 +6,13 @@ Flash 8.
 
 #### Usage
 
-*xmlui.setControlItemElements(controlID, elementItemArray)*
+XMLUI.setControlItemElements(controlID, elementItemArray)
 
 #### Parameters
 
-**controlID** A string that specifies the ID attribute of the control you want to set.
+**controlID** `string`; Specifies the ID attribute of the control you want to set.
 
-**elementItemArray** An array of JavaScript objects, where each object has a string property named *label* and an optional string property named value. If the value property does not exist, then it is created and assigned the same value as *label*.
+**elementItemArray** `{label: string; value?: string;}[]` An array of JavaScript objects, where each object has a string property named *label* and an optional string property named value. If the value property does not exist, then it is created and assigned the same value as *label*.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; clears the values of the ListBox or ComboBox control specified by *controlID* and replaces the list or menu items with the label, value pairs specified by *elementItemArray*.
+Method; Clears the values of the ListBox or ComboBox control specified by *controlID* and replaces the list or menu items with the label, value pairs specified by *elementItemArray*.
 
 #### Example
 
@@ -40,4 +40,6 @@ fl.xmlui.setControlItemElements("myControlID", monthArray);
 
 #### See also
 
-[XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md), [XMLUI.set()](../XMLUI_object/XMLUI6.md), [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md)
+- [XMLUI.getControlItemElement()](../XMLUI_object/XMLUI3.md)
+- [XMLUI.set()](../XMLUI_object/XMLUI6.md)
+- [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md)

@@ -6,13 +6,13 @@ Flash 8.
 
 #### Usage
 
-*frame.setCustomEase(property, easeCurve)*
+Frame.setCustomEase(property, easeCurve)
 
 #### Parameters
 
-**property** A string that specifies the property the ease curve should be used for. Acceptable values are *"all", "position", "rotation", "scale", "color"*, and *"filters"*.
+**property** `"all" | "position" | "rotation" | "scale" | "color" | "filters"`; Specifies the property the ease curve should be used for. Acceptable values are *"all", "position", "rotation", "scale", "color"*, and *"filters"*.
 
-**easeCurve** An array of objects that defines the ease curve. Each array element must be a JavaScript object with *x* and
+**easeCurve** `Point[]`; An array of objects that defines the ease curve. Each array element must be a JavaScript object with *x* and
 *y* properties.
 
 #### Returns
@@ -21,7 +21,7 @@ Nothing.
 
 #### Description
 
-Method; specifies an array of control point and tangent endpoint coordinates that describe a cubic Bézier curve to be used as a custom ease curve. This array is constructed by the horizontal (ordinal: left to right) position of the control points and tangent endpoints.
+Method; Specifies an array of control point and tangent endpoint coordinates that describe a cubic Bézier curve to be used as a custom ease curve. This array is constructed by the horizontal (ordinal: left to right) position of the control points and tangent endpoints.
 
 #### Example
 
@@ -35,4 +35,6 @@ theFrame.setCustomEase("all", easeCurve);
 
 #### See also
 
-[Frame.getCustomEase()](../Frame_object/Frame6.md), [Frame.hasCustomEase](../Frame_object/Frame10.md), [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)
+- [Frame.getCustomEase()](../Frame_object/Frame6.md)
+- [Frame.hasCustomEase](../Frame_object/Frame10.md)
+- [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)

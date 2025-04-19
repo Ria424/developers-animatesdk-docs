@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-edge.splitEdge(t)
+Edge.splitEdge(t)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; splits the edge into two pieces. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
+Method; Splits the edge into two pieces. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
 
 #### Example
 

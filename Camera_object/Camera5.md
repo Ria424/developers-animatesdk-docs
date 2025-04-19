@@ -14,7 +14,7 @@ camera.getColorFilter(frameIndex)
 
 #### Return
 
-{brightness: 0,contrast: 0, saturation: 0, hue: 0}
+`{brightness: number, contrast: number, saturation: number, hue: number}`;
 
 #### Description
 

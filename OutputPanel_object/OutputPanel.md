@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-outputPanel.clear()
+OutputPanel.clear()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; clears the contents of the Output panel. You can use this method in a batch processing application to clear a list of errors, or to save them incrementally by using this method with [OutputPanel.save()](../OutputPanel_object/OutputPanel1.md).
+Method; Clears the contents of the Output panel. You can use this method in a batch processing application to clear a list of errors, or to save them incrementally by using this method with [OutputPanel.save()](../OutputPanel_object/OutputPanel1.md).
 
 #### Example
 

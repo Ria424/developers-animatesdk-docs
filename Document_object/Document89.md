@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getTransformationPoint()
+Document.getTransformationPoint()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; gets the location of the transformation point of the current selection. You can use the transformation point for commutations such as rotate and skew.
+Method; Gets the location of the transformation point of the current selection. You can use the transformation point for commutations such as rotate and skew.
 ***Note:** Transformation points are relative to different locations, depending on the type of item selected. For more information, see [Document.setTransformationPoint()](../Document_object/Document9939.md).*
 
 #### Example
@@ -31,4 +31,5 @@ var transPoint = fl.getDocumentDOM().getTransformationPoint();
 
 #### See also
 
-[Document.setTransformationPoint()](../Document_object/Document9939.md), [Element.getTransformationPoint()](../Element_object/Element4.md)
+- [Document.setTransformationPoint()](../Document_object/Document9939.md)
+- [Element.getTransformationPoint()](../Element_object/Element4.md)

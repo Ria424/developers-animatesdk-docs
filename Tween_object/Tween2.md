@@ -10,11 +10,11 @@ Tween.getGeometricTransform(frameIndex)
 
 #### Parameters
 
-**frameIndex** Offset index of the frame from which geometric transformations have to be retrieved.
+**frameIndex** `integer`; Offset index of the frame from which geometric transformations have to be retrieved.
 
 #### Returns
 
-Matrix object that represents geometric transformations at the frame offset.
+`Matrix`; Matrix object that represents geometric transformations at the frame offset.
 
 #### Description
 

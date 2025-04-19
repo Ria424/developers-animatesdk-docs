@@ -6,13 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-function mouseDown( [ pt ] ) {
+```javascript
+function mouseDown([pt]) {
 // statements
 }
+```
 
 #### Parameters
 
-**pt** A point that specifies the location of the mouse when the button is pressed. It is passed to the function when the mouse button is pressed. This parameter is optional.
+**pt** `Point`; A point that specifies the location of the mouse when the button is pressed. It is passed to the function when the mouse button is pressed. This parameter is optional.
 
 #### Returns
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Function; called when the extensible tool is active and the mouse button is pressed while the pointer is over the Stage.
+Function; Called when the extensible tool is active and the mouse button is pressed while the pointer is over the Stage.
 
 #### Example
 

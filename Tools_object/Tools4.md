@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-tools.getKeyDown()
+Tools.getKeyDown()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ The integer value of the key.
 
 #### Description
 
-Method; returns the most recently pressed key.
+Method; Returns the most recently pressed key.
 
 #### Example
 

@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.resetTint(frameIndex)
+Camera.resetTint(frameIndex)
 
 #### Parameters
 

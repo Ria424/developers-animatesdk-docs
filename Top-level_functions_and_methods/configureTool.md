@@ -6,9 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
+```javascript
 function configureTool() {
-// statements
+    // statements
 }
+```
 
 #### Parameters
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Function; called when Flash opens and the extensible tool is loaded into the Tools panel. Use this function to set any information Flash needs to know about the tool.
+Function; Called when Flash opens and the extensible tool is loaded into the Tools panel. Use this function to set any information Flash needs to know about the tool.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.deleteSelection()
+Document.deleteSelection()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; deletes the current selection on the Stage. Displays an error message if there is no selection.
+Method; Deletes the current selection on the Stage. Displays an error message if there is no selection.
 
 #### Example
 

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-symbolInstance.loop
+SymbolInstance.loop
 
 #### Description
 
-Property; a string that, for graphic symbols, sets the same property as the Loop pop-up menu in the Property inspector. For other types of symbols, this property is undefined. Acceptable values are "loop", "play once", and "single frame" to set the graphic’s animation accordingly.
+Property; `"loop" | "play once" | "single frame"`; A string that, for graphic symbols, sets the same property as the Loop pop-up menu in the Property inspector. For other types of symbols, this property is undefined. Acceptable values are "loop", "play once", and "single frame" to set the graphic’s animation accordingly.
 
 #### Example
 

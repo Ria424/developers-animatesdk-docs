@@ -6,11 +6,11 @@ Flash Professional CS5.
 
 #### Usage
 
-*Frame.is3DMotionObject()*
+Frame.is3DMotionObject()
 
 #### Description
 
-Method; a Boolean value. Lets you know whether the current selection is a 3D motion object.
+Method; `boolean`; A boolean value. Lets you know whether the current selection is a 3D motion object.
 
 #### Example
 

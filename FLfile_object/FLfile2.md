@@ -6,19 +6,19 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.exists(fileURI)*
+FLfile.exists(fileURI)
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the file you want to verify.
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the file you want to verify.
 
 #### Returns
 
-A Boolean value of true if successful; false otherwise.
+`boolean`; A boolean value of true if successful; false otherwise.
 
 #### Description
 
-Method; determines whether a specified file exists. If you specify a folder and a filename, the folder must already exist. To create folders, see [FLfile.createFolder()](../FLfile_object/FLfile1.md).
+Method; Determines whether a specified file exists. If you specify a folder and a filename, the folder must already exist. To create folders, see [FLfile.createFolder()](../FLfile_object/FLfile1.md).
 
 #### Examples
 

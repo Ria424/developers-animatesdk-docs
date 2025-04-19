@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-symbolInstance.filters
+SymbolInstance.filters
 
 #### Description
 
-Property; an array of Filter objects (see [Filter object](../Filter_object/Filter_summary.md)). To modify filter properties, you don’t write to this array directly. Instead, retrieve the array, set the individual properties, and then set the array to reflect the new properties.
+Property; `Filter[]`; An array of [Filter object](../Filter_object/Filter_summary.md)s. To modify filter properties, you don’t write to this array directly. Instead, retrieve the array, set the individual properties, and then set the array to reflect the new properties.
 
 #### Example
 
@@ -21,7 +21,7 @@ var filterName = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[
 fl.trace(filterName);
 
 var filterArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters;
-if (filterName == "glowFilter"){
+if (filterName == "glowFilter") {
     filterArray[0].blurX = 100;
 }
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters = filterArray;

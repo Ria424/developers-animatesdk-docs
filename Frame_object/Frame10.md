@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-*frame.hasCustomEase*
+frame.hasCustomEase
 
 #### Description
 
-Property; a Boolean value. If true, the frame gets its ease information from the custom ease curve. If false, the frame gets its ease information from the ease value.
+Property; `boolean`; If true, the frame gets its ease information from the custom ease curve. If false, the frame gets its ease information from the ease value.
 
 #### Example
 
@@ -23,4 +23,6 @@ theFrame.hasCustomEase = false;
 
 #### See also
 
-[Frame.getCustomEase()](../Frame_object/Frame6.md), [Frame.setCustomEase()](../Frame_object/Frame24.md), [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)
+- [Frame.getCustomEase()](../Frame_object/Frame6.md)
+- [Frame.setCustomEase()](../Frame_object/Frame24.md)
+- [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)

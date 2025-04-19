@@ -6,11 +6,11 @@ Flash CS6 Professional.
 
 #### Usage
 
-*bitmapItem.hasValidAlphaLayer*
+BitmapItem.hasValidAlphaLayer
 
 #### Description
 
-Read-only property; `boolean`; a boolean indicating if a bitmap in the library has a valid/useful alpha channel. This flag will help you decide if you should export the bitmap item as a PNG instead of a JPEG using the *bitmapItem.exportToFile() function.*
+Read-only property; `boolean`; A boolean indicating if a bitmap in the library has a valid/useful alpha channel. This flag will help you decide if you should export the bitmap item as a PNG instead of a JPEG using the `BitmapItem.exportToFile()` function.
 
 #### Example
 
@@ -29,4 +29,7 @@ bitmapItem.exportToFile(uri);
 
 #### See also
 
-[BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md), [BitmapItem.sourceFileIsCurrent](../BitmapItem_object/BitmapItem10.md), [BitmapItem.sourceFilePath](../BitmapItem_object/BitmapItem11.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
+- [BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md)
+- [BitmapItem.sourceFileIsCurrent](../BitmapItem_object/BitmapItem10.md)
+- [BitmapItem.sourceFilePath](../BitmapItem_object/BitmapItem11.md)
+- [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)

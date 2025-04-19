@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.lineTo(x, y)
+DrawingLayer.lineTo(x, y)
 
 #### Parameters
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; draws a line from the current drawing position to the point (*x, y*). You typically use this method only when creating extensible tools.
+Method; Draws a line from the current drawing position to the point (*x, y*). You typically use this method only when creating extensible tools.
 
 #### Example
 

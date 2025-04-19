@@ -6,19 +6,19 @@ Flash 8.
 
 #### Usage
 
-*Frame.getCustomEase([property])*
+Frame.getCustomEase([property])
 
 #### Parameters
 
-**property** An optional string that specifies the property for which you want to return the custom ease value. Acceptable values are *"all", "position", "rotation", "scale", "color", and "filters"*. The default value is *"all"*.
+**property** `"all" | "position" | "rotation" | "scale" | "color" | "filters"?"all"`; An optional string that specifies the property for which you want to return the custom ease value. Acceptable values are *"all", "position", "rotation", "scale", "color", and "filters"*. The default value is *"all"*.
 
 #### Returns
 
-Returns an array of JavaScript objects, each of which has an *x* and *y* property.
+`Point[]`; Returns an array of JavaScript objects, each of which has an *x* and *y* property.
 
 #### Description
 
-Method; returns an array of objects that represent the control points for the cubic Bézier curve that defines the ease curve.
+Method; Returns an array of objects that represent the control points for the cubic Bézier curve that defines the ease curve.
 
 #### Example
 
@@ -31,4 +31,6 @@ var easeArray = theFrame.getCustomEase("position");
 
 #### See also
 
-[Frame.hasCustomEase](../Frame_object/Frame10.md), [Frame.setCustomEase()](../Frame_object/Frame24.md), [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)
+- [Frame.hasCustomEase](../Frame_object/Frame10.md)
+- [Frame.setCustomEase()](../Frame_object/Frame24.md)
+- [Frame.useSingleEaseCurve](../Frame_object/Frame40.md)

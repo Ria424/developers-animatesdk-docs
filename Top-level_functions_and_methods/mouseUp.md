@@ -6,9 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
+```javascript
 function mouseUp() {
-// statements
+    // statements
 }
+```
 
 #### Parameters
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Function; called whenever the extensible tool is active and the mouse button is released after being pressed on the Stage.
+Function; Called whenever the extensible tool is active and the mouse button is released after being pressed on the Stage.
 
 #### Example
 

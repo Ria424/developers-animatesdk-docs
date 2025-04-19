@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-symbolInstance.description
+SymbolInstance.description
 
 #### Description
 
-Property; a string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader. This property is not available for graphic symbols.
+Property; `string`; A string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader. This property is not available for graphic symbols.
 
 #### Example
 

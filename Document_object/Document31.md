@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.clipCut()
+Document.clipCut()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; cuts the current selection from the document and writes it to the Clipboard.
+Method; Cuts the current selection from the document and writes it to the Clipboard.
 
 #### Example
 
@@ -30,4 +30,6 @@ fl.getDocumentDOM().clipCut();
 
 #### See also
 
-[Document.clipCopy()](../Document_object/Document30.md), [Document.clipPaste()](../Document_object/Document32.md), [Flash.clipCopyString()](../Flash_object/Flash6.md).
+- [Document.clipCopy()](../Document_object/Document30.md)
+- [Document.clipPaste()](../Document_object/Document32.md)
+- [Flash.clipCopyString()](../Flash_object/Flash6.md).

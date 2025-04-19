@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.disableFilter(filterIndex)
+Document.disableFilter(filterIndex)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; disables the specified filter in the Filters list.
+Method; Disables the specified filter in the Filters list.
 
 #### Example
 
@@ -31,4 +31,11 @@ fl.getDocumentDOM().disableFilter(2);
 
 #### See also
 
-[Document.addFilter()](../Document_object/Document3.md), [Document.changeFilterOrder()](../Document_object/Document29.md), [Document.disableAllFilters()](../Document_object/Document46.md), [Document.disableOtherFilters()](../Document_object/Document48.md), [Document.enableFilter()](../Document_object/Document59.md), [Document.getFilters()](../Document_object/Document79.md), [Document.removeFilter()](../Document_object/Document270.md), [Filter object](../Filter_object/Filter_summary.md)
+- [Document.addFilter()](../Document_object/Document3.md)
+- [Document.changeFilterOrder()](../Document_object/Document29.md)
+- [Document.disableAllFilters()](../Document_object/Document46.md)
+- [Document.disableOtherFilters()](../Document_object/Document48.md)
+- [Document.enableFilter()](../Document_object/Document59.md)
+- [Document.getFilters()](../Document_object/Document79.md)
+- [Document.removeFilter()](../Document_object/Document270.md)
+- [Filter object](../Filter_object/Filter_summary.md)

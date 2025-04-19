@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.getTint(frameIndex)
+Camera.getTint(frameIndex)
 
 #### Parameters
 
@@ -14,8 +14,7 @@ camera.getTint(frameIndex)
 
 #### Return
 
-Tint object
-e.g.{percent:0,red:0,green:0,blue:0}
+`{percent: number; red: number; green: number; blue: number}`; Tint object. e.g. {percent: 0, red: 0, green: 0, blue: 0}
 
 #### Description
 
@@ -39,4 +38,5 @@ fl.trace(
 
 #### See also
 
-[GetRotation()](../Camera_object/Camera2.md), [GetZoom()](../Camera_object/Camera1.md)
+- [Camera.getRotation()](../Camera_object/Camera2.md)
+- [Camera.getZoom()](../Camera_object/Camera1.md)

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.actionScript*
+frame.actionScript
 
 #### Description
 
-Property; a string that represents ActionScript code. To insert a new line character, use "\n".
+Property; `string`; A string that represents ActionScript code. To insert a new line character, use "\n".
 
 #### Example
 

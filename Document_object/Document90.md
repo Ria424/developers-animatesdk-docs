@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.group()
+Document.group()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; converts the current selection to a group.
+Method; Converts the current selection to a group.
 
 #### Example
 

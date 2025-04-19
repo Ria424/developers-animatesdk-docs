@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.exportSWF(outputURI)*
+SymbolItem.exportSWF(outputURI)
 
 #### Parameters
 
-**outputURI** A string, expressed as a file:/// URI, that specifies the SWF file to which the method will export the symbol. The *outputURI* must reference a local file. Flash does not create a folder if *outputURI* doesn’t exist.
+**outputURI** `string`; A string, expressed as a file:/// URI, that specifies the SWF file to which the method will export the symbol. The *outputURI* must reference a local file. Flash does not create a folder if *outputURI* doesn’t exist.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; exports the symbol item to a SWF file.
+Method; Exports the symbol item to a SWF file.
 
 #### Example
 

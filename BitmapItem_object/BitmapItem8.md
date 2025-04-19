@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*bitmapItem.quality*
+BitmapItem.quality
 
 #### Description
 
-Property; `integer`; an integer that specifies the quality of the bitmap. To use the default document quality, specify -1; otherwise, specify an integer from 0 to 100. Available only for JPEG compression.
+Property; `integer`; Specifies the quality of the bitmap. To use the default document quality, specify -1; otherwise, specify an integer from 0 to 100. Available only for JPEG compression.
 
 #### Example
 

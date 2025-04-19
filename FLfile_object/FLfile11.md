@@ -6,11 +6,11 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.read(fileURI)*
+FLfile.read(fileURI)
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, specifying the text-based file (such as .js, .txt, or .jsfl) that you want to read.
+**fileURI** `string`; Expressed as a file:/// URI, specifying the text-based file (such as .js, .txt, or .jsfl) that you want to read.
 
 #### Returns
 
@@ -18,7 +18,7 @@ The contents of the specified file as a string, or null if the read fails.
 
 #### Description
 
-Method; returns the contents of the specified file as a string, or null if the read fails.
+Method; Returns the contents of the specified file as a string, or null if the read fails.
 
 #### Examples
 

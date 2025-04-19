@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-*drawingLayer.setColor(color)*
+DrawingLayer.setColor(color)
 
 #### Parameters
 
@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; sets the color of subsequently drawn data. Applies only to persistent data. To use this method, the parameter passed to drawingLayer.beginDraw() must be set to true. You typically use this method only when creating extensible tools. See [DrawingLayer.beginDraw()](../DrawingLayer_object/DrawingLayer.md).
+Method; Sets the color of subsequently drawn data. Applies only to persistent data. To use this method, the parameter passed to drawingLayer.beginDraw() must be set to true. You typically use this method only when creating extensible tools. See [DrawingLayer.beginDraw()](../DrawingLayer_object/DrawingLayer.md).
 
 #### Example
 

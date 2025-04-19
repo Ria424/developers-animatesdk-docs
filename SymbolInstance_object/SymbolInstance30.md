@@ -6,11 +6,11 @@ Flash CS5.5 Professional.
 
 #### Usage
 
-symbolInstance.visible
+SymbolInstance.visible
 
 #### Description
 
-Property; a boolean value that sets the Visible property of an object to on (true) or off (false).
+Property; `boolean`; A boolean value that sets the Visible property of an object to on (true) or off (false).
 
 #### Example
 

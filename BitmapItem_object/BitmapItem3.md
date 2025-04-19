@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-*bitmapItem.fileLastModifiedDate*
+BitmapItem.fileLastModifiedDate
 
 #### Description
 
-Read-only property; `string`; a string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the modification date of the original file at the time the file was imported to the library. If the file no longer exists, this value is *"00000000"*.
+Read-only property; `string`; A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the modification date of the original file at the time the file was imported to the library. If the file no longer exists, this value is *"00000000"*.
 
 #### Example
 
@@ -23,4 +23,7 @@ fl.trace("Mod date when imported = " + libItem.fileLastModifiedDate);
 
 #### See also
 
-[BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md), [BitmapItem.sourceFileIsCurrent](../BitmapItem_object/BitmapItem10.md), [BitmapItem.sourceFilePath](../BitmapItem_object/BitmapItem11.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
+- [BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md)
+- [BitmapItem.sourceFileIsCurrent](../BitmapItem_object/BitmapItem10.md)
+- [BitmapItem.sourceFilePath](../BitmapItem_object/BitmapItem11.md)
+- [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)

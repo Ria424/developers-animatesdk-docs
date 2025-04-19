@@ -6,11 +6,11 @@ Flash Pro CS6.
 
 #### Usage
 
-layer.animationType
+Layer.animationType
 
 #### Description
 
-Read-only property; a string value indicating the animation type of the layer. Possible values include: "none", "motion object", "IK pose".
+Read-only property; `"none" | "motion object" | "IK pose"`; A string value indicating the animation type of the layer. Possible values include: "none", "motion object", "IK pose".
 
 #### Example
 

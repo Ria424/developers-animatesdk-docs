@@ -6,15 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-edge.getHalfEdge(index)
+Edge.getHalfEdge(index)
 
 #### Parameters
 
-**index** `integer`; An integer that specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
+**index** `integer`; Specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
 
 #### Returns
 
-A HalfEdge object.
+`HalfEdge`; A HalfEdge object.
 
 #### Description
 

@@ -6,11 +6,11 @@ Flash CS5.5 Professional.
 
 #### Usage
 
-symbolInstance.backgroundColor
+SymbolInstance.backgroundColor
 
 #### Description
 
-Property; a string that specifies the matte color when 24 bit mode is selected for the instance. This is a string in hexadecimal #rrggbb format or an integer containing the value.
+Property; `string`; Specifies the matte color when 24 bit mode is selected for the instance. This is a string in hexadecimal #rrggbb format or an integer containing the value.
 
 #### Example
 

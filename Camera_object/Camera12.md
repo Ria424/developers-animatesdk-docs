@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.resetRotation(frameIndex)
+Camera.resetRotation(frameIndex)
 
 #### Parameters
 

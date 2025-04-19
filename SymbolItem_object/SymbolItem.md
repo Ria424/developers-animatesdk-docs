@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.convertToCompiledClip()*
+SymbolItem.convertToCompiledClip()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; converts a symbol item in the library to a compiled movie clip.
+Method; Converts a symbol item in the library to a compiled movie clip.
 
 #### Example
 

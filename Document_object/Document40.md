@@ -6,11 +6,11 @@ Flash Professional CS5.
 
 #### Usage
 
-document.DebugMovie([Boolean abortIfErrorsExist])
+Document.DebugMovie(abortIfErrorsExist)
 
 #### Parameters
 
-**abortIfErrorsExist** `boolean`; the default value is false. If set to true, the debug session will not start and the .swf window will not open if there are compiler errors. Compiler warnings will not abort the command.
+**abortIfErrorsExist** `boolean?false`; The default value is false. If set to true, the debug session will not start and the .swf window will not open if there are compiler errors. Compiler warnings will not abort the command.
 
 #### Description
 

@@ -8,7 +8,7 @@ Flash MX 2004.
 
 #### Description
 
-TheComponentInstance object is a subclass of the SymbolInstance object and represents a component in a frame (see [SymbolInstance object](../SymbolInstance_object/SymbolInstance_summary.md)).
+The ComponentInstance object is a subclass of the [SymbolInstance object](../SymbolInstance_object/SymbolInstance_summary.md) and represents a component in a frame.
 
 #### Property summary
 

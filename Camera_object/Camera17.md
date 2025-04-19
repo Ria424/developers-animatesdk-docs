@@ -6,15 +6,11 @@ Animate 2019
 
 #### Usage
 
-camera.cameraEnabled
-
-#### Type
-
-boolean
+Camera.cameraEnabled
 
 #### Description
 
-Used to Enable/Disable camera. The value is true if camera is enabled otherwise false.
+`boolean`; Used to Enable/Disable camera. The value is true if camera is enabled otherwise false.
 
 #### Example
 

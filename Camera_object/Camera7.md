@@ -6,7 +6,7 @@ Adobe Animate 2019
 
 #### Usage
 
-camera.setZoom(frameIndex, zoomVal)
+Camera.setZoom(frameIndex, zoomVal)
 
 #### Parameters
 
@@ -28,5 +28,5 @@ The following example zooms camera to absolute value given by input parameter in
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
-timeline.camera.setZoom(37,-100);
+timeline.camera.setZoom(37, -100);
 ```

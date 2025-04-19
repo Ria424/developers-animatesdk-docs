@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Property; removes persistent data from the library item.
+Property; Removes persistent data from the library item.
 
 #### Example
 

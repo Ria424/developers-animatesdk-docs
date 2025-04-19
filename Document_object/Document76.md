@@ -10,7 +10,7 @@ document.getDataFromDocument(name)
 
 #### Parameters
 
-**name** `string`; A string that specifies the name of the data to return.
+**name** `string`; Specifies the name of the data to return.
 
 #### Returns
 
@@ -18,7 +18,7 @@ The specified data.
 
 #### Description
 
-Method; retrieves the value of the specified data. The type returned depends on the type of data that was stored.
+Method; Retrieves the value of the specified data. The type returned depends on the type of data that was stored.
 
 #### Example
 
@@ -31,4 +31,6 @@ fl.trace(fl.getDocumentDOM().getDataFromDocument("myData"));
 
 #### See also
 
-[Document.addDataToDocument()](../Document_object/Document1.md), [Document.documentHasData()](../Document_object/Document53.md), [Document.removeDataFromDocument()](../Document_object/Document250.md)
+- [Document.addDataToDocument()](../Document_object/Document1.md)
+- [Document.documentHasData()](../Document_object/Document53.md)
+- [Document.removeDataFromDocument()](../Document_object/Document250.md)

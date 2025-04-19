@@ -6,11 +6,11 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.as3Dialect
+Document.as3Dialect
 
 #### Description
 
-Property; `string`; a string that describes the ActionScript 3.0 "dialect" being used in the specified document. The default value is "AS3". If you wish to allow prototype classes, as permitted in earlier ECMAScript specifications, set this value to "ES".
+Property; `string`; A string that describes the ActionScript 3.0 "dialect" being used in the specified document. The default value is "AS3". If you wish to allow prototype classes, as permitted in earlier ECMAScript specifications, set this value to "ES".
 
 #### Example
 

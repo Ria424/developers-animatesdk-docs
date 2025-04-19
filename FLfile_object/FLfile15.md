@@ -6,23 +6,23 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.write(fileURI, textToWrite, [ , strAppendMode])*
+FLfile.write(fileURI, textToWrite, [ , strAppendMode])
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, specifying the file to which you want to write.
+**fileURI** `string`; Expressed as a file:/// URI, specifying the file to which you want to write.
 
-**textToWrite** A string representing the text you want to place in the file.
+**textToWrite** `string`; Representing the text you want to place in the file.
 
-**strAppendMode** An optional string with the value "append", which specifies that you want to append *textToWrite* to the existing file. If omitted, *fileURI* is overwritten with *textToWrite*.
+**strAppendMode** `string?`; An optional string with the value "append", which specifies that you want to append *textToWrite* to the existing file. If omitted, *fileURI* is overwritten with *textToWrite*.
 
 #### Returns
 
-A Boolean value of true if successful; *false* otherwise.
+`boolean`; A boolean value of true if successful; *false* otherwise.
 
 #### Description
 
-Method; writes the specified string to the specified file (as UTF-8). If the specified file does not exist, it is created. However, the folder in which you are placing the file must exist before you use this method. To create folders, use [FLfile.createFolder()](../FLfile_object/FLfile1.md).
+Method; Writes the specified string to the specified file (as UTF-8). If the specified file does not exist, it is created. However, the folder in which you are placing the file must exist before you use this method. To create folders, use [FLfile.createFolder()](../FLfile_object/FLfile1.md).
 
 #### Example
 
@@ -40,4 +40,5 @@ if (FLfile.write(URI, "aaa", "append")) {
 
 #### See also
 
-[FLfile.createFolder()](../FLfile_object/FLfile1.md), [FLfile.exists()](../FLfile_object/FLfile2.md)
+- [FLfile.createFolder()](../FLfile_object/FLfile1.md)
+- [FLfile.exists()](../FLfile_object/FLfile2.md)

@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.resetColorFilter(frameIndex)
+Camera.resetColorFilter(frameIndex)
 
 #### Parameters
 

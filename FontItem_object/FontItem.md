@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-fontItem.bitmap
+FontItem.bitmap
 
 #### Description
 
-Property; a Boolean value that specifies whether the Font item is bitmapped (true) or not (false).
+Property; `boolean`; Specifies whether the Font item is bitmapped (true) or not (false).
 
 #### Example
 

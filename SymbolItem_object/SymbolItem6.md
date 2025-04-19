@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-*symbolItem.scalingGrid*
+SymbolItem.scalingGrid
 
 #### Description
 
-Property; a Boolean value that specifies whether 9-slice scaling is enabled for the item.
+Property; `boolean`; A boolean value that specifies whether 9-slice scaling is enabled for the item.
 
 #### Example
 

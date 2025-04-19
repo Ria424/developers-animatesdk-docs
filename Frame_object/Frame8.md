@@ -6,15 +6,15 @@ Flash Professional CC.
 
 #### Usage
 
-*frame.getSoundEnvelope()*
+Frame.getSoundEnvelope()
 
 #### Parameters
 
-None
+None.
 
 #### Returns
 
-Returns a Sound object.
+`SoundItem`; Returns [SoundItem object](../SoundItem_object/SoundItem_summary.md)
 
 #### Description
 

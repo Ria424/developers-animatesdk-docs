@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-contour.getHalfEdge()
+Contour.getHalfEdge()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; returns a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) on the contour of the selection.
+Method; Returns a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) on the contour of the selection.
 
 #### Example
 

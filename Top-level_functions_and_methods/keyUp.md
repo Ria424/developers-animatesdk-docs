@@ -6,9 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
+```javascript
 function keyUp() {
-// statements
+    // statements
 }
+```
 
 #### Parameters
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Function; called when the extensible tool is active and a key is released.
+Function; Called when the extensible tool is active and a key is released.
 
 #### Example
 

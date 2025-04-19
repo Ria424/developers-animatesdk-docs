@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.getElementProperty(propertyName)
+Document.getElementProperty(propertyName)
 
 #### Parameters
 
-**propertyName** `string`; A string that specifies the name of the Element property for which to retrieve the value.
+**propertyName** `string`; Specifies the name of the Element property for which to retrieve the value.
 
 #### Returns
 
@@ -18,7 +18,7 @@ document.getElementProperty(propertyName)
 
 #### Description
 
-Method; gets the specified Element property for the current selection. For a list of acceptable values, see the Property summary table for the [Element object](../Element_object/Element_summary.md).
+Method; Gets the specified Element property for the current selection. For a list of acceptable values, see the Property summary table for the [Element object](../Element_object/Element_summary.md).
 
 #### Example
 

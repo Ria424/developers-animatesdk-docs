@@ -6,7 +6,7 @@ Adobe Animate.
 
 #### Usage
 
-document.convertSelectionToBitmap()
+Document.convertSelectionToBitmap()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; converts selected objects in the current frame to a bitmap and inserts the bitmap into the library.
+Method; Converts selected objects in the current frame to a bitmap and inserts the bitmap into the library.
 
 #### Example
 

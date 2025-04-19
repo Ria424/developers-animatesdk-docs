@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-outputPanel.trace(message)
+OutputPanel.trace(message)
 
 #### Parameters
 
-**message** A string that contains the text to add to the Output panel.
+**message** `string`; A string that contains the text to add to the Output panel.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sends a text string to the Output panel, terminated by a new line, and displays the Output panel if it is not already visible. This method is identical to [Flash.trace()](../Flash_object/Flash77.md), and works in the same way as the trace() statement in ActionScript.
+Method; Sends a text string to the Output panel, terminated by a new line, and displays the Output panel if it is not already visible. This method is identical to [Flash.trace()](../Flash_object/Flash77.md), and works in the same way as the trace() statement in ActionScript.
 To send a blank line, use outputPanel.trace("") or outputPanel.trace("\n"). You can use the latter command inline, making \n a part of the *message* string.
 
 #### Example

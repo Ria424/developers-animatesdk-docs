@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.getRotation(frameIndex)
+Camera.getRotation(frameIndex)
 
 #### Parameters
 
@@ -30,4 +30,6 @@ var val = timeline.camera.getRotation(0);
 
 #### See also
 
-[GetZDepth()](../Camera_object/Camera.md), [GetRotation()](../Camera_object/Camera2.md), [GetZoom()](../Camera_object/Camera1.md)
+- [Camera.getZDepth()](../Camera_object/Camera.md)
+- [Camera.getRotation()](../Camera_object/Camera2.md)
+- [Camera.getZoom()](../Camera_object/Camera1.md)

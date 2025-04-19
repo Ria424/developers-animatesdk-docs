@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-bitmapInstance.hPixels
+BitmapInstance.hPixels
 
 #### Description
 
-Read-only property; `integer`; an integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
+Read-only property; `integer`; An integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
 
 #### Example
 

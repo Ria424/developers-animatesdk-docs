@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-layer.outline
+Layer.outline
 
 #### Description
 
-Property; a Boolean value that specifies the status of outlines for all objects in the layer. If set to true, all objects in the layer appear only with outlines. If false, objects appear as they were created.
+Property; `boolean`; Specifies the status of outlines for all objects in the layer. If set to true, all objects in the layer appear only with outlines. If false, objects appear as they were created.
 
 #### Example
 

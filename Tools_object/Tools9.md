@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-tools.shiftIsDown
+Tools.shiftIsDown
 
 #### Description
 
-Read-only property; a Boolean value that is true if the Shift key is pressed; false otherwise.
+Read-only property; `boolean`; A boolean value that is true if the Shift key is pressed; false otherwise.
 
 #### Example
 

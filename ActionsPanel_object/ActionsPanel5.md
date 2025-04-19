@@ -18,7 +18,7 @@ actionsPanel.replaceSelectedText(replacementText)
 
 #### Description
 
-Method; replaces the currently selected text with the text specified in *replacementText*. If *replacementText* contains more characters than the selected text, any characters following the selected text now follow *replacementText*; that is, they are not overwritten.
+Method; Replaces the currently selected text with the text specified in *replacementText*. If *replacementText* contains more characters than the selected text, any characters following the selected text now follow *replacementText*; that is, they are not overwritten.
 
 #### Example
 
@@ -32,4 +32,7 @@ if (fl.actionsPanel.hasSelection()) {
 
 #### See also
 
-[ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md), [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md), [ActionsPanel.setSelection()](../ActionsPanel_object/ActionsPanel7.md), [ActionsPanel.setText()](../ActionsPanel_object/ActionsPanel8.md)
+- [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
+- [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md)
+- [ActionsPanel.setSelection()](../ActionsPanel_object/ActionsPanel7.md)
+- [ActionsPanel.setText()](../ActionsPanel_object/ActionsPanel8.md)

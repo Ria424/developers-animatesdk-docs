@@ -6,11 +6,11 @@ Flash Professional CS5.
 
 #### Usage
 
-*Frame.hasMotionPath()*
+Frame.hasMotionPath()
 
 #### Description
 
-Method; a Boolean value. Lets you know whether the current selection includes a motion path.
+Method; `boolean`; Lets you know whether the current selection includes a motion path.
 
 #### Example
 

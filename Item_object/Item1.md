@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-item.getData(name)
+Item.getData(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the data to retrieve.
+**name** `string`; Specifies the name of the data to retrieve.
 
 #### Returns
 
@@ -18,7 +18,7 @@ The data specified by the *name* parameter. The type of data returned depends on
 
 #### Description
 
-Method; retrieves the value of the specified data.
+Method; Retrieves the value of the specified data.
 
 #### Example
 

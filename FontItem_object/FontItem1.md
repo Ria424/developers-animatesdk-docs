@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-fontItem.bold
+FontItem.bold
 
 #### Description
 
-Property; a Boolean value that specifies whether the Font item is bold (true) or not (false).
+Property; `boolean`; Specifies whether the Font item is bold (true) or not (false).
 
 #### Example
 

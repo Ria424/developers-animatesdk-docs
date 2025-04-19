@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.symbolType*
+SymbolItem.symbolType
 
 #### Description
 
-Property; a string that specifies the type of symbol. Acceptable values are *"movie clip", "button",* and *"graphic"*.
+Property; `"movie clip" | "button" | "graphic"`; Specifies the type of symbol. Acceptable values are *"movie clip"*, *"button"*, and *"graphic"*.
 
 #### Example
 

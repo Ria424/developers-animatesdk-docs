@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-*library.getItemProperty(property)*
+Library.getItemProperty(property)
 
 #### Parameters
 
-**property** A string. For a list of values that you can use as a *property* parameter, see the Property summary table for the [Item object](../Item_object/Item_summary.md), along with property summaries for its subclasses.
+**property** `string`; For a list of values that you can use as a *property* parameter, see the Property summary table for the [Item object](../Item_object/Item_summary.md), along with property summaries for its subclasses.
 
 #### Returns
 
-A string value for the property.
+`string`; A string value for the property.
 
 #### Description
 
-Method; gets the property for the selected item.
+Method; Gets the property for the selected item.
 
 #### Example
 

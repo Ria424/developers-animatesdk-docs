@@ -10,7 +10,7 @@ parameter.removeItem(index)
 
 #### Parameters
 
-**index** The zero-based integer index of the item to be removed from the screen or component property.
+**index** `integer`; The zero-based integer index of the item to be removed from the screen or component property.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; removes an element of the object or array type of a screen or component parameter.
+Method; Removes an element of the object or array type of a screen or component parameter.
 
 #### Example
 

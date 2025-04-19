@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-element.depth
+Element.depth
 
 #### Description
 
-Read-only property; `integer`; An integer that has a value greater than 0 for the depth of the object in the view. The drawing order of objects on the Stage specifies which one is on top of the others. Object order can also be managed with the Modify > Arrange menu item.
+Read-only property; `integer`; An integer that has a value greater than 0 for the depth of the object in the view. The drawing order of objects on the Stage specifies which one is on top of the others. Object order can also be managed with the `Modify > Arrange` menu item.
 
 #### Example
 

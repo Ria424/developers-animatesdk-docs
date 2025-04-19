@@ -6,21 +6,21 @@ Flash MX 2004.
 
 #### Usage
 
-document.addItem(position, item)
+Document.addItem(position, item)
 
 #### Parameters
 
-**position** `Point`; A point that specifies the *x* and *y* coordinates of the location at which to add the item. It uses the center of a symbol or the upper left corner of a bitmap or video.
+**position** `Point`; Specifies the *x* and *y* coordinates of the location at which to add the item. It uses the center of a symbol or the upper left corner of a bitmap or video.
 
-**item** `Item`; An Item object that specifies the item to add and the library from which to add it (see [Item object](../Item_object/item_summary.md)).
+**item** `Item`; Specifies the item to add and the library from which to add it (see [Item object](../Item_object/item_summary.md)).
 
 #### Returns
 
-`boolean`; A boolean value: true if successful; false otherwise.
+`boolean`; true if successful; false otherwise.
 
 #### Description
 
-Method; adds an item from any open document or library to the specified Document object.
+Method; Adds an item from any open document or library to the specified Document object.
 
 #### Example
 

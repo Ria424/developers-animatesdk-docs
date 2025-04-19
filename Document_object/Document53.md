@@ -6,15 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-document.documentHasData(name)
+Document.documentHasData(name)
 
 #### Parameters
 
-**name** `string`; A string that specifies the name of the data to check.
+**name** `string`; Specifies the name of the data to check.
 
 #### Returns
 
-`boolean`; A boolean value: true if the document has persistent data; false otherwise.
+`boolean`; true if the document has persistent data; false otherwise.
 
 #### Description
 
@@ -30,4 +30,6 @@ var hasData = fl.getDocumentDOM().documentHasData("myData");
 
 #### See also
 
-[Document.addDataToDocument()](../Document_object/Document1.md), [Document.getDataFromDocument()](../Document_object/Document76.md), [Document.removeDataFromDocument()](../Document_object/Document250.md)
+- [Document.addDataToDocument()](../Document_object/Document1.md)
+- [Document.getDataFromDocument()](../Document_object/Document76.md)
+- [Document.removeDataFromDocument()](../Document_object/Document250.md)

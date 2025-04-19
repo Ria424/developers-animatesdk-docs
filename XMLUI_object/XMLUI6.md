@@ -6,13 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-*xmlui.set(controlPropertyName, value)*
+XMLUI.set(controlPropertyName, value)
 
 #### Parameters
 
-**controlPropertyName** A string that specifies the name of XMLUI property to modify.
+**controlPropertyName** `string`; Specifies the name of XMLUI property to modify.
 
-**value** A string that specifies the value to which you want to set the XMLUI property.
+**value** `string`; Specifies the value to which you want to set the XMLUI property.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; modifies the value of the specified property of the current XMLUI dialog box.
+Method; Modifies the value of the specified property of the current XMLUI dialog box.
 
 #### Example
 
@@ -32,4 +32,8 @@ fl.xmlui.set("URL", "www.adobe.com");
 
 #### See also
 
-[Flash.xmlui](../Flash_object/Flash81.md), [Document.xmlPanel()](../Document_object/Document6198.md), [XMLUI.get()](../XMLUI_object/XMLUI2.md), [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md), [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md)
+- [Flash.xmlui](../Flash_object/Flash81.md)
+- [Document.xmlPanel()](../Document_object/Document6198.md)
+- [XMLUI.get()](../XMLUI_object/XMLUI2.md)
+- [XMLUI.setControlItemElement()](../XMLUI_object/XMLUI7.md)
+- [XMLUI.setControlItemElements()](../XMLUI_object/XMLUI8.md)

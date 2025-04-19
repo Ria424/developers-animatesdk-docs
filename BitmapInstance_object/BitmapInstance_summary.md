@@ -8,7 +8,7 @@ Flash MX 2004.
 
 #### Description
 
-The BitmapInstance object is a subclass of the Instance object and represents a bitmap in a frame (see [Instance object](../Instance_object/Instance_summary.md)).
+The BitmapInstance object is a subclass of the [Instance object](../Instance_object/Instance_summary.md) and represents a bitmap in a frame.
 
 #### Method summary
 

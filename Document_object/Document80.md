@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.getMetadata()
+Document.getMetadata()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; returns a string containing the XML metadata associated with the document, or an empty string if there is no metadata.
+Method; Returns a string containing the XML metadata associated with the document, or an empty string if there is no metadata.
 
 #### Example
 

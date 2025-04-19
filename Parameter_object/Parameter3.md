@@ -10,7 +10,7 @@ parameter.name
 
 #### Description
 
-Read-only property; a string that specifies the name of the parameter.
+Read-only property; `string`; Specifies the name of the parameter.
 
 #### Example
 

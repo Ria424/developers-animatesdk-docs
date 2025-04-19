@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; returns a string that represents the targeted player version for the specified document. For a list of values that this method can return, see [Document.setPlayerVersion()](../Document_object/Document600.md).
+Method; Returns a string that represents the targeted player version for the specified document. For a list of values that this method can return, see [Document.setPlayerVersion()](../Document_object/Document600.md).
 To determine which version of ActionScript is being targeted in the specified file, use [Document.asVersion](../Document_object/Document21.md).
 
 #### Example

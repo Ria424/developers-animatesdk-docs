@@ -6,13 +6,13 @@ Flash 8.
 
 #### Usage
 
-*xmlui.setVisible(controlID, visible)*
+XMLUI.setVisible(controlID, visible)
 
 #### Parameters
 
-**controlID** A string that specifies the ID attribute of the control you want to show or hide.
+**controlID** `string`; Specifies the ID attribute of the control you want to show or hide.
 
-**visible** A Boolean value of *true* if you want to show the control; *false* if you want to hide it.
+**visible** `boolean`; *true* if you want to show the control; *false* if you want to hide it.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; shows or hides a control.
+Method; Shows or hides a control.
 
 #### Example
 

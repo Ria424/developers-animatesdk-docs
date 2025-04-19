@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.editScene(index)
+Document.editScene(index)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; makes the specified scene the currently selected scene for editing.
+Method; Makes the specified scene the currently selected scene for editing.
 
 #### Example
 

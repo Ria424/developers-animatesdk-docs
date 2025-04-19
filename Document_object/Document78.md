@@ -6,15 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-document.getElementTextAttr(attrName [, startIndex [, endIndex]])
+Document.getElementTextAttr(attrName [, startIndex [, endIndex]])
 
 #### Parameters
 
-**attrName** `string`; A string that specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
+**attrName** `string`; Specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
 
-**startIndex** `integer?`; An integer that specifies the index of first character, with 0 (zero) specifying the first position. This parameter is optional.
+**startIndex** `integer?`; Specifies the index of first character, with 0 (zero) specifying the first position. This parameter is optional.
 
-**endIndex** `integer?`; An integer that specifies the index of last character. This parameter is optional.
+**endIndex** `integer?`; Specifies the index of last character. This parameter is optional.
 
 #### Returns
 
@@ -22,7 +22,7 @@ If one text field is selected, the property is returned if there is only one val
 
 #### Description
 
-Method; gets a specific TextAttrs property of the selected Text objects. Selected objects that are not text fields are ignored. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md). See also [Document.setElementTextAttr()](../Document_object/Document500.md).
+Method; Gets a specific TextAttrs property of the selected Text objects. Selected objects that are not text fields are ignored. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md). See also [Document.setElementTextAttr()](../Document_object/Document500.md).
 
 #### Example
 

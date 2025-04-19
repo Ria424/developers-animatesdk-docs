@@ -6,11 +6,11 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.getCreationDateObj(fileOrFolderURI)*
+FLfile.getCreationDateObj(fileOrFolderURI)
 
 #### Parameters
 
-**fileOrFolderURI** A string, expressed as a file:/// URI, specifying the file or folder whose creation date and time you want to retrieve as a JavaScript Date object.
+**fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder whose creation date and time you want to retrieve as a JavaScript Date object.
 
 #### Returns
 
@@ -18,7 +18,7 @@ A JavaScript Date object that represents the date and time when the specified fi
 
 #### Description
 
-Method; returns a JavaScript Date object that represents the date and time when the specified file or folder was created.
+Method; Returns a JavaScript Date object that represents the date and time when the specified file or folder was created.
 
 #### Example
 
@@ -32,4 +32,5 @@ fl.trace(file1Date);
 
 #### See also
 
-[FLfile.getCreationDate()](../FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md)
+- [FLfile.getCreationDate()](../FLfile_object/FLfile4.md)
+- [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md)

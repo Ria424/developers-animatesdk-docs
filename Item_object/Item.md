@@ -6,13 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-item.addData(name, type, data)
+Item.addData(name, type, data)
 
 #### Parameters
 
-**name** A string that specifies the name of the data.
+**name** `string`; Specifies the name of the data.
 
-**type** `"integer" | "integerArray" | "double" | "doubleArray" | "string" | "byteArray"` A string that specifies the type of data. Valid types are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+**type** `"integer" | "integerArray" | "double" | "doubleArray" | "string" | "byteArray"`; Specifies the type of data. Valid types are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
 
 **data** `integer | integer[] | double | double[] | string | byte[]`; The data to add to the specified library item. The type of data depends on the value of the type parameter. For example, if type is "integer", the value of data must be an integer, and so on.
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; adds specified data to a library item.
+Method; Adds specified data to a library item.
 
 #### Example
 

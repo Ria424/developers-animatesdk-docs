@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-*library.selectNone()*
+Library.selectNone()
 
 #### Parameters
 
@@ -18,13 +18,13 @@ Nothing.
 
 #### Description
 
-Method; deselects all the library items.
+Method; Deselects all the library items.
 
 #### Example
 
 The following examples deselect all the items in the library:
 
 ```javascript
-fl.getDocumentDOM().library.selectNone(); 
+fl.getDocumentDOM().library.selectNone();
 fl.getDocumentDOM().library.selectAll(false);
 ```

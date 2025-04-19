@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.currentTimeline
+Document.currentTimeline
 
 #### Description
 
-Property; `integer`; an integer that specifies the index of the active timeline. You can set the active timeline by changing the value of this property; the effect is almost equivalent to calling [Document.editScene()](../Document_object/Document57.md). The only difference is that you don’t get an error message if the index of the timeline is not valid; the property is simply not set, which causes silent failure.
+Property; `integer`; Specifies the index of the active timeline. You can set the active timeline by changing the value of this property; the effect is almost equivalent to calling [Document.editScene()](../Document_object/Document57.md). The only difference is that you don’t get an error message if the index of the timeline is not valid; the property is simply not set, which causes silent failure.
 
 #### Example
 

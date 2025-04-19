@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.curveTo(xCtl, yCtl, xEnd, yEnd)
+DrawingLayer.curveTo(xCtl, yCtl, xEnd, yEnd)
 
 #### Parameters
 

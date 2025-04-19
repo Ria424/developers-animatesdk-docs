@@ -6,9 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
+```javascript
 function keyDown() {
-// statements
+    // statements
 }
+```
 
 #### Parameters
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Function; called when the extensible tool is active and the user presses a key. The script should call
+Function; Called when the extensible tool is active and the user presses a key. The script should call
 [Tools.getKeyDown()](../Tools_object/Tools4.md) to determine which key was pressed.
 
 #### Example
@@ -35,4 +37,5 @@ function keyDown() {
 
 #### See also
 
-[keyUp()](../Top-level_functions_and_methods/keyUp.md), [Tools.getKeyDown()](../Tools_object/Tools4.md)
+- [keyUp()](../Top-level_functions_and_methods/keyUp.md)
+- [Tools.getKeyDown()](../Tools_object/Tools4.md)

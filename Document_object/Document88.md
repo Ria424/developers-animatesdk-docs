@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getTimeline()
+Document.getTimeline()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; retrieves the current [Timeline object](../Timeline_object/Timeline_summary.md) in the document. The current timeline can be the current scene, the current symbol being edited, or the current screen.
+Method; Retrieves the current [Timeline object](../Timeline_object/Timeline_summary.md) in the document. The current timeline can be the current scene, the current symbol being edited, or the current screen.
 
 #### Example
 
@@ -45,4 +45,6 @@ alert(timeline.name);
 
 #### See also
 
-[Document.currentTimeline](../Document_object/Document39.md), [Document.timelines](../Document_object/Document5995.md), [SymbolItem.timeline](../SymbolItem_object/SymbolItem12.md)
+- [Document.currentTimeline](../Document_object/Document39.md)
+- [Document.timelines](../Document_object/Document5995.md)
+- [SymbolItem.timeline](../SymbolItem_object/SymbolItem12.md)

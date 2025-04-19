@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
+Document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
 
 #### Parameters
 
@@ -18,11 +18,11 @@ document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
 
 #### Returns
 
-`boolean`; A boolean value of true if the file is successfully exported as a PNG file; false otherwise.
+`boolean`; true if the file is successfully exported as a PNG file; false otherwise.
 
 #### Description
 
-Method; exports the document as one or more PNG files. If *fileURI* is specified and the file already exists, it is overwritten without warning.
+Method; Exports the document as one or more PNG files. If *fileURI* is specified and the file already exists, it is overwritten without warning.
 
 ***Note:** If fileURI is empty and bCurrentFrame is true , the Export Movie dialog box does not display and Flash saves the exported PNG file in the same location as the .fla file.*
 

@@ -6,13 +6,13 @@ Adobe Animate 2019
 
 #### Usage
 
-camera.setRotation(frameIndex, angleDegree)
+Camera.setRotation(frameIndex, angleDegree)
 
 #### Parameters
 
 **frameIndex** `integer`; Frame Number in timeline.
 
-**AngleDegree** `integer`; The angleDegree for rotation.
+**angleDegree** `integer`; The angleDegree for rotation.
 
 #### Return
 

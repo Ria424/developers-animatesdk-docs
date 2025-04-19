@@ -10,11 +10,11 @@ Tween.getFilters(frameIndex);
 
 #### Parameters
 
-**frameIndex** Index of the frame from which filter data is to be retrieved.
+**frameIndex** `integer`; Index of the frame from which filter data is to be retrieved.
 
 #### Returns
 
-Returns array of Filter objects.
+`Filter[]`; Returns array of Filter objects.
 
 #### Description
 

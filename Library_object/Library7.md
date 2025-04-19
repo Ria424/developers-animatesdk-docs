@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-*library.getItemType([namePath])*
+Library.getItemType([namePath])
 
 #### Parameters
 
-**namePath** A string that specifies the name of the item. If the item is in a folder, specify its name and path using slash notation. If *namePath* is not specified, Flash provides the type of the current selection. If more than one item is currently selected and no *namePath* is provided, Flash ignores the command. This parameter is optional.
+**namePath** `string?`; A string that specifies the name of the item. If the item is in a folder, specify its name and path using slash notation. If *namePath* is not specified, Flash provides the type of the current selection. If more than one item is currently selected and no *namePath* is provided, Flash ignores the command. This parameter is optional.
 
 #### Returns
 
-A string value specifying the type of object. For possible return values, see [Item.itemType](../Item_object/Item4.md).
+`string`; A string value specifying the type of object. For possible return values, see [Item.itemType](../Item_object/Item4.md).
 
 #### Description
 
-Method; gets the type of object currently selected or specified by a library path.
+Method; Gets the type of object currently selected or specified by a library path.
 
 #### Example
 

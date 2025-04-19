@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-actionsPanel.hasSelection()
+ActionsPanel.hasSelection()
 
 #### Parameters
 
@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-`boolean`; A Boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
+`boolean`; A boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
 
 #### Description
 
-Method; specifies whether any text is currently selected in the Actions panel.
+Method; Specifies whether any text is currently selected in the Actions panel.
 
 #### Example
 

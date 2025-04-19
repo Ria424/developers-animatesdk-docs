@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.addNewPublishProfile([profileName])
+Document.addNewPublishProfile([profileName])
 
 #### Parameters
 
@@ -18,7 +18,7 @@ document.addNewPublishProfile([profileName])
 
 #### Description
 
-Method; adds a new publish profile and makes it the current one.
+Method; Adds a new publish profile and makes it the current one.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-componentsPanel.reload()
+ComponentsPanel.reload()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; refreshes the Components panel’s list of components.
+Method; Refreshes the Components panel’s list of components.
 
 #### Example
 

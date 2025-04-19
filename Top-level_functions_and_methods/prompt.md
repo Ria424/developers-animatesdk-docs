@@ -6,21 +6,21 @@ Flash MX 2004.
 
 #### Usage
 
-prompt(promptMsg [,text])
+prompt(promptMsg, [text])
 
 #### Parameters
 
-**promptMsg** A string to display in the Prompt dialog box (limited to 256 characters in Mac OS X).
+**promptMsg** `string`; A string to display in the Prompt dialog box (limited to 256 characters in Mac OS X).
 
-**text** An optional string to display as a default value for the text field.
+**text** `string?`; An optional string to display as a default value for the text field.
 
 #### Returns
 
-The string the user typed if the user clicks OK; null if the user clicks Cancel.
+`string`; The string the user typed if the user clicks OK; null if the user clicks Cancel.
 
 #### Description
 
-Method; displays a prompt and optional text in a modal Alert dialog box, along with OK and Cancel buttons.
+Method; Displays a prompt and optional text in a modal Alert dialog box, along with OK and Cancel buttons.
 
 #### Example
 
@@ -33,4 +33,5 @@ fl.trace(userName);
 
 #### See also
 
-[alert()](../Top-level_functions_and_methods/alert.md), [confirm()](../Top-level_functions_and_methods/confirm.md)
+- [alert()](../Top-level_functions_and_methods/alert.md)
+- [confirm()](../Top-level_functions_and_methods/confirm.md)

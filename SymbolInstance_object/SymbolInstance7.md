@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-symbolInstance.cacheAsBitmap
+SymbolInstance.cacheAsBitmap
 
 #### Description
 
-Property; a Boolean value that specifies whether run-time bitmap caching is enabled.
+Property; `boolean`; Specifies whether run-time bitmap caching is enabled.
 
 ***Note:** Starting w/ Flash Professional CS5.5, users should switch to using the ["SymbolInstance.bitmapRenderMode"](../SymbolInstance_object/SymbolInstance3.md) property instead of this property.*
 

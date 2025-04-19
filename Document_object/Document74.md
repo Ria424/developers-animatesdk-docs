@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.getCustomFill([objectToFill])
+Document.getCustomFill([objectToFill])
 
 #### Parameters
 
-**objectToFill** `string?"selection"`; A string that specifies the location of the fill object. The following values are valid:
+**objectToFill** `"toolbar" | "selection"?"selection"`; Specifies the location of the fill object. The following values are valid:
 
 - "toolbar" returns the fill object of the Tools panel and Property inspector.
 
@@ -21,11 +21,11 @@ undefined. This parameter is optional.
 
 #### Returns
 
-`Fill`; The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
+`Fill | undefined`; The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
 
 #### Description
 
-Method; retrieves the fill object of the selected shape or, if specified, of the Tools panel and Property inspector.
+Method; Retrieves the fill object of the selected shape or, if specified, of the Tools panel and Property inspector.
 
 #### Example
 

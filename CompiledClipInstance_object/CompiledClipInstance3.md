@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-compiledClipInstance.blendMode
+CompiledClipInstance.blendMode
 
 #### Description
 
-Property; `string`; a string that specifies the blend mode. Valid blend modes are: normal, layer, darken, multiply, lighten, screen, overlay, hardlight, add, subtract, difference, invert, alpha, and erase.
+Property; `"normal" | "layer" | "darken" | "multiply" | "lighten" | "screen" | "overlay" | "hardlight" | "add" | "subtract" | "difference" | "invert" | "alpha" | "erase"`; Specifies the blend mode. Valid blend modes are: normal, layer, darken, multiply, lighten, screen, overlay, hardlight, add, subtract, difference, invert, alpha, and erase.
 
 #### Example
 

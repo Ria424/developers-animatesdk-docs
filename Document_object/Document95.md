@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.importPublishProfileString(xmlString)
+Document.importPublishProfileString(xmlString)
 
 #### Parameters
 
@@ -14,11 +14,11 @@ document.importPublishProfileString(xmlString)
 
 #### Returns
 
-`boolean`; A boolean value of true if the string was successfully imported; false otherwise.
+`boolean`; true if the string was successfully imported; false otherwise.
 
 #### Description
 
-Method: imports an XML string that represents a publish profile and sets it as the current profile. To generate an XML string to import, use [Document.exportPublishProfileString()](../Document_object/Document66.md) before using this method.
+Method: Imports an XML string that represents a publish profile and sets it as the current profile. To generate an XML string to import, use [Document.exportPublishProfileString()](../Document_object/Document66.md) before using this method.
 
 #### Example
 

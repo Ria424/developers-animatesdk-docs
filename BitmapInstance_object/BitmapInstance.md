@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-bitmapInstance.getBits()
+BitmapInstance.getBits()
 
 #### Parameters
 
@@ -14,12 +14,12 @@ None.
 
 #### Returns
 
-An object that contains width, height, depth, bits, and, if the bitmap has a color table, cTab properties. The bits element is an array of bytes. The cTab element is an array of color values of the form "\#RRGGBB". The length of the array is the length of the color table.
+`{width: integer; height: integer; depth: integer; cTab: integer}`; An object that contains width, height, depth, bits, and, if the bitmap has a color table, cTab properties. The bits element is an array of bytes. The cTab element is an array of color values of the form "\#RRGGBB". The length of the array is the length of the color table.
 The byte array is meaningful only when referenced by a DLL or shared library. You typically use it only when creating an extensible tool or effect. For information on creating DLLs for use with Animate JavaScript, see "[C-Level Extensibility](../C-Level_Extensibility/About_extensibility.md)"
 
 #### Description
 
-Method; lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning them to Animate.
+Method; Lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning them to Animate.
 
 #### Example
 

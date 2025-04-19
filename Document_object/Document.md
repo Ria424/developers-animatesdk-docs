@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.accName
+Document.accName
 
 #### Description
 
-Property; `string`; a string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud.
+Property; `string`; A string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud.
 
 #### Example
 

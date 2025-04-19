@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.canRevert()
+Document.canRevert()
 
 #### Parameters
 
@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-`boolean`; A boolean value: true if you can use the document.revert() or fl.revertDocument() methods successfully;
+`boolean`; true if you can use the document.revert() or fl.revertDocument() methods successfully;
 false otherwise.
 
 #### Description

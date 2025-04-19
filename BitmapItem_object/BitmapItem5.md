@@ -6,11 +6,11 @@ Flash CS6 Professional.
 
 #### Usage
 
-*bitmapItem.hPixels*
+BitmapItem.hPixels
 
 #### Description
 
-Read-only property; `integer`; an int that specifies the width of the bitmap, in pixels.
+Read-only property; `integer`; Specifies the width of the bitmap, in pixels.
 
 #### Example
 

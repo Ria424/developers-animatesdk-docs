@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-*library.itemExists(namePath)*
+Library.itemExists(namePath)
 
 #### Parameters
 
-**namePath** A string that specifies the name of the item. If the item is in a folder, specify its name and path using slash notation.
+**namePath** `string`; Specifies the name of the item. If the item is in a folder, specify its name and path using slash notation.
 
 #### Returns
 
-A Boolean value: true if the specified item exists in the library; *false* otherwise.
+`boolean`; True if the specified item exists in the library; *false* otherwise.
 
 #### Description
 
-Method; checks to see if a specified item exists in the library.
+Method; Checks to see if a specified item exists in the library.
 
 #### Example
 

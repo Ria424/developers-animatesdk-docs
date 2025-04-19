@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.timeline*
+SymbolItem.timeline
 
 #### Description
 
-Read-only property; a [Timeline object](../Timeline_object/Timeline_summary.md).
+Read-only property; `Timeline`; A [Timeline object](../Timeline_object/Timeline_summary.md).
 
 #### Example
 

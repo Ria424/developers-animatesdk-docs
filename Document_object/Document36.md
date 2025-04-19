@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.convertToSymbol(type, name, registrationPoint)
+Document.convertToSymbol(type, name, registrationPoint)
 
 #### Parameters
 
@@ -22,7 +22,7 @@ document.convertToSymbol(type, name, registrationPoint)
 
 #### Description
 
-Method; converts the selected Stage item(s) to a new symbol. For information on defining linkage and shared asset properties for a symbol, see [Item object](../Item_object/item_summary.md).
+Method; Converts the selected Stage item(s) to a new symbol. For information on defining linkage and shared asset properties for a symbol, see [Item object](../Item_object/item_summary.md).
 
 #### Example
 

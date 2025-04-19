@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-layer.locked
+Layer.locked
 
 #### Description
 
-Property; a Boolean value that specifies the locked status of the layer. If set to true, the layer is locked. The default value is false.
+Property; `boolean`; Specifies the locked status of the layer. If set to true, the layer is locked. The default value is false.
 
 #### Example
 

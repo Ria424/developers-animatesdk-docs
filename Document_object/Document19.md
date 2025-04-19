@@ -6,11 +6,11 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.as3StrictMode
+Document.as3StrictMode
 
 #### Description
 
-Property; `boolean`; a boolean value that specifies whether the ActionScript 3.0 compiler should compile with the Strict Mode option turned on (true) or off (false). Strict Mode causes warnings to be reported as errors, which means that compilation will not succeed if those errors exist. The default value is true.
+Property; `boolean`; Specifies whether the ActionScript 3.0 compiler should compile with the Strict Mode option turned on (true) or off (false). Strict Mode causes warnings to be reported as errors, which means that compilation will not succeed if those errors exist. The default value is true.
 
 #### Example
 

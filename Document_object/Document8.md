@@ -6,17 +6,17 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]])
+Document.addNewPrimitiveRectangle(boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]])
 
 #### Parameters
 
-**rect** `Rectangle`; A rectangle that specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+**rect** `Rectangle`; Specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 **roundness** `integer`; An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
 
-**bSuppressFill** `boolean`; A boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
+**bSuppressFill** `boolean?false`; A boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
 
-**bSuppressStroke** `boolean`; A boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
+**bSuppressStroke** `boolean?false`; A boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
 
 #### Returns
 
@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; adds a new rectangle primitive fitting into the specified bounds. This method performs the same operation as the Rectangle Primitive tool. The rectangle primitive uses the document's current default stroke and fill attributes and is added on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
+Method; Adds a new rectangle primitive fitting into the specified bounds. This method performs the same operation as the Rectangle Primitive tool. The rectangle primitive uses the document's current default stroke and fill attributes and is added on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
 
 #### Example
 

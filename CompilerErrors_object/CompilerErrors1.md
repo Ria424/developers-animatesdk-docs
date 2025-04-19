@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-*compilerErrors.save(fileURI \[, bAppendToFile \[, bUseSystemEncoding\]\])*
+CompilerErrors.save(fileURI \[, bAppendToFile \[, bUseSystemEncoding\]\])
 
 #### Parameters
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; saves the contents of the Compiler Errors panel to a local text file.
+Method; Saves the contents of the Compiler Errors panel to a local text file.
 
 #### Example
 

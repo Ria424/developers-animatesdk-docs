@@ -6,7 +6,7 @@ Flash Professional CS5.
 
 #### Usage
 
-*frame.convertMotionObjectTo2D()*
+Frame.convertMotionObjectTo2D()
 
 #### Description
 

@@ -6,11 +6,11 @@ Flash MX 2004. *Dropped in Adobe Animate*.
 
 #### Usage
 
-symbolInstance.actionScript
+SymbolInstance.actionScript
 
 #### Description
 
-Property; a string that specifies the actions assigned to the symbol. This applies only to movie clip and button instances. For a graphic symbol instance, the value returns undefined.
+Property; `string`; Specifies the actions assigned to the symbol. This applies only to movie clip and button instances. For a graphic symbol instance, the value returns undefined.
 
 #### Example
 

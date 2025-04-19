@@ -6,22 +6,22 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.createFolder(folderURI)*
+FLfile.createFolder(folderURI)
 
 #### Parameters
 
-**folderURI** A folder URI that specifies the folder structure you want to create.
+**folderURI** `string`; A folder URI that specifies the folder structure you want to create.
 
 #### Returns
 
-A Boolean value of true if successful; false if *folderURI* already exists.
+`boolean`; A boolean value of true if successful; false if *folderURI* already exists.
 
 #### Description
 
-Method; creates one or more folders at the specified location.
+Method; Creates one or more folders at the specified location.
 You can create multiple folders at one time. For example, the following command creates both the MyData and the TempData folders if they don’t already exist:
 
-*FLfile.createFolder("file:///c\|/MyData/TempData")*
+`FLfile.createFolder("file:///c\|/MyData/TempData")`
 
 #### Example
 
@@ -44,4 +44,5 @@ if (FLfile.createFolder(folderURI)) {
 
 #### See also
 
-[FLfile.remove()](../FLfile_object/FLfile12.md), [FLfile.write()](../FLfile_object/FLfile15.md)
+- [FLfile.remove()](../FLfile_object/FLfile12.md)
+- [FLfile.write()](../FLfile_object/FLfile15.md)

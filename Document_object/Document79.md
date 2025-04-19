@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.getFilters()
+Document.getFilters()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; returns an array that contains the list of filters applied to the currently selected objects. If multiple objects are selected and they don’t have identical filters, this method returns the list of filters applied to the first selected object.
+Method; Returns an array that contains the list of filters applied to the currently selected objects. If multiple objects are selected and they don’t have identical filters, this method returns the list of filters applied to the first selected object.
 
 #### Example
 
@@ -26,4 +26,7 @@ See [Document.setFilters()](../Document_object/Document530.md).
 
 #### See also
 
-[Document.addFilter()](../Document_object/Document3.md), [Document.changeFilterOrder()](../Document_object/Document29.md), [Document.setFilters()](../Document_object/Document530.md), [Filter object](../Filter_object/Filter_summary.md)
+- [Document.addFilter()](../Document_object/Document3.md)
+- [Document.changeFilterOrder()](../Document_object/Document29.md)
+- [Document.setFilters()](../Document_object/Document530.md)
+- [Filter object](../Filter_object/Filter_summary.md)

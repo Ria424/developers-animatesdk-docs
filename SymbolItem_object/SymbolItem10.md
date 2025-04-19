@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*symbolItem.sourceLibraryName*
+SymbolItem.sourceLibraryName
 
 #### Description
 
-Property; a string that specifies the name of the item in the source file library. It is used for shared library symbols.
+Property; `string`; Specifies the name of the item in the source file library. It is used for shared library symbols.
 
 #### Example
 

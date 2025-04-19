@@ -6,11 +6,11 @@ Flash Professional CS5.
 
 #### Usage
 
-*Frame.isMotionObject()*
+Frame.isMotionObject()
 
 #### Description
 
-Method; a Boolean value. Lets you know whether the current selection is a motion object.
+Method; `boolean`; A boolean value. Lets you know whether the current selection is a motion object.
 
 #### Example
 

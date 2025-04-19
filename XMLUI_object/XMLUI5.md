@@ -6,19 +6,19 @@ Flash 8.
 
 #### Usage
 
-*xmlui.getVisible(controlID)*
+XMLUI.getVisible(controlID)
 
 #### Parameters
 
-**controlID** A string that specifies the ID attribute of the control whose visibility status you want to retrieve.
+**controlID** `string`; Specifies the ID attribute of the control whose visibility status you want to retrieve.
 
 #### Returns
 
-A Boolean value of *true* if the control is visible, or *false* if it is invisible (hidden).
+`boolean`; A boolean value of *true* if the control is visible, or *false* if it is invisible (hidden).
 
 #### Description
 
-Method; returns a Boolean value that specifies whether the control is visible or hidden.
+Method; Returns a Boolean value that specifies whether the control is visible or hidden.
 
 #### Example
 

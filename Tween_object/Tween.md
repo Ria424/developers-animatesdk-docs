@@ -10,11 +10,11 @@ Tween.getGeometricTransform(frameIndex)
 
 #### Parameters
 
-**frameIndex** Offset index of interpolated frame.
+**frameIndex** `integer`; Offset index of interpolated frame.
 
 #### Returns
 
-object; ColorTransform object:
+`ColorTransform`; ColorTransform object:
 
 ```typescript
 declare type ColorTransform = {

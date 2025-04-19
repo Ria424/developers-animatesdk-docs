@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.items
+Library.items
 
 #### Description
 

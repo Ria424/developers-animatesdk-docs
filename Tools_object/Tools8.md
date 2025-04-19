@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-tools.setCursor(cursor)
+Tools.setCursor(cursor)
 
 #### Parameters
 
-**cursor** An integer that defines the pointer appearance, as described in the following list:
+**cursor** `integer`; An integer that defines the pointer appearance, as described in the following list:
 
 - 0 = Plus cursor (+)
 
@@ -34,7 +34,7 @@ Nothing.
 
 #### Description
 
-Method; sets the pointer to a specified appearance.
+Method; Sets the pointer to a specified appearance.
 
 #### Example
 

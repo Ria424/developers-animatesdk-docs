@@ -6,7 +6,7 @@ Flash MX 2004; optional *text* parameter added in Flash CS3 Professional.
 
 #### Usage
 
-document.addNewText(boundingRectangle [, text ])
+Document.addNewText(boundingRectangle [, text ])
 
 #### Parameters
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; inserts a new text field and optionally places text into the field. If you omit the *text* parameter, you can call
+Method; Inserts a new text field and optionally places text into the field. If you omit the *text* parameter, you can call
 [Document.setTextString()](../Document_object/Document9908.md) to populate the text field.
 
 #### Example

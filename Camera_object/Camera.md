@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.getZDepth(frameIndex)
+Camera.getZDepth(frameIndex)
 
 #### Parameters
 
@@ -30,4 +30,4 @@ var depth = timeline.camera.getZDepth(0);
 
 #### See also
 
-[GetRotation()](../Camera_object/Camera2.md)
+[Camera.getRotation()](../Camera_object/Camera2.md)

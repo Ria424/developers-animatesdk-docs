@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-*bitmapItem.exportToFile(fileURI, quality)*
+BitmapItem.exportToFile(fileURI, quality)
 
 #### Parameters
 
@@ -16,11 +16,11 @@ Flash CS4 Professional.
 
 #### Returns
 
-A Boolean value of true if the file was exported successfully; *false* otherwise.
+`boolean`; A boolean value of true if the file was exported successfully; *false* otherwise.
 
 #### Description
 
-Method; exports the specified item to a PNG or JPG file.
+Method; Exports the specified item to a PNG or JPG file.
 
 #### Example
 

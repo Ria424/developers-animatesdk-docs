@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.getPosition(frameIndex)
+Camera.getPosition(frameIndex)
 
 #### Parameters
 
@@ -14,12 +14,11 @@ camera.getPosition(frameIndex)
 
 #### Return
 
-Point object
-e.g.{x:0,y:0}
+`Point`; e.g. {x: 0, y: 0}
 
 #### Description
 
-Return object with x,y, and z properties that specify current location of camera.
+Return object with x and y properties that specify current location of camera.
 
 #### Example
 

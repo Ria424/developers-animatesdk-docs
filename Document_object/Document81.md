@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.getMobileSettings()
+Document.getMobileSettings()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; `string`; returns the mobile XML settings for the document.
+Method; Returns the mobile XML settings for the document.
 
 #### Example
 

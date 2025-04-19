@@ -6,7 +6,7 @@ Flash CS3 Professional. *Dropped in Adobe Animate*.
 
 #### Usage
 
-actionsPanel.setScriptAssistMode(bScriptAssist)
+ActionsPanel.setScriptAssistMode(bScriptAssist)
 
 #### Parameters
 

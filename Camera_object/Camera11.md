@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.resetZoom(frameIndex)
+Camera.resetZoom(frameIndex)
 
 #### Parameters
 

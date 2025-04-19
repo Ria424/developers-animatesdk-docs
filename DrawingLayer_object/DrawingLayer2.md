@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.cubicCurveTo(x1Ctrl, y1Ctrl, x2Ctl, y2Ctl, xEnd, yEnd)
+DrawingLayer.cubicCurveTo(x1Ctrl, y1Ctrl, x2Ctl, y2Ctl, xEnd, yEnd)
 
 #### Parameters
 

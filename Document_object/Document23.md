@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.backgroundColor
+Document.backgroundColor
 
 #### Description
 
-Property; `integer | string`; the color of the background, in one of the following formats:
+Property; `integer | string`; The color of the background, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 

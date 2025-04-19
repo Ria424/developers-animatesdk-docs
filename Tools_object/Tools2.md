@@ -6,11 +6,12 @@ Flash MX 2004.
 
 #### Usage
 
-tools.constrainPoint(pt1, pt2)
+Tools.constrainPoint(pt1, pt2)
 
 #### Parameters
 
-**pt1, pt2** Points that specify the starting-click point and the drag-to point.
+**pt1** `Point`; Point that specify the starting-click point and the drag-to point.
+**pt2** `Point`; Point that specify the starting-click point and the drag-to point.
 
 #### Returns
 

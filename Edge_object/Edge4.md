@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-edge.isLine
+Edge.isLine
 
 #### Description
 

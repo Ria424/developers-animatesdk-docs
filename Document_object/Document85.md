@@ -6,7 +6,7 @@ Flash Professional CS6.
 
 #### Usage
 
-document.getSWFPathFromProfile()
+Document.getSWFPathFromProfile()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; gets the path to the SWF file that is set in the current Publish profile.
+Method; Gets the path to the SWF file that is set in the current Publish profile.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-actionsPanel.getSelectedText()
+ActionsPanel.getSelectedText()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; returns the text that is currently selected in the Actions panel.
+Method; Returns the text that is currently selected in the Actions panel.
 
 #### Example
 

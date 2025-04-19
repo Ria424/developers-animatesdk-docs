@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-compiledClipInstance.colorBluePercent
+CompiledClipInstance.colorBluePercent
 
 #### Description
 
-Property; `integer`; an integer that reduces or increases the blue tint values by a specified percentage. The current values are multiplied by this percentage. Valid values are -100 to 100.
+Property; `integer`; An integer that reduces or increases the blue tint values by a specified percentage. The current values are multiplied by this percentage. Valid values are -100 to 100.
 
 This setting is the same as selecting Color > Advanced in the Instance Property Inspector.
 

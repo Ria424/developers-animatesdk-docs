@@ -6,7 +6,7 @@ Flash CS6.
 
 #### Usage
 
-document.exportInstanceToLibrary(frameNumber, bitmapName)
+Document.exportInstanceToLibrary(frameNumber, bitmapName)
 
 #### Parameters
 

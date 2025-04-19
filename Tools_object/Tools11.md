@@ -6,8 +6,8 @@ Flash MX 2004.
 
 #### Usage
 
-tools.toolObjs
+Tools.toolObjs
 
 #### Description
 
-Read-only property; an array of ToolObj objects (see [ToolObj object](../ToolObj_object/ToolObj_summary.md)).
+Read-only property; `ToolObj[]`; An array of [ToolObj object](../ToolObj_object/ToolObj_summary.md)s.

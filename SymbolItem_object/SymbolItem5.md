@@ -6,11 +6,11 @@ Flash Pro CS6.
 
 #### Usage
 
-*symbolItem.lastModifiedDate*
+SymbolItem.lastModifiedDate
 
 #### Description
 
-Read-only property; a string that indicates the modification date of the symbol as a hexadecimal value, representing a date and time. This value is incremented every time a symbol's timeline is edited.
+Read-only property; `string`; A string that indicates the modification date of the symbol as a hexadecimal value, representing a date and time. This value is incremented every time a symbol's timeline is edited.
 
 #### Example
 

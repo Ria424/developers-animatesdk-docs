@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.duplicateSelection()
+Document.duplicateSelection()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; duplicates the selection on the Stage.
+Method; Duplicates the selection on the Stage.
 
 #### Example
 

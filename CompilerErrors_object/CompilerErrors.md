@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-compilerErrors.clear()
+CompilerErrors.clear()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; clears the contents of the Compiler Errors panel.
+Method; Clears the contents of the Compiler Errors panel.
 
 #### Example
 

@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-*library.findItemIndex(namePath)*
+Library.findItemIndex(namePath)
 
 #### Parameters
 
-**namePath** A string that specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation.
+**namePath** `string`; Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation.
 
 #### Returns
 
-An integer value representing the item’s zero-based index value.
+`integer`; An integer value representing the item’s zero-based index value.
 
 #### Description
 
-Method; returns the library item’s index value (zero-based). The library index is flat, so folders are considered part of the main index. Folder paths can be used to specify a nested item.
+Method; Returns the library item’s index value (zero-based). The library index is flat, so folders are considered part of the main index. Folder paths can be used to specify a nested item.
 
 #### Example
 

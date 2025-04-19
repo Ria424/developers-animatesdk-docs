@@ -6,17 +6,17 @@ Flash CS5.5 Professional.
 
 #### Usage
 
-symbolInstance.bitmapRenderMode
+SymbolInstance.bitmapRenderMode
 
 #### Description
 
-Property; a string that sets the display type for the symbol. Acceptable values include:
+Property; `"none" | "cache" | "export"`; Sets the display type for the symbol. Acceptable values include:
 
 - "none"
 
-- "cache" - sets the symbol to be cached as a bitmap by Flash Player at runtime.
+- "cache" - Sets the symbol to be cached as a bitmap by Flash Player at runtime.
 
-- "export" - sets the symbol to be exported as a bitmap when the SWF is compiled.
+- "export" - Sets the symbol to be exported as a bitmap when the SWF is compiled.
 
 The older ["SymbolInstance.cacheAsBitmap"](../SymbolInstance_object/SymbolInstance7.md) property is similar to this property, but it offers fewer choices since it's a boolean. In the future, the cacheAsBitmap property may be deprecated, so users should switch to this new property. The true/false options in the boolean cacheAsBitmap property are the same as the "cache" / "none" values for this new property.
 

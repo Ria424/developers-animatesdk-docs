@@ -6,17 +6,17 @@ Flash Professional CS5.
 
 #### Usage
 
-*frame.setMotionObjectXML( xmlstr [, endAtCurrentLocation] )*
+Frame.setMotionObjectXML(xmlstr [, endAtCurrentLocation])
 
 #### Parameters
 
-**xmlstr** A string value that specifies the XML string.
+**xmlstr** `string`; Specifies the XML string.
 
-**endAtCurrentLocation** A boolean value that determines whether the tween starts or ends at the current position.
+**endAtCurrentLocation** `boolean`; Determines whether the tween starts or ends at the current position.
 
 #### Description
 
-Method; applies the specified motion XML to the selected motion object.
+Method; Applies the specified motion XML to the selected motion object.
 
 #### Example
 

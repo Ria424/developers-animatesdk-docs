@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-edge.getControl(i)
+Edge.getControl(i)
 
 #### Parameters
 
-**i** `integer`; An integer that specifies which control point of the edge to return. Specify 0 for the first control point, 1 for the middle control point, or 2 for the end control point. If the [Edge.isLine](../Edge_object/Edge4.md) property is true, the middle control point is set to the midpoint of the segment joining the beginning and ending control points.
+**i** `integer`; Specifies which control point of the edge to return. Specify 0 for the first control point, 1 for the middle control point, or 2 for the end control point. If the [Edge.isLine](../Edge_object/Edge4.md) property is true, the middle control point is set to the midpoint of the segment joining the beginning and ending control points.
 
 #### Returns
 
@@ -18,7 +18,7 @@ The specified control point.
 
 #### Description
 
-Method; gets a point object set to the location of the specified control point of the edge.
+Method; Gets a point object set to the location of the specified control point of the edge.
 
 #### Example
 

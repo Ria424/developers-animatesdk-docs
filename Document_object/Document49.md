@@ -6,13 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-document.distribute(distributemode [, bUseDocumentBounds])
+Document.distribute(distributemode [, bUseDocumentBounds])
 
 #### Parameters
 
-**distributemode** `string`; A string that specifies where to distribute the selected objects. Acceptable values are "left edge", "horizontal center", "right edge", "top edge", "vertical center", and "bottom edge".
+**distributemode** `"left edge" | "horizontal center" | "right edge" | "top edge" | "vertical center" | "bottom edge"`; Specifies where to distribute the selected objects. Acceptable values are "left edge", "horizontal center", "right edge", "top edge", "vertical center", and "bottom edge".
 
-**bUseDocumentBounds** `boolean`; A boolean value that, when set to true, distributes the selected objects using the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false.
+**bUseDocumentBounds** `boolean?false`; A boolean value that, when set to true, distributes the selected objects using the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; distributes the selection.
+Method; Distributes the selection.
 
 #### Example
 
@@ -44,4 +44,5 @@ fl.getDocumentDOM().distribute("top edge", true);
 
 #### See also
 
-[Document.getAlignToDocument()](../Document_object/Document72.md), [Document.setAlignToDocument()](../Document_object/Document450.md)
+- [Document.getAlignToDocument()](../Document_object/Document72.md)
+- [Document.setAlignToDocument()](../Document_object/Document450.md)

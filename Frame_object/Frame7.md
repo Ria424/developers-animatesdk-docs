@@ -6,11 +6,11 @@ Flash Professional CS5.
 
 #### Usage
 
-*Frame.getMotionObjectXML()*
+Frame.getMotionObjectXML()
 
-#### Description
+#### Returns
 
-Returns a string of the motion XML from the selected motion object.
+`string`; Motion XML from the selected motion object.
 
 #### Example
 

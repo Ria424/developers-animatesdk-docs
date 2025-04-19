@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-layer.name
+Layer.name
 
 #### Description
 
-Property; a string that specifies the name of the layer.
+Property; `string`; Specifies the name of the layer.
 
 #### Example
 

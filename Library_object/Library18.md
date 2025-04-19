@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-*library.unusedItems*
+Library.unusedItems
 
 #### Description
 
-Property; an array of Library Items that are not used in the document. This is the equivalent of the "Select Unused Items" menu item in the Library panel.
+Property; `Item[]`; An array of Library Items that are not used in the document. This is the equivalent of the "Select Unused Items" menu item in the Library panel.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.drawPath(path)
+DrawingLayer.drawPath(path)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; draws the path specified by the *path* parameter. You typically use this method only when creating extensible tools.
+Method; Draws the path specified by the *path* parameter. You typically use this method only when creating extensible tools.
 
 #### Example
 

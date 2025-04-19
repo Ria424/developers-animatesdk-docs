@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-symbolInstance.colorRedPercent
+SymbolInstance.colorRedPercent
 
 #### Description
 

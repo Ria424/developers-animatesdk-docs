@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.getZoom(frameIndex)
+Camera.getZoom(frameIndex)
 
 #### Parameters
 
@@ -30,4 +30,5 @@ var zoomval = timeline.camera.getZoom(0);
 
 #### See also
 
-[GetZDepth()](../Camera_object/Camera.md), [GetRotation()](../Camera_object/Camera2.md)
+- [Camera.getZDepth()](../Camera_object/Camera.md)
+- [Camera.getRotation()](../Camera_object/Camera2.md)

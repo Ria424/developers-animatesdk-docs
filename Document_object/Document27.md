@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.canTestMovie()
+Document.canTestMovie()
 
 #### Parameters
 
@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-`boolean`; A boolean value: true if you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully: false otherwise.
+`boolean`; true if you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully: false otherwise.
 
 #### Description
 
-Method; determines whether you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully.
+Method; Determines whether you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully.
 
 #### Example
 
@@ -32,4 +32,5 @@ if (fl.getDocumentDOM().canTestMovie()) {
 
 #### See also
 
-[Document.canTestScene()](../Document_object/Document28.md), [Document.testScene()](../Document_object/Document5979.md)
+- [Document.canTestScene()](../Document_object/Document28.md)
+- [Document.testScene()](../Document_object/Document5979.md)

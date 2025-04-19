@@ -6,7 +6,7 @@ Flash CS3 Professional. *Dropped in Adobe Animate*.
 
 #### Usage
 
-actionsPanel.getScriptAssistMode()
+ActionsPanel.getScriptAssistMode()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ None.
 
 #### Description
 
-Method; specifies whether Script Assist mode is enabled.
+Method; Specifies whether Script Assist mode is enabled.
 
 #### Example
 

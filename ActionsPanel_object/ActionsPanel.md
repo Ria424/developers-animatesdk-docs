@@ -6,7 +6,7 @@ Flash CS3 Professional. *Dropped in Adobe Animate*.
 
 #### Usage
 
-actionsPanel.getClassForObject(ASvariableName)
+ActionsPanel.getClassForObject(ASvariableName)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ actionsPanel.getClassForObject(ASvariableName)
 
 #### Description
 
-Method; returns the class of the specified variable, which must be defined in the currently displayed Actions panel. In addition, the cursor or selected text in the Actions panel must be positioned after the variable definition.
+Method; Returns the class of the specified variable, which must be defined in the currently displayed Actions panel. In addition, the cursor or selected text in the Actions panel must be positioned after the variable definition.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.canEditSymbol()
+Document.canEditSymbol()
 
 #### Parameters
 
@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-`boolean`; A boolean value: true if the Edit Symbols menu and functionality are available for use; false otherwise.
+`boolean`; true if the Edit Symbols menu and functionality are available for use; false otherwise.
 
 #### Description
 
-Method; indicates whether the Edit Symbols menu and functionality are enabled. This is not related to whether the selection can be edited. This method should not be used to test whether fl.getDocumentDOM().enterEditMode() is allowed.
+Method; Indicates whether the Edit Symbols menu and functionality are enabled. This is not related to whether the selection can be edited. This method should not be used to test whether fl.getDocumentDOM().enterEditMode() is allowed.
 
 #### Example
 

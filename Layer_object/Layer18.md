@@ -10,7 +10,7 @@ layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Parameters
 
-**frameIndex** `integer`; It is an integer that specifies absolute frame index.
+**frameIndex** `integer`; Specifies absolute frame index.
 
 **filterArray** `Filter[]`; The array of filters to be set
 

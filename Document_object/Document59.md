@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.enableFilter(filterIndex)
+Document.enableFilter(filterIndex)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; enables the specified filter for the selected objects.
+Method; Enables the specified filter for the selected objects.
 
 #### Example
 
@@ -30,4 +30,10 @@ fl.getDocumentDOM().enableFilter(1);
 
 #### See also
 
-[Document.addFilter()](../Document_object/Document3.md), [Document.changeFilterOrder()](../Document_object/Document29.md), [Document.disableFilter()](../Document_object/Document47.md), [Document.enableAllFilters()](../Document_object/Document58.md), [Document.getFilters()](../Document_object/Document79.md), [Document.removeFilter()](../Document_object/Document270.md), [Filter object](../Filter_object/Filter_summary.md)
+- [Document.addFilter()](../Document_object/Document3.md)
+- [Document.changeFilterOrder()](../Document_object/Document29.md)
+- [Document.disableFilter()](../Document_object/Document47.md)
+- [Document.enableAllFilters()](../Document_object/Document58.md)
+- [Document.getFilters()](../Document_object/Document79.md)
+- [Document.removeFilter()](../Document_object/Document270.md)
+- [Filter object](../Filter_object/Filter_summary.md)

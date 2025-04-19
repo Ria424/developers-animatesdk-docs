@@ -6,7 +6,7 @@ Adobe Animate 2019.
 
 #### Usage
 
-camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
+Camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
 #### Parameters
 

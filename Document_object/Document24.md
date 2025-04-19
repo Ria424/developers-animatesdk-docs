@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.breakApart()
+Document.breakApart()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; performs a break-apart operation on the current selection.
+Method; Performs a break-apart operation on the current selection.
 
 #### Example
 

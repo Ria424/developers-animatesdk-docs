@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-fontItem.size
+FontItem.size
 
 #### Description
 
-Property; an integer that represents the size of the Font item, in points.
+Property; `integer`; Represents the size of the Font item, in points.
 
 #### Example
 

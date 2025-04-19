@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.addNewScene([name])
+Document.addNewScene([name])
 
 #### Parameters
 
@@ -14,11 +14,11 @@ document.addNewScene([name])
 
 #### Returns
 
-A Boolean value: true if the scene is added successfully; false otherwise.
+`boolean`; true if the scene is added successfully; false otherwise.
 
 #### Description
 
-Method; adds a new scene ([Timeline object](../Timeline_object/Timeline_summary.md)) as the next scene after the currently selected scene and makes the new scene the currently selected scene. If the specified scene name already exists, the scene is not added and the method returns an error.
+Method; Adds a new scene ([Timeline object](../Timeline_object/Timeline_summary.md)) as the next scene after the currently selected scene and makes the new scene the currently selected scene. If the specified scene name already exists, the scene is not added and the method returns an error.
 
 #### Example
 

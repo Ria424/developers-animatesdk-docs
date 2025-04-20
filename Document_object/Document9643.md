@@ -6,11 +6,11 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.setRectangleObjectProperty(propertyName, value)
+Document.setRectangleObjectProperty(propertyName, value)
 
 #### Parameters
 
-**propertyName** `string`; A string that specifies the property to be set. For acceptable values, see the Property summary table for the [Rectangle object](../Rectangle_object/Rectangle_summary.md).
+**propertyName** `string`; The property to be set. For acceptable values, see the Property summary table for the [RectangleObject object](../RectangleObject_object/RectangleObject_summary.md).
 
 **value** `any`; The value to be assigned to the property. Acceptable values vary depending on the property you specify in *propertyName*.
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; specifies a value for a specified property of primitive Rectangle objects.
+Method; Specifies a value for a specified property of primitive Rectangle objects.
 
 #### Example
 
@@ -28,4 +28,5 @@ See individual properties in [Rectangle object](../Rectangle_object/Rectangle_su
 
 #### See also
 
-[Rectangle object](../Rectangle_object/Rectangle_summary.md), [Shape.isRectangleObject](../Shape_object/Shape10.md)
+- [Rectangle object](../Rectangle_object/Rectangle_summary.md)
+- [Shape.isRectangleObject](../Shape_object/Shape10.md)

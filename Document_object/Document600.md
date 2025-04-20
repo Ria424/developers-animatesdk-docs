@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.setPlayerVersion(version)
+Document.setPlayerVersion(version)
 
 #### Parameters
 
@@ -14,11 +14,11 @@ document.setPlayerVersion(version)
 
 #### Returns
 
-A value of true if the player version was successfully set; false otherwise.
+`boolean`; true if the player version was successfully set; false otherwise.
 
 #### Description
 
-Method; sets the version of the Flash Player targeted by the specified document. This is the same value as that set in the Publish Settings dialog box.
+Method; Sets the version of the Flash Player targeted by the specified document. This is the same value as that set in the Publish Settings dialog box.
 
 #### Example
 

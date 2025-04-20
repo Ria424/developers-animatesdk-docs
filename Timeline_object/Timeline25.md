@@ -10,11 +10,11 @@ None.
 
 #### Returns
 
-An array containing 3*n* integers, where *n* is the number of selected regions. The first integer in each group is the layer index, the second integer is the start frame of the beginning of the selection, and the third integer specifies the ending frame of that selection range. The ending frame is not included in the selection.
+`integer[]`; An array containing 3*n* integers, where *n* is the number of selected regions. The first integer in each group is the layer index, the second integer is the start frame of the beginning of the selection, and the third integer specifies the ending frame of that selection range. The ending frame is not included in the selection.
 
 #### Description
 
-Method; retrieves the currently selected frames in an array.
+Method; Retrieves the currently selected frames in an array.
 
 #### Example
 

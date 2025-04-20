@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.punch()
+Document.punch()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; uses the top selected drawing object to punch through all selected drawing objects underneath it. If no objects are selected, calling this method results in an error and the script breaks at that point.
+Method; Uses the top selected drawing object to punch through all selected drawing objects underneath it. If no objects are selected, calling this method results in an error and the script breaks at that point.
 
 #### Example
 
@@ -30,4 +30,8 @@ fl.getDocumentDOM().punch();
 
 #### See also
 
-[Document.crop()](../Document_object/Document37.md), [Document.deleteEnvelope()](../Document_object/Document41.md), [Document.intersect()](../Document_object/Document97.md), [Document.union()](../Document_object/Document6120.md), [Shape.isDrawingObject](../Shape_object/Shape6.md)
+- [Document.crop()](../Document_object/Document37.md)
+- [Document.deleteEnvelope()](../Document_object/Document41.md)
+- [Document.intersect()](../Document_object/Document97.md)
+- [Document.union()](../Document_object/Document6120.md)
+- [Shape.isDrawingObject](../Shape_object/Shape6.md)

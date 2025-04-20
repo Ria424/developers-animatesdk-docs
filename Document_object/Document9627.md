@@ -6,7 +6,7 @@ Adobe Animate.
 
 #### Usage
 
-document.setPublishDocumentData(format, publish)
+Document.setPublishDocumentData(format, publish)
 
 #### Parameters
 

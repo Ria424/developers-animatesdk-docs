@@ -6,11 +6,7 @@ Flash MX 2004. *Dropped in Adobe Animate.*
 
 #### Usage
 
-document.screenOutline
-
-#### Description
-
-*Dropped in Adobe Animate.*
+Document.screenOutline
 
 #### Example
 

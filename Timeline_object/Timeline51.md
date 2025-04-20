@@ -6,13 +6,13 @@ Animate 2020.
 
 #### Usage
 
-timeline.mergeLayers(startLayerNum:int,endLayerNum:int).
+Timeline.mergeLayers(startLayerNum:int, endLayerNum:int).
 
 #### Parameters
 
-**startLayerNum**:It is an integer that specifies the starting layer index.
+**startLayerNum** `integer`; It is an integer that specifies the starting layer index.
 
-**endLayerNum**:It is an integer that specifies the ending layer index.
+**endLayerNum** `integer`; It is an integer that specifies the ending layer index.
 
 #### Returns
 

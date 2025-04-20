@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.selectNone()
+Document.selectNone()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; deselects any selected items.
+Method; Deselects any selected items.
 
 #### Example
 
@@ -30,4 +30,5 @@ fl.getDocumentDOM().selectNone();
 
 #### See also
 
-[Document.selectAll()](../Document_object/Document420.md), [Document.selection](../Document_object/Document430.md)
+- [Document.selectAll()](../Document_object/Document420.md)
+- [Document.selection](../Document_object/Document430.md)

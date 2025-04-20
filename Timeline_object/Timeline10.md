@@ -6,12 +6,13 @@ Flash Professional CS5.
 
 #### Usage
 
-timeline.createMotionObject([startFrame [,endFrame])
+Timeline.createMotionObject([startFrame [,endFrame])
 
 #### Parameters
 
-**startFrame** Specifies the first frame at which to create motion objects. If you omit *startFrame*, the method uses the current selection; if there is no selection, all frames at the current playhead on all layers are removed. This parameter is optional.
-**endFrame** Specifies the frame at which to stop creating motion objects; the range of frames goes up to, but does not include, *endFrame*. If you specify only *startFrame*, *endFrame* defaults to the *startFrame* value. This parameter is optional.
+**startFrame** `integer?`; Specifies the first frame at which to create motion objects. If you omit *startFrame*, the method uses the current selection; if there is no selection, all frames at the current playhead on all layers are removed. This parameter is optional.
+
+**endFrame** `integer?`; Specifies the frame at which to stop creating motion objects; the range of frames goes up to, but does not include, *endFrame*. If you specify only *startFrame*, *endFrame* defaults to the *startFrame* value. This parameter is optional.
 
 #### Returns
 
@@ -19,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; creates a new motion object. The parameters are optional, and if specified set the timeline selection to the indicated frames prior to creating the motion object.
+Method; Creates a new motion object. The parameters are optional, and if specified set the timeline selection to the indicated frames prior to creating the motion object.
 
 #### Example
 

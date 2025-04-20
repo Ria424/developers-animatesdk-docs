@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.layerCount
+Timeline.layerCount
 
 #### Description
 
-Read-only property; an integer that represents the number of layers in the specified timeline.
+Read-only property; `integer`; The number of layers in the specified timeline.
 
 #### Example
 

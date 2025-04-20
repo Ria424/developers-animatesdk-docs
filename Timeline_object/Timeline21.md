@@ -6,12 +6,13 @@ Adobe Animate.
 
 #### Usage
 
-timeline.getBounds(\[frame \[, includeHiddenLayers\]\])
+Timeline.getBounds(\[frame \[, includeHiddenLayers\]\])
 
 #### Parameters
 
-**frame** The number of the frame for which you want the bounds. Defaults to 1, which is the first frame. This parameter is optional.
-**includeHiddenLayers** Indicates whether to include element bounds from hidden layers. Defaults to the SWF publish setting value for "include hidden layers". This parameter is optional.
+**frame** `integer`; The number of the frame for which you want the bounds. Defaults to 1, which is the first frame. This parameter is optional.
+
+**includeHiddenLayers** `boolean?`; Indicates whether to include element bounds from hidden layers. Defaults to the SWF publish setting value for "include hidden layers". This parameter is optional.
 
 #### Returns
 
@@ -19,7 +20,7 @@ The bounding rectangle for all elements on all layers on the Timeline, for the s
 
 #### Description
 
-Method; returns the bounding rectangle for all elements on all layers on the Timeline, for a given frame.
+Method; Returns the bounding rectangle for all elements on all layers on the Timeline, for a given frame.
 
 #### Example
 

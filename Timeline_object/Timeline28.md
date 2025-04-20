@@ -6,13 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.insertFrames(\[numFrames \[, bAllLayers \[, frameNumIndex\]\]\])
+Timeline.insertFrames(\[numFrames \[, bAllLayers \[, frameNumIndex\]\]\])
 
 #### Parameters
 
-**numFrames** An integer that specifies the number of frames to insert. If you omit this parameter, the method inserts frames at the current selection in the current layer. This parameter is optional.
-**bAllLayers** A Boolean value that, if set to true, causes the method to insert the specified number of frames in the *numFrames* parameter into all layers; if set to false (the default), the method inserts frames into the current layer. This parameter is optional.
-**frameNumIndex** A zero-based index that specifies the frame at which to insert a new frame. This parameter is optional.
+**numFrames** `integer?`; The number of frames to insert. If you omit this parameter, the method inserts frames at the current selection in the current layer. This parameter is optional.
+
+**bAllLayers** `boolean?false`; A boolean value that, if set to true, causes the method to insert the specified number of frames in the *numFrames* parameter into all layers; if set to false (the default), the method inserts frames into the current layer. This parameter is optional.
+
+**frameNumIndex** `integer?`; A zero-based index that specifies the frame at which to insert a new frame. This parameter is optional.
 
 #### Returns
 
@@ -20,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; inserts the specified number of frames at the specified index. If no parameters are specified, this method works as follows:
+Method; Inserts the specified number of frames at the specified index. If no parameters are specified, this method works as follows:
 
 - If one or more frames are selected, the method inserts the selected number of frames at the location of the first selected frame in the current layer. That is, if frames 6 through 10 are selected (a total of five frames), the method adds five frames at Frame 6 in the layer containing the selected frames.
 

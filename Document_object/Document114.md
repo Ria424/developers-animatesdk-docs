@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.swapElement(name)
+Document.swapElement(name)
 
 #### Parameters
 
-**name** `string`; A string that specifies the name of the library item to use.
+**name** `string`; The name of the library item to use.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; swaps the current selection with the specified one. The selection must contain a graphic, button, movie clip, video, or bitmap. This method displays an error message if no object is selected or the given object could not be found.
+Method; Swaps the current selection with the specified one. The selection must contain a graphic, button, movie clip, video, or bitmap. This method displays an error message if no object is selected or the given object could not be found.
 
 #### Example
 

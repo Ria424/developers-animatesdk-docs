@@ -6,11 +6,11 @@ Flash CS5.5 Professional.
 
 #### Usage
 
-timeline.pasteLayers(\[layerIndex\])
+Timeline.pasteLayers(\[layerIndex\])
 
 #### Parameters
 
-**layerIndex** Optional. A zero-based index that specifies the layer above which the layers on the clipboard are pasted. If you omit layerIndex, the method uses the current selection.
+**layerIndex** `integer?`; Optional. A zero-based index that specifies the layer above which the layers on the clipboard are pasted. If you omit layerIndex, the method uses the current selection.
 
 #### Returns
 
@@ -37,4 +37,6 @@ fl.getDocumentDOM().getTimeline().pasteLayers(2);
 
 #### See also
 
-[Timeline.cutLayers()](../Timeline_object/Timeline15.md), [Timeline.copyLayers()](../Timeline_object/Timeline7.md), [Timeline.duplicateLayers()](../Timeline_object/Timeline17.md)
+- [Timeline.cutLayers()](../Timeline_object/Timeline15.md)
+- [Timeline.copyLayers()](../Timeline_object/Timeline7.md)
+- [Timeline.duplicateLayers()](../Timeline_object/Timeline17.md)

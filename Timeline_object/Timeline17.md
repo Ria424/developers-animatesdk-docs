@@ -6,12 +6,13 @@ Flash CS5.5 Professional.
 
 #### Usage
 
-timeline.duplicateLayers(\[startLayerIndex \[, endLayerIndex\]\])
+Timeline.duplicateLayers(\[startLayerIndex \[, endLayerIndex\]\])
 
 #### Parameters
 
-**startLayerIndex** Optional. A zero-based index that specifies the beginning of the range of layers to copy. It also specifies the layer above which the layers on the clipboard are pasted. If you omit startLayerIndex, the method uses the current layer selection.
-**endLayerIndex** Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
+**startLayerIndex** `integer?`; Optional. A zero-based index that specifies the beginning of the range of layers to copy. It also specifies the layer above which the layers on the clipboard are pasted. If you omit startLayerIndex, the method uses the current layer selection.
+
+**endLayerIndex** `integer?`; Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
 
 #### Returns
 
@@ -38,4 +39,6 @@ fl.getDocumentDOM().getTimeline().duplicatedLayers(2,7);
 
 #### See also
 
-[Timeline.copyLayers()](../Timeline_object/Timeline7.md), [Timeline.cutLayers()](../Timeline_object/Timeline15.md), [Timeline.pasteLayers()](../Timeline_object/Timeline35.md)
+- [Timeline.copyLayers()](../Timeline_object/Timeline7.md)
+- [Timeline.cutLayers()](../Timeline_object/Timeline15.md)
+- [Timeline.pasteLayers()](../Timeline_object/Timeline35.md)

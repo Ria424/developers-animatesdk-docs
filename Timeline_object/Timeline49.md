@@ -6,7 +6,7 @@ Flash Professional CS5.
 
 #### Usage
 
-timeline.startPlayback()
+Timeline.startPlayback()
 
 #### Returns
 
@@ -14,7 +14,7 @@ Nothing.
 
 #### Description
 
-Method; starts automatic playback of the timeline if it is currently playing. This method can be used with SWF panels to control timeline playback in the authoring environment.
+Method; Starts automatic playback of the timeline if it is currently playing. This method can be used with SWF panels to control timeline playback in the authoring environment.
 
 #### Example
 

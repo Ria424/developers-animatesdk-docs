@@ -16,10 +16,6 @@ document.importSWF(fileURI)
 
 Nothing.
 
-#### Description
-
-*Dropped in Adobe Animate.*
-
 #### Example
 
 The following example imports the "mySwf.swf" file from the Flash Configuration folder:

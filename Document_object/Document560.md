@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setInstanceTint( color, strength )
+Document.setInstanceTint( color, strength )
 
 #### Parameters
 
@@ -26,7 +26,7 @@ Nothing.
 
 #### Description
 
-Method; sets the tint for the instance.
+Method; Sets the tint for the instance.
 
 #### Example
 

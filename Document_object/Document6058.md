@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.addTaggedSwatch(swatch:object [,index:int [,palette:int ]] )
+Document.addTaggedSwatch(swatch:object [,index:int [,palette:int ]])
 
 #### Parameters
 
-**swatch** `Object`; swatch object to add.
+**swatch** `Swatch`; Swatch object to add.
 
 **index** `integer`; An optional integer that specifies the index where to add swatch.
 

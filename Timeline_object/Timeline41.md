@@ -6,13 +6,14 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.reverseFrames(\[startFrameIndex \[, endFrameIndex\]\])
+Timeline.reverseFrames(\[startFrameIndex \[, endFrameIndex\]\])
 
 #### Parameters
 
-**startFrameIndex** A zero-based index that specifies the first frame at which to start reversing frames. If you omit
+**startFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to start reversing frames. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
-**endFrameIndex** A zero-based index that specifies the first frame at which to stop reversing frames; the range of frames goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+
+**endFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to stop reversing frames; the range of frames goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
 #### Returns
 
@@ -20,7 +21,7 @@ Nothing.
 
 #### Description
 
-Method; reverses a range of frames.
+Method; Reverses a range of frames.
 
 #### Example
 

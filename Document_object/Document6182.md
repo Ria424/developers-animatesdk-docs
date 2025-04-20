@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.width
+Document.width
 
 #### Description
 
-Property; `integer`; An integer that specifies the width of the document (Stage) in pixels.
+Property; `integer`; The width of the document (Stage) in pixels.
 
 #### Example
 

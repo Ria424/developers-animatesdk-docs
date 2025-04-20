@@ -6,11 +6,11 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.pathURI
+Document.pathURI
 
 #### Description
 
-Read-only property; `string`; a string that represents the path of the document, expressed as a file:/// URI. If the document has never been saved, this property is undefined.
+Read-only property; `string`; A string that represents the path of the document, expressed as a file:/// URI. If the document has never been saved, this property is undefined.
 
 #### Example
 

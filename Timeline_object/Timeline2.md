@@ -6,13 +6,14 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.clearFrames([startFrameIndex [, endFrameIndex]])
+Timeline.clearFrames([startFrameIndex [, endFrameIndex]])
 
 #### Parameters
 
-**startFrameIndex** A zero-based index that defines the beginning of the range of frames to clear. If you omit
+**startFrameIndex** `integer?`; A zero-based index that defines the beginning of the range of frames to clear. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
-**endFrameIndex** A zero-based index that defines the end of the range of frames to clear. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+
+**endFrameIndex** `integer?`; A zero-based index that defines the end of the range of frames to clear. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
 #### Returns
 
@@ -20,7 +21,7 @@ Nothing.
 
 #### Description
 
-Method; deletes all the contents from a frame or range of frames on the current layer.
+Method; Deletes all the contents from a frame or range of frames on the current layer.
 
 #### Example
 

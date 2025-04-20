@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.addTaggedSwatchWithColor(color:string[,name:string [, index:int [, palette:int ]]])
+Document.addTaggedSwatchWithColor(color:string[,name:string [, index:int [, palette:int ]]])
 
 #### Parameters
 
-**color** `string`; It is a string that specifies the color for which swatch is created like "#CCFF34".
+**color** `string`; Specifies the color for which swatch is created like "#CCFF34".
 
 **name** `integer?`; It is an optional integer that specifies the name of the tagged swatch.
 

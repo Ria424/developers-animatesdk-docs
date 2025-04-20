@@ -6,11 +6,11 @@ Adobe Animate.
 
 #### Usage
 
-*frame.setSoundEnvelopeLimits(limits)*
+Frame.setSoundEnvelopeLimits(limits)
 
 #### Parameters
 
-**limits** A structure that contains start and end fields that signify the limits for a custom sound envelope.
+**limits** `{start: any; end: any;}`; A structure that contains start and end fields that signify the limits for a custom sound envelope.
 
 #### Returns
 

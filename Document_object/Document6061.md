@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.getTaggedSwatchAtIndex(index:int [,palette:int ])
+Document.getTaggedSwatchAtIndex(index:int [,palette:int ])
 
 #### Parameters
 
-**index** `integer`; It is an integer that specifies the index of the tagged swatch.
+**index** `integer`; Specifies the index of the tagged swatch.
 
 **palette** `integer?0`; It is an optional integer that specifies the index of the tagged swatch palette, default value is 0.
 
@@ -20,7 +20,7 @@ document.getTaggedSwatchAtIndex(index:int [,palette:int ])
 
 #### Description
 
-Method; returns the Tagged Swatch with the given index.
+Method; Returns the Tagged Swatch with the given index.
 
 #### Example
 

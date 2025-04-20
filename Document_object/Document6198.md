@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.xmlPanel(fileURI)
+Document.xmlPanel(fileURI)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ An object that has properties defined for all controls defined in the XML file. 
 
 #### Description
 
-Method; posts an XMLUI dialog box. See [Flash.xmlui](../Flash_object/Flash81.md).
+Method; Posts an XMLUI dialog box. See [Flash.xmlui](../Flash_object/Flash81.md).
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.setStageVanishingPoint(point)
+Document.setStageVanishingPoint(point)
 
 #### Parameters
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setTextString(text [, startIndex [, endIndex]])
+Document.setTextString(text [, startIndex [, endIndex]])
 
 #### Parameters
 
@@ -22,7 +22,7 @@ document.setTextString(text [, startIndex [, endIndex]])
 
 #### Description
 
-Method; inserts a string of text. If the optional parameters are not passed, the existing text selection is replaced; if the Text object isn’t currently being edited, the whole text string is replaced. If only *startIndex* is passed, the string passed is inserted at this position. If *startIndex* and *endIndex* are passed, the string passed replaces the segment of text starting from *startIndex* up to, but not including, *endIndex*.
+Method; Inserts a string of text. If the optional parameters are not passed, the existing text selection is replaced; if the Text object isn’t currently being edited, the whole text string is replaced. If only *startIndex* is passed, the string passed is inserted at this position. If *startIndex* and *endIndex* are passed, the string passed replaces the segment of text starting from *startIndex* up to, but not including, *endIndex*.
 
 #### Example
 

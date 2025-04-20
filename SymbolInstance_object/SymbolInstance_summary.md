@@ -8,7 +8,7 @@ Flash MX 2004.
 
 #### Description
 
-SymbolInstance is a subclass of the Instance object and represents a symbol in a frame (see [Instance object](../Instance_object/Instance_summary.md)).
+SymbolInstance is a subclass of the [Instance object](../Instance_object/Instance_summary.md) and represents a symbol in a frame.
 
 #### Property summary
 

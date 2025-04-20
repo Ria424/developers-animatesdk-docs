@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setAlignToDocument(bToStage)
+Document.setAlignToDocument(bToStage)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets the preferences for [Document.align()](../Document_object/Document13.md), [Document.distribute()](../Document_object/Document49.md), [Document.match()](../Document_object/Document120.md), and [Document.space()](../Document_object/Document67.md) to act on the document. This method is equivalent to enabling the To Stage button in the Align panel.
+Method; Sets the preferences for [Document.align()](../Document_object/Document13.md), [Document.distribute()](../Document_object/Document49.md), [Document.match()](../Document_object/Document120.md), and [Document.space()](../Document_object/Document67.md) to act on the document. This method is equivalent to enabling the To Stage button in the Align panel.
 
 #### Example
 

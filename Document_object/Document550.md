@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setInstanceBrightness(brightness)
+Document.setInstanceBrightness(brightness)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets the brightness for the instance.
+Method; Sets the brightness for the instance.
 
 #### Example
 

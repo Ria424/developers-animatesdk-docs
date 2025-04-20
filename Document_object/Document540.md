@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setInstanceAlpha(opacity)
+Document.setInstanceAlpha(opacity)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Methods; sets the opacity of the instance.
+Methods; Sets the opacity of the instance.
 
 #### Example
 

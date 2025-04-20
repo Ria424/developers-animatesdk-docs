@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-timeline.getGuidelines()
+Timeline.getGuidelines()
 
 #### Parameters
 
@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-An XML string.
+`string`; An XML string.
 
 #### Description
 
-Method: returns an XML string that represents the current positions of the horizontal and vertical guide lines for a timeline (View >Guides >Show Guides). To apply these guide lines to a timeline, use [Timeline.setGuidelines()](../Timeline_object/Timeline44.md).
+Method; Returns an XML string that represents the current positions of the horizontal and vertical guide lines for a timeline (View >Guides >Show Guides). To apply these guide lines to a timeline, use [Timeline.setGuidelines()](../Timeline_object/Timeline44.md).
 
 #### Example
 

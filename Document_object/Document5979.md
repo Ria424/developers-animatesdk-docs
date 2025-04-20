@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.testScene()
+Document.testScene()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; executes a Test Scene operation on the current scene of the document.
+Method; Executes a Test Scene operation on the current scene of the document.
 
 #### Example
 
@@ -30,4 +30,5 @@ fl.getDocumentDOM().testScene();
 
 #### See also
 
-[Document.canTestScene()](../Document_object/Document28.md), [Document.testMovie()](../Document_object/Document5948.md)
+- [Document.canTestScene()](../Document_object/Document28.md)
+- [Document.testMovie()](../Document_object/Document5948.md)

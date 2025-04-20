@@ -6,18 +6,20 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.getFrameProperty(property \[, startframeIndex \[, endFrameIndex\]\])
+Timeline.getFrameProperty(property \[, startframeIndex \[, endFrameIndex\]\])
 
 #### Parameters
 
-**property** A string that specifies the name of the property for which to get the value. See the Property summary for the [Frame object](../Frame_object/Frame_summary.md) for a complete list of properties.
-**startFrameIndex** A zero-based index that specifies the starting frame number for which to get the value. If you omit
+**property** `string`; The name of the property for which to get the value. See the Property summary for the [Frame object](../Frame_object/Frame_summary.md) for a complete list of properties.
+
+**startFrameIndex** `integer?`; A zero-based index that specifies the starting frame number for which to get the value. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
-**endFrameIndex** A zero-based index that specifies the end of the range of frames to select. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+
+**endFrameIndex** `integer?`; A zero-based index that specifies the end of the range of frames to select. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
 #### Returns
 
-A value for the specified property, or undefined if all the selected frames do not have the same property value.
+`any | undefined`; A value for the specified property, or undefined if all the selected frames do not have the same property value.
 
 #### Description
 

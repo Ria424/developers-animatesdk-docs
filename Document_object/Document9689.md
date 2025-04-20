@@ -6,15 +6,15 @@ Flash MX 2004; *bContactSensitiveSelection* parameter added in Flash 8.
 
 #### Usage
 
-document.setSelectionRect(rect [, bReplaceCurrentSelection [, bContactSensitiveSelection]])
+Document.setSelectionRect(rect [, bReplaceCurrentSelection [, bContactSensitiveSelection]])
 
 #### Parameters
 
 **rect** `Rectangle`; A rectangle object to set as selected. For information on the format of *rect*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
-**bReplaceCurrentSelection** `boolean?true`; A boolean value that specifies whether the method replaces the current selection (true) or adds to the current selection (false). The default value is true.
+**bReplaceCurrentSelection** `boolean?true`; Specifies whether the method replaces the current selection (true) or adds to the current selection (false). The default value is true.
 
-**bContactSensitiveSelection** `boolean?false` A boolean value that specifies whether the Contact Sensitive selection mode is enabled (true) or disabled (false) during object selection. The default value is false.
+**bContactSensitiveSelection** `boolean?false` Specifies whether the Contact Sensitive selection mode is enabled (true) or disabled (false) during object selection. The default value is false.
 
 #### Returns
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; draws a rectangular selection marquee relative to the Stage, using the specified coordinates. This is unlike
+Method; Draws a rectangular selection marquee relative to the Stage, using the specified coordinates. This is unlike
 `Document.getSelectionRect()`, in which the rectangle is relative to the object being edited.
 This method is equivalent to dragging a rectangle with the Selection tool. An instance must be fully enclosed by the rectangle to be selected.
 If you pass a value for *bContactSensitiveSelection*, it is valid only for this method and doesn’t affect the Contact Sensitive selection mode for the document (see [Flash.contactSensitiveSelection](../Flash_object/Flash14.md)).

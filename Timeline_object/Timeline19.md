@@ -6,19 +6,19 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.findLayerIndex(name)
+Timeline.findLayerIndex(name)
 
 #### Parameters
 
-**name** A string that specifies the name of the layer to find.
+**name** `string`; The name of the layer to find.
 
 #### Returns
 
-An array of index values for the specified layer. If the specified layer is not found, Animate returns undefined.
+`integer[] | undefined`; An array of index values for the specified layer. If the specified layer is not found, Animate returns undefined.
 
 #### Description
 
-Method; finds an array of indexes for the layers with the given name. The layer index is flat, so folders are considered part of the main index.
+Method; Finds an array of indexes for the layers with the given name. The layer index is flat, so folders are considered part of the main index.
 
 #### Example
 
@@ -34,5 +34,5 @@ The following example illustrates how to pass the values returned from this meth
 
 ```javascript
 var layerIndex = fl.getDocumentDOM().getTimeline().findLayerIndex("Layer 1");
-fl.getDocumentDOM().getTimeline().setSelectedLayers(layerIndexAnimate[0Animate], true);
+fl.getDocumentDOM().getTimeline().setSelectedLayers(layerIndexAnimate[0], true);
 ```

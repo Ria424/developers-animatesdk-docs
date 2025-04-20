@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.currentLayer
+Timeline.currentLayer
 
 #### Description
 
-Property; the zero-based index for the currently active layer. A value of 0 specifies the top layer, a value of 1 specifies the layer below it, and so on.
+Property; `integer`; The zero-based index for the currently active layer. A value of 0 specifies the top layer, a value of 1 specifies the layer below it, and so on.
 
 #### Example
 

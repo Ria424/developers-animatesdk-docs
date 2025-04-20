@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.setStageViewAngle(angle)
+Document.setStageViewAngle(angle)
 
 #### Parameters
 

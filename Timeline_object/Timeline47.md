@@ -6,12 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.setSelectedLayers(index [, bReplaceCurrentSelection])
+Timeline.setSelectedLayers(index [, bReplaceCurrentSelection])
 
 #### Parameters
 
-**index** A zero-based index for the layer to select.
-**bReplaceCurrentSelection** A Boolean value that, if it is set to true, causes the method to replace the current selection; false causes the method to extend the current selection. The default value is true. This parameter is optional.
+**index** `integer`; A zero-based index for the layer to select.
+
+**bReplaceCurrentSelection** `boolean?true`; A boolean value that, if it is set to true, causes the method to replace the current selection; false causes the method to extend the current selection. The default value is true. This parameter is optional.
 
 #### Returns
 
@@ -19,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; sets the layer to be selected, and also makes the specified layer the current layer. Selecting a layer also means that all the frames in the layer are selected.
+Method; Sets the layer to be selected, and also makes the specified layer the current layer. Selecting a layer also means that all the frames in the layer are selected.
 
 #### Example
 

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.setCustomFill(fill)
+Document.setCustomFill(fill)
 
 #### Parameters
 
-**fill** `Fill`; A Fill object that specifies the fill settings to be used. See [Fill object](../Fill_object/Fill_summary.md).
+**fill** `Fill`; The fill settings to be used. See [Fill object](../Fill_object/Fill_summary.md).
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets the fill settings for the Tools panel, Property inspector, and any selected shapes. This allows a script to set the fill settings before drawing the object, rather than drawing the object, selecting it, and changing the fill settings. It also lets a script change the Tools panel and Property inspector fill settings.
+Method; Sets the fill settings for the Tools panel, Property inspector, and any selected shapes. This allows a script to set the fill settings before drawing the object, rather than drawing the object, selecting it, and changing the fill settings. It also lets a script change the Tools panel and Property inspector fill settings.
 
 #### Example
 

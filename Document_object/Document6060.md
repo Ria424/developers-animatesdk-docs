@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-document.getIndexForTaggedSwatchesPalette(paletteName:string).
+Document.getIndexForTaggedSwatchesPalette(paletteName:string)
 
 #### Parameters
 

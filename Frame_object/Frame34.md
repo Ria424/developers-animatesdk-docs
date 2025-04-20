@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.soundName*
+Frame.soundName
 
 #### Description
 
-Property; a string that specifies the name of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)), as stored in the library.
+Property; The name of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)), as stored in the library.
 
 #### Example
 

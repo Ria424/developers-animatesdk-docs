@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.traceBitmap(threshold, minimumArea, curveFit, cornerThreshold)
+Document.traceBitmap(threshold, minimumArea, curveFit, cornerThreshold)
 
 #### Parameters
 
@@ -14,7 +14,7 @@ document.traceBitmap(threshold, minimumArea, curveFit, cornerThreshold)
 
 **minimumArea** `integer`; An integer that specifies the radius measured in pixels. Acceptable values are integers between 1 and 1000.
 
-**curveFit** `"pixels" | "very tight" | "tight" | "normal" | "smooth" | "very smooth"`; A string that specifies how smoothly outlines are drawn. Acceptable values are "pixels", "very tight", "tight", "normal", "smooth", and "very smooth".
+**curveFit** `"pixels" | "very tight" | "tight" | "normal" | "smooth" | "very smooth"`; Specifies how smoothly outlines are drawn. Acceptable values are "pixels", "very tight", "tight", "normal", "smooth", and "very smooth".
 
 **cornerThreshold** `"many corners" | "normal" | "few corners"`; A string that is similar to *curveFit*, but it pertains to the corners of the bitmap image. Acceptable values are "many corners", "normal", and "few corners".
 
@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; performs a trace bitmap on the current selection. This method is equivalent to selecting Modify >Bitmap>Trace Bitmap.
+Method; Performs a trace bitmap on the current selection. This method is equivalent to selecting Modify >Bitmap>Trace Bitmap.
 
 #### Example
 

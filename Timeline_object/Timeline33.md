@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.name
+Timeline.name
 
 #### Description
 
-Property; a string that specifies the name of the current timeline. This name is the name of the current scene, screen (slide or form), or symbol that is being edited.
+Property; `string`; The name of the current timeline. This name is the name of the current scene, screen (slide or form), or symbol that is being edited.
 
 #### Example
 

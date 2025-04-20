@@ -6,7 +6,7 @@ Adobe Animate.
 
 #### Usage
 
-frame.convertToFrameByFrameAnimation()
+Frame.convertToFrameByFrameAnimation()
 
 #### Returns
 

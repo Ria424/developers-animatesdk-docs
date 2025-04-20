@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.removeDataFromDocument(name)
+Document.removeDataFromDocument(name)
 
 #### Parameters
 
-**name** `string`; A string that specifies the name of the data to remove.
+**name** `string`; The name of the data to remove.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; removes persistent data with the specified name that has been attached to the document.
+Method; Removes persistent data with the specified name that has been attached to the document.
 
 #### Example
 
@@ -30,4 +30,6 @@ fl.getDocumentDOM().removeDataFromDocument("myData");
 
 #### See also
 
-[Document.addDataToDocument()](../Document_object/Document1.md), [Document.documentHasData()](../Document_object/Document53.md), [Document.getDataFromDocument()](../Document_object/Document76.md)
+- [Document.addDataToDocument()](../Document_object/Document1.md)
+- [Document.documentHasData()](../Document_object/Document53.md)
+- [Document.getDataFromDocument()](../Document_object/Document76.md)

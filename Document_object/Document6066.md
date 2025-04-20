@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-document.deleteTaggedSwatchByName(name:string)
+Document.deleteTaggedSwatchByName(name:string)
 
 #### Parameters
 

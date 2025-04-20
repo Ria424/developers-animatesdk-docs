@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.soundSync*
+Frame.soundSync
 
 #### Description
 
-Property; a string that specifies the sync behavior of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)). Acceptable values are *"event", "stop", "start", and "stream"*.
+Property; `"event" | "stop" | "start" | "stream"`; The sync behavior of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)). Acceptable values are *"event", "stop", "start", and "stream"*.
 
 #### Example
 

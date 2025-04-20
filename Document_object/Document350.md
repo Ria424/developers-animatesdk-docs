@@ -6,13 +6,13 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.rotate3DSelection(xyzCoordinate, bGlobalTransform)
+Document.rotate3DSelection(xyzCoordinate, bGlobalTransform)
 
 #### Parameters
 
 **xyzCoordinate** `Point3D`; An XYZ coordinate point that specifies the axes for 3D rotation.
 
-**bGlobalTransform** `boolean`; A boolean value that specifies whether the transformation mode should be global (true) or local (false).
+**bGlobalTransform** `boolean`; Specifies whether the transformation mode should be global (true) or local (false).
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method: applies a 3D rotation to the selection. This method is available only for movie clips.
+Method; Applies a 3D rotation to the selection. This method is available only for movie clips.
 
 #### Example
 

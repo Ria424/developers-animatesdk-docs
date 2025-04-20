@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-document.importCanvasPublishTemplate(pathURI)
+Document.importCanvasPublishTemplate(pathURI)
 
 #### Parameters
 

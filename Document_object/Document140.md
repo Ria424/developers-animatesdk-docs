@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.mouseDblClk(position, bAltDown, bShiftDown, bShiftSelect)
+Document.mouseDblClk(position, bAltDown, bShiftDown, bShiftSelect)
 
 #### Parameters
 

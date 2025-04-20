@@ -6,19 +6,15 @@ Flash MX 2004. *Dropped in Flash Professional CS6.*
 
 #### Usage
 
-document.saveAndCompact([bOkToSaveAs])
+Document.saveAndCompact([bOkToSaveAs])
 
 #### Parameters
 
-**bOkToSaveAs** `boolean`; An optional parameter that, if true or omitted and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved. The default value is true.
+**bOkToSaveAs** `boolean?true`; An optional parameter that, if true or omitted and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved. The default value is true.
 
 #### Returns
 
-`boolean`; A boolean value: true if the save-and-compact operation completes successfully; false otherwise.
-
-#### Description
-
-*Dropped in Flash Professional CS6.*
+`boolean`; true if the save-and-compact operation completes successfully; false otherwise.
 
 #### Example
 
@@ -30,4 +26,7 @@ fl.getDocumentDOM().saveAndCompact();
 
 #### See also
 
-[Document.save()](../Document_object/Document370.md), [Flash.saveDocumentAs()](../Flash_object/Flash65.md), [Flash.saveDocument()](../Flash_object/Flash64.md), [Flash.saveAll()](../Flash_object/Flash63.md).
+- [Document.save()](../Document_object/Document370.md)
+- [Flash.saveDocumentAs()](../Flash_object/Flash65.md)
+- [Flash.saveDocument()](../Flash_object/Flash64.md)
+- [Flash.saveAll()](../Flash_object/Flash63.md).

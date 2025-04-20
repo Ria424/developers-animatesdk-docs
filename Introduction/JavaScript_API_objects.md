@@ -59,7 +59,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Animate Document Object Model
 
-The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [Flash object (fl)](../Flash_object/Flash_summary.md).
+The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-level_functions_and_methods/Top_summary.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [Flash object (fl)](../Flash_object/Flash_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
 
 ```javascript

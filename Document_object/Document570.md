@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.setMetadata(strMetadata)
+Document.setMetadata(strMetadata)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ document.setMetadata(strMetadata)
 
 #### Description
 
-Method; sets the XML metadata for the specified document, overwriting any existing metadata. The XML passed as *strMetadata* is validated and may be rewritten before being stored. If it cannot be validated as legal XML or violates specific rules, then the XML metadata is not set and false is returned. (If false is returned, there is no way to get more detailed error information.)
+Method; Sets the XML metadata for the specified document, overwriting any existing metadata. The XML passed as *strMetadata* is validated and may be rewritten before being stored. If it cannot be validated as legal XML or violates specific rules, then the XML metadata is not set and false is returned. (If false is returned, there is no way to get more detailed error information.)
 ***Note:** Even if true is returned, the XML that is set may not be exactly the same string that you passed in. To get the exact value to which the XML was set, use [Document.getMetadata()](../Document_object/Document80.md).*
 The format of the metadata is RDF that is compliant with the XMP specification. For more information about RDF and XMP, see the following sources:
 

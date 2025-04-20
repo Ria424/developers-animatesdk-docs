@@ -6,15 +6,15 @@ Adobe Animate2020.
 
 #### Usage
 
-document.exportMedia(fileURI, format, preset [,bTransparent [, bRunBatch [, sceneName [, startFrame [, endFrame]]]]]).
+Document.exportMedia(fileURI, format, preset [,bTransparent [, bRunBatch [, sceneName [, startFrame [, endFrame]]]]]).
 
 #### Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension)
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension).
 
-**format** `string`; A string that specifies the format of the file to be exported
+**format** `string`; Specifies the format of the file to be exported.
 
-**preset** `string`; A string that specifies the preset to be used.
+**preset** `string`; Specifies the preset to be used.
 
 **bTransparent** `boolean?false`; A optional boolean that specifies whether to ignore the stage colour. Default value is false.
 

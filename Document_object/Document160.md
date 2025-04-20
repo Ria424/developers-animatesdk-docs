@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.moveSelectionBy(distanceToMove)
+Document.moveSelectionBy(distanceToMove)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; moves selected objects by a specified distance.
+Method; Moves selected objects by a specified distance.
 
 ***Note:** When the user uses the arrow keys to move the item, the History panel combines all presses of the arrow key as one move step. When the user presses the arrow keys repeatedly, rather than taking multiple steps in the History panel, the method performs one step, and the arguments are updated to reflect the repeated arrow keys.*
 

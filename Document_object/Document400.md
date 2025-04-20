@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.scaleSelection(xScale, yScale [, whichCorner])
+Document.scaleSelection(xScale, yScale [, whichCorner])
 
 #### Parameters
 
@@ -14,7 +14,7 @@ document.scaleSelection(xScale, yScale [, whichCorner])
 
 **yScale** `number`; A floating-point value that specifies the amount of *y* by which to scale.
 
-**whichCorner** `"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"`; A string value that specifies the edge about which the transformation occurs. If omitted, scaling occurs about the transformation point. Acceptable values are: "bottom left", "bottom right", "top right", "top left", "top center", "right center", "bottom center", and "left center". This parameter is optional.
+**whichCorner** `"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"?`; The edge about which the transformation occurs. If omitted, scaling occurs about the transformation point. Acceptable values are: "bottom left", "bottom right", "top right", "top left", "top center", "right center", "bottom center", and "left center". This parameter is optional.
 
 #### Returns
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; scales the selection by a specified amount. This method is equivalent to using the Free Transform tool to scale the object.
+Method; Scales the selection by a specified amount. This method is equivalent to using the Free Transform tool to scale the object.
 
 #### Example
 

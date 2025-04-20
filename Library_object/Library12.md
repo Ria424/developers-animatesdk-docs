@@ -18,8 +18,7 @@ Library.newFolder([folderPath])
 
 #### Description
 
-Method; Creates a new folder with the specified name, or a default name (*"untitled folder \#"*) if no *folderName*
-parameter is provided, in the currently selected folder.
+Method; Creates a new folder with the specified name, or a default name (*"untitled folder \#"*) if no *folderName* parameter is provided, in the currently selected folder.
 
 #### Example
 

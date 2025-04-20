@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.renamePublishProfile([profileNewName])
+Document.renamePublishProfile([profileNewName])
 
 #### Parameters
 
@@ -14,11 +14,11 @@ document.renamePublishProfile([profileNewName])
 
 #### Returns
 
-A Boolean value: true if the name is changed successfully; false otherwise.
+`boolean`; true if the name is changed successfully; false otherwise.
 
 #### Description
 
-Method; renames the current profile.
+Method; Renames the current profile.
 
 #### Example
 

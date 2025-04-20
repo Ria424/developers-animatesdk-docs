@@ -6,13 +6,13 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.translate3DSelection(xyzCoordinate, bGlobalTransform)
+Document.translate3DSelection(xyzCoordinate, bGlobalTransform)
 
 #### Parameters
 
 **xyzCoordinate** `Point3D`; An XYZ coordinate that specifies the axes for 3D translation.
 
-**bGlobalTransform** `boolean`; A boolean value that specifies whether the transformation mode should be global (true) or local (false).
+**bGlobalTransform** `boolean`; Specifies whether the transformation mode should be global (true) or local (false).
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method: applies a 3D translation to the selection. This method is available only for movie clips.
+Method: Applies a 3D translation to the selection. This method is available only for movie clips.
 
 #### Example
 

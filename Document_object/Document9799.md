@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setStrokeSize(size)
+Document.setStrokeSize(size)
 
 #### Parameters
 

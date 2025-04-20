@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-timeline.pasteMotion()
+Timeline.pasteMotion()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; pastes the range of motion frames retrieved by [Timeline.copyMotion()](../Timeline_object/Timeline8.md) to the Timeline. If necessary, existing frames are displaced (moved to the right) to make room for the frames being pasted.
+Method; Pastes the range of motion frames retrieved by [Timeline.copyMotion()](../Timeline_object/Timeline8.md) to the Timeline. If necessary, existing frames are displaced (moved to the right) to make room for the frames being pasted.
 
 #### Example
 

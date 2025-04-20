@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-timeline.copyMotion()
+Timeline.copyMotion()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; copies motion on selected frames, either from a motion tween or from frame-by-frame animation. You can then use [Timeline.pasteMotion()](../Timeline_object/Timeline36.md) to apply the motion to other frames.
+Method; Copies motion on selected frames, either from a motion tween or from frame-by-frame animation. You can then use [Timeline.pasteMotion()](../Timeline_object/Timeline36.md) to apply the motion to other frames.
 To copy motion as text (code) that you can paste into a script, see [Timeline.copyMotionAsAS3()](../Timeline_object/Timeline9.md).
 
 #### Example
@@ -31,4 +31,5 @@ fl.getDocumentDOM().getTimeline().copyMotion();
 
 #### See also
 
-[Timeline.copyMotionAsAS3()](../Timeline_object/Timeline9.md), [Timeline.pasteMotion()](../Timeline_object/Timeline36.md)
+- [Timeline.copyMotionAsAS3()](../Timeline_object/Timeline9.md)
+- [Timeline.pasteMotion()](../Timeline_object/Timeline36.md)

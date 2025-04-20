@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.selectAllFrames()
+Timeline.selectAllFrames()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; selects all the frames in the current timeline.
+Method; Selects all the frames in the current timeline.
 
 #### Example
 

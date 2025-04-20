@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.currentFrame
+Timeline.currentFrame
 
 #### Description
 
-Property; the zero-based index for the frame at the current playhead location.
+Property; `integer`; The zero-based index for the frame at the current playhead location.
 
 #### Example
 

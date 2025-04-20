@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-*frame.useSingleEaseCurve*
+Frame.useSingleEaseCurve
 
 #### Description
 
-Property; a Boolean value. If true, a single custom ease curve is used for easing information for all properties. If false, each property has its own ease curve.
+Property; `boolean`; If true, a single custom ease curve is used for easing information for all properties. If false, each property has its own ease curve.
 This property is ignored if the frame doesn’t have custom easing applied.
 
 #### Example
@@ -24,4 +24,6 @@ theFrame.useSingleEaseCurve = true;
 
 #### See also
 
-[Frame.getCustomEase()](../Frame_object/Frame6.md), [Frame.hasCustomEase](../Frame_object/Frame10.md), [Frame.setCustomEase()](../Frame_object/Frame24.md)
+- [Frame.getCustomEase()](../Frame_object/Frame6.md)
+- [Frame.hasCustomEase](../Frame_object/Frame10.md)
+- [Frame.setCustomEase()](../Frame_object/Frame24.md)

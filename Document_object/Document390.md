@@ -6,7 +6,7 @@ Flash CS6.
 
 #### Usage
 
-document.saveAsCopy(URI [, selectionOnly])
+Document.saveAsCopy(URI [, selectionOnly])
 
 #### Parameters
 
@@ -31,3 +31,4 @@ var uri = fl.browseForFileURL("save");
 var selectionOnly = true;
 fl.getDocumentDOM().saveAsCopy(uri, selectionOnly);
 ```
+w

@@ -10,11 +10,11 @@ None.
 
 #### Returns
 
-An array of the zero-based index values of the selected layers.
+`integer`; An array of the zero-based index values of the selected layers.
 
 #### Description
 
-Method; gets the zero-based index values of the currently selected layers.
+Method; Gets the zero-based index values of the currently selected layers.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.resetRectangleObject()
+Document.resetRectangleObject()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets all values in the Property inspector to default Rectangle object settings. If any Rectangle objects are selected, their properties are reset to default values as well.
+Method; Sets all values in the Property inspector to default Rectangle object settings. If any Rectangle objects are selected, their properties are reset to default values as well.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.transformSelection(a, b, c, d)
+Document.transformSelection(a, b, c, d)
 
 #### Parameters
 
@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; performs a general transformation on the current selection by applying the matrix specified in the arguments. For more information, see the [Element.matrix](../Element_object/Element10.md) property.
+Method; Performs a general transformation on the current selection by applying the matrix specified in the arguments. For more information, see the [Element.matrix](../Element_object/Element10.md) property.
 
 #### Example
 

@@ -6,15 +6,15 @@ Flash MX 2004.
 
 #### Usage
 
-document.mouseClick(position, bToggleSel, bShiftSel)
+Document.mouseClick(position, bToggleSel, bShiftSel)
 
 #### Parameters
 
 **position** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
 
-**bToggleSel** `boolean`; A boolean value that specifies the state of the Shift key: true for pressed; false for not pressed.
+**bToggleSel** `boolean`; The state of the Shift key: true for pressed; false for not pressed.
 
-**bShiftSel** `boolean`; A boolean value that specifies the state of the application preference Shift select: true for on; false for off.
+**bShiftSel** `boolean`; The state of the application preference Shift select: true for on; false for off.
 
 #### Returns
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; performs a mouse click from the Selection tool.
+Method; Performs a mouse click from the Selection tool.
 
 #### Example
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setTransformationPoint(transformationPoint)
+Document.setTransformationPoint(transformationPoint)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Nothing.
 
 #### Description
 
-Method; sets the position of the current selection’s transformation point.
+Method; Sets the position of the current selection’s transformation point.
 
 #### Example
 

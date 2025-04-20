@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.deleteTaggedSwatchAtIndex(index:int [,palette:int ])
+Document.deleteTaggedSwatchAtIndex(index:int [,palette:int ])
 
 #### Parameters
 
-**index** `integer`; An integer that speifies the index of the tagged swatch to delete.
+**index** `integer`; Speifies the index of the tagged swatch to delete.
 
 **palette** `integer?0`; An optional integer that speifies the index of the tagged swatch palette, default value is 0.
 

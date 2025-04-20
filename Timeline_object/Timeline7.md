@@ -10,9 +10,10 @@ timeline.copyLayers([startLayerIndex [, endLayerIndex]])
 
 #### Parameters
 
-**startLayerIndex** Optional. A zero-based index that specifies the beginning of the range of layers to copy. If you omit
+**startLayerIndex** `integer?`; Optional. A zero-based index that specifies the beginning of the range of layers to copy. If you omit
 startLayerIndex, the method uses the current selection.
-**endLayerIndex** Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.s
+
+**endLayerIndex** `integer?`; Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
 
 #### Returns
 
@@ -32,4 +33,6 @@ fl.getDocumentDOM().getTimeline().copyLayers(2, 7);
 
 #### See also
 
-[Timeline.cutLayers()](../Timeline_object/Timeline15.md), [Timeline.pasteLayers()](../Timeline_object/Timeline35.md), [Timeline.duplicateLayers()](../Timeline_object/Timeline17.md)
+- [Timeline.cutLayers()](../Timeline_object/Timeline15.md)
+- [Timeline.pasteLayers()](../Timeline_object/Timeline35.md)
+- [Timeline.duplicateLayers()](../Timeline_object/Timeline17.md)

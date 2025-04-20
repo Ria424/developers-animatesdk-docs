@@ -12,7 +12,7 @@ Library.moveToFolder(folderPath [, itemToMove [, bReplace]])
 
 **folderPath** `string`; Specifies the path to the folder in the form "FolderName" or "FolderName/FolderName". To move an item to the top level, specify an empty string ("") for *folderPath*.
 
-**itemToMove** `string`; Specifies the name of the item to move. If *itemToMove* is not specified, the currently selected items move. This parameter is optional.
+**itemToMove** `string?`; Specifies the name of the item to move. If *itemToMove* is not specified, the currently selected items move. This parameter is optional.
 
 **bReplace** `boolean?false`; If an item with the same name already exists, specifying true for the *bReplace* parameter replaces the existing item with the item being moved. If *false*, the name of the dropped item changes to a unique name. The default value is *false*. This parameter is optional.
 

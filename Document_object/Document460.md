@@ -10,7 +10,7 @@ document.setBlendMode(mode)
 
 #### Parameters
 
-**mode** `"normal" | "layer" | "multiply" | "screen" | "overlay" | "hardlight" | "lighten" | "darken" | "difference" | "add" | "subtract" | "invert" | "alpha" | "erase"`; A string that represents the desired blending mode for the selected objects. Acceptable values are "normal", "layer", "multiply", "screen", "overlay", "hardlight", "lighten", "darken", "difference", "add", "subtract", "invert", "alpha", and "erase".
+**mode** `"normal" | "layer" | "multiply" | "screen" | "overlay" | "hardlight" | "lighten" | "darken" | "difference" | "add" | "subtract" | "invert" | "alpha" | "erase"`; The desired blending mode for the selected objects. Acceptable values are "normal", "layer", "multiply", "screen", "overlay", "hardlight", "lighten", "darken", "difference", "add", "subtract", "invert", "alpha", and "erase".
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets the blending mode for the selected objects.
+Method; Sets the blending mode for the selected objects.
 
 #### Example
 
@@ -30,4 +30,6 @@ fl.getDocumentDOM().setBlendMode("add");
 
 #### See also
 
-[Document.addFilter()](../Document_object/Document3.md), [Document.setFilterProperty()](../Document_object/Document520.md), [SymbolInstance.blendMode](../SymbolInstance_object/SymbolInstance4.md)
+- [Document.addFilter()](../Document_object/Document3.md)
+- [Document.setFilterProperty()](../Document_object/Document520.md)
+- [SymbolInstance.blendMode](../SymbolInstance_object/SymbolInstance4.md)

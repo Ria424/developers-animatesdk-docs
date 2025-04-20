@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.match(bWidth, bHeight [, bUseDocumentBounds])
+Document.match(bWidth, bHeight [, bUseDocumentBounds])
 
 #### Parameters
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method; makes the size of the selected objects the same.
+Method; Makes the size of the selected objects the same.
 
 #### Example
 
@@ -46,4 +46,5 @@ fl.getDocumentDOM().match(true, false, true);
 
 #### See also
 
-[Document.getAlignToDocument()](../Document_object/Document72.md) [Document.setAlignToDocument()](../Document_object/Document450.md)
+- [Document.getAlignToDocument()](../Document_object/Document72.md)
+- [Document.setAlignToDocument()](../Document_object/Document450.md)

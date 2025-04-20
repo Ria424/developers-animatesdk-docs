@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-frame.hasCustomEase
+Frame.hasCustomEase
 
 #### Description
 

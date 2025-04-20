@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setStroke(color, size, strokeType)
+Document.setStroke(color, size, strokeType)
 
 #### Parameters
 

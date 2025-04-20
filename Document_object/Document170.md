@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.name
+Document.name
 
 #### Description
 
-Read-only property; `string`; a string that represents the name of a document (FLA file).
+Read-only property; `string`; A string that represents the name of a document (FLA file).
 
 #### Example
 

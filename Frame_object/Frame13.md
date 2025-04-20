@@ -10,7 +10,7 @@ Frame.isEmpty()
 
 #### Description
 
-Method; a Boolean value. Lets you know whether the frame contains any elements.
+Method; `boolean`; A boolean value. Lets you know whether the frame contains any elements.
 
 #### Example
 

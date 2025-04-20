@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.soundLibraryItem*
+Frame.soundLibraryItem
 
 #### Description
 
-Property; a library item (see [SoundItem object](../SoundItem_object/SoundItem_summary.md)) used to create a sound. The sound is attached directly to the frame.
+Property; `SoundItem`; A library item (see [SoundItem object](../SoundItem_object/SoundItem_summary.md)) used to create a sound. The sound is attached directly to the frame.
 
 #### Example
 

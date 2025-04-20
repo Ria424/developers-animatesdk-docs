@@ -14,7 +14,7 @@ document.setTextRectangle(boundingRectangle)
 
 #### Returns
 
-`boolean`; A boolean value: true if the size of at least one text field is changed; false otherwise.
+`boolean`; true if the size of at least one text field is changed; false otherwise.
 
 #### Description
 

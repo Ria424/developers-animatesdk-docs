@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.setFilters(filterArray)
+Document.setFilters(filterArray)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; applies filters to the selected objects. Use this method after calling document.getFilters() and making any desired changes to the filters.
+Method; Applies filters to the selected objects. Use this method after calling document.getFilters() and making any desired changes to the filters.
 
 #### Example
 
@@ -36,4 +36,7 @@ fl.getDocumentDOM().setFilters(myFilters);
 
 #### See also
 
-[Document.addFilter()](../Document_object/Document3.md), [Document.getFilters()](../Document_object/Document79.md), [Document.setFilterProperty()](../Document_object/Document520.md), [Filter object](../Filter_object/Filter_summary.md)
+- [Document.addFilter()](../Document_object/Document3.md)
+- [Document.getFilters()](../Document_object/Document79.md)
+- [Document.setFilterProperty()](../Document_object/Document520.md)
+- [Filter object](../Filter_object/Filter_summary.md)

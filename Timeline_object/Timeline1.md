@@ -6,22 +6,24 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.addNewLayer([name] [, layerType [, bAddAbove]])
+Timeline.addNewLayer([name] [, layerType [, bAddAbove]])
 
 #### Parameters
 
-**name** A string that specifies the name for the new layer. If you omit this parameter, a new default layer name is assigned to the new layer ("Layer n," where *n* is the total number of layers created and deleted for that particular instance of the file). This parameter is optional.
-**layerType** A string that specifies the type of layer to add. If you omit this parameter, a "Normal" type layer is created. This parameter is optional. Acceptable values are "normal", "guide", "guided", "mask", "masked", and "folder".
-**bAddAbove** A Boolean value that, if set to true (the default), causes Animate to add the new layer above the current layer;
+**name** `string`; The name for the new layer. If you omit this parameter, a new default layer name is assigned to the new layer ("Layer n," where *n* is the total number of layers created and deleted for that particular instance of the file). This parameter is optional.
+
+**layerType** `"normal" | "guide" | "guided" | "mask" | "masked" | "folder"?"normal"`; The type of layer to add. If you omit this parameter, a "normal" type layer is created. This parameter is optional. Acceptable values are "normal", "guide", "guided", "mask", "masked", and "folder".
+
+**bAddAbove** `boolean?`; A boolean value that, if set to true (the default), causes Animate to add the new layer above the current layer;
 false causes Animate to add the layer below the current layer. This parameter is optional.
 
 #### Returns
 
-An integer value of the zero-based index of the newly added layer.
+`integer`; An integer value of the zero-based index of the newly added layer.
 
 #### Description
 
-Method; adds a new layer to the document and makes it the current layer.
+Method; Adds a new layer to the document and makes it the current layer.
 
 #### Example
 

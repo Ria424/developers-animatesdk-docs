@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-timeline.pasteMotionSpecial()
+Timeline.pasteMotionSpecial()
 
 #### Parameters
 

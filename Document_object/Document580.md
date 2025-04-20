@@ -6,11 +6,11 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.setMobileSettings(xmlString)
+Document.setMobileSettings(xmlString)
 
 #### Parameters
 
-**xmlString** `string`; A string that describes the XML settings in a mobile FLA file.
+**xmlString** `string`; The XML settings in a mobile FLA file.
 
 #### Returns
 

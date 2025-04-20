@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.path
+Document.path
 
 #### Description
 
-Read-only property; `string`; a string that represents the path of the document in a platform-specific format. If the document has never been saved, this property is undefined.
+Read-only property; `string`; A string that represents the path of the document in a platform-specific format. If the document has never been saved, this property is undefined.
 
 #### Example
 

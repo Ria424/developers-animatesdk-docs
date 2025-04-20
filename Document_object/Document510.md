@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.setFillColor(color)
+Document.setFillColor(color)
 
 #### Parameters
 
@@ -26,7 +26,7 @@ Nothing.
 
 #### Description
 
-Method; changes the selection and the tools panel to the specified fill color. For additional information on changing the fill color in the Tools panel and Property inspector, see [Document.setCustomFill()](../Document_object/Document470.md).
+Method; Changes the selection and the tools panel to the specified fill color. For additional information on changing the fill color in the Tools panel and Property inspector, see [Document.setCustomFill()](../Document_object/Document470.md).
 
 #### Example
 

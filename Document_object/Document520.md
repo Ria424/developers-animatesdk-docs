@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-document.setFilterProperty(property, filterIndex, value)
+Document.setFilterProperty(property, filterIndex, value)
 
 #### Parameters
 
-**property** `"blurX" | "blurY" | "quality" | "angle" | "distance" | "strength" | "knockout" | "inner" | "bevelType" | "color" | "shadowColor"` A string specifying the property to be set. Acceptable values are "blurX", "blurY", "quality", "angle", "distance", "strength", "knockout", "inner", "bevelType", "color", "shadowColor", and
+**property** `"blurX" | "blurY" | "quality" | "angle" | "distance" | "strength" | "knockout" | "inner" | "bevelType" | "color" | "shadowColor"` The property to be set. Acceptable values are "blurX", "blurY", "quality", "angle", "distance", "strength", "knockout", "inner", "bevelType", "color", "shadowColor", and
 "highlightColor".
 
 **filterIndex** `integer`; An integer specifying the zero-based index of the filter in the Filters list.
@@ -23,7 +23,7 @@ Nothing.
 
 #### Description
 
-Method; sets a specified filter property for the currently selected objects (assuming that the object supports the specified filter).
+Method; Sets a specified filter property for the currently selected objects (assuming that the object supports the specified filter).
 
 #### Example
 
@@ -36,4 +36,8 @@ fl.getDocumentDOM().setFilterProperty("shadowColor", 0, "#FF00FF");
 
 #### See also
 
-[Document.addFilter()](../Document_object/Document3.md), [Document.getFilters()](../Document_object/Document79.md), [Document.setBlendMode()](../Document_object/Document460.md), [Document.setFilters()](../Document_object/Document530.md), [Filter object](../Filter_object/Filter_summary.md)
+- [Document.addFilter()](../Document_object/Document3.md)
+- [Document.getFilters()](../Document_object/Document79.md)
+- [Document.setBlendMode()](../Document_object/Document460.md)
+- [Document.setFilters()](../Document_object/Document530.md)
+- [Filter object](../Filter_object/Filter_summary.md)

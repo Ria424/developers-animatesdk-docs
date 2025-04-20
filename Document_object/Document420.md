@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.selectAll()
+Document.selectAll()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; selects all items on the Stage. This method is equivalent to pressing `Control` + `A` (Windows) or `Command` + `A` (Macintosh) or selecting `Edit > Select All`.
+Method; Selects all items on the Stage. This method is equivalent to pressing `Control` + `A` (Windows) or `Command` + `A` (Macintosh) or selecting `Edit > Select All`.
 
 #### Example
 
@@ -30,4 +30,5 @@ fl.getDocumentDOM().selectAll();
 
 #### See also
 
-[Document.selection](../Document_object/Document430.md), [Document.selectNone()](../Document_object/Document440.md)
+- [Document.selection](../Document_object/Document430.md)
+- [Document.selectNone()](../Document_object/Document440.md)

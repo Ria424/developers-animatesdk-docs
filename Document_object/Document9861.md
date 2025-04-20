@@ -6,21 +6,21 @@ Flash MX 2004.
 
 #### Usage
 
-document.setTextSelection(startIndex, endIndex)
+Document.setTextSelection(startIndex, endIndex)
 
 #### Parameters
 
-**startIndex** `integer`; An integer that specifies the position of the first character to select. The first character position is 0 (zero).
+**startIndex** `integer`; The position of the first character to select. The first character position is 0 (zero).
 
-**endIndex** `integer`; An integer that specifies the end position of the selection up to, but not including, *endIndex*. The first character position is 0 (zero).
+**endIndex** `integer`; The end position of the selection up to, but not including, *endIndex*. The first character position is 0 (zero).
 
 #### Returns
 
-A Boolean value: true if the method can successfully set the text selection; false otherwise.
+`boolean`; true if the method can successfully set the text selection; false otherwise.
 
 #### Description
 
-Method; sets the text selection of the currently selected text field to the values specified by the *startIndex* and *endIndex* values. Text editing is activated, if it isn’t already.
+Method; Sets the text selection of the currently selected text field to the values specified by the *startIndex* and *endIndex* values. Text editing is activated, if it isn’t already.
 
 #### Example
 

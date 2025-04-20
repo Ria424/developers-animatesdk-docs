@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-frame.duration
+Frame.duration
 
 #### Description
 
-Read-only property; `integer`; An integer that represents the number of frames in a frame sequence.
+Read-only property; `integer`; The number of frames in a frame sequence.
 
 #### Example
 

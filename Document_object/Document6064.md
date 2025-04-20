@@ -6,19 +6,19 @@ Animate 2020.
 
 #### Usage
 
-document.getTaggedSwatches([palette])
+Document.getTaggedSwatches([palette])
 
 #### Parameters
 
-**palette** `integer`; An integer that specifies the index of the tagged swatch palette,it is optional.Default value is 0.
+**palette** `integer?0`; Specifies the index of the tagged swatch palette, it is optional. Default value is 0.
 
 #### Returns
 
-Array of tagged swatches.
+`Swatch[]`; Array of tagged swatches.
 
 #### Description
 
-Method; `Swatch`; It returns array of tagged swatch objects.
+Method; It returns array of tagged swatch objects.
 
 Swatch object has two property,
 

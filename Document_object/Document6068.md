@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-document.setTaggedSwatchByName(oldSwatchName:name, newSwatch:object).
+Document.setTaggedSwatchByName(oldSwatchName:name, newSwatch:object).
 
 #### Parameters
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method;replace the tagged swatch with the given name to the given new swatch object.
+Method; Replace the tagged swatch with the given name to the given new swatch object.
 
 #### Example
 

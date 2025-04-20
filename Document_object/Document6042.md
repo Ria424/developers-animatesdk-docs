@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.translate3DCenter(xyzCoordinate)
+Document.translate3DCenter(xyzCoordinate)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method: sets the XYZ position around which the selection is translated or rotated. This method is available only for movie clips.
+Method: Sets the XYZ position around which the selection is translated or rotated. This method is available only for movie clips.
 
 #### Example
 

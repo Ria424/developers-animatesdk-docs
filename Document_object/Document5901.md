@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.swapStrokeAndFill()
+Document.swapStrokeAndFill()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; swaps the Stroke and Fill colors.
+Method; Swaps the Stroke and Fill colors.
 
 #### Example
 

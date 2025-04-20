@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.getTaggedSwatchByName(name:string).
+Document.getTaggedSwatchByName(name:string).
 
 #### Parameters
 
-**name** `string`; A string that specifies the name of the tagged swatch.
+**name** `string`; Specifies the name of the tagged swatch.
 
 #### Returns
 
@@ -18,7 +18,7 @@ document.getTaggedSwatchByName(name:string).
 
 #### Description
 
-Method;returns the Tagged Swatch with the given name.
+Method; Returns the Tagged Swatch with the given name.
 
 #### Example
 

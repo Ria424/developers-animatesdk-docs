@@ -6,12 +6,13 @@ Flash Professional CS5.
 
 #### Usage
 
-timeline.removeMotionObject(\[startFrame \[,endFrame\])
+Timeline.removeMotionObject(\[startFrame \[,endFrame\])
 
 #### Parameters
 
-**startFrame** Specifies the first frame at which to start removing motion objects. If you omit *startFrame*, the method uses the current selection; if there is no selection, all frames at the current playhead on all layers are removed. This parameter is optional.
-**endFrame** Specifies the frame at which to stop removing motion objects; the range of frames goes up to, but does not include, *endFrame*. If you specify only *startFrame*, *endFrame* defaults to the *startFrame* value. This parameter is optional.
+**startFrame** `integer?`; Specifies the first frame at which to start removing motion objects. If you omit *startFrame*, the method uses the current selection; if there is no selection, all frames at the current playhead on all layers are removed. This parameter is optional.
+
+**endFrame** `integer?`; Specifies the frame at which to stop removing motion objects; the range of frames goes up to, but does not include, *endFrame*. If you specify only *startFrame*, *endFrame* defaults to the *startFrame* value. This parameter is optional.
 
 #### Returns
 
@@ -19,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; removes the motion object and converts the frame(s) back to static frames. The parameters are optional, and if specified set the timeline selection to the indicated frames prior to removing the motion object.
+Method; Removes the motion object and converts the frame(s) back to static frames. The parameters are optional, and if specified set the timeline selection to the indicated frames prior to removing the motion object.
 
 #### Example
 

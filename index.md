@@ -754,7 +754,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Animate Document Object Model
 
-The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](./Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](./FLfile_object/FLfile_summary.md) and [Flash object (fl)](./Flash_object/Flash_summary.md).
+The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](./Top-level_functions_and_methods/Top_summary.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](./FLfile_object/FLfile_summary.md) and [Flash object (fl)](./Flash_object/Flash_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
 
 ```javascript
@@ -910,7 +910,7 @@ Some objects are subclasses of other objects, rather than being children of othe
 
 ## Sample implementations
 
-Several sample JSFL implementations are available for Adobe Animate. You can review and install these files to familiarize yourself with the JavaScript API. The samples are in a folder named Samples within the [Samples.zip](https://github.com/AdobeDocs/developers-animatesdk-docs/raw/master/downloads/Samples.zip).
+Several sample JSFL implementations are available for Adobe Animate. You can review and install these files to familiarize yourself with the JavaScript API. The samples are in a folder named Samples.
 
 ### Sample Shape command
 
@@ -1033,7 +1033,7 @@ Flash MX 2004.
 
 #### Description
 
-The BitmapInstance object is a subclass of the Instance object and represents a bitmap in a frame (see [Instance object](./Instance_object/Instance_summary.md)).
+The BitmapInstance object is a subclass of the [Instance object](./Instance_object/Instance_summary.md) and represents a bitmap in a frame.
 
 #### Method summary
 
@@ -1204,11 +1204,11 @@ Flash CS3 Professional.
 
 #### Description
 
-The compilerErrors object, which represents the Compiler Errors panel, is a property of the flash object (fl) and can be accessed by *fl.compilerErrors* (see [Flash object (fl)](./Flash_object/Flash_summary.md)).
+The CompilerErrors object, which represents the Compiler Errors panel, is a property of the [Flash object (fl)](./Flash_object/Flash_summary.md) and can be accessed by `fl.compilerErrors`.
 
 #### Method summary
 
-The following methods can be used with the compilerErrors object:
+The following methods can be used with the CompilerErrors object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -1225,7 +1225,7 @@ Flash MX 2004.
 
 #### Description
 
-TheComponentInstance object is a subclass of the SymbolInstance object and represents a component in a frame (see [SymbolInstance object](./SymbolInstance_object/SymbolInstance_summary.md)).
+The ComponentInstance object is a subclass of the [SymbolInstance object](./SymbolInstance_object/SymbolInstance_summary.md) and represents a component in a frame.
 
 #### Property summary
 
@@ -1243,11 +1243,11 @@ Flash MX 2004.
 
 #### Description
 
-The componentsPanel object, which represents the Components panel, is a property of the flash object (fl) and can be accessed by *fl.componentsPanel (see [Flash object (fl)](./Flash_object/Flash_summary.md))*.
+The ComponentsPanel object, which represents the Components panel, is a property of the [Flash object (fl)](./Flash_object/Flash_summary.md) and can be accessed by `fl.componentsPanel`.
 
 #### Method summary
 
-You can use the following methods with the componentsPanel object:
+You can use the following methods with the ComponentsPanel object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -1661,7 +1661,7 @@ Flash 8.
 
 This object contains all the properties for all filters. The filter.name property specifies the type of filter, and determines which properties are applicable to each filter. See [Filter.name](./Filter_object/Filter13.md).
 
-To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [Document.getFilters()](./Document_object/docume79.md) and [Document.setFilters()](./Document_object/Document530.md).
+To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [Document.getFilters()](./Document_object/Document79.md) and [Document.setFilters()](./Document_object/Document530.md).
 
 #### Property summary
 
@@ -2888,7 +2888,7 @@ The following methods are available for the Timeline object:
 | [Timeline.copyMotion()](./Timeline_object/Timeline8.md) | Copies motion on selected frames, either from a motion tween or from frame-by-frame animation, so it can be applied to other frames. |
 | [Timeline.copyMotionAsAS3()](./Timeline_object/Timeline9.md) | Copies motion on selected frames, either from a motion tween or from frame-by-frame animation, to the clipboard as ActionScript 3.0 code. |
 | [Timeline.createMotionObject()](./Timeline_object/Timeline10.md) | Creates a new motion object at a designated start and end frame. |
-| [Timeline.createMotionTween()](./Timeline_object/Timeline11.md) | Sets the [Frame.tweenType](./Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. |
+| [Timeline.createMotionTween()](./Timeline_object/Timeline11.md) | Sets the [Frame.tweenType](./Frame_object/Frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. |
 | [Timeline.cutFrames()](./Timeline_object/Timeline14.md) | Cuts a range of frames on the current layer from the timeline and saves them to the clipboard. |
 | [Timeline.cutLayers()](./Timeline_object/Timeline15.md) | Cuts a range of Timeline layers and saves them to the clipboard. |
 | [Timeline.deleteLayer()](./Timeline_object/Timeline16.md) | Deletes a layer. |
@@ -2964,7 +2964,7 @@ The following methods are available for the ToolObj object.
 | [ToolObj.setToolName()](./ToolObj_object/ToolObj8.md) | Assigns a name to the tool for the configuration of the Tools panel. |
 | [ToolObj.setToolTip()](./ToolObj_object/ToolObj9.md) | Sets the tooltip that appears when the mouse is held over the tool icon. |
 | [ToolObj.showPIControl()](./ToolObj_object/ToolObj10.md) | Shows or hides a control in the Property inspector. |
-| [ToolObj.showTransformHandles()](./ToolObj_object/ToolObj11.md) | Called in the [ConfigureTool()](./Top-Level_Functions_and_Methods/configureTool.md) method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. |
+| [ToolObj.showTransformHandles()](./ToolObj_object/ToolObj11.md) | Called in the [ConfigureTool()](./Top-level_functions_and_methods/configureTool.md) method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. |
 
 #### Property summary
 
@@ -2984,7 +2984,7 @@ Flash MX 2004.
 
 #### Description
 
-The Tools object is accessible from the flash object ([Flash.tools](./Flash_object/Flash76.md)). The [Tools.toolObjs](./Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](./Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](./ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](./Top-Level_Functions_and_Methods/Top.md).)
+The Tools object is accessible from the flash object ([Flash.tools](./Flash_object/Flash76.md)). The [Tools.toolObjs](./Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](./Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](./ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](./Top-level_functions_and_methods/Top.md).)
 
 ***Note:** The following methods and properties are used only when creating extensible tools.*
 

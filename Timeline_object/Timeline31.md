@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.layers
+Timeline.layers
 
 #### Description
 
-Read-only property; an array of layer objects.
+Read-only property; `Layer[]`; An array of layer objects.
 
 #### Example
 

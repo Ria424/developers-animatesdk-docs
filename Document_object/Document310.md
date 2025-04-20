@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-document.resetOvalObject()
+Document.resetOvalObject()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets all values in the Property inspector to default Oval object settings. If any Oval objects are selected, their properties are reset to default values as well.
+Method; Sets all values in the Property inspector to default Oval object settings. If any Oval objects are selected, their properties are reset to default values as well.
 
 #### Example
 

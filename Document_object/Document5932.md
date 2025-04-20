@@ -6,11 +6,11 @@ Flash Professional CS6.
 
 #### Usage
 
-document.swfJPEGQuality
+Document.swfJPEGQuality
 
 #### Description
 
-Property; `integer`; an integer, returns the JPEG Quality setting from the current Publish Profile in the document.
+Property; `integer`; An integer, returns the JPEG Quality setting from the current Publish Profile in the document.
 
 #### Example
 

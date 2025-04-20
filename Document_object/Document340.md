@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.revert()
+Document.revert()
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; reverts the specified document to its previously saved version. This method is equivalent to selecting File >Revert.
+Method; Reverts the specified document to its previously saved version. This method is equivalent to selecting File >Revert.
 
 #### Example
 
@@ -30,4 +30,5 @@ fl.getDocumentDOM().revert();
 
 #### See also
 
-[Document.canRevert()](../Document_object/Document26.md), [Flash.revertDocument()](../Flash_object/Flash61.md).
+- [Document.canRevert()](../Document_object/Document26.md)
+- [Flash.revertDocument()](../Flash_object/Flash61.md).

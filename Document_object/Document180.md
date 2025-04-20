@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.optimizeCurves(smoothing, bUseMultiplePasses)
+Document.optimizeCurves(smoothing, bUseMultiplePasses)
 
 #### Parameters
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing. This method is equivalent to selecting `Modify > Shape > Optimize`.
+Method; Optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing. This method is equivalent to selecting `Modify > Shape > Optimize`.
 
 #### Example
 

@@ -6,19 +6,19 @@ Flash CS4 Professional.
 
 #### Usage
 
-timeline.setGuidelines(xmlString)
+Timeline.setGuidelines(xmlString)
 
 #### Parameters
 
-**xmlString** An XML string that contains information on the guidelines to apply.
+**xmlString** `string`; An XML string that contains information on the guidelines to apply.
 
 #### Returns
 
-A Boolean value of true if the guidelines are successfully applied; false otherwise.
+`boolean`; true if the guidelines are successfully applied; false otherwise.
 
 #### Description
 
-Method: replaces the guide lines for the timeline (View >Guides >ShowGuides) with the information specified in
+Method: Replaces the guide lines for the timeline (`View > Guides > ShowGuides`) with the information specified in
 *xmlString*. To retrieve an XML string that can be passed to this method, use [Timeline.getGuidelines()](../Timeline_object/Timeline23.md). To view the newly set guide lines, you may have to hide them and then view them.
 
 #### Example

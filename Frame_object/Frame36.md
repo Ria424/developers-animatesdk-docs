@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*frame.startFrame*
+Frame.startFrame
 
 #### Description
 
-Read-only property; the index of the first frame in a sequence.
+Read-only property; `integer`; The index of the first frame in a sequence.
 
 #### Example
 

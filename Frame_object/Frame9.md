@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-`{start: any; end: any;}` Returns a structure that contain start and end fields.
+`{start: any; end: any;}`; Returns a structure that contain start and end fields.
 
 #### Description
 

@@ -6,11 +6,11 @@ Animate 2020.
 
 #### Usage
 
-document.setTaggedSwatchAtIndex(oldSwatchIndex:int ,newSwatch:Object [,palette:int ]).
+Document.setTaggedSwatchAtIndex(oldSwatchIndex:int, newSwatch:Object [,palette:int ]).
 
 #### Parameters
 
-**oldSwatchIndex** `integer`; An integer that specifies the index of the tagged swatch to update.
+**oldSwatchIndex** `integer`; Specifies the index of the tagged swatch to update.
 
 **newSwatch** `Swatch`; Swatch object to replace with.
 
@@ -22,7 +22,7 @@ Nothing.
 
 #### Description
 
-Method;replace the tagged swatch with the given index to the given new swatch object.
+Method; Replace the tagged swatch with the given index to the given new swatch object.
 
 #### Example
 

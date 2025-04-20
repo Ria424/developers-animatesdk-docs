@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.deleteLayer([index])
+Timeline.deleteLayer([index])
 
 #### Parameters
 
-**index** A zero-based index that specifies the layer to be deleted. If there is only one layer in the timeline, this method has no effect. This parameter is optional.
+**index** `integer?`; A zero-based index that specifies the layer to be deleted. If there is only one layer in the timeline, this method has no effect. This parameter is optional.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; deletes a layer. If the layer is a folder, all layers within the folder are deleted. If you do not specify the layer index, Animate deletes the currently selected layers.
+Method; Deletes a layer. If the layer is a folder, all layers within the folder are deleted. If you do not specify the layer index, Animate deletes the currently selected layers.
 
 #### Example
 

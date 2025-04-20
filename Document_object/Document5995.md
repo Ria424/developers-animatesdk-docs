@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-document.timelines
+Document.timelines
 
 #### Description
 
-Read-only property; `Timeline[]`; an array of Timeline objects (see [Timeline object](../Timeline_object/Timeline_summary.md)).
+Read-only property; `Timeline[]`; An array of [Timeline object](../Timeline_object/Timeline_summary.md)s.
 
 #### Example
 
@@ -27,4 +27,5 @@ while (i < fl.getDocumentDOM().timelines.length) {
 
 #### See also
 
-[Document.currentTimeline](../Document_object/Document39.md), [Document.getTimeline()](../Document_object/Document88.md)
+- [Document.currentTimeline](../Document_object/Document39.md)
+- [Document.getTimeline()](../Document_object/Document88.md)

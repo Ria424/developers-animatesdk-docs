@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.zoomFactor
+Document.zoomFactor
 
 #### Description
 

@@ -6,15 +6,15 @@ Animate 2020.
 
 #### Usage
 
-document.exportSVG(fileURI, currentSettings, currentFrame);
+Document.exportSVG(fileURI, currentSettings, currentFrame);
 
 #### Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension)
 
-**currentSettings** `boolean`; A boolean value that specifies whether to use the current SVG export settings (true) or to display the Export SVG dialog box (false)
+**currentSettings** `boolean`; Specifies whether to use the current SVG export settings (true) or to display the Export SVG dialog box (false)
 
-**currentFrame** `boolean`; A boolean value that specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate SVG file (false)
+**currentFrame** `boolean`; Specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate SVG file (false)
 
 #### Returns
 

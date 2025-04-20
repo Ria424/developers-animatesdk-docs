@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.moveSelectedBezierPointsBy(delta)
+Document.moveSelectedBezierPointsBy(delta)
 
 #### Parameters
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; if the selection contains at least one path with at least one Bézier point selected, moves all selected Bézier points on all selected paths by the specified amount.
+Method; If the selection contains at least one path with at least one Bézier point selected, moves all selected Bézier points on all selected paths by the specified amount.
 
 #### Example
 

@@ -1,4 +1,4 @@
-# OvalObject.startAngle
+# Oval.startAngle
 
 ## Availability
 
@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 ## Usage
 
-OvalObject.startAngle
+Oval.startAngle
 
 ## Description
 
@@ -22,4 +22,6 @@ fl.getDocumentDOM().setOvalObjectProperty("startAngle", 270);
 
 ## See also
 
-[Document.setOvalObjectProperty()](../Document_object/Document590.md), [OvalObject.endAngle](../OvalObject_object/OvalObject1.md), [Shape.isOvalObject](../Shape_object/Shape9.md)
+- [Document.setOvalObjectProperty()](../Document_object/Document590.md)
+- [Oval.endAngle](../Oval_object/Oval1.md)
+- [Shape.isOvalObject](../Shape_object/Shape9.md)

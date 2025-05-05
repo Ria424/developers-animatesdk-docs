@@ -1,4 +1,4 @@
-# OvalObject.closePath
+# Oval.closePath
 
 ## Availability
 
@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 ## Usage
 
-OvalObject.closePath
+Oval.closePath
 
 ## Description
 
@@ -15,7 +15,7 @@ To set this value, use [Document.setOvalObjectProperty()](../Document_object/Doc
 
 ## Example
 
-The following example deselects the OvalObject.closePath property:
+The following example deselects the Oval.closePath property:
 
 ```javascript
 fl.getDocumentDOM().setOvalObjectProperty("closePath", false);
@@ -23,4 +23,5 @@ fl.getDocumentDOM().setOvalObjectProperty("closePath", false);
 
 ## See also
 
-[Document.setOvalObjectProperty()](../Document_object/Document590.md), [Shape.isOvalObject](../Shape_object/Shape9.md)
+- [Document.setOvalObjectProperty()](../Document_object/Document590.md)
+- [Shape.isOvalObject](../Shape_object/Shape9.md)

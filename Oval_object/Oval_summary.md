@@ -1,4 +1,4 @@
-# OvalObject summary
+# Oval summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > [Shape object](../Shape_object/Shape_summary.md) > Oval object
 
@@ -17,7 +17,7 @@ In addition to the [Shape object](../Shape_object/Shape_summary.md) properties, 
 
 | **Property** | **Description** |
 | --- | --- |
-| [OvalObject.closePath](../OvalObject_object/OvalObject.md) | Read-only; a Boolean value that specifies whether the Close Path check box in the Property inspector is selected. |
-| [OvalObject.endAngle](../OvalObject_object/OvalObject1.md) | Read-only; a float value that specifies the end angle of the Oval object. |
-| [OvalObject.innerRadius](../OvalObject_object/OvalObject2.md) | Read-only; a float value that specifies the inner radius of the Oval object as a percentage. |
-| [OvalObject.startAngle](../OvalObject_object/OvalObject3.md) | Read-only; a float value that specifies the start angle of the Oval object. |
+| [Oval.closePath](../Oval_object/Oval.md) | Read-only; a Boolean value that specifies whether the Close Path check box in the Property inspector is selected. |
+| [Oval.endAngle](../Oval_object/Oval1.md) | Read-only; a float value that specifies the end angle of the Oval object. |
+| [Oval.innerRadius](../Oval_object/Oval2.md) | Read-only; a float value that specifies the inner radius of the Oval object as a percentage. |
+| [Oval.startAngle](../Oval_object/Oval3.md) | Read-only; a float value that specifies the start angle of the Oval object. |

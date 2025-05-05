@@ -1,4 +1,4 @@
-# OvalObject.innerRadius
+# Oval.innerRadius
 
 ## Availability
 
@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 ## Usage
 
-OvalObject.innerRadius
+Oval.innerRadius
 
 ## Description
 
@@ -23,4 +23,5 @@ fl.getDocumentDOM().setOvalObjectProperty("innerRadius", 50);
 
 ## See also
 
-[Document.setOvalObjectProperty()](../Document_object/Document590.md), [Shape.isOvalObject](../Shape_object/Shape9.md)
+- [Document.setOvalObjectProperty()](../Document_object/Document590.md)
+- [Shape.isOvalObject](../Shape_object/Shape9.md)

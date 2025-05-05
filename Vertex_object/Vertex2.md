@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-*vertex.x*
+Vertex.x
 
 #### Description
 
-Read-only property; the *x* location of the vertex, in pixels.
+Read-only property; `number`; The *x* location of the vertex, in pixels.
 
 #### Example
 

@@ -14,7 +14,7 @@ fl.browseForFolderURL([description])
 
 #### Returns
 
-`string`; The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+`string | null`; The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
 
 #### Description
 
@@ -31,4 +31,5 @@ var folderContents = FLfile.listFolder(folderURI);
 
 #### See also
 
-[Flash.browseForFileURL()](../Flash_object/Flash3.md), [FLfile object](../FLfile_object/FLfile_summary.md)
+- [Flash.browseForFileURL()](../Flash_object/Flash3.md)
+- [FLfile object](../FLfile_object/FLfile_summary.md)

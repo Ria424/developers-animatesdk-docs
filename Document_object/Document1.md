@@ -14,7 +14,7 @@ Document.addDataToDocument(name, type, data)
 
 **type** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"`; A string that defines the type of data to add. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
 
-**data** `byte[] | double | double[] | integer | integer[] | string` The value to add. Valid types depend on the *type* parameter.
+**data** `byte[] | double | double[] | integer | integer[] | string`; The value to add. Valid types depend on the *type* parameter.
 
 #### Returns
 

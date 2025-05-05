@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-toolObj.setMenuString(menuStr)
+ToolObj.setMenuString(menuStr)
 
 #### Parameters
 
-**menuStr** A string that specifies the name that appears in the pop-up menu as the name for the tool.
+**menuStr** `string`; The name that appears in the pop-up menu as the name for the tool.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets the string that appears in the pop-up menu as the name for the tool. This method is used only when you create extensible tools.
+Method; Sets the string that appears in the pop-up menu as the name for the tool. This method is used only when you create extensible tools.
 
 #### Example
 

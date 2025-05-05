@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-toolObj.showTransformHandles(bShow)
+ToolObj.showTransformHandles(bShow)
 
 #### Parameters
 
-**bShow** A Boolean value that determines whether to show or hide the free transform handles for the current tool (true shows the handles; false hides them).
+**bShow** `boolean`; A boolean value that determines whether to show or hide the free transform handles for the current tool (true shows the handles; false hides them).
 
 #### Returns
 
@@ -18,8 +18,8 @@ Nothing.
 
 #### Description
 
-Method; called in the configureTool() method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. This method is used only when you create extensible tools.
+Method; Called in the configureTool() method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. This method is used only when you create extensible tools.
 
 #### Example
 
-See [ConfigureTool()](../Top-level_functions_and_methods/configureTool.md).
+See [configureTool()](../Top-level_functions_and_methods/configureTool.md).

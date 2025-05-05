@@ -19,3 +19,7 @@ The following example displays the version of the Flash authoring tool in the Ou
 ```javascript
 alert(fl.version); // For example, WIN 10,0,0,540
 ```
+
+### See also
+
+[Adobe Flash History - Wikipedia](https://en.wikipedia.org/wiki/Adobe_Flash#History)

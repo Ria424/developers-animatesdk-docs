@@ -14,7 +14,7 @@ Tools.snapPoint(pt)
 
 #### Returns
 
-A new point that may be adjusted or snapped to the nearest geometric object.
+`Point`; A new point that may be adjusted or snapped to the nearest geometric object.
 
 #### Description
 

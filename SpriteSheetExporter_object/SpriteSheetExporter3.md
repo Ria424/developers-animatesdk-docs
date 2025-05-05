@@ -10,7 +10,7 @@ SpriteSheetExporter.allowRotate
 
 #### Description
 
-Property; A boolean value indicating whether the symbol frames can be rotated when packed into the sprite sheet.
+Property; `boolean`; A boolean value indicating whether the symbol frames can be rotated when packed into the sprite sheet.
 
 #### Example
 

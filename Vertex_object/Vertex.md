@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-*vertex.getHalfEdge()*
+Vertex.getHalfEdge()
 
 #### Parameters
 
@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
+`HalfEdge`; A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
 
 #### Description
 
-Method; gets a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) that shares this vertex.
+Method; Gets a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) that shares this vertex.
 
 #### Example
 

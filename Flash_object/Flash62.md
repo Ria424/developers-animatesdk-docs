@@ -10,11 +10,11 @@ fl.runScript(fileURI [, funcName [, arg1, arg2, ...]])
 
 #### Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the name of the script file to execute.
+**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the name of the script file to execute.
 
-**funcName** A string that identifies a function to execute in the JSFL file that is specified in *fileURI*. This parameter is optional.
+**funcName** `string?`; A string that identifies a function to execute in the JSFL file that is specified in *fileURI*. This parameter is optional.
 
-**arg** An optional parameter that specifies one or more arguments to be passed to *funcname*.
+**arg** `string?`; An optional parameter that specifies one or more arguments to be passed to *funcname*.
 
 #### Returns
 

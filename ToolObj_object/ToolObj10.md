@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-toolObj.showPIControl(control, bShow)
+ToolObj.showPIControl(control, bShow)
 
 #### Parameters
 
-**control** A string that specifies the name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md)).
+**control** `string`; The name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md)).
 
 A shape Property inspector has the following controls:
 
@@ -36,7 +36,7 @@ The movie Property inspector has the following controls:
 | --- | --- | --- |
 | framerate | player | profile |
 
-**bShow** A Boolean value that determines whether to show or hide the specified control (true shows the control; false
+**bShow** `boolean`; A boolean value that determines whether to show or hide the specified control (true shows the control; false
 hides the control).
 
 #### Returns
@@ -45,7 +45,7 @@ Nothing.
 
 #### Description
 
-Method; shows or hides a control in the Property inspector. This method is used only when you create extensible tools.
+Method; Shows or hides a control in the Property inspector. This method is used only when you create extensible tools.
 
 #### Example
 

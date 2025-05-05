@@ -14,7 +14,7 @@ FLfile.read(fileURI)
 
 #### Returns
 
-The contents of the specified file as a string, or null if the read fails.
+`string | null`; The contents of the specified file as a string, or null if the read fails.
 
 #### Description
 

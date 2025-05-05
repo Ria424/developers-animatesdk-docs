@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-toolObj.setPI(pi)
+ToolObj.setPI(pi)
 
 #### Parameters
 
-**pi** A string that specifies the Property inspector to invoke for this tool.
+**pi** `string`; A string that specifies the Property inspector to invoke for this tool.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; specifies which Property inspector should be used when the tool is activated. This method is used only when you create extensible tools. Acceptable values are "shape" (the default), "text", and "movie".
+Method; Specifies which Property inspector should be used when the tool is activated. This method is used only when you create extensible tools. Acceptable values are "shape" (the default), "text", and "movie".
 
 #### Example
 

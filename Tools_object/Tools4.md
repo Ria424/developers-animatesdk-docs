@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-The integer value of the key.
+`integer`; The integer value of the key.
 
 #### Description
 

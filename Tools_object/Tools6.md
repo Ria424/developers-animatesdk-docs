@@ -19,7 +19,7 @@ values in the Output panel:
 
 ```javascript
 var pt1 = fl.tools.penDownLoc;
-fl.trace("x,y location of last mouseDown event was " + pt1.x + ", " + pt1.y);
+fl.trace("x, y location of last mouseDown event was " + pt1.x + ", " + pt1.y);
 ```
 
 #### See also

@@ -10,7 +10,7 @@ Tools.mouseIsDown
 
 #### Description
 
-Read-only property; A boolean value that is true if the left mouse button is currently down; false otherwise.
+Read-only property; `boolean`; A boolean value that is true if the left mouse button is currently down; false otherwise.
 
 #### Example
 

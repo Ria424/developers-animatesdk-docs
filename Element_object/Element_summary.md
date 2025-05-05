@@ -7,7 +7,8 @@ Flash MX 2004.
 #### Description
 
 Everything that appears on the Stage is of the type Element. The following code example lets you select an element:
-*var el = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\];*
+
+`var el = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];`
 
 #### Method summary
 

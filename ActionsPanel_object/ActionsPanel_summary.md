@@ -10,7 +10,7 @@ The ActionsPanel object, which represents the currently displayed Actions panel,
 
 #### Method summary
 
-The following methods can be used with the actionsPanel object:
+The following methods can be used with the ActionsPanel object:
 
 | **Method** | **Description** |
 | --- | --- |

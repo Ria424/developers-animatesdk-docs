@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-toolObj.setIcon(file)
+ToolObj.setIcon(file)
 
 #### Parameters
 
-**file** A string that specifies the name of the PNG file to use as the icon. The PNG file must be placed in the same folder as the JSFL file.
+**file** `string`; The name of the PNG file to use as the icon. The PNG file must be placed in the same folder as the JSFL file.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; identifies a PNG file to use as a tool icon in the Tools panel. This method is used only when you create extensible tools.
+Method; Identifies a PNG file to use as a tool icon in the Tools panel. This method is used only when you create extensible tools.
 
 #### Example
 

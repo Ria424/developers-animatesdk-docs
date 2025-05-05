@@ -10,7 +10,7 @@ SpriteSheetExporter.autoSize
 
 #### Description
 
-Property; A boolean value indicating whether the sprite sheet exporter should calculate the overall size of the sprite sheet on its own.
+Property; `boolean`; A boolean value indicating whether the sprite sheet exporter should calculate the overall size of the sprite sheet on its own.
 
 #### Example
 

@@ -6,11 +6,11 @@ Flash MX 2004.
 
 #### Usage
 
-toolObj.depth
+ToolObj.depth
 
 #### Description
 
-Read-only property; an integer that specifies the depth of the tool in the pop-up menu in the Tools panel. This property is used only when creating extensible tools.
+Read-only property; `integer`; An integer that specifies the depth of the tool in the pop-up menu in the Tools panel. This property is used only when creating extensible tools.
 
 #### Example
 

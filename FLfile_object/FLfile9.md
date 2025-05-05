@@ -6,13 +6,13 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-*FLfile.listFolder(folderURI \[, filesOrDirectories\])*
+FLfile.listFolder(folderURI \[, filesOrDirectories\])
 
 #### Parameters
 
 **folderURI** `string`; Expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
 
-**filesOrDirectories** `string?`; An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
+**filesOrDirectories** `"directories" | "files"?`; An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
 
 #### Returns
 
@@ -32,7 +32,7 @@ var folderURI = "file:///C|/temp";
 var fileList1 = FLfile.listFolder(fileURI, "files"); // files
 var fileList2 = FLfile.listFolder(folderURI, "directories"); // folders
 var fileList3 = FLfile.listFolder(folderURI); // files and folders
-fl.trace("Files: " + fileList1 + "\n");
+fl.trace("Files: " + fileList1 + "\n"); // file1.txt, file2.txt
 fl.trace("Folders: " + fileList2 + "\n");
 fl.trace("Files and folders: " + fileList3);
 ```

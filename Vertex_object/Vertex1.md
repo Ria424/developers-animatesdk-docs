@@ -6,13 +6,13 @@ Flash MX 2004.
 
 #### Usage
 
-*vertex.setLocation(x, y)*
+Vertex.setLocation(x, y)
 
 #### Parameters
 
- **x** A floating-point value that specifies the *x* coordinate of where the vertex should be positioned, in pixels.
+**x** `float`; A floating-point value that specifies the *x* coordinate of where the vertex should be positioned, in pixels.
 
- **y** A floating-point value that specifies the *y* coordinate of where the vertex should be positioned, in pixels.
+**y** `float`; A floating-point value that specifies the *y* coordinate of where the vertex should be positioned, in pixels.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; sets the location of the vertex. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
+Method; Sets the location of the vertex. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
 
 #### Example
 

@@ -6,7 +6,10 @@ Flash MX 2004.
 
 ## Description
 
-Flash 8 supports custom dialog boxes written in a subset of the XML User Interface Language (XUL). An XML User Interface (XMLUI) dialog box can be used by several Flash features, such as commands and behaviors, to provide a user interface for features that you build using extensibility. The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one. The XMLUI methods can be used in callbacks, such as *oncommand* handlers in buttons.
+Flash 8 supports custom dialog boxes written in a subset of the XML User Interface Language (XUL). An XML User Interface (XMLUI) dialog box can be used by several Flash features, such as commands and behaviors, to provide a user interface for features that you build using extensibility.
+
+The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one. The XMLUI methods can be used in callbacks, such as *oncommand* handlers in buttons.
+
 You can write a dialog.xml file and invoke it from the JavaScript API using the [Document.xmlPanel()](../Document_object/Document6198.md) method. To retrieve an object representing the current XMLUI dialog box, use [Flash.xmlui](../Flash_object/Flash81.md).
 
 ## Method summary

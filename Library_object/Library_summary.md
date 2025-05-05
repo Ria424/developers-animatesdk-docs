@@ -6,7 +6,7 @@ Flash MX 2004.
 
 ## Description
 
-The Library object represents the Library panel. It is a property of the Document object (see [Document.library](../Document_object/Document98.md)) and can be accessed by `fl.getDocumentDOM().library`.
+The Library object represents the Library panel. It is a property of the Document object and can be accessed by [Document.library](../Document_object/Document98.md).
 
 The Library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
 

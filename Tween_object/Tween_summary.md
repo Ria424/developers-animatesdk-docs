@@ -39,6 +39,7 @@ var tweenObj = frame.tweenObj;
 
 fl.outputPanel.clear();
 fl.trace("Tween duration = " + tweenObj.duration);
+
 for (var i = 0; i < tweenObj.duration; i++) {
     var colors = tweenObj.getColorTransform(i);
     fl.trace("\nFrame " + i + ":")

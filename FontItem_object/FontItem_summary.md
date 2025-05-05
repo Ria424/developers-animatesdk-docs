@@ -8,7 +8,7 @@ Flash MX 2004.
 
 ## Description
 
-The FontItem object is a subclass of the Item object (see [Item object](../Item_object/Item_summary.md)).
+The FontItem object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
 ## Property summary
 

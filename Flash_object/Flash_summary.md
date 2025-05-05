@@ -6,11 +6,15 @@ Flash MX 2004.
 
 ## Description
 
-The flash object represents the Flash application. You can use flash or fl to refer to this object. This documentation uses fl in code samples throughout.
+The Flash object represents the Flash application.
+
+You can refer to this object using `flash` or `fl`. Starting with Adobe Animate, you can also use `animate` or `an`.
+
+In this documentation, `fl` is used in code samples because it is concise and widely used in scripting, making the code easier to read and write compared to other aliases such as `flash` or `animate`.
 
 ## Method summary
 
-The following methods can be used with the flash object:
+The following methods can be used with the Flash object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -63,7 +67,7 @@ The following methods can be used with the flash object:
 
 ## Property summary
 
-The following properties can be used with the flash object.
+The following properties can be used with the Flash object.
 
 | **Property** | **Description** |
 | --- | --- |

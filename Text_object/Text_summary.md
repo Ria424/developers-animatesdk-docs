@@ -14,7 +14,9 @@ To set properties of a text run within the text field, see the Property summary 
 
 To set generic properties of the selected text field, use [Document.setElementProperty()](../Document_object/Document490.md). The following example sets the x value of the selected text field's registration point to 50:
 
- fl.getDocumentDOM().setElementProperty("x", 50);
+```javascript
+fl.getDocumentDOM().setElementProperty("x", 50);
+```
 
 ## Method summary
 

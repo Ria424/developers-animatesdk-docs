@@ -8,7 +8,7 @@ Flash MX 2004.
 
 ## Description
 
-The CompiledClipInstance object is a subclass of the Instance object. It is essentially an instance of a movie clip that has been converted to a compiled clip library item (see [Instance object](../Instance_object/Instance_summary.md)).
+The CompiledClipInstance object is a subclass of the [Instance object](../Instance_object/Instance_summary.md). It is essentially an instance of a movie clip that has been converted to a compiled clip library item.
 
 ## Property summary
 

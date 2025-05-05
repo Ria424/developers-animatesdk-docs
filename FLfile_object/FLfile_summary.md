@@ -24,15 +24,21 @@ The FLfile methods work with files or folders (directories) on disk. Therefore, 
 
 For example, if you want to create a folder on the C drive called config and place it in the Program Files/MyApp folder, use the following command:
 
-*FLfile.createFolder("file:///C\|/Program Files/MyApp/config");*
+```javascript
+FLfile.createFolder("file:///C\|/Program Files/MyApp/config");
+```
 
 If you then want to place a file called config.ini in that folder, use the following command:
 
-*FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", "");*
+```javascript
+FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", "");
+```
 
 To create a folder on the Macintosh, you could use the following command:
 
-*FLfile.createFolder("file:///Macintosh/MyApp/config");*
+```javascript
+FLfile.createFolder("file:///Macintosh/MyApp/config");
+```
 
 ## Method summary
 

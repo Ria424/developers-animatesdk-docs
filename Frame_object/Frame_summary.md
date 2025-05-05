@@ -17,7 +17,7 @@ The following methods can be used with the Frame object:
 | [Frame.convertMotionObjectTo2D()](../Frame_object/Frame.md) | Converts the selected motion object to a 2D motion object. |
 | [Frame.convertMotionObjectTo3D()](../Frame_object/Frame1.md) | Converts the selected motion object to a 3D motion object. |
 | [Frame.convertToFrameByFrameAnimation()](../Frame_object/Frame2.md) | Converts the current frame to Frame-by-Frame Animation. |
-| [Frame.getCustomEase()](../Frame_object/Frame6.md) | Returns an array of JavaScript objects, each of which has an _xy_ property. |
+| [Frame.getCustomEase()](../Frame_object/Frame6.md) | Returns an array of JavaScript objects, each of which has an *x* and *y* property. |
 | [Frame.getMotionObjectXML()](../Frame_object/Frame7.md) | Returns the motion XML from the selected motion object. |
 | [Frame.getSoundEnvelope()](../Frame_object/Frame8.md) | Gets the sound envelope data of any frame. |
 | [Frame.getSoundEnvelopeLimits()](../Frame_object/Frame9.md) | Gets the limits (start, end) for a custom Sound envelope that is applied to the frame sound. |

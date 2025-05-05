@@ -6,7 +6,10 @@ Flash MX 2004.
 
 ## Description
 
-The Stroke object contains all the settings for a stroke, including the custom settings. This object represents the information contained in the Property inspector. Using the Stroke object together with the [Document.setCustomStroke()](../Document_object/Document480.md) method, you can change the stroke settings for the Tools panel, the Property inspector, and the current selection. You can also get the stroke settings of the Tools panel and Property inspector, or of the current selection, by using the [Document.getCustomStroke()](../Document_object/Document75.md) method.
+The Stroke object contains all the settings for a stroke, including the custom settings. This object represents the information contained in the Property inspector. Using the Stroke object together with the [Document.setCustomStroke()](../Document_object/Document480.md) method, you can change the stroke settings for the Tools panel, the Property inspector, and the current selection.
+
+You can also get the stroke settings of the Tools panel and Property inspector, or of the current selection, by using the [Document.getCustomStroke()](../Document_object/Document75.md) method.
+
 This object always has the following four properties: style, thickness, color, and breakAtCorners. (In Flash CS3, the breakAtCorners property was deprecated in favor of [Stroke.joinType](../Stroke_object/Stroke11.md).) Other properties can be set, depending on the value of the [Stroke.style](../Stroke_object/Stroke20.md) property.
 
 ## Property summary

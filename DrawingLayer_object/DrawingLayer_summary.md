@@ -6,7 +6,9 @@ Flash MX 2004.
 
 ## Description
 
-The DrawingLayer object is accessible from JavaScript as a child of the flash object. The drawingLayer object is used for extensible tools when the user wants to temporarily draw while dragging—for example, when creating a selection marquee. You should call [DrawingLayer.beginFrame()](../DrawingLayer_object/DrawingLayer1.md) before you call any other drawingLayer methods.
+The DrawingLayer object is accessible from JavaScript as a child of the [Flash object](../Flash_object/Flash_summary.md).
+
+It is used for extensible tools when the user wants to temporarily draw while dragging. For example, when creating a selection marquee. You should call [DrawingLayer.beginFrame()](../DrawingLayer_object/DrawingLayer1.md) before you call any other Its methods.
 
 ## Method summary
 

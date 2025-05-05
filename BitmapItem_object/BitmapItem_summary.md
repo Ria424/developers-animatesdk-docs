@@ -8,7 +8,7 @@ Flash MX 2004.
 
 ## Description
 
-A BitmapItem object refers to a bitmap in the library of a document. The BitmapItem object is a subclass of the Item object (see [Item object](../Item_object/Item_summary.md)).
+A BitmapItem object refers to a bitmap in the library of a document. The BitmapItem object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
 ## Property summary
 

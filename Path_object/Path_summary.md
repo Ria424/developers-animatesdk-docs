@@ -6,9 +6,13 @@ Flash MX 2004.
 
 ## Description
 
-The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools. The following example shows an instance of a Path object being returned from the flash object:
+The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools.
 
-path = fl.drawingLayer.newPath();
+The following example shows an instance of a Path object being returned from the [Flash object](../Flash_object/Flash_summary.md):
+
+```javascript
+var path = fl.drawingLayer.newPath();
+```
 
 See also the [DrawingLayer object](../DrawingLayer_object/DrawingLayer_summary.md).
 

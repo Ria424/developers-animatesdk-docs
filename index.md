@@ -1005,7 +1005,9 @@ Flash CS3 Professional.
 
 #### Description
 
-The ActionsPanel object, which represents the currently displayed Actions panel, is a property of the Animate object (see [Flash.actionsPanel](./Flash_object/Flash.md)).
+The ActionsPanel object represents the currently displayed Actions panel.
+
+It is a property of the [Flash object](./Flash_object/Flash_summary.md) and can be accessed by [Flash.actionsPanel](./Flash_object/Flash.md).
 
 #### Method summary
 
@@ -1063,7 +1065,7 @@ Flash MX 2004.
 
 #### Description
 
-A BitmapItem object refers to a bitmap in the library of a document. The BitmapItem object is a subclass of the Item object (see [Item object](./Item_object/Item_summary.md)).
+A BitmapItem object refers to a bitmap in the library of a document. The BitmapItem object is a subclass of the [Item object](./Item_object/Item_summary.md).
 
 #### Property summary
 
@@ -1101,21 +1103,16 @@ Adobe Animate 2019
 
 #### Description
 
-This javascript object allows user to access and change properties of camera at any frame in timeline.
+The Camera object provides animators with the ability to control and manipulate the camera's properties at any frame in the timeline. This allows for dynamic storytelling and enhanced visual effects, similar to techniques used in motion films.
 
-Animators can use the following features that are integral to any motion film.
+Key features include:
 
-1. Panning with the subject of the frame.
-
-2. Zooming in the object of interest for dramatic effect
-
-3. Zooming out of a frame to remind the viewer of a larger picture
-
-4. Modifying the focal point to shift the attention of the viewer from one subject to another
-
-5. Rotating the camera
-
-6. Using color tint or filters to apply color effects on a scene
+1. Panning to follow the subject within the frame.
+2. Zooming in on an object of interest to create a dramatic effect.
+3. Zooming out to reveal a broader perspective or context.
+4. Adjusting the focal point to shift the viewer's attention between subjects.
+5. Rotating the camera to achieve unique angles or perspectives.
+6. Applying color tints or filters to enhance the mood or atmosphere of a scene.
 
 #### Method summary
 
@@ -1161,7 +1158,7 @@ Flash MX 2004.
 
 #### Description
 
-The CompiledClipInstance object is a subclass of the Instance object. It is essentially an instance of a movie clip that has been converted to a compiled clip library item (see [Instance object](./Instance_object/Instance_summary.md)).
+The CompiledClipInstance object is a subclass of the [Instance object](./Instance_object/Instance_summary.md). It is essentially an instance of a movie clip that has been converted to a compiled clip library item.
 
 #### Property summary
 
@@ -1204,7 +1201,9 @@ Flash CS3 Professional.
 
 #### Description
 
-The CompilerErrors object, which represents the Compiler Errors panel, is a property of the [Flash object (fl)](./Flash_object/Flash_summary.md) and can be accessed by `fl.compilerErrors`.
+The CompilerErrors object represents the Compiler Errors panel.
+
+It is a property of the [Flash object (fl)](./Flash_object/Flash_summary.md) and can be accessed by [Flash.compilerErrors](./Flash_object/Flash10.md).
 
 #### Method summary
 
@@ -1243,7 +1242,9 @@ Flash MX 2004.
 
 #### Description
 
-The ComponentsPanel object, which represents the Components panel, is a property of the [Flash object (fl)](./Flash_object/Flash_summary.md) and can be accessed by `fl.componentsPanel`.
+The ComponentsPanel object represents the Components panel.
+
+It is a property of the [Flash object (fl)](./Flash_object/Flash_summary.md) and can be accessed by [Flash.componentsPanel](./Flash_object/Flash11.md).
 
 #### Method summary
 
@@ -1517,7 +1518,9 @@ Flash MX 2004.
 
 #### Description
 
-The DrawingLayer object is accessible from JavaScript as a child of the flash object. The drawingLayer object is used for extensible tools when the user wants to temporarily draw while dragging—for example, when creating a selection marquee. You should call [DrawingLayer.beginFrame()](./DrawingLayer_object/DrawingLayer1.md) before you call any other drawingLayer methods.
+The DrawingLayer object is accessible from JavaScript as a child of the [Flash object](./Flash_object/Flash_summary.md).
+
+It is used for extensible tools when the user wants to temporarily draw while dragging. For example, when creating a selection marquee. You should call [DrawingLayer.beginFrame()](./DrawingLayer_object/DrawingLayer1.md) before you call any other Its methods.
 
 #### Method summary
 
@@ -1581,7 +1584,9 @@ Flash MX 2004.
 
 Everything that appears on the Stage is of the type Element. The following code example lets you select an element:
 
-`var el = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];`
+```javascript
+var el = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];
+```
 
 #### Method summary
 
@@ -1633,7 +1638,7 @@ Flash MX 2004.
 
 #### Description
 
-This object contains all the properties of the Fill color setting of the Tools panel or of a selected shape. To retrieve a Fill object, use [Document.getCustomFill()](./Document_object/Document74.md).
+The Fill object contains all the properties of the Fill color setting of the Tools panel or of a selected shape. To retrieve a Fill object, use [Document.getCustomFill()](./Document_object/Document74.md).
 
 #### Property summary
 
@@ -1660,9 +1665,9 @@ Flash 8.
 
 #### Description
 
-This object contains all the properties for all filters. The filter.name property specifies the type of filter, and determines which properties are applicable to each filter. See [Filter.name](./Filter_object/Filter13.md).
+The Filter object contains all the properties for all filters. The [Filter.name](./Filter_object/Filter13.md) property specifies the type of filter, and determines which properties are applicable to each filter.
 
-To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [Document.getFilters()](./Document_object/Document79.md) and [Document.setFilters()](./Document_object/Document530.md).
+To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use `Document.setFilters()`. See [Document.getFilters()](./Document_object/Document79.md) and [Document.setFilters()](./Document_object/Document530.md).
 
 #### Property summary
 
@@ -1698,11 +1703,15 @@ Flash MX 2004.
 
 #### Description
 
-The flash object represents the Flash application. You can use flash or fl to refer to this object. This documentation uses fl in code samples throughout.
+The Flash object represents the Flash application.
+
+You can refer to this object using `flash` or `fl`. Starting with Adobe Animate, you can also use `animate` or `an`.
+
+In this documentation, `fl` is used in code samples because it is concise and widely used in scripting, making the code easier to read and write compared to other aliases such as `flash` or `animate`.
 
 #### Method summary
 
-The following methods can be used with the flash object:
+The following methods can be used with the Flash object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -1755,7 +1764,7 @@ The following methods can be used with the flash object:
 
 #### Property summary
 
-The following properties can be used with the flash object.
+The following properties can be used with the Flash object.
 
 | **Property** | **Description** |
 | --- | --- |
@@ -1821,15 +1830,21 @@ The FLfile methods work with files or folders (directories) on disk. Therefore, 
 
 For example, if you want to create a folder on the C drive called config and place it in the Program Files/MyApp folder, use the following command:
 
-*FLfile.createFolder("file:///C\|/Program Files/MyApp/config");*
+```javascript
+FLfile.createFolder("file:///C\|/Program Files/MyApp/config");
+```
 
 If you then want to place a file called config.ini in that folder, use the following command:
 
-*FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", "");*
+```javascript
+FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", "");
+```
 
 To create a folder on the Macintosh, you could use the following command:
 
-*FLfile.createFolder("file:///Macintosh/MyApp/config");*
+```javascript
+FLfile.createFolder("file:///Macintosh/MyApp/config");
+```
 
 #### Method summary
 
@@ -1864,7 +1879,7 @@ Flash MX 2004.
 
 #### Description
 
-The FolderItem object is a subclass of the Item object. There are no unique methods or properties for FolderItem. See [Item object](./Item_object/Item_summary.md).
+The FolderItem object is a subclass of the [Item object](./Item_object/Item_summary.md). There are no unique methods or properties for FolderItem.
 
 ### FontItem summary
 
@@ -1876,7 +1891,7 @@ Flash MX 2004.
 
 #### Description
 
-The FontItem object is a subclass of the Item object (see [Item object](./Item_object/Item_summary.md)).
+The FontItem object is a subclass of the [Item object](./Item_object/Item_summary.md).
 
 #### Property summary
 
@@ -1913,7 +1928,7 @@ The following methods can be used with the Frame object:
 | [Frame.convertMotionObjectTo2D()](./Frame_object/Frame.md) | Converts the selected motion object to a 2D motion object. |
 | [Frame.convertMotionObjectTo3D()](./Frame_object/Frame1.md) | Converts the selected motion object to a 3D motion object. |
 | [Frame.convertToFrameByFrameAnimation()](./Frame_object/Frame2.md) | Converts the current frame to Frame-by-Frame Animation. |
-| [Frame.getCustomEase()](./Frame_object/Frame6.md) | Returns an array of JavaScript objects, each of which has an _xy_ property. |
+| [Frame.getCustomEase()](./Frame_object/Frame6.md) | Returns an array of JavaScript objects, each of which has an *x* and *y* property. |
 | [Frame.getMotionObjectXML()](./Frame_object/Frame7.md) | Returns the motion XML from the selected motion object. |
 | [Frame.getSoundEnvelope()](./Frame_object/Frame8.md) | Gets the sound envelope data of any frame. |
 | [Frame.getSoundEnvelopeLimits()](./Frame_object/Frame9.md) | Gets the limits (start, end) for a custom Sound envelope that is applied to the frame sound. |
@@ -2118,7 +2133,7 @@ Flash MX 2004.
 
 #### Description
 
-The Library object represents the Library panel. It is a property of the Document object (see [Document.library](./Document_object/Document98.md)) and can be accessed by `fl.getDocumentDOM().library`.
+The Library object represents the Library panel. It is a property of the Document object and can be accessed by [Document.library](./Document_object/Document98.md).
 
 The Library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
 
@@ -2164,7 +2179,7 @@ Flash MX 2004.
 
 #### Description
 
-The Math object is available as a read-only property of the flash object; see [Flash.Math](./Flash_object/Flash41.md). This object provides methods that perform common mathematical operations.
+The Math object is available as a read-only property of the [Flash object](./Flash_object/Flash_summary.md); see [Flash.Math](./Flash_object/Flash41.md). This object provides methods that perform common mathematical operations.
 
 #### Method summary
 
@@ -2208,7 +2223,7 @@ Flash MX 2004.
 
 #### Description
 
-This object represents the Output panel, which displays troubleshooting information such as syntax errors. To access this object, use fl.outputPanel (or flash.outputPanel). See [Flash.outputPanel](./Flash_object/Flash47.md).
+This object represents the Output panel, which displays troubleshooting information such as syntax errors. To access this object, use [Flash.outputPanel](./Flash_object/Flash47.md).
 
 #### Method summary
 
@@ -2284,9 +2299,13 @@ Flash MX 2004.
 
 #### Description
 
-The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools. The following example shows an instance of a Path object being returned from the flash object:
+The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools.
 
-path = fl.drawingLayer.newPath();
+The following example shows an instance of a Path object being returned from the [Flash object](./Flash_object/Flash_summary.md):
+
+```javascript
+var path = fl.drawingLayer.newPath();
+```
 
 See also the [DrawingLayer object](./DrawingLayer_object/DrawingLayer_summary.md).
 
@@ -2320,13 +2339,13 @@ Flash CS4 Professional.
 
 #### Description
 
-The presetItem object represents an item (preset or folder) in the Motion Presets panel (Window > Motion Presets). The array of presetItem objects is a property of the presetPanel object ([PresetPanel.items](./PresetPanel_object/PresetPanel9.md)).
+The PresetItem object represents an item (preset or folder) in the Motion Presets panel (Window > Motion Presets). The array of PresetItem objects is a property of the PresetPanel object ([PresetPanel.items](./PresetPanel_object/PresetPanel9.md)).
 
-All properties of the presetItem object are read only. To perform tasks such as deleting, renaming, or moving items, use the methods of the [PresetPanel object](./PresetPanel_object/PresetPanel_summary.md).
+All properties of the PresetItem object are read only. To perform tasks such as deleting, renaming, or moving items, use the methods of the [PresetPanel object](./PresetPanel_object/PresetPanel_summary.md).
 
 #### Property summary
 
-You can use the following properties with the presetItem object:
+You can use the following properties with the PresetItem object:
 
 | **Property** | **Description** |
 | --- | --- |
@@ -2345,11 +2364,13 @@ Flash CS4 Professional.
 
 #### Description
 
-The presetPanel object represents the Motion Presets panel (Window > Motion Presets). It is a property of the flash object ([Flash.presetPanel](./Flash_object/Flash49.md)).
+The PresetPanel object represents the Motion Presets panel (Window > Motion Presets).
+
+It is a property of the [Flash object](./Flash_object/Flash_summary.md) and can be accessed by [Flash.presetPanel](./Flash_object/Flash49.md).
 
 #### Method summary
 
-You can use the following methods with the presetPanel object:
+You can use the following methods with the PresetPanel object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -2409,9 +2430,9 @@ Flash MX 2004.
 
 #### Description
 
-The Shape object is a subclass of the Element object. The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands (see [Element object](./Element_object/Element_summary.md)).
-All Shape methods and properties that change a shape or any of its subordinate parts must be placed between
-[Shape.beginEdit()](./Shape_object/Shape.md) and [Shape.endEdit()](./Shape_object/Shape4.md) calls to function correctly.
+The Shape object is a subclass of the [Element object](./Element_object/Element_summary.md). The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands.
+
+All Shape methods and properties that change a shape or any of its subordinate parts must be placed between [Shape.beginEdit()](./Shape_object/Shape.md) and [Shape.endEdit()](./Shape_object/Shape4.md) calls to function correctly.
 
 #### Method summary
 
@@ -2451,7 +2472,7 @@ Flash MX 2004.
 
 #### Description
 
-The SoundItem object is a subclass of the Item object. It represents a library item used to create a sound. See also [Frame.soundLibraryItem](./Frame_object/Frame31.md) and [Item object](./Item_object/Item_summary.md).
+The SoundItem object is a subclass of the [Item object](./Item_object/Item_summary.md). It represents a library item used to create a sound (see also [Frame.soundLibraryItem](./Frame_object/Frame31.md)).
 
 #### Method summary
 
@@ -2544,7 +2565,10 @@ Flash MX 2004.
 
 #### Description
 
-The Stroke object contains all the settings for a stroke, including the custom settings. This object represents the information contained in the Property inspector. Using the Stroke object together with the [Document.setCustomStroke()](./Document_object/Document480.md) method, you can change the stroke settings for the Tools panel, the Property inspector, and the current selection. You can also get the stroke settings of the Tools panel and Property inspector, or of the current selection, by using the [Document.getCustomStroke()](./Document_object/Document75.md) method.
+The Stroke object contains all the settings for a stroke, including the custom settings. This object represents the information contained in the Property inspector. Using the Stroke object together with the [Document.setCustomStroke()](./Document_object/Document480.md) method, you can change the stroke settings for the Tools panel, the Property inspector, and the current selection.
+
+You can also get the stroke settings of the Tools panel and Property inspector, or of the current selection, by using the [Document.getCustomStroke()](./Document_object/Document75.md) method.
+
 This object always has the following four properties: style, thickness, color, and breakAtCorners. (In Flash CS3, the breakAtCorners property was deprecated in favor of [Stroke.joinType](./Stroke_object/Stroke11.md).) Other properties can be set, depending on the value of the [Stroke.style](./Stroke_object/Stroke20.md) property.
 
 #### Property summary
@@ -2587,7 +2611,11 @@ Flash CS4 Professional.
 
 #### Description
 
-The SwfPanel object represents a Window SWF panel. Window SWF panels are SWF files that implement applications you can run from the Flash authoring environment; they are available from the Window > Other Panels menu. By default, Window SWF panels are stored in a subfolder of the Configuration folder (see ["Saving JSFL files"](./Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows XP, the folder is in *boot drive*\\Documents and Settings\\*user*\\Local Settings\\Application Data\\Adobe\\Flash CS4\\*language*\\Configuration\\WindowSWF. A sample Window SWF panel is available; see ["Sample Trace Bitmap panel"](./Introduction/Sample_implementations.md#sample-trace-bitmap-panel). The array of registered Window SWF panels is stored in the [Flash.swfPanels](./Flash_object/Flash74.md) property.
+The SwfPanel object represents a Window SWF panel. Window SWF panels are SWF files that implement applications you can run from the Flash authoring environment; they are available from the Window > Other Panels menu. By default, Window SWF panels are stored in a subfolder of the Configuration folder (see ["Saving JSFL files"](./Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
+
+For example, on Windows XP, the folder is in *boot drive*\\Documents and Settings\\*user*\\Local Settings\\Application Data\\Adobe\\Flash CS4\\*language*\\Configuration\\WindowSWF.
+
+A sample Window SWF panel is available; see ["Sample Trace Bitmap panel"](./Introduction/Sample_implementations.md#sample-trace-bitmap-panel). The array of registered Window SWF panels is stored in the [Flash.swfPanels](./Flash_object/Flash74.md) property.
 
 #### Method summary
 
@@ -2742,7 +2770,7 @@ Flash MX 2004.
 
 #### Description
 
-The TextRun object represents a run of characters that have attributes that match all of the properties in the [TextAttrs object](./TextAttrs_object/TextAttrs_summary.md) . This object is a property of the Text object ([Text.textRuns](./Text_object/Text27.md)).
+The TextRun object represents a run of characters that have attributes that match all of the properties in the [TextAttrs object](./TextAttrs_object/TextAttrs_summary.md). This object is a property of the Text object ([Text.textRuns](./Text_object/Text27.md)).
 
 #### Property summary
 
@@ -2813,7 +2841,9 @@ To set properties of a text run within the text field, see the Property summary 
 
 To set generic properties of the selected text field, use [Document.setElementProperty()](./Document_object/Document490.md). The following example sets the x value of the selected text field's registration point to 50:
 
- fl.getDocumentDOM().setElementProperty("x", 50);
+```javascript
+fl.getDocumentDOM().setElementProperty("x", 50);
+```
 
 #### Method summary
 
@@ -3058,6 +3088,7 @@ var tweenObj = frame.tweenObj;
 
 fl.outputPanel.clear();
 fl.trace("Tween duration = " + tweenObj.duration);
+
 for (var i = 0; i < tweenObj.duration; i++) {
     var colors = tweenObj.getColorTransform(i);
     fl.trace("\nFrame " + i + ":")
@@ -3151,7 +3182,10 @@ Flash MX 2004.
 
 #### Description
 
-Flash 8 supports custom dialog boxes written in a subset of the XML User Interface Language (XUL). An XML User Interface (XMLUI) dialog box can be used by several Flash features, such as commands and behaviors, to provide a user interface for features that you build using extensibility. The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one. The XMLUI methods can be used in callbacks, such as *oncommand* handlers in buttons.
+Flash 8 supports custom dialog boxes written in a subset of the XML User Interface Language (XUL). An XML User Interface (XMLUI) dialog box can be used by several Flash features, such as commands and behaviors, to provide a user interface for features that you build using extensibility.
+
+The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one. The XMLUI methods can be used in callbacks, such as *oncommand* handlers in buttons.
+
 You can write a dialog.xml file and invoke it from the JavaScript API using the [Document.xmlPanel()](./Document_object/Document6198.md) method. To retrieve an object representing the current XMLUI dialog box, use [Flash.xmlui](./Flash_object/Flash81.md).
 
 #### Method summary

@@ -6,21 +6,16 @@ Adobe Animate 2019
 
 ## Description
 
-This javascript object allows user to access and change properties of camera at any frame in timeline.
+The Camera object provides animators with the ability to control and manipulate the camera's properties at any frame in the timeline. This allows for dynamic storytelling and enhanced visual effects, similar to techniques used in motion films.
 
-Animators can use the following features that are integral to any motion film.
+Key features include:
 
-1. Panning with the subject of the frame.
-
-2. Zooming in the object of interest for dramatic effect
-
-3. Zooming out of a frame to remind the viewer of a larger picture
-
-4. Modifying the focal point to shift the attention of the viewer from one subject to another
-
-5. Rotating the camera
-
-6. Using color tint or filters to apply color effects on a scene
+1. Panning to follow the subject within the frame.
+2. Zooming in on an object of interest to create a dramatic effect.
+3. Zooming out to reveal a broader perspective or context.
+4. Adjusting the focal point to shift the viewer's attention between subjects.
+5. Rotating the camera to achieve unique angles or perspectives.
+6. Applying color tints or filters to enhance the mood or atmosphere of a scene.
 
 ## Method summary
 

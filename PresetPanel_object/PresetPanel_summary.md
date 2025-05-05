@@ -6,11 +6,13 @@ Flash CS4 Professional.
 
 ## Description
 
-The presetPanel object represents the Motion Presets panel (Window > Motion Presets). It is a property of the flash object ([Flash.presetPanel](../Flash_object/Flash49.md)).
+The PresetPanel object represents the Motion Presets panel (Window > Motion Presets).
+
+It is a property of the [Flash object](../Flash_object/Flash_summary.md) and can be accessed by [Flash.presetPanel](../Flash_object/Flash49.md).
 
 ## Method summary
 
-You can use the following methods with the presetPanel object:
+You can use the following methods with the PresetPanel object:
 
 | **Method** | **Description** |
 | --- | --- |

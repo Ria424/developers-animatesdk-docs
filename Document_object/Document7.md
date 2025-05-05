@@ -10,7 +10,7 @@ Document.addNewPrimitiveOval(boundingRectangle [, bSpupressFill [, bSuppressStro
 
 ## Parameters
 
-**boundingRectangle** `Rectangle`; Specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+**boundingRectangle** `RectangleBounds`; Specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 **bSuppressFill** `boolean`; A boolean value that, if set to true, causes the method to create the oval without a fill. The default value is false. This parameter is optional.
 

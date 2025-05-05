@@ -10,7 +10,7 @@ Document.addNewOval(boundingRectangle [, bSuppressFill [, bSuppressStroke ]])
 
 ## Parameters
 
-**boundingRectangle** `Rectangle`; Specifies the bounds of the oval to be added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+**boundingRectangle** `RectangleBounds`; Specifies the bounds of the oval to be added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 **bSuppressFill** `boolean`; A boolean value that, if set to true, causes the method to create the shape without a fill. The default value is false. This parameter is optional.
 

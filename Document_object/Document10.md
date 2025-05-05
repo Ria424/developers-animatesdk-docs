@@ -10,7 +10,7 @@ Document.addNewRectangle(boundingRectangle, roundness [, bSuppressFill [, bSuppr
 
 ## Parameters
 
-**boundingRectangle** `Rectangle`; Specifies the bounds within which the new rectangle is added, in the format
+**boundingRectangle** `RectangleBounds`; Specifies the bounds within which the new rectangle is added, in the format
 {left: value1, top: value2, right: value3, bottom: value4}. The left and top values specify the location of the upper left corner (e.g., left:0,top:0 represents the upper left corner of the Stage) and the right and bottom values specify the location of the lower-right corner. Therefore, the width of the rectangle is the difference in value between left and right, and the height of the rectangle is the difference in value between top and bottom.
 In other words, the rectangle bounds do not all correspond to the values shown in the Property inspector. The left and top values correspond to the X and Y values in the Property inspector, respectively. However, the right and bottom values don’t correspond to the W and H values in the Property inspector. For example, consider a rectangle with the following bounds:
 {left: 10, top: 10, right: 50, bottom: 100}

@@ -10,7 +10,7 @@ Document.addNewPrimitiveRectangle(boundingRectangle, roundness, [, bSuppressFill
 
 ## Parameters
 
-**rect** `Rectangle`; Specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+**rect** `RectangleBounds`; Specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 **roundness** `integer`; An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
 

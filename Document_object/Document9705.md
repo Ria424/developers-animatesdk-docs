@@ -1,26 +1,26 @@
-## Document.setStageVanishingPoint()
+# Document.setStageVanishingPoint()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Document.setStageVanishingPoint(point)
 
-#### Parameters
+## Parameters
 
 **point** `Point`; A point that specifies the *x* and *y* coordinates of the location at which to set the vanishing point for viewing 3D objects.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Specifies the vanishing point for viewing 3D objects.
 
-#### Example
+## Example
 
 The following example sets the Stage vanishing point:
 

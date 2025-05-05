@@ -1,26 +1,26 @@
-## Document.unGroup()
+# Document.unGroup()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.unGroup()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Ungroups the current selection.
 
-#### Example
+## Example
 
 The following example ungroups the elements in the current selection:
 
@@ -28,6 +28,6 @@ The following example ungroups the elements in the current selection:
 fl.getDocumentDOM().unGroup();
 ```
 
-#### See also
+## See also
 
 [Document.group()](../Document_object/Document90.md)

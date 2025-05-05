@@ -1,18 +1,18 @@
-## Timeline.currentFrame
+# Timeline.currentFrame
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.currentFrame
 
-#### Description
+## Description
 
 Property; `integer`; The zero-based index for the frame at the current playhead location.
 
-#### Example
+## Example
 
 The following example sets the playhead of the current timeline to Frame 10 (remember that index values are different from frame number values):
 

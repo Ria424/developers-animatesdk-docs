@@ -1,14 +1,14 @@
-## Item.setPublishData()
+# Item.setPublishData()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 library.setPublishData(name, format, publish)
 
-#### Parameters
+## Parameters
 
 **name** `string`; A string that contains the name of the persistent data item, as specified in "[Item.addData()](../Item_object/Item.md)".
 
@@ -17,15 +17,15 @@ library.setPublishData(name, format, publish)
 *.metaData property. This feature applies to SWF version 19 (Flash Player 11.6) and above and only for symbol instances onstage. Other custom publishing formats may be specified for custom JSFL scripts if getPublishPersistentData() is called with the same format.*
 **publish** A Boolean that indicates whether to enable or disable publishing of persistent data for the specified format.
 
-#### Returns
+## Returns
 
 None.
 
-#### Description
+## Description
 
 Method; Enables publishing of persistent data for a library item.
 
-#### Example
+## Example
 
 The following example illustrates use of this method:
 
@@ -54,6 +54,6 @@ if (doc && doc.getPublishDocumentData("_EXTERN_JSON_")) {
 }
 ```
 
-#### See also
+## See also
 
 [Item.getPublishData()](../Item_object/Item2.md)

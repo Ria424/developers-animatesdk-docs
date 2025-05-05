@@ -1,14 +1,14 @@
-## ComponentsPanel.addItemToDocument()
+# ComponentsPanel.addItemToDocument()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ComponentsPanel.addItemToDocument(position, categoryName, componentName)
 
-#### Parameters
+## Parameters
 
 **position** `Point`; A point (for example, {x: 0, y: 100}) that specifies the location at which to add the component. Specify *position* relative to the center point of the component—not the component’s registration point (also *origin point* or *zero point*).
 
@@ -16,15 +16,15 @@ ComponentsPanel.addItemToDocument(position, categoryName, componentName)
 
 **componentName** `string`; Specifies the name of the component in the specified category (for example, *"WebServiceConnector"*). The valid component names are listed in the Components panel.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Adds the specified component to the document at the specified position.
 
-#### Example
+## Example
 
 The following examples illustrate some ways to use this method:
 

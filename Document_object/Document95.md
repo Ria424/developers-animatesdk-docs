@@ -1,26 +1,26 @@
-## Document.importPublishProfileString()
+# Document.importPublishProfileString()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Document.importPublishProfileString(xmlString)
 
-#### Parameters
+## Parameters
 
 **xmlString** `string`; A string that contains the XML data to be imported as the current profile.
 
-#### Returns
+## Returns
 
 `boolean`; true if the string was successfully imported; false otherwise.
 
-#### Description
+## Description
 
 Method: Imports an XML string that represents a publish profile and sets it as the current profile. To generate an XML string to import, use [Document.exportPublishProfileString()](../Document_object/Document66.md) before using this method.
 
-#### Example
+## Example
 
 In the following example, the default profile is exported as an XML string. The standard JavaScript replace command is used to modify the XML string. The string is then imported, and the default ActionScript 3 output setting is set to ActionScript 1.
 

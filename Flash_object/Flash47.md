@@ -1,17 +1,17 @@
-## Flash.outputPanel
+# Flash.outputPanel
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.outputPanel
 
-#### Description
+## Description
 
 Read-only property; `OutputPanel`; Reference to the [OutputPanel object](../OutputPanel_object/OutputPanel_summary.md).
 
-#### Example
+## Example
 
 See [OutputPanel object](../OutputPanel_object/OutputPanel_summary.md).

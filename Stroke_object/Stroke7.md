@@ -1,14 +1,14 @@
-## Stroke.dotSize
+# Stroke.dotSize
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 stroke.dotSize
 
-#### Description
+## Description
 
 Property; a string that specifies the dot size of a stippled line. This property is available only if the stroke.style property is set to stipple (see [Stroke.style](../Stroke_object/Stroke20.md)). Acceptable values are "tiny", "small", "medium", and "large".
 

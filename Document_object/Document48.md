@@ -1,26 +1,26 @@
-## Document.disableOtherFilters()
+# Document.disableOtherFilters()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.disableOtherFilters(enabledFilterIndex)
 
-#### Parameters
+## Parameters
 
 **enabledFilterIndex** `integer`; An integer representing the zero-based index of the filter that should remain enabled after other filters are disabled.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Disables all filters except the one at the specified position in the Filters list.
 
-#### Example
+## Example
 
 The following example disables all filters except the second filter in the list (index value of 1):
 
@@ -28,7 +28,7 @@ The following example disables all filters except the second filter in the list 
 fl.getDocumentDom().disableOtherFilters(1);
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

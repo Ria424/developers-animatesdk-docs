@@ -1,18 +1,18 @@
-## Text.textRuns
+# Text.textRuns
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.textRuns
 
-#### Description
+## Description
 
 Read-only property; an array of TextRun objects (see [TextRun object](../TextRun_object/TextRun_summary.md)).
 
-#### Example
+## Example
 
 The following example stores the value of the textRuns property in the myTextRuns variable:
 

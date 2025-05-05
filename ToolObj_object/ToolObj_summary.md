@@ -1,14 +1,14 @@
-## ToolObj summary
+# ToolObj summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 A ToolObj object represents an individual tool in the Tools panel. To access a ToolObj object, use properties of the [Tools object](../Tools_object/Tools_summary.md): either the [Tools.toolObjs](../Tools_object/Tools11.md) array or [Tools.activeTool](../Tools_object/Tools.md).
 
-#### Method summary
+## Method summary
 
 The following methods are available for the ToolObj object.
 
@@ -26,7 +26,7 @@ The following methods are available for the ToolObj object.
 | [ToolObj.showPIControl()](../ToolObj_object/ToolObj10.md) | Shows or hides a control in the Property inspector. |
 | [ToolObj.showTransformHandles()](../ToolObj_object/ToolObj11.md) | Called in the [ConfigureTool()](../Top-level_functions_and_methods/configureTool.md) method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the ToolObj object:
 

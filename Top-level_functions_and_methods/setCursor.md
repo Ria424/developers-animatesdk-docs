@@ -1,10 +1,10 @@
-## setCursor()
+# setCursor()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function setCursor() {
@@ -12,19 +12,19 @@ function setCursor() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called when the extensible tool is active and the mouse moves, to allow the script to set custom pointers. The script should call tools.setCursor() to specify the pointer to use. For a list that shows which pointers correspond to which integer values, see [Tools.setCursor()](../Tools_object/Tools8.md).
 
-#### Example
+## Example
 
 ```javascript
 function setCursor() {

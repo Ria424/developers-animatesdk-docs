@@ -1,14 +1,14 @@
-## Flash.getThemeFontInfo()
+# Flash.getThemeFontInfo()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.getThemeFontInfo(infoType, size)
 
-#### Parameters
+## Parameters
 
 **infoType** A string that contains one of the following:
 
@@ -18,15 +18,15 @@ fl.getThemeFontInfo(infoType, size)
 
 **size** A string that specifies either "large" or "small".
 
-#### Returns
+## Returns
 
 A String containing either the font style or the font size for the specifie size.
 
-#### Description
+## Description
 
 Method; returns either the font Style or the font Size that is used to draw the UI of the specified size.
 
-#### Example
+## Example
 
 The following example illustrates the use of this method:
 

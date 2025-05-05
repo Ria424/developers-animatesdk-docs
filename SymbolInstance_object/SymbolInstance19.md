@@ -1,18 +1,18 @@
-## SymbolInstance.firstFrame
+# SymbolInstance.firstFrame
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 symbolInstance.firstFrame
 
-#### Description
+## Description
 
 Property; `integer`; A zero-based integer that specifies the first frame to appear in the timeline of the graphic. This property applies only to graphic symbols and sets the same property as the First field in the Property inspector. For other types of symbols, this property is undefined.
 
-#### Example
+## Example
 
 The following example specifies that Frame 10 should be the first frame to appear in the timeline of the specified element:
 

@@ -1,14 +1,14 @@
-## SpriteSheetExporter.addSymbol()
+# SpriteSheetExporter.addSymbol()
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.addSymbol(symbol [, name] [, beginFrame] [, endFrame])
 
-#### Parameters
+## Parameters
 
 **symbol** `SymbolItem | SymbolInstance`; The SymbolItem or SymbolInstance to include in the sprite sheet.
 
@@ -18,10 +18,10 @@ SpriteSheetExporter.addSymbol(symbol [, name] [, beginFrame] [, endFrame])
 
 **endFrame** The last frame of the symbol to include in the sprite sheet.
 
-#### Returns
+## Returns
 
 `boolean`;
 
-#### Description
+## Description
 
 Method; Adds the specified `SymbolItem` or `SymbolInstance` to be used to generate the sprite sheet.

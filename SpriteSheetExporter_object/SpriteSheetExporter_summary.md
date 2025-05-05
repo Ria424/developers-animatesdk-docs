@@ -1,16 +1,16 @@
-## SpriteSheetExporter summary
+# SpriteSheetExporter summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > SpriteSheetExporter object
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Description
+## Description
 
 The SpriteSheetExporter object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
-#### Method summary
+## Method summary
 
 In addition to the Item object methods, you can use the following methods with the SpriteSheetExporter object:
 
@@ -24,7 +24,7 @@ In addition to the Item object methods, you can use the following methods with t
 | [SpriteSheetExporter.removeBitmap()](../SpriteSheetExporter_object/SpriteSheetExporter22.md) | Remove a bitmap object from the sprite sheet. |
 | [SpriteSheetExporter.removeSymbol()](../SpriteSheetExporter_object/SpriteSheetExporter23.md) | Remove a symbol from the sprite sheet. |
 
-#### Property summary
+## Property summary
 
 In addition to the Item object properties, the following properties are available for the SpriteSheetExporter object:
 

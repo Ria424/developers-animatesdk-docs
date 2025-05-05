@@ -1,26 +1,26 @@
-## Document.unlockAllElements()
+# Document.unlockAllElements()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.unlockAllElements()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Unlocks all locked elements on the currently selected frame.
 
-#### Example
+## Example
 
 The following example unlocks all locked objects on the current frame:
 
@@ -28,6 +28,6 @@ The following example unlocks all locked objects on the current frame:
 fl.getDocumentDOM().unlockAllElements();
 ```
 
-#### See also
+## See also
 
 [Element.locked](../Element_object/Element9.md)

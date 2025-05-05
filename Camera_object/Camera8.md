@@ -1,28 +1,28 @@
-## Camera.setRotation()
+# Camera.setRotation()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019
 
-#### Usage
+## Usage
 
 Camera.setRotation(frameIndex, angleDegree)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Frame Number in timeline.
 
 **angleDegree** `integer`; The angleDegree for rotation.
 
-#### Return
+## Return
 
 nothing
 
-#### Description
+## Description
 
 Rotate camera by absolute angle given as input parameters.
 
-#### Example
+## Example
 
 The following example rotates camera by absolute angle given as input parameters.
 

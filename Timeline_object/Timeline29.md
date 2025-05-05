@@ -1,27 +1,27 @@
-## Timeline.insertKeyframe()
+# Timeline.insertKeyframe()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.insertKeyframe(\[frameNumIndex\])
 
-#### Parameters
+## Parameters
 
 **frameNumIndex** `integer?`; A zero-based index that specifies the frame index at which to insert the keyframe in the current layer. If you omit *frameNumIndex*, the method uses the frame number of the current playhead or selected frame. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Inserts a keyframe at the specified frame. If you omit the parameter, the method inserts a keyframe using the playhead or selection location.
 This method works the same as [Timeline.insertBlankKeyframe()](../Timeline_object/Timeline27.md) except that the inserted keyframe contains the contents of the frame it converted (that is, it’s not blank).
 
-#### Example
+## Example
 
 The following example inserts a keyframe at the playhead or selected location:
 

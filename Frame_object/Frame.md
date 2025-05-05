@@ -1,18 +1,18 @@
-## Frame.convertMotionObjectTo2D()
+# Frame.convertMotionObjectTo2D()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.convertMotionObjectTo2D()
 
-#### Description
+## Description
 
 Method; Converts the selected motion object to a 2D motion object.
 
-#### Example
+## Example
 
 The following example converts the selected motion object to a 2D motion object:
 

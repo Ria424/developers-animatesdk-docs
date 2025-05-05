@@ -1,18 +1,18 @@
-## Timeline.name
+# Timeline.name
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.name
 
-#### Description
+## Description
 
 Property; `string`; The name of the current timeline. This name is the name of the current scene, screen (slide or form), or symbol that is being edited.
 
-#### Example
+## Example
 
 The following example retrieves the first scene name:
 

@@ -1,26 +1,26 @@
-## Document.setInstanceBrightness()
+# Document.setInstanceBrightness()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setInstanceBrightness(brightness)
 
-#### Parameters
+## Parameters
 
 **brightness** `integer`; An integer that specifies brightness as a value from -100 (black) to 100 (white).
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the brightness for the instance.
 
-#### Example
+## Example
 
 The following example sets the brightness for the instance to a value of 50:
 

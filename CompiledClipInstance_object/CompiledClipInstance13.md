@@ -1,20 +1,20 @@
-## CompiledClipInstance.colorRedAmount
+# CompiledClipInstance.colorRedAmount
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.colorRedAmount
 
-#### Description
+## Description
 
 Property; `integer`; An integer that either reduces or increases the red tint by a constant amount. This value is added to the current value. Valid values are -255 to 255.
 
 This setting is the same as selecting `Color > Advanced` in the Instance Property Inspector.
 
-#### Example
+## Example
 
 The following example illustrates use of this property:
 

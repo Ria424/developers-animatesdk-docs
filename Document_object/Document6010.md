@@ -1,14 +1,14 @@
-## Document.traceBitmap()
+# Document.traceBitmap()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.traceBitmap(threshold, minimumArea, curveFit, cornerThreshold)
 
-#### Parameters
+## Parameters
 
 **threshold** `integer`; An integer that controls the number of colors in your traced bitmap. Acceptable values are integers between 0 and 500.\
 
@@ -18,15 +18,15 @@ Document.traceBitmap(threshold, minimumArea, curveFit, cornerThreshold)
 
 **cornerThreshold** `"many corners" | "normal" | "few corners"`; A string that is similar to *curveFit*, but it pertains to the corners of the bitmap image. Acceptable values are "many corners", "normal", and "few corners".
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Performs a trace bitmap on the current selection. This method is equivalent to selecting Modify >Bitmap>Trace Bitmap.
 
-#### Example
+## Example
 
 The following example traces the selected bitmap, using the specified parameters:
 

@@ -1,26 +1,26 @@
-## Timeline.findLayerIndex()
+# Timeline.findLayerIndex()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.findLayerIndex(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; The name of the layer to find.
 
-#### Returns
+## Returns
 
 `integer[] | undefined`; An array of index values for the specified layer. If the specified layer is not found, Animate returns undefined.
 
-#### Description
+## Description
 
 Method; Finds an array of indexes for the layers with the given name. The layer index is flat, so folders are considered part of the main index.
 
-#### Example
+## Example
 
 The following example shows the index values of all layers named Layer 7 in the Output panel:
 

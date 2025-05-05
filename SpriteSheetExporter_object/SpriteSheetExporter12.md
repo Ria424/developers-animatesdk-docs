@@ -1,18 +1,18 @@
-## SpriteSheetExporter.canShapePad
+# SpriteSheetExporter.canShapePad
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.canShapePad
 
-#### Description
+## Description
 
 Read-only property; `boolean`; A boolean value indicating whether the framework specified by the `SpriteSheetExporter.layoutFormat` property supports shape padding.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

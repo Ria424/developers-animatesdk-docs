@@ -1,14 +1,14 @@
-## Document.convertToDoc()
+# Document.convertToDoc()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.convertToDoc(fileURI, doctype [, fileClose])
 
-#### Parameters
+## Parameters
 
 **fileURI**: `string`; A string, expressed as a file:/// URI, that specifies the path of the generated file after conversion.
 
@@ -16,15 +16,15 @@ Document.convertToDoc(fileURI, doctype [, fileClose])
 
 **fileClose**: `boolean?false`; Specifies whether to close the generated file after conversion. Specifying true closes the generated file. The default is false. It is optional.
 
-#### Returns
+## Returns
 
 `boolean`; True if document converted to expected document type successfully. False otherwise.
 
-#### Description
+## Description
 
 Method; Converts a document to expected document type.
 
-#### Example
+## Example
 
 The following example browse for a document and convert it to other document type.
 

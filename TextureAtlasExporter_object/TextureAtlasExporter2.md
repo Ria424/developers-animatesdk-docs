@@ -1,18 +1,18 @@
-## TextureAtlasExporter.allowRotate
+# TextureAtlasExporter.allowRotate
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.allowRotate
 
-#### Description
+## Description
 
 Property; A boolean value indicating whether the symbol frames can be rotated when packed into the TextureAtlas.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

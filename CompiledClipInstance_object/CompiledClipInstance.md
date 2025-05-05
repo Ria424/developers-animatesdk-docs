@@ -1,18 +1,18 @@
-## CompiledClipInstance.accName
+# CompiledClipInstance.accName
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.accName
 
-#### Description
+## Description
 
 Property; `string`; A string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud.
 
-#### Example
+## Example
 
 The following example gets and sets the accessibility name of the first selected object:
 

@@ -1,24 +1,24 @@
-## PresetPanel.moveToFolder()
+# PresetPanel.moveToFolder()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *presetPanel.moveToFolder(folderPath [, namePath] )*
 
-#### Parameters
+## Parameters
 
 **folderPath** A string that specifies the path to the folder in the Motion Presets panel to which the item or items are moved.
 
 **namePath** A string that specifies the path and name of the item to move. This parameter is optional.
 
-#### Returns
+## Returns
 
 A Boolean value of true if the items are successfully moved; false otherwise.
 
-#### Description
+## Description
 
 Method; moves the specified item to the specified folder.
 
@@ -26,7 +26,7 @@ If you pass an empty string ("") for *folderPath*, the items are moved to the Cu
 
 You can’t move items to or from the Default Presets folder.
 
-#### Example
+## Example
 
 In the following example, the currently selected items are moved to the Custom Presets/Bouncing folder, and then the Fast Bounce preset is moved to the same folder:
 

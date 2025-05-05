@@ -1,14 +1,14 @@
-## OutputPanel summary
+# OutputPanel summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 This object represents the Output panel, which displays troubleshooting information such as syntax errors. To access this object, use fl.outputPanel (or flash.outputPanel). See [Flash.outputPanel](../Flash_object/Flash47.md).
 
-#### Method summary
+## Method summary
 
 The outputPanel object uses the following methods:
 

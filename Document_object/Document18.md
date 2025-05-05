@@ -1,18 +1,18 @@
-## Document.as3ExportFrame
+# Document.as3ExportFrame
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.as3ExportFrame
 
-#### Description
+## Description
 
 Property; `integer`; Specifies in which frame to export ActionScript 3.0 classes. By default, classes are exported in Frame 1.
 
-#### Example
+## Example
 
 The following example changes the frame in which classes are exported from 1 (the default) to 5.
 

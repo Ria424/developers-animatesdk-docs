@@ -1,18 +1,18 @@
-## Layer.frames
+# Layer.frames
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Layer.frames
 
-#### Description
+## Description
 
 Read-only property; `Frame[]`; An array of [Frame object](../Frame_object/Frame_summary.md)s.
 
-#### Example
+## Example
 
 The following example sets the variable frameArray to the array of Frame objects for the frames in the current document:
 

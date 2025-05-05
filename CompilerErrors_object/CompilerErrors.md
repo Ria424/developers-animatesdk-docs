@@ -1,26 +1,26 @@
-## CompilerErrors.clear()
+# CompilerErrors.clear()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 CompilerErrors.clear()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Clears the contents of the Compiler Errors panel.
 
-#### Example
+## Example
 
 The following example clears the contents of the Compiler Errors panel:
 
@@ -28,6 +28,6 @@ The following example clears the contents of the Compiler Errors panel:
 fl.compilerErrors.clear();
 ```
 
-#### See also
+## See also
 
 [CompilerErrors.save()](../CompilerErrors_object/CompilerErrors1.md)

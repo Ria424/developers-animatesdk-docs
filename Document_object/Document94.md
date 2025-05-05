@@ -1,26 +1,26 @@
-## Document.importPublishProfile()
+# Document.importPublishProfile()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.importPublishProfile(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the XML file defining the profile to import.
 
-#### Returns
+## Returns
 
 `integer`; An integer that is the index of the imported profile in the profiles list. Returns -1 if the profile cannot be imported.
 
-#### Description
+## Description
 
 Method; Imports a profile from a file.
 
-#### Example
+## Example
 
 The following example imports the profile contained in the profile.xml file and displays its index in the profiles list:
 

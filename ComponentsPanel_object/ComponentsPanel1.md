@@ -1,26 +1,26 @@
-## ComponentsPanel.reload()
+# ComponentsPanel.reload()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 ComponentsPanel.reload()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of *true* if the Component panel list is refreshed, *false* otherwise.
 
-#### Description
+## Description
 
 Method; Refreshes the Components panel’s list of components.
 
-#### Example
+## Example
 
 The following example refreshes the Components panel:
 

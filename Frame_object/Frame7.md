@@ -1,18 +1,18 @@
-## Frame.getMotionObjectXML()
+# Frame.getMotionObjectXML()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.getMotionObjectXML()
 
-#### Returns
+## Returns
 
 `string`; Motion XML from the selected motion object.
 
-#### Example
+## Example
 
 The following example returns the motion XML from the selected motion object.
 

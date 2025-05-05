@@ -1,18 +1,18 @@
-## Shape.contours
+# Shape.contours
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *shape.contours*
 
-#### Description
+## Description
 
 Read-only property; an array of Contour objects for the shape (see [Contour object](../Contour_object/Contour_summary.md)).
 
-#### Example
+## Example
 
 The following example stores the first contour in the contours array in the *c* variable and then stores the [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) of that contour in the he variable:
 

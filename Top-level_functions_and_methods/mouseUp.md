@@ -1,10 +1,10 @@
-## mouseUp()
+# mouseUp()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function mouseUp() {
@@ -12,19 +12,19 @@ function mouseUp() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called whenever the extensible tool is active and the mouse button is released after being pressed on the Stage.
 
-#### Example
+## Example
 
 The following example displays a message in the Output panel when the extensible tool is active and the mouse button is released.
 

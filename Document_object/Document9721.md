@@ -1,26 +1,26 @@
-## Document.setStageViewAngle()
+# Document.setStageViewAngle()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Document.setStageViewAngle(angle)
 
-#### Parameters
+## Parameters
 
 **angle** `number`; A floating point value between 0.0 and 179.0.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Specifies the perspective angle for viewing 3D objects.
 
-#### Example
+## Example
 
 The following example sets the Stage perspective angle to 70 degrees:
 

@@ -1,18 +1,18 @@
-## SpriteSheetExporter.maxSheetHeight
+# SpriteSheetExporter.maxSheetHeight
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.maxSheetHeight
 
-#### Description
+## Description
 
 Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

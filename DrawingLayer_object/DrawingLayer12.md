@@ -1,5 +1,5 @@
-## DrawingLayer.setStroke()
+# DrawingLayer.setStroke()
 
-#### Availability
+## Availability
 
 This method is not available.

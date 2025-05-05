@@ -1,10 +1,10 @@
-## LayerParenting summary
+# LayerParenting summary
 
-#### Availability
+## Availability
 
 Adobe Animate 2020.
 
-#### Method summary
+## Method summary
 
 You can use the following methods with the layer object:
 

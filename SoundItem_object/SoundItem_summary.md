@@ -1,16 +1,16 @@
-## SoundItem summary
+# SoundItem summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > SoundItem object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The SoundItem object is a subclass of the Item object. It represents a library item used to create a sound. See also [Frame.soundLibraryItem](../Frame_object/Frame31.md) and [Item object](../Item_object/Item_summary.md).
 
-#### Method summary
+## Method summary
 
 In addition to the Item object methods, the SoundItem object has the following method:
 
@@ -18,7 +18,7 @@ In addition to the Item object methods, the SoundItem object has the following m
 | --- | --- |
 | [SoundItem.exportToFile()](../SoundItem_object/SoundItem4.md) | Exports the specified item to an MP3 or WAV file (Macintosh and Windows). |
 
-#### Property summary
+## Property summary
 
 In addition to the Item object properties, the following properties are available for the SoundItem object:
 

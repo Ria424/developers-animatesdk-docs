@@ -1,18 +1,18 @@
-## Document.autoLabel
+# Document.autoLabel
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.autoLabel
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that is equivalent to the Auto Label check box in the Accessibility panel. You can use this property to tell Flash to automatically label objects on the Stage with the text associated with them.
 
-#### Example
+## Example
 
 The following example gets the value of the autoLabel property and displays the result in the Output panel:
 

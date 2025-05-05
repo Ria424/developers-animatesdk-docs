@@ -1,14 +1,14 @@
-## Item.addData()
+# Item.addData()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Item.addData(name, type, data)
 
-#### Parameters
+## Parameters
 
 **name** `string`; Specifies the name of the data.
 
@@ -16,15 +16,15 @@ Item.addData(name, type, data)
 
 **data** `byte[] | double | double[] | integer | integer[] | string`; The data to add to the specified library item. The type of data depends on the value of the type parameter. For example, if type is "integer", the value of data must be an integer, and so on.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Adds specified data to a library item.
 
-#### Example
+## Example
 
 The following example adds data named myData with an integer value of 12 to the first item in the library:
 

@@ -1,14 +1,14 @@
-## Element.setPublishPersistentData()
+# Element.setPublishPersistentData()
 
-#### Availability
+## Availability
 
 Flash Professional CC
 
-#### Usage
+## Usage
 
 *element.setPublishPersistentData(name, format, publish)*
 
-#### Parameters
+## Parameters
 
 **name** `string`; A string that specifies the name of the persistent data item (set with [Element.setPersistentData()](../Element_object/Element17.md)).
 
@@ -18,15 +18,15 @@ Flash Professional CC
 
 **publish** `boolean`; A boolean that indicates whether to enable or disable publishing of persistent data for the specified format.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Enables or disables publishing of persistent data for a specified format.
 
-#### Example
+## Example
 
 The following example illustrates the use of this method:
 
@@ -57,6 +57,6 @@ if (doc && doc.getPublishDocumentData("_EMBED_SWF_")) {
 }
 ```
 
-#### See also
+## See also
 
 [Element.getPublishPersistentData()](../Element_object/Element3.md)

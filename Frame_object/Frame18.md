@@ -1,18 +1,18 @@
-## Frame.motionTweenRotateTimes
+# Frame.motionTweenRotateTimes
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.motionTweenRotateTimes
 
-#### Description
+## Description
 
 Property; `integer`; An integer that specifies the number of times the tweened element rotates between the starting keyframe and the next keyframe.
 
-#### Example
+## Example
 
 The following example rotates the element in this frame counter-clockwise three times by the time it reaches the next keyframe:
 

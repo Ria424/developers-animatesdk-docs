@@ -1,18 +1,18 @@
-## SpriteSheetExporter.algorithm
+# SpriteSheetExporter.algorithm
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.algorithm
 
-#### Description
+## Description
 
 Property; `"basic" | "maxRects"`; A string indicating which algorithm to use to pack the sprite sheet. Valid values are "basic" (the default), and "maxRects".
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

@@ -1,18 +1,18 @@
-## CompiledClipInstance.blendMode
+# CompiledClipInstance.blendMode
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.blendMode
 
-#### Description
+## Description
 
 Property; `"normal" | "layer" | "darken" | "multiply" | "lighten" | "screen" | "overlay" | "hardlight" | "add" | "subtract" | "difference" | "invert" | "alpha" | "erase"`; Specifies the blend mode. Valid blend modes are: normal, layer, darken, multiply, lighten, screen, overlay, hardlight, add, subtract, difference, invert, alpha, and erase.
 
-#### Example
+## Example
 
 The following example illustrates getting and setting the blendMode property:
 

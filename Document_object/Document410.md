@@ -1,14 +1,14 @@
-## Document.screenOutline - dropped
+# Document.screenOutline - dropped
 
-#### Availability
+## Availability
 
 Flash MX 2004. *Dropped in Adobe Animate.*
 
-#### Usage
+## Usage
 
 Document.screenOutline
 
-#### Example
+## Example
 
 The following example displays the array of values in the screenOutline property:
 
@@ -21,6 +21,6 @@ for (var i in fl.getDocumentDOM().screenOutline) {
 fl.trace("Here is the property dump for screenOutline: " + myArray);
 ```
 
-#### See also
+## See also
 
 [Document.allowScreens() - dropped](../Document_object/Document14.md)

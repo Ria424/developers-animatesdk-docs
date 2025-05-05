@@ -1,18 +1,18 @@
-## Stroke.dash1
+# Stroke.dash1
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 stroke.dash1
 
-#### Description
+## Description
 
 Property; an integer that specifies the lengths of the solid parts of a dashed line. This property is available only if the stroke.style property is set to dashed(see [Stroke.style](../Stroke_object/Stroke20.md)).
 
-#### Example
+## Example
 
 The following example sets the dash1 and dash2 properties for a stroke style of dashed:
 

@@ -1,18 +1,18 @@
-## Contour.interior
+# Contour.interior
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Contour.interior
 
-#### Description
+## Description
 
 Read-only property; `boolean`; The value is true if the contour encloses an area; false otherwise.
 
-#### Example
+## Example
 
 This example traverses all the contours of the selected shape and shows the value of the interior property for each contour in the Output panel:
 

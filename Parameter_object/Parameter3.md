@@ -1,18 +1,18 @@
-## Parameter.name
+# Parameter.name
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 parameter.name
 
-#### Description
+## Description
 
 Read-only property; `string`; Specifies the name of the parameter.
 
-#### Example
+## Example
 
 The following example shows the name of the fifth parameter for the selected component:
 

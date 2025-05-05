@@ -1,17 +1,17 @@
-## BitmapInstance.vPixels
+# BitmapInstance.vPixels
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 BbitmapInstance.vPixels
 
-#### Description
+## Description
 
 Read-only property; `integer`; an integer that represents the height of the bitmap—that is, the number of pixels in the vertical dimension.
 
-#### Example
+## Example
 
 The following code gets the height of the bitmap in pixels:
 
@@ -24,6 +24,6 @@ if (isBitmap == "bitmap") {
 }
 ```
 
-#### See also
+## See also
 
 [BitmapInstance.hPixels](../BitmapInstance_object/BitmapInstance1.md)

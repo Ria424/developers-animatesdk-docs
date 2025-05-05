@@ -1,29 +1,29 @@
-## Timeline.reverseFrames()
+# Timeline.reverseFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.reverseFrames(\[startFrameIndex \[, endFrameIndex\]\])
 
-#### Parameters
+## Parameters
 
 **startFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to start reversing frames. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
 
 **endFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to stop reversing frames; the range of frames goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Reverses a range of frames.
 
-#### Example
+## Example
 
 The following example reverses the positions of the currently selected frames:
 

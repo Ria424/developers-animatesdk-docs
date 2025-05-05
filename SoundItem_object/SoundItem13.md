@@ -1,18 +1,18 @@
-## SoundItem.useImportedMP3Quality
+# SoundItem.useImportedMP3Quality
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *soundItem.useImportedMP3Quality*
 
-#### Description
+## Description
 
 Property; a Boolean value. If true, all other properties are ignored, and the imported MP3 quality is used.
 
-#### Example
+## Example
 
 The following example sets an item in the library to use the imported MP3 quality:
 
@@ -20,6 +20,6 @@ The following example sets an item in the library to use the imported MP3 qualit
 fl.getDocumentDOM().library.items[0].useImportedMP3Quality = true;
 ```
 
-#### See also
+## See also
 
 [SoundItem.compressionType](../SoundItem_object/SoundItem2.md)

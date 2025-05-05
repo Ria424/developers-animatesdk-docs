@@ -1,18 +1,18 @@
-## SymbolInstance.description
+# SymbolInstance.description
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolInstance.description
 
-#### Description
+## Description
 
 Property; `string`; A string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader. This property is not available for graphic symbols.
 
-#### Example
+## Example
 
 The following example stores the value for the Accessibility panel description of the object in the theDescription variable:
 

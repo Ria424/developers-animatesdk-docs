@@ -1,26 +1,26 @@
-## FLfile.uriToPlatformPath()
+# FLfile.uriToPlatformPath()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 FLfile.uriToPlatformPath(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; Expressed as a file:/// URI, specifying the filename you want to convert.
 
-#### Returns
+## Returns
 
 `string`; A string representing a platform-specific path.
 
-#### Description
+## Description
 
 Method; Converts a filename expressed as a file:/// URI to a platform-specific format.
 
-#### Example
+## Example
 
 The following example converts a file:/// URI to a platform-specific format:
 
@@ -30,6 +30,6 @@ var URI = FLfile.platformPathToURI(dir);
 fl.trace(URI == fl.configURI); // Displays "true"
 ```
 
-#### See also
+## See also
 
 [FLfile.platformPathToURI()](../FLfile_object/FLfile10.md)

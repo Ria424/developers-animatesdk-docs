@@ -1,18 +1,18 @@
-## Matrix.a
+# Matrix.a
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 matrix.a
 
-#### Description
+## Description
 
 Property; `float`; a floating-point value that specifies the (0,0) element in the transformation matrix. This value represents the scale factor of the object’s *x*-axis.
 
-#### Example
+## Example
 
 The a and d properties in a matrix represent scaling. In the following example, the values are set to 2 and 3, respectively, to scale the selected object to two times its width and three times its height:
 

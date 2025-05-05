@@ -1,26 +1,26 @@
-## Flash.isFontInstalled()
+# Flash.isFontInstalled()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 fl.isFontInstalled(fontName)
 
-#### Parameters
+## Parameters
 
 **fontName** A string that specifies the name of a device font.
 
-#### Returns
+## Returns
 
 A Boolean value of true if the specified font is installed; false otherwise.
 
-#### Description
+## Description
 
 Method; determines whether a specified font is installed.
 
-#### Example
+## Example
 
 The following code displays "true" in the Output panel if the Times font is installed.
 

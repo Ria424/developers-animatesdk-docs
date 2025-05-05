@@ -1,18 +1,18 @@
-## SymbolInstance.buttonTracking
+# SymbolInstance.buttonTracking
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolInstance.buttonTracking
 
-#### Description
+## Description
 
 Property; `string`; A string that, for button symbols only, sets the same property as the pop-up menu for Track As Button or Track As Menu Item in the Property inspector. For other types of symbols, this property is ignored. Acceptable values are "button" or "menu".
 
-#### Example
+## Example
 
 The following example sets the first symbol in the first frame of the first layer in the timeline to a Track As Menu Item, as long as that symbol is a button:
 

@@ -1,28 +1,28 @@
-## Flash.setActiveWindow()
+# Flash.setActiveWindow()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.setActiveWindow(document [, bActivateFrame])
 
-#### Parameters
+## Parameters
 
 **document** `Document`; A [Document object](../Document_object/Document_summary.md) that specifies the document to select as the active window.
 
 **bActivateFrame** An optional parameter that is ignored by Flash and Fireworks and is present only for compatibility with Dreamweaver.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; sets the active window to be the specified document. This method is also supported by Dreamweaver and Fireworks. If the document has multiple views (created by Window > Duplicate Window), the most recently active view is selected.
 
-#### Example
+## Example
 
 The following example shows two ways to activate a specified document:
 

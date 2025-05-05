@@ -1,27 +1,27 @@
-## Timeline.setGuidelines()
+# Timeline.setGuidelines()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Timeline.setGuidelines(xmlString)
 
-#### Parameters
+## Parameters
 
 **xmlString** `string`; An XML string that contains information on the guidelines to apply.
 
-#### Returns
+## Returns
 
 `boolean`; true if the guidelines are successfully applied; false otherwise.
 
-#### Description
+## Description
 
 Method: Replaces the guide lines for the timeline (`View > Guides > ShowGuides`) with the information specified in
 *xmlString*. To retrieve an XML string that can be passed to this method, use [Timeline.getGuidelines()](../Timeline_object/Timeline23.md). To view the newly set guide lines, you may have to hide them and then view them.
 
-#### Example
+## Example
 
 The following example applies the guide lines from one FLA file to another FLA file:
 

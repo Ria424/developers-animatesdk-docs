@@ -1,22 +1,22 @@
-## Document.loadCuepointXML() - dropped
+# Document.loadCuepointXML() - dropped
 
-#### Availability
+## Availability
 
 Flash Professional CS5. Dropped in Adobe Animate.
 
-#### Usage
+## Usage
 
 Document.loadCuepointXML(URI)
 
-#### Parameters
+## Parameters
 
 **URI** `string`; The absolute path to the cue point XML file.
 
-#### Description
+## Description
 
 Method; Loads a cue point XML file. The format and DTD of the XML file is the same as the one imported and exported by the Cue Points Property inspector. The return value is the same as the string serialized in the Cue Point property of the object containing the instance of an FLVPlayback Component.
 
-#### Example
+## Example
 
 The following example the cue points XML file located at C:\\testCuePoints.xml:
 

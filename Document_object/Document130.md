@@ -1,14 +1,14 @@
-## Document.mouseClick()
+# Document.mouseClick()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.mouseClick(position, bToggleSel, bShiftSel)
 
-#### Parameters
+## Parameters
 
 **position** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
 
@@ -16,15 +16,15 @@ Document.mouseClick(position, bToggleSel, bShiftSel)
 
 **bShiftSel** `boolean`; The state of the application preference Shift select: true for on; false for off.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Performs a mouse click from the Selection tool.
 
-#### Example
+## Example
 
 The following example performs a mouse click at the specified location:
 
@@ -32,6 +32,6 @@ The following example performs a mouse click at the specified location:
 fl.getDocumentDOM().mouseClick({x: 300, y: 200}, false, false);
 ```
 
-#### See also
+## See also
 
 [Document.mouseDblClk()](../Document_object/Document140.md)

@@ -1,19 +1,19 @@
-## Element.locked
+# Element.locked
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *element.locked*
 
-#### Description
+## Description
 
 Property; `boolean`; True if the element is locked; false otherwise. If the value of [Element.elementType](../Element_object/Element1.md) is
 "shape", this property is ignored.
 
-#### Example
+## Example
 
 The following example locks the first element in the first frame, top layer:
 

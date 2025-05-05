@@ -1,18 +1,18 @@
-## CompiledClipInstance.filters
+# CompiledClipInstance.filters
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.filters
 
-#### Description
+## Description
 
 Property; `Filter[]`; An array of Filter objects. The properties of Filter object in the filters array can be read but cannot be written directly by accessing the filters array. To set the properties of the filter objects in the filters array, first retrieve the array, set the properties, set it back to the filters array.
 
-#### Example
+## Example
 
 The following example illustrates use of this property:
 

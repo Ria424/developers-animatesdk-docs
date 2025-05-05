@@ -1,14 +1,14 @@
-## Library.selectItem()
+# Library.selectItem()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Library.selectItem(namePath [, bReplaceCurrentSelection [, bSelect]])
 
-#### Parameters
+## Parameters
 
 **namePath** `string`; Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation.
 
@@ -16,15 +16,15 @@ Library.selectItem(namePath [, bReplaceCurrentSelection [, bSelect]])
 
 **bSelect** `boolean?true`; Specifies whether to select or deselect an item. The default value is *true* (select). This parameter is optional.
 
-#### Returns
+## Returns
 
 `boolean`; *true* if the specified item exists; false otherwise.
 
-#### Description
+## Description
 
 Method; Selects a specified library item.
 
-#### Example
+## Example
 
 The following example changes the current selection in the library to Symbol_1 inside untitled Folder_1:
 

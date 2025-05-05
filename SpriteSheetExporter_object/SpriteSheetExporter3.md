@@ -1,18 +1,18 @@
-## SpriteSheetExporter.allowRotate
+# SpriteSheetExporter.allowRotate
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.allowRotate
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value indicating whether the symbol frames can be rotated when packed into the sprite sheet.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

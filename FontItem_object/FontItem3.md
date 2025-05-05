@@ -1,20 +1,20 @@
-## FontItem.embedRanges
+# FontItem.embedRanges
 
-#### Availability
+## Availability
 
 Flash CS5 Professional.
 
-#### Usage
+## Usage
 
 FontItem.embedRanges
 
-#### Description
+## Description
 
 Property; `string`; Specifies a series of delimited integers that correspond to items that can be selected in the Font Embedding dialog box.
 This property can also be read, allowing you to find out what characters were specified with the Font Embedding dialog box for a given Font item.
 ***Note:** The range numbers correspond to the FontEmbedding/UnicodeTables.xml file found in the configuration folder.*
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a Font item, the following code embeds the ranges identified by the
 integers 1, 3, and 7.

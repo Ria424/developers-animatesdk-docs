@@ -1,27 +1,27 @@
-## Flash.clipCopyString()
+# Flash.clipCopyString()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.clipCopyString(string)
 
-#### Parameters
+## Parameters
 
 **string** `string`; A string to be copied to the Clipboard.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; copies the specified string to the Clipboard.
 To copy the current selection to the Clipboard, use [Document.clipCopy()](../Document_object/Document30.md).
 
-#### Example
+## Example
 
 The following example copies the path of the current document to the Clipboard:
 

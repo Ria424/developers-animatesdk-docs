@@ -1,18 +1,18 @@
-## Document.library
+# Document.library
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.library
 
-#### Description
+## Description
 
 Read-only property; `Library`; The [Library object](../Library_object/Library_summary.md) for a document.
 
-#### Example
+## Example
 
 The following example gets the library for the currently focused document:
 

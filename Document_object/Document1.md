@@ -1,14 +1,14 @@
-## Document.addDataToDocument()
+# Document.addDataToDocument()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.addDataToDocument(name, type, data)
 
-#### Parameters
+## Parameters
 
 **name** `string`; Specifies the name of the data to add.
 
@@ -16,15 +16,15 @@ Document.addDataToDocument(name, type, data)
 
 **data** `byte[] | double | double[] | integer | integer[] | string`; The value to add. Valid types depend on the *type* parameter.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Stores specified data with a document. Data is written to the FLA file and is available to JavaScript when the file reopens.
 
-#### Example
+## Example
 
 The following example adds an integer value of 12 to the current document:
 
@@ -38,7 +38,7 @@ The following example returns the value of the data named "myData" and displays 
 fl.trace(fl.getDocumentDOM().getDataFromDocument("myData"));
 ```
 
-#### See also
+## See also
 
 - [Document.getDataFromDocument()](../Document_object/Document76.md)
 - [Document.removeDataFromDocument()](../Document_object/Document250.md)

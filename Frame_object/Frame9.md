@@ -1,26 +1,26 @@
-## Frame.getSoundEnvelopeLimits()
+# Frame.getSoundEnvelopeLimits()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Frame.getSoundEnvelopeLmits()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `{start: any; end: any;}`; Returns a structure that contain start and end fields.
 
-#### Description
+## Description
 
 Method; Gets the limits (start, end) for a custom Sound envelope that is applied to the frame sound.
 
-#### Example
+## Example
 
 The following example illustrates the use of getSoundEnvelopeLimits:
 
@@ -30,6 +30,6 @@ fl.trace(limits.start);
 fl.trace(limits.end);
 ```
 
-#### See also
+## See also
 
 [Frame.setSoundEnvelopeLimits()](../Frame_object/Frame28.md)

@@ -1,18 +1,18 @@
-## Tween.tweenType
+# Tween.tweenType
 
-#### Availability
+## Availability
 
 Flash Pro CC
 
-#### Usage
+## Usage
 
 Tween.tweenType
 
-#### Description
+## Description
 
 `"motion" | "shape"`; Specifies the type of tween. For example, Motion or Shape.
 
-#### Example
+## Example
 
 ```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;

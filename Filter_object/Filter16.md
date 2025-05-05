@@ -1,14 +1,14 @@
-## Filter.shadowColor
+# Filter.shadowColor
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.shadowColor
 
-#### Description
+## Description
 
 Property; `integer | string`; the color of the shadow, in one of the following formats:
 
@@ -20,7 +20,7 @@ Property; `integer | string`; the color of the shadow, in one of the following f
 
 This property is defined for Filter objects with a value of "bevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
-#### Example
+## Example
 
 The following example sets the shadow color to "#ff00003e" for the Bevel filters on the selected object(s):
 
@@ -34,6 +34,6 @@ for (var i = 0; i < myFilters.length; i++) {
 fl.getDocumentDOM().setFilters(myFilters);
 ```
 
-#### See also
+## See also
 
 [Document.setFilterProperty()](../Document_object/Document520.md)

@@ -1,14 +1,14 @@
-## Camera.setColorFilter()
+# Camera.setColorFilter()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
@@ -20,15 +20,15 @@ Camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
 **hue** `number`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Set camera color filter using decomposed values of (brightness, contrast, saturation, hue).
 
-#### Example
+## Example
 
 The following example sets Set camera color filter using decomposed values of (brightness, contrast, saturation, hue).
 

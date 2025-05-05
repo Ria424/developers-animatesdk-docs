@@ -232,12 +232,12 @@ osascript myScript
 /Applications/Adobe\ Animate\ 2020/Animate.app/Contents/MacOS/Animate \<path of the jsfl file\>
 ```
 
-## What's new in the JavaScript API
+### What's new in the JavaScript API
 
 The following section lists new objects, methods, and properties in Animate. It also lists changes in Flash CC, CS6, CS5.5, and CS5.
 If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](./Introduction/JavaScript_API_objects.md).
 
-### New methods and properties in Animate 2020
+#### New methods and properties in Animate 2020
 
 The following methods and properties for existing objects are new in Animate 2020:
 
@@ -309,7 +309,7 @@ The following methods and properties for existing objects are new in Animate 202
 
   - [Flash.addToolInToolbar()](./Flash_object/Flash82.md)
 
-### New objects in Animate 2020
+#### New objects in Animate 2020
 
 The following object is new in Flash CS6:
 
@@ -317,7 +317,7 @@ The following object is new in Flash CS6:
 
 - [Camera object](./Camera_object/Camera_Summary.md)
 
-### New methods and properties in Flash CC
+#### New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
@@ -459,7 +459,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - Timeline.getBounds()
 
-### Dropped methods and properties in Flash CC
+#### Dropped methods and properties in Flash CC
 
 The following methods and properties for existing objects are dropped in Adobe Animate:
 
@@ -495,13 +495,13 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 - SymbolInstance.actionscript
 
-### New objects in Flash CS6
+#### New objects in Flash CS6
 
 The following object is new in Flash CS6:
 
 - [SpriteSheetExporter object](./SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
-### New methods and properties in Flash CS6
+#### New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
@@ -565,7 +565,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - VideoItem.lastModifiedDate
 
-### New methods and properties in Flash CS5 and CS5.5
+#### New methods and properties in Flash CS5 and CS5.5
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
@@ -657,7 +657,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - SwfPanel.setFocus()
 
-### Other changes in Flash CS5 and CS5.5
+#### Other changes in Flash CS5 and CS5.5
 
 The following methods and properties are updated in Flash CS5:
 
@@ -693,7 +693,7 @@ The following objects and method are no longer available in Flash CS5:
 
 - Flash.synchronizeDocumentWithHeadVersion()
 
-## JavaScript API objects
+### JavaScript API objects
 
 This section provides a summary of the objects available in the Animate JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
 
@@ -752,7 +752,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 | VideoItem object | The VideoItem object is a subclass of the Item object. |
 | XMLUI object | The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one. |
 
-### The Animate Document Object Model
+#### The Animate Document Object Model
 
 The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](./Top-level_functions_and_methods/Top_summary.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](./FLfile_object/FLfile_summary.md) and [Flash object (fl)](./Flash_object/Flash_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
@@ -780,7 +780,7 @@ The flash object contains the following *child objects*:
 | Tools object | Use `fl.tools` to access an array of Tools objects. |
 | XMLUI object | Use `fl.xmlui` to access an XML User Interface (XMLUI) object. The XMLUI object provides the ability to get and set properties of an XMLUI dialog box. |
 
-### The Document object
+#### The Document object
 
 An important property of the top-level flash object is the [Flash.documents](./Flash_object/Flash20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](./Document_object/Document_summary.md).
 
@@ -807,7 +807,7 @@ To access a particular item in the library, you specify a member of the library.
 
 In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [Document.library](./Document_object/Document98.md), [Library object](./Library_object/Library_summary.md), [Library.items](./Library_object/Library10.md) and [Item object](./Item_object/Item_summary.md).
 
-### Specifying the target of an action
+#### Specifying the target of an action
 
 Unless otherwise specified, methods affect the current focus or selection. For example, the following script doubles the size of the current selection because no particular object is specified:
 
@@ -838,7 +838,7 @@ for (var i = 0; i < elementArray.length; i++) {
 }
 ```
 
-### Summary of the DOM structure
+#### Summary of the DOM structure
 
 The following list displays the DOM structure in outline format. Numbers at the beginning of each line represent the level of an object. For example, an object preceded by "03" is a child of next highest "02" object, which, in turn, is a child of the next highest "01" object.
 
@@ -908,15 +908,15 @@ Some objects are subclasses of other objects, rather than being children of othe
     02 XMLUI object
 ```
 
-## Sample implementations
+### Sample implementations
 
 Several sample JSFL implementations are available for Adobe Animate. You can review and install these files to familiarize yourself with the JavaScript API. The samples are in a folder named Samples.
 
-### Sample Shape command
+#### Sample Shape command
 
 A sample JavaScript API script named Shape.jsfl is located in the Shape folder (see "Sample implementations" above). This script displays information about the contours of the shape in the Output panel.
 
-#### To install and run the Shape script
+##### To install and run the Shape script
 
 1. Copy the Shape.jsfl file to the Configuration > Commands folder (see ["Saving JSFL files"](./Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
 
@@ -924,11 +924,11 @@ A sample JavaScript API script named Shape.jsfl is located in the Shape folder (
 
 3. Select Commands > Shape to run the script.
 
-### Sample get and set filters command
+#### Sample get and set filters command
 
 A sample JavaScript API script named filtersGetSet.jsfl is located in the filtersGetSet folder (see "Sample implementations" above). This script adds filters to a selected object and displays information about the filters being added in the Output panel.
 
-#### To install and run the filtersGetSet script
+##### To install and run the filtersGetSet script
 
 1. Copy the filtersGetSet.jsfl file to the Configuration/Commands folder (see ["Saving JSFL files"](./Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)).
 
@@ -936,16 +936,16 @@ A sample JavaScript API script named filtersGetSet.jsfl is located in the filter
 
 3. Select Commands > filtersGetSet to run the script.
 
-### Sample PolyStar tool
+#### Sample PolyStar tool
 
 A sample JavaScript API script named PolyStar.jsfl is located in the PolyStar folder (see "Sample implementations" above).
 The PolyStar.jsfl replicates the PolyStar tool that can be found in the Animate Tools panel. The script demonstrates how to build the PolyStar tool using the JavaScript API and includes detailed comments describing what the code is doing. Read this file to gain a better understanding of how the JavaScript API can be used. You should also read the PolyStar.xml file in the Tools directory to learn more about how to build your own tool.
 
-### Sample Trace Bitmap panel
+#### Sample Trace Bitmap panel
 
 A set of files named TraceBitmap.fla and TraceBitmap.swf are located in the TraceBitmapPanel folder (see "Sample implementations" above). These files illustrate how to design and build a panel to control the functions of Animate. They also show the use of the MMExecute() function to call JavaScript commands from an ActionScript script.
 
-#### To run the TraceBitmap sample
+##### To run the TraceBitmap sample
 
 1. If Animate is running, exit from Animate.
 
@@ -963,11 +963,11 @@ You can use the flower.jpg file provided in the TraceBitmapPanel folder or anoth
 
 The image is converted into a group of shapes.
 
-### Sample DLL
+#### Sample DLL
 
 A sample DLL implementation is located in the dllSampleComputeSum folder (see "Sample implementations" above). For more information about building DLLs, see["C-Level Extensibility"](./C-Level_Extensibility/About_extensibility.md).
 
-## Top-level summary
+### Top-level summary
 
 #### About this section
 
@@ -997,7 +997,7 @@ The following functions are available in scripts that create extensible tools:
 - [notifySettingsChanged()](./Top-level_functions_and_methods/notifySettingsChanged.md)
 - [setCursor()](./Top-level_functions_and_methods/setCursor.md)
 
-## ActionsPanel summary
+### ActionsPanel summary
 
 #### Availability
 
@@ -1009,7 +1009,7 @@ The ActionsPanel object, which represents the currently displayed Actions panel,
 
 #### Method summary
 
-The following methods can be used with the actionsPanel object:
+The following methods can be used with the ActionsPanel object:
 
 | **Method** | **Description** |
 | --- | --- |
@@ -1023,7 +1023,7 @@ The following methods can be used with the actionsPanel object:
 | [ActionsPanel.setSelection()](./ActionsPanel_object/ActionsPanel7.md) | Selects a specified set of characters in the Actions panel. |
 | [ActionsPanel.setText()](./ActionsPanel_object/ActionsPanel8.md) | Clears any text in the Actions panel and then adds specified text. |
 
-## BitmapInstance summary
+### BitmapInstance summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Instance object](./Instance_object/Instance_summary.md) > BitmapInstance object
 
@@ -1053,7 +1053,7 @@ In addition to the [Instance object](./Instance_object/Instance_summary.md) prop
 | [BitmapInstance.hPixels](./BitmapInstance_object/BitmapInstance1.md) | Read-only; an integer that represents the width of the bitmap, in pixels. |
 | [BitmapInstance.vPixels](./BitmapInstance_object/BitmapInstance3.md) | Read-only; an integer that represents the height of the bitmap, in pixels. |
 
-## BitmapItem summary
+### BitmapItem summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > BitmapItem object
 
@@ -1093,7 +1093,7 @@ In addition to the [Item object](./Item_object/Item_summary.md) properties, the 
 | --- | --- |
 | [BitmapItem.exportToFile()](./BitmapItem_object/BitmapItem2.md) | Exports the specified item to a PNG or JPG file. |
 
-## Camera summary
+### Camera summary
 
 #### Availability
 
@@ -1151,7 +1151,7 @@ The following properties can be used with the Camera object:
 | [Camera.colorFilterEnabled](./Camera_object/Camera19.md) | Enable/Disable camera's color Filter |
 | [Camera.tintEnabled](./Camera_object/Camera18.md) | Enable/Disable tint |
 
-## CompiledClipInstance summary
+### CompiledClipInstance summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Instance object](./Instance_object/Instance_summary.md) > CompiledClipInstance object
 
@@ -1196,7 +1196,7 @@ In addition to the properties of the [Instance object](./Instance_object/Instanc
 | [CompiledClipInstance.useBackgroundColor](./CompiledClipInstance_object/CompiledClipInstance23.md) | A boolean that sets the background color. |
 | [CompiledClipInstance.visible](./CompiledClipInstance_object/CompiledClipInstance24.md) | A boolean that sets visibility. |
 
-## CompilerErrors summary
+### CompilerErrors summary
 
 #### Availability
 
@@ -1215,7 +1215,7 @@ The following methods can be used with the CompilerErrors object:
 | [CompilerErrors.clear()](./CompilerErrors_object/CompilerErrors.md) | Clears the contents of the Compiler Errors panel. |
 | [CompilerErrors.save()](./CompilerErrors_object/CompilerErrors1.md) | Saves the contents of the Compiler Errors panel to a local text file. |
 
-## ComponentInstance summary
+### ComponentInstance summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Instance object](./Instance_object/Instance_summary.md) > [SymbolInstance object](./SymbolInstance_object/SymbolInstance_summary.md) > ComponentInstance object
 
@@ -1235,7 +1235,7 @@ In addition to all the properties of the [SymbolInstance object](./SymbolInstanc
 | --- | --- |
 | [ComponentInstance.parameters](./ComponentInstance_object/ComponentInstance.md) | Read-only; an array of ActionScript 2.0 properties that are accessible from the component Property inspector. |
 
-## ComponentsPanel summary
+### ComponentsPanel summary
 
 #### Availability
 
@@ -1254,7 +1254,7 @@ You can use the following methods with the ComponentsPanel object:
 | [ComponentsPanel.addItemToDocument()](./ComponentsPanel_object/ComponentsPanel.md) | Adds the specified component to the document at the specified position. |
 | [ComponentsPanel.reload()](./ComponentsPanel_object/ComponentsPanel1.md) | Refreshes the Components panel's list of components. |
 
-## Contour summary
+### Contour summary
 
 #### Availability
 
@@ -1282,7 +1282,7 @@ You can use the following properties with the Contour object:
 | [Contour.interior](./Contour_object/Contour2.md) | Read-only; the value is true if the contour encloses an area; false otherwise. |
 | [Contour.orientation](./Contour_object/Contour3.md) | Read-only; an integer indicating the orientation of the contour. |
 
-## Document summary
+### Document summary
 
 #### Availability
 
@@ -1509,7 +1509,7 @@ You can use the following properties with the Document object.
 | [Document.width](./Document_object/Document6182.md) | An integer that specifies the width of the document (Stage) in pixels. |
 | [Document.zoomFactor](./Document_object/Document6229.md) | Specifies the zoom percent of the Stage at authoring time. |
 
-## DrawingLayer summary
+### DrawingLayer summary
 
 #### Availability
 
@@ -1539,7 +1539,7 @@ The following methods are available for the drawingLayer object:
 | [DrawingLayer.setFill()](./DrawingLayer_object/DrawingLayer11.md) | This method is not available. |
 | [DrawingLayer.setStroke()](./DrawingLayer_object/DrawingLayer12.md) | This method is not available. |
 
-## Edge summary
+### Edge summary
 
 #### Availability
 
@@ -1571,7 +1571,7 @@ The following properties are available for the Edge object:
 | [Edge.isLine](./Edge_object/Edge4.md) | Read-only; an integer with a value of 0 or 1. |
 | [Edge.stroke](./Edge_object/Edge7.md) | A [Stroke object](./Stroke_object/Stroke_summary.md). |
 
-## Element summary
+### Element summary
 
 #### Availability
 
@@ -1580,7 +1580,8 @@ Flash MX 2004.
 #### Description
 
 Everything that appears on the Stage is of the type Element. The following code example lets you select an element:
-*var el = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\];*
+
+`var el = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];`
 
 #### Method summary
 
@@ -1624,7 +1625,7 @@ The following properties are available for the Element object:
 | [Element.x](./Element_object/Element26.md) | A float value that specifies the *x* value of the selected element’s registration point. |
 | [Element.y](./Element_object/Element27.md) | A float value that specifies the *y* value of the selected element’s registration point. |
 
-## Fill summary
+### Fill summary
 
 #### Availability
 
@@ -1651,7 +1652,7 @@ The following properties are available for the Fill object:
 | [Fill.posArray](./Fill_object/Fill8.md) | An array of integers, each in the range of zero to 255, indicating the position of the corresponding color. |
 | [Fill.style](./Fill_object/Fill9.md) | A string that specifies the fill style. |
 
-## Filter summary
+### Filter summary
 
 #### Availability
 
@@ -1689,7 +1690,7 @@ The following properties can be used with the Filter object:
 | [Filter.strength](./Filter_object/Filter17.md) | An integer that specifies the percentage strength of the filter. |
 | [Filter.type](./Filter_object/Filter18.md) | A string that specifies the type of bevel or glow. |
 
-## Flash summary
+### Flash summary
 
 #### Availability
 
@@ -1794,7 +1795,7 @@ The following properties can be used with the flash object.
 | [Flash.version](./Flash_object/Flash78.md) | Read-only; the long string version of the Flash authoring tool, including platform. |
 | [Flash.xmlui](./Flash_object/Flash81.md) | Read-only; an [XMLUI object](./XMLUI_object/XMLUI_summary.md). |
 
-## FLfile summary
+### FLfile summary
 
 #### Availability
 
@@ -1853,7 +1854,7 @@ The following methods can be used with the FLfile object:
 | [FLfile.uriToPlatformPath()](./FLfile_object/FLfile14.md) | Converts a filename expressed as a file:/// URI to a platform- specific format. |
 | [FLfile.write()](./FLfile_object/FLfile15.md) | Creates, writes to, or appends to a file. |
 
-## FolderItem summary
+### FolderItem summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > FolderItem object
 
@@ -1865,7 +1866,7 @@ Flash MX 2004.
 
 The FolderItem object is a subclass of the Item object. There are no unique methods or properties for FolderItem. See [Item object](./Item_object/Item_summary.md).
 
-## FontItem summary
+### FontItem summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > FontItem object
 
@@ -1893,7 +1894,7 @@ In addition to the Item object properties, the following properties are availabl
 | [FontItem.italic](./FontItem_object/FontItem7.md) | Specifies whether the Font item is italic. |
 | [FontItem.size](./FontItem_object/FontItem8.md) | The size of the Font item, in points. |
 
-## Frame summary
+### Frame summary
 
 #### Availability
 
@@ -1958,7 +1959,7 @@ The following properties can be used with the Frame object:
 | [Frame.tweenType](./Frame_object/Frame39.md) | A string that specifies the type of tween. |
 | [Frame.useSingleEaseCurve](./Frame_object/Frame40.md) | A Boolean value that specifies whether a single custom ease curve is used for easing information for all properties. |
 
-## HalfEdge summary
+### HalfEdge summary
 
 #### Availability
 
@@ -1989,7 +1990,7 @@ The following properties are available for the HalfEdge object:
 | --- | --- |
 | [HalfEdge.id](./HalfEdge_object/HalfEdge5.md) | Read-only; a unique integer identifier for the HalfEdge object. |
 
-## Instance summary
+### Instance summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > Instance object
 
@@ -2010,7 +2011,7 @@ In addition to all of the Element object properties, Instance has the following 
 | [Instance.instanceType](./Instance_object/Instance.md) | Read-only; a string that represents the type of instance. |
 | [Instance.libraryItem](./Instance_object/Instance1.md) | Library item used to instantiate this instance. |
 
-## Item summary
+### Item summary
 
 #### Availability
 
@@ -2050,7 +2051,7 @@ The following properties are available for the Item object:
 | [Item.linkageURL](./Item_object/Item12.md) | A string that specifies the URL where the SWF file containing the shared asset is located. |
 | [Item.name](./Item_object/Item13.md) | A string that specifies the name of the library item, which includes the folder structure. |
 
-## Layer summary
+### Layer summary
 
 #### Availability
 
@@ -2093,7 +2094,7 @@ The following properties are available for the Layer object:
 | [Layer.parentLayer](./Layer_object/Layer9.md) | A Layer object that represents the layer’s containing folder, guiding, or masking layer. |
 | [Layer.visible](./Layer_object/Layer10.md) | A Boolean value that specifies whether the layer’s objects on the Stage are shown or hidden. |
 
-## LayerParenting summary
+### LayerParenting summary
 
 #### Availability
 
@@ -2109,7 +2110,7 @@ You can use the following methods with the layer object:
 | [Layer.getRigParentAtFrame()](./Layer_Parenting_Object/LayerParenting1.md) | layer.getRigParentAtFrame(frameIndex) |
 | [Layer.setRigParentAtFrame()](./Layer_Parenting_Object/LayerParenting2.md) | layer.setRigParentAtFrame(frameIndex, layer) |
 
-## Library summary
+### Library summary
 
 #### Availability
 
@@ -2155,7 +2156,7 @@ The following property is available for the Library object:
 | [Library.items](./Library_object/Library10.md) | An array of Item objects in the library. |
 | [Library.unusedItems](./Library_object/Library18.md) | An array of library Items that are not used in the document. |
 
-## Math summary
+### Math summary
 
 #### Availability
 
@@ -2176,7 +2177,7 @@ The following methods are available for the Math object:
 | [Math.pointDistance()](./Math_object/Math2.md) | Computes the distance between two points. |
 | [Math.transformPoint()](./Math_object/Math3.md) | Applies a matrix to a point. |
 
-## Matrix summary
+### Matrix summary
 
 #### Availability
 
@@ -2199,7 +2200,7 @@ The following properties are available for the Matrix object:
 | [Matrix.tx](./Matrix_object/Matrix4.md) | A floating-point value that specifies the *x*-axis location of a symbol’s registration point or the center of a shape. |
 | [Matrix.ty](./Matrix_object/Matrix5.md) | A floating-point value that specifies the *y*-axis location of a symbol’s registration point or the center of a shape. |
 
-## OutputPanel summary
+### OutputPanel summary
 
 #### Availability
 
@@ -2219,7 +2220,7 @@ The outputPanel object uses the following methods:
 | [OutputPanel.save()](./OutputPanel_object/OutputPanel1.md) | Saves the contents of the Output panel to a local text file. |
 | [OutputPanel.trace()](./OutputPanel_object/OutputPanel2.md) | Adds a line to the contents of the Output panel, terminated by a new line. |
 
-## OvalObject summary
+### OvalObject summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Shape object](./Shape_object/Shape_summary.md) > Oval object
 
@@ -2243,7 +2244,7 @@ In addition to the [Shape object](./Shape_object/Shape_summary.md) properties, y
 | [OvalObject.innerRadius](./OvalObject_object/OvalObject2.md) | Read-only; a float value that specifies the inner radius of the Oval object as a percentage. |
 | [OvalObject.startAngle](./OvalObject_object/OvalObject3.md) | Read-only; a float value that specifies the start angle of the Oval object. |
 
-## Parameter summary
+### Parameter summary
 
 #### Availability
 
@@ -2275,7 +2276,7 @@ The following properties are available for the Parameter object:
 | [Parameter.valueType](./Parameter_object/Parameter6.md) | Read-only; a string that indicates the type of the screen or component parameter. |
 | [Parameter.verbose](./Parameter_object/Parameter7.md) | Specifies where the parameter is displayed. |
 
-## Path summary
+### Path summary
 
 #### Availability
 
@@ -2311,7 +2312,7 @@ The following properties are available for the Path object:
 | --- | --- |
 | [Path.nPts](./Path_object/Path7.md) | Read-only; an integer representing the number of points in the path. |
 
-## PresetItem summary
+### PresetItem summary
 
 #### Availability
 
@@ -2336,7 +2337,7 @@ You can use the following properties with the presetItem object:
 | [PresetItem.open](./PresetItem_object/PresetItem4.md) | Specifies whether a folder in the Motion Presets panel is currently expanded. |
 | [PresetItem.path](./PresetItem_object/PresetItem5.md) | The path to the item in the Motion Presets panel folder tree, and the item name. |
 
-## PresetPanel summary
+### PresetPanel summary
 
 #### Availability
 
@@ -2374,7 +2375,7 @@ You can use the following property with the presetPanel object:
 | --- | --- |
 | [PresetPanel.items](./PresetPanel_object/PresetPanel9.md) | An array of presetItem objects in the Motion Presets panel. |
 
-## RectangleObject summary
+### RectangleObject summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Shape object](./Shape_object/Shape_summary.md) > Rectangle object
 
@@ -2398,7 +2399,7 @@ In addition to the [Shape object](./Shape_object/Shape_summary.md) properties, y
 | [RectangleObject.topLeftRadius](./RectangleObject_object/RectangleObject3.md) | Read-only; a float value that sets the radius of all corners of the rectangle or that sets only the radius of the top-left corner of the Rectangle object. |
 | [RectangleObject.topRightRadius](./RectangleObject_object/RectangleObject4.md) | Read-only; a float value that sets the radius of the top-right corner of the Rectangle object. |
 
-## Shape summary
+### Shape summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > Shape object
 
@@ -2440,7 +2441,7 @@ In addition to the Element object properties, the following properties are avail
 | [Shape.numCubicSegments](./Shape_object/Shape12.md) | Read-only; the number of cubic segments in the shape. |
 | [Shape.vertices](./Shape_object/Shape13.md) | Read-only; an array of Vertex objects (see [Vertex object](./Vertex_object/Vertex_summary.md)). |
 
-## SoundItem summary
+### SoundItem summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > SoundItem object
 
@@ -2480,7 +2481,7 @@ In addition to the Item object properties, the following properties are availabl
 | [SoundItem.sourceFilePath](./SoundItem_object/SoundItem12.md) | Read-only; a string, expressed as a file:/// URI, that represents the path and name of the file that was imported into the Library. |
 | [SoundItem.useImportedMP3Quality](./SoundItem_object/SoundItem13.md) | A Boolean value; if true, all other properties are ignored, and the imported MP3 quality is used. |
 
-## SpriteSheetExporter summary
+### SpriteSheetExporter summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > SpriteSheetExporter object
 
@@ -2535,7 +2536,7 @@ In addition to the Item object properties, the following properties are availabl
 | [SpriteSheetExporter.stackDuplicate](./SpriteSheetExporter_object/SpriteSheetExporter27.md) | A Boolean value indicating whether to stack identical symbol frames in the sprite sheet. |
 | [SpriteSheetExporter.version](./SpriteSheetExporter_object/SpriteSheetExporter28.md) | The version number of the application creating the sprite sheet. |
 
-## Stroke summary
+### Stroke summary
 
 #### Availability
 
@@ -2578,7 +2579,7 @@ The following properties are available for the Stroke object:
 | [Stroke.waveHeight](./Stroke_object/Stroke23.md) | A string that specifies the wave height of a ragged line. |
 | [Stroke.waveLength](./Stroke_object/Stroke24.md) | A string that specifies the wave length of a ragged line. |
 
-## SwfPanel summary
+### SwfPanel summary
 
 #### Availability
 
@@ -2609,7 +2610,7 @@ You can use the following properties with the SwfPanel object:
 | [SwfPanel.name](./SwfPanel_object/SwfPanel3.md) | Read-only; a string that represents the name of the specified Window SWF panel. |
 | [SwfPanel.path](./SwfPanel_object/SwfPanel4.md) | Read-only; a string that represents the path to the SWF file used in the specified Window SWF panel. |
 
-## SymbolInstance summary
+### SymbolInstance summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Instance object](./Instance_object/Instance_summary.md) > SymbolInstance object
 
@@ -2619,7 +2620,7 @@ Flash MX 2004.
 
 #### Description
 
-SymbolInstance is a subclass of the Instance object and represents a symbol in a frame (see [Instance object](./Instance_object/Instance_summary.md)).
+SymbolInstance is a subclass of the [Instance object](./Instance_object/Instance_summary.md) and represents a symbol in a frame.
 
 #### Property summary
 
@@ -2659,7 +2660,7 @@ In addition to the Instance object properties, the SymbolInstance object has the
 | [SymbolInstance.useBackgroundColor](./SymbolInstance_object/SymbolInstance29.md) | A boolean value that specifies whether to use 24 bit mode or 32 bit mode with alpha for the instance. |
 | [SymbolInstance.visible](./SymbolInstance_object/SymbolInstance30.md) | A boolean value specifying whether the instance is visible or not. |
 
-## SymbolItem summary
+### SymbolItem summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > SymbolItem object
 
@@ -2698,7 +2699,7 @@ In addition to the Item object properties, the following properties are availabl
 | [SymbolItem.symbolType](./SymbolItem_object/SymbolItem11.md) | A string that specifies the type of symbol. |
 | [SymbolItem.timeline](./SymbolItem_object/SymbolItem12.md) | Read-only; a [Timeline object](./Timeline_object/Timeline_summary.md). |
 
-## TextAttrs summary
+### TextAttrs summary
 
 #### Availability
 
@@ -2733,7 +2734,7 @@ The following properties are available for the TextAttrs object:
 | [TextAttrs.target](./TextAttrs_object/TextAttrs16.md) | A string that represents the target property of the text field. |
 | [TextAttrs.url](./TextAttrs_object/TextAttrs17.md) | A string that represents the URL property of the text field. |
 
-## TextRun summary
+### TextRun summary
 
 #### Availability
 
@@ -2752,7 +2753,7 @@ In addition to the properties available for use with the Text object, the TextRu
 | [TextRun.characters](./TextRun_object/TextRun1.md) | A string that represents the text contained in the TextRun object. |
 | [TextRun.textAttrs](./TextRun_object/TextRun.md) | The TextAttrs object containing the attributes of the run of text. |
 
-## TextureAtlasExporter summary
+### TextureAtlasExporter summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > TextureAtlasExporter object
 
@@ -2796,7 +2797,7 @@ In addition to the Item object properties, the following properties are availabl
 | [TextureAtlasExporter.sheetWidth](./TextureAtlasExporter_object/TextureAtlasExporter16.md) | An integer value specifying the width of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true. |
 | [TextureAtlasExporter.version](./TextureAtlasExporter_object/TextureAtlasExporter17.md) | Read-only property; A stinrg indicating the version number of the Animate application. This property is provided for use by texture atlas plugins. |
 
-## Text summary
+### Text summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > Text object
 
@@ -2859,7 +2860,7 @@ In addition to the Element object properties, the following properties are avail
 | [Text.useDeviceFonts](./Text_object/Text29.md) | A Boolean value. A value of true causes Flash to draw text using device fonts. |
 | [Text.variableName](./Text_object/Text30.md) | A string that contains the contents of the Text object. |
 
-## Timeline summary
+### Timeline summary
 
 #### Availability
 
@@ -2867,8 +2868,10 @@ Flash MX 2004.
 
 #### Description
 
-The Timeline object represents the Animate timeline, which can be accessed for the current document by using fl.getDocumentDOM().getTimeline(). This method returns the timeline of the current scene or symbol that is being edited.
-When you work with scenes, each scene’s timeline has an index value, and can be accessed for the current document by fl.getDocumentDOM().timelines[i]. (In this example, i is the index of the value of the timeline.)
+The Timeline object represents the Animate timeline, which can be accessed for the current document by using `fl.getDocumentDOM().getTimeline()`. This method returns the timeline of the current scene or symbol that is being edited.
+
+When you work with scenes, each scene’s timeline has an index value, and can be accessed for the current document by `fl.getDocumentDOM().timelines[i]`. (In this example, `i` is the index of the value of the timeline.)
+
 When you work with frames by using the methods and properties of the Timeline object, remember that the frame value is a zero-based index (not the actual frame number in the sequence of frames in the timeline). That is, the first frame has a frame index of 0.
 
 #### Method summary
@@ -2938,7 +2941,7 @@ The following properties are available for the Timeline object:
 | [Timeline.libraryItem](./Timeline_object/Timeline32.md) | Read-only property; indicates whether the timeline belongs to a scene. |
 | [Timeline.name](./Timeline_object/Timeline33.md) | A string that represents the name of the current timeline. |
 
-## ToolObj summary
+### ToolObj summary
 
 #### Availability
 
@@ -2976,7 +2979,7 @@ The following properties are available for the ToolObj object:
 | [ToolObj.iconID](./ToolObj_object/ToolObj2.md) | An integer that specifies the resource ID of the tool. |
 | [ToolObj.position](./ToolObj_object/ToolObj3.md) | Read-only; an integer specifying the position of the tool in the Tools panel. |
 
-## Tools summary
+### Tools summary
 
 #### Availability
 
@@ -3014,7 +3017,7 @@ The following properties are available for the Tools object:
 | [Tools.shiftIsDown](./Tools_object/Tools9.md) | Read-only; a Boolean value that identifies if the Shift key is being pressed. |
 | [Tools.toolObjs](./Tools_object/Tools11.md) | Read-only; an array of ToolObj objects. |
 
-## Tween summary
+### Tween summary
 
 #### Availability
 
@@ -3079,7 +3082,7 @@ for (var i = 0; i < tweenObj.duration; i++) {
 }
 ```
 
-## Vertex summary
+### Vertex summary
 
 #### Availability
 
@@ -3107,7 +3110,7 @@ The following properties are available for the Vertex object:
 | [Vertex.x](./Vertex_object/Vertex2.md) | Read-only; the *x* location of the vertex in pixels. |
 | [Vertex.y](./Vertex_object/Vertex3.md) | Read-only; the *y* location of the vertex in pixels. |
 
-## VideoItem summary
+### VideoItem summary
 
 **Inheritance** [Item object](./Item_object/Item_summary.md) > VideoItem object
 
@@ -3140,7 +3143,7 @@ In addition to the Item object properties, you can use the following properties 
 | [VideoItem.sourceFilePath](./VideoItem_object/VideoItem5.md) | Read-only; a string that specifies the path to the video item. |
 | [VideoItem.videoType](./VideoItem_object/VideoItem6.md) | Read-only; a string that specifies the type of video the item represents. |
 
-## XMLUI summary
+### XMLUI summary
 
 #### Availability
 
@@ -3171,7 +3174,7 @@ The following methods are available for the XMLUI object:
 
 ## C-Level_Extensibility
 
-## About extensibility
+### About extensibility
 
 This chapter describes the C-level extensibility mechanism, which lets you implement Adobe Animate extensibility files using a combination of JavaScript and custom C code.
 

@@ -1,27 +1,27 @@
-## Shape.getCubicSegmentPoints()
+# Shape.getCubicSegmentPoints()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *shape.getCubicSegmentPoints(cubicSegmentIndex)*
 
-#### Parameters
+## Parameters
 
 **cubicSegmentIndex** An integer that specifies the cubic segment for which points are returned.
 
-#### Returns
+## Returns
 
 An array of points that define a cubic curve for the Edge object that corresponds to the specified *cubicSegmentIndex*
 (see [Edge.cubicSegmentIndex](../Edge_object/Edge.md)).
 
-#### Description
+## Description
 
 Method; returns an array of points that define a cubic curve.
 
-#### Example
+## Example
 
 The following example displays the *x* and *y* values for each point on the cubic curve of the first edge of the selection:
 

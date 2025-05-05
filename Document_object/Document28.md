@@ -1,26 +1,26 @@
-## Document.canTestScene()
+# Document.canTestScene()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.canTestScene()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; true if you can use the [Document.testScene()](../Document_object/Document5979.md) method successfully; false otherwise.
 
-#### Description
+## Description
 
 Method; Determines whether you can use the [Document.testScene()](../Document_object/Document5979.md) method successfully.
 
-#### Example
+## Example
 
 The following example first tests whether `fl.getDocumentDOM().testScene()` can be used successfully. If so, it calls the method.
 
@@ -30,7 +30,7 @@ if (fl.getDocumentDOM().canTestScene()) {
 }
 ```
 
-#### See also
+## See also
 
 - [Document.canTestMovie()](../Document_object/Document27.md)
 - [Document.testMovie()](../Document_object/Document5948.md)

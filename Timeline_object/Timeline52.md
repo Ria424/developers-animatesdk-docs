@@ -1,18 +1,18 @@
-## Timeline.advancedLayersEnabled
+# Timeline.advancedLayersEnabled
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Timeline.advancedLayersEnabled
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that specifies the advanced layers mode is enabled or disabled.
 
-#### Example
+## Example
 
 The following example enables the advanced layers mode.
 

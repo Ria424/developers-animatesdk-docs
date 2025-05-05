@@ -1,26 +1,26 @@
-## Camera.getPosition()
+# Camera.getPosition()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.getPosition(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 `Point`; e.g. {x: 0, y: 0}
 
-#### Description
+## Description
 
 Return object with x and y properties that specify current location of camera.
 
-#### Example
+## Example
 
 ```javascript
 var tl = an.getDocumentDOM().getTimeline();

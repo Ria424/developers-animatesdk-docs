@@ -1,27 +1,27 @@
-## SoundItem.exportToFile()
+# SoundItem.exportToFile()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *soundItem.exportToFile(fileURI)*
 
-#### Parameters
+## Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
 
-#### Returns
+## Returns
 
 A Boolean value of *true* if the file was exported successfully; *false* otherwise.
 
-#### Description
+## Description
 
 Method; exports the specified item to a WAV or MP3 file. Export settings are based on the item being exported.
 When exporting sound items, you should check if the soundItem.originalCompressionType property is equal to"RAW." If this check is false, you can only export the file as MP3. (Optionally, you can try exporting as a WAV file, and if the function returns false, then try to export to MP3.)
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a sound item, the following code exports it as a WAV file:
 

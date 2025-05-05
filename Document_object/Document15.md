@@ -1,26 +1,26 @@
-## Document.arrange()
+# Document.arrange()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.arrange(arrangeMode)
 
-#### Parameters
+## Parameters
 
 **arrangeMode** `"back" | "backward" | "forward" | "front"`; Specifies the direction in which to move the selection. Acceptable values are "back", "backward", "forward", and "front". It provides the same capabilities as these options provide on the `Modify > Arrange` menu.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Arranges the selection on the Stage. This method applies only to non-shape objects.
 
-#### Example
+## Example
 
 The following example moves the current selection to the front:
 

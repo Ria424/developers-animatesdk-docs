@@ -1,26 +1,26 @@
-## Camera.getZDepth()
+# Camera.getZDepth()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.getZDepth(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 `integer`;
 
-#### Description
+## Description
 
 Return current Z Depth value of camera.
 
-#### Example
+## Example
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
@@ -28,6 +28,6 @@ timeline.camera.cameraEnabled = true;
 var depth = timeline.camera.getZDepth(0);
 ```
 
-#### See also
+## See also
 
 [Camera.getRotation()](../Camera_object/Camera2.md)

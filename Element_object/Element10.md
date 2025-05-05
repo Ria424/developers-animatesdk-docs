@@ -1,18 +1,18 @@
-## Element.matrix
+# Element.matrix
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *element.matrix*
 
-#### Description
+## Description
 
 Property; `Matrix`; A matrix has properties *a, b, c, d, tx, and ty*. The *a, b, c,* and *d* properties are floating-point values; the tx and ty properties are coordinates. See [Matrix object](../Matrix_object/Matrix_summary.md).
 
-#### Example
+## Example
 
 The following example moves the specified element by 10 pixels in x and 20 pixels in y:
 

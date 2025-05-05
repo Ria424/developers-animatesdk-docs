@@ -1,14 +1,14 @@
-## Document.convertToSymbol()
+# Document.convertToSymbol()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.convertToSymbol(type, name, registrationPoint)
 
-#### Parameters
+## Parameters
 
 **type** `"button" | "graphic" | "movie clip"`; A string that specifies the type of symbol to create. Acceptable values are "movie clip", "button", and "graphic".
 
@@ -16,15 +16,15 @@ Document.convertToSymbol(type, name, registrationPoint)
 
 **registrationPoint** `"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"`; Specifies the point that represents the 0, 0 location for the symbol. Acceptable values are: "top left", "top center", "top right", "center left", "center", "center right", "bottom left", "bottom center", and "bottom right".
 
-#### Returns
+## Returns
 
 `SymbolItem`; An object for the newly created symbol, or null if it cannot create the symbol.
 
-#### Description
+## Description
 
 Method; Converts the selected Stage item(s) to a new symbol. For information on defining linkage and shared asset properties for a symbol, see [Item object](../Item_object/item_summary.md).
 
-#### Example
+## Example
 
 The following examples create a movie clip symbol with a specified name, a button symbol with a specified name, and a movie clip symbol with a default name:
 

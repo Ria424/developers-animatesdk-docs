@@ -1,16 +1,16 @@
-## VideoItem summary
+# VideoItem summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > VideoItem object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The VideoItem object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
-#### Method summary
+## Method summary
 
 In addition to the Item object methods, the VideoItem object has the following method:
 
@@ -18,7 +18,7 @@ In addition to the Item object methods, the VideoItem object has the following m
 | --- | --- |
 | [VideoItem.exportToFLV()](../VideoItem_object/VideoItem.md) | Exports the specified item to an FLV file. |
 
-#### Property summary
+## Property summary
 
 In addition to the Item object properties, you can use the following properties with the VideoItem object:
 

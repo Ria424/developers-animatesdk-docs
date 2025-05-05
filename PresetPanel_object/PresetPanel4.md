@@ -1,14 +1,14 @@
-## PresetPanel.expandFolder()
+# PresetPanel.expandFolder()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *presetPanel.expandFolder( [bExpand [, bRecurse [, folderPath] ] ] )*
 
-#### Parameters
+## Parameters
 
 **bExpand** A Boolean value that specifies whether to expand the folder (*true*) or collapse it (*false*). This parameter is optional; the default value is true.
 
@@ -16,15 +16,15 @@ Flash CS4 Professional.
 
 **folderPath** A string that specifies the path to the folder to expand or collapse. This parameter is optional.
 
-#### Returns
+## Returns
 
 A Boolean value of *true* if the folder or folders are successfully expanded or collapsed; *false* otherwise.
 
-#### Description
+## Description
 
 Method; expands or collapses the currently selected folder or folders in the Motion Presets panel. To expand or collapse folders other than the folders that are currently selected, pass a value for *folderPath*.
 
-#### Example
+## Example
 
 The following example expands the Custom Presets folder but does not expand its subfolders:
 

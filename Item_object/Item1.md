@@ -1,26 +1,26 @@
-## Item.getData()
+# Item.getData()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Item.getData(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; Specifies the name of the data to retrieve.
 
-#### Returns
+## Returns
 
 The data specified by the *name* parameter. The type of data returned depends on the type of stored data.
 
-#### Description
+## Description
 
 Method; Retrieves the value of the specified data.
 
-#### Example
+## Example
 
 The following example gets the value of the data named myData from the first item in the library and stores it in the variable libData:
 

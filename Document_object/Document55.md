@@ -1,26 +1,26 @@
-## Document.duplicateScene()
+# Document.duplicateScene()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.duplicateScene()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; true if the scene is duplicated successfully; false otherwise.
 
-#### Description
+## Description
 
 Method; Makes a copy of the currently selected scene, giving the new scene a unique name and making it the current scene.
 
-#### Example
+## Example
 
 The following example duplicates the second scene in the current document:
 

@@ -1,18 +1,18 @@
-## Tween.duration
+# Tween.duration
 
-#### Availability
+## Availability
 
 Flash Pro CC
 
-#### Usage
+## Usage
 
 Tween.duration
 
-#### Description
+## Description
 
 `integer`; Duration of a tween span that is equal to number of frames in a tween.
 
-#### Example
+## Example
 
 ```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;

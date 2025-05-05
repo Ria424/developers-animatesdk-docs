@@ -1,14 +1,14 @@
-## Document.setInstanceTint()
+# Document.setInstanceTint()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setInstanceTint( color, strength )
 
-#### Parameters
+## Parameters
 
 **color** `integer | string`; The color of the tint, in one of the following formats:
 
@@ -20,15 +20,15 @@ Document.setInstanceTint( color, strength )
 
 **strength** `integer`; An integer between 0 and 100 that specifies the opacity of the tint.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the tint for the instance.
 
-#### Example
+## Example
 
 The following example sets the tint for the selected instance to red with an opacity value of 50:
 

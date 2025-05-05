@@ -1,14 +1,14 @@
-## Item summary
+# Item summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Item object is an abstract base class. Anything in the library derives from Item. See also [Library object](../Library_object/Library_summary.md).
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Item object:
 
@@ -21,7 +21,7 @@ The following methods are available for the Item object:
 | [Item.removeData()](../Item_object/Item14.md) | Removes persistent data from the library item. |
 | [Item.setPublishData()](../Item_object/Item15.md) | Enables publishing of persistent data for a library item. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Item object:
 

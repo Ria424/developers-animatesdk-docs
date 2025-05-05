@@ -1,18 +1,18 @@
-## Filter.angle
+# Filter.angle
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.angle
 
-#### Description
+## Description
 
 Property; `float`; a float value that specifies the angle of the shadow or highlight color, in degrees. Acceptable values are between 0 and 360. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
-#### Example
+## Example
 
 The following example sets the angle to 120 for the Bevel filters on the selected object(s):
 
@@ -26,6 +26,6 @@ for (var i = 0; i < myFilters.length; i++) {
 fl.getDocumentDOM().setFilters(myFilters);
 ```
 
-#### See also
+## See also
 
 [Document.setFilterProperty()](../Document_object/Document520.md)

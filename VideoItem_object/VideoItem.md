@@ -1,26 +1,26 @@
-## VideoItem.exportToFLV()
+# VideoItem.exportToFLV()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *videoItem.exportToFLV(fileURI)*
 
-#### Parameters
+## Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
 
-#### Returns
+## Returns
 
 A Boolean value of true if the file is exported successfully; false otherwise.
 
-#### Description
+## Description
 
 Method; exports the specified item to an FLV file.
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a video item, the following code exports it as an FLV file:
 

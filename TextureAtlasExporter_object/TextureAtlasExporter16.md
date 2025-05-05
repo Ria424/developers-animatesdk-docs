@@ -1,18 +1,18 @@
-## TextureAtlasExporter.sheetWidth
+# TextureAtlasExporter.sheetWidth
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.sheetWidth
 
-#### Description
+## Description
 
 Property; An integer value specifying the width of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

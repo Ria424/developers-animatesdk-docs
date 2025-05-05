@@ -1,22 +1,22 @@
-## Timeline.stopPlayback()
+# Timeline.stopPlayback()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Timeline.stopPlayback()
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Stops automatic playback of the timeline if it is currently playing. This method can be used with SWF panels to control timeline playback in the authoring environment.
 
-#### Example
+## Example
 
 The following example stops playback of the timeline.
 

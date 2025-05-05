@@ -1,26 +1,26 @@
-## Document.getSWFPathFromProfile()
+# Document.getSWFPathFromProfile()
 
-#### Availability
+## Availability
 
 Flash Professional CS6.
 
-#### Usage
+## Usage
 
 Document.getSWFPathFromProfile()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `string`; The full path to the SWF file that is set in the current Publish profile.
 
-#### Description
+## Description
 
 Method; Gets the path to the SWF file that is set in the current Publish profile.
 
-#### Example
+## Example
 
 The following example displays the full path to the SWF file as defined in the Publish profile:
 

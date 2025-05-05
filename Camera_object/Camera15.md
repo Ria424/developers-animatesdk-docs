@@ -1,26 +1,26 @@
-## Camera.resetColorFilter()
+# Camera.resetColorFilter()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.resetColorFilter(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Remove color filter.
 
-#### Example
+## Example
 
 The following example removes color filter.
 

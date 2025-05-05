@@ -1,18 +1,18 @@
-## Tools.penLoc
+# Tools.penLoc
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Tools.penLoc
 
-#### Description
+## Description
 
 Read-only property; `Point`; A point that represents the current location of the mouse pointer. The tools.penLoc property comprises two properties, *x* and *y*, corresponding to the *x,y* location of the mouse pointer.
 
-#### Example
+## Example
 
 The following example determines the current location of the mouse:
 
@@ -20,6 +20,6 @@ The following example determines the current location of the mouse:
 var tempPt = fl.tools.penLoc;
 ```
 
-#### See also
+## See also
 
 [Tools.penDownLoc](../Tools_object/Tools6.md)

@@ -1,14 +1,14 @@
-## Flash.swfPanels
+# Flash.swfPanels
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 fl.swfPanels
 
-#### Description
+## Description
 
 Read-only property; `SwfPanel[]`; an array of registered swfPanel objects (see [SwfPanel object](../SwfPanel_object/SwfPanel_summary.md)). A swfPanel object is registered if it has been opened at least once.
 
@@ -16,7 +16,7 @@ A panel’s position in the array represents the order in which it was opened. I
 
 This property is undefined if none of panels have been opened (this behavior is new in Adobe Animate).
 
-#### Example
+## Example
 
 The following code displays the name and path of any registered Window SWF panels in the Output panel:
 

@@ -1,14 +1,14 @@
-## Document.addTaggedSwatch()
+# Document.addTaggedSwatch()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.addTaggedSwatch(swatch:object [,index:int [,palette:int ]])
 
-#### Parameters
+## Parameters
 
 **swatch** `Swatch`; Swatch object to add.
 
@@ -16,15 +16,15 @@ Document.addTaggedSwatch(swatch:object [,index:int [,palette:int ]])
 
 **palette** `integer?0`; An optional integer that specifies the index of the tagged swatch palette. Default value is 0.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; To add new tagged swatch with the given swatch object at the given index, index is optional,in case no index is given adds swatch to end of the tagged swatches.
 
-#### Example
+## Example
 
 In the following example,adding new tagged swatch,swatch1 to end of the tagged swatches.
 
@@ -39,6 +39,6 @@ swatch1.name = "solid_swatch";
 document.addTaggedSwatch(swatch1);
 ```
 
-#### See also
+## See also
 
 [Document.addTaggedSwatchWithColor()](../Document_object/Document6059.md)

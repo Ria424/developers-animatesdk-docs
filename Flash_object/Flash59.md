@@ -1,22 +1,22 @@
-## Flash.resetAS3PackagePaths()
+# Flash.resetAS3PackagePaths()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.resetAS3PackagePaths()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Description
+## Description
 
 Method; resets the global Classpath setting in the ActionScript 3.0 Settings dialog box to the default value. To reset the ActionScript 2.0 global Classpath, use [Flash.resetPackagePaths() - dropped](../Flash_object/Flash60.md).
 
-#### Example
+## Example
 
 The following example resets the ActionScript 3.0 Classpath setting to its default value.
 
@@ -24,6 +24,6 @@ The following example resets the ActionScript 3.0 Classpath setting to its defau
 fl.resetAS3PackagePaths();
 ```
 
-#### See also
+## See also
 
 [Flash.as3PackagePaths](../Flash_object/Flash2.md)

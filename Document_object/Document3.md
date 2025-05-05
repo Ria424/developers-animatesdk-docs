@@ -1,26 +1,26 @@
-## Document.addFilter()
+# Document.addFilter()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.addFilter(filterName)
 
-#### Parameters
+## Parameters
 
 **filterName** `"adjustColorFilter" | "bevelFilter" | "blurFilter" | "dropShadowFilter" | "glowFilter" | "gradientBevelFilter" | "gradientGlowFilter"`; A string specifying the filter to be added to the Filters list and enabled for the selected objects. Acceptable values are "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", and "gradientGlowFilter".
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Applies a filter to the selected objects and places the filter at the end of the Filters list.
 
-#### Example
+## Example
 
 The following example applies a glow filter to the selected objects:
 
@@ -28,7 +28,7 @@ The following example applies a glow filter to the selected objects:
 fl.getDocumentDOM().addFilter("glowFilter");
 ```
 
-#### See also
+## See also
 
 - [Document.changeFilterOrder()](../Document_object/Document29.md)
 - [Document.disableFilter()](../Document_object/Document47.md)

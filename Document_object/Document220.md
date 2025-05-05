@@ -1,18 +1,18 @@
-## Document.publishProfiles
+# Document.publishProfiles
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.publishProfiles
 
-#### Description
+## Description
 
 Read-only property; `string[]`; An array of the publish profile names for the document.
 
-#### Example
+## Example
 
 The following example displays the names of the publish profiles for the document:
 

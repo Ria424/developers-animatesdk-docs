@@ -1,18 +1,18 @@
-## Element.layer
+# Element.layer
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 element.layer
 
-#### Description
+## Description
 
 Read-only property; `Layer`; represents the [Layer object](../Layer_object/Layer_summary.md) on which the element is located.
 
-#### Example
+## Example
 
 The following example stores the Layer object that contains the element in the theLayer variable:
 

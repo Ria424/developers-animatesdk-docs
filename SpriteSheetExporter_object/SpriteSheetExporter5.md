@@ -1,18 +1,18 @@
-## SpriteSheetExporter.app
+# SpriteSheetExporter.app
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.app
 
-#### Description
+## Description
 
 Read-only property; `string`; A string indicating the name of the application that is generating the sprite sheet. This property is provided for use by any future sprite sheet generator plugins that may be created for Flash Pro.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

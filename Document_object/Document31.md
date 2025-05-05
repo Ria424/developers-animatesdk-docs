@@ -1,26 +1,26 @@
-## Document.clipCut()
+# Document.clipCut()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.clipCut()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Cuts the current selection from the document and writes it to the Clipboard.
 
-#### Example
+## Example
 
 The following example cuts the current selection from the document and writes it to the Clipboard:
 
@@ -28,7 +28,7 @@ The following example cuts the current selection from the document and writes it
 fl.getDocumentDOM().clipCut();
 ```
 
-#### See also
+## See also
 
 - [Document.clipCopy()](../Document_object/Document30.md)
 - [Document.clipPaste()](../Document_object/Document32.md)

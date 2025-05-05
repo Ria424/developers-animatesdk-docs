@@ -1,13 +1,13 @@
-## Tools.toolObjs
+# Tools.toolObjs
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Tools.toolObjs
 
-#### Description
+## Description
 
 Read-only property; `ToolObj[]`; An array of [ToolObj object](../ToolObj_object/ToolObj_summary.md)s.

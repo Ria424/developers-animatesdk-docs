@@ -1,18 +1,18 @@
-## CompiledClipInstance.description
+# CompiledClipInstance.description
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.description
 
-#### Description
+## Description
 
 Property; `string`; A string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.
 
-#### Example
+## Example
 
 The following example illustrates getting and setting the description property:
 

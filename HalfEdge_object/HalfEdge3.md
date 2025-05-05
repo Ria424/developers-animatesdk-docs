@@ -1,27 +1,27 @@
-## HalfEdge.getPrev()
+# HalfEdge.getPrev()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 halfEdge.getPrev()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 A HalfEdge object.
 
-#### Description
+## Description
 
 Method; gets the preceding HalfEdge object on the current contour.
 ***Note:** Although half edges have a direction and a sequence order, edges do not.*
 
-#### Example
+## Example
 
 The following example stores the previous half edge of the specified contour in the prevHalfEdge variable:
 

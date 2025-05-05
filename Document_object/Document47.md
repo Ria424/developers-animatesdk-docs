@@ -1,26 +1,26 @@
-## Document.disableFilter()
+# Document.disableFilter()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.disableFilter(filterIndex)
 
-#### Parameters
+## Parameters
 
 **filterIndex** `integer`; An integer representing the zero-based index of the filter in the Filters list.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Disables the specified filter in the Filters list.
 
-#### Example
+## Example
 
 The following example disables the first and third filters (index values of 0 and 2) in the Filters list from the selected objects:
 
@@ -29,7 +29,7 @@ fl.getDocumentDOM().disableFilter(0);
 fl.getDocumentDOM().disableFilter(2);
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

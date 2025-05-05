@@ -1,18 +1,18 @@
-## Flash.componentsPanel
+# Flash.componentsPanel
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.componentsPanel
 
-#### Description
+## Description
 
 Read-only property; `ComponentsPanel`; A [ComponentsPanel object](../ComponentsPanel_object/ComponentsPanel_summary.md), which represents the Components panel.
 
-#### Example
+## Example
 
 The following example stores a componentsPanel object in the comPanel variable:
 

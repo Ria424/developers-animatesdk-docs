@@ -1,18 +1,18 @@
-## SwfPanel.dpiScaleFactorX
+# SwfPanel.dpiScaleFactorX
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 swfPanel.dpiScaleFactorX
 
-#### Description
+## Description
 
 Read-only property: a string that contains the DPI scale factor (scaleX) for swfPanel. Depending on this scale-factor, SwfPanel can adjust its contents.
 
-#### Example
+## Example
 
 The following code illustrates the use of this property:
 
@@ -20,6 +20,6 @@ The following code illustrates the use of this property:
 fl.trace(fl.swfPanel[x].dpiScaleFactorX);
 ```
 
-#### See also
+## See also
 
 [SwfPanel.dpiScaleFactorY](../SwfPanel_object/SwfPanel2.md)

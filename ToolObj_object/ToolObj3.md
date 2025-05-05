@@ -1,18 +1,18 @@
-## ToolObj.position
+# ToolObj.position
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ToolObj.position
 
-#### Description
+## Description
 
 Read-only property; `integer`; The position of the tool in the Tools panel. This property is used only when you create extensible tools.
 
-#### Example
+## Example
 
 The following commands in the mouseDown() method of a tool's JavaScript file will show that tool's position in the Tools panel as an integer in the Output panel:
 

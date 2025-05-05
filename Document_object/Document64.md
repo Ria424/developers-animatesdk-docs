@@ -1,14 +1,14 @@
-## Document.exportPNG()
+# Document.exportPNG()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the filename for the exported file. If *fileURI* is an empty string or is not specified, Flash displays the Export Movie dialog box.
 
@@ -16,11 +16,11 @@ Document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
 
 **bCurrentFrame** `boolean?false`; A boolean value that specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate PNG file (false). This parameter is optional. The default value is false.
 
-#### Returns
+## Returns
 
 `boolean`; true if the file is successfully exported as a PNG file; false otherwise.
 
-#### Description
+## Description
 
 Method; Exports the document as one or more PNG files. If *fileURI* is specified and the file already exists, it is overwritten without warning.
 
@@ -28,7 +28,7 @@ Method; Exports the document as one or more PNG files. If *fileURI* is specified
 
 ***Note:** If bCurrentPNGSettings is false and bCurrentFrame is true, the Export PNG dialog box does not display and Flash uses the current PNG publish settings.*
 
-#### Example
+## Example
 
 The following example exports the current frame in the current document to myFile.png, using the current PNG publish settings:
 

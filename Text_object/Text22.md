@@ -1,14 +1,14 @@
-## Text.setTextAttr()
+# Text.setTextAttr()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.setTextAttr(attrName, attrValue [, startIndex [, endIndex]])
 
-#### Parameters
+## Parameters
 
 **attrName** A string that specifies the name of the TextAttrs object property to change.
 
@@ -19,17 +19,17 @@ For a list of possible values for *attrName* and *attrValue*, see the Property s
 
 **endIndex** An integer that specifies the index of the end point in the selected text string, which starts at *startIndex* and goes up to, but does not include, *endIndex*. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; sets the attribute specified by the *attrName* parameter associated with the text identified by *startIndex* and *endIndex* to the value specified by *attrValue*. This method can be used to change attributes of text that might span TextRun elements (see [TextRun object](../TextRun_object/TextRun_summary.md)), or that are portions of existing TextRun elements. Using it may change the position and number of TextRun elements within this object’s text.textRuns array (see [Text.textRuns](../Text_object/Text27.md)).
 
 If you omit the optional parameters, the method uses the entire Text object’s character range. If you specify only *startIndex*, the range is a single character at that position. If you specify both *startIndex* and *endIndex*, the range starts from *startIndex* and goes up to, but does not include, the character located at *endIndex*.
 
-#### Example
+## Example
 
 The following example sets the selected text field to italic:
 

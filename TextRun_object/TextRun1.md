@@ -1,20 +1,20 @@
-## TextRun.characters
+# TextRun.characters
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
 **TextRun object**
 
-#### Usage
+## Usage
 
 *textRun.characters*
 
-#### Description
+## Description
 
 Property; the text contained in the TextRun object.
 
-#### Example
+## Example
 
 The following example displays the characters that make up the first run of characters in the selected text field in the Output panel:
 

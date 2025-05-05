@@ -1,10 +1,10 @@
-## mouseDoubleClick()
+# mouseDoubleClick()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function mouseDoubleClick() {
@@ -12,19 +12,19 @@ function mouseDoubleClick() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called when the extensible tool is active and the mouse button is double-clicked on the Stage.
 
-#### Example
+## Example
 
 The following example displays a message in the Output panel when the extensible tool is active and the mouse button is double-clicked.
 

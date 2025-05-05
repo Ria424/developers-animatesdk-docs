@@ -1,18 +1,18 @@
-## Document.silent
+# Document.silent
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.silent
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether the object is accessible. This is equivalent to the inverse logic of the Make Movie Accessible setting in the Accessibility panel. That is, if `Document.silent` is true, it is the same as the Make Movie Accessible option being unchecked. If it is false, it is the same as the Make Movie Accessible option being checked.
 
-#### Example
+## Example
 
 The following example sets the isSilent variable to the value of the silent property:
 

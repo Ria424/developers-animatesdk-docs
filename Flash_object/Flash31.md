@@ -1,26 +1,26 @@
-## Flash.getDocumentDOM()
+# Flash.getDocumentDOM()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.getDocumentDOM()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `Document`; A [Document object](../Document_object/Document_summary.md), or null if no documents are open.
 
-#### Description
+## Description
 
 Method; Retrieves the DOM ([Document object](../Document_object/Document_summary.md)) of the currently active document (FLA file). If one or more documents are open but a document does not currently have focus (for example, if a JSFL file has focus), retrieves the DOM of the most recently active document.
 
-#### Example
+## Example
 
 The following example displays the name of the current or most recently active document in the Output panel:
 

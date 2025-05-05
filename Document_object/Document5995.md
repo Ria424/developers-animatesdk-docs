@@ -1,18 +1,18 @@
-## Document.timelines
+# Document.timelines
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.timelines
 
-#### Description
+## Description
 
 Read-only property; `Timeline[]`; An array of [Timeline object](../Timeline_object/Timeline_summary.md)s.
 
-#### Example
+## Example
 
 The following example gets the array of current timelines in the active document and displays their names in the Output panel:
 
@@ -25,7 +25,7 @@ while (i < fl.getDocumentDOM().timelines.length) {
 }
 ```
 
-#### See also
+## See also
 
 - [Document.currentTimeline](../Document_object/Document39.md)
 - [Document.getTimeline()](../Document_object/Document88.md)

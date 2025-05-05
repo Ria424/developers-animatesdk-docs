@@ -1,14 +1,14 @@
-## Document.selection
+# Document.selection
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.selection
 
-#### Description
+## Description
 
 Property; `Element[]`; An array of the selected objects in the document. If nothing is selected, returns an array of length zero. If no document is open, returns null.
 To add objects to the array, you must first select them in one of the following ways:
@@ -27,7 +27,7 @@ To add objects to the array, you must first select them in one of the following 
 
 - Create an array of one or more elements and then assign that array to the document.selection array. See the third example below.
 
-#### Example
+## Example
 
 The following example assigns all elements on Frame 11 to the current selection (remember that index values are different from frame number values):
 

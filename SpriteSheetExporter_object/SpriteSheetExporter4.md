@@ -1,18 +1,18 @@
-## SpriteSheetExporter.allowTrimming
+# SpriteSheetExporter.allowTrimming
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.allowTrimming
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value indicating whether the symbol frames can be trimmed of any extra whitespace when packed into the sprite sheet. The default value is true.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

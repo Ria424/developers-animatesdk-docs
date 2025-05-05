@@ -1,18 +1,18 @@
-## PresetItem.isFolder
+# PresetItem.isFolder
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 presetItem.isFolder
 
-#### Description
+## Description
 
 Read-only property: a Boolean value that specifies whether the item in the Motion Presets panel is a folder (true) or a preset (false).
 
-#### Example
+## Example
 
 The following example shows that the first item in the Motion Presets panel is a folder and the second is a preset:
 

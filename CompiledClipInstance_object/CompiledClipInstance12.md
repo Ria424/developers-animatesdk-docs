@@ -1,18 +1,18 @@
-## CompiledClipInstance.colorMode
+# CompiledClipInstance.colorMode
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.colorMode
 
-#### Description
+## Description
 
 Property; `"none" | "brightness" | "tint" | "alpha" | "advanced"`; A string that specifies the color mode, as identified in the Symbol Properties dialog. Valid values are "none", "brightness", "tint", "alpha", and "advanced".
 
-#### Example
+## Example
 
 The following example illustrates use of this property:
 

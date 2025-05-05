@@ -1,28 +1,28 @@
-## Library.addItemToDocument()
+# Library.addItemToDocument()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Library.addItemToDocument(position [, namePath])
 
-#### Parameters
+## Parameters
 
 **position** `Point`; Specifies the *x,y* position of the center of the item on the Stage.
 
 **namePath** `string`; Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation. If *namePath* is not specified, the current library selection is used. This parameter is optional.
 
-#### Returns
+## Returns
 
 `boolean`; *true* if the item is successfully added to the document; *false* otherwise.
 
-#### Description
+## Description
 
 Method; Adds the current or specified item to the Stage at the specified position.
 
-#### Example
+## Example
 
 The following example adds the currently selected item to the Stage at the (3, 60) position:
 

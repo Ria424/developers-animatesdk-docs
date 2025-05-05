@@ -1,26 +1,26 @@
-## Document.intersect()
+# Document.intersect()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.intersect()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Creates an intersection drawing object from all selected drawing objects. If no objects are selected, calling this method results in an error and the script breaks at that point.
 
-#### Example
+## Example
 
 The following example creates an intersection drawing object from all selected drawing objects:
 
@@ -28,7 +28,7 @@ The following example creates an intersection drawing object from all selected d
 fl.getDocumentDOM().intersect();
 ```
 
-#### See also
+## See also
 
 - [Document.crop()](../Document_object/Document37.md)
 - [Document.deleteEnvelope()](../Document_object/Document41.md)

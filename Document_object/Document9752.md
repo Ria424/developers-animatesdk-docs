@@ -1,14 +1,14 @@
-## Document.setStroke()
+# Document.setStroke()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setStroke(color, size, strokeType)
 
-#### Parameters
+## Parameters
 
 **color** `integer | string`; The color of the stroke, in one of the following formats:
 
@@ -22,15 +22,15 @@ Document.setStroke(color, size, strokeType)
 
 **strokeType** `"hairline" | "solid" | "dashed" | "dotted" | "ragged" | "stipple" | "hatched"`; A string that specifies the new type of stroke for the selection. Acceptable values are "hairline", "solid", "dashed", "dotted", "ragged", "stipple", and "hatched".
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the color, width, and style of the selected stroke. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).
 
-#### Example
+## Example
 
 The following example sets the color of the stroke to red, the size to 3.25, and the type to dashed:
 

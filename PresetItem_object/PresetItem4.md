@@ -1,20 +1,20 @@
-## PresetItem.open
+# PresetItem.open
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 presetItem.open
 
-#### Description
+## Description
 
 Read-only property: specifies whether a folder in the Motion Presets panel is currently expanded (true) or not (false).
 
 This property is true if the item is not a folder. To determine if an item is a folder or a preset, use [PresetItem.isFolder](../PresetItem_object/PresetItem1.md).
 
-#### Example
+## Example
 
 The following example displays information on whether folders in the Motion Presets panel are expanded or collapsed:
 

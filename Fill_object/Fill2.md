@@ -1,14 +1,14 @@
-## Fill.color
+# Fill.color
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fill.color
 
-#### Description
+## Description
 
 Property; the color of the fill, in one of the following formats:
 
@@ -18,7 +18,7 @@ Property; the color of the fill, in one of the following formats:
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-#### Example
+## Example
 
 The following example sets the fill color of the current selection:
 

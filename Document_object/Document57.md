@@ -1,26 +1,26 @@
-## Document.editScene()
+# Document.editScene()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.editScene(index)
 
-#### Parameters
+## Parameters
 
 **index** `integer`; A zero-based integer that specifies which scene to edit.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Makes the specified scene the currently selected scene for editing.
 
-#### Example
+## Example
 
 Assuming that there are three scenes (Scene0, Scene1, and Scene2) in the current document, the following example makes Scene2 the current scene and then deletes it:
 

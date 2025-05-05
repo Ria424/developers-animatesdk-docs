@@ -1,26 +1,26 @@
-## Document.importCanvasPublishTemplate()
+# Document.importCanvasPublishTemplate()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.importCanvasPublishTemplate(pathURI)
 
-#### Parameters
+## Parameters
 
 **pathURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the HTML template.
 
-#### Returns
+## Returns
 
 `boolean`; True if imported successfully.False otherwise.
 
-#### Description
+## Description
 
 Method; Imports and sets the HTML5 Canvas Publishing Template for given document,from the specified location pathURI.This method is specific to HTML Canvas document only.
 
-#### Example
+## Example
 
 The following example replace the tagged swatch with the given name"Oldswatch" to the given new swatch object swatch1.
 

@@ -1,14 +1,14 @@
-## Document.exportMedia()
+# Document.exportMedia()
 
-#### Availability
+## Availability
 
 Adobe Animate2020.
 
-#### Usage
+## Usage
 
 Document.exportMedia(fileURI, format, preset [,bTransparent [, bRunBatch [, sceneName [, startFrame [, endFrame]]]]]).
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension).
 
@@ -26,15 +26,15 @@ Document.exportMedia(fileURI, format, preset [,bTransparent [, bRunBatch [, scen
 
 **endFrame** `integer?`; An optional integer, index of end frame in specific scene. Applicable only when a specific scene is exported. By default it will be last frame of timeline or the end frame of the timeline loop range if defined.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Generates the required media from the document by making use of Adobe Media Encoder.
 
-#### Example
+## Example
 
 The following example generates the required media.
 

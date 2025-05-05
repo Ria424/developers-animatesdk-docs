@@ -1,26 +1,26 @@
-## Camera.getColorFilter()
+# Camera.getColorFilter()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 camera.getColorFilter(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 `{brightness: number, contrast: number, saturation: number, hue: number}`;
 
-#### Description
+## Description
 
 Gets camera color filter.
 
-#### Example
+## Example
 
 The following example gets camera color filter.
 

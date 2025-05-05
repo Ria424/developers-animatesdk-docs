@@ -1,18 +1,18 @@
-## TextureAtlasExporter.version
+# TextureAtlasExporter.version
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.version
 
-#### Description
+## Description
 
 Read-only property; A stinrg indicating the version number of the Animate application. This property is provided for use by texture atlas plugins.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

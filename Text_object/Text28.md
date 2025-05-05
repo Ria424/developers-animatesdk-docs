@@ -1,18 +1,18 @@
-## Text.textType
+# Text.textType
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.textType
 
-#### Description
+## Description
 
 Property; a string that specifies the type of text field. Acceptable values are "static", "dynamic", and "input".
 
-#### Example
+## Example
 
 The following example sets the textType property to input:
 

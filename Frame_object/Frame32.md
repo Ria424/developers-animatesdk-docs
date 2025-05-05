@@ -1,17 +1,17 @@
-## Frame.soundLoop
+# Frame.soundLoop
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.soundLoop
 
-#### Description
+## Description
 
 Property; `integer`; The number of times a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)) plays. If you want to specify a value for this property, set [Frame.soundLoopMode](../Frame_object/Frame33.md) to *"repeat"*.
 
-#### Example
+## Example
 
 See [Frame.soundLoopMode](../Frame_object/Frame33.md).

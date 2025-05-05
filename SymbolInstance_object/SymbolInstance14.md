@@ -1,18 +1,18 @@
-## SymbolInstance.colorMode
+# SymbolInstance.colorMode
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolInstance.colorMode
 
-#### Description
+## Description
 
 Property; `"none" | "brightness" | "tint" | "alpha" | "advanced"`; Specifies the color mode as identified in the symbol Property inspector Color pop-up menu. Acceptable values are "none", "brightness", "tint", "alpha", and "advanced".
 
-#### Example
+## Example
 
 The following example changes the colorMode property of the first element in the first frame of the first layer in the timeline to alpha:
 

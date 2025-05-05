@@ -1,10 +1,10 @@
-## deactivate()
+# deactivate()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function dactivate() {
@@ -12,19 +12,19 @@ function dactivate() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called when the extensible tool becomes inactive (that is, when the active tool changes from this tool to another one). Use this function to perform any cleanup the tool needs.
 
-#### Example
+## Example
 
 The following example displays a message in the Output panel when the tool becomes inactive:
 

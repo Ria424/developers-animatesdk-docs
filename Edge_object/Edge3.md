@@ -1,18 +1,18 @@
-## Edge.id
+# Edge.id
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Edge.id
 
-#### Description
+## Description
 
 Read-only property; `integer`; An integer that represents a unique identifier for the edge.
 
-#### Example
+## Example
 
 The following example stores a unique identifier for the specified edge in the my_shape_id variable:
 

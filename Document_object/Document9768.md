@@ -1,14 +1,14 @@
-## Document.setStrokeColor()
+# Document.setStrokeColor()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setStrokeColor(color)
 
-#### Parameters
+## Parameters
 
 **color** `integer | string`; The color of the stroke, in one of the following formats:
 
@@ -18,15 +18,15 @@ Document.setStrokeColor(color)
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Changes the stroke color of the selection to the specified color. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).
 
-#### Example
+## Example
 
 The three statements in the following example set the stroke color using each of the different formats for specifying color:
 

@@ -1,26 +1,26 @@
-## Document.close()
+# Document.close()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.close([bPromptToSaveChanges])
 
-#### Parameters
+## Parameters
 
 **bPromptToSaveChanges** `boolean?true`; A boolean value that, when set to true, causes the method to prompt the user with a dialog box if there are unsaved changes in the document. If *bPromptToSaveChanges* is set to false, the user is not prompted to save any changed documents. The default value is true. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Closes the specified document.
 
-#### Example
+## Example
 
 The following example closes the current document and prompts the user with a dialog box to save changes:
 

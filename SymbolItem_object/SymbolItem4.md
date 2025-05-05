@@ -1,14 +1,14 @@
-## SymbolItem.exportToPNGSequence()
+# SymbolItem.exportToPNGSequence()
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SymbolItem.exportToPNGSequence(outputURI [, startFrameNum ] [, endFrameNum ] [, matrix])
 
-#### Parameters
+## Parameters
 
 **outputURI** `string`; The URI to export the PNG sequence files to. This URI must reference a local file. For example: file:///c|/tests/mytest.png.
 
@@ -18,15 +18,15 @@ SymbolItem.exportToPNGSequence(outputURI [, startFrameNum ] [, endFrameNum ] [, 
 
 **matrix** `Matrix?`; Optional. A matrix to be appended to the exported PNG sequence.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Exports a movie clip, graphic, or button symbol to a sequence of PNG files on disk.
 
-#### Example
+## Example
 
 The following example exports the first symbol in the Library new sequence of numbered PNG files starting with the filename"myTest.png":
 

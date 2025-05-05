@@ -1,18 +1,18 @@
-## Camera.cameraEnabled
+# Camera.cameraEnabled
 
-#### Availability
+## Availability
 
 Animate 2019
 
-#### Usage
+## Usage
 
 Camera.cameraEnabled
 
-#### Description
+## Description
 
 `boolean`; Used to Enable/Disable camera. The value is true if camera is enabled otherwise false.
 
-#### Example
+## Example
 
 The following example enables the camera:
 

@@ -1,28 +1,28 @@
-## Layer.setBlendModeAtFrame()
+# Layer.setBlendModeAtFrame()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 layer.setBlendModeAtFrame(frameIndex,blendModeString)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Specifies absolute frame index.
 
 **blendModeString** `string`; Specifies the blendmode to be set.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the blending mode at the particular frame.
 
-#### Example
+## Example
 
 The following example sets the blending mode of the frame number 5.
 

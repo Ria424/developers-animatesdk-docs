@@ -1,18 +1,18 @@
-## Document.currentPublishProfile
+# Document.currentPublishProfile
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.currentPublishProfile
 
-#### Description
+## Description
 
 Property; `string`; Specifies the name of the active publish profile for the specified document.
 
-#### Example
+## Example
 
 The following example adds a new publish profile with the default name and then displays the name of the profile in the Output panel:
 

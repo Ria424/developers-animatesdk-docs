@@ -1,19 +1,19 @@
-## SoundItem.compressionType
+# SoundItem.compressionType
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *soundItem.compressionType*
 
-#### Description
+## Description
 
 Property; a string that specifies that compression type for a sound in the library. Acceptable values are *"Default", "ADPCM", "MP3", "Raw",* and *"Speech"*.
 If you want to specify a value for this property, set [SoundItem.useImportedMP3Quality](../SoundItem_object/SoundItem13.md) to false.
 
-#### Example
+## Example
 
 The following example changes an item in the library to compression type Raw:
 
@@ -27,6 +27,6 @@ The following example changes the compression type of the selected library items
 fl.getDocumentDOM().library.getSelectedItems().compressionType = "Speech";
 ```
 
-#### See also
+## See also
 
 [SoundItem.originalCompressionType](../SoundItem_object/SoundItem7.md)

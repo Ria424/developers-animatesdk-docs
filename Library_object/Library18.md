@@ -1,18 +1,18 @@
-## Library.unusedItems
+# Library.unusedItems
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Library.unusedItems
 
-#### Description
+## Description
 
 Property; `Item[]`; An array of Library Items that are not used in the document. This is the equivalent of the "Select Unused Items" menu item in the Library panel.
 
-#### Example
+## Example
 
 The following example illustrates the use of this property:
 

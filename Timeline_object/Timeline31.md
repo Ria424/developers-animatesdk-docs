@@ -1,18 +1,18 @@
-## Timeline.layers
+# Timeline.layers
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.layers
 
-#### Description
+## Description
 
 Read-only property; `Layer[]`; An array of layer objects.
 
-#### Example
+## Example
 
 The following example uses the currentLayers variable to store the array of layer objects in the current document:
 

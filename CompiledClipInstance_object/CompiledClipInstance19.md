@@ -1,18 +1,18 @@
-## CompiledClipInstance.silent
+# CompiledClipInstance.silent
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.silent
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that enables or disables the accessibility of the object; equivalent to the inverse logic of Make Object Accessible setting in the Accessibility panel. That is, if silent is true, then Make Object Accessible is unchecked. If silent is false, then Make Object Accessible is checked.
 
-#### Example
+## Example
 
 The following example illustrates getting and setting the silent property:
 

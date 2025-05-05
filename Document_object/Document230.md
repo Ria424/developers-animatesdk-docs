@@ -1,26 +1,26 @@
-## Document.punch()
+# Document.punch()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.punch()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Uses the top selected drawing object to punch through all selected drawing objects underneath it. If no objects are selected, calling this method results in an error and the script breaks at that point.
 
-#### Example
+## Example
 
 The following example punches through drawing objects underneath the selected drawing object:
 
@@ -28,7 +28,7 @@ The following example punches through drawing objects underneath the selected dr
 fl.getDocumentDOM().punch();
 ```
 
-#### See also
+## See also
 
 - [Document.crop()](../Document_object/Document37.md)
 - [Document.deleteEnvelope()](../Document_object/Document41.md)

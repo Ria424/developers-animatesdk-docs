@@ -1,18 +1,18 @@
-## CompiledClipInstance.actionScript - dropped
+# CompiledClipInstance.actionScript - dropped
 
-#### Availability
+## Availability
 
 Flash MX 2004. *Dropped in Adobe Animate*.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.actionScript
 
-#### Description
+## Description
 
 Property; `string`; A string that represents the ActionScript for this instance; equivalent to [SymbolInstance.actionScript - dropped](../SymbolInstance_object/SymbolInstance1.md).
 
-#### Example
+## Example
 
 The following code assigns ActionScript to specified elements:
 

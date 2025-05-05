@@ -1,26 +1,26 @@
-## Contour.getHalfEdge()
+# Contour.getHalfEdge()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Contour.getHalfEdge()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `HalfEdge`; A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
 
-#### Description
+## Description
 
 Method; Returns a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) on the contour of the selection.
 
-#### Example
+## Example
 
 This example traverses all the contours of the selected shape and shows the coordinates of the vertices in the Output panel:
 

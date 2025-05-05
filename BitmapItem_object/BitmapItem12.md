@@ -1,18 +1,18 @@
-## BitmapItem.useDeblocking
+# BitmapItem.useDeblocking
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 BitmapItem.useDeblocking
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether deblocking is enabled (*true*) or not (*false*).
 
-#### Example
+## Example
 
 ```javascript
 // Assuming the first item in the Library is a bitmap item, the following code enables deblocking for the item:

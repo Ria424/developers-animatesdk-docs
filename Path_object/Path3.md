@@ -1,26 +1,26 @@
-## Path.clear()
+# Path.clear()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 path.clear()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; removes all points from the path.
 
-#### Example
+## Example
 
 The following example removes all points from a path stored in the myPath variable:
 

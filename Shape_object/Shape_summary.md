@@ -1,18 +1,18 @@
-## Shape summary
+# Shape summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > Shape object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Shape object is a subclass of the Element object. The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands (see [Element object](../Element_object/Element_summary.md)).
 All Shape methods and properties that change a shape or any of its subordinate parts must be placed between
 [Shape.beginEdit()](../Shape_object/Shape.md) and [Shape.endEdit()](../Shape_object/Shape4.md) calls to function correctly.
 
-#### Method summary
+## Method summary
 
 In addition to the Element object methods, you can use the following methods with the Shape object:
 
@@ -23,7 +23,7 @@ In addition to the Element object methods, you can use the following methods wit
 | [Shape.deleteEdge()](../Shape_object/Shape2.md) | Deletes the specified edge. |
 | [Shape.endEdit()](../Shape_object/Shape4.md) | Defines the end of an edit session for the shape. |
 
-#### Property summary
+## Property summary
 
 In addition to the Element object properties, the following properties are available for the Shape object:
 

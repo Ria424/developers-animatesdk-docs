@@ -1,18 +1,18 @@
-## Path.nPts
+# Path.nPts
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 path.nPts
 
-#### Description
+## Description
 
 Read-only property; an integer representing the number of points in the path. A new path has 0 points.
 
-#### Example
+## Example
 
 The following example uses the Output panel to show the number of points in the path referenced by the myPath
 variable:

@@ -1,18 +1,18 @@
-## Shape.numCubicSegments
+# Shape.numCubicSegments
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *shape.numCubicSegments*
 
-#### Description
+## Description
 
 Read-only property; the number of cubic segments in the shape.
 
-#### Example
+## Example
 
 Assuming a square or rectangle shape is selected, the following code displays "4" in the Output panel:
 

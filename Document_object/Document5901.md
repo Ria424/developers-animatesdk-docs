@@ -1,26 +1,26 @@
-## Document.swapStrokeAndFill()
+# Document.swapStrokeAndFill()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.swapStrokeAndFill()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Swaps the Stroke and Fill colors.
 
-#### Example
+## Example
 
 The following example swaps the Stroke and Fill colors in the current document:
 

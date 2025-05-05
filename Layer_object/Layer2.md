@@ -1,18 +1,18 @@
-## Layer.frameCount
+# Layer.frameCount
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Layer.frameCount
 
-#### Description
+## Description
 
 Read-only property; `integer`; Specifies the number of frames in the layer.
 
-#### Example
+## Example
 
 The following example stores the number of frames in the first layer in the fcNum variable:
 

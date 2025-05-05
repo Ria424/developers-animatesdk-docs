@@ -1,14 +1,14 @@
-## Document summary
+# Document summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Document object represents the Stage. That is, only FLA files are considered documents. To return the Document object for the current document, use [Flash.getDocumentDOM()](../Flash_object/Flash31.md)
 
-#### Method summary
+## Method summary
 
 You can use the following methods with the Document object:
 
@@ -184,7 +184,7 @@ You can use the following methods with the Document object:
 | [Document.unlockAllElements()](../Document_object/Document6135.md) | Unlocks all locked elements on the currently selected frame. |
 | [Document.xmlPanel()](../Document_object/Document6198.md) | Posts a XMLUI dialog box. |
 
-#### Property summary
+## Property summary
 
 You can use the following properties with the Document object.
 

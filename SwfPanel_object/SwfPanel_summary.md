@@ -1,14 +1,14 @@
-## SwfPanel summary
+# SwfPanel summary
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Description
+## Description
 
 The SwfPanel object represents a Window SWF panel. Window SWF panels are SWF files that implement applications you can run from the Flash authoring environment; they are available from the Window > Other Panels menu. By default, Window SWF panels are stored in a subfolder of the Configuration folder (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows XP, the folder is in *boot drive*\\Documents and Settings\\*user*\\Local Settings\\Application Data\\Adobe\\Flash CS4\\*language*\\Configuration\\WindowSWF. A sample Window SWF panel is available; see ["Sample Trace Bitmap panel"](../Introduction/Sample_implementations.md#sample-trace-bitmap-panel). The array of registered Window SWF panels is stored in the [Flash.swfPanels](../Flash_object/Flash74.md) property.
 
-#### Method summary
+## Method summary
 
 You can use the following method with the SwfPanel object:
 
@@ -18,7 +18,7 @@ You can use the following method with the SwfPanel object:
 | [SwfPanel.reload()](../SwfPanel_object/SwfPanel5.md) | Reloads content in the SWF panel. |
 | [SwfPanel.setFocus()](../SwfPanel_object/SwfPanel6.md) | Sets the keyboard focus to the specified SWF panel. |
 
-#### Property summary
+## Property summary
 
 You can use the following properties with the SwfPanel object:
 

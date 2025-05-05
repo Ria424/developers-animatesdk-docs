@@ -1,16 +1,16 @@
-## TextureAtlasExporter summary
+# TextureAtlasExporter summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > TextureAtlasExporter object
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Description
+## Description
 
 The TextureAtlasExporter object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
-#### Method summary
+## Method summary
 
 In addition to the Item object methods, you can use the following methods with the TextureAtlasExporter object:
 
@@ -18,7 +18,7 @@ In addition to the Item object methods, you can use the following methods with t
 | --- | --- |
 | [TextureAtlasExporter.exportTextureAtlas()](../TextureAtlasExporter_object/TextureAtlasExporter.md) | Exports the texture atlas for the selected symbol. |
 
-#### Property summary
+## Property summary
 
 In addition to the Item object properties, the following properties are available for the SpriteSheetExporter object:
 

@@ -1,27 +1,27 @@
-## Document.testMovie()
+# Document.testMovie()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.testMovie([abortIfErrorsExist])
 
-#### Parameters
+## Parameters
 
 **abortIfErrorsExist** `boolean?false`; The default value is false. If set to true, the test movie session will not start and the .swf window will not open if there are compiler errors. Compiler warnings will not abort the command. This parameter was added in Flash Professional CS5.
 ***Note:** This parameter doesn't seem to work in Adobe Animate 2023.*
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Executes a Test Movie operation on the document.
 
-#### Example
+## Example
 
 The following example tests the movie for the current document, but aborts the test movie if compiler errors exist:
 
@@ -29,7 +29,7 @@ The following example tests the movie for the current document, but aborts the t
 fl.getDocumentDOM().testMovie(true);
 ```
 
-#### See also
+## See also
 
 - [Document.canTestMovie()](../Document_object/Document27.md)
 - [Document.testScene()](../Document_object/Document5979.md)

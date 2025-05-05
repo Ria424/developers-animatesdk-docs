@@ -1,4 +1,4 @@
-## About extensibility
+# About extensibility
 
 This chapter describes the C-level extensibility mechanism, which lets you implement Adobe Animate extensibility files using a combination of JavaScript and custom C code.
 

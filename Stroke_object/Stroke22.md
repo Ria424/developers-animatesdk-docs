@@ -1,18 +1,18 @@
-## Stroke.variation
+# Stroke.variation
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 stroke.variation
 
-#### Description
+## Description
 
 Property; a string that specifies the variation of a stippled line. This property is available only if the stroke.style property is set to stipple (see [Stroke.style](../Stroke_object/Stroke20.md)). Acceptable values are "one size", "small variation", "varied sizes", and "random sizes".
 
-#### Example
+## Example
 
 The following example sets the variation property to random sizes for a stroke style of stipple:
 

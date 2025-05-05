@@ -1,18 +1,18 @@
-## Document.name
+# Document.name
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.name
 
-#### Description
+## Description
 
 Read-only property; `string`; A string that represents the name of a document (FLA file).
 
-#### Example
+## Example
 
 The following example sets the variable fileName to the filename of the first document in the documents array:
 

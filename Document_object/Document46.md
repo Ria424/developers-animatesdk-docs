@@ -1,26 +1,26 @@
-## Document.disableAllFilters()
+# Document.disableAllFilters()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.disableAllFilters()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Disables all filters on the selected objects.
 
-#### Example
+## Example
 
 The following example disables all filters on the selected objects:
 
@@ -28,7 +28,7 @@ The following example disables all filters on the selected objects:
 fl.getDocumentDOM().disableAllFilters();
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

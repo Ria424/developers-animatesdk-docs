@@ -1,18 +1,18 @@
-## FontItem.size
+# FontItem.size
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 FontItem.size
 
-#### Description
+## Description
 
 Property; `integer`; Represents the size of the Font item, in points.
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a Font item, the following code displays the item’s point size in the Output panel and then sets it to 24.
 

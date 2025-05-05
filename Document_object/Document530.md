@@ -1,26 +1,26 @@
-## Document.setFilters()
+# Document.setFilters()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.setFilters(filterArray)
 
-#### Parameters
+## Parameters
 
 **filterArray** `Filter[]`; The array of filters currently specified.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Applies filters to the selected objects. Use this method after calling document.getFilters() and making any desired changes to the filters.
 
-#### Example
+## Example
 
 The following example gets the filters on the selected object and sets the blurX property for all Blur filters to 50:
 
@@ -34,7 +34,7 @@ for (var i = 0; i < myFilters.length; i++) {
 fl.getDocumentDOM().setFilters(myFilters);
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.getFilters()](../Document_object/Document79.md)

@@ -1,18 +1,18 @@
-## TextAttrs.autoKern
+# TextAttrs.autoKern
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *textAttrs.autoKern*
 
-#### Description
+## Description
 
 Property; a Boolean value that determines whether Flash uses *(true)* or ignores *(false)* pair kerning information in the font(s) when it kerns the text.
 
-#### Example
+## Example
 
 The following example selects the characters from index 2 up to, but not including, index 6 and sets the *autoKern* property to true:
 

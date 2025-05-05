@@ -1,26 +1,26 @@
-## Document.deleteSelection()
+# Document.deleteSelection()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.deleteSelection()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Deletes the current selection on the Stage. Displays an error message if there is no selection.
 
-#### Example
+## Example
 
 The following example deletes the current selection in the document:
 

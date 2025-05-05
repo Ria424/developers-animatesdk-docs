@@ -1,22 +1,22 @@
-## Timeline.getSelectedLayers()
+# Timeline.getSelectedLayers()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `integer`; An array of the zero-based index values of the selected layers.
 
-#### Description
+## Description
 
 Method; Gets the zero-based index values of the currently selected layers.
 
-#### Example
+## Example
 
 The following example displays 1,0 in the Output panel:
 
@@ -27,6 +27,6 @@ var layerArray = fl.getDocumentDOM().getTimeline().getSelectedLayers();
 fl.trace(layerArray);
 ```
 
-#### See also
+## See also
 
 [Timeline.setSelectedLayers()](../Timeline_object/Timeline47.md)

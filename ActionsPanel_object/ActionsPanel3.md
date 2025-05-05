@@ -1,26 +1,26 @@
-## ActionsPanel.getText()
+# ActionsPanel.getText()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 ActionsPanel.getText()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `string`; A string that contains all the text in the Actions panel.
 
-#### Description
+## Description
 
 Method; returns the text in the Actions panel.
 
-#### Example
+## Example
 
 The following example displays the text that is in the Actions panel.
 
@@ -29,7 +29,7 @@ var apText = fl.actionsPanel.getText();
 fl.trace(apText);
 ```
 
-#### See also
+## See also
 
 - [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
 - [ActionsPanel.setText()](../ActionsPanel_object/ActionsPanel8.md)

@@ -1,18 +1,18 @@
-## Text.border
+# Text.border
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.border
 
-#### Description
+## Description
 
 Property; a Boolean value. A value of true causes Flash to show a border around text.
 
-#### Example
+## Example
 
 The following example sets the border property to a value of true:
 

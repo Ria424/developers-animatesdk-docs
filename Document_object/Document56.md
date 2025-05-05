@@ -1,26 +1,26 @@
-## Document.duplicateSelection()
+# Document.duplicateSelection()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.duplicateSelection()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Duplicates the selection on the Stage.
 
-#### Example
+## Example
 
 The following example duplicates the current selection, which is similar to Alt-clicking and then dragging an item:
 

@@ -1,18 +1,18 @@
-## Frame.startFrame
+# Frame.startFrame
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.startFrame
 
-#### Description
+## Description
 
 Read-only property; `integer`; The index of the first frame in a sequence.
 
-#### Example
+## Example
 
 In the following example, stFrame is the index of the first frame in the frame sequence. In this example, a frame sequence is spanning the six frames from Frame 5 to Frame 10. Therefore, the value of stFrame at any frame between Frame 5 and Frame 10 is 4 (remember that index values are different from frame number values).
 

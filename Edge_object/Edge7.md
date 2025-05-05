@@ -1,18 +1,18 @@
-## Edge.stroke
+# Edge.stroke
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Edge.stroke
 
-#### Description
+## Description
 
 Property; `Stroke`; a [Stroke object](../Stroke_object/Stroke_summary.md).
 
-#### Example
+## Example
 
 The following example displays the stroke color of the first edge of the selected object:
 

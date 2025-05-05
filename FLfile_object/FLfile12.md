@@ -1,26 +1,26 @@
-## FLfile.remove()
+# FLfile.remove()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.remove(fileOrFolderURI)
 
-#### Parameters
+## Parameters
 
 **fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder you want to remove (delete).
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of true if successful; false otherwise.
 
-#### Description
+## Description
 
 Method; Deletes the specified file or folder. If the folder contains files, those files will be deleted as well. Files with the R (read-only) attribute cannot be removed.
 
-#### Examples
+## Examples
 
 The following example warns a user if a file exists and then deletes it if the user chooses to do so:
 
@@ -54,7 +54,7 @@ The following example deletes the Configuration folder and its contents:
 FLfile.remove("file:///C|/MyApplication/Configuration/");
 ```
 
-#### See also
+## See also
 
 - [FLfile.createFolder()](../FLfile_object/FLfile1.md)
 - [FLfile.getAttributes()](../FLfile_object/FLfile3.md)

@@ -1,15 +1,15 @@
-## HalfEdge summary
+# HalfEdge summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The HalfEdge object is the directed side of the edge of a [Shape object](../Shape_object/Shape_summary.md). An edge has two half edges. You can transverse the contours of a shape by "walking around" these half edges. For example, starting from a half edge, you can trace all the half edges around a contour of a shape, and return to the original half edge.
 Half edges are ordered. One half edge represents one side of the edge; the other half edge represents the other side.
 
-#### Method summary
+## Method summary
 
 The following methods are available for the HalfEdge object:
 
@@ -21,7 +21,7 @@ The following methods are available for the HalfEdge object:
 | [HalfEdge.getPrev()](../HalfEdge_object/HalfEdge3.md) | Gets the preceding HalfEdge object on the current contour. |
 | [HalfEdge.getVertex()](../HalfEdge_object/HalfEdge4.md) | Gets the [Vertex object](../Vertex_object/Vertex_summary.md) at the head of the HalfEdge object. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the HalfEdge object:
 

@@ -1,22 +1,22 @@
-## PresetPanel.addNewItem()
+# PresetPanel.addNewItem()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *fl.presetPanel.addNewItem( [namePath] );*
 
-#### Parameters
+## Parameters
 
 **namePath** A string that specifies the path and name of the item to add to the Motion Presets panel. This parameter is optional.
 
-#### Returns
+## Returns
 
 A Boolean value of true if the item was successfully added; *false* otherwise.
 
-#### Description
+## Description
 
 Method; if a single motion tween is currently selected on the Stage, adds that motion to the Motion Presets panel in the specified folder with the specified name. The path specified in *namePath* must exist in the panel.
 
@@ -25,7 +25,7 @@ If you don’t pass a value for *namePath*, the item is added to the Custom Pres
 
 *n*," where *n* is incremented each time you add an item in this fashion.
 
-#### Example
+## Example
 
 Assuming that a single motion tween is selected on the Stage, the following code adds a preset named Bouncing Ball to the Custom Presets folder:
 
@@ -33,6 +33,6 @@ Assuming that a single motion tween is selected on the Stage, the following code
 fl.presetPanel.addNewItem("Custom Presets/Bouncing Ball");
 ```
 
-#### See also
+## See also
 
 [PresetPanel.newFolder()](../PresetPanel_object/PresetPanel11.md)

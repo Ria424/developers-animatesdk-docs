@@ -1,14 +1,14 @@
-## Stroke.style
+# Stroke.style
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 stroke.style
 
-#### Description
+## Description
 
 Property; a string that describes the stroke style. Acceptable values are "noStroke","solid", "dashed", "dotted", "ragged", "stipple", and "hatched". Some of these values require additional properties of the Stroke object to be set, as described in the following list:
 
@@ -24,7 +24,7 @@ Property; a string that describes the stroke style. Acceptable values are "noStr
 
 - If value is "hatched", there are six additional properties: hatchThickness, space, jiggle, rotate, curve, and length.
 
-#### Example
+## Example
 
 The following example sets the stroke style to ragged:
 

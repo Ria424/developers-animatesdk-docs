@@ -1,13 +1,13 @@
-## Flash.presetPanel
+# Flash.presetPanel
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 fl.presetPanel
 
-#### Description
+## Description
 
 Read-only property; `PresetPanel`; A [PresetPanel object](../PresetPanel_object/PresetPanel_summary.md).

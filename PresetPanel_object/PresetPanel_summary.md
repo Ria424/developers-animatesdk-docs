@@ -1,14 +1,14 @@
-## PresetPanel summary
+# PresetPanel summary
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Description
+## Description
 
 The presetPanel object represents the Motion Presets panel (Window > Motion Presets). It is a property of the flash object ([Flash.presetPanel](../Flash_object/Flash49.md)).
 
-#### Method summary
+## Method summary
 
 You can use the following methods with the presetPanel object:
 
@@ -28,7 +28,7 @@ You can use the following methods with the presetPanel object:
 | [PresetPanel.renameItem()](../PresetPanel_object/PresetPanel12.md) | Renames the currently selected preset or folder to a specified name. |
 | [PresetPanel.selectItem()](../PresetPanel_object/PresetPanel13.md) | Selects or deselects an item in the Motion Presets panel. |
 
-#### Property summary
+## Property summary
 
 You can use the following property with the presetPanel object:
 

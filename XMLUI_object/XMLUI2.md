@@ -1,27 +1,27 @@
-## XMLUI.get()
+# XMLUI.get()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 XMLUI.get(controlPropertyName)
 
-#### Parameters
+## Parameters
 
 **controlPropertyName** `string`; Specifies the name of the XMLUI property whose value you want to retrieve.
 
-#### Returns
+## Returns
 
 `string`; A string that represents the value of the specified property. In cases where you might expect a Boolean value of *true
 or false*, it returns the string *true* or *false*.
 
-#### Description
+## Description
 
 Method; Retrieves the value of the specified property of the current XMLUI dialog box.
 
-#### Example
+## Example
 
 The following example returns the value of a property named URL:
 
@@ -29,7 +29,7 @@ The following example returns the value of a property named URL:
 fl.xmlui.get("URL");
 ```
 
-#### See also
+## See also
 
 - [Flash.xmlui](../Flash_object/Flash81.md)
 - [Document.xmlPanel()](../Document_object/Document6198.md)

@@ -1,14 +1,14 @@
-## Timeline.getFrameProperty()
+# Timeline.getFrameProperty()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.getFrameProperty(property \[, startframeIndex \[, endFrameIndex\]\])
 
-#### Parameters
+## Parameters
 
 **property** `string`; The name of the property for which to get the value. See the Property summary for the [Frame object](../Frame_object/Frame_summary.md) for a complete list of properties.
 
@@ -17,15 +17,15 @@ Timeline.getFrameProperty(property \[, startframeIndex \[, endFrameIndex\]\])
 
 **endFrameIndex** `integer?`; A zero-based index that specifies the end of the range of frames to select. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
-#### Returns
+## Returns
 
 `any | undefined`; A value for the specified property, or undefined if all the selected frames do not have the same property value.
 
-#### Description
+## Description
 
 Method; retrieves the specified property’s value for the selected frames.
 
-#### Example
+## Example
 
 The following example retrieves the name of the first frame in the current document’s top layer and displays the name in the Output panel:
 

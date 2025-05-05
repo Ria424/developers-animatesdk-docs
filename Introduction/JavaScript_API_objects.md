@@ -1,4 +1,4 @@
-## JavaScript API objects
+# JavaScript API objects
 
 This section provides a summary of the objects available in the Animate JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
 
@@ -57,7 +57,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 | VideoItem object | The VideoItem object is a subclass of the Item object. |
 | XMLUI object | The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one. |
 
-### The Animate Document Object Model
+## The Animate Document Object Model
 
 The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-level_functions_and_methods/Top_summary.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [Flash object (fl)](../Flash_object/Flash_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
@@ -85,7 +85,7 @@ The flash object contains the following *child objects*:
 | Tools object | Use `fl.tools` to access an array of Tools objects. |
 | XMLUI object | Use `fl.xmlui` to access an XML User Interface (XMLUI) object. The XMLUI object provides the ability to get and set properties of an XMLUI dialog box. |
 
-### The Document object
+## The Document object
 
 An important property of the top-level flash object is the [Flash.documents](../Flash_object/Flash20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](../Document_object/Document_summary.md).
 
@@ -112,7 +112,7 @@ To access a particular item in the library, you specify a member of the library.
 
 In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [Document.library](../Document_object/Document98.md), [Library object](../Library_object/Library_summary.md), [Library.items](../Library_object/Library10.md) and [Item object](../Item_object/Item_summary.md).
 
-### Specifying the target of an action
+## Specifying the target of an action
 
 Unless otherwise specified, methods affect the current focus or selection. For example, the following script doubles the size of the current selection because no particular object is specified:
 
@@ -143,7 +143,7 @@ for (var i = 0; i < elementArray.length; i++) {
 }
 ```
 
-### Summary of the DOM structure
+## Summary of the DOM structure
 
 The following list displays the DOM structure in outline format. Numbers at the beginning of each line represent the level of an object. For example, an object preceded by "03" is a child of next highest "02" object, which, in turn, is a child of the next highest "01" object.
 

@@ -1,14 +1,14 @@
-## Parameter summary
+# Parameter summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Parameter object type is accessed from the [ComponentInstance.parameters](../ComponentInstance_object/ComponentInstance.md) array (which corresponds to the component Property inspector in the authoring tool).
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Parameter object:
 
@@ -17,7 +17,7 @@ The following methods are available for the Parameter object:
 | [Parameter.insertItem()](../Parameter_object/Parameter1.md) | Inserts an item into an object or array. |
 | [Parameter.removeItem()](../Parameter_object/Parameter4.md) | Removes an element of the object or array type of a screen or component parameter. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Parameter object:
 

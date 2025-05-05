@@ -1,20 +1,20 @@
-## TextAttrs.characterSpacing
+# TextAttrs.characterSpacing
 
-#### Availability
+## Availability
 
 Flash MX 2004. Deprecated in Flash 8 in favor of [TextAttrs.letterSpacing](../TextAttrs_object/TextAttrs11.md).
 
-#### Usage
+## Usage
 
 *textAttrs.characterSpacing*
 
-#### Description
+## Description
 
 Property; an integer that represents the space between characters. Acceptable values are -60 through 60.
 
 This property applies only to static text; it generates a warning if used with other text types.
 
-#### Example
+## Example
 
 The following example sets the character spacing of the selected text field to 10:
 

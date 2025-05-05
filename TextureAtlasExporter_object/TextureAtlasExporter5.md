@@ -1,18 +1,18 @@
-## TextureAtlasExporter.borderPadding
+# TextureAtlasExporter.borderPadding
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.borderPadding
 
-#### Description
+## Description
 
 Property; An integer indicating the number of pixels of padding to add around each texture in the texture atlas.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

@@ -1,10 +1,10 @@
-## Path summary
+# Path summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools. The following example shows an instance of a Path object being returned from the flash object:
 
@@ -12,7 +12,7 @@ path = fl.drawingLayer.newPath();
 
 See also the [DrawingLayer object](../DrawingLayer_object/DrawingLayer_summary.md).
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Path object:
 
@@ -26,7 +26,7 @@ The following methods are available for the Path object:
 | [Path.makeShape()](../Path_object/Path5.md) | Creates a shape on the Stage by using the current stroke and fill settings. |
 | [Path.newContour()](../Path_object/Path6.md) | Starts a new contour in the path. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Path object:
 

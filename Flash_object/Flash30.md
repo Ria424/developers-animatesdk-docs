@@ -1,22 +1,22 @@
-## Flash.getAppMemoryInfo()
+# Flash.getAppMemoryInfo()
 
-#### Availability
+## Availability
 
 Flash 8 (Windows only).
 
-#### Usage
+## Usage
 
 fl.getAppMemoryInfo(memType)
 
-#### Parameters
+## Parameters
 
 **memType** An integer that specifies the memory utilization area to be queried. For a list of acceptable values, see the following description.
 
-#### Returns
+## Returns
 
 An integer that represents the number of bytes being used in a specified area of Flash.exe memory.
 
-#### Description
+## Description
 
 Method (Windows only); returns an integer that represents the number of bytes being used in a specified area of Flash.exe memory. Use the following table to determine which value you want to pass as *memType*:
 
@@ -35,7 +35,7 @@ Method (Windows only); returns an integer that represents the number of bytes be
 | 7 | PAGEFILEUSAGE |
 | 8 | PEAKPAGEFILEUSAGE |
 
-#### Example
+## Example
 
 The following example displays the current working memory consumption:
 

@@ -1,18 +1,18 @@
-## Text.shortcut
+# Text.shortcut
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.shortcut
 
-#### Description
+## Description
 
 Property; a string that is equivalent to the Shortcut field in the Accessibility panel. The shortcut is read by the screen reader. This property cannot be used with dynamic text.
 
-#### Example
+## Example
 
 The following example gets the shortcut key of the selected object and shows the value:
 

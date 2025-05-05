@@ -1,18 +1,18 @@
-## SymbolInstance.is3D
+# SymbolInstance.is3D
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SymbolInstance.is3D
 
-#### Description
+## Description
 
 Read-only property; `boolean`; Indicates whether the symbol instance contains a 3D matrix (transform).
 
-#### Example
+## Example
 
 The following example returns the value of the is3D property for the currently selected symbol instance on the Stage:
 

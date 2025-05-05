@@ -1,28 +1,28 @@
-## Timeline.mergeLayers()
+# Timeline.mergeLayers()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Timeline.mergeLayers(startLayerNum:int, endLayerNum:int).
 
-#### Parameters
+## Parameters
 
 **startLayerNum** `integer`; It is an integer that specifies the starting layer index.
 
 **endLayerNum** `integer`; It is an integer that specifies the ending layer index.
 
-#### Returns
+## Returns
 
 Layer Object of the merged layer.
 
-#### Description
+## Description
 
 Method; Merge the layers within specified range of indexes.
 
-#### Example
+## Example
 
 The following example merge layers from index 0 to 3.
 

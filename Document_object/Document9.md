@@ -1,26 +1,26 @@
-## Document.addNewPublishProfile()
+# Document.addNewPublishProfile()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.addNewPublishProfile([profileName])
 
-#### Parameters
+## Parameters
 
 **profileName** `string`; The unique name of the new profile. If you do not specify a name, a default name is provided. This parameter is optional.
 
-#### Returns
+## Returns
 
 `integer`; An integer that is the index of the new profile in the profiles list. Returns -1 if a new profile cannot be created.
 
-#### Description
+## Description
 
 Method; Adds a new publish profile and makes it the current one.
 
-#### Example
+## Example
 
 The following example adds a new publish profile with a default name and then displays the name of the profile in the Output panel:
 
@@ -35,6 +35,6 @@ The following example adds a new publish profile with the name "my profile":
 fl.getDocumentDOM().addNewPublishProfile("my profile");
 ```
 
-#### See also
+## See also
 
 [Document.deletePublishProfile()](../Document_object/Document42.md)

@@ -1,23 +1,23 @@
-## FLfile.getAttributes()
+# FLfile.getAttributes()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.getAttributes(fileOrFolderURI)
 
-#### Parameters
+## Parameters
 
 **fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder whose attributes you want to retrieve.
 
-#### Returns
+## Returns
 
 `string`; A string that represents the attributes of the specified file or folder.
 Results are unpredictable if the file or folder doesn’t exist. You should use [FLfile.exists()](../FLfile_object/FLfile2.md) before using this method.
 
-#### Description
+## Description
 
 Method; Returns a string representing the attributes of the specified file or folder, or an empty string if the file has no specific attributes (that it, it is not read-only, not hidden, and so on). You should always use [FLfile.exists()](../FLfile_object/FLfile2.md) to test for the existence of a file or folder before using this method.
 Characters in the string represent the attributes as follows:
@@ -34,7 +34,7 @@ Characters in the string represent the attributes as follows:
 
 For example, if *fileOrFolderURI* is a hidden folder, the string returned is `"DH"`.
 
-#### Example
+## Example
 
 The following example gets the attributes of the file mydata.txt and displays an alert box if the file is read-only.
 
@@ -48,6 +48,6 @@ if (FLfile.exists(URI)) {
 }
 ```
 
-#### See also
+## See also
 
 [FLfile.setAttributes()](../FLfile_object/FLfile13.md)

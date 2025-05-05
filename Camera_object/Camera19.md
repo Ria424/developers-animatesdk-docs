@@ -1,18 +1,18 @@
-## Camera.colorFilterEnabled
+# Camera.colorFilterEnabled
 
-#### Availability
+## Availability
 
 Animate 2019
 
-#### Usage
+## Usage
 
 Camera.colorFilterEnabled
 
-#### Description
+## Description
 
 `boolean`; Used to Enable/Disable camera's color Filter. The value is true if camera is enabled otherwise false.
 
-#### Example
+## Example
 
 The following example enables the color filter:
 

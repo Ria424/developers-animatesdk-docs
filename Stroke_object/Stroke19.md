@@ -1,18 +1,18 @@
-## Stroke.strokeHinting
+# Stroke.strokeHinting
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 stroke.strokeHinting
 
-#### Description
+## Description
 
 Property; a Boolean value that specifies whether stroke hinting is set on the stroke.
 
-#### Example
+## Example
 
 The following example enables stroke hinting for the stroke:
 

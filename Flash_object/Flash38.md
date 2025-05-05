@@ -1,18 +1,18 @@
-## Flash.languageCode
+# Flash.languageCode
 
-#### Availability
+## Availability
 
 Flash CS5 Professional.
 
-#### Usage
+## Usage
 
 fl.languageCode
 
-#### Description
+## Description
 
 Property; a string that returns the five character code identifying the locale of the application’s user interface.
 
-#### Example
+## Example
 
 The following example returns the five character langauge code indicated by the Flash application’s localized user interface:
 

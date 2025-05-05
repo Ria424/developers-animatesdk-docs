@@ -1,18 +1,18 @@
-## TextAttrs.lineSpacing
+# TextAttrs.lineSpacing
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *textAttrs.lineSpacing*
 
-#### Description
+## Description
 
 Property; an integer that specifies the line spacing (*leading*) of the paragraph. Acceptable values are -360 through 720.
 
-#### Example
+## Example
 
 The following example sets the selected text field’s lineSpacing property to 100:
 

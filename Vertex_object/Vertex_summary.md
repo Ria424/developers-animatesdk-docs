@@ -1,14 +1,14 @@
-## Vertex summary
+# Vertex summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Vertex object is the part of the shape data structure that holds the coordinate data.
 
-#### Method summary
+## Method summary
 
 You can use the following methods with the Vertex object:
 
@@ -17,7 +17,7 @@ You can use the following methods with the Vertex object:
 | [Vertex.getHalfEdge()](../Vertex_object/Vertex.md) | Gets a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) that shares this vertex. |
 | [Vertex.setLocation()](../Vertex_object/Vertex1.md) | Sets the location of the vertex. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Vertex object:
 

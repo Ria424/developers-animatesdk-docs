@@ -1,28 +1,28 @@
-## Document.reorderScene()
+# Document.reorderScene()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.reorderScene(sceneToMove, sceneToPutItBefore)
 
-#### Parameters
+## Parameters
 
 **sceneToMove** `integer`; Specifies which scene to move, with 0 (zero) being the first scene.
 
 **sceneToPutItBefore** `integer`; Specifies the scene before which you want to move the scene specified by *sceneToMove*. Specify 0 (zero) for the first scene. For example, if you specify 1 for *sceneToMove* and 0 for *sceneToPutItBefore*, the second scene is placed before the first scene. Specify -1 to move the scene to the end.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Moves the specified scene before another specified scene.
 
-#### Example
+## Example
 
 The following example moves the second scene to before the first scene:
 

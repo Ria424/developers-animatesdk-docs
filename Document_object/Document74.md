@@ -1,14 +1,14 @@
-## Document.getCustomFill()
+# Document.getCustomFill()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.getCustomFill([objectToFill])
 
-#### Parameters
+## Parameters
 
 **objectToFill** `"toolbar" | "selection"?"selection"`; Specifies the location of the fill object. The following values are valid:
 
@@ -19,15 +19,15 @@ Document.getCustomFill([objectToFill])
 If you omit this parameter, the default value is "selection". If there is no selection, the method returns
 undefined. This parameter is optional.
 
-#### Returns
+## Returns
 
 `Fill | undefined`; The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
 
-#### Description
+## Description
 
 Method; Retrieves the fill object of the selected shape or, if specified, of the Tools panel and Property inspector.
 
-#### Example
+## Example
 
 The following example gets the fill object of the selection and then changes the selection’s color to white:
 
@@ -48,6 +48,6 @@ fill.posArray = [0, 100, 200];
 fl.getDocumentDOM().setCustomFill(fill);
 ```
 
-#### See also
+## See also
 
 [Document.setCustomFill()](../Document_object/Document470.md)

@@ -1,14 +1,14 @@
-## Camera.setTint()
+# Camera.setTint()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.setTint(frameIndex, amount, red, green, blue)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
@@ -20,15 +20,15 @@ Camera.setTint(frameIndex, amount, red, green, blue)
 
 **blue** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Set camera tint using tint color(RGB) & tint percent (percentage of tint).
 
-#### Example
+## Example
 
 The following example sets camera tint using tint color(RGB) & tint percent (percentage of tint).
 

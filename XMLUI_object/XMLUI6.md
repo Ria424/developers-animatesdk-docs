@@ -1,28 +1,28 @@
-## XMLUI.set()
+# XMLUI.set()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 XMLUI.set(controlPropertyName, value)
 
-#### Parameters
+## Parameters
 
 **controlPropertyName** `string`; Specifies the name of XMLUI property to modify.
 
 **value** `string`; Specifies the value to which you want to set the XMLUI property.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Modifies the value of the specified property of the current XMLUI dialog box.
 
-#### Example
+## Example
 
 The following example sets the value of a property named URL to [www.adobe.com](https://www.adobe.com)
 
@@ -30,7 +30,7 @@ The following example sets the value of a property named URL to [www.adobe.com](
 fl.xmlui.set("URL", "www.adobe.com");
 ```
 
-#### See also
+## See also
 
 - [Flash.xmlui](../Flash_object/Flash81.md)
 - [Document.xmlPanel()](../Document_object/Document6198.md)

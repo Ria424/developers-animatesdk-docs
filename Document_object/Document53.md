@@ -1,26 +1,26 @@
-## Document.documentHasData()
+# Document.documentHasData()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.documentHasData(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; Specifies the name of the data to check.
 
-#### Returns
+## Returns
 
 `boolean`; true if the document has persistent data; false otherwise.
 
-#### Description
+## Description
 
 Method; checks the document for persistent data with the specified name.
 
-#### Example
+## Example
 
 The following example checks the document for persistent data with the name "myData":
 
@@ -28,7 +28,7 @@ The following example checks the document for persistent data with the name "myD
 var hasData = fl.getDocumentDOM().documentHasData("myData");
 ```
 
-#### See also
+## See also
 
 - [Document.addDataToDocument()](../Document_object/Document1.md)
 - [Document.getDataFromDocument()](../Document_object/Document76.md)

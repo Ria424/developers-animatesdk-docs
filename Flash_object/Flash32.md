@@ -1,26 +1,26 @@
-## Flash.getThemeColor()
+# Flash.getThemeColor()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.getThemeColor(themeParamName)
 
-#### Parameters
+## Parameters
 
 **themeParamName** A string that contains a theme parameter from the list returned by the fl.getThemeColorParameters() method. If the theme parameter is themeUseGradients, this method returns either "true" or "false".
 
-#### Returns
+## Returns
 
 A String containing a theme color (in #rrggbb or #rrggbbaa format) that matches the passed parameter. If the theme parameter is themeUseGradients, this method returns either "true" or "false".
 
-#### Description
+## Description
 
 Method; returns the theme color that matches the passed theme parameter. Adobe Animate introduced 2 UI themes: Dark and Light UI, and this method retrieves the current theme color to help you render your custom content.
 
-#### Example
+## Example
 
 The following example returns the theme colors that corresponds to themeAppBackgroundColor and
 themeStaticTextNormalColor:

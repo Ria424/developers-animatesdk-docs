@@ -1,26 +1,26 @@
-## Document.getTimeline()
+# Document.getTimeline()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.getTimeline()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `Timeline`; The current [Timeline object](../Timeline_object/Timeline_summary.md) object.
 
-#### Description
+## Description
 
 Method; Retrieves the current [Timeline object](../Timeline_object/Timeline_summary.md) in the document. The current timeline can be the current scene, the current symbol being edited, or the current screen.
 
-#### Example
+## Example
 
 The following example gets the Timeline object and returns the number of frames in the longest layer:
 
@@ -43,7 +43,7 @@ var timeline = fl.getDocumentDOM().getTimeline();
 alert(timeline.name);
 ```
 
-#### See also
+## See also
 
 - [Document.currentTimeline](../Document_object/Document39.md)
 - [Document.timelines](../Document_object/Document5995.md)

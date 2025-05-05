@@ -1,18 +1,18 @@
-## Frame.soundLibraryItem
+# Frame.soundLibraryItem
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.soundLibraryItem
 
-#### Description
+## Description
 
 Property; `SoundItem`; A library item (see [SoundItem object](../SoundItem_object/SoundItem_summary.md)) used to create a sound. The sound is attached directly to the frame.
 
-#### Example
+## Example
 
 The following example assigns the first item in the library to the soundLibraryItem property of the first frame:
 

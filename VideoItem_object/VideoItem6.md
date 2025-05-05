@@ -1,19 +1,19 @@
-## VideoItem.videoType
+# VideoItem.videoType
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 *videoItem.videoType*
 
-#### Description
+## Description
 
 Read-only property; a string that specifies the type of video the item represents. Possible values are "embedded video"
 and "video".
 
-#### Example
+## Example
 
 The following example displays the name and type of any items in the library that are of type video:
 

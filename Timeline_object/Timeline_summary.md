@@ -1,10 +1,10 @@
-## Timeline summary
+# Timeline summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Timeline object represents the Animate timeline, which can be accessed for the current document by using `fl.getDocumentDOM().getTimeline()`. This method returns the timeline of the current scene or symbol that is being edited.
 
@@ -12,7 +12,7 @@ When you work with scenes, each scene’s timeline has an index value, and can b
 
 When you work with frames by using the methods and properties of the Timeline object, remember that the frame value is a zero-based index (not the actual frame number in the sequence of frames in the timeline). That is, the first frame has a frame index of 0.
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Timeline object:
 
@@ -64,7 +64,7 @@ The following methods are available for the Timeline object:
 | [Timeline.startPlayback()](../Timeline_object/Timeline49.md) | Starts automatic playback of the timeline if it is not currently playing. |
 | [Timeline.stopPlayback()](../Timeline_object/Timeline50.md) | Stops autoumatic playback of the timeline if it is currently playing. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Timeline object:
 

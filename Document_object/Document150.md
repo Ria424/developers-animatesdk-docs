@@ -1,26 +1,26 @@
-## Document.moveSelectedBezierPointsBy()
+# Document.moveSelectedBezierPointsBy()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.moveSelectedBezierPointsBy(delta)
 
-#### Parameters
+## Parameters
 
 **delta** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates in pixels by which the selected Bézier points are moved. For example, passing ({x: 1, y: 2}) specifies a location that is to the right by one pixel and down by two pixels from the current location.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; If the selection contains at least one path with at least one Bézier point selected, moves all selected Bézier points on all selected paths by the specified amount.
 
-#### Example
+## Example
 
 The following example moves the selected Bézier points 10 pixels to the right and 5 pixels down:
 

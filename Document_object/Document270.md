@@ -1,26 +1,26 @@
-## Document.removeFilter()
+# Document.removeFilter()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.removeFilter(filterIndex)
 
-#### Parameters
+## Parameters
 
 **filterIndex** `integer`; The zero-based index of the filter to remove from the selected objects.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes the specified filter from the Filters list of the selected objects.
 
-#### Example
+## Example
 
 The following example removes the first filter (index value 0) from the Filters list of the selected objects:
 
@@ -28,7 +28,7 @@ The following example removes the first filter (index value 0) from the Filters 
 fl.getDocumentDOM().removeFilter(0);
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

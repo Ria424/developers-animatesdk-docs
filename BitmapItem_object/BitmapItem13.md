@@ -1,18 +1,18 @@
-## BitmapItem.useImportedJPEGQuality
+# BitmapItem.useImportedJPEGQuality
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 BitmapItem.useImportedJPEGQuality
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether to use the default imported JPEG quality (*true*) or not (*false*). Available only for JPEG compression.
 
-#### Example
+## Example
 
 The following code sets the useImportedJPEGQuality property of the first item in the library of the current document to true:
 

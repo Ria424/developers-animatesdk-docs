@@ -1,18 +1,18 @@
-## Frame.hasMotionPath()
+# Frame.hasMotionPath()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.hasMotionPath()
 
-#### Description
+## Description
 
 Method; `boolean`; Lets you know whether the current selection includes a motion path.
 
-#### Example
+## Example
 
 The following example returns a trace statement informing you if the current selection has a motion path.
 

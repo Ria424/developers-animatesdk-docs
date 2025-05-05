@@ -1,14 +1,14 @@
-## Document.mouseDblClk()
+# Document.mouseDblClk()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.mouseDblClk(position, bAltDown, bShiftDown, bShiftSelect)
 
-#### Parameters
+## Parameters
 
 **position** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates of the click in pixels.
 
@@ -20,15 +20,15 @@ false for not pressed.
 
 **bShiftSelect** `boolean`; A boolean value that indicates the state of the application preference Shift select: true for on; false for off.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; performs a double mouse click from the Selection tool.
 
-#### Example
+## Example
 
 The following example performs a double mouse click at the specified location:
 
@@ -36,6 +36,6 @@ The following example performs a double mouse click at the specified location:
 fl.getDocumentDOM().mouseDblClk({x: 392.9, y: 73}, false, false, true);
 ```
 
-#### See also
+## See also
 
 [Document.mouseClick()](../Document_object/Document130.md)

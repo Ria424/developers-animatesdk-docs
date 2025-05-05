@@ -1,26 +1,26 @@
-## ActionsPanel.getSelectedText()
+# ActionsPanel.getSelectedText()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 ActionsPanel.getSelectedText()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `string`; A string that contains the text that is currently selected in the Actions panel.
 
-#### Description
+## Description
 
 Method; Returns the text that is currently selected in the Actions panel.
 
-#### Example
+## Example
 
 The following example displays the text that is currently selected in the Actions panel.
 
@@ -29,7 +29,7 @@ var apText = fl.actionsPanel.getSelectedText();
 fl.trace(apText);
 ```
 
-#### See also
+## See also
 
 - [ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md)
 - [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md)

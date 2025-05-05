@@ -1,18 +1,18 @@
-## TextureAtlasExporter.autoSize
+# TextureAtlasExporter.autoSize
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.autoSize
 
-#### Description
+## Description
 
 Property; A boolean value indicating whether the TextureAtlasExporter should calculate the overall size of TextureAtlas on its own.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

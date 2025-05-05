@@ -1,18 +1,18 @@
-## BitmapInstance.hPixels
+# BitmapInstance.hPixels
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 BitmapInstance.hPixels
 
-#### Description
+## Description
 
 Read-only property; `integer`; An integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
 
-#### Example
+## Example
 
 The following code retrieves the width of the bitmap in pixels:
 
@@ -25,6 +25,6 @@ if (isBitmap == "bitmap") {
 }
 ```
 
-#### See also
+## See also
 
 [BitmapInstance.vPixels](../BitmapInstance_object/BitmapInstance3.md)

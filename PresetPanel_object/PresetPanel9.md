@@ -1,18 +1,18 @@
-## PresetPanel.items
+# PresetPanel.items
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *presetPanel.items*
 
-#### Description
+## Description
 
 Property; an array of presetItem objects in the Motion Presets panel (see [PresetItem object](../PresetItem_object/PresetItem_summary.md)). Each item in the array represents either a folder or a preset.
 
-#### Example
+## Example
 
 The following code displays the full pathnames of the items in the Motion Presets panel:
 
@@ -24,6 +24,6 @@ for (var x = 0; x < length; x++) {
 }
 ```
 
-#### See also
+## See also
 
 [PresetPanel.getSelectedItems()](../PresetPanel_object/PresetPanel7.md)

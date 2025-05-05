@@ -1,18 +1,18 @@
-## PresetPanel.findItemIndex()
+# PresetPanel.findItemIndex()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *presetPanel.findItemIndex([presetName])*
 
-#### Parameters
+## Parameters
 
 **presetName** A string that specifies the name of the preset for which the index value is returned. This parameter is optional.
 
-#### Returns
+## Returns
 
 An integer that represents the index of the specified preset in the presetPanel.items array. If you don’t pass a value for *presetName*, the index of the currently specified preset is returned. This method returns -1 in the following situations:
 
@@ -22,11 +22,11 @@ An integer that represents the index of the specified preset in the presetPanel.
 
 - You pass a value for *presetName* that doesn’t correspond to an item in the panel.
 
-#### Description
+## Description
 
 Method; returns an integer that represents the index location of an item in the Motion Presets panel.
 
-#### Example
+## Example
 
 The following code displays the index value and full pathname of the currently selected preset:
 

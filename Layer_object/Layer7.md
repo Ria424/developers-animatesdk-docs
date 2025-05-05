@@ -1,18 +1,18 @@
-## Layer.name
+# Layer.name
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Layer.name
 
-#### Description
+## Description
 
 Property; `string`; Specifies the name of the layer.
 
-#### Example
+## Example
 
 The following example sets the name of the first layer in the current document to foreground:
 

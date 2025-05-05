@@ -1,18 +1,18 @@
-## Flash.spriteSheetExporter
+# Flash.spriteSheetExporter
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 fl.spriteSheetExporter
 
-#### Description
+## Description
 
 Property; `SpriteSheetExporter`; Returns an instance of the SpriteSheetExporter object.
 
-#### Example
+## Example
 
 The following example returns a reference to the SpriteSheetExporter object:
 

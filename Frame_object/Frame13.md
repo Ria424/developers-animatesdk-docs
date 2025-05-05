@@ -1,18 +1,18 @@
-## Frame.isEmpty()
+# Frame.isEmpty()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Frame.isEmpty()
 
-#### Description
+## Description
 
 Method; `boolean`; A boolean value. Lets you know whether the frame contains any elements.
 
-#### Example
+## Example
 
 The following example illustrates use of this method.
 

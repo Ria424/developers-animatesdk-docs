@@ -1,14 +1,14 @@
-## CompiledClipInstance.useBackgroundColor
+# CompiledClipInstance.useBackgroundColor
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.useBackgroundColor
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean that sets the background color:
 
@@ -16,7 +16,7 @@ Property; `boolean`; A boolean that sets the background color:
 
 - false - Use the background color.
 
-#### Example
+## Example
 
 The following example illustrates use of this property:
 

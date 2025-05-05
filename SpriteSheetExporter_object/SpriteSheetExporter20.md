@@ -1,18 +1,18 @@
-## SpriteSheetExporter.maxSheetWidth
+# SpriteSheetExporter.maxSheetWidth
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.maxSheetWidth
 
-#### Description
+## Description
 
 Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

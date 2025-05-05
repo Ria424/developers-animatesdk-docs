@@ -1,14 +1,14 @@
-## Document.exportVideo()
+# Document.exportVideo()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Document.exportVideo(fileURI [, convertInAdobeMediaEncoder] [, transparent] [, stopAtFrame] [, stopAtFrameOrTime])
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the fully qualified path to which the video is saved.
 
@@ -20,15 +20,15 @@ Document.exportVideo(fileURI [, convertInAdobeMediaEncoder] [, transparent] [, s
 
 **stopAtFrameOrTime** `integer?0`; If stopAtFrame is true, this is an integer specifying the number of frames to record. If stopAtFrame is false, this is the number of milliseconds to record. The default value is 0 which, if stopAtFrame is true, will record all the frames in the main timeline. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Exports a video from the document and optionally sends it to Adobe Media Encoder to convert the video.
 
-#### Example
+## Example
 
 The following example illustrates the use of this method:
 

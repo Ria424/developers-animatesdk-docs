@@ -1,26 +1,26 @@
-## FLfile.exists()
+# FLfile.exists()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.exists(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the file you want to verify.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of true if successful; false otherwise.
 
-#### Description
+## Description
 
 Method; Determines whether a specified file exists. If you specify a folder and a filename, the folder must already exist. To create folders, see [FLfile.createFolder()](../FLfile_object/FLfile1.md).
 
-#### Examples
+## Examples
 
 The following example checks for a file called mydata.txt in the temp folder and displays an alert box indicating whether the file exists:
 
@@ -42,6 +42,6 @@ if (!FLfile.exists(configFile)) {
 }
 ```
 
-#### See also
+## See also
 
 [FLfile.write()](../FLfile_object/FLfile15.md)

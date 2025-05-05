@@ -1,26 +1,26 @@
-## FLfile.read()
+# FLfile.read()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.read(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; Expressed as a file:/// URI, specifying the text-based file (such as .js, .txt, or .jsfl) that you want to read.
 
-#### Returns
+## Returns
 
 `string | null`; The contents of the specified file as a string, or null if the read fails.
 
-#### Description
+## Description
 
 Method; Returns the contents of the specified file as a string, or null if the read fails.
 
-#### Examples
+## Examples
 
 The following example reads the file mydata.txt and, if successful, displays an alert box with the contents of the file.
 

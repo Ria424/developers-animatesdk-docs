@@ -1,22 +1,22 @@
-## Document.saveAndCompact() - dropped
+# Document.saveAndCompact() - dropped
 
-#### Availability
+## Availability
 
 Flash MX 2004. *Dropped in Flash Professional CS6.*
 
-#### Usage
+## Usage
 
 Document.saveAndCompact([bOkToSaveAs])
 
-#### Parameters
+## Parameters
 
 **bOkToSaveAs** `boolean?true`; An optional parameter that, if true or omitted and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved. The default value is true.
 
-#### Returns
+## Returns
 
 `boolean`; true if the save-and-compact operation completes successfully; false otherwise.
 
-#### Example
+## Example
 
 The following example saves and compacts the current document:
 
@@ -24,7 +24,7 @@ The following example saves and compacts the current document:
 fl.getDocumentDOM().saveAndCompact();
 ```
 
-#### See also
+## See also
 
 - [Document.save()](../Document_object/Document370.md)
 - [Flash.saveDocumentAs()](../Flash_object/Flash65.md)

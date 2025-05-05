@@ -1,18 +1,18 @@
-## TextureAtlasExporter.flattenSkewObject
+# TextureAtlasExporter.flattenSkewObject
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.flattenSkewObject
 
-#### Description
+## Description
 
 Property; Boolean value which indicates whether skewed assets needs to be flattened to the texture atlas.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

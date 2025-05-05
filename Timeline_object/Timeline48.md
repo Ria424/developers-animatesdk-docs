@@ -1,26 +1,26 @@
-## Timeline.showLayerMasking()
+# Timeline.showLayerMasking()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.showLayerMasking(Animate[layer])
 
-#### Parameters
+## Parameters
 
 **layer** `integer`; A zero-based index of a mask or masked layer to show masking during authoring. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Shows the layer masking during authoring by locking the mask and masked layers. This method uses the current layer if no layer is specified. If you use this method on a layer that is not of type Mask or Masked, Animate displays an error in the Output panel.
 
-#### Example
+## Example
 
 The following example specifies that the layer masking of the first layer should show during authoring.
 

@@ -1,14 +1,14 @@
-## Timeline.setLayerProperty()
+# Timeline.setLayerProperty()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.setLayerProperty(property, value \[, layersToChange\])
 
-#### Parameters
+## Parameters
 
 **property** `string`; The property to set. For a list of properties, see "[Layer object](../Layer_object/Layer_summary.md)".
 
@@ -16,15 +16,15 @@ Timeline.setLayerProperty(property, value \[, layersToChange\])
 
 **layersToChange** `"selected" | "all" | "others"?"selected"`; A string that identifies which layers should be modified. Acceptable values are "selected", "all", and "others". The default value is "selected" if you omit this parameter. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the specified property on all the selected layers to a specified value.
 
-#### Example
+## Example
 
 The following example makes the selected layer(s) invisible:
 

@@ -1,26 +1,26 @@
-## Edge.getControl()
+# Edge.getControl()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Edge.getControl(i)
 
-#### Parameters
+## Parameters
 
 **i** `integer`; Specifies which control point of the edge to return. Specify 0 for the first control point, 1 for the middle control point, or 2 for the end control point. If the [Edge.isLine](../Edge_object/Edge4.md) property is true, the middle control point is set to the midpoint of the segment joining the beginning and ending control points.
 
-#### Returns
+## Returns
 
 The specified control point.
 
-#### Description
+## Description
 
 Method; Gets a point object set to the location of the specified control point of the edge.
 
-#### Example
+## Example
 
 The following example stores the first control point of the specified shape in the pt variable:
 

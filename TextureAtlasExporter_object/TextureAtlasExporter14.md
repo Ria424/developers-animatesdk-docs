@@ -1,18 +1,18 @@
-## TextureAtlasExporter.shapePadding
+# TextureAtlasExporter.shapePadding
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.shapePadding
 
-#### Description
+## Description
 
 Property; An integer value indicating how many pixels of padding should be added to each exported symbol frame when adding it to the TextureAtlas.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

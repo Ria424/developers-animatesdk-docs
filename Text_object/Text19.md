@@ -1,20 +1,20 @@
-## Text.selectable
+# Text.selectable
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.selectable
 
-#### Description
+## Description
 
 Property; a Boolean value. If the value is true, the text can be selected.
 
 Input text is always selectable. Flash generates a warning when this property is set to false and used with input text.
 
-#### Example
+## Example
 
 The following example sets the selectable property to true:
 

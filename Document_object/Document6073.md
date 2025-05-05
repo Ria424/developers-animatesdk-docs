@@ -1,14 +1,14 @@
-## Document.transformSelection()
+# Document.transformSelection()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.transformSelection(a, b, c, d)
 
-#### Parameters
+## Parameters
 
 **a** `number`; A floating-point number that specifies the (0, 0) element of the transformation matrix.
 
@@ -18,15 +18,15 @@ Document.transformSelection(a, b, c, d)
 
 **d** `number`; A floating-point number that specifies the (1, 1) element of the transformation matrix.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Performs a general transformation on the current selection by applying the matrix specified in the arguments. For more information, see the [Element.matrix](../Element_object/Element10.md) property.
 
-#### Example
+## Example
 
 The following example stretches the selection by a factor of 2 in the x direction:
 

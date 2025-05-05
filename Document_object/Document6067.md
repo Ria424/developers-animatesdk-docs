@@ -1,14 +1,14 @@
-## Document.setTaggedSwatchAtIndex()
+# Document.setTaggedSwatchAtIndex()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.setTaggedSwatchAtIndex(oldSwatchIndex:int, newSwatch:Object [,palette:int ]).
 
-#### Parameters
+## Parameters
 
 **oldSwatchIndex** `integer`; Specifies the index of the tagged swatch to update.
 
@@ -16,15 +16,15 @@ Document.setTaggedSwatchAtIndex(oldSwatchIndex:int, newSwatch:Object [,palette:i
 
 **palette** `integer?0`; An optional integer that specifies the index of the tagged swatch palette, default value is 0.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Replace the tagged swatch with the given index to the given new swatch object.
 
-#### Example
+## Example
 
 The following example replace the tagged swatch with the given index 0 to the given new swatch object swatch1.
 
@@ -39,6 +39,6 @@ swatch1.name = "solid_swatch";
 document.setTaggedSwatchAtIndex(0, swatch1);
 ```
 
-#### See also
+## See also
 
 [Document.setTaggedSwatchByName()](../Document_object/Document6068.md)

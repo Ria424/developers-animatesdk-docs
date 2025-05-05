@@ -1,18 +1,18 @@
-## SpriteSheetExporter.canBorderPad
+# SpriteSheetExporter.canBorderPad
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.canBorderPad
 
-#### Description
+## Description
 
 Read-only property; `boolean`; A boolean value indicating whether the framework specified by the `SpriteSheetExporter.layoutFormat` property supports border padding.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

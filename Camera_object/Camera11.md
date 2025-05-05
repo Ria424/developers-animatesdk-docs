@@ -1,26 +1,26 @@
-## Camera.resetZoom()
+# Camera.resetZoom()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.resetZoom(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Reset camera zoom to it's default zoom value i.e 100%.
 
-#### Example
+## Example
 
 The following example resets camera zoom to it's default zoom value i.e 100%.
 

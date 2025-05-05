@@ -1,26 +1,26 @@
-## Frame.getSoundEnvelope()
+# Frame.getSoundEnvelope()
 
-#### Availability
+## Availability
 
 Flash Professional CC.
 
-#### Usage
+## Usage
 
 Frame.getSoundEnvelope()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `SoundItem`; Returns [SoundItem object](../SoundItem_object/SoundItem_summary.md)
 
-#### Description
+## Description
 
 Method; Gets the sound envelope data of any frame.
 
-#### Example
+## Example
 
 The following example illustrates the use of getSoundEnvelope:
 
@@ -37,6 +37,6 @@ fl.getDocumentDOM().getTimeline().layers[0].frames[1].soundLibraryItem = fl.getD
 fl.getDocumentDOM().getTimeline().layers[0].frames[1].setSoundEnvelope(soundEnv);
 ```
 
-#### See also
+## See also
 
 [Frame.setSoundEnvelope()](../Frame_object/Frame27.md)

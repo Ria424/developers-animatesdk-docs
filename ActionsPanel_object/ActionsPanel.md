@@ -1,26 +1,26 @@
-## ActionsPanel.getClassForObject() - dropped
+# ActionsPanel.getClassForObject() - dropped
 
-#### Availability
+## Availability
 
 Flash CS3 Professional. *Dropped in Adobe Animate*.
 
-#### Usage
+## Usage
 
 ActionsPanel.getClassForObject(ASvariableName)
 
-#### Parameters
+## Parameters
 
 **ASvariableName** `string`; The name of an ActionScript variable.
 
-#### Returns
+## Returns
 
 `string`; The class of which *ASvariableName* is a member.
 
-#### Description
+## Description
 
 Method; Returns the class of the specified variable, which must be defined in the currently displayed Actions panel. In addition, the cursor or selected text in the Actions panel must be positioned after the variable definition.
 
-#### Example
+## Example
 
 The following example displays the class assigned to the variable myVar, if the cursor is positioned after the statement var myVar:ActivityEvent; in the Actions panel.
 

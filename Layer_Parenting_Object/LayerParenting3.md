@@ -1,26 +1,26 @@
-## Layer.getRigMatrixAtFrame()
+# Layer.getRigMatrixAtFrame()
 
-#### Availability
+## Availability
 
 Adobe Animate 2020.
 
-#### Parameters
+## Parameters
 
 **frameIndex** – It is an integer that specifies absolute frame index.
 
-#### Usage
+## Usage
 
 layer.getRigMatrixAtFrame(frameIndex)
 
-#### Returns
+## Returns
 
 matrix object
 
-#### Description
+## Description
 
 Method; It will return the rig matrix of the particular frame.
 
-#### Example
+## Example
 
 The following example gets the rig matrix from the first frame of the ninth layer:
 

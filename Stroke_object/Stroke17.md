@@ -1,18 +1,18 @@
-## Stroke.shapeFill
+# Stroke.shapeFill
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 stroke.shapeFill
 
-#### Description
+## Description
 
 Property; a [Fill object](../Fill_object/Fill_summary.md) that represents the fill settings of the stroke.
 
-#### Example
+## Example
 
 The following example specifies fill settings and then applies them to the stroke:
 

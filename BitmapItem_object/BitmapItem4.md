@@ -1,18 +1,18 @@
-## BitmapItem.hasValidAlphaLayer
+# BitmapItem.hasValidAlphaLayer
 
-#### Availability
+## Availability
 
 Flash CS6 Professional.
 
-#### Usage
+## Usage
 
 BitmapItem.hasValidAlphaLayer
 
-#### Description
+## Description
 
 Read-only property; `boolean`; A boolean indicating if a bitmap in the library has a valid/useful alpha channel. This flag will help you decide if you should export the bitmap item as a PNG instead of a JPEG using the `BitmapItem.exportToFile()` function.
 
-#### Example
+## Example
 
 The following code exports a library item with the proper file name extension depending on whether it has a valid alpha layer.
 
@@ -27,7 +27,7 @@ if (bitmapItem.hasValidAlphaLayer) {
 bitmapItem.exportToFile(uri);
 ```
 
-#### See also
+## See also
 
 - [BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md)
 - [BitmapItem.sourceFileIsCurrent](../BitmapItem_object/BitmapItem10.md)

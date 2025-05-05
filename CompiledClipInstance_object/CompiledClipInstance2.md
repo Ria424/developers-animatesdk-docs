@@ -1,18 +1,18 @@
-## CompiledClipInstance.backgroundColor
+# CompiledClipInstance.backgroundColor
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.backgroundColor
 
-#### Description
+## Description
 
 Property; `string`; Specifies the matte color when Opaque is selected. This is a string in hexadecimal #rrggbb format or an integer containg the value.
 
-#### Example
+## Example
 
 The following example illustrates getting the backgroundColor property:
 

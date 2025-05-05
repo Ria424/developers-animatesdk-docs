@@ -1,28 +1,28 @@
-## Flash.removeEventListener()
+# Flash.removeEventListener()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional. The id parameter is new in CS4.
 
-#### Usage
+## Usage
 
 fl.removeEventListener(eventType, id)
 
-#### Parameters
+## Parameters
 
 **eventType** A string that specifies the event type to remove from this callback function. Acceptable values are "documentNew", "documentOpened", "documentClosed", "mouseMove", "documentChanged", "layerChanged", "timelineChanged", and "frameChanged".
 
 **id** An integer that specifies the listener ID returned from the corresponding fl.addEventListener() call.
 
-#### Returns
+## Returns
 
 A Boolean value of true if the event listener was successfully removed; false if the function was never added to the list with the fl.addEventListener() method.
 
-#### Description
+## Description
 
 Unregisters a function that was registered using [Flash.addEventListener()](../Flash_object/Flash1.md).
 
-#### Example
+## Example
 
 The following example removes the event listener associated with the documentClosed event:
 
@@ -30,6 +30,6 @@ The following example removes the event listener associated with the documentClo
 fl.removeEventListener("documentClosed", eventID);
 ```
 
-#### See also
+## See also
 
 [Flash.addEventListener()](../Flash_object/Flash1.md)

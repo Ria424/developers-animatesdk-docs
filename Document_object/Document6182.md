@@ -1,18 +1,18 @@
-## Document.width
+# Document.width
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.width
 
-#### Description
+## Description
 
 Property; `integer`; The width of the document (Stage) in pixels.
 
-#### Example
+## Example
 
 The following example sets the width of the Stage to 400 pixels.
 
@@ -20,6 +20,6 @@ The following example sets the width of the Stage to 400 pixels.
 fl.getDocumentDOM().width = 400;
 ```
 
-#### See also
+## See also
 
 [Document.height](../Document_object/Document91.md)

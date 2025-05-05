@@ -1,26 +1,26 @@
-## Element.getPersistentData()
+# Element.getPersistentData()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 element.getPersistentData(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; A string that identifies the data to be returned.
 
-#### Returns
+## Returns
 
 The data specified by the *name* parameter, or 0 if the data doesn’t exist.
 
-#### Description
+## Description
 
 Method; Retrieves the value of the data specified by the *name* parameter. The type of data depends on the type of the data that was stored (see [Element.setPersistentData()](../Element_object/Element17.md)). Only symbols and bitmaps support persistent data.
 
-#### Example
+## Example
 
 The following example sets and gets data for the specified element, shows its value in the Output panel, and then removes the data:
 

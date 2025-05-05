@@ -1,18 +1,18 @@
-## Frame.isMotionObject()
+# Frame.isMotionObject()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.isMotionObject()
 
-#### Description
+## Description
 
 Method; `boolean`; A boolean value. Lets you know whether the current selection is a motion object.
 
-#### Example
+## Example
 
 The following example returns a trace statement informing you that the current selection is or is not a motion object.
 

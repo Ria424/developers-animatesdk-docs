@@ -1,26 +1,26 @@
-## HalfEdge.getEdge()
+# HalfEdge.getEdge()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 halfEdge.getEdge()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 An [Edge object](../Edge_object/Edge_summary.md).
 
-#### Description
+## Description
 
 Method; gets the Edge object for the HalfEdge object. See [Edge object](../Edge_object/Edge_summary.md).
 
-#### Example
+## Example
 
 The following example illustrates getting an edge and a half edge for the specified shape:
 

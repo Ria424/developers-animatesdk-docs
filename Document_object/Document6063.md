@@ -1,26 +1,26 @@
-## Document.getTaggedSwatchesPaletteList()
+# Document.getTaggedSwatchesPaletteList()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.getTaggedSwatchesPaletteList().
 
-#### Parameters
+## Parameters
 
 Nothing.
 
-#### Returns
+## Returns
 
 `string[]`; Array of tagged swatches palette name list.
 
-#### Description
+## Description
 
 Method; To get the array of Tagged Swatches palette name.
 
-#### Example
+## Example
 
 The following example returns the array of tagged swatches.
 
@@ -29,7 +29,7 @@ var document = fl.getDocumentDOM();
 var arr = document.getTaggedSwatchesPaletteList();
 ```
 
-#### See also
+## See also
 
 [Document.getTaggedSwatchByName()](../Document_object/Document6062.md)
 [Document.getTaggedSwatches()](../Document_object/Document6064.md)

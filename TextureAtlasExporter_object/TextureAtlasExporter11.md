@@ -1,18 +1,18 @@
-## TextureAtlasExporter.optimizeJson
+# TextureAtlasExporter.optimizeJson
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.optimizeJson
 
-#### Description
+## Description
 
 Property; Boolean value which indicates whether animation.json needs to be optimized by removing indentation, decomposed matrix and use shortened names.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

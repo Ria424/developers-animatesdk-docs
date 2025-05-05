@@ -1,20 +1,20 @@
-## Text.maxCharacters
+# Text.maxCharacters
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.maxCharacters
 
-#### Description
+## Description
 
 Property; an integer that specifies the maximum number of characters the user can enter in this Text object.
 
 This property works only with input text; if used with other text types, the property generates a warning.
 
-#### Example
+## Example
 
 The following example sets the value of the maxCharacters property to 30:
 

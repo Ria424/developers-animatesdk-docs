@@ -1,26 +1,26 @@
-## Document.enableAllFilters()
+# Document.enableAllFilters()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.enableAllFilters()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Enables all the filters on the Filters list for the selected objects.
 
-#### Example
+## Example
 
 The following example enables all the filters on the Filters list for the selected objects:
 
@@ -28,7 +28,7 @@ The following example enables all the filters on the Filters list for the select
 fl.getDocumentDOM().enableAllFilters();
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

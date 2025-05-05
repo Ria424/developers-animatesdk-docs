@@ -1,18 +1,18 @@
-## TextureAtlasExporter.algorithm
+# TextureAtlasExporter.algorithm
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.algorithm
 
-#### Description
+## Description
 
 Property;  A string indicating which algorithm to use to pack the TextureAtlas. Valid values are "basic", and "maxRects" (the default).
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

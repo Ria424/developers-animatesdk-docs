@@ -1,18 +1,18 @@
-## Flash.Math
+# Flash.Math
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.Math
 
-#### Description
+## Description
 
 Read-only property; `Math`; the [Math object](../Math_object/Math_summary.md) provides methods for matrix and point operations.
 
-#### Example
+## Example
 
 The following example shows the transformation matrix of the selected object and its inverse:
 

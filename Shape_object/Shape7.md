@@ -1,18 +1,18 @@
-## Shape.isFloating
+# Shape.isFloating
 
-#### Availability
+## Availability
 
 Flash CS6.
 
-#### Usage
+## Usage
 
 *shape.isFloating*
 
-#### Description
+## Description
 
 Read-only property; if true, the shape is floating above the parent frame’s (or group’s) shape. Also, if true, this type of shape will have it's own matrix, similar to a drawing object.
 
-#### Example
+## Example
 
 The following example displays whether a specified shape is floating:
 

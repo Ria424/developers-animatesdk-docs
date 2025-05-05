@@ -1,16 +1,16 @@
-## FontItem summary
+# FontItem summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > FontItem object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The FontItem object is a subclass of the Item object (see [Item object](../Item_object/Item_summary.md)).
 
-#### Property summary
+## Property summary
 
 In addition to the Item object properties, the following properties are available for the FontItem object:
 

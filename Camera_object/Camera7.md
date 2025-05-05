@@ -1,28 +1,28 @@
-## Camera.setZoom()
+# Camera.setZoom()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019
 
-#### Usage
+## Usage
 
 Camera.setZoom(frameIndex, zoomVal)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
 **zoomVal** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Zooms camera to absolute value given by input parameter in percentage.
 
-#### Example
+## Example
 
 The following example zooms camera to absolute value given by input parameter in percentage.
 

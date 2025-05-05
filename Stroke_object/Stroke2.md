@@ -1,14 +1,14 @@
-## Stroke.color
+# Stroke.color
 
-#### Availability
+## Availability
 
 Flash MX 2004. In Flash 8 and later, this property is deprecated in favor of stroke.shapeFill.color.
 
-#### Usage
+## Usage
 
 stroke.color
 
-#### Description
+## Description
 
 Property; the color of the stroke, in one of the following formats:
 
@@ -18,7 +18,7 @@ Property; the color of the stroke, in one of the following formats:
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-#### Example
+## Example
 
 The following example sets the stroke color:
 
@@ -28,6 +28,6 @@ myStroke.color = "#000000";
 fl.getDocumentDOM().setCustomStroke(myStroke);
 ```
 
-#### See also
+## See also
 
 [Stroke.shapeFill](../Stroke_object/Stroke17.md)

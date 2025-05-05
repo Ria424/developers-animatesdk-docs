@@ -1,16 +1,16 @@
-## Tools summary
+# Tools summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Tools object is accessible from the flash object ([Flash.tools](../Flash_object/Flash76.md)). The [Tools.toolObjs](../Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](../Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](../ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](../Top-level_functions_and_methods/Top.md).)
 
 ***Note:** The following methods and properties are used only when creating extensible tools.*
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Tools object:
 
@@ -21,7 +21,7 @@ The following methods are available for the Tools object:
 | [Tools.setCursor()](../Tools_object/Tools8.md) | Sets the pointer to a specified appearance. |
 | [Tools.snapPoint()](../Tools_object/Tools10.md) | Takes a point as input and returns a new point that may be adjusted or *snapped* to the nearest geometric object. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Tools object:
 

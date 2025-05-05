@@ -1,18 +1,18 @@
-## Vertex.x
+# Vertex.x
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Vertex.x
 
-#### Description
+## Description
 
 Read-only property; `number`; The *x* location of the vertex, in pixels.
 
-#### Example
+## Example
 
 The following example displays the location of the *x* and *y* values of the vertex in the Output panel:
 

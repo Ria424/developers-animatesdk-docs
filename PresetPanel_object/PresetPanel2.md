@@ -1,22 +1,22 @@
-## PresetPanel.deleteFolder()
+# PresetPanel.deleteFolder()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *presetPanel.deleteFolder( [folderPath])*
 
-#### Parameters
+## Parameters
 
 **folderPath** A string that specifies the folder to delete from the Motion Presets panel. This parameter is optional.
 
-#### Returns
+## Returns
 
 A Boolean value of *true* if the folder or folders are successfully deleted; false otherwise.
 
-#### Description
+## Description
 
 Method; deletes the specified folder and any of its subfolders from the folder tree of the Motion Presets panel. Any presets in the folders are also deleted. You can’t delete folders from the Default Presets folder.
 
@@ -24,7 +24,7 @@ If you don’t pass a value for *folderPath*, any folders that are currently sel
 
 ***Note:** Folders are deleted without requesting user confirmation, and there is no way to undo this action.*
 
-#### Example
+## Example
 
 The following code deletes a folder named Bouncing below the Custom Presets folder; any subfolders of Bouncing are also deleted:
 
@@ -32,6 +32,6 @@ The following code deletes a folder named Bouncing below the Custom Presets fold
 fl.presetPanel.deleteFolder("Custom Presets/Bouncing");
 ```
 
-#### See also
+## See also
 
 [PresetPanel.deleteItem()](../PresetPanel_object/PresetPanel3.md)

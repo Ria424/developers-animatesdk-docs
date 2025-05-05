@@ -1,26 +1,26 @@
-## Timeline.pasteLayers()
+# Timeline.pasteLayers()
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 Timeline.pasteLayers(\[layerIndex\])
 
-#### Parameters
+## Parameters
 
 **layerIndex** `integer?`; Optional. A zero-based index that specifies the layer above which the layers on the clipboard are pasted. If you omit layerIndex, the method uses the current selection.
 
-#### Returns
+## Returns
 
 Integer indicating the lowest layer index of the layers that were pasted.
 
-#### Description
+## Description
 
 Method; Paste layers that have been previously cut or copied above the currently selected layer, or above the specified layer index. If the specified layer is a folder layer, the layers are pasted into the folder. Returns the lowest layer index of the layers that were pasted. This action does not affect the system clipboard.
 
-#### Example
+## Example
 
 The following example pastes the layers from the layer clipboard above the currently selected layer in the Timeline:
 
@@ -35,7 +35,7 @@ fl.getDocumentDOM().getTimeline().pasteLayers(2);
 
 ```
 
-#### See also
+## See also
 
 - [Timeline.cutLayers()](../Timeline_object/Timeline15.md)
 - [Timeline.copyLayers()](../Timeline_object/Timeline7.md)

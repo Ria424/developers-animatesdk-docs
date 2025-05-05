@@ -1,18 +1,18 @@
-## Document.height
+# Document.height
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.height
 
-#### Description
+## Description
 
 Property; `integer`; Specifies the height of the document (Stage) in pixels.
 
-#### Example
+## Example
 
 The following example sets the height of the Stage to 400 pixels:
 
@@ -20,6 +20,6 @@ The following example sets the height of the Stage to 400 pixels:
 fl.getDocumentDOM().height = 400;
 ```
 
-#### See also
+## See also
 
 [Document.width](../Document_object/Document6182.md)

@@ -1,26 +1,26 @@
-## Flash.closeAllPlayerDocuments()
+# Flash.closeAllPlayerDocuments()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.closeAllPlayerDocuments()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value: true if one or more movie windows were open; false otherwise.
 
-#### Description
+## Description
 
 Method; Closes all the SWF files that were opened with Control > Test Movie.
 
-#### Example
+## Example
 
 The following example closes all the SWF files that were opened with Control > Test Movie.
 
@@ -28,7 +28,7 @@ The following example closes all the SWF files that were opened with Control > T
 fl.closeAllPlayerDocuments();
 ```
 
-#### See also
+## See also
 
 - [Flash.closeAll()](../Flash_object/Flash7.md)
 - [Flash.closeDocument()](../Flash_object/Flash9.md)

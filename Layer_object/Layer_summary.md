@@ -1,14 +1,14 @@
-## Layer summary
+# Layer summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Layer object represents a layer in the timeline. The [Timeline.layers](../Timeline_object/Timeline31.md) property contains an array of Layer objects, which can be accessed by `fl.getDocumentDOM().getTimeline().layers`.
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Item object:
 
@@ -23,7 +23,7 @@ The following methods are available for the Item object:
 | [Layer. setFiltersAtFrame()](../Layer_object/Layer18.md) | frameIndex – int, filterArray - The array of filters to be set. |
 | [Layer.setZDepthAtFrame()](../Layer_object/Layer12.md) | Enables to set ZDepth value at the frame. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Layer object:
 

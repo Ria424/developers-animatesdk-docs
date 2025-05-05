@@ -1,18 +1,18 @@
-## Timeline.libraryItem
+# Timeline.libraryItem
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Timeline.libraryItem
 
-#### Description
+## Description
 
 Read-only property; `Item | null`; If the timeline's libraryItem property is null, the timeline belongs to a scene. If it's not null, you can treat it like a LibraryItem object.
 
-#### Example
+## Example
 
 The following example outputs the name of the libraryItem if the value of libraryItem is not null, and the name of the scene if librayItem is null:
 

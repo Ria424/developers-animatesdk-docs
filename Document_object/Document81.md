@@ -1,26 +1,26 @@
-## Document.getMobileSettings()
+# Document.getMobileSettings()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.getMobileSettings()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `string`; A string that represents the XML settings for the document. If no value has been set, returns an empty string.
 
-#### Description
+## Description
 
 Method; Returns the mobile XML settings for the document.
 
-#### Example
+## Example
 
 The following example displays the XML settings string for the current document:
 
@@ -32,6 +32,6 @@ fl.trace(fl.getDocumentDOM().getMobileSettings());
 */
 ```
 
-#### See also
+## See also
 
 [Document.setMobileSettings()](../Document_object/Document580.md)

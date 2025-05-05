@@ -1,14 +1,14 @@
-## ToolObj.showPIControl()
+# ToolObj.showPIControl()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ToolObj.showPIControl(control, bShow)
 
-#### Parameters
+## Parameters
 
 **control** `string`; The name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md)).
 
@@ -39,15 +39,15 @@ The movie Property inspector has the following controls:
 **bShow** `boolean`; A boolean value that determines whether to show or hide the specified control (true shows the control; false
 hides the control).
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Shows or hides a control in the Property inspector. This method is used only when you create extensible tools.
 
-#### Example
+## Example
 
 The following command in an extensible tool’s JavaScript file will set Flash to not show the fill options in the Property inspector for that tool:
 

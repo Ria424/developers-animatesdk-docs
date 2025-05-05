@@ -1,26 +1,26 @@
-## Document.xmlPanel()
+# Document.xmlPanel()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.xmlPanel(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path to the XML file defining the controls in the panel. The full path is required.
 
-#### Returns
+## Returns
 
 An object that has properties defined for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss" that will have the string value "accept" or "cancel".
 
-#### Description
+## Description
 
 Method; Posts an XMLUI dialog box. See [Flash.xmlui](../Flash_object/Flash81.md).
 
-#### Example
+## Example
 
 The following example loads the Test.xml file and displays each property contained within it:
 

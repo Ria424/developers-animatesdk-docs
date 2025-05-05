@@ -1,18 +1,18 @@
-## VideoItem.sourceFilePath
+# VideoItem.sourceFilePath
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 *videoItem.sourceFilePath*
 
-#### Description
+## Description
 
 Read-only property; a string, expressed as a file:/// URI that specifies the path to the video item.
 
-#### Example
+## Example
 
 The following example displays the name and source file path of any items in the library that are of type video:
 
@@ -25,6 +25,6 @@ for (idx in fl.getDocumentDOM().library.items) {
 }
 ```
 
-#### See also
+## See also
 
 [VideoItem.sourceFileExists](../VideoItem_object/VideoItem3.md)

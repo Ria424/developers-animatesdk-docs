@@ -1,20 +1,20 @@
-## Text.embedVariantGlyphs
+# Text.embedVariantGlyphs
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 text.embedVariantGlyphs
 
-#### Description
+## Description
 
 Property; a Boolean value that specifies whether to enable the embedding of variant glyphs (true) or not (false). This property works only with dynamic or input text; it is ignored if used with static text. The default value is false.
 
 ***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["FontItem.embedVariantGlyphs"](../FontItem_object/FontItem4.md#Fontitem.embedVariantGlyphs) property instead of the text.embedVariantGlyphs property. In Flash Professional CS5, the text.embedVariantGlyphs property no longer has any effect because Flash always embeds variant glyphs for TLF text and never embeds them for Classic text.*
 
-#### Example
+## Example
 
 The following example enables variant glyphs to be embedded in the selected Text object:
 
@@ -22,6 +22,6 @@ The following example enables variant glyphs to be embedded in the selected Text
 fl.getDocumentDOM().selection[0].embedVariantGlyphs = true;
 ```
 
-#### See also
+## See also
 
 [FontItem.embedVariantGlyphs](../FontItem_object/FontItem4.md)

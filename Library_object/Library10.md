@@ -1,18 +1,18 @@
-## Library.items
+# Library.items
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Library.items
 
-#### Description
+## Description
 
 Property; `Item[]`; An array of item objects in the library.
 
-#### Example
+## Example
 
 The following example stores the array of all library items in the itemArray variable:
 

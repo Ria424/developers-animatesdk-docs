@@ -1,26 +1,26 @@
-## Flash.findDocumentDOM()
+# Flash.findDocumentDOM()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.findDocumentDOM(id)
 
-#### Parameters
+## Parameters
 
 **id** An integer that represents a unique identifier for a document.
 
-#### Returns
+## Returns
 
 `Document`; A Document object, or null if no document exists with the specified *id*.
 
-#### Description
+## Description
 
 Method; lets you target a specific file by using its unique identifier (instead of its index value, for example). Use this method in conjunction with [Document.id](../Document_object/Document92.md).
 
-#### Example
+## Example
 
 The following example illustrates reading a document’s ID and then using it to target that document:
 
@@ -32,6 +32,6 @@ var targetDoc = fl.findDocumentDOM(originalDocID);
 targetDoc.height = 400;
 ```
 
-#### See also
+## See also
 
 [Flash.findDocumentIndex()](../Flash_object/Flash26.md)

@@ -1,26 +1,26 @@
-## Document.getMetadata()
+# Document.getMetadata()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.getMetadata()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `string`; A string containing the XML metadata associated with the document or an empty string if there is no metadata.
 
-#### Description
+## Description
 
 Method; Returns a string containing the XML metadata associated with the document, or an empty string if there is no metadata.
 
-#### Example
+## Example
 
 The following example displays XML metadata from the current document in the Output panel:
 
@@ -28,6 +28,6 @@ The following example displays XML metadata from the current document in the Out
 fl.trace("XML Metadata is :" + fl.getDocumentDOM().getMetadata());
 ```
 
-#### See also
+## See also
 
 [Document.setMetadata()](../Document_object/Document570.md)

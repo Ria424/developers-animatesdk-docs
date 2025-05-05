@@ -1,13 +1,13 @@
-## Flash.tools
+# Flash.tools
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.tools
 
-#### Description
+## Description
 
 Read-only property; `Tools[]`; An array of Tools objects (see [Tools object](../Tools_object/Tools_summary.md)). This property is used only when creating extensible tools.

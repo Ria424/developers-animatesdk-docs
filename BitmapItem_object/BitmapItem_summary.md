@@ -1,16 +1,16 @@
-## BitmapItem summary
+# BitmapItem summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > BitmapItem object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 A BitmapItem object refers to a bitmap in the library of a document. The BitmapItem object is a subclass of the Item object (see [Item object](../Item_object/Item_summary.md)).
 
-#### Property summary
+## Property summary
 
 In addition to the [Item object](../Item_object/Item_summary.md) properties, the BitmapItem object has following properties:
 
@@ -30,7 +30,7 @@ In addition to the [Item object](../Item_object/Item_summary.md) properties, the
 | [BitmapItem.useImportedJPEGQuality](../BitmapItem_object/BitmapItem13.md) | A Boolean value that specifies whether to use the default imported JPEG quality. |
 | [BitmapItem.vPixels](../BitmapItem_object/BitmapItem14.md) | Specifies the height of the bitmap, in pixels. |
 
-#### Method summary
+## Method summary
 
 In addition to the [Item object](../Item_object/Item_summary.md) properties, the BitmapItem object has following methods:
 

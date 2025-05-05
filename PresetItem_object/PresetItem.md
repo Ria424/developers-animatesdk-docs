@@ -1,18 +1,18 @@
-## PresetItem.isDefault
+# PresetItem.isDefault
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 presetItem.isDefault
 
-#### Description
+## Description
 
 Read-only property: a Boolean value that specifies whether the item is installed along with Flash (true) or is a custom item that you or someone else has created (false). If this value is true, you can consider it a "read-only" item; it can’t be moved, deleted, or have any similar operations applied to it.
 
-#### Example
+## Example
 
 The following example displays the contents of the Motion Presets panel and indicates whether an item is installed along with Flash:
 

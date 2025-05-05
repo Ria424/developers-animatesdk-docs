@@ -1,18 +1,18 @@
-## BitmapItem.vPixels
+# BitmapItem.vPixels
 
-#### Availability
+## Availability
 
 Flash CS6 Professional.
 
-#### Usage
+## Usage
 
 BitmapItem.vPixels
 
-#### Description
+## Description
 
 Read-only property; `integer`; Specifies the height of the bitmap, in pixels.
 
-#### Example
+## Example
 
 The following code illustrates use of this property.
 
@@ -22,6 +22,6 @@ var bmitemObj = fl.getDocumentDOM().library.items[0];
 var numHorizontalPixels = bmitemObj.vPixels;
 ```
 
-#### See also
+## See also
 
 [BitmapItem.hPixels](../BitmapItem_object/BitmapItem5.md)

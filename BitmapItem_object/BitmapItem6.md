@@ -1,18 +1,18 @@
-## BitmapItem.lastModifiedDate
+# BitmapItem.lastModifiedDate
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 BitmapItem.lastModifiedDat
 
-#### Description
+## Description
 
 Read-only property; `string`; A hexadecimal value indicating the modification date and time of the bitmap item. This value is incremented every time the bitmap item is imported. For example, selecting the Update button from the Bitmap Properties dialog will trigger an import.
 
-#### Example
+## Example
 
 ```javascript
 // Assuming the first item in the Library is a bitmap item, the following code displays a hex number as described above.
@@ -21,7 +21,7 @@ var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("Mod date when imported = " + libItem.lastModifiedDate);
 ```
 
-#### See also
+## See also
 
 - [BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md)
 - [BitmapItem.sourceFileIsCurrent](../BitmapItem_object/BitmapItem10.md)

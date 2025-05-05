@@ -1,18 +1,18 @@
-## Frame.convertMotionObjectTo3D()
+# Frame.convertMotionObjectTo3D()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.convertMotionObjectTo3D()
 
-#### Description
+## Description
 
 Method; Converts the selected motion object to a 3D motion object.
 
-#### Example
+## Example
 
 The following example converts the selected motion object to a 3D motion object:
 

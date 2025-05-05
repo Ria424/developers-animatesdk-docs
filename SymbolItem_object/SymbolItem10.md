@@ -1,18 +1,18 @@
-## SymbolItem.sourceLibraryName
+# SymbolItem.sourceLibraryName
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolItem.sourceLibraryName
 
-#### Description
+## Description
 
 Property; `string`; Specifies the name of the item in the source file library. It is used for shared library symbols.
 
-#### Example
+## Example
 
 The following example shows the value of the sourceLibraryName property in the Output panel:
 

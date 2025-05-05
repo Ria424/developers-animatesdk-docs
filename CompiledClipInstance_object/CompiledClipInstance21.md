@@ -1,18 +1,18 @@
-## CompiledClipInstance.tintColor
+# CompiledClipInstance.tintColor
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.tintColor
 
-#### Description
+## Description
 
 Read-only property; `string`; (#RRGGBB) A Color object that, when the Color Effect Property Inspector is using style tint (colorMode == "tint"), returns the color applied to the tint. Otherwise, using this property results in an error.
 
-#### Example
+## Example
 
 The following example illustrates use of this property:
 

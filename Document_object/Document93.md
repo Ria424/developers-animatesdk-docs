@@ -1,14 +1,14 @@
-## Document.importFile()
+# Document.importFile()
 
-#### Availability
+## Availability
 
 Flash 8. The showDialog and showImporterUI parameters are new in Adobe Animate.
 
-#### Usage
+## Usage
 
 Document.importFile(fileURI [, importToLibrary [, showDialog [, showImporterUI ]]])
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the file to import.
 
@@ -18,15 +18,15 @@ Document.importFile(fileURI [, importToLibrary [, showDialog [, showImporterUI ]
 
 **showImporterUI** `boolean?false`; Specifies whether to display errors visually (for example, using the Library Conflict dialog box). The default is false.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Imports a file into a document. This method performs the same operation as the Import To Library or Import To Stage menu command. To import a publish profile, use [Document.importPublishProfile()](../Document_object/Document94.md).
 
-#### Example
+## Example
 
 The following example lets the user browse for a file to import onto the Stage:
 
@@ -36,6 +36,6 @@ var URI = fl.browseForFileURL("select", "Import File");
 dom.importFile(URI);
 ```
 
-#### See also
+## See also
 
 [Flash.browseForFileURL()](../Flash_object/Flash3.md).

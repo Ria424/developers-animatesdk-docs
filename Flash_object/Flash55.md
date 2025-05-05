@@ -1,27 +1,27 @@
-## Flash.quit()
+# Flash.quit()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.quit([bPromptIfNeeded])
 
-#### Parameters
+## Parameters
 
 **bPromptIfNeeded** A Boolean value that is true (default) if you want the user to be prompted to save any modified documents. Set this parameter to false if you do not want the user to be prompted to save modified documents. In
 the latter case, any modifications in open documents will be discarded and the application will exit immediately. Although it is useful for batch processing, use this method with caution. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; quits Flash, prompting the user to save any changed documents.
 
-#### Example
+## Example
 
 The following example illustrates quitting with and without asking to save modified documents:
 

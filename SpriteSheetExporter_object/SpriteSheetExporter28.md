@@ -1,18 +1,18 @@
-## SpriteSheetExporter.version
+# SpriteSheetExporter.version
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.version
 
-#### Description
+## Description
 
 Read-only property; A stinr gindicating the version number of the Flash Pro application. This property is provided for use by sprite sheet plugins.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

@@ -1,16 +1,16 @@
-## Element summary
+# Element summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 Everything that appears on the Stage is of the type Element. The following code example lets you select an element:
 
 `var el = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0];`
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Element object:
 
@@ -25,7 +25,7 @@ The following methods are available for the Element object:
 | [Element.setPublishPersistentData()](../Element_object/Element18.md) | Enables or disables publishing of persistent data for a specified format. |
 | [Element.setTransformationPoint()](../Element_object/Element19.md) | Sets the position of the element’s transformation point. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Element object:
 

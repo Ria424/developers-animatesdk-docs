@@ -1,14 +1,14 @@
-## Document.addNewRectangle()
+# Document.addNewRectangle()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.addNewRectangle(boundingRectangle, roundness [, bSuppressFill [, bSuppressStroke]])
 
-#### Parameters
+## Parameters
 
 **boundingRectangle** `Rectangle`; Specifies the bounds within which the new rectangle is added, in the format
 {left: value1, top: value2, right: value3, bottom: value4}. The left and top values specify the location of the upper left corner (e.g., left:0,top:0 represents the upper left corner of the Stage) and the right and bottom values specify the location of the lower-right corner. Therefore, the width of the rectangle is the difference in value between left and right, and the height of the rectangle is the difference in value between top and bottom.
@@ -23,15 +23,15 @@ X = 10, Y = 10, W = 40, H = 90
 
 **bSuppressStroke** `boolean?false`; A boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Adds a new rectangle or rounded rectangle, fitting it into the specified bounds. This method performs the same operation as the Rectangle tool. The method uses the document’s current default stroke and fill attributes and adds the rectangle on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
 
-#### Example
+## Example
 
 The following example adds a new rectangle with no rounding on the corners within the specified coordinates; it is 100 pixels in width and in height:
 
@@ -51,6 +51,6 @@ The following example adds a new rectangle with no rounding on the corners and w
 fl.getDocumentDOM().addNewRectangle({left: 20, top: 20, right: 220, bottom: 120}, 0, false, true);
 ```
 
-#### See also
+## See also
 
 [Document.addNewPrimitiveRectangle()](../Document_object/Document8.md)

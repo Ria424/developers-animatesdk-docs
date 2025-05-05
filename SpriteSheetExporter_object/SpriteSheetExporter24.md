@@ -1,18 +1,18 @@
-## SpriteSheetExporter.shapePadding
+# SpriteSheetExporter.shapePadding
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.shapePadding
 
-#### Description
+## Description
 
 Property; An integer value indicating how many pixels of padding should be added to each exported symbol frame when adding it to the sprite sheet.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

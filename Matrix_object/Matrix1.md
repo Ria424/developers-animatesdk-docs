@@ -1,19 +1,19 @@
-## Matrix.b
+# Matrix.b
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 matrix.b
 
-#### Description
+## Description
 
 Property; a floating-point value that specifies the (0,1) element in the matrix. This value represents the vertical skew of a shape; it causes Anim to move the shape’s right edge along the vertical axis.
 The matrix.b and matrix.c properties in a matrix represent skewing (see [Matrix.c](../Matrix_object/Matrix2.md)).
 
-#### Example
+## Example
 
 In the following example, you can set b and c to -1 and 0, respectively; these settings skew the object at a 45º vertical angle:
 

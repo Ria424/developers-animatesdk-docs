@@ -1,14 +1,14 @@
-## Matrix summary
+# Matrix summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Matrix object represents a transformation matrix.
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Matrix object:
 

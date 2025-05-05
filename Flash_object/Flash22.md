@@ -1,28 +1,28 @@
-## Flash.exportPublishProfileString()
+# Flash.exportPublishProfileString()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 fl.exportPublishProfileString( ucfURI [, profileName] )
 
-#### Parameters
+## Parameters
 
 **ucfURI** A string that specifies the file Uniform Resource Identifier (URI) from which to export the publish settings.
 
 **profileName** A string that specifies the profile name to export. This parameter is optional.
 
-#### Returns
+## Returns
 
 String.
 
-#### Description
+## Description
 
 Returns a specific document’s publishing profile without having to open the file. The publish profile can also be specified, but this is optional.
 
-#### Example
+## Example
 
 The following example reads the publishing profile string:
 

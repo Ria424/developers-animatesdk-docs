@@ -1,18 +1,18 @@
-## Tween.getColorTransform()
+# Tween.getColorTransform()
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Usage
+## Usage
 
 Tween.getGeometricTransform(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Offset index of interpolated frame.
 
-#### Returns
+## Returns
 
 `ColorTransform`; ColorTransform object:
 
@@ -29,11 +29,11 @@ declare type ColorTransform = {
 }
 ```
 
-#### Description
+## Description
 
 Method; Gets color transformation data between frames.
 
-#### Example
+## Example
 
 ```javascript
 var doc = fl.getDocumentDOM();

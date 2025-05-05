@@ -1,18 +1,18 @@
-## SwfPanel.name
+# SwfPanel.name
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 swfPanel.name
 
-#### Description
+## Description
 
 Read-only property: a string that represents the name of the specified Window SWF panel.
 
-#### Example
+## Example
 
 The following code displays the name of the first registered Window SWF panel in the Output panel:
 
@@ -20,6 +20,6 @@ The following code displays the name of the first registered Window SWF panel in
 fl.trace(fl.swfPanels[0].name);
 ```
 
-#### See also
+## See also
 
 [SwfPanel.path](../SwfPanel_object/SwfPanel4.md), [Flash.swfPanels](../Flash_object/Flash74.md)

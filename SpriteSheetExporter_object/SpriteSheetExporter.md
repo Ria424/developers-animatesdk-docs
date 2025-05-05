@@ -1,21 +1,21 @@
-## SpriteSheetExporter.addBitmap()
+# SpriteSheetExporter.addBitmap()
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.addBitmap(bitmap)
 
-#### Parameters
+## Parameters
 
 **bitmap** The BitmapItem or Bitmap to include in the sprite sheet.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Adds the specified bitmap or bitmapItem to the sprite sheet object.

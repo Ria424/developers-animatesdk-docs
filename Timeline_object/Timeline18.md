@@ -1,14 +1,14 @@
-## Timeline.expandFolder()
+# Timeline.expandFolder()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.expandFolder(bExpand \[, bRecurseNestedParents \[, index\]\])
 
-#### Parameters
+## Parameters
 
 **bExpand** `boolean`; A boolean value that, if set to true, causes the method to expand the folder; false causes the method to collapse the folder.
 
@@ -16,15 +16,15 @@ Timeline.expandFolder(bExpand \[, bRecurseNestedParents \[, index\]\])
 
 **index** `integer?`; A zero-based index of the folder to expand or collapse. Use -1 to apply to all layers (you also must set *bRecurseNestedParents* to true). This property is equivalent to the Expand All/Collapse All menu items in the Animate authoring tool. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Expands or collapses the specified folder or folders. If you do not specify a layer, this method operates on the current layer.
 
-#### Example
+## Example
 
 The following examples use this folder structure:
 

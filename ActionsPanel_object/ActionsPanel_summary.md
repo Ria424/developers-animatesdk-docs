@@ -1,14 +1,14 @@
-## ActionsPanel summary
+# ActionsPanel summary
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Description
+## Description
 
 The ActionsPanel object, which represents the currently displayed Actions panel, is a property of the Animate object (see [Flash.actionsPanel](../Flash_object/Flash.md)).
 
-#### Method summary
+## Method summary
 
 The following methods can be used with the ActionsPanel object:
 

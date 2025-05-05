@@ -1,14 +1,14 @@
-## Flash summary
+# Flash summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The flash object represents the Flash application. You can use flash or fl to refer to this object. This documentation uses fl in code samples throughout.
 
-#### Method summary
+## Method summary
 
 The following methods can be used with the flash object:
 
@@ -61,7 +61,7 @@ The following methods can be used with the flash object:
 | [Flash.xmlPanel()](../Flash_object/Flash79.md) | Launches the XML To UI dialog from a URI that points to an XML-format file. |
 | [Flash.xmlPanelFromString()](../Flash_object/Flash80.md) | Launches the XML To UI dialog from an XML-format string. |
 
-#### Property summary
+## Property summary
 
 The following properties can be used with the flash object.
 

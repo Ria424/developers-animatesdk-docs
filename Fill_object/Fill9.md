@@ -1,19 +1,19 @@
-## Fill.style
+# Fill.style
 
-#### Availability
+## Availability
 
 Flash MX 2004. Value "bitmap" added in Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 fill.style
 
-#### Description
+## Description
 
 Property; a string that specifies the fill style. Acceptable values are "bitmap", "solid", "linearGradient", "radialGradient", and "noFill".
 If this value is "linearGradient" or "radialGradient", the [Fill.colorArray](../Fill_object/Fill3.md) and [Fill.posArray](../Fill_object/Fill8.md) properties are also available. If this value is "bitmap", the [Fill.bitmapIsClipped](../Fill_object/Fill.md) and [Fill.bitmapPath](../Fill_object/Fill1.md) properties are also available.
 
-#### Example
+## Example
 
 The following example specifies the colors to use in a linear gradient for the current selection:
 

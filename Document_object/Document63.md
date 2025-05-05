@@ -1,14 +1,14 @@
-## Document.exportInstanceToPNGSequence()
+# Document.exportInstanceToPNGSequence()
 
-#### Availability
+## Availability
 
 Flash CS6.
 
-#### Usage
+## Usage
 
 Document.exportInstanceToPNGSequence(outputURI, startFrameNum, endFrameNum, matrix)
 
-#### Parameters
+## Parameters
 
 **outputURI** `string`; The URI to export the PNG Sequence files to. This URI must reference a local file. Example: file:///c\|/tests/mytest.png.
 
@@ -18,15 +18,15 @@ Document.exportInstanceToPNGSequence(outputURI, startFrameNum, endFrameNum, matr
 
 **matrix** `Matrix?`; Optional. A matrix to be appended to the exported PNG sequence.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Exports a selected instance of a movie clip, graphic, or button symbol on the Stage to a series of PNG files on disk. If no startFrameNum or endFrameNum is given, the output includes all frames in the Timeline.
 
-#### Example
+## Example
 
 The following example exports the entire Timeline to a numbered PNG sequence starting with the file name "myTest.png":
 

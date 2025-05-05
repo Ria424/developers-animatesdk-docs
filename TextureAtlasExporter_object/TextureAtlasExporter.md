@@ -1,26 +1,26 @@
-## TextureAtlasExporter.exportTextureAtlas()
+# TextureAtlasExporter.exportTextureAtlas()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.exportTextureAtlas(symbol, path)
 
-#### Parameters
+## Parameters
 
 **_symbol_**:  Object; The SymbolItem or SymbolInstance on which texture atlas should be generated.
 
-#### Returns
+## Returns
 
 Boolean.
 
-#### Description
+## Description
 
 Method; Exports the texture atlas for the selected symbol.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

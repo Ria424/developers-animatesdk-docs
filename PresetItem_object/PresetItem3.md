@@ -1,17 +1,17 @@
-## PresetItem.name
+# PresetItem.name
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 presetItem.name
 
-#### Description
+## Description
 
 Read-only property: a string that represents the name of the preset or folder, without path information.
 
-#### Example
+## Example
 
 See [PresetItem.path](../PresetItem_object/PresetItem5.md).

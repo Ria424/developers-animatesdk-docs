@@ -1,14 +1,14 @@
-## ToolObj.enablePIControl()
+# ToolObj.enablePIControl()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ToolObj.enablePIControl(control, bEnable)
 
-#### Parameters
+## Parameters
 
 **control** `string`; The name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md).
 
@@ -38,15 +38,15 @@ A movie Property inspector has the following controls:
 
 **bEnable** `boolean`; A boolean value that determines whether to enable (true) or disable (false) the control.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Enables or disables the specified control in a Property inspector. Used only when creating extensible tools.
 
-#### Example
+## Example
 
 The following command in an extensible tool's JavaScript file sets Flash to not show the stroke options in the Property inspector for that tool:
 

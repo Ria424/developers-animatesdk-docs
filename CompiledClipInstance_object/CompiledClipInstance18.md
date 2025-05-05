@@ -1,18 +1,18 @@
-## CompiledClipInstance.shortcut
+# CompiledClipInstance.shortcut
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.shortcut
 
-#### Description
+## Description
 
 Property; `string`; A string that is equivalent to the Shortcut field in the Accessibility panel. The shortcut is read by the screen reader. This property is not available for dynamic text fields.
 
-#### Example
+## Example
 
 The following example illustrates getting and setting the shortcut property:
 

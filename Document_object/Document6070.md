@@ -1,26 +1,26 @@
-## Document.exportCanvasPublishTemplate()
+# Document.exportCanvasPublishTemplate()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.exportCanvasPublishTemplate(pathURI).
 
-#### Parameters
+## Parameters
 
 **pathURI**: `string`; A string, expressed as a file:/// URI, that specifies the path of the generated HTML template.
 
-#### Returns
+## Returns
 
 `boolean`; True if exported successfully.False otherwise.
 
-#### Description
+## Description
 
 Method; Exports the HTML5 Canvas Publishing Template for given document,at the specified location.This method is specific to HTML Canvas document only.
 
-#### Example
+## Example
 
 The following example exports the HTML5 Canvas Publishing Template.
 

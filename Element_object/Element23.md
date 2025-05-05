@@ -1,20 +1,20 @@
-## Element.transformX
+# Element.transformX
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 *element.transformX*
 
-#### Description
+## Description
 
 Property; `number`; a floating-point number that specifies the x value of the selected element’s transformation point, within the coordinate system of the element's parent. Setting this property to a new value moves the element. By contrast, the [Element.setTransformationPoint()](../Element_object/Element19.md) method moves the transformation point but does not move the element.
 
-#### Example
+## Example
 
-#### See also
+## See also
 
 - [Element.getTransformationPoint()](../Element_object/Element4.md)
 - [Element.setTransformationPoint()](../Element_object/Element19.md)

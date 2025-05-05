@@ -1,26 +1,26 @@
-## Shape.beginEdit()
+# Shape.beginEdit()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *shape.beginEdit()*
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; defines the start of an edit session. You must use this method before issuing any commands that change the Shape object or any of its subordinate parts.
 
-#### Example
+## Example
 
 The following example takes the currently selected shape and removes the first edge in the edge array from it:
 

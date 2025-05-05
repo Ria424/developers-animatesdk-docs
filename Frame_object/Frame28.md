@@ -1,26 +1,26 @@
-## Frame.setSoundEnvelopeLimits()
+# Frame.setSoundEnvelopeLimits()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Frame.setSoundEnvelopeLimits(limits)
 
-#### Parameters
+## Parameters
 
 **limits** `{start: any; end: any;}`; A structure that contains start and end fields that signify the limits for a custom sound envelope.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the sound envelope limits of any frame with a sound file.
 
-#### Example
+## Example
 
 The following example illustrates the use of setSoundEnvelopeLimits:
 
@@ -31,6 +31,6 @@ limits.end = 15000;
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].setSoundEnvelopeLimits(limits);
 ```
 
-#### See also
+## See also
 
 [Frame.getSoundEnvelopeLimits()](../Frame_object/Frame9.md)

@@ -1,26 +1,26 @@
-## Document.convertLinesToFills()
+# Document.convertLinesToFills()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.convertLinesToFills()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Converts lines to fills on the selected objects.
 
-#### Example
+## Example
 
 The following example converts the current selected lines to fills:
 

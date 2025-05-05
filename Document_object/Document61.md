@@ -1,26 +1,26 @@
-## Document.exitEditMode()
+# Document.exitEditMode()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 document.exitEditMode()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Exits from symbol-editing mode and returns focus to the next level up from the editing mode. For example, if you are editing a symbol inside another symbol, this method takes you up a level from the symbol you are editing, into the parent symbol.
 
-#### Example
+## Example
 
 The following example exits symbol-editing mode:
 
@@ -28,6 +28,6 @@ The following example exits symbol-editing mode:
 fl.getDocumentDOM().exitEditMode();
 ```
 
-#### See also
+## See also
 
 [Document.enterEditMode()](../Document_object/Document60.md)

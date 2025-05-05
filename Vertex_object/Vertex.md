@@ -1,26 +1,26 @@
-## Vertex.getHalfEdge()
+# Vertex.getHalfEdge()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Vertex.getHalfEdge()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `HalfEdge`; A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
 
-#### Description
+## Description
 
 Method; Gets a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) that shares this vertex.
 
-#### Example
+## Example
 
 The following example shows how to get other half edges that share the same vertex:
 

@@ -1,26 +1,26 @@
-## Item.removeData()
+# Item.removeData()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 item.removeData(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; Specifies the name of the data to remove from the library item.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Property; Removes persistent data from the library item.
 
-#### Example
+## Example
 
 The following example removes the data named myData from the first item in the library:
 

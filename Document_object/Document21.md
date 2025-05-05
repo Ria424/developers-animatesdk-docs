@@ -1,19 +1,19 @@
-## Document.asVersion
+# Document.asVersion
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.asVersion
 
-#### Description
+## Description
 
 Property; `integer`; Specifies which version of ActionScript is being used in the specified document. Acceptable values are 1, 2, and 3.
 To determine the targeted player version for the specified document, use [Document.getPlayerVersion()](../Document_object/Document82.md); this method returns a string, so it can be used by Flash® Lite™ players.
 
-#### Example
+## Example
 
 The following example sets the version of ActionScript in the current document to ActionScript 2.0 if it is currently set as ActionScript 1.0.
 
@@ -23,7 +23,7 @@ if (fl.getDocumentDOM().asVersion == 1) {
 }
 ```
 
-#### See also
+## See also
 
 - [Document.as3Dialect](../Document_object/Document17.md)
 - [Document.getPlayerVersion()](../Document_object/Document82.md)

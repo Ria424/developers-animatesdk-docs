@@ -1,18 +1,18 @@
-## FontItem.italic
+# FontItem.italic
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 FontItem.italic
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether the Font item is italic (true) or not (false).
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a Font item, the following code displays true in the Output panel if it is
 italic, false if it is not, and then sets it to italic.

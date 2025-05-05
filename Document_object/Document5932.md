@@ -1,18 +1,18 @@
-## Document.swfJPEGQuality
+# Document.swfJPEGQuality
 
-#### Availability
+## Availability
 
 Flash Professional CS6.
 
-#### Usage
+## Usage
 
 Document.swfJPEGQuality
 
-#### Description
+## Description
 
 Property; `integer`; An integer, returns the JPEG Quality setting from the current Publish Profile in the document.
 
-#### Example
+## Example
 
 The following example display the current SWF JPEG quality:
 

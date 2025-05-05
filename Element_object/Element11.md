@@ -1,19 +1,19 @@
-## Element.name
+# Element.name
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *element.name*
 
-#### Description
+## Description
 
 Property; `string`; A string that specifies the name of the element, normally referred to as the Instance name. If the value of
 element.elementType is "shape", this property is ignored. See [Element.elementType](../Element_object/Element1.md).
 
-#### Example
+## Example
 
 The following example sets the Instance name of the first element in Frame 1, top layer to "clip_mc":
 

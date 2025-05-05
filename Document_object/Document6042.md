@@ -1,26 +1,26 @@
-## Document.translate3DCenter()
+# Document.translate3DCenter()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Document.translate3DCenter(xyzCoordinate)
 
-#### Parameters
+## Parameters
 
 **xyzCoordinate** `Point3D`; An XYZ coordinate that specifies the center point for 3D rotation or translation.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method: Sets the XYZ position around which the selection is translated or rotated. This method is available only for movie clips.
 
-#### Example
+## Example
 
 The following example specifies the XYZ axes for 3D translation:
 

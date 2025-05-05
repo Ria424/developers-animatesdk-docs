@@ -1,26 +1,26 @@
-## Document.publish()
+# Document.publish()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.publish()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Publishes the document according to the active publish settings (`File > Publish Settings`). This method is equivalent to selecting `File > Publish`.
 
-#### Example
+## Example
 
 The following example publishes the current document:
 

@@ -1,28 +1,28 @@
-## Document.addItem()
+# Document.addItem()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.addItem(position, item)
 
-#### Parameters
+## Parameters
 
 **position** `Point`; Specifies the *x* and *y* coordinates of the location at which to add the item. It uses the center of a symbol or the upper left corner of a bitmap or video.
 
 **item** `Item`; Specifies the item to add and the library from which to add it (see [Item object](../Item_object/item_summary.md)).
 
-#### Returns
+## Returns
 
 `boolean`; true if successful; false otherwise.
 
-#### Description
+## Description
 
 Method; Adds an item from any open document or library to the specified Document object.
 
-#### Example
+## Example
 
 The following example adds the first item from the library to the first document at the specified location for the selected symbol, bitmap, or video:
 

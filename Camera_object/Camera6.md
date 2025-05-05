@@ -1,28 +1,28 @@
-## Camera.setZDepth()
+# Camera.setZDepth()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019
 
-#### Usage
+## Usage
 
 Camera.setZDepth(frameIndex, tz)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
 **tz** `integer`; Pixels.
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Sets camera's Z Depth value.
 
-#### Example
+## Example
 
 ```javascript
 cameraObj.setZDepth(200);

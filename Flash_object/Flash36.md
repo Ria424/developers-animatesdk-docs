@@ -1,22 +1,22 @@
-## Flash.installedPlayers
+# Flash.installedPlayers
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 fl.installedPlayers()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 An array of generic objects corresponding to the list of installed Flash Players in the document PI.
 
-#### Description
+## Description
 
 Read-only property; The array of generic objects corresponding to the list of installed Flash Players in the document PI. Each object in the array contains the following properties:
 
@@ -32,7 +32,7 @@ Read-only property; The array of generic objects corresponding to the list of in
 
 **stageHeight** The default Stage height in pixels for the given target. For example, for iPhone the default size is 320 x 480 pixels. For Android, the default size is 480 x 800.
 
-#### Example
+## Example
 
 The following example traces the properties of all objects in the installedPlayers array to the output window:
 

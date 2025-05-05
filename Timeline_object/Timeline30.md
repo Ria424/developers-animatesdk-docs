@@ -1,18 +1,18 @@
-## Timeline.layerCount
+# Timeline.layerCount
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.layerCount
 
-#### Description
+## Description
 
 Read-only property; `integer`; The number of layers in the specified timeline.
 
-#### Example
+## Example
 
 The following example uses the NumLayer variable to store the number of layers in the current scene:
 

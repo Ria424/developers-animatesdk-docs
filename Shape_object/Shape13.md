@@ -1,18 +1,18 @@
-## Shape.vertices
+# Shape.vertices
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 shape.vertices
 
-#### Description
+## Description
 
 Read-only property; an array of Vertex objects (see [Vertex object](../Vertex_object/Vertex_summary.md)).
 
-#### Example
+## Example
 
 The following example stores the first selected object in the someShape variable, and then shows the number of vertices for that object in the Output panel:
 

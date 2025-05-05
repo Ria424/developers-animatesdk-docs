@@ -1,29 +1,29 @@
-## Timeline.cutFrames()
+# Timeline.cutFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 timeline.cutFrames([startFrameIndex [, endFrameIndex]])
 
-#### Parameters
+## Parameters
 
 **startFrameIndex** `integer?`; A zero-based index that specifies the beginning of a range of frames to cut. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
 
 **endFrameIndex** `integer?`; A zero-based index that specifies the frame at which to stop cutting. The range of frames goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the *startFrameIndex* value. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; cuts a range of frames on the current layer from the timeline and saves them to the clipboard.
 
-#### Example
+## Example
 
 The following example cuts the selected frames from the timeline and saves them to the clipboard:
 

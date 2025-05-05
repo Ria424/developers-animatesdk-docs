@@ -1,26 +1,26 @@
-## Document.getIndexForTaggedSwatchesPalette()
+# Document.getIndexForTaggedSwatchesPalette()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.getIndexForTaggedSwatchesPalette(paletteName:string)
 
-#### Parameters
+## Parameters
 
 **paletteName** `string`; A string that indicates tagged swatch palette name.
 
-#### Returns
+## Returns
 
 `integer`; An integer that specifies the index of the palette.
 
-#### Description
+## Description
 
 Method; To get the Tagged Swatches palette index for given palette name.
 
-#### Example
+## Example
 
 The following example returns the index of tagged swatch palette "palette1".
 

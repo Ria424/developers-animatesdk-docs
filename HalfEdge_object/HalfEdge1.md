@@ -1,27 +1,27 @@
-## HalfEdge.getNext()
+# HalfEdge.getNext()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 halfEdge.getNext()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 A HalfEdge object.
 
-#### Description
+## Description
 
 Method; gets the next half edge on the current contour.
 ***Note:** Although half edges have a direction and a sequence order, edges do not.*
 
-#### Example
+## Example
 
 The following example stores the next half edge of the specified contour in the nextHalfEdge variable:
 

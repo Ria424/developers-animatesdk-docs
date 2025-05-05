@@ -1,27 +1,27 @@
-## XMLUI.getControlItemElement()
+# XMLUI.getControlItemElement()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 XMLUI.getControlItemElement(controlPropertyName)
 
-#### Parameters
+## Parameters
 
 **controlPropertyName** `string`; Specifies the property whose control item element you want to retrieve.
 
-#### Returns
+## Returns
 
 An object that represents the current control item for the control specified by *controlPropertyName*.
 
-#### Description
+## Description
 
 Method; Returns the label and value of the line selected in a ListBox or ComboBox control for the control specified by
 *controlPropertyName*.
 
-#### Example
+## Example
 
 The following example returns the label and value of the currently selected line for the myListBox control:
 
@@ -31,7 +31,7 @@ elem = fl.xmlui.getControlItemElement("myListBox");
 fl.trace("label = " + elem.label + " value = " + elem.value);
 ```
 
-#### See also
+## See also
 
 - [Flash.xmlui](../Flash_object/Flash81.md)
 - [Document.xmlPanel()](../Document_object/Document6198.md)

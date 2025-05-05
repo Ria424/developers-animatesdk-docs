@@ -1,14 +1,14 @@
-## Filter.color
+# Filter.color
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.color
 
-#### Description
+## Description
 
 Property; `integer | string`; the color of the filter, in one of the following formats:
 
@@ -21,7 +21,7 @@ Property; `integer | string`; the color of the filter, in one of the following f
 This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the
 [Filter.name](../Filter_object/Filter13.md) property.
 
-#### Example
+## Example
 
 The following example sets the color to "#ff00003e" for the Drop Shadow filters on the selected object(s):
 
@@ -35,6 +35,6 @@ for (var i = 0; i < myFilters.length; i++) {
 fl.getDocumentDOM().setFilters(myFilters);
 ```
 
-#### See also
+## See also
 
 [Document.setFilterProperty()](../Document_object/Document520.md)

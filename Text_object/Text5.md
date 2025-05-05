@@ -1,18 +1,18 @@
-## Text.description
+# Text.description
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.description
 
-#### Description
+## Description
 
 Property; a string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.
 
-#### Example
+## Example
 
 The following example retrieves the description of the object:
 

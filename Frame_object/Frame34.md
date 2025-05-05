@@ -1,18 +1,18 @@
-## Frame.soundName
+# Frame.soundName
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.soundName
 
-#### Description
+## Description
 
 Property; The name of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)), as stored in the library.
 
-#### Example
+## Example
 
 The following example changes the soundName property of the first frame to "song1.mp3"; song1.mp3 must exist in the library:
 

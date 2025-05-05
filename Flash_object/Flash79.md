@@ -1,26 +1,26 @@
-## Flash.xmlPanel()
+# Flash.xmlPanel()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.xmlPanel(xmlURI)
 
-#### Parameters
+## Parameters
 
 **xmlURI** `string`; A URI specifying the XML file that defines the controls in the panel. You must specify the full path name.
 
-#### Returns
+## Returns
 
 `XMLUI`; The object returned contains properties for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss," which will have a string value that is either "accept" or "cancel".
 
-#### Description
+## Description
 
 Method; Launches the XML To UI dialog from a URI that points to an XML-format file.
 
-#### Example
+## Example
 
 The following example calls the xmlPanel method:
 

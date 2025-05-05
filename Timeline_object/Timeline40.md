@@ -1,14 +1,14 @@
-## Timeline.reorderLayer()
+# Timeline.reorderLayer()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.reorderLayer(layerToMove, layerToPutItBy \[, bAddBefore\])
 
-#### Parameters
+## Parameters
 
 **layerToMove** `integer`; A zero-based index that specifies which layer to move.
 
@@ -16,15 +16,15 @@ Timeline.reorderLayer(layerToMove, layerToPutItBy \[, bAddBefore\])
 
 **bAddBefore** `boolean?`; Specifies whether to move the layer before or after *layerToPutItBy*. If you specify false, the layer is moved after *layerToPutItBy*. The default value is true. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Moves the first specified layer before or after the second specified layer.
 
-#### Example
+## Example
 
 The following example moves the layer at index 2 to the top (on top of the layer at index 0):
 

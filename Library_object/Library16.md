@@ -1,26 +1,26 @@
-## Library.selectNone()
+# Library.selectNone()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Library.selectNone()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Deselects all the library items.
 
-#### Example
+## Example
 
 The following examples deselect all the items in the library:
 

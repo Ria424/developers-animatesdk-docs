@@ -1,28 +1,28 @@
-## BitmapItem.exportToFile()
+# BitmapItem.exportToFile()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 BitmapItem.exportToFile(fileURI, quality)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
 
 **quality** `integer`; A number, from 1-100, that determines the quality of the exported image file. A higher number indicates higher quality. The default is 80. New in Flash CS6 Professional.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of true if the file was exported successfully; *false* otherwise.
 
-#### Description
+## Description
 
 Method; Exports the specified item to a PNG or JPG file.
 
-#### Example
+## Example
 
 ```javascript
 // Assuming the first item in the Library is a bitmap item, the following code exports it as a JPG file:

@@ -1,26 +1,26 @@
-## Document.removeDataFromDocument()
+# Document.removeDataFromDocument()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.removeDataFromDocument(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; The name of the data to remove.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes persistent data with the specified name that has been attached to the document.
 
-#### Example
+## Example
 
 The following example removes from the document the persistent data named "myData":
 
@@ -28,7 +28,7 @@ The following example removes from the document the persistent data named "myDat
 fl.getDocumentDOM().removeDataFromDocument("myData");
 ```
 
-#### See also
+## See also
 
 - [Document.addDataToDocument()](../Document_object/Document1.md)
 - [Document.documentHasData()](../Document_object/Document53.md)

@@ -1,22 +1,22 @@
-## Document.moveSelectionBy()
+# Document.moveSelectionBy()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.moveSelectionBy(distanceToMove)
 
-#### Parameters
+## Parameters
 
 **distanceToMove** `Point`, A pair of floating-point values that specify the *x* and *y* coordinate values by which the method moves the selection. For example, passing ({x: 1, y: 2}) specifies a location one pixel to the right and two pixels down from the current location.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Moves selected objects by a specified distance.
 
@@ -24,7 +24,7 @@ Method; Moves selected objects by a specified distance.
 
 For information on making a selection, see [Document.setSelectionRect()](../Document_object/Document9689.md), [Document.mouseClick()](../Document_object/Document130.md), [Document.mouseDblClk()](../Document_object/Document140.md), and the [Element object](../Element_object/Element_summary.md).
 
-#### Example
+## Example
 
 The following example moves the selected item 62 pixels to the right and 84 pixels down:
 

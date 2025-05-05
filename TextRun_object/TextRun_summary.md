@@ -1,14 +1,14 @@
-## TextRun summary
+# TextRun summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The TextRun object represents a run of characters that have attributes that match all of the properties in the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md) . This object is a property of the Text object ([Text.textRuns](../Text_object/Text27.md)).
 
-#### Property summary
+## Property summary
 
 In addition to the properties available for use with the Text object, the TextRun object provides the following properties:
 

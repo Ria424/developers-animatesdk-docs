@@ -1,27 +1,27 @@
-## Flash.addToolInToolbar() 
+# Flash.addToolInToolbar() 
 
-#### Availability
+## Availability
 
 Animate 2020
 
-#### Usage
+## Usage
 
 fl.addToolInToolbar(toolName)
 
-#### Parameters
+## Parameters
 
 **toolName** A string that specifies the name of the tool to select. Refer [Flash.selectTool](../Flash_object/Flash68.md) description for the acceptable *toolName* values.
 
-#### Returns
+## Returns
 
 `boolean`; Returns true if the specified tool was added successfully in the Tools Panel.
 
-#### Description
+## Description
 
 Method; Appends the specified tool in the Tools Panel from Toolbar Palette if it is not already present.
 If you or a user creates custom tools, the names of those tools can also be passed as the *toolName* parameter.
 
-#### Example
+## Example
 
 The following example selects the Oval tool.
 

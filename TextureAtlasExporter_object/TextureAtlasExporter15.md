@@ -1,18 +1,18 @@
-## TextureAtlasExporter.sheetHeight
+# TextureAtlasExporter.sheetHeight
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.sheetHeight
 
-#### Description
+## Description
 
 Property; An integer value specifying the height of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

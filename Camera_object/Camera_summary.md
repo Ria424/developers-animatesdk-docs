@@ -1,10 +1,10 @@
-## Camera summary
+# Camera summary
 
-#### Availability
+## Availability
 
 Adobe Animate 2019
 
-#### Description
+## Description
 
 This javascript object allows user to access and change properties of camera at any frame in timeline.
 
@@ -22,7 +22,7 @@ Animators can use the following features that are integral to any motion film.
 
 6. Using color tint or filters to apply color effects on a scene
 
-#### Method summary
+## Method summary
 
 The following methods can be used with the Camera object:
 
@@ -46,7 +46,7 @@ The following methods can be used with the Camera object:
 | [Camera.resetColorFilter()](../Camera_object/Camera15.md) | Remove color filter. |
 | [Camera.reset()](../Camera_object/Camera16.md) | Reset all camera properties to default. |
 
-#### Property summary
+## Property summary
 
 The following properties can be used with the Camera object:
 

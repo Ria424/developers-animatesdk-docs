@@ -1,28 +1,28 @@
-## Layer.getColorTransformAtFrame()
+# Layer.getColorTransformAtFrame()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 layer.getColorTransformAtFrame(frameIndex)  
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Specifies absolute frame index.
 
-#### Returns
+## Returns
 
 Value object
 
-#### Description
+## Description
 
 Returns: Value object {"mode","tintPercent","tintRed","tintBlue","tintGreen","brightnessPercent","alphaPercent","colorAlphaAmount", "colorAlphaPercent", "colorRedAmount", "colorRedPercent", "colorGreenAmount", "colorGreenPercent", "colorBlueAmount", "colorBluePercent"}.
 
 Based on the mode, the paramters will be updated here. For example, if tint is present, the value corresponding to tint only will be present along with the color matrix values.
 
-#### Example
+## Example
 
 The following example gets the color transform at the fifth frame of first layer:
 

@@ -1,18 +1,18 @@
-## SymbolInstance.accName
+# SymbolInstance.accName
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolInstance.accName
 
-#### Description
+## Description
 
 Property; `string`; A string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud. This property is not available for graphic symbols.
 
-#### Example
+## Example
 
 The following example stores the value for the Accessibility panel name of the object in the theName variable:
 

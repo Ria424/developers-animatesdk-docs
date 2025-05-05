@@ -1,22 +1,22 @@
-## Library.getSelectedItems()
+# Library.getSelectedItems()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `Item[]`; An array of values for all currently selected items in the library.
 
-#### Description
+## Description
 
 Method; Gets the array of all currently selected items in the library.
 
-#### Example
+## Example
 
 The following example stores the array of currently selected library items (in this case, several audio files) in the
 selItems variable and then changes the sampleRate property of the first audio file in the array to 11 kHz:

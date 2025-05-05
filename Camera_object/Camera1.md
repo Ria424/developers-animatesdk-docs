@@ -1,26 +1,26 @@
-## Camera.getZoom()
+# Camera.getZoom()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.getZoom(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 `double`;
 
-#### Description
+## Description
 
 Return the current zoom value of camera. Default is 100%.
 
-#### Example
+## Example
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
@@ -28,7 +28,7 @@ timeline.camera.cameraEnabled = true;
 var zoomval = timeline.camera.getZoom(0);
 ```
 
-#### See also
+## See also
 
 - [Camera.getZDepth()](../Camera_object/Camera.md)
 - [Camera.getRotation()](../Camera_object/Camera2.md)

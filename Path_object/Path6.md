@@ -1,26 +1,26 @@
-## Path.newContour()
+# Path.newContour()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 path.newContour()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; starts a new contour in the path.
 
-#### Example
+## Example
 
 The following example creates a hollow square:
 

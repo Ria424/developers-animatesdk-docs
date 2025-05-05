@@ -1,26 +1,26 @@
-## Document.setStrokeSize()
+# Document.setStrokeSize()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setStrokeSize(size)
 
-#### Parameters
+## Parameters
 
 **size** `number`; A floating-point value from 0.25 to 250that specifies the stroke size. The method ignores precision greater than two decimal places.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Changes the stroke size of the selection to the specified size. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).
 
-#### Example
+## Example
 
 The following example changes the stroke size for the selection to 5:
 

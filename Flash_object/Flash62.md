@@ -1,14 +1,14 @@
-## Flash.runScript()
+# Flash.runScript()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.runScript(fileURI [, funcName [, arg1, arg2, ...]])
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the name of the script file to execute.
 
@@ -16,15 +16,15 @@ fl.runScript(fileURI [, funcName [, arg1, arg2, ...]])
 
 **arg** `string?`; An optional parameter that specifies one or more arguments to be passed to *funcname*.
 
-#### Returns
+## Returns
 
 The function's result as a string, if *funcName* is specified; otherwise, nothing.
 
-#### Description
+## Description
 
 Method; executes a JavaScript file. If a function is specified as one of the arguments, it runs the function and also any code in the script that is not within the function. The rest of the code in the script runs before the function is run.
 
-#### Example
+## Example
 
 Suppose there is a script file named testScript.jsfl in the root directory on the C drive and its contents are as follows:
 

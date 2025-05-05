@@ -1,18 +1,18 @@
-## Frame.is3DMotionObject()
+# Frame.is3DMotionObject()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.is3DMotionObject()
 
-#### Description
+## Description
 
 Method; `boolean`; A boolean value. Lets you know whether the current selection is a 3D motion object.
 
-#### Example
+## Example
 
 The following example returns a trace statement informing you that the current selection is or is not a 3D motion object.
 

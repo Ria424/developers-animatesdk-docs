@@ -1,18 +1,18 @@
-## Document.docClass
+# Document.docClass
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.docClass
 
-#### Description
+## Description
 
 Property; `string`; Specifies the top-level ActionScript 3.0 class associated with the document. If the document isn’t configured to use ActionScript 3.0, this property is ignored.
 
-#### Example
+## Example
 
 The following example specifies that the ActionScript 3.0 class associated with the document is com.mycompany.ManagerClass, which is defined in com/mycompany/ManagerClass.as:
 
@@ -24,6 +24,6 @@ myDocument.docClass = "com.mycompany.ManagerClass";
 fl.outputPanel.trace("document.docClass has been set to " + myDocument.docClass);
 ```
 
-#### See also
+## See also
 
 [Item.linkageBaseClass](../Item_object/Item5.md)

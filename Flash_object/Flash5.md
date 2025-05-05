@@ -1,26 +1,26 @@
-## Flash.clearPublishCache()
+# Flash.clearPublishCache()
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 fl.clearPublishCache()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Empties the publish cache.
 
-#### Example
+## Example
 
 The following code empties the publish cache:
 
@@ -28,6 +28,6 @@ The following code empties the publish cache:
 fl.clearPublishCache();
 ```
 
-#### See also
+## See also
 
 [Flash.publishCacheDiskSizeMax](../Flash_object/Flash50.md), [Flash.publishCacheEnabled](../Flash_object/Flash51.md), [Flash.publishCacheMemoryEntrySizeLimit](../Flash_object/Flash52.md), [Flash.publishCacheMemorySizeMax](../Flash_object/Flash53.md)

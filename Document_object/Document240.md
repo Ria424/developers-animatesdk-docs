@@ -1,26 +1,26 @@
-## Document.removeAllFilters()
+# Document.removeAllFilters()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.removeAllFilters()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes all filters from the selected objects.
 
-#### Example
+## Example
 
 The following example removes all filters from the selected objects:
 
@@ -28,7 +28,7 @@ The following example removes all filters from the selected objects:
 fl.getDocumentDOM().removeAllFilters();
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

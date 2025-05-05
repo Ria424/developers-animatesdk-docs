@@ -1,20 +1,20 @@
-## Text.renderAsHTML
+# Text.renderAsHTML
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.renderAsHTML
 
-#### Description
+## Description
 
 Property; a Boolean value. If the value is true, Flash draws the text as HTML and interprets embedded HTML tags.
 
  This property works only with dynamic or input text; it generates a warning if used with other text types.
 
-#### Example
+## Example
 
 The following example sets the renderAsHTML property to true:
 

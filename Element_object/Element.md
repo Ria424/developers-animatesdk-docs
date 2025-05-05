@@ -1,18 +1,18 @@
-## Element.depth
+# Element.depth
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Element.depth
 
-#### Description
+## Description
 
 Read-only property; `integer`; An integer that has a value greater than 0 for the depth of the object in the view. The drawing order of objects on the Stage specifies which one is on top of the others. Object order can also be managed with the `Modify > Arrange` menu item.
 
-#### Example
+## Example
 
 The following example displays the depth of the specified element in the Output panel:
 

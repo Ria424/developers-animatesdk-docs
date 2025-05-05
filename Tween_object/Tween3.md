@@ -1,26 +1,26 @@
-## Tween.getShape()
+# Tween.getShape()
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Usage
+## Usage
 
 Tween.getShape(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Offset index of the frame from which shape data has to be retrieved.
 
-#### Returns
+## Returns
 
 `{x: number; y: number; width: number; height: number;}`; Returns shape coordinates at the frame offset.
 
-#### Description
+## Description
 
 Method; Returns interpolated shape of a selected frame within a tween-span.
 
-#### Example
+## Example
 
 ```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;

@@ -1,14 +1,14 @@
-## Layer.color
+# Layer.color
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Layer.color
 
-#### Description
+## Description
 
 Property; `integer | string`; the color assigned to outline the layer, in one of the following formats:
 
@@ -20,7 +20,7 @@ Property; `integer | string`; the color assigned to outline the layer, in one of
 
 This property is equivalent to the Outline color setting in the Layer Properties dialog box.
 
-#### Example
+## Example
 
 The following example stores the value of the first layer in the colorValue variable:
 

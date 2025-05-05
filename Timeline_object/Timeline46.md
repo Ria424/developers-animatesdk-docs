@@ -1,15 +1,15 @@
-## Timeline.setSelectedFrames()
+# Timeline.setSelectedFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 timeline.setSelectedFrames(startFrameIndex, endFrameIndex [, bReplaceCurrentSelection])
 timeline.setSelectedFrames(selectionList [, bReplaceCurrentSelection])
 
-#### Parameters
+## Parameters
 
 **startFrameIndex** `integer`; A zero-based index that specifies the beginning frame to set.
 
@@ -19,15 +19,15 @@ timeline.setSelectedFrames(selectionList [, bReplaceCurrentSelection])
 
 **selectionList** `integer[]`; An array of three integers, as returned by timeline.getSelectedFrames().
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Selects a range of frames in the current layer or sets the selected frames to the selection array passed into this method.
 
-#### Example
+## Example
 
 The following examples show two ways to select the top layer, Frame 1, up to but not including Frame 10, and then to add Frame 12 up to but not including Frame 15 on the same layer to the current selection (remember that index values are different from frame number values):
 
@@ -47,6 +47,6 @@ var savedSelectionList = fl.getDocumentDOM().getTimeline().getSelectedFrames();
 fl.getDocumentDOM().getTimeline().setSelectedFrames(savedSelectionList);
 ```
 
-#### See also
+## See also
 
 [Timeline.getSelectedFrames()](../Timeline_object/Timeline25.md)

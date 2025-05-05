@@ -1,18 +1,18 @@
-## Layer.height
+# Layer.height
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Layer.height
 
-#### Description
+## Description
 
 Property; `integer`; Specifies the percentage layer height; equivalent to the Layer height value in the Layer Properties dialog box. Acceptable values represent percentages of the default height: 100, 200, or 300.
 
-#### Example
+## Example
 
 The following example stores the percentage value of the first layer’s height setting:
 

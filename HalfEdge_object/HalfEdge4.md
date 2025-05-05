@@ -1,26 +1,26 @@
-## HalfEdge.getVertex()
+# HalfEdge.getVertex()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 halfEdge.getVertex()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 A [Vertex object](../Vertex_object/Vertex_summary.md)
 
-#### Description
+## Description
 
 Method; gets the Vertex object at the head of the HalfEdge object. See [Vertex object](../Vertex_object/Vertex_summary.md)
 
-#### Example
+## Example
 
 The following example stores the Vertex object at the head of hEdge in the vertex variable:
 

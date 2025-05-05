@@ -1,14 +1,14 @@
-## SpriteSheetExporter.changeSymbol()
+# SpriteSheetExporter.changeSymbol()
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.changeSymbol( symbol [, beginFrame] [, endFrame] )
 
-#### Parameters
+## Parameters
 
 **symbol** `SymbolItem | SymbolInstance`; A SymbolItem or SymbolInstance that has already been added to the sprite sheet.
 
@@ -16,10 +16,10 @@ SpriteSheetExporter.changeSymbol( symbol [, beginFrame] [, endFrame] )
 
 **endFrame** Optional. The last frame of the symbol to include in the sprite sheet.
 
-#### Returns
+## Returns
 
 Boolean.
 
-#### Description
+## Description
 
 Method; Changes the frame range of the symbol that will be used in the sprite sheet.

@@ -1,26 +1,26 @@
-## Document.clipPaste()
+# Document.clipPaste()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.clipPaste([bInPlace])
 
-#### Parameters
+## Parameters
 
 **bInPlace** `boolean?false`; A boolean value that, when set to true, causes the method to perform a paste-in-place operation. The default value is false, which causes the method to perform a paste operation to the center of the document. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Pastes the contents of the Clipboard into the document.
 
-#### Example
+## Example
 
 The following example pastes the Clipboard contents to the center of the document:
 
@@ -34,7 +34,7 @@ The following example pastes the Clipboard contents in place in the current docu
 fl.getDocumentDOM().clipPaste(true);
 ```
 
-#### See also
+## See also
 
 - [Document.clipCopy()](../Document_object/Document30.md)
 - [Document.clipCut()](../Document_object/Document31.md)

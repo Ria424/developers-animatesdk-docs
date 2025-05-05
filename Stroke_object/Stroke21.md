@@ -1,18 +1,18 @@
-## Stroke.thickness
+# Stroke.thickness
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 stroke.thickness
 
-#### Description
+## Description
 
 Property; an integer that specifies the stroke size.
 
-#### Example
+## Example
 
 The following example sets the thickness property of the stroke to a value of 2:
 

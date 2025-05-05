@@ -1,18 +1,18 @@
-## Filter.quality
+# Filter.quality
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.quality
 
-#### Description
+## Description
 
 Property; `string`; A string that specifies the blur quality. Acceptable values are "low", "medium", and "high" ("high" is similar to a Gaussian blur). This property is defined for Filter objects with a value of "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
-#### Example
+## Example
 
 The following example sets the blur quality to "medium" for the Glow filters on the selected object(s):
 
@@ -27,6 +27,6 @@ fl.getDocumentDOM().setFilters(myFilters);
 
 ```
 
-#### See also
+## See also
 
 [Document.setFilterProperty()](../Document_object/Document520.md)

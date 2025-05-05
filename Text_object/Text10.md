@@ -1,14 +1,14 @@
-## Text.fontRenderingMode
+# Text.fontRenderingMode
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 text.fontRenderingMode
 
-#### Description
+## Description
 
 Property; a string that specifies the rendering mode for the text. This property affects how the text is displayed both on the Stage and in Flash Player. Acceptable values are described in the following table:
 
@@ -23,7 +23,7 @@ Property; a string that specifies the rendering mode for the text. This property
 | advanced | Renders text using the advanced anti-aliasing font rendering technology implemented in Flash 8, which produces better anti-aliasing and improves readability, especially for small text. |
 | customThicknessSharpness | Lets you specify custom settings for the sharpness and thickness of the text when using the advanced anti-aliasing font rendering technology implemented in Flash 8. |
 
-#### Example
+## Example
 
 The following example shows how you can use the customThicknessSharpness value to specify the sharpness and thickness of the text:
 
@@ -33,6 +33,6 @@ fl.getDocumentDOM().setElementProperty("antiAliasSharpness", 400);
 fl.getDocumentDOM().setElementProperty("antiAliasThickness", -200);
 ```
 
-#### See also
+## See also
 
 [Text.antiAliasSharpness](../Text_object/Text1.md), [Text.antiAliasThickness](../Text_object/Text2.md)

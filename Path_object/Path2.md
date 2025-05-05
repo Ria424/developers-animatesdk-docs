@@ -1,28 +1,28 @@
-## Path.addPoint()
+# Path.addPoint()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 path.addPoint(x, y)
 
-#### Parameters
+## Parameters
 
 **x**  A floating-point number that specifies the *x* position of the point.
 
 **y**  A floating-point number that specifies the *y* position of the point.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; adds a point to the path.
 
-#### Example
+## Example
 
 The following example creates a new path, stores it in the myPath variable, and assigns the new point to the path:
 

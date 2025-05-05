@@ -1,18 +1,18 @@
-## CompiledClipInstance.tabIndex
+# CompiledClipInstance.tabIndex
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.tabIndex
 
-#### Description
+## Description
 
 Property; `integer`; An integer that is equivalent to the Tab Index field in the Accessibility panel. Creates a tab order in which objects are accessed when the user presses the Tab key.
 
-#### Example
+## Example
 
 The following example illustrates getting and setting the tabIndex property:
 

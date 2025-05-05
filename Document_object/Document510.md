@@ -1,14 +1,14 @@
-## Document.setFillColor()
+# Document.setFillColor()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setFillColor(color)
 
-#### Parameters
+## Parameters
 
 **color** `integer | string | null`; The color of the fill, in one of the following formats:
 
@@ -20,15 +20,15 @@ Document.setFillColor(color)
 
 If set to null, no fill color is set, which is the same as setting the Fill color swatch in the user interface to no fill.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Changes the selection and the tools panel to the specified fill color. For additional information on changing the fill color in the Tools panel and Property inspector, see [Document.setCustomFill()](../Document_object/Document470.md).
 
-#### Example
+## Example
 
 The first three statements in the following example set the fill color using each of the different formats for specifying color. The fourth statement sets the fill to no fill.
 

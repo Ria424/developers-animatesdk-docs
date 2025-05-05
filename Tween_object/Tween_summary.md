@@ -1,14 +1,14 @@
-## Tween summary
+# Tween summary
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Description
+## Description
 
 The Tween object can be used to access interpolated properties of tweens. Accessing properties for a non-tween frame throws errors.
 
-#### Method Summary
+## Method Summary
 
 You can use the following methods with the Tween object class:
 
@@ -19,7 +19,7 @@ You can use the following methods with the Tween object class:
 | [Tween.getGeometricTransform()](../Tween_object/Tween2.md) | Returns Matrix object that represents geometric transformation of a tween within a user-defined range (from offset to a selected frame). |
 | [Tween.getShape()](../Tween_object/Tween3.md) | Returns interpolated shape of a selected frame within a tween-span. |
 
-#### Properties Summary
+## Properties Summary
 
 You can use the following properties within methods of Tween object class:
 
@@ -29,7 +29,7 @@ You can use the following properties within methods of Tween object class:
 | [Tween.startFrame](../Tween_object/Tween5.md) | Start frame of a tween. |
 | [Tween.tweenType](../Tween_object/Tween6.md) | Specifies the type of tween. For example, Motion or Shape. |
 
-#### Usage
+## Usage
 
 ```javascript
 var doc = fl.getDocumentDOM();

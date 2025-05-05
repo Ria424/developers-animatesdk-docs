@@ -1,26 +1,26 @@
-## alert()
+# alert()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 alert(alertText)
 
-#### Parameters
+## Parameters
 
 **alertText** `string`; Specifies the message you want to display in the Alert dialog box.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Displays a string in a modal Alert dialog box, along with an OK button.
 
-#### Example
+## Example
 
 The following example displays the message "Process Complete" in an Alert dialog box:
 
@@ -28,7 +28,7 @@ The following example displays the message "Process Complete" in an Alert dialog
 alert("Process Complete");
 ```
 
-#### See also
+## See also
 
 - [confirm()](../Top-level_functions_and_methods/confirm.md)
 - [prompt()](../Top-level_functions_and_methods/prompt.md)

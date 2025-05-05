@@ -1,26 +1,26 @@
-## Document.distributeToKeyframes()
+# Document.distributeToKeyframes()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Document.distributeToKeyframes()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Performs a distribute-to-keyframes operation on the current selection—equivalent to selecting Distribute to KeyFrames. A new keyframe is created for every object. New keyframes are created on the active layer immediately after the active frame
 
-#### Example
+## Example
 
 The following example distributes the current selection to keyframes:
 

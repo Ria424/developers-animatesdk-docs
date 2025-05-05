@@ -1,4 +1,4 @@
-## Integrating C functions
+# Integrating C functions
 
 The C-level extensibility mechanism lets you implement Animate extensibility files using a combination of JavaScript and C code.
 
@@ -25,7 +25,7 @@ The process for implementing this capability is summarized in the following step
 
 5. Run the JSFL file from the Commands menu in the Animate authoring environment. For more information, see ["Sample DLL implementation"](#sample-dll-implementation).
 
-### C-level extensibility and the JavaScript interpreter
+## C-level extensibility and the JavaScript interpreter
 
 The C code in the DLL or shared library interacts with the Animate JavaScript API at three different times:
 
@@ -193,10 +193,10 @@ extern MM_Environment mmEnv;
 
 // Declare the external entry point and linkage 
 #ifdef _WIN32
-# ifndef _MAC
+#ifndef _MAC
 // Windows
 __declspec ( dllexport ) void MM_InitWrapper( MM_Environment *env, unsigned int envSize ); 
-# endif
+#endif
 #else
 extern void MM_InitWrapper( MM_Environment *env, unsigned int envSize ); 
 #endif
@@ -230,7 +230,7 @@ MM_Init();\
 #endif /* _MM_JSAPI_H_ */
 ```
 
-### Sample DLL implementation
+## Sample DLL implementation
 
 This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingAnimate/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](../Introduction/Sample_implementations.md) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
 

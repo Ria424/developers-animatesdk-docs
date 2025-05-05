@@ -1,18 +1,18 @@
-## SymbolInstance.actionScript - dropped
+# SymbolInstance.actionScript - dropped
 
-#### Availability
+## Availability
 
 Flash MX 2004. *Dropped in Adobe Animate*.
 
-#### Usage
+## Usage
 
 SymbolInstance.actionScript
 
-#### Description
+## Description
 
 Property; `string`; Specifies the actions assigned to the symbol. This applies only to movie clip and button instances. For a graphic symbol instance, the value returns undefined.
 
-#### Example
+## Example
 
 The following example assigns an onClipEvent action to the first item in the first frame of the first layer in the timeline:
 

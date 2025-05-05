@@ -1,26 +1,26 @@
-## SymbolItem.convertToCompiledClip()
+# SymbolItem.convertToCompiledClip()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolItem.convertToCompiledClip()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Converts a symbol item in the library to a compiled movie clip.
 
-#### Example
+## Example
 
 The following example converts an item in the library to a compiled movie clip:
 

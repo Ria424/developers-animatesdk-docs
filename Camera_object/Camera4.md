@@ -1,26 +1,26 @@
-## Camera.getTint()
+# Camera.getTint()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.getTint(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 `{percent: number; red: number; green: number; blue: number}`; Tint object. e.g. {percent: 0, red: 0, green: 0, blue: 0}
 
-#### Description
+## Description
 
 Return object with two properties: 'percent' & 'color'.
 
-#### Example
+## Example
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
@@ -36,7 +36,7 @@ fl.trace(
 );
 ```
 
-#### See also
+## See also
 
 - [Camera.getRotation()](../Camera_object/Camera2.md)
 - [Camera.getZoom()](../Camera_object/Camera1.md)

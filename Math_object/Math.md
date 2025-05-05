@@ -1,26 +1,26 @@
-## Math.concatMatrix()
+# Math.concatMatrix()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Math.concatMatrix(mat1, mat2)
 
-#### Parameters
+## Parameters
 
 **mat1, mat2** Specify the Matrix objects to be concatenated (see [Matrix object](../Matrix_object/Matrix_summary.md)). Each parameter must be an object with fields a, b, c, d, tx, and ty.
 
-#### Returns
+## Returns
 
 A concatenated object matrix.
 
-#### Description
+## Description
 
 Method; performs a matrix concatenation and returns the result.
 
-#### Example
+## Example
 
 The following example stores the currently selected object in the elt variable, multiplies the object matrix by the view matrix, and stores that value in the mat variable:
 

@@ -1,18 +1,18 @@
-## FontItem.bold
+# FontItem.bold
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 FontItem.bold
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether the Font item is bold (true) or not (false).
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a Font item, the following code displays true in the Output panel if it is bold, false if it is not, and then sets it to bold.
 

@@ -1,14 +1,14 @@
-## Document.addDataToSelection()
+# Document.addDataToSelection()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.addDataToSelection(name, type, data)
 
-#### Parameters
+## Parameters
 
 **name** `string`; Specifies the name of the persistent data.
 
@@ -16,15 +16,15 @@ Document.addDataToSelection(name, type, data)
 
 **data** `byte[] | double | double[] | integer | integer[] | string`; The value to add. Valid types depend on the *type* parameter.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Stores specified data with the selected objects. Data is written to the FLA file and is available to JavaScript when the file reopens. Only symbols and bitmaps support persistent data.
 
-#### Example
+## Example
 
 The following example adds an integer value of 12 to the selected object:
 
@@ -32,6 +32,6 @@ The following example adds an integer value of 12 to the selected object:
 fl.getDocumentDOM().addDataToSelection("myData", "integer", 12);
 ```
 
-#### See also
+## See also
 
 [Document.removeDataFromSelection()](../Document_object/Document260.md)

@@ -1,18 +1,18 @@
-## SymbolInstance.useBackgroundColor
+# SymbolInstance.useBackgroundColor
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 SymbolInstance.useBackgroundColor
 
-#### Description
+## Description
 
 Property; `boolean`; Indicates whether to use 24 bit mode (true) or 32 bit mode with alpha (false) for the instance. If true, the backgroundColor specified for the instance is used.
 
-#### Example
+## Example
 
 The following example sets the useBackgroundColor property of an instance to true:
 

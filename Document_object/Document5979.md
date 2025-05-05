@@ -1,26 +1,26 @@
-## Document.testScene()
+# Document.testScene()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.testScene()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Executes a Test Scene operation on the current scene of the document.
 
-#### Example
+## Example
 
 The following example tests the current scene in the document:
 
@@ -28,7 +28,7 @@ The following example tests the current scene in the document:
 fl.getDocumentDOM().testScene();
 ```
 
-#### See also
+## See also
 
 - [Document.canTestScene()](../Document_object/Document28.md)
 - [Document.testMovie()](../Document_object/Document5948.md)

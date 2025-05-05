@@ -1,18 +1,18 @@
-## Element.selected
+# Element.selected
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 *element.selected*
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that specifies whether the element is selected *(true)* or not *(false)*.
 
-#### Example
+## Example
 
 The following example selects the element:
 

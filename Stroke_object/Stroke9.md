@@ -1,18 +1,18 @@
-## Stroke.hatchThickness
+# Stroke.hatchThickness
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 stroke.hatchThickness
 
-#### Description
+## Description
 
 Property; a string that specifies the thickness of a hatch line. This property is available only if the stroke.style property is set to hatched (see [Stroke.style](../Stroke_object/Stroke20.md)). Acceptable values are "hairline", "thin", "medium", and "thick".
 
-#### Example
+## Example
 
 The following example sets the hatchThickness property to thin for a stroke style of hatched:
 

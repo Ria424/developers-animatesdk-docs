@@ -1,14 +1,14 @@
-## TextAttrs summary
+# TextAttrs summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The TextAttrs object contains all the properties of text that can be applied to a subselection. This object is a property of the TextRun object ([TextRun.textAttrs](../TextRun_object/TextRun.md)).
 
-#### Property summary
+## Property summary
 
 The following properties are available for the TextAttrs object:
 

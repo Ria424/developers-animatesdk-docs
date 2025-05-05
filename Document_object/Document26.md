@@ -1,27 +1,27 @@
-## Document.canRevert()
+# Document.canRevert()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.canRevert()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; true if you can use the document.revert() or fl.revertDocument() methods successfully;
 false otherwise.
 
-#### Description
+## Description
 
 Method; determines whether you can use the [Document.revert()](../Document_object/Document340.md) or [Flash.revertDocument()](../Flash_object/Flash61.md) method successfully.
 
-#### Example
+## Example
 
 The following example checks whether the current document can revert to the previously saved version. If so,fl.getDocumentDOM().revert() restores the previously saved version.
 

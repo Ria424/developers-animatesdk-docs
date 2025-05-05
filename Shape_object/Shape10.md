@@ -1,18 +1,18 @@
-## Shape.isRectangleObject
+# Shape.isRectangleObject
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 *shape.isRectangleObject*
 
-#### Description
+## Description
 
 Read-only property; if true, the shape is a primitive Rectangle object (was created using the Rectangle Primitive tool).
 
-#### Example
+## Example
 
 The following example displays *"true"* if the first selected item is a primitive Rectangle object, *"false"* if it is not:
 
@@ -21,6 +21,6 @@ var sel = fl.getDocumentDOM().selection[0];
 fl.trace(sel.isRectangleObject);
 ```
 
-#### See also
+## See also
 
 [Shape.isOvalObject](../Shape_object/Shape9.md)

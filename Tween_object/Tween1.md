@@ -1,26 +1,26 @@
-## Tween.getFilters()
+# Tween.getFilters()
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Usage
+## Usage
 
 Tween.getFilters(frameIndex);
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Index of the frame from which filter data is to be retrieved.
 
-#### Returns
+## Returns
 
 `Filter[]`; Returns array of Filter objects.
 
-#### Description
+## Description
 
 Method; Returns filters data of a selected frame from a tween span.
 
-#### Example
+## Example
 
 ```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;

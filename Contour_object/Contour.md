@@ -1,18 +1,18 @@
-## Contour.fill
+# Contour.fill
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 Contour.fill
 
-#### Description
+## Description
 
 Property; `Fill`; A [Fill object](../Fill_object/Fill_summary.md).
 
-#### Example
+## Example
 
 Assuming that you have a contour with a fill selected, the following example displays the contour’s fill color in the Output panel:
 

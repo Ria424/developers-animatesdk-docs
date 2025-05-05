@@ -1,21 +1,21 @@
-## SpriteSheetExporter.removeBitmap()
+# SpriteSheetExporter.removeBitmap()
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.removeBitmap(bitmap)
 
-#### Parameters
+## Parameters
 
 **bitmap** The BitmapItem or Bitmap to remove from the sprite sheet.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes the specified bitmap or bitmapItem from the sprite sheet object.

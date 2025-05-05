@@ -1,18 +1,18 @@
-## Filter.saturation
+# Filter.saturation
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.saturation
 
-#### Description
+## Description
 
 Property; `float`; a float value that specifies the saturation value of the filter. Acceptable values are from -100 to 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
-#### Example
+## Example
 
 The following example sets the saturation value to -100 (grayscale) for the Adjust Color filters on the selected object(s):
 
@@ -26,6 +26,6 @@ for (var i = 0; i < myFilters.length; i++) {
 fl.getDocumentDOM().setFilters(myFilters);
 ```
 
-#### See also
+## See also
 
 [Document.setFilterProperty()](../Document_object/Document520.md)

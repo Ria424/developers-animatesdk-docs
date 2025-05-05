@@ -1,29 +1,29 @@
-## Timeline.pasteFrames()
+# Timeline.pasteFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.pasteFrames(\[startFrameIndex \[, endFrameIndex\]\])
 
-#### Parameters
+## Parameters
 
 **startFrameIndex** `integer?`; A zero-based index that specifies the beginning of a range of frames to paste. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
 
 **endFrameIndex** `integer?`; A zero-based index that specifies the frame at which to stop pasting frames. The method pastes up to, but not including, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the *startFrameIndex* value. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Pastes the range of frames from the clipboard into the specified frames.
 
-#### Example
+## Example
 
 The following example pastes the frames on the clipboard to the currently selected frame or playhead location:
 

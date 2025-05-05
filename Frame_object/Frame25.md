@@ -1,24 +1,24 @@
-## Frame.setMotionObjectDuration()
+# Frame.setMotionObjectDuration()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.setMotionObjectDuration(duration [, stretchExistingKeyframes])
 
-#### Parameters
+## Parameters
 
 **duration** `integer`; Specifies the number of frames for the tween span of the selected motion object.
 
 **stretchExistingKeyframes** `boolean`; A boolean value that determines whether the tween span is stretched, or if frames are added, to the end of the last frame.
 
-#### Description
+## Description
 
 Method; Sets the duration (the tween span length) of the currently selected motion object.
 
-#### Example
+## Example
 
 The following example specifies a duration of 11 frames for the selected motion object.
 

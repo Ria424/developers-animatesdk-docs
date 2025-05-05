@@ -1,17 +1,17 @@
-## Element.y
+# Element.y
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 *element.y*
 
-#### Description
+## Description
 
 Property; `float`; a float value that specifies the *y* value of the selected element’s registration point.
 
-#### Example
+## Example
 
 See [Element.x](../Element_object/Element26.md)

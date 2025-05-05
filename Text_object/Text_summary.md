@@ -1,12 +1,12 @@
-## Text summary
+# Text summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > Text object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Text object represents a single text item in a document. All properties of the text pertain to the entire text block.
 
@@ -16,7 +16,7 @@ To set generic properties of the selected text field, use [Document.setElementPr
 
  fl.getDocumentDOM().setElementProperty("x", 50);
 
-#### Method summary
+## Method summary
 
 In addition to the Element object methods, the following methods are available for the Text object:
 
@@ -27,7 +27,7 @@ In addition to the Element object methods, the following methods are available f
 | [Text.setTextAttr()](../Text_object/Text22.md) | Sets the specified attribute associated with the text identified by ***startIndex*** and ***endIndex***. |
 | [Text.setTextString()](../Text_object/Text23.md) | Changes the text string within this Text object. |
 
-#### Property summary
+## Property summary
 
 In addition to the Element object properties, the following properties are available for the Text object:
 

@@ -1,14 +1,14 @@
-## Parameter.insertItem()
+# Parameter.insertItem()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Parameter.insertItem(index, name, value, type)
 
-#### Parameters
+## Parameters
 
 **index** `integer`; A zero-based integer index that indicates where the item will be inserted in the object or array. If the index is 0, the item is inserted at the beginning. If the index is greater than the list size, the new item is inserted at the end.
 
@@ -18,15 +18,15 @@ Parameter.insertItem(index, name, value, type)
 
 **type** `string`; Specifies the type of item to insert.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Inserts an item in an object or array. If a parameter is an object or array, the *value* property is an array.
 
-#### Example
+## Example
 
 The following example inserts the value of New Value into the labelPlacement parameter:
 

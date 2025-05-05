@@ -1,14 +1,14 @@
-## SymbolInstance.bitmapRenderMode
+# SymbolInstance.bitmapRenderMode
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 SymbolInstance.bitmapRenderMode
 
-#### Description
+## Description
 
 Property; `"none" | "cache" | "export"`; Sets the display type for the symbol. Acceptable values include:
 
@@ -20,7 +20,7 @@ Property; `"none" | "cache" | "export"`; Sets the display type for the symbol. A
 
 The older ["SymbolInstance.cacheAsBitmap"](../SymbolInstance_object/SymbolInstance7.md) property is similar to this property, but it offers fewer choices since it's a boolean. In the future, the cacheAsBitmap property may be deprecated, so users should switch to this new property. The true/false options in the boolean cacheAsBitmap property are the same as the "cache" / "none" values for this new property.
 
-#### Example
+## Example
 
 The following example assigns the symbol’s bitmapRenderMode to "export":
 

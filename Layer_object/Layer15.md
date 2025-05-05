@@ -1,26 +1,26 @@
-## Layer.getFiltersAtFrame()
+# Layer.getFiltersAtFrame()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 layer.getFiltersAtFrame(frameIndex)  
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Specifies absolute frame index.
 
-#### Returns
+## Returns
 
 `Filter[]`; An array that contains a list of filters applied to the frame at frameIndex
 
-#### Description
+## Description
 
 Method; An array that contains a list of filters applied to the frame at frameIndex.
 
-#### Example
+## Example
 
 The following example gets the filters at the first frame of the first layer:
 

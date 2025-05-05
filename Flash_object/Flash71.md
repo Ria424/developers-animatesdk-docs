@@ -1,14 +1,14 @@
-## Flash.setPrefBoolean()
+# Flash.setPrefBoolean()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.setPrefBoolean(keySection, keyName, keyValue)
 
-#### Parameters
+## Parameters
 
 **keySection** A string that contains the preferences section that contains keyName. (usually this is "Settings").
 
@@ -16,15 +16,15 @@ fl.setPrefBoolean(keySection, keyName, keyValue)
 
 **keyValue** A string that contains the value to be set (true ohr false).
 
-#### Returns
+## Returns
 
 None.
 
-#### Description
+## Description
 
 Method; sets a boolean preference value.
 
-#### Example
+## Example
 
 The following example calls the fl.setPrefBoolean() method:
 

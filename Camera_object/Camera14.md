@@ -1,26 +1,26 @@
-## Camera.resetTint()
+# Camera.resetTint()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.resetTint(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Remove camera tint.
 
-#### Example
+## Example
 
 The following example Remove camera tint.
 

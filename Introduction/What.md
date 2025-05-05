@@ -1,9 +1,9 @@
-## What's new in the JavaScript API
+# What's new in the JavaScript API
 
 The following section lists new objects, methods, and properties in Animate. It also lists changes in Flash CC, CS6, CS5.5, and CS5.
 If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](../Introduction/JavaScript_API_objects.md).
 
-### New methods and properties in Animate 2020
+## New methods and properties in Animate 2020
 
 The following methods and properties for existing objects are new in Animate 2020:
 
@@ -75,7 +75,7 @@ The following methods and properties for existing objects are new in Animate 202
 
   - [Flash.addToolInToolbar()](../Flash_object/Flash82.md)
 
-### New objects in Animate 2020
+## New objects in Animate 2020
 
 The following object is new in Flash CS6:
 
@@ -83,7 +83,7 @@ The following object is new in Flash CS6:
 
 - [Camera object](../Camera_object/Camera_Summary.md)
 
-### New methods and properties in Flash CC
+## New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
@@ -225,7 +225,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - Timeline.getBounds()
 
-### Dropped methods and properties in Flash CC
+## Dropped methods and properties in Flash CC
 
 The following methods and properties for existing objects are dropped in Adobe Animate:
 
@@ -261,13 +261,13 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 - SymbolInstance.actionscript
 
-### New objects in Flash CS6
+## New objects in Flash CS6
 
 The following object is new in Flash CS6:
 
 - [SpriteSheetExporter object](../SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
-### New methods and properties in Flash CS6
+## New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
@@ -331,7 +331,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - VideoItem.lastModifiedDate
 
-### New methods and properties in Flash CS5 and CS5.5
+## New methods and properties in Flash CS5 and CS5.5
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
@@ -423,7 +423,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
   - SwfPanel.setFocus()
 
-### Other changes in Flash CS5 and CS5.5
+## Other changes in Flash CS5 and CS5.5
 
 The following methods and properties are updated in Flash CS5:
 

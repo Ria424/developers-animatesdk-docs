@@ -1,18 +1,18 @@
-## Frame.soundSync
+# Frame.soundSync
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.soundSync
 
-#### Description
+## Description
 
 Property; `"event" | "stop" | "start" | "stream"`; The sync behavior of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)). Acceptable values are *"event", "stop", "start", and "stream"*.
 
-#### Example
+## Example
 
 The following example specifies that a sound should stream:
 

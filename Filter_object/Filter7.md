@@ -1,18 +1,18 @@
-## Filter.enabled
+# Filter.enabled
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 filter.enabled
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that specifies whether the specified filter is enabled (true) or disabled (false).
 
-#### Example
+## Example
 
 The following example disables the Color filters on the selected object(s):
 

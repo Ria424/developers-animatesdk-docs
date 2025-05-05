@@ -1,26 +1,26 @@
-## Document.renamePublishProfile()
+# Document.renamePublishProfile()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.renamePublishProfile([profileNewName])
 
-#### Parameters
+## Parameters
 
 **profileNewName** `string?`; An optional parameter that specifies the new name for the profile. The new name must be unique. If the name is not specified, a default name is provided.
 
-#### Returns
+## Returns
 
 `boolean`; true if the name is changed successfully; false otherwise.
 
-#### Description
+## Description
 
 Method; Renames the current profile.
 
-#### Example
+## Example
 
 The following example renames the current profile to a default name and displays it:
 

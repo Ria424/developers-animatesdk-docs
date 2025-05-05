@@ -1,22 +1,22 @@
-## Frame.setSoundEnvelope()
+# Frame.setSoundEnvelope()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Frame.setSoundEnvelope(soundEnv)
 
-#### Parameters
+## Parameters
 
 **soundEnv** A sound envelope.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the sound envelope of any frame with sound file. The soundEnv object is an array and every element of array contains the following properties:
 
@@ -26,7 +26,7 @@ Method; Sets the sound envelope of any frame with sound file. The soundEnv objec
 
 - *rightChannel*
 
-#### Example
+## Example
 
 The following example illustrates the use of setSoundEnvelope:
 
@@ -53,6 +53,6 @@ for (var i = 0; i < soundEnv.length; i++) {
 }
 ```
 
-#### See also
+## See also
 
 [Frame.getSoundEnvelope()](../Frame_object/Frame8.md)

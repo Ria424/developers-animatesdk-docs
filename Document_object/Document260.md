@@ -1,26 +1,26 @@
-## Document.removeDataFromSelection()
+# Document.removeDataFromSelection()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.removeDataFromSelection(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; The name of the persistent data to remove.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes persistent data with the specified name that has been attached to the selection.
 
-#### Example
+## Example
 
 The following example removes from the selection the persistent data named "myData":
 
@@ -28,6 +28,6 @@ The following example removes from the selection the persistent data named "myDa
 fl.getDocumentDOM().removeDataFromSelection("myData");
 ```
 
-#### See also
+## See also
 
 [Document.addDataToSelection()](../Document_object/Document2.md)

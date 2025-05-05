@@ -1,10 +1,10 @@
-## keyUp()
+# keyUp()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function keyUp() {
@@ -12,19 +12,19 @@ function keyUp() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called when the extensible tool is active and a key is released.
 
-#### Example
+## Example
 
 The following example displays a message in the Output panel when the extensible tool is active and a key is released.
 
@@ -34,6 +34,6 @@ function keyUp() {
 }
 ```
 
-#### See also
+## See also
 
 [keyDown()](../Top-Level_Functions_and_Methods/keyDown.md)

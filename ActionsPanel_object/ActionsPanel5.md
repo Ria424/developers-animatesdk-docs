@@ -1,26 +1,26 @@
-## ActionsPanel.replaceSelectedText()
+# ActionsPanel.replaceSelectedText()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 actionsPanel.replaceSelectedText(replacementText)
 
-#### Parameters
+## Parameters
 
 **replacementText** `string`; A string that represents text to replace selected text in the Actions panel.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of true if the Actions panel is found; false otherwise.
 
-#### Description
+## Description
 
 Method; Replaces the currently selected text with the text specified in *replacementText*. If *replacementText* contains more characters than the selected text, any characters following the selected text now follow *replacementText*; that is, they are not overwritten.
 
-#### Example
+## Example
 
 The following example replaces currently selected text in the Actions panel.
 
@@ -30,7 +30,7 @@ if (fl.actionsPanel.hasSelection()) {
 }
 ```
 
-#### See also
+## See also
 
 - [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
 - [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md)

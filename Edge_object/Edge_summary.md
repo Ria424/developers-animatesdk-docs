@@ -1,14 +1,14 @@
-## Edge summary
+# Edge summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Edge object represents an edge of a shape on the Stage.
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Edge object:
 
@@ -19,7 +19,7 @@ The following methods are available for the Edge object:
 | [Edge.setControl()](../Edge_object/Edge5.md) | Sets the position of the control point of the edge. |
 | [Edge.splitEdge()](../Edge_object/Edge6.md) | Splits the edge into two pieces. |
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Edge object:
 

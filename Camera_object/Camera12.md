@@ -1,26 +1,26 @@
-## Camera.resetRotation()
+# Camera.resetRotation()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.resetRotation(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Reset camera angle to zero.
 
-#### Example
+## Example
 
 The following example resets camera angle to zero.
 

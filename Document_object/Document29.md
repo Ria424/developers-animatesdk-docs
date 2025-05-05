@@ -1,24 +1,24 @@
-## Document.changeFilterOrder()
+# Document.changeFilterOrder()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.changeFilterOrder(oldIndex, newIndex)
 
-#### Parameters
+## Parameters
 
 **oldIndex** `integer`; An integer that represents the current zero-based index position of the filter you want to reposition in the Filters list.
 
 **newIndex** `integer`; An integer that represents the new index position of the filter in the list.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Changes the index of the filter in the Filters list. Any filters above or below *newIndex* are shifted up or down accordingly. For example, using the filters shown below, if you issue the command fl.getDocumentDOM().changeFilterOrder(3, 0), the filters are rearranged as follows:
 
@@ -32,7 +32,7 @@ If you then issue the command fl.getDocumentDOM().changeFilterOrder(0, 2), the f
 | --- | --- |
 | gradientBevelFilter, blurFilter, dropShadowFilter, glowFilter | blurFilter, dropShadowFilter, gradientBevelFilter, glowFilter |
 
-#### Example
+## Example
 
 The following example moves the filter that is currently in the second position in the Filters list to the first position:
 
@@ -40,7 +40,7 @@ The following example moves the filter that is currently in the second position 
 fl.getDocumentDOM().changeFilterOrder(1, 0);
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.disableFilter()](../Document_object/Document47.md)

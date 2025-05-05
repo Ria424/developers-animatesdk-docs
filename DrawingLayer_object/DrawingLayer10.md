@@ -1,14 +1,14 @@
-## DrawingLayer.setColor()
+# DrawingLayer.setColor()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 DrawingLayer.setColor(color)
 
-#### Parameters
+## Parameters
 
 **color** `integer | string`; The color of subsequently drawn data, in one of the following formats:
 
@@ -18,15 +18,15 @@ DrawingLayer.setColor(color)
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the color of subsequently drawn data. Applies only to persistent data. To use this method, the parameter passed to drawingLayer.beginDraw() must be set to true. You typically use this method only when creating extensible tools. See [DrawingLayer.beginDraw()](../DrawingLayer_object/DrawingLayer.md).
 
-#### Example
+## Example
 
 The following example draws a red line on the Stage:
 

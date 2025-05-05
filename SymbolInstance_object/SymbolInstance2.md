@@ -1,18 +1,18 @@
-## SymbolInstance.backgroundColor
+# SymbolInstance.backgroundColor
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 SymbolInstance.backgroundColor
 
-#### Description
+## Description
 
 Property; `string`; Specifies the matte color when 24 bit mode is selected for the instance. This is a string in hexadecimal #rrggbb format or an integer containing the value.
 
-#### Example
+## Example
 
 The following example assigns the symbol instance a background color of black:
 

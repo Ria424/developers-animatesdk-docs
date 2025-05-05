@@ -1,18 +1,18 @@
-## SpriteSheetExporter.image
+# SpriteSheetExporter.image
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.image
 
-#### Description
+## Description
 
 Read-only property; A string value indicating the name of the sprite sheet image file. This property is provided for use by sprite sheet generator plugins.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

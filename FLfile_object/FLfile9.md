@@ -1,28 +1,28 @@
-## FLfile.listFolder()
+# FLfile.listFolder()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.listFolder(folderURI \[, filesOrDirectories\])
 
-#### Parameters
+## Parameters
 
 **folderURI** `string`; Expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
 
 **filesOrDirectories** `"directories" | "files"?`; An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
 
-#### Returns
+## Returns
 
 `string[]`; An array of strings representing the contents of the folder. If the folder doesn’t exist or if no files or folders match the specified criteria, returns an empty array.
 
-#### Description
+## Description
 
 Method; Returns an array of strings representing the contents of the folder.
 
-#### Examples
+## Examples
 
 The following example returns three arrays. The first represents all the files in the C:\temp folder, the second represents all the folders in the C:\temp folder, and the third represents the files and folders in the C:\temp folder:
 

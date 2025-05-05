@@ -1,18 +1,18 @@
-## Frame.duration
+# Frame.duration
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.duration
 
-#### Description
+## Description
 
 Read-only property; `integer`; The number of frames in a frame sequence.
 
-#### Example
+## Example
 
 The following example stores the number of frames in a frame sequence that starts at the first frame in the top layer in the frameSpan variable:
 

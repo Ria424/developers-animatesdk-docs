@@ -1,26 +1,26 @@
-## Document.getAlignToDocument()
+# Document.getAlignToDocument()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.getAlignToDocument()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; true if the preference is set to align the objects to the Stage; false otherwise.
 
-#### Description
+## Description
 
 Method; identical to retrieving the value of the To Stage button in the Align panel. Gets the preference that can be used for [Document.align()](../Document_object/Document13.md), [Document.distribute()](../Document_object/Document49.md), [Document.match()](../Document_object/Document120.md), and [Document.space()](../Document_object/Document67.md) methods on the document.
 
-#### Example
+## Example
 
 The following example retrieves the value of the To Stage button in the Align panel. If the return value is true, the To Stage button is active; otherwise, it is not.
 
@@ -29,6 +29,6 @@ var isAlignToDoc = fl.getDocumentDOM().getAlignToDocument();
 fl.getDocumentDOM().align("left", isAlignToDoc);
 ```
 
-#### See also
+## See also
 
 [Document.setAlignToDocument()](../Document_object/Document450.md)

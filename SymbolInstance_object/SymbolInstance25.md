@@ -1,18 +1,18 @@
-## SymbolInstance.symbolType
+# SymbolInstance.symbolType
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolInstance.symbolType
 
-#### Description
+## Description
 
 Property; `"button" | "movie clip" | "graphic"`; A string that specifies the type of symbol. This property is equivalent to the value for Behavior in the Create New Symbol and Convert To Symbol dialog boxes. Acceptable values are "button", "movie clip", and "graphic".
 
-#### Example
+## Example
 
 The following example sets the first symbol in the first frame of the first layer in the timeline of the current document to behave as a graphic symbol:
 

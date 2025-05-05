@@ -1,18 +1,18 @@
-## Document.as3StrictMode
+# Document.as3StrictMode
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.as3StrictMode
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether the ActionScript 3.0 compiler should compile with the Strict Mode option turned on (true) or off (false). Strict Mode causes warnings to be reported as errors, which means that compilation will not succeed if those errors exist. The default value is true.
 
-#### Example
+## Example
 
 The following example turns off the Strict Mode compiler option.
 
@@ -23,6 +23,6 @@ myDocument.as3StrictMode = false;
 fl.outputPanel.trace("Strict Mode value after modification is " + myDocument.as3StrictMode);
 ```
 
-#### See also
+## See also
 
 [Document.as3WarningsMode](../Document_object/Document20.md)

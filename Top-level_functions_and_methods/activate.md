@@ -1,10 +1,10 @@
-## activate()
+# activate()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function activate() {
@@ -12,19 +12,19 @@ function activate() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called when the extensible tool becomes active (that is, when the tool is selected in the Tools panel). Use this function to perform any initialization tasks the tool requires.
 
-#### Example
+## Example
 
 The following example sets the value of [Tools.activeTool](../Tools_object/Tools.md) when the extensible tool is selected in the Tools panel:
 
@@ -34,6 +34,6 @@ function activate() {
 }
 ```
 
-#### See also
+## See also
 
 [Tools.activeTool](../Tools_object/Tools.md)

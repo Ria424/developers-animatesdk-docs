@@ -1,16 +1,16 @@
-## Library summary
+# Library summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Library object represents the Library panel. It is a property of the Document object (see [Document.library](../Document_object/Document98.md)) and can be accessed by `fl.getDocumentDOM().library`.
 
 The Library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
 
-#### Method summary
+## Method summary
 
 The following methods are available for the Library object:
 
@@ -35,7 +35,7 @@ The following methods are available for the Library object:
 | [Library.setItemProperty()](../Library_object/Library17.md) | Sets the property for all selected library items (ignoring folders). |
 | [Library.updateItem()](../Library_object/Library19.md) | Updates the specified item. |
 
-#### Property summary
+## Property summary
 
 The following property is available for the Library object:
 

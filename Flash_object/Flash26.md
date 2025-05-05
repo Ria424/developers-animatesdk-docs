@@ -1,26 +1,26 @@
-## Flash.findDocumentIndex()
+# Flash.findDocumentIndex()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.findDocumentIndex(name)
 
-#### Parameters
+## Parameters
 
 **name** The document name for which you want to find the index. The document must be open.
 
-#### Returns
+## Returns
 
 An array of integers that represent the position of the document *name* in the fl.documents array.
 
-#### Description
+## Description
 
 Method; returns an array of integers that represent the position of the document *name* in the fl.documents array. More than one document with the same name can be open (if the documents are located in different folders).
 
-#### Example
+## Example
 
 The following example displays information about the index position of any open files named test.fla in the Output panel:
 
@@ -31,6 +31,6 @@ for (var index in docIndex)
     fl.trace(filename + " is open at index " + docIndex[index]);
 ```
 
-#### See also
+## See also
 
 [Flash.documents](../Flash_object/Flash20.md), [Flash.findDocumentDOM()](../Flash_object/Flash25.md)

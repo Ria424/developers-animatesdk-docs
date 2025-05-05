@@ -1,26 +1,26 @@
-## HalfEdge.getOppositeHalfEdge()
+# HalfEdge.getOppositeHalfEdge()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 halfEdge.getOppositeHalfEdge()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 A HalfEdge object.
 
-#### Description
+## Description
 
 Method; gets the HalfEdge object on the other side of the edge.
 
-#### Example
+## Example
 
 The following example stores the half edge opposite hEdge in the otherHalfEdge variable:
 

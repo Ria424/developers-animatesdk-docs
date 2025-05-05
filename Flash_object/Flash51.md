@@ -1,18 +1,18 @@
-## Flash.publishCacheEnabled
+# Flash.publishCacheEnabled
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 fl.publishCacheEnabled
 
-#### Description
+## Description
 
 Property: a boolean value that sets whether the publish cache is enabled.
 
-#### Example
+## Example
 
 The following code displays whether the published cache is enabled in the Output window.
 
@@ -20,6 +20,6 @@ The following code displays whether the published cache is enabled in the Output
 fl.trace(fl.publishCacheEnabled);
 ```
 
-#### See also
+## See also
 
 [Flash.publishCacheDiskSizeMax](../Flash_object/Flash50.md), [Flash.clearPublishCache()](../Flash_object/Flash5.md), [Flash.publishCacheMemoryEntrySizeLimit](../Flash_object/Flash52.md), [Flash.publishCacheMemorySizeMax](../Flash_object/Flash53.md)

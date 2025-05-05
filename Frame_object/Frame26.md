@@ -1,24 +1,24 @@
-## Frame.setMotionObjectXML()
+# Frame.setMotionObjectXML()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Frame.setMotionObjectXML(xmlstr [, endAtCurrentLocation])
 
-#### Parameters
+## Parameters
 
 **xmlstr** `string`; Specifies the XML string.
 
 **endAtCurrentLocation** `boolean`; Determines whether the tween starts or ends at the current position.
 
-#### Description
+## Description
 
 Method; Applies the specified motion XML to the selected motion object.
 
-#### Example
+## Example
 
 This example specifies that the motion XML identified as myMotionXML be applied to the selected motion object.
 

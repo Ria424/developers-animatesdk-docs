@@ -1,14 +1,14 @@
-## Flash.browseForFileURL()
+# Flash.browseForFileURL()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.browseForFileURL(browseType [, title [, fileDescription [, fileFilter]]])
 
-#### Parameters
+## Parameters
 
 **browseType** `"open" | "save" | "select"`; A string that specifies the type of file browse operation. Valid values are "open", "select" or "save". The values "open" and "select" open the system File Open dialog box. Each value is provided for compatibility with Dreamweaver. The value "save" opens a system File Save dialog box.
 
@@ -25,15 +25,15 @@ fl.browseForFileURL(browseType [, title [, fileDescription [, fileFilter]]])
 - "fla;as"
 - "jsfl;fla;as"
 
-#### Returns
+## Returns
 
 `string | null`; The URL of the file, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
 
-#### Description
+## Description
 
 Method; Opens a File Open or File Save system dialog box and lets the user specify a file to be opened or saved.
 
-#### Example
+## Example
 
 The following examples illustrate various options of the `Flash.browseForFileURL()` method:
 
@@ -76,6 +76,6 @@ var previewArea = {};
 var uri = fl.browseForFileURL("open", "Select a FLA or AS file", previewArea, macFormat, winFormat);
 ```
 
-#### See also
+## See also
 
 [Flash.browseForFolderURL()](../Flash_object/Flash4.md)

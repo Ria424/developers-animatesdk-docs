@@ -1,26 +1,26 @@
-## ActionsPanel.hasSelection()
+# ActionsPanel.hasSelection()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 ActionsPanel.hasSelection()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
 
-#### Description
+## Description
 
 Method; Specifies whether any text is currently selected in the Actions panel.
 
-#### Example
+## Example
 
 The following example displays text that is currently selected in the Actions panel. If no text is selected, it displays all the text in the Actions panel.
 
@@ -34,7 +34,7 @@ if (fl.actionsPanel.hasSelection()) {
 fl.trace(apText);
 ```
 
-#### See also
+## See also
 
 - [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
 - [ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md)

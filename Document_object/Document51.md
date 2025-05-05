@@ -1,26 +1,26 @@
-## Document.distributeToLayers()
+# Document.distributeToLayers()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.distributeToLayers()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Performs a distribute-to-layers operation on the current selection—equivalent to selecting Distribute to Layers. This method displays an error if there is no selection.
 
-#### Example
+## Example
 
 The following example distributes the current selection to layers:
 

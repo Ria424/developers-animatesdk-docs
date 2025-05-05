@@ -1,21 +1,21 @@
-## Flash.findObjectInDocByType()
+# Flash.findObjectInDocByType()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.findObjectInDocByType(elementType, document)
 
-#### Parameters
+## Parameters
 
 **elementType** A string that represents the type of element to search for. For acceptable values, see
 [Element.elementType](../Element_object/Element1.md).
 
 **document** `Document`; The [Document object](../Document_object/Document_summary.md) in which to search for the specified item.
 
-#### Returns
+## Returns
 
 An array of generic objects. Use the .obj property of each item in the array to get the element object. Each object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object.
 
@@ -23,13 +23,13 @@ You can also access methods and properties for the layer and timeline values; th
 
 The second and third examples in the Examples section show how to access these properties.
 
-#### Description
+## Description
 
 Method; exposes elements of a specified element type in a document.
 
 ***Note:** In some cases, this method works only when run as a command from within a FLA file, not when you are currently viewing or editing the JSFL file.*
 
-#### Example
+## Example
 
 The following example searches the current document for text fields and then changes their contents:
 
@@ -82,6 +82,6 @@ if (resultsArray.length > 0) {
 }
 ```
 
-#### See also
+## See also
 
 [Flash.findObjectInDocByName()](../Flash_object/Flash27.md)

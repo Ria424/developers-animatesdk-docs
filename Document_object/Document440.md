@@ -1,26 +1,26 @@
-## Document.selectNone()
+# Document.selectNone()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.selectNone()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Deselects any selected items.
 
-#### Example
+## Example
 
 The following example deselects any items that are selected:
 
@@ -28,7 +28,7 @@ The following example deselects any items that are selected:
 fl.getDocumentDOM().selectNone();
 ```
 
-#### See also
+## See also
 
 - [Document.selectAll()](../Document_object/Document420.md)
 - [Document.selection](../Document_object/Document430.md)

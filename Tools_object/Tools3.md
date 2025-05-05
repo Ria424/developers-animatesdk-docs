@@ -1,18 +1,18 @@
-## Tools.ctlIsDown
+# Tools.ctlIsDown
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Tools.ctlIsDown
 
-#### Description
+## Description
 
 Read-only property; `boolean`; A boolean value that is true if the Control key is pressed; false otherwise.
 
-#### Example
+## Example
 
 The following example determines whether the Control key is being pressed:
 

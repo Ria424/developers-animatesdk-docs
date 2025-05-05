@@ -1,26 +1,26 @@
-## Flash.fileExists()
+# Flash.fileExists()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.fileExists(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that contains the path to the file.
 
-#### Returns
+## Returns
 
 A Boolean value: true if the file exists on disk; false otherwise.
 
-#### Description
+## Description
 
 Method; checks whether a file already exists on disk.
 
-#### Example
+## Example
 
 The following example displays true or false in the Output panel for each specified file, depending on whether the file exists.
 

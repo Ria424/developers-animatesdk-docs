@@ -1,18 +1,18 @@
-## Flash.configURI
+# Flash.configURI
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fl.configURI
 
-#### Description
+## Description
 
 Read-only property; `string`; A string that specifies the full path for the local user’s Configuration directory as a file:/// URI. See also [Flash.configDirectory](../Flash_object/Flash12.md).
 
-#### Example
+## Example
 
 The following example runs a specified script. Using fl.configURI lets you specify the location of the script without knowing which platform the script is running on.
 

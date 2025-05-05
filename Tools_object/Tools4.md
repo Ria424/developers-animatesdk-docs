@@ -1,26 +1,26 @@
-## Tools.getKeyDown()
+# Tools.getKeyDown()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Tools.getKeyDown()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `integer`; The integer value of the key.
 
-#### Description
+## Description
 
 Method; Returns the most recently pressed key.
 
-#### Example
+## Example
 
 The following example displays the integer value of the most recently pressed key:
 

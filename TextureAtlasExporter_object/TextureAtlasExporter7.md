@@ -1,18 +1,18 @@
-## TextureAtlasExporter.filePath
+# TextureAtlasExporter.filePath
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.filePath
 
-#### Description
+## Description
 
 property; It's the location where the texture atlas files needs to be exported.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

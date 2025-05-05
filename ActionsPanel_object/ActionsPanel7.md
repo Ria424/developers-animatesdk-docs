@@ -1,28 +1,28 @@
-## ActionsPanel.setSelection()
+# ActionsPanel.setSelection()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 actionsPanel.setSelection(startIndex, numberOfChars)
 
-#### Parameters
+## Parameters
 
 **startIndex** `integer`; A zero-based integer that specifies the first character to be selected.
 
 **numberOfChars** `integer`; An integer that specifies how many characters to select.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value that specifies whether the requested characters can be selected (true) or not (false).
 
-#### Description
+## Description
 
 Method; Selects a specified set of characters in the Actions panel.
 
-#### Example
+## Example
 
 The following example replaces the characters "2006" in the Actions panel with the specified text.
 
@@ -35,7 +35,7 @@ fl.actionsPanel.setSelection(3, 4);
 fl.actionsPanel.replaceSelectedText("// Last updated: 2007");
 ```
 
-#### See also
+## See also
 
 - [ActionsPanel.getSelectedText()](../ActionsPanel_object/ActionsPanel2.md)
 - [ActionsPanel.hasSelection()](../ActionsPanel_object/ActionsPanel4.md)

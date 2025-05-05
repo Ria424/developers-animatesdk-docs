@@ -1,18 +1,18 @@
-## Frame.name
+# Frame.name
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.name
 
-#### Description
+## Description
 
 Property; `string`; A string that specifies the name of the frame.
 
-#### Example
+## Example
 
 The following example sets the name of the first frame, top layer to "First Frame" and then stores the name value in the frameLabel variable:
 

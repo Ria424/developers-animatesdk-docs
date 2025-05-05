@@ -1,18 +1,18 @@
-## Document.id
+# Document.id
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.id
 
-#### Description
+## Description
 
 Read-only property; `integer`; A unique integer (assigned automatically) that identifies a document during a Flash session. Use this property in conjunction with [Flash.findDocumentDOM()](../Flash_object/Flash25.md) to specify a particular document for an action.
 
-#### Example
+## Example
 
 The following example displays the document ID for the current document:
 
@@ -20,6 +20,6 @@ The following example displays the document ID for the current document:
 fl.trace("Current doc's internal ID is: " + fl.getDocumentDOM().id);
 ```
 
-#### See also
+## See also
 
 [Flash.findDocumentDOM()](../Flash_object/Flash25.md).

@@ -1,26 +1,26 @@
-## Document.union()
+# Document.union()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.union()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Combines all selected shapes into a drawing object. If no objects are selected, calling this method results in an error and the script breaks at that point.
 
-#### Example
+## Example
 
 The following example combines all selected shapes into a drawing object:
 
@@ -28,7 +28,7 @@ The following example combines all selected shapes into a drawing object:
 fl.getDocumentDOM().union();
 ```
 
-#### See also
+## See also
 
 - [Document.crop()](../Document_object/Document37.md)
 - [Document.deleteEnvelope()](../Document_object/Document41.md)

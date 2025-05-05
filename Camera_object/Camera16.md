@@ -1,26 +1,26 @@
-## Camera.reset()
+# Camera.reset()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.reset(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Reset all camera properties to default.
 
-#### Example
+## Example
 
 The following example reset all camera properties to default.
 

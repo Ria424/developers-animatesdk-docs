@@ -1,18 +1,18 @@
-## CompiledClipInstance.visible
+# CompiledClipInstance.visible
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 CompiledClipInstance.visible
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean that sets visibility. Equivalent to the visible checkbox in the Display section of the Property Inspector for symbols.
 
-#### Example
+## Example
 
 The following example illustrates use of this property:
 

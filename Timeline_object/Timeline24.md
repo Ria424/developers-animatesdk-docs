@@ -1,26 +1,26 @@
-## Timeline.getLayerProperty()
+# Timeline.getLayerProperty()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.getLayerProperty(property)
 
-#### Parameters
+## Parameters
 
 **property** `string`; The name of the property whose value you want to retrieve. For a list of properties, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
 
-#### Returns
+## Returns
 
 `any | undefined`; The value of the specified property. Animate looks at the layer’s properties to determine the type. If all the specified layers don’t have the same property value, Animate returns undefined.
 
-#### Description
+## Description
 
 Method; Retrieves the specified property’s value for the selected layers.
 
-#### Example
+## Example
 
 The following example retrieves the name of the top layer in the current document and displays it in the Output panel:
 

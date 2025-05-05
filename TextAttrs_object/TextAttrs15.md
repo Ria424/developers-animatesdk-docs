@@ -1,18 +1,18 @@
-## TextAttrs.size
+# TextAttrs.size
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *textAttrs.size*
 
-#### Description
+## Description
 
 Property; an integer that specifies the size of the font.
 
-#### Example
+## Example
 
 The following example retrieves the size of the character at index 2 and shows the result in the Output panel:
 

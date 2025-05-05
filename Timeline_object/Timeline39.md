@@ -1,28 +1,28 @@
-## Timeline.removeMotionObject()
+# Timeline.removeMotionObject()
 
-#### Availability
+## Availability
 
 Flash Professional CS5.
 
-#### Usage
+## Usage
 
 Timeline.removeMotionObject(\[startFrame \[,endFrame\])
 
-#### Parameters
+## Parameters
 
 **startFrame** `integer?`; Specifies the first frame at which to start removing motion objects. If you omit *startFrame*, the method uses the current selection; if there is no selection, all frames at the current playhead on all layers are removed. This parameter is optional.
 
 **endFrame** `integer?`; Specifies the frame at which to stop removing motion objects; the range of frames goes up to, but does not include, *endFrame*. If you specify only *startFrame*, *endFrame* defaults to the *startFrame* value. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes the motion object and converts the frame(s) back to static frames. The parameters are optional, and if specified set the timeline selection to the indicated frames prior to removing the motion object.
 
-#### Example
+## Example
 
 The following example deletes all motion objects and converts the frames back to static frames at the current playhead position on the top layer:
 
@@ -38,6 +38,6 @@ fl.getDocumentDOM().getTimeline().currentLayer = 0;
 fl.getDocumentDOM().getTimeline().removeMotionObject(5, 15);
 ```
 
-#### See also
+## See also
 
 [Timeline.createMotionObject()](../Timeline_object/Timeline10.md)

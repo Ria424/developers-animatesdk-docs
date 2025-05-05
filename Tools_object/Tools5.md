@@ -1,18 +1,18 @@
-## Tools.mouseIsDown
+# Tools.mouseIsDown
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Tools.mouseIsDown
 
-#### Description
+## Description
 
 Read-only property; `boolean`; A boolean value that is true if the left mouse button is currently down; false otherwise.
 
-#### Example
+## Example
 
 The following example determines whether the left mouse button is pressed.
 

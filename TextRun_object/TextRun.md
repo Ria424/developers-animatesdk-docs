@@ -1,18 +1,18 @@
-## TextRun.textAttrs
+# TextRun.textAttrs
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *textRun.textAttrs*
 
-#### Description
+## Description
 
 Property; the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md) containing the attributes of the run of text.
 
-#### Example
+## Example
 
 The following example displays the properties of the first run of characters in the selected text field in the Output panel.
 

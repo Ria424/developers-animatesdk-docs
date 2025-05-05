@@ -1,14 +1,14 @@
-## Document.setTransformationPoint()
+# Document.setTransformationPoint()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.setTransformationPoint(transformationPoint)
 
-#### Parameters
+## Parameters
 
 **transformationPoint** `Point`; A point (for example, {x: 10, y: 20}, where x and y are floating-point numbers) that specifies values for the transformation point of each of the following elements:
 
@@ -22,15 +22,15 @@ Document.setTransformationPoint(transformationPoint)
 
 - Drawing objects, primitive ovals and rectangles, and groups: *transformationPoint* is set relative to the document (0, 0 is the upper left corner of the Stage). To set *transformationPoint* relative to the center point of the object, primitive, or group, use [Element.setTransformationPoint()](../Element_object/Element19.md).
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the position of the current selection’s transformation point.
 
-#### Example
+## Example
 
 The following example sets the transformation point of the current selection to 100, 200:
 
@@ -38,6 +38,6 @@ The following example sets the transformation point of the current selection to 
 fl.getDocumentDOM().setTransformationPoint({x: 100, y: 200});
 ```
 
-#### See also
+## See also
 
 [Document.getTransformationPoint()](../Document_object/Document89.md), [Element.setTransformationPoint()](../Element_object/Element19.md)

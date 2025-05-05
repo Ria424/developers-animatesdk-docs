@@ -1,22 +1,22 @@
-## Document.importSWF() - dropped
+# Document.importSWF() - dropped
 
-#### Availability
+## Availability
 
 Flash MX 2004. *Dropped in Adobe Animate.*
 
-#### Usage
+## Usage
 
 document.importSWF(fileURI)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the file for the SWF file to import.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Example
+## Example
 
 The following example imports the "mySwf.swf" file from the Flash Configuration folder:
 
@@ -24,6 +24,6 @@ The following example imports the "mySwf.swf" file from the Flash Configuration 
 fl.getDocumentDOM().importSWF(fl.configURI + "mySwf.swf");
 ```
 
-#### See also
+## See also
 
 [Document.importFile()](../Document_object/Document93.md)

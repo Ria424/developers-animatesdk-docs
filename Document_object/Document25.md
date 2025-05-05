@@ -1,26 +1,26 @@
-## Document.canEditSymbol()
+# Document.canEditSymbol()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.canEditSymbol()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; true if the Edit Symbols menu and functionality are available for use; false otherwise.
 
-#### Description
+## Description
 
 Method; Indicates whether the Edit Symbols menu and functionality are enabled. This is not related to whether the selection can be edited. This method should not be used to test whether fl.getDocumentDOM().enterEditMode() is allowed.
 
-#### Example
+## Example
 
 The following example displays in the Output panel the state of the Edit Symbols menu and functionality:
 

@@ -1,16 +1,16 @@
-## Instance summary
+# Instance summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > Instance object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 Instance is a subclass of the [Element object](../Element_object/Element_summary.md).
 
-#### Property summary
+## Property summary
 
 In addition to all of the Element object properties, Instance has the following properties:
 

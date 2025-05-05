@@ -1,25 +1,25 @@
-## FLfile.setAttributes()
+# FLfile.setAttributes()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.setAttributes(fileURI, strAttrs)
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; Expressed as a file:/// URI, specifying the file whose attributes you want to set.
 
 **strAttrs** `string`; A string specifying values for the attribute(s) you want to set. For acceptable values for *strAttrs*, see the "Description" section below.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of true if successful.
 ***Note:** Results are unpredictable if the file or folder doesn’t exist. You should use* *[FLfile.exists()](../FLfile_object/FLfile2.md) before using this method.*
 
-#### Description
+## Description
 
 Method; specifies system-level attributes for the specified file.
 The following values are valid for *strAttrs*:
@@ -40,7 +40,7 @@ If you include both `R` and `W` in *strAttrs*, the `R` is ignored and the file i
 `H` is ignored and the file is set as visible.
 If you want to make sure the archive attribute is not set, use this command with the `N` parameter before setting attributes. That is, there is no direct counterpart to `A` that turns off the archive attribute.
 
-#### Examples
+## Examples
 
 The following example sets the file mydata.txt to be read-only and hidden. It has no effect on the archive attribute.
 
@@ -60,6 +60,6 @@ if (FLfile.exists(URI)) {
 }
 ```
 
-#### See also
+## See also
 
 [FLfile.getAttributes()](../FLfile_object/FLfile3.md)

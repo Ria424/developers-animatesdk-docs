@@ -1,14 +1,14 @@
-## Flash.toggleBreakpoint()
+# Flash.toggleBreakpoint()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.toggleBreakpoint(String fileURI, int line, Boolean enable)
 
-#### Parameters
+## Parameters
 
 **fileURI** A string; the URI of the the AS file in which to toggle the breakpoint.
 
@@ -16,11 +16,11 @@ fl.toggleBreakpoint(String fileURI, int line, Boolean enable)
 
 **enable** `boolean`; If set to true, the breakpoint is enabled. If set to false, the breakpoint is disabled.
 
-#### Description
+## Description
 
 Toggles a breakpoint for the given .as file at the given line. If enable is false, the breakpoint currently stored at that line will be erased.
 
-#### Example
+## Example
 
 The following example enables a breakppoint at line 10 of the AS file located at C:\AS\breakpointTest.as:
 

@@ -1,27 +1,27 @@
-## SwfPanel.call()
+# SwfPanel.call()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 swfPanel.call(request)
 
-#### Parameters
+## Parameters
 
 **request** Parameters to pass to the function (see "Description" and "Example" below).
 
-#### Returns
+## Returns
 
 Either null or a string that is returned by the function call. The function result could be an empty string.
 
-#### Description
+## Description
 
 Method; works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute()
 methods to communicate with the SWF panel from the authoring environment.
 
-#### Example
+## Example
 
 The following example illustrates how to use ActionScript and JavaScript code to create a Window SWF panel and communicate with it from the authoring environment.
 

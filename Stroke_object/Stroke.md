@@ -1,18 +1,18 @@
-## Stroke.breakAtCorners
+# Stroke.breakAtCorners
 
-#### Availability
+## Availability
 
 Flash MX 2004. Deprecated in Flash CS3 in favor of [Stroke.joinType](../Stroke_object/Stroke11.md).
 
-#### Usage
+## Usage
 
 stroke.breakAtCorners
 
-#### Description
+## Description
 
 Property; a Boolean value. This property is the same as the Sharp Corners setting in the custom Stroke Style dialog box.
 
-#### Example
+## Example
 
 The following example sets the breakAtCorners property to true:
 

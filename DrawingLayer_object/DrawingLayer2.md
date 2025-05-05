@@ -1,14 +1,14 @@
-## DrawingLayer.cubicCurveTo()
+# DrawingLayer.cubicCurveTo()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 DrawingLayer.cubicCurveTo(x1Ctrl, y1Ctrl, x2Ctl, y2Ctl, xEnd, yEnd)
 
-#### Parameters
+## Parameters
 
 **x1Ctl** `number`; A floating-point value that is the *x* location of the first control point.
 
@@ -22,15 +22,15 @@ DrawingLayer.cubicCurveTo(x1Ctrl, y1Ctrl, x2Ctl, y2Ctl, xEnd, yEnd)
 
 **yEnd** `number`; A floating-point value that is the *y* position of the end control point.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Draws a cubic curve from the current pen location using the parameters as the coordinates of the cubic segment. You typically use this method only when creating extensible tools.
 
-#### Example
+## Example
 
 The following example draws a cubic curve using the specified control points:
 

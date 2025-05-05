@@ -1,18 +1,18 @@
-## SpriteSheetExporter.borderPadding
+# SpriteSheetExporter.borderPadding
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.borderPadding
 
-#### Description
+## Description
 
 Property; `integer`; An integer indicating the number of pixels of padding to add around each sprite in the sprite sheet.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

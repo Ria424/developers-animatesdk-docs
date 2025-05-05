@@ -1,18 +1,18 @@
-## Stroke.scaleType
+# Stroke.scaleType
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 stroke.scaleType
 
-#### Description
+## Description
 
 Property; a string that specifies the type of scale to be applied to the stroke. Acceptable values are "normal", "horizontal", "vertical", and "none".
 
-#### Example
+## Example
 
 The following example sets the scale type of the stroke to horizontal:
 

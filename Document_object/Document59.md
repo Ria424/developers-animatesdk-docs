@@ -1,26 +1,26 @@
-## Document.enableFilter()
+# Document.enableFilter()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.enableFilter(filterIndex)
 
-#### Parameters
+## Parameters
 
 **filterIndex** `integer`; An integer specifying the zero-based index of the filter in the Filters list to enable.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Enables the specified filter for the selected objects.
 
-#### Example
+## Example
 
 The following example enables the second filter of the selected objects:
 
@@ -28,7 +28,7 @@ The following example enables the second filter of the selected objects:
 fl.getDocumentDOM().enableFilter(1);
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.changeFilterOrder()](../Document_object/Document29.md)

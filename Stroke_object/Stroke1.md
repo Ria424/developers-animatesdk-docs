@@ -1,18 +1,18 @@
-## Stroke.capType
+# Stroke.capType
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 stroke.capType
 
-#### Description
+## Description
 
 Property; a string that specifies the type of cap for the stroke. Acceptable values are "none", "round", and "square".
 
-#### Example
+## Example
 
 The following example sets the stroke cap type to round:
 

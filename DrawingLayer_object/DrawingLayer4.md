@@ -1,26 +1,26 @@
-## DrawingLayer.drawPath()
+# DrawingLayer.drawPath()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 DrawingLayer.drawPath(path)
 
-#### Parameters
+## Parameters
 
 **path** `Path`; A [Path object](../Path_object/Path_summary.md) to draw.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Draws the path specified by the *path* parameter. You typically use this method only when creating extensible tools.
 
-#### Example
+## Example
 
 The following example draws a path specified by the Path object named gamePath:
 

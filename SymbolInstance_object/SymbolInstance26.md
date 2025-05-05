@@ -1,18 +1,18 @@
-## SymbolInstance.tabIndex
+# SymbolInstance.tabIndex
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolInstance.tabIndex
 
-#### Description
+## Description
 
 Property; `integer`; An integer that is equivalent to the Tab index field in the Accessibility panel. Creates a tab order in which objects are accessed when the user presses the Tab key. This property is not available for graphic symbols.
 
-#### Example
+## Example
 
 The following example sets the tabIndex property of the mySymbol object to 3 and displays that value in the Output panel:
 

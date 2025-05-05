@@ -1,18 +1,18 @@
-## Fill.matrix
+# Fill.matrix
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 fill.matrix
 
-#### Description
+## Description
 
 Property; a [Matrix object](../Matrix_object/Matrix_summary.md) that defines the placement, orientation, and scales for gradient fills.
 
-#### Example
+## Example
 
 The following example uses the fill.matrix property to specify a gradient fill for the current selection:
 

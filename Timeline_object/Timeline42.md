@@ -1,26 +1,26 @@
-## Timeline.selectAllFrames()
+# Timeline.selectAllFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.selectAllFrames()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Selects all the frames in the current timeline.
 
-#### Example
+## Example
 
 The following example selects all the frames in the current timeline.
 

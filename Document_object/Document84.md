@@ -1,26 +1,26 @@
-## Document.getSelectionRect()
+# Document.getSelectionRect()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.getSelectionRect()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `Rectangle`; The bounding rectangle of the current selection, or 0 if nothing is selected. For information on the format of the return value, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
-#### Description
+## Description
 
 Method; Gets the bounding rectangle of the current selection. If a selection is non-rectangular, the smallest rectangle encompassing the entire selection is returned. The rectangle is based on the document space or, when in edit mode, the registration point (also *origin point* or *zero point*) of the symbol being edited.
 
-#### Example
+## Example
 
 The following example gets the bounding rectangle for the current selection and then displays its properties:
 
@@ -30,7 +30,7 @@ var outputStr = "left: " + newRect.left + " top: " + newRect.top + " right: " + 
 alert(outputStr);
 ```
 
-#### See also
+## See also
 
 - [Document.selection](../Document_object/Document430.md)
 - [Document.setSelectionRect()](../Document_object/Document9689.md)

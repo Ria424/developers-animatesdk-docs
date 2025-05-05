@@ -1,14 +1,14 @@
-## Timeline.insertFrames()
+# Timeline.insertFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.insertFrames(\[numFrames \[, bAllLayers \[, frameNumIndex\]\]\])
 
-#### Parameters
+## Parameters
 
 **numFrames** `integer?`; The number of frames to insert. If you omit this parameter, the method inserts frames at the current selection in the current layer. This parameter is optional.
 
@@ -16,11 +16,11 @@ Timeline.insertFrames(\[numFrames \[, bAllLayers \[, frameNumIndex\]\]\])
 
 **frameNumIndex** `integer?`; A zero-based index that specifies the frame at which to insert a new frame. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Inserts the specified number of frames at the specified index. If no parameters are specified, this method works as follows:
 
@@ -36,7 +36,7 @@ Method; Inserts the specified number of frames at the specified index. If no par
 
 If the specified or selected frame is a regular frame, the frame is inserted at that frame. For example, if you have a span of 10 frames numbered 1-10 and you select Frame 5 (or pass a value of 4 for *frameIndex*), this method adds a frame at Frame 5, and the length of the frame span becomes 11 frames. If Frame 5 is selected and it is a keyframe, this method inserts a frame at Frame 6 regardless of whether the frame next to it is also a keyframe.
 
-#### Example
+## Example
 
 The following example inserts a frame (or frames, depending on the selection) at the current selection in the current layer:
 

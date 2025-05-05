@@ -1,18 +1,18 @@
-## HalfEdge.id
+# HalfEdge.id
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 halfEdge.id
 
-#### Description
+## Description
 
 Read-only property; a unique integer identifier for the HalfEdge object.
 
-#### Example
+## Example
 
 The following example displays a unique identifier for the specified half edge in the Output panel:
 

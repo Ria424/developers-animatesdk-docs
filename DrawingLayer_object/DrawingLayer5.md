@@ -1,26 +1,26 @@
-## DrawingLayer.endDraw()
+# DrawingLayer.endDraw()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 DrawingLayer.endDraw()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Exits drawing mode. Drawing mode is used when you want to temporarily draw while the mouse button is pressed. You typically use this method only when creating extensible tools.
 
-#### Example
+## Example
 
 The following example exits drawing mode:
 

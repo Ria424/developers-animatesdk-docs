@@ -1,14 +1,14 @@
-## Fill summary
+# Fill summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 This object contains all the properties of the Fill color setting of the Tools panel or of a selected shape. To retrieve a Fill object, use [Document.getCustomFill()](../Document_object/Document74.md).
 
-#### Property summary
+## Property summary
 
 The following properties are available for the Fill object:
 

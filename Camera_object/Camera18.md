@@ -1,18 +1,18 @@
-## Camera.tintEnabled
+# Camera.tintEnabled
 
-#### Availability
+## Availability
 
 Animate 2019
 
-#### Usage
+## Usage
 
 Camera.tintEnabled
 
-#### Description
+## Description
 
 `boolean`; Used to Enable/Disable tint. The value true is if camera is enabled otherwise false.
 
-#### Example
+## Example
 
 The following example enables the tint:
 

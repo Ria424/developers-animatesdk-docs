@@ -1,18 +1,18 @@
-## SymbolItem.scalingGrid
+# SymbolItem.scalingGrid
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 SymbolItem.scalingGrid
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that specifies whether 9-slice scaling is enabled for the item.
 
-#### Example
+## Example
 
 The following example enables 9-slice scaling for an item in the library:
 
@@ -20,6 +20,6 @@ The following example enables 9-slice scaling for an item in the library:
 fl.getDocumentDOM().library.items[0].scalingGrid = true;
 ```
 
-#### See also
+## See also
 
 [SymbolItem.scalingGridRect](../SymbolItem_object/SymbolItem7.md)

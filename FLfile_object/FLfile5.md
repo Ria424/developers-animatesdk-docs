@@ -1,26 +1,26 @@
-## FLfile.getCreationDateObj()
+# FLfile.getCreationDateObj()
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Usage
+## Usage
 
 FLfile.getCreationDateObj(fileOrFolderURI)
 
-#### Parameters
+## Parameters
 
 **fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder whose creation date and time you want to retrieve as a JavaScript Date object.
 
-#### Returns
+## Returns
 
 A JavaScript Date object that represents the date and time when the specified file or folder was created. If the file doesn’t exist, the object contains information indicating that the file or folder was created at midnight GMT on December 31, 1969.
 
-#### Description
+## Description
 
 Method; Returns a JavaScript Date object that represents the date and time when the specified file or folder was created.
 
-#### Example
+## Example
 
 The following example displays (in human-readable form) the date a file was created, in the Output panel:
 
@@ -30,7 +30,7 @@ var file1Date = FLfile.getCreationDateObj("file:///c|/temp/file1.txt");
 fl.trace(file1Date);
 ```
 
-#### See also
+## See also
 
 - [FLfile.getCreationDate()](../FLfile_object/FLfile4.md)
 - [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md)

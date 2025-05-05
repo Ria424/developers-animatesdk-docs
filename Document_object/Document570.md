@@ -1,22 +1,22 @@
-## Document.setMetadata()
+# Document.setMetadata()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.setMetadata(strMetadata)
 
-#### Parameters
+## Parameters
 
 **strMetadata** `string`; A string containing the XML metadata to be associated with the document. For more information, see the following description.
 
-#### Returns
+## Returns
 
 `boolean`; True if successful; false otherwise.
 
-#### Description
+## Description
 
 Method; Sets the XML metadata for the specified document, overwriting any existing metadata. The XML passed as *strMetadata* is validated and may be rewritten before being stored. If it cannot be validated as legal XML or violates specific rules, then the XML metadata is not set and false is returned. (If false is returned, there is no way to get more detailed error information.)
 ***Note:** Even if true is returned, the XML that is set may not be exactly the same string that you passed in. To get the exact value to which the XML was set, use [Document.getMetadata()](../Document_object/Document80.md).*
@@ -28,7 +28,7 @@ The format of the metadata is RDF that is compliant with the XMP specification. 
 
 - The XMP home page at [Www.adobe.com/products/xmp/](http://www.adobe.com/products/xmp/)
 
-#### Example
+## Example
 
 The following examples show several different legal ways to represent the same data. In all of these cases but the second one, if the data were sent to Document.setMetadata(), it would not be rewritten (aside from removing line breaks).
 In the first example, metadata is in tags, with different schemas placed in separate rdf:Description tags:
@@ -80,6 +80,6 @@ rdf:Description tag:
 </rdf:RDF>
 ```
 
-#### See also
+## See also
 
 [Document.getMetadata()](../Document_object/Document80.md)

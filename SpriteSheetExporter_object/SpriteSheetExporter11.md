@@ -1,18 +1,18 @@
-## SpriteSheetExporter.canTrim
+# SpriteSheetExporter.canTrim
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.canTrim
 
-#### Description
+## Description
 
 Read-only property; `boolean`; A boolean value indicating whether the framework specified by the `SpriteSheetExporter.layoutFormat` property supports trimming extra whitespace from symbol frames when adding them to the sprite sheet.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

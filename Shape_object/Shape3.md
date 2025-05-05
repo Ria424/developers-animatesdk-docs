@@ -1,13 +1,13 @@
-## Shape.edges
+# Shape.edges
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *shape.edges*
 
-#### Description
+## Description
 
 Read-only property; an array of Edge objects (see [Edge object](../Edge_object/Edge_summary.md)).

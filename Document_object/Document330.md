@@ -1,26 +1,26 @@
-## Document.resetTransformation()
+# Document.resetTransformation()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.resetTransformation()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Resets the transformation matrix. This method is equivalent to selecting Modify>Transform >Remove Transform.
 
-#### Example
+## Example
 
 The following example resets the transformation matrix for the current selection:
 

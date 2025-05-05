@@ -1,26 +1,26 @@
-## Document.breakApart()
+# Document.breakApart()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.breakApart()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Performs a break-apart operation on the current selection.
 
-#### Example
+## Example
 
 The following example breaks apart the current selection:
 

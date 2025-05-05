@@ -1,28 +1,28 @@
-## Document.exportSWF()
+# Document.exportSWF()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.exportSWF([fileURI [, bCurrentSettings]])
 
-#### Parameters
+## Parameters
 
 **fileURI** `string?`; A string, expressed as a file:/// URI, that specifies the name of the exported file. If *fileURI* is empty or not specified, Flash displays the Export Movie dialog box. This parameter is optional.
 
 **bCurrentSettings** `boolean?false`; A boolean value that, when set to true, causes Flash to use current SWF publish settings. Otherwise, Flash displays the Export Flash Player dialog box. The default is false. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Exports the document in the Flash SWF format.
 
-#### Example
+## Example
 
 The following example exports the document to the specified file location with the current publish settings:
 

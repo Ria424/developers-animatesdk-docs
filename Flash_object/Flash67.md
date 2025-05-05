@@ -1,29 +1,29 @@
-## Flash.selectElement()
+# Flash.selectElement()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.selectElement(elementObject, editMode)
 
-#### Parameters
+## Parameters
 
 **elementObject** `Element`; The [Element object](../Element_object/Element_summary.md) you want to select.
 
 **editMode** A Boolean value that specifies whether you want to edit the element (true) or want only to select it (false).
 
-#### Returns
+## Returns
 
 A Boolean value of true if the element was successfully selected; false otherwise.
 
-#### Description
+## Description
 
 Method; enables selection or editing of an element. Generally, you will use this method on objects returned by
 [Flash.findObjectInDocByName()](../Flash_object/Flash27.md) or [Flash.findObjectInDocByType()](../Flash_object/Flash28.md).
 
-#### Example
+## Example
 
 The following example selects an element named "second text field" if one is found in the document:
 
@@ -46,6 +46,6 @@ else {
 }
 ```
 
-#### See also
+## See also
 
 [Flash.findObjectInDocByName()](../Flash_object/Flash27.md), [Flash.findObjectInDocByType()](../Flash_object/Flash28.md)

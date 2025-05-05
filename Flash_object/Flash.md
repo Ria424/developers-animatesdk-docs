@@ -1,13 +1,13 @@
-## Flash.actionsPanel
+# Flash.actionsPanel
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 fl.actionsPanel
 
-#### Description
+## Description
 
 Read-only property; `ActionsPanel`; An [ActionsPanel object](../ActionsPanel_object/ActionsPanel_summary.md), which represents the currently displayed Actions panel.

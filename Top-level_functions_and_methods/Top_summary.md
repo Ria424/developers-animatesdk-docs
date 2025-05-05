@@ -1,10 +1,10 @@
-## Top-level summary
+# Top-level summary
 
-#### About this section
+## About this section
 
 This section describes the top-level functions and methods that are available when you use the Adobe Flash JavaScript application programming interface (JavaScript API). For information about where to store JavaScript API files, see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files).
 
-#### Global methods
+## Global methods
 
 The following methods can be called from any JavaScript API script:
 
@@ -12,7 +12,7 @@ The following methods can be called from any JavaScript API script:
 - [confirm()](../Top-level_functions_and_methods/confirm.md)
 - [prompt()](../Top-level_functions_and_methods/prompt.md)
 
-#### Extensible tools
+## Extensible tools
 
 The following functions are available in scripts that create extensible tools:
 

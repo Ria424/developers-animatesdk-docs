@@ -1,26 +1,26 @@
-## ActionsPanel.getScriptAssistMode() - dropped
+# ActionsPanel.getScriptAssistMode() - dropped
 
-#### Availability
+## Availability
 
 Flash CS3 Professional. *Dropped in Adobe Animate*.
 
-#### Usage
+## Usage
 
 ActionsPanel.getScriptAssistMode()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
 
-#### Description
+## Description
 
 Method; Specifies whether Script Assist mode is enabled.
 
-#### Example
+## Example
 
 The following example displays a message if Script Assist mode is not enabled.
 
@@ -31,6 +31,6 @@ if (!mAssist) {
 }
 ```
 
-#### See also
+## See also
 
 [ActionsPanel.setScriptAssistMode() - dropped](../ActionsPanel_object/ActionsPanel6.md)

@@ -1,26 +1,26 @@
-## Flash.xmlPanelFromString()
+# Flash.xmlPanelFromString()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.xmlPanelFromString(xmlString)
 
-#### Parameters
+## Parameters
 
 **xmlString** A string containing XML that defines a dialog.
 
-#### Returns
+## Returns
 
 `XMLUI`;
 
-#### Description
+## Description
 
 Method; Launches the XML To UI dialog from an XML-format string.
 
-#### Example
+## Example
 
 The following example calls the xmlPanelFromString method:
 

@@ -1,18 +1,18 @@
-## Flash.objectDrawingMode
+# Flash.objectDrawingMode
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 fl.objectDrawingMode
 
-#### Description
+## Description
 
 Property; a Boolean value that specifies whether the object drawing mode is enabled (true) or the merge drawing mode is enabled (false).
 
-#### Example
+## Example
 
 The following example toggles the state of the object drawing mode:
 

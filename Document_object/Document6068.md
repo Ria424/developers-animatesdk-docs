@@ -1,28 +1,28 @@
-## Document.setTaggedSwatchByName()
+# Document.setTaggedSwatchByName()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.setTaggedSwatchByName(oldSwatchName:name, newSwatch:object).
 
-#### Parameters
+## Parameters
 
 **oldSwatchName**: `string`; A string that indicates the name of the tagged swatch to update.
 
 **newSwatch**: `Swatch`; New swatch Object.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Replace the tagged swatch with the given name to the given new swatch object.
 
-#### Example
+## Example
 
 The following example replace the tagged swatch with the given name "Oldswatch" to the given new swatch object swatch1.
 
@@ -37,6 +37,6 @@ swatch1.name = "solid_swatch";
 document.setTaggedSwatchByName("Oldswatch", swatch1);
 ```
 
-#### See also
+## See also
 
 [Document.setTaggedSwatchAtIndex()](../Document_object/Document6066.md)

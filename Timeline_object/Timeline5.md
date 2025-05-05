@@ -1,29 +1,29 @@
-## Timeline.convertToKeyframes()
+# Timeline.convertToKeyframes()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.convertToKeyframes([startFrameIndex [, endFrameIndex]])
 
-#### Parameters
+## Parameters
 
 **startFrameIndex** `integer?`; A zero-based index that specifies the first frame to convert to keyframes. If you omit
 *startFrameIndex*, the method converts the currently selected frames. This parameter is optional.
 
 **endFrameIndex** `integer?`; A zero-based index that specifies the frame at which conversion to keyframes will stop. The range of frames to convert goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Converts a range of frames to keyframes (or converts the selection if no frames are specified) on the current layer.
 
-#### Example
+## Example
 
 The following example converts the selected frames to keyframes:
 

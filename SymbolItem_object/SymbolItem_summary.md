@@ -1,16 +1,16 @@
-## SymbolItem summary
+# SymbolItem summary
 
 **Inheritance** [Item object](../Item_object/Item_summary.md) > SymbolItem object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The SymbolItem object is a subclass of the [Item object](../Item_object/Item_summary.md).
 
-#### Method summary
+## Method summary
 
 In addition to the Item object methods, you can use the following methods with the SymbolItem object:
 
@@ -22,7 +22,7 @@ In addition to the Item object methods, you can use the following methods with t
 | [SymbolItem.exportToLibrary()](../SymbolItem_object/SymbolItem3.md) | Export an instance to a new bitmap in the Library. |
 | [SymbolItem.exportToPNGSequence()](../SymbolItem_object/SymbolItem4.md) | Export a symbol to a sequence of PNG files. |
 
-#### Property summary
+## Property summary
 
 In addition to the Item object properties, the following properties are available for the SymbolItem object:
 

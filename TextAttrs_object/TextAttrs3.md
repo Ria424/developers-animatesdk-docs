@@ -1,18 +1,18 @@
-## TextAttrs.bold
+# TextAttrs.bold
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *textAttrs.bold*
 
-#### Description
+## Description
 
 Property; a Boolean value. A value of true causes text to appear with the bold version of the font.
 
-#### Example
+## Example
 
 The following example selects the first character of the selected Text object and sets the bold property to true:
 

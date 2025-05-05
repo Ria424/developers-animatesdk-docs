@@ -1,26 +1,26 @@
-## Camera.resetPosition()
+# Camera.resetPosition()
 
-#### Availability
+## Availability
 
 Adobe Animate 2019.
 
-#### Usage
+## Usage
 
 Camera.resetPosition(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`;
 
-#### Return
+## Return
 
 Nothing.
 
-#### Description
+## Description
 
 Reset camera position to the original position i.e (0, 0, 0).
 
-#### Example
+## Example
 
 The following example resets camera position to the original position i.e (0, 0, 0):
 

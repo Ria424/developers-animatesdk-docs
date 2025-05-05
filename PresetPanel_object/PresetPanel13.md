@@ -1,14 +1,14 @@
-## PresetPanel.selectItem()
+# PresetPanel.selectItem()
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *presetPanel.selectItem(namePath [, bReplaceCurrentSelection [, bSelect] ])*
 
-#### Parameters
+## Parameters
 
 **namePath** A string that specifies the path and name of the item to select from the Motion Presets panel.
 
@@ -16,15 +16,15 @@ Flash CS4 Professional.
 
 **bSelect** A Boolean value that specifies whether to select the item (*true*) or deselect the item (*false*). This parameter is optional; the default value is true. If you pass false for *bSelect*, the value of *bReplaceCurrentSelection* is ignored.
 
-#### Returns
+## Returns
 
 A Boolean value of true if the item was successfully selected or deselected; false otherwise.
 
-#### Description
+## Description
 
 Method; selects or deselects an item in the Motion Presets panel, optionally replacing any items currently selected.
 
-#### Example
+## Example
 
 The following code adds the fly-in-blur-right preset to the currently selected presets (if any) in the Motion Presets panel:
 

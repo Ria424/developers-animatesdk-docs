@@ -1,14 +1,14 @@
-## Contour summary
+# Contour summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 A Contour object represents a closed path of half edges on the boundary of a shape.
 
-#### Method summary
+## Method summary
 
 You can use the following method with the Contour object:
 
@@ -16,7 +16,7 @@ You can use the following method with the Contour object:
 | --- | --- |
 | [Contour.getHalfEdge()](../Contour_object/Contour1.md) | Returns a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md) on the contour of the selection. |
 
-#### Property summary
+## Property summary
 
 You can use the following properties with the Contour object:
 

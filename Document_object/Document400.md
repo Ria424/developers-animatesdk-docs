@@ -1,14 +1,14 @@
-## Document.scaleSelection()
+# Document.scaleSelection()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.scaleSelection(xScale, yScale [, whichCorner])
 
-#### Parameters
+## Parameters
 
 **xScale** `number`; A floating-point value that specifies the amount of *x* by which to scale.
 
@@ -16,15 +16,15 @@ Document.scaleSelection(xScale, yScale [, whichCorner])
 
 **whichCorner** `"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"?`; The edge about which the transformation occurs. If omitted, scaling occurs about the transformation point. Acceptable values are: "bottom left", "bottom right", "top right", "top left", "top center", "right center", "bottom center", and "left center". This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Scales the selection by a specified amount. This method is equivalent to using the Free Transform tool to scale the object.
 
-#### Example
+## Example
 
 The following example expands the width of the current selection to double the original width and shrinks the height to half:
 

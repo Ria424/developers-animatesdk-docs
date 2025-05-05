@@ -1,18 +1,18 @@
-## FontItem.bitmap
+# FontItem.bitmap
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 FontItem.bitmap
 
-#### Description
+## Description
 
 Property; `boolean`; Specifies whether the Font item is bitmapped (true) or not (false).
 
-#### Example
+## Example
 
 Assuming that the first item in the Library is a Font item, the following code displays true in the Output panel if it is bitmapped, false if it is not:
 

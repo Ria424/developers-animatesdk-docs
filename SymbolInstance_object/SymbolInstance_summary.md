@@ -1,16 +1,16 @@
-## SymbolInstance summary
+# SymbolInstance summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > [Instance object](../Instance_object/Instance_summary.md) > SymbolInstance object
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 SymbolInstance is a subclass of the [Instance object](../Instance_object/Instance_summary.md) and represents a symbol in a frame.
 
-#### Property summary
+## Property summary
 
 In addition to the Instance object properties, the SymbolInstance object has the following properties:
 

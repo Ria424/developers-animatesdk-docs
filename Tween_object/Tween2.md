@@ -1,26 +1,26 @@
-## Tween.getGeometricTransform()
+# Tween.getGeometricTransform()
 
-#### Availability
+## Availability
 
 Flash Pro CC.
 
-#### Usage
+## Usage
 
 Tween.getGeometricTransform(frameIndex)
 
-#### Parameters
+## Parameters
 
 **frameIndex** `integer`; Offset index of the frame from which geometric transformations have to be retrieved.
 
-#### Returns
+## Returns
 
 `Matrix`; Matrix object that represents geometric transformations at the frame offset.
 
-#### Description
+## Description
 
 Method; Returns Matrix object that represents geometric transformation of a tween within a user-defined range (from offset to a selected frame).
 
-#### Example
+## Example
 
 ```javascript
 var doc = fl.getDocumentDOM();

@@ -1,14 +1,14 @@
-## Document.backgroundColor
+# Document.backgroundColor
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.backgroundColor
 
-#### Description
+## Description
 
 Property; `integer | string`; The color of the background, in one of the following formats:
 
@@ -18,7 +18,7 @@ Property; `integer | string`; The color of the background, in one of the followi
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-#### Example
+## Example
 
 The following example sets the background color to black:
 

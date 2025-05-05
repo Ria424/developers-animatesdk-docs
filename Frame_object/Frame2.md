@@ -1,22 +1,22 @@
-## Frame.convertToFrameByFrameAnimation()
+# Frame.convertToFrameByFrameAnimation()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 Frame.convertToFrameByFrameAnimation()
 
-#### Returns
+## Returns
 
 `boolean`; Returns true if the frame contains animation that can be converted to frame by frame animation. For example: return *true* for Motion Tween frame or Classic Tween frame; return *false* for other type of frame such as static.
 
-#### Description
+## Description
 
 Method; Converts the current frame to Frame-by-Frame Animation.
 
-#### Example
+## Example
 
 The following example converts the frame 0 to Frame-by-Frame Animation:
 

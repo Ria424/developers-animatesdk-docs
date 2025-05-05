@@ -1,18 +1,18 @@
-## TextureAtlasExporter.optimizeBitmap
+# TextureAtlasExporter.optimizeBitmap
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.optimizeBitmap
 
-#### Description
+## Description
 
 Property; Boolean value which indicates whether texture atlas bitmaps needs to be optimized by removing extra spaces.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

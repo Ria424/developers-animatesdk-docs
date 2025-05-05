@@ -1,26 +1,26 @@
-## Library.selectAll()
+# Library.selectAll()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Library.selectAll([bSelectAll])
 
-#### Parameters
+## Parameters
 
 **bSelectAll** `boolean?`; Specifies whether to select or deselect all items in the library. Omit this parameter or use the default value of true to select all the items in the library; false deselects all library items. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Selects or deselects all items in the library.
 
-#### Example
+## Example
 
 The following examples select all the items in the library:
 

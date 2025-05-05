@@ -1,18 +1,18 @@
-## Filter.name
+# Filter.name
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.name
 
-#### Description
+## Description
 
 Read-only property; `string`; A string that specifies the type of filter. The value of this property determines which other properties of the Filter object are available. The value is one of the following: "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter".
 
-#### Example
+## Example
 
 The following example displays the filter names and index positions in the Output panel:
 
@@ -25,6 +25,6 @@ for (var i = 0; i < myFilters.length; i++) {
 fl.trace(traceStr);
 ```
 
-#### See also
+## See also
 
 [Document.getFilters()](../Document_object/Document79.md), [Document.setFilterProperty()](../Document_object/Document520.md)

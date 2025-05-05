@@ -1,18 +1,18 @@
-## SymbolItem.symbolType
+# SymbolItem.symbolType
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 SymbolItem.symbolType
 
-#### Description
+## Description
 
 Property; `"movie clip" | "button" | "graphic"`; Specifies the type of symbol. Acceptable values are *"movie clip"*, *"button"*, and *"graphic"*.
 
-#### Example
+## Example
 
 The following example shows the current value of the symbolType property, changes it to button, and shows it again:
 

@@ -1,4 +1,4 @@
-### Working with the JavaScript API
+# Working with the JavaScript API
 
 As a user of Adobe® Animate®, you may be familiar with Adobe® ActionScript®, which lets you create scripts that execute at run time in Adobe® Flash® Player. The Animate JavaScript application programming interface (JavaScript API or JSAPI) described in this document is a complementary programming tool that lets you create scripts that run in the Animate authoring environment.
 
@@ -18,7 +18,7 @@ The JavaScript interpreter in Animate is the Mozilla SpiderMonkey engine, versio
 
 SpiderMonkey implements the core JavaScript language as defined in the ECMAScript (ECMA-262) edition 3 language specification and it is fully compliant with the specification. Only the browser-specific host objects, which are not part of the ECMA-262 specification, are not supported. Similarly, many JavaScript reference guides distinguish between core JavaScript and client-side (browser-related) JavaScript. Only core JavaScript applies to the Animate JavaScript interpreter.
 
-### Creating JSFL files
+# Creating JSFL files
 
 You can use Adobe Animate Professional or your preferred text editor to write and edit Animate JavaScript (JSFL) files. If you use Animate, these files have a .jsfl extension by default. To write a script, select File > New > Advanced > JSFL Script File.
 
@@ -26,7 +26,7 @@ You can also create a JSFL file by selecting commands in the History panel. Then
 
 The History panel provides some other useful options as well. You can copy selected commands to the Clipboard, and you can view JavaScript commands that are generated while you are working in Animate.
 
-#### To copy commands from the History panel to the clipboard
+## To copy commands from the History panel to the clipboard
 
 1. Select one or more commands in the History panel.
 
@@ -36,11 +36,11 @@ The History panel provides some other useful options as well. You can copy selec
 
     - Select Copy Steps from the panel menu.
 
-#### To view JavaScript commands in the History panel
+## To view JavaScript commands in the History panel
 
 - Select View > JavaScript in Panel from the panel menu.
 
-### Saving JSFL files
+# Saving JSFL files
 
 You can have JSFL scripts available within the Animate authoring environment by storing them in one of several folders within the Configuration folder. By default, the Configuration folder is in the following location:
 
@@ -82,11 +82,11 @@ There are two locations where you can store command and tool files so they can b
 
 If a JSFL file has other files that go with it, such as XML files, store them in the same directory as the JSFL file.
 
-### Running scripts
+# Running scripts
 
 There are several ways to run scripts. The most common ways are explained in this section.
 
-#### To run a script that you are currently viewing or editing
+## To run a script that you are currently viewing or editing
 
 - Right-click (Command-click on the Macintosh) and choose Run Script.
 
@@ -94,13 +94,13 @@ There are several ways to run scripts. The most common ways are explained in thi
 
 This option lets you run a script before you have saved it. This option also lets you run a script even if no FLA files are open.
 
-#### To run a script that is in the Commands folder, do one of the following
+## To run a script that is in the Commands folder, do one of the following
 
 - From the authoring environment, select Commands > *Script Name*.
 
 - Use a keyboard shortcut that you have assigned to the script. To assign a keyboard shortcut, use Edit > Keyboard Shortcuts and select Drawing Menu Commands from the Commands pop-up menu. Expand the Commands node in the menu tree to view a list of available scripts.
 
-#### To run a command script that is not in the Commands folder, do one of the following
+## To run a command script that is not in the Commands folder, do one of the following
 
 - From the authoring environment, select Commands > Run Command, and then select the script to run.
 
@@ -108,7 +108,7 @@ This option lets you run a script before you have saved it. This option also let
 
 - From the file system, double-click the script file.
 
-#### To add a tool implemented in a JSFL file to the Tools panel
+## To add a tool implemented in a JSFL file to the Tools panel
 
 1. Copy the JSFL file for the tool and any other associated files to the Tools folder (see ["Saving JSFL files"](#saving-jsfl-files)).
 
@@ -118,7 +118,7 @@ This option lets you run a script before you have saved it. This option also let
 
 You can add individual JavaScript API commands to ActionScript files by using the MMExecute() function, which is documented in the *ActionScript 3.0 Language and Components Reference*. However, the MMExecute() function has an effect only when it is used in the context of a custom user interface element, such as a component Property inspector, or a SWF panel within the authoring environment. Even if called from ActionScript, JavaScript API commands have no effect in Flash Player or outside the authoring environment.
 
-#### To issue a command from an ActionScript script
+## To issue a command from an ActionScript script
 
 - Use the following syntax (you can concatenate several commands into one string):
 
@@ -128,7 +128,7 @@ MMExecute(Javascript command string);
 
 You can also run a script from the command line.
 
-#### To run a script from the command line on Windows
+## To run a script from the command line on Windows
 
 - Use the following syntax (add path information as required):
 
@@ -138,7 +138,7 @@ You can also run a script from the command line.
 
 Use the `-AlwaysRunJSFL` option to bypass the dialog box that prompts you to confirm script execution.
 
-#### To run a script from the "Terminal" application on the Macintosh, use either of the following
+## To run a script from the "Terminal" application on the Macintosh, use either of the following
 
 - Use the following osacript syntax (add path information as required):
 

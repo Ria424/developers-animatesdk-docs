@@ -1,18 +1,18 @@
-## VideoItem.lastModifiedDate
+# VideoItem.lastModifiedDate
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 *videoItem.lastModifiedDate*
 
-#### Description
+## Description
 
 Read-only property; a hexadecimal value indicating the modification date and time of the video item. This value is incremented every time the video item is imported.
 
-#### Example
+## Example
 
 Assuming the first item in the Library is a video item, the following code displays a hex number as described above.
 

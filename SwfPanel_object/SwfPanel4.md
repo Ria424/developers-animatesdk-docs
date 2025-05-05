@@ -1,18 +1,18 @@
-## SwfPanel.path
+# SwfPanel.path
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 swfPanel.path
 
-#### Description
+## Description
 
 Read-only property: a string that represents the path to the SWF file used in the specified Window SWF panel.
 
-#### Example
+## Example
 
 The following code displays the path of the SWF file used in the first registered Window SWF panel in the Output panel:
 
@@ -20,6 +20,6 @@ The following code displays the path of the SWF file used in the first registere
 fl.trace(fl.swfPanels[0].path);
 ```
 
-#### See also
+## See also
 
 [SwfPanel.name](../SwfPanel_object/SwfPanel3.md), [Flash.swfPanels](../Flash_object/Flash74.md)

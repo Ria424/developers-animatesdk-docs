@@ -1,22 +1,22 @@
-## Flash.getThemeColorParameters()
+# Flash.getThemeColorParameters()
 
-#### Availability
+## Availability
 
 Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.getThemeColorParameters()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 An Array of strings that contain the theme color parameters.
 
-#### Description
+## Description
 
 Method; returns an Array of strings that contain the theme color parameters. The available theme color parameters are as follows:
 
@@ -97,7 +97,7 @@ Adobe Animate introduced 2 UI themes: Dark and Light UI, and this method retriev
 ***Note:** The "top" and "bottom" colors are for drawing controls when shading is enabled. When shading is disabled, use*
 *themeControlFillNormal, themeControlFillOver without the "top" and "bottom" in the names*
 
-#### Example
+## Example
 
 The following example lists the theme color parameters:
 

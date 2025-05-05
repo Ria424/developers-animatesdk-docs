@@ -1,26 +1,26 @@
-## XMLUI.getEnabled()
+# XMLUI.getEnabled()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 XMLUI.getEnabled(controlID)
 
-#### Parameters
+## Parameters
 
 **controlID** `string`; Specifies the ID attribute of the control whose status you want to retrieve.
 
-#### Returns
+## Returns
 
 `boolean`; A boolean value of *true* if the control is enabled; *false* otherwise.
 
-#### Description
+## Description
 
 Method; Returns a boolean value that specifies whether the control is enabled or disabled (dimmed).
 
-#### Example
+## Example
 
 The following example returns a value that indicates whether the control with the ID attribute myListBox is enabled:
 
@@ -29,7 +29,7 @@ var isEnabled = fl.xmlui.getEnabled("myListBox");
 fl.trace(isEnabled);
 ```
 
-#### See also
+## See also
 
 - [Flash.xmlui](../Flash_object/Flash81.md)
 - [Document.xmlPanel()](../Document_object/Document6198.md)

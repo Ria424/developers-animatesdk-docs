@@ -1,26 +1,26 @@
-## Document.setBlendMode()
+# Document.setBlendMode()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 document.setBlendMode(mode)
 
-#### Parameters
+## Parameters
 
 **mode** `"normal" | "layer" | "multiply" | "screen" | "overlay" | "hardlight" | "lighten" | "darken" | "difference" | "add" | "subtract" | "invert" | "alpha" | "erase"`; The desired blending mode for the selected objects. Acceptable values are "normal", "layer", "multiply", "screen", "overlay", "hardlight", "lighten", "darken", "difference", "add", "subtract", "invert", "alpha", and "erase".
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the blending mode for the selected objects.
 
-#### Example
+## Example
 
 The following example sets the blending mode for the selected object to "add".
 
@@ -28,7 +28,7 @@ The following example sets the blending mode for the selected object to "add".
 fl.getDocumentDOM().setBlendMode("add");
 ```
 
-#### See also
+## See also
 
 - [Document.addFilter()](../Document_object/Document3.md)
 - [Document.setFilterProperty()](../Document_object/Document520.md)

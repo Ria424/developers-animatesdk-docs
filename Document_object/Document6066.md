@@ -1,26 +1,26 @@
-## Document.deleteTaggedSwatchByName()
+# Document.deleteTaggedSwatchByName()
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 Document.deleteTaggedSwatchByName(name:string)
 
-#### Parameters
+## Parameters
 
 **name** `string`; A string that indicates the name of the tagged swatch to delete.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Delete tagged swatch with given name.
 
-#### Example
+## Example
 
 The following example delete the tagged swatch of name "swatch1"
 
@@ -28,6 +28,6 @@ The following example delete the tagged swatch of name "swatch1"
 fl.getDocumentDOM().deleteTaggedSwatchByName("swatch1");
 ```
 
-#### See also
+## See also
 
 [Document.deleteTaggedSwatchAtIndex()](../Document_object/Document6065.md)

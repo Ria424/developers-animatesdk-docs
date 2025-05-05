@@ -1,5 +1,5 @@
-## DrawingLayer.setFill()
+# DrawingLayer.setFill()
 
-#### Availability
+## Availability
 
 This method is not available.

@@ -1,21 +1,21 @@
-## SpriteSheetExporter.removeSymbol()
+# SpriteSheetExporter.removeSymbol()
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.removeSymbol(symbol)
 
-#### Parameters
+## Parameters
 
 **symbol** Object; The SymbolItem or SymbolInstance to remove from the sprite sheet.
 
-#### Returns
+## Returns
 
 Boolean.
 
-#### Description
+## Description
 
 Method; Removes the specified SymbolItem or SymbolInstance from the sprite sheet.

@@ -1,16 +1,16 @@
-## RectangleObject summary
+# RectangleObject summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > [Shape object](../Shape_object/Shape_summary.md) > Rectangle object
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Description
+## Description
 
 The Rectangle object is a shape that is drawn using the Rectangle Primitive tool. To determine if an item is a Rectangle object, use [Shape.isRectangleObject](../Shape_object/Shape10.md).
 
-#### Property summary
+## Property summary
 
 In addition to the [Shape object](../Shape_object/Shape_summary.md) properties, you can use the following properties with the Rectangle object. To set the properties of a Rectangle object, use [Document.setRectangleObjectProperty()](../Document_object/Document9643.md).
 

@@ -1,14 +1,14 @@
-## Element.elementType
+# Element.elementType
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 element.elementType
 
-#### Description
+## Description
 
 Read-only property; `"shape" | "text" | "tlfText" | "instance" | "shapeObj"`; a string that represents the type of the specified element. The value is one of the following:
 
@@ -22,7 +22,7 @@ Read-only property; `"shape" | "text" | "tlfText" | "instance" | "shapeObj"`; a 
 
 - "shapeObj"
 
-#### Example
+## Example
 
 The following example stores the type of the first element in the eType variable:
 

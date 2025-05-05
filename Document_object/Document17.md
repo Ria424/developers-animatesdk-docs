@@ -1,18 +1,18 @@
-## Document.as3Dialect
+# Document.as3Dialect
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 Document.as3Dialect
 
-#### Description
+## Description
 
 Property; `string`; A string that describes the ActionScript 3.0 "dialect" being used in the specified document. The default value is "AS3". If you wish to allow prototype classes, as permitted in earlier ECMAScript specifications, set this value to "ES".
 
-#### Example
+## Example
 
 The following example specifies that the dialect being used in the current document is ECMAScript:
 
@@ -20,6 +20,6 @@ The following example specifies that the dialect being used in the current docum
 fl.getDocumentDOM().as3Dialect = "ES";
 ```
 
-#### See also
+## See also
 
 [Document.asVersion](../Document_object/Document21.md)

@@ -1,18 +1,18 @@
-## SoundItem.sourceFilePath
+# SoundItem.sourceFilePath
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 *soundItem.sourceFilePath*
 
-#### Description
+## Description
 
 Read-only property: a string, expressed as a file:/// URI, that represents the path and name of the file that was imported into the Library.
 
-#### Example
+## Example
 
 The following example displays the name and source file path of any items in the library that are of type "sound":
 
@@ -25,6 +25,6 @@ for (idx in fl.getDocumentDOM().library.items) {
 }
 ```
 
-#### See also
+## See also
 
 [SoundItem.sourceFileExists](../SoundItem_object/SoundItem10.md)

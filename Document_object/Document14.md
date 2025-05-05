@@ -1,22 +1,22 @@
-## Document.allowScreens() - dropped
+# Document.allowScreens() - dropped
 
-#### Availability
+## Availability
 
 Flash MX 2004. *Dropped in Adobe Animate.*
 
-#### Usage
+## Usage
 
 Document.allowScreens()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 `boolean`; true if `Document.screenOutline` can be used safely; false otherwise.
 
-#### Example
+## Example
 
 The following example determines whether screens methods can be used in the current document:
 
@@ -28,6 +28,6 @@ if (fl.getDocumentDOM().allowScreens()) {
 }
 ```
 
-#### See also
+## See also
 
 [Document.screenOutline - dropped](../Document_object/Document410.md)

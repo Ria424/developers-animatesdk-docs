@@ -1,14 +1,14 @@
-## Filter.highlightColor
+# Filter.highlightColor
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 filter.highlightColor
 
-#### Description
+## Description
 
 Property; `integer | string`; the color of the highlight, in one of the following formats:
 
@@ -20,7 +20,7 @@ Property; `integer | string`; the color of the highlight, in one of the followin
 
 This property is defined for Filter objects with a value of "bevelFilter" for the [Filter.name](../Filter_object/Filter13.md) property.
 
-#### Example
+## Example
 
 The following example sets the highlight color to "#ff00003e" for the Bevel filters on the selected object(s):
 

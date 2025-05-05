@@ -1,18 +1,18 @@
-## BitmapItem.hPixels
+# BitmapItem.hPixels
 
-#### Availability
+## Availability
 
 Flash CS6 Professional.
 
-#### Usage
+## Usage
 
 BitmapItem.hPixels
 
-#### Description
+## Description
 
 Read-only property; `integer`; Specifies the width of the bitmap, in pixels.
 
-#### Example
+## Example
 
 The following code illustrates use of this property.
 
@@ -22,6 +22,6 @@ var bmItemObj = fl.getDocumentDOM().library.items[0];
 var numHorizontalPixels = bmItemObj.hPixels;
 ```
 
-#### See also
+## See also
 
 [BitmapItem.vPixels](../BitmapItem_object/BitmapItem14.md)

@@ -1,26 +1,26 @@
-## XMLUI.cancel()
+# XMLUI.cancel()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 XMLUI.cancel()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Closes the current XMLUI dialog box with a cancel state, which is equivalent to the user clicking the Cancel button.
 
-#### See also
+## See also
 
 - [Flash.xmlui](../Flash_object/Flash81.md)
 - [Document.xmlPanel()](../Document_object/Document6198.md)

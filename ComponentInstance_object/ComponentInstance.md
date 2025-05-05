@@ -1,18 +1,18 @@
-## ComponentInstance.parameters
+# ComponentInstance.parameters
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ComponentInstance.parameters
 
-#### Description
+## Description
 
 Read-only property; `Parameter[]`; An array of ActionScript 2.0 properties that are accessible from the component Property inspector. See [Parameter object](../Parameter_object/Parameter_summary.md).
 
-#### Example
+## Example
 
 The following example illustrates getting and setting the parameters property:
 
@@ -21,6 +21,6 @@ var params = fl.getDocumentDOM().selection[0].parameters;
 params[0].value = "some value";
 ```
 
-#### See also
+## See also
 
 [Parameter object](../Parameter_object/Parameter_summary.md)

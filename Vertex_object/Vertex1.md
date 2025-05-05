@@ -1,28 +1,28 @@
-## Vertex.setLocation()
+# Vertex.setLocation()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Vertex.setLocation(x, y)
 
-#### Parameters
+## Parameters
 
 **x** `float`; A floating-point value that specifies the *x* coordinate of where the vertex should be positioned, in pixels.
 
 **y** `float`; A floating-point value that specifies the *y* coordinate of where the vertex should be positioned, in pixels.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the location of the vertex. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.
 
-#### Example
+## Example
 
 The following example sets the vertex to the origin point:
 

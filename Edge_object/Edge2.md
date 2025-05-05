@@ -1,26 +1,26 @@
-## Edge.getHalfEdge()
+# Edge.getHalfEdge()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Edge.getHalfEdge(index)
 
-#### Parameters
+## Parameters
 
 **index** `integer`; Specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
 
-#### Returns
+## Returns
 
 `HalfEdge`; A HalfEdge object.
 
-#### Description
+## Description
 
 Method; returns a [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
 
-#### Example
+## Example
 
 The following example stores the half edges of the specified edge in the hEdge0 and hEdge1 variables:
 

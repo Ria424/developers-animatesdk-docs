@@ -1,10 +1,10 @@
-## FLfile summary
+# FLfile summary
 
-#### Availability
+## Availability
 
 Flash MX 2004 7.2.
 
-#### Description
+## Description
 
 The FLfile object lets you write Flash extensions that can access, modify, and remove files and folders on the local file system. The FLfile API is provided in the form of an extension to the JavaScript API. This extension is called a *shared library* and is located in the following folder:
 
@@ -34,7 +34,7 @@ To create a folder on the Macintosh, you could use the following command:
 
 *FLfile.createFolder("file:///Macintosh/MyApp/config");*
 
-#### Method summary
+## Method summary
 
 The following methods can be used with the FLfile object:
 

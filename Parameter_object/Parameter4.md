@@ -1,26 +1,26 @@
-## Parameter.removeItem()
+# Parameter.removeItem()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 parameter.removeItem(index)
 
-#### Parameters
+## Parameters
 
 **index** `integer`; The zero-based integer index of the item to be removed from the screen or component property.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Removes an element of the object or array type of a screen or component parameter.
 
-#### Example
+## Example
 
 The following example removes the element at index 1 from the labelPlacement parameter of a component:
 

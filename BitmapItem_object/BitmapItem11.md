@@ -1,18 +1,18 @@
-## BitmapItem.sourceFilePath
+# BitmapItem.sourceFilePath
 
-#### Availability
+## Availability
 
 Flash CS4 Professional.
 
-#### Usage
+## Usage
 
 BitmapItem.sourceFilePath
 
-#### Description
+## Description
 
 Read-only property; `string`; A string, expressed as a file:/// URI, that represents the path and name of the file that was imported into the Library.
 
-#### Example
+## Example
 
 The following example displays the name and source file path of any items in the library that are of type "bitmap":
 
@@ -25,6 +25,6 @@ for (idx in fl.getDocumentDOM().library.items) {
 }
 ```
 
-#### See also
+## See also
 
 [BitmapItem.sourceFileExists](../BitmapItem_object/BitmapItem9.md)

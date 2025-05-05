@@ -1,14 +1,14 @@
-## Text.setTextString()
+# Text.setTextString()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 text.setTextString(text [, startIndex [, endIndex]])
 
-#### Parameters
+## Parameters
 
 **text** A string that consists of the characters to be inserted into this Text object.
 
@@ -16,15 +16,15 @@ text.setTextString(text [, startIndex [, endIndex]])
 
 **endIndex** An integer that specifies the index of the end point in the selected text string. The new text overwrites the text from *startIndex* up to, but not including, *endIndex*. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Property; changes the text string within this Text object. If you omit the optional parameters, the whole Text object is replaced. If you specify only *startIndex*, the specified string is inserted at the *startIndex* position. If you specify both *startIndex* and *endIndex*, the specified string replaces the segment of text starting from *startIndex* up to, but not including, *endIndex*.
 
-#### Example
+## Example
 
 The following example assigns the string this is a string to the selected text field:
 

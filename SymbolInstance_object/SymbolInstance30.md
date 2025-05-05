@@ -1,18 +1,18 @@
-## SymbolInstance.visible
+# SymbolInstance.visible
 
-#### Availability
+## Availability
 
 Flash CS5.5 Professional.
 
-#### Usage
+## Usage
 
 SymbolInstance.visible
 
-#### Description
+## Description
 
 Property; `boolean`; A boolean value that sets the Visible property of an object to on (true) or off (false).
 
-#### Example
+## Example
 
 The following example sets the visibility of the first item in the first frame of the first layer to false:
 

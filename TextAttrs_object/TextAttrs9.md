@@ -1,18 +1,18 @@
-## TextAttrs.italic
+# TextAttrs.italic
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 *textAttrs.italic*
 
-#### Description
+## Description
 
 Property; a Boolean value. A value of true causes text to appear with the italic version of the font.
 
-#### Example
+## Example
 
 The following example sets the selected text field to italic:
 

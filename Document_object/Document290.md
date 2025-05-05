@@ -1,26 +1,26 @@
-## Document.renameScene()
+# Document.renameScene()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.renameScene(name)
 
-#### Parameters
+## Parameters
 
 **name** `string`; The new name of the scene.
 
-#### Returns
+## Returns
 
 `boolean`; true if the name is changed successfully; false otherwise. If the new name is not unique, for example, the method returns false.
 
-#### Description
+## Description
 
 Method; Renames the currently selected scene in the Scenes panel. The new name for the selected scene must be unique.
 
-#### Example
+## Example
 
 The following example renames the current scene to "new name":
 

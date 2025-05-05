@@ -1,14 +1,14 @@
-## Frame summary
+# Frame summary
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Description
+## Description
 
 The Frame object represents frames in the layer.
 
-#### Method summary
+## Method summary
 
 The following methods can be used with the Frame object:
 
@@ -32,7 +32,7 @@ The following methods can be used with the Frame object:
 | [Frame.setSoundEnvelope()](../Frame_object/Frame27.md) | Sets the sound envelope data of a frame. |
 | [Frame.setSoundEnvelopeLimits()](../Frame_object/Frame28.md) | Sets the sound envelope limits of any frame with a sound file. |
 
-#### Property summary
+## Property summary
 
 The following properties can be used with the Frame object:
 

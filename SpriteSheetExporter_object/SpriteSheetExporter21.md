@@ -1,18 +1,18 @@
-## SpriteSheetExporter.overflowed
+# SpriteSheetExporter.overflowed
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SpriteSheetExporter.overflowed
 
-#### Description
+## Description
 
 Read-only property; A boolean value indicating whether all the exported symbol frames cannot fit within the currently specified size of the sprite sheet.
 
-#### Example
+## Example
 
 ```javascript
 var exporter = new SpriteSheetExporter;

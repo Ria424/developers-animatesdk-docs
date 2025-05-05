@@ -1,14 +1,14 @@
-## Flash.addEventListener()
+# Flash.addEventListener()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional. The prePublish, postPublish, selectionChanged, and dpiChanged events are new in Adobe Animate.
 
-#### Usage
+## Usage
 
 fl.addEventListener(eventType, callbackFunction)
 
-#### Parameters
+## Parameters
 
 **eventType** `"documentNew" | "documentOpened" | "documentClosed" | "mouseMove" | "documentChanged" | "layerChanged" | "timelineChanged" | "frameChanged" | "prePublish" | "postPublish" | "selectionChanged" | "dpiChanged"`; A string that specifies the event type to pass to this callback function. Acceptable values are "documentNew", "documentOpened", "documentClosed", "mouseMove", "documentChanged", "layerChanged", "timelineChanged", "frameChanged", "prePublish", "postPublish", "selectionChanged", and "dpiChanged".
 
@@ -16,17 +16,17 @@ The documentChanged value doesn’t mean that the content of a document has chan
 
 **callbackFunction** `string`; The name of the function you want to execute every time the event occurs.
 
-#### Returns
+## Returns
 
 `integer`; An integer that identifies the event listener. Use this identifier when calling `fl.removeEventListener()`.
 
-#### Description
+## Description
 
 Method; registers a function to be called when a specific event occurs. Note that you can define multiple listeners for the same event.
 
 When using this method, be aware that if the event occurs frequently (as might be the case with mouseMove) and the function takes a long time to run, your application might hang or otherwise enter an error state. Additionally, the prePublish and postPublish events should have minimal code and execute quickly.
 
-#### Example
+## Example
 
 The following example displays a message in the Output panel when a document is closed:
 
@@ -37,6 +37,6 @@ myFunction = function () {
 var eventID = fl.addEventListener("documentClosed", myFunction);
 ```
 
-#### See also
+## See also
 
 [Flash.removeEventListener()](../Flash_object/Flash58.md)

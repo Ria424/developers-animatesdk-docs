@@ -1,14 +1,14 @@
-## CompilerErrors.save()
+# CompilerErrors.save()
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Usage
+## Usage
 
 CompilerErrors.save(fileURI \[, bAppendToFile \[, bUseSystemEncoding\]\])
 
-#### Parameters
+## Parameters
 
 **fileURI** `string`; A string, expressed as a file:/// URI, that specifies the filename for the saved file. If *fileURI* already exists, and you haven’t specified a value of true for *bAppendToFile*, *fileURI* is overwritten without warning.
 
@@ -16,15 +16,15 @@ CompilerErrors.save(fileURI \[, bAppendToFile \[, bUseSystemEncoding\]\])
 
 **bUseSystemEncoding** `boolean?false`; An optional boolean value that specifies whether to save the Compiler Errors panel text using the system encoding. If this value is false (the default), the Compiler Errors panel text is saved using UTF-8 encoding, with Byte Order Mark characters at the beginning of the text. The default value is false.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Saves the contents of the Compiler Errors panel to a local text file.
 
-#### Example
+## Example
 
 The following example saves the contents of the Compiler Errors panel to a file named errors.log in the C:\tests folder:
 
@@ -32,6 +32,6 @@ The following example saves the contents of the Compiler Errors panel to a file 
 fl.compilerErrors.save("file:///c|/tests/errors.log");
 ```
 
-#### See also
+## See also
 
 [CompilerErrors.clear()](../CompilerErrors_object/CompilerErrors.md)

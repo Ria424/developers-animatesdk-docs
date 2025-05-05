@@ -1,17 +1,17 @@
-## OvalObject summary
+# OvalObject summary
 
 **Inheritance** [Element object](../Element_object/Element_summary.md) > [Shape object](../Shape_object/Shape_summary.md) > Oval object
 
-#### Availability
+## Availability
 
 Flash CS3 Professional.
 
-#### Description
+## Description
 
 The Oval object is a shape that is drawn using the Oval Primitive tool. To determine if an item is an Oval object, use
 [Shape.isOvalObject](../Shape_object/Shape9.md).
 
-#### Property summary
+## Property summary
 
 In addition to the [Shape object](../Shape_object/Shape_summary.md) properties, you can use the following properties with the Oval object. To set the properties of an Oval object, use [Document.setOvalObjectProperty()](../Document_object/Document590.md).
 

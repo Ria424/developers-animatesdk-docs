@@ -1,19 +1,19 @@
-## Fill.overflow
+# Fill.overflow
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 fill.overflow
 
-#### Description
+## Description
 
 Property; a string that specifies the behavior of a gradient’s overflow. Acceptable values are "extend", "repeat", and
 "reflect"; the strings are not case-sensitive. The default value is "extend".
 
-#### Example
+## Example
 
 The following example specifies that the behavior of the overflow for the current selection should be "extend":
 

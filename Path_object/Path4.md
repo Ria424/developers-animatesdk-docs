@@ -1,26 +1,26 @@
-## Path.close()
+# Path.close()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 path.close()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; appends a point at the location of the first point of the path and extends the path to that point, which closes the path. If the path has no points, no points are added.
 
-#### Example
+## Example
 
 The following example creates a closed path:
 

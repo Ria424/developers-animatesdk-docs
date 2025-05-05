@@ -1,26 +1,26 @@
-## Document.crop()
+# Document.crop()
 
-#### Availability
+## Availability
 
 Flash 8.
 
-#### Usage
+## Usage
 
 Document.crop()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Uses the top selected drawing object to crop all selected drawing objects underneath it. If no objects are selected, calling this method results in an error and the script breaks at that point.
 
-#### Example
+## Example
 
 The following example crops the currently selected objects:
 
@@ -28,7 +28,7 @@ The following example crops the currently selected objects:
 fl.getDocumentDOM().crop();
 ```
 
-#### See also
+## See also
 
 - [Document.deleteEnvelope()](../Document_object/Document41.md)
 - [Document.intersect()](../Document_object/Document97.md)

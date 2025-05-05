@@ -1,14 +1,14 @@
-## Tools.setCursor()
+# Tools.setCursor()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Tools.setCursor(cursor)
 
-#### Parameters
+## Parameters
 
 **cursor** `integer`; An integer that defines the pointer appearance, as described in the following list:
 
@@ -28,15 +28,15 @@ Tools.setCursor(cursor)
 
 - 7 = hand cursor
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Sets the pointer to a specified appearance.
 
-#### Example
+## Example
 
 The following example sets the pointer to a black arrow.
 

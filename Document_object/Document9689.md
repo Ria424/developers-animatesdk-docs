@@ -1,14 +1,14 @@
-## Document.setSelectionRect()
+# Document.setSelectionRect()
 
-#### Availability
+## Availability
 
 Flash MX 2004; *bContactSensitiveSelection* parameter added in Flash 8.
 
-#### Usage
+## Usage
 
 Document.setSelectionRect(rect [, bReplaceCurrentSelection [, bContactSensitiveSelection]])
 
-#### Parameters
+## Parameters
 
 **rect** `Rectangle`; A rectangle object to set as selected. For information on the format of *rect*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
@@ -16,11 +16,11 @@ Document.setSelectionRect(rect [, bReplaceCurrentSelection [, bContactSensitiveS
 
 **bContactSensitiveSelection** `boolean?false` Specifies whether the Contact Sensitive selection mode is enabled (true) or disabled (false) during object selection. The default value is false.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Draws a rectangular selection marquee relative to the Stage, using the specified coordinates. This is unlike
 `Document.getSelectionRect()`, in which the rectangle is relative to the object being edited.
@@ -29,7 +29,7 @@ If you pass a value for *bContactSensitiveSelection*, it is valid only for this 
 
 ***Note:** Repeating `setSelectionRect()` using the History panel or menu item repeats the step previous to the `setSelectionRect()` operation.*
 
-#### Example
+## Example
 
 In the following example, the second selection replaces the first one:
 
@@ -45,7 +45,7 @@ fl.getDocumentDOM().setSelectionRect({left: 1, top: 1, right: 200, bottom: 200})
 fl.getDocumentDOM().setSelectionRect({left: 364.0, top: 203.0, right: 508.0, bottom: 434.0}, false);
 ```
 
-#### See also
+## See also
 
 - [Document.getSelectionRect()](../Document_object/Document84.md)
 - [Document.selection](../Document_object/Document430.md)

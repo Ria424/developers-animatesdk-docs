@@ -1,18 +1,18 @@
-## Frame.actionScript
+# Frame.actionScript
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.actionScript
 
-#### Description
+## Description
 
 Property; `string`; A string that represents ActionScript code. To insert a new line character, use "\n".
 
-#### Example
+## Example
 
 The following example assigns stop() to first frame top layer action:
 

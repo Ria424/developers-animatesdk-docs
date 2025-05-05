@@ -1,18 +1,18 @@
-## Frame.motionTweenSync
+# Frame.motionTweenSync
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Frame.motionTweenSync
 
-#### Description
+## Description
 
 Property; `boolean`; If set to true, synchronizes the animation of the tweened object with the main timeline.
 
-#### Example
+## Example
 
 The following example specifies that tweened object should be synchronized with the timeline:
 

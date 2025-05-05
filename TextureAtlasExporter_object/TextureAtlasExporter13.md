@@ -1,18 +1,18 @@
-## TextureAtlasExporter.resolution
+# TextureAtlasExporter.resolution
 
-#### Availability
+## Availability
 
 Animate 2020.
 
-#### Usage
+## Usage
 
 TextureAtlasExporter.resolution
 
-#### Description
+## Description
 
 Property; Floating value which indicates in which resolution the textures needs to be exported.
 
-#### Example
+## Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;

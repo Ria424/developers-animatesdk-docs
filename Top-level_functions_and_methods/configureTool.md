@@ -1,10 +1,10 @@
-## configureTool()
+# configureTool()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 ```javascript
 function configureTool() {
@@ -12,19 +12,19 @@ function configureTool() {
 }
 ```
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Function; Called when Flash opens and the extensible tool is loaded into the Tools panel. Use this function to set any information Flash needs to know about the tool.
 
-#### Example
+## Example
 
 The following examples show two possible implementations of this function:
 

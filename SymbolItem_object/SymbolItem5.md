@@ -1,18 +1,18 @@
-## SymbolItem.lastModifiedDate
+# SymbolItem.lastModifiedDate
 
-#### Availability
+## Availability
 
 Flash Pro CS6.
 
-#### Usage
+## Usage
 
 SymbolItem.lastModifiedDate
 
-#### Description
+## Description
 
 Read-only property; `string`; A string that indicates the modification date of the symbol as a hexadecimal value, representing a date and time. This value is incremented every time a symbol's timeline is edited.
 
-#### Example
+## Example
 
 The following example returns the hexidecimal modification date of the first symbol in the Library:
 

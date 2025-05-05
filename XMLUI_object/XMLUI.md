@@ -1,26 +1,26 @@
-## XMLUI.accept()
+# XMLUI.accept()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 XMLUI.accept()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Closes the current XMLUI dialog box with an accept state, which is equivalent to the user clicking the OK button.
 
-#### See also
+## See also
 
 - [Flash.xmlui](../Flash_object/Flash81.md)
 - [Document.xmlPanel()](../Document_object/Document6198.md)

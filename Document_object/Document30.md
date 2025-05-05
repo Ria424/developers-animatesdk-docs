@@ -1,26 +1,26 @@
-## Document.clipCopy()
+# Document.clipCopy()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Document.clipCopy()
 
-#### Parameters
+## Parameters
 
 None.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Copies the current selection from the document to the Clipboard. To copy a string to the Clipboard, use [Flash.clipCopyString()](../Flash_object/Flash6.md).
 
-#### Example
+## Example
 
 The following example copies the current selection from the document to the Clipboard:
 
@@ -28,7 +28,7 @@ The following example copies the current selection from the document to the Clip
 fl.getDocumentDOM().clipCopy();
 ```
 
-#### See also
+## See also
 
 - [Document.clipCut()](../Document_object/Document31.md)
 - [Document.clipPaste()](../Document_object/Document32.md)

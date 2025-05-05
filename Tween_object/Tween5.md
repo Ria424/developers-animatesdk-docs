@@ -1,18 +1,18 @@
-## Tween.startFrame
+# Tween.startFrame
 
-#### Availability
+## Availability
 
 Flash Pro CC
 
-#### Usage
+## Usage
 
 Tween.startFrame
 
-#### Description
+## Description
 
 `integer`; Start frame of a tween.
 
-#### Example
+## Example
 
 ```javascript
 var tweenObj = fl.getDocumentDOM().getTimeline().layers[0].frames[0].tweenObj;

@@ -1,29 +1,29 @@
-## Timeline.copyFrames()
+# Timeline.copyFrames()
 
-#### Availability
+## Availability
 
 Flash MX 2004.
 
-#### Usage
+## Usage
 
 Timeline.copyFrames([startFrameIndex [, endFrameIndex]])
 
-#### Parameters
+## Parameters
 
 **startFrameIndex** `integer?`; A zero-based index that specifies the beginning of the range of frames to copy. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
 
 **endFrameIndex** `integer?`; A zero-based index that specifies the frame at which to stop copying. The range of frames to copy goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
-#### Returns
+## Returns
 
 Nothing.
 
-#### Description
+## Description
 
 Method; Copies a range of frames on the current layer to the clipboard.
 
-#### Example
+## Example
 
 The following example copies the selected frames to the clipboard:
 

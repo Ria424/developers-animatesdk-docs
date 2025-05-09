@@ -39,12 +39,12 @@ This is the home page of Animate APIs
 - [Math summary](#math-summary)
 - [Matrix summary](#matrix-summary)
 - [OutputPanel summary](#outputpanel-summary)
-- [OvalObject summary](#ovalobject-summary)
+- [Oval summary](#oval-summary)
 - [Parameter summary](#parameter-summary)
 - [Path summary](#path-summary)
 - [PresetItem summary](#presetitem-summary)
 - [PresetPanel summary](#presetpanel-summary)
-- [RectangleObject summary](#rectangleobject-summary)
+- [Rectangle summary](#rectangle-summary)
 - [Shape summary](#shape-summary)
 - [SoundItem summary](#sounditem-summary)
 - [SpriteSheetExporter summary](#spritesheetexporter-summary)
@@ -2235,7 +2235,7 @@ The outputPanel object uses the following methods:
 | [OutputPanel.save()](./OutputPanel_object/OutputPanel1.md) | Saves the contents of the Output panel to a local text file. |
 | [OutputPanel.trace()](./OutputPanel_object/OutputPanel2.md) | Adds a line to the contents of the Output panel, terminated by a new line. |
 
-### OvalObject summary
+### Oval summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Shape object](./Shape_object/Shape_summary.md) > Oval object
 
@@ -2254,10 +2254,10 @@ In addition to the [Shape object](./Shape_object/Shape_summary.md) properties, y
 
 | **Property** | **Description** |
 | --- | --- |
-| [OvalObject.closePath](./OvalObject_object/OvalObject.md) | Read-only; a Boolean value that specifies whether the Close Path check box in the Property inspector is selected. |
-| [OvalObject.endAngle](./OvalObject_object/OvalObject1.md) | Read-only; a float value that specifies the end angle of the Oval object. |
-| [OvalObject.innerRadius](./OvalObject_object/OvalObject2.md) | Read-only; a float value that specifies the inner radius of the Oval object as a percentage. |
-| [OvalObject.startAngle](./OvalObject_object/OvalObject3.md) | Read-only; a float value that specifies the start angle of the Oval object. |
+| [Oval.closePath](./Oval_object/Oval.md) | Read-only; a Boolean value that specifies whether the Close Path check box in the Property inspector is selected. |
+| [Oval.endAngle](./Oval_object/Oval1.md) | Read-only; a float value that specifies the end angle of the Oval object. |
+| [Oval.innerRadius](./Oval_object/Oval2.md) | Read-only; a float value that specifies the inner radius of the Oval object as a percentage. |
+| [Oval.startAngle](./Oval_object/Oval3.md) | Read-only; a float value that specifies the start angle of the Oval object. |
 
 ### Parameter summary
 
@@ -2396,7 +2396,7 @@ You can use the following property with the presetPanel object:
 | --- | --- |
 | [PresetPanel.items](./PresetPanel_object/PresetPanel9.md) | An array of presetItem objects in the Motion Presets panel. |
 
-### RectangleObject summary
+### Rectangle summary
 
 **Inheritance** [Element object](./Element_object/Element_summary.md) > [Shape object](./Shape_object/Shape_summary.md) > Rectangle object
 
@@ -2414,11 +2414,11 @@ In addition to the [Shape object](./Shape_object/Shape_summary.md) properties, y
 
 | **Property** | **Description** |
 | --- | --- |
-| [RectangleObject.bottomLeftRadius](./RectangleObject_object/RectangleObject.md) | Read-only; a float value that sets the radius of the bottom-left corner of the Rectangle object. |
-| [RectangleObject.bottomRightRadius](./RectangleObject_object/RectangleObject1.md) | Read-only; a float value that sets the radius of the bottom-right corner of the Rectangle object. |
-| [RectangleObject.lockFlag](./RectangleObject_object/RectangleObject2.md) | Read-only; a Boolean value that determines whether different corners of the rectangle can have different radius values. |
-| [RectangleObject.topLeftRadius](./RectangleObject_object/RectangleObject3.md) | Read-only; a float value that sets the radius of all corners of the rectangle or that sets only the radius of the top-left corner of the Rectangle object. |
-| [RectangleObject.topRightRadius](./RectangleObject_object/RectangleObject4.md) | Read-only; a float value that sets the radius of the top-right corner of the Rectangle object. |
+| [Rectangle.bottomLeftRadius](./Rectangle_object/Rectangle.md) | Read-only; a float value that sets the radius of the bottom-left corner of the Rectangle object. |
+| [Rectangle.bottomRightRadius](./Rectangle_object/Rectangle1.md) | Read-only; a float value that sets the radius of the bottom-right corner of the Rectangle object. |
+| [Rectangle.lockFlag](./Rectangle_object/Rectangle2.md) | Read-only; a Boolean value that determines whether different corners of the rectangle can have different radius values. |
+| [Rectangle.topLeftRadius](./Rectangle_object/Rectangle3.md) | Read-only; a float value that sets the radius of all corners of the rectangle or that sets only the radius of the top-left corner of the Rectangle object. |
+| [Rectangle.topRightRadius](./Rectangle_object/Rectangle4.md) | Read-only; a float value that sets the radius of the top-right corner of the Rectangle object. |
 
 ### Shape summary
 
@@ -3017,7 +3017,7 @@ Flash MX 2004.
 
 #### Description
 
-The Tools object is accessible from the flash object ([Flash.tools](./Flash_object/Flash76.md)). The [Tools.toolObjs](./Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](./Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](./ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](./Top-level_functions_and_methods/Top.md).)
+The Tools object is accessible from the flash object ([Flash.tools](./Flash_object/Flash76.md)). The [Tools.toolObjs](./Tools_object/Tools11.md) property contains an array of ToolObj objects, and the [Tools.activeTool](./Tools_object/Tools.md) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](./ToolObj_object/ToolObj_summary.md) and the list of Extensible tools in ["Top-Level Functions and Methods"](./Top-level_functions_and_methods/Top_summary.md).)
 
 ***Note:** The following methods and properties are used only when creating extensible tools.*
 
@@ -3215,6 +3215,7 @@ This chapter describes the C-level extensibility mechanism, which lets you imple
 ***Note:** Adobe Animate runs on 64-bit operating systems only. All C extensions for this release must be built (or rebuilt) for 64 bit support.*
 
 To implement extensibility, you define functions using C, bundle them in a dynamic linked library (DLL) or a shared library, save the library in the appropriate directory, and then call the functions from JavaScript using the Adobe Animate JavaScript API.
+
 For example, you might want to define a function that performs intense calculations more efficiently than JavaScript does, which improves performance, or when you want to create more advanced tools or effects.
 This extensibility mechanism is a subset of the Adobe Dreamweaver API. If you are familiar with that API, you might recognize the functions in the C-level extensibility mechanism API. However, this API differs from the Dreamweaver API in the following ways:
 

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.silent
-
 ## Description
 
 Property; a Boolean value that specifies whether the object is accessible. This is equivalent to the inverse logic of the Make Object Accessible setting in the Accessibility panel. That is, if silent is true, Make Object Accessible is deselected. If it is false, Make Object Accessible is selected.

@@ -4,10 +4,6 @@
 
 Flash Pro CC
 
-## Usage
-
-Tween.duration
-
 ## Description
 
 `integer`; Duration of a tween span that is equal to number of frames in a tween.

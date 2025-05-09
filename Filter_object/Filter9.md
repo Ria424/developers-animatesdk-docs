@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.highlightColor
-
 ## Description
 
 Property; `integer | string`; the color of the highlight, in one of the following formats:

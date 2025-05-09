@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-BitmapItem.lastModifiedDat
-
 ## Description
 
 Read-only property; `string`; A hexadecimal value indicating the modification date and time of the bitmap item. This value is incremented every time the bitmap item is imported. For example, selecting the Update button from the Bitmap Properties dialog will trigger an import.

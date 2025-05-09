@@ -4,10 +4,6 @@
 
 Flash CS5.5 Professional.
 
-## Usage
-
-SymbolInstance.visible
-
 ## Description
 
 Property; `boolean`; A boolean value that sets the Visible property of an object to on (true) or off (false).

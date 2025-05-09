@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-fl.swfPanels
-
 ## Description
 
 Read-only property; `SwfPanel[]`; an array of registered swfPanel objects (see [SwfPanel object](../SwfPanel_object/SwfPanel_summary.md)). A swfPanel object is registered if it has been opened at least once.

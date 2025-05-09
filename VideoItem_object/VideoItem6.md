@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-*videoItem.videoType*
-
 ## Description
 
 Read-only property; a string that specifies the type of video the item represents. Possible values are "embedded video"

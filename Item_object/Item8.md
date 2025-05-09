@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-item.linkageExportForRS
-
 ## Description
 
 Property; `boolean`; If this property is true, the item is exported for run-time sharing. You can also set the

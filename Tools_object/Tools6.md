@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Tools.penDownLoc
-
 ## Description
 
 Read-only property; `Point`; A point that represents the position of the last mouse-down event on the Stage. The `Tools.penDownLoc` property comprises two properties, *x* and *y*, corresponding to the *x, y* location of the mouse pointer.

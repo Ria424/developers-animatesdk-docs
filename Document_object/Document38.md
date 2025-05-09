@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.currentPublishProfile
-
 ## Description
 
 Property; `string`; Specifies the name of the active publish profile for the specified document.

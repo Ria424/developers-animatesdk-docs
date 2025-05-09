@@ -4,10 +4,6 @@
 
 Flash CS5.5 Professional.
 
-## Usage
-
-fl.installedPlayers()
-
 ## Parameters
 
 None.

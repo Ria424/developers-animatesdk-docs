@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-Frame.useSingleEaseCurve
-
 ## Description
 
 Property; `boolean`; If true, a single custom ease curve is used for easing information for all properties. If false, each property has its own ease curve.

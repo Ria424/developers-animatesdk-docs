@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-SpriteSheetExporter.allowRotate
-
 ## Description
 
 Property; `boolean`; A boolean value indicating whether the symbol frames can be rotated when packed into the sprite sheet.

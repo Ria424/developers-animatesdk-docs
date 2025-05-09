@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.tweenType
-
 ## Description
 
 Property; `"motion" | "shape" | "none"`; The type of tween; acceptable values are "motion", "shape", or "none". The value "none" removes the motion tween. Use the [Timeline.createMotionTween()](../Timeline_object/Timeline11.md) method to create a motion tween.

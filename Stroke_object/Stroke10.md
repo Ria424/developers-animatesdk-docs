@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-stroke.jiggle
-
 ## Description
 
 Property; a string that specifies the jiggle property of a hatched line. This property is available only if the stroke.style property is set to hatched (see [Stroke.style](../Stroke_object/Stroke20.md)). Acceptable values are "none", "bounce", "loose", and "wild".

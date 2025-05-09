@@ -4,10 +4,6 @@
 
 Animate 2019
 
-## Usage
-
-Camera.colorFilterEnabled
-
 ## Description
 
 `boolean`; Used to Enable/Disable camera's color Filter. The value is true if camera is enabled otherwise false.

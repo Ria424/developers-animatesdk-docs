@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-*element.skewX*
-
 ## Description
 
 Property; `float`; a float value between -180 and 180 that specifies the *x* skew value of symbols, drawing objects, and primitive rectangles and ovals.

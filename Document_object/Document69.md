@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-Document.externalLibraryPath
-
 ## Description
 
 Property; `string`; A string that contains a list of items in the document’s ActionScript 3.0 External library path, which specifies the location of SWC files used as runtime shared libraries. Items in the string are delimited by semi-colons. In the authoring tool, the items are specified by choosing File >Publish Settings and then choosing ActionScript 3.0 Script Settings on the Flash tab.

@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-*videoItem.sourceFilePath*
-
 ## Description
 
 Read-only property; a string, expressed as a file:/// URI that specifies the path to the video item.

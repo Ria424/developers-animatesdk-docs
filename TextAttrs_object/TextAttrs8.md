@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.indent*
-
 ## Description
 
 Property; an integer that specifies paragraph indentation. Acceptable values are -720 through 720.

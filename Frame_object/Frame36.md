@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.startFrame
-
 ## Description
 
 Read-only property; `integer`; The index of the first frame in a sequence.

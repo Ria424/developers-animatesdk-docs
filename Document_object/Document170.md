@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.name
-
 ## Description
 
 Read-only property; `string`; A string that represents the name of a document (FLA file).

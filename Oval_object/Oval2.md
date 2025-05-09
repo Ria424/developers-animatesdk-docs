@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Oval.innerRadius
-
 ## Description
 
 Read-only property; a float value that specifies the inner radius of the Oval object as a percentage. Acceptable values are from 0 to 99.

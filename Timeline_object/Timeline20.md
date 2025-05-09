@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Timeline.frameCount
-
 ## Description
 
 Read-only property; `integer`; An integer that represents the number of frames in this timeline’s longest layer.

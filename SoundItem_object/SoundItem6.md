@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-*soundItem.lastModifiedDate*
-
 ## Description
 
 Read-only property; a hexadecimal value indicating the modification date and time of the sound item. This value is incremented every time the sound item is imported. For example, selecting the Update button from the Sound Properties dialog will trigger an import.

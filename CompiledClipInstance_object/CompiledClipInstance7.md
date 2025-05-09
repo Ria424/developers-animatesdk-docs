@@ -4,10 +4,6 @@
 
 Adobe Animate.
 
-## Usage
-
-CompiledClipInstance.colorAlphaPercent
-
 ## Description
 
 Property; `integer`; An integer that reduces or increases the tint and alpha values by a specified percentage. The current values are multiplied by this percentage. Valid values are -100 to 100.

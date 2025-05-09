@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-FontItem.italic
-
 ## Description
 
 Property; `boolean`; Specifies whether the Font item is italic (true) or not (false).

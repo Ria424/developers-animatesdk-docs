@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-fl.flexSDKPath
-
 ## Description
 
 Property; a string that specifies the path to the Flex SDK folder, which contains bin, frameworks, lib, and other folders. In the authoring tool, the items are specified by choosing Edit > Preferences > ActionScript > ActionScript 3.0 Settings.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Tools.altIsDown
-
 ## Description
 
 Read-only property; `boolean`; Identifies if the Alt key is being pressed. The value is true if the Alt key is pressed, and false otherwise.

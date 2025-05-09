@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-fill.linearRGB
-
 ## Description
 
 Property; a Boolean value that specifies whether to render the fill as a linear or radial RGB gradient. Set this property to true to specify a linear interpolation of a gradient; set it to false to specify a radial interpolation of a gradient. The default value is false.

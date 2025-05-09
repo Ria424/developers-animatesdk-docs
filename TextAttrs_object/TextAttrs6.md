@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.face*
-
 ## Description
 
 Property; a string that represents the name of the font, such as *"Arial"*.

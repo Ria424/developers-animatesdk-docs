@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.embedRanges
-
 ## Description
 
 Property; a string that consists of delimited integers that correspond to the items that can be selected in the Character Embedding dialog box. This property works only with dynamic or input text; it is ignored if used with static text.

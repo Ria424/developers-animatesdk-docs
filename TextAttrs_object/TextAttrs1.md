@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.alignment*
-
 ## Description
 
 Property; a string that specifies paragraph justification. Acceptable values are *"left", "center", "right",* and

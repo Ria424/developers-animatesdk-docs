@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*element.width*
-
 ## Description
 
 Property; `float`; a float value that specifies the width of the element in pixels.

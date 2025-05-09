@@ -4,10 +4,6 @@
 
 Adobe Animate.
 
-## Usage
-
-SymbolInstance.tintPercent
-
 ## Description
 
 Read-only property; When the Color Effect Property Inspector is using style tint (colorMode == 'tint'), then return the tint percentage from -100 to 100. Otherwise using this property results in an error.

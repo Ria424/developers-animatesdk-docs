@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-presetItem.isFolder
-
 ## Description
 
 Read-only property: a Boolean value that specifies whether the item in the Motion Presets panel is a folder (true) or a preset (false).

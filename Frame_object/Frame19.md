@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.motionTweenScale
-
 ## Description
 
 Property; `boolean`; A boolean value that specifies whether the tweened element scales to the size of the object in the following keyframe, increasing its size with each frame in the tween *(true)*, or doesn’t scale *(false)*.

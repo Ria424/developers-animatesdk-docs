@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.lineSpacing*
-
 ## Description
 
 Property; an integer that specifies the line spacing (*leading*) of the paragraph. Acceptable values are -360 through 720.

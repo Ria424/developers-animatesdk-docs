@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.selectionStart
-
 ## Description
 
 Property; a zero-based integer that specifies the beginning of a text subselection. You can use this property with text.selectionEnd to select a range of characters. Characters up to, but not including, text.selectionEnd are selected. See [Text.selectionEnd](../Text_object/Text20.md).

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.renderAsHTML
-
 ## Description
 
 Property; a Boolean value. If the value is true, Flash draws the text as HTML and interprets embedded HTML tags.

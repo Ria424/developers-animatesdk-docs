@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-Document.libraryPath
-
 ## Description
 
 Property; `string`; A string that contains a list of items in the document’s ActionScript 3.0 Library path, which specifies the location of SWC files or folders containing SWC files. Items in the string are delimited by semi-colons. In the authoring tool, the items are specified by choosing File >Publish Settings and then choosing ActionScript 3.0 Script Settings on the Flash tab.

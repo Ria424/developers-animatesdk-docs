@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*soundItem.useImportedMP3Quality*
-
 ## Description
 
 Property; a Boolean value. If true, all other properties are ignored, and the imported MP3 quality is used.

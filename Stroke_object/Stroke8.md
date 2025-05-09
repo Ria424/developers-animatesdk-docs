@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-stroke.dotSpace
-
 ## Description
 
 Property; an integer that specifies the spacing between dots in a dotted line. This property is available only if the stroke.style property is set to dotted. See [Stroke.style](../Stroke_object/Stroke20.md).

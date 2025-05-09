@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-*textAttrs.letterSpacing*
-
 ## Description
 
 Property; an integer that represents the space between characters. Acceptable values are -60 through 60.

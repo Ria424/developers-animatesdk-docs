@@ -4,10 +4,6 @@
 
 Flash MX 2004. Value "bitmap" added in Flash CS4 Professional.
 
-## Usage
-
-fill.style
-
 ## Description
 
 Property; a string that specifies the fill style. Acceptable values are "bitmap", "solid", "linearGradient", "radialGradient", and "noFill".

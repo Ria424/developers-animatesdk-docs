@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Parameter.listIndex
-
 ## Description
 
 Property; The value of the selected list item. This property is valid only if parameter.valueType is "List".

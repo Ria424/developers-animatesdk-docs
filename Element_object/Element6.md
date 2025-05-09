@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-element.height
-
 ## Description
 
 Property; `float`; a float value that specifies the height of the element in pixels.

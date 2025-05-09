@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-stroke.style
-
 ## Description
 
 Property; a string that describes the stroke style. Acceptable values are "noStroke","solid", "dashed", "dotted", "ragged", "stipple", and "hatched". Some of these values require additional properties of the Stroke object to be set, as described in the following list:

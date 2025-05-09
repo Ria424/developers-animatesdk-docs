@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Layer.frameCount
-
 ## Description
 
 Read-only property; `integer`; Specifies the number of frames in the layer.

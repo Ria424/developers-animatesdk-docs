@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.soundEffect
-
 ## Description
 
 Property; `"none" | "left channel" | "right channel" | "fade left to right" | "fade right to left" | "fade in" | "fade out" | "custom"`; A string that specifies effects for a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)). Acceptable values are *"none", "left channel", "right channel", "fade left to right", "fade right to left", "fade in", "fade out",* and *"custom"*.

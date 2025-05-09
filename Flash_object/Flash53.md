@@ -4,10 +4,6 @@
 
 Flash CS5.5 Professional.
 
-## Usage
-
-fl.publishCacheMemorySizeMax
-
 ## Description
 
 Property: an integer that sets the maximum size, in megabytes, of the publish cache in memory.

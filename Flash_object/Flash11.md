@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fl.componentsPanel
-
 ## Description
 
 Read-only property; `ComponentsPanel`; A [ComponentsPanel object](../ComponentsPanel_object/ComponentsPanel_summary.md), which represents the Components panel.

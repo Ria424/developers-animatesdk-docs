@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fl.createNewDocList
-
 ## Description
 
 Read-only property; `string[]`; an array of strings that represent the various types of documents that can be created.

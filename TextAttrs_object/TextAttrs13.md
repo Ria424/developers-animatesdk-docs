@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.rightMargin*
-
 ## Description
 
 Property; an integer that specifies the paragraph’s right margin. Acceptable values are 0 through 720.

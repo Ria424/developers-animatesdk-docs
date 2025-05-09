@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolInstance.symbolType
-
 ## Description
 
 Property; `"button" | "movie clip" | "graphic"`; A string that specifies the type of symbol. This property is equivalent to the value for Behavior in the Create New Symbol and Convert To Symbol dialog boxes. Acceptable values are "button", "movie clip", and "graphic".

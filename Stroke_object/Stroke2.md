@@ -4,10 +4,6 @@
 
 Flash MX 2004. In Flash 8 and later, this property is deprecated in favor of stroke.shapeFill.color.
 
-## Usage
-
-stroke.color
-
 ## Description
 
 Property; the color of the stroke, in one of the following formats:

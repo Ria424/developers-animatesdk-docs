@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*soundItem.bits*
-
 ## Description
 
 Property; a string that specifies the bits value for a sound in the library that has ADPCM compression. Acceptable values are *"2 bit", "3 bit", "4 bit", and "5 bit"*.

@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-Contour.fill
-
 ## Description
 
 Property; `Fill`; A [Fill object](../Fill_object/Fill_summary.md).

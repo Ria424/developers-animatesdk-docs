@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-parameter.name
-
 ## Description
 
 Read-only property; `string`; Specifies the name of the parameter.

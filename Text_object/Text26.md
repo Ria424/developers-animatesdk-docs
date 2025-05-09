@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.tabIndex
-
 ## Description
 
 Property; an integer that is equivalent to the Tab Index field in the Accessibility panel. This value lets you determine the order in which objects are accessed when the user presses the Tab key.

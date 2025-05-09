@@ -4,10 +4,6 @@
 
 Flash Pro CC
 
-## Usage
-
-Tween.startFrame
-
 ## Description
 
 `integer`; Start frame of a tween.

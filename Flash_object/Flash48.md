@@ -4,10 +4,6 @@
 
 Flash CS3 Professional. *Dropped in Adobe Animate*.
 
-## Usage
-
-fl.packagePaths
-
 ## Description
 
 Property; `string`; A string that corresponds to the global Classpath setting in the ActionScript 2.0 Settings dialog box. Class paths within the string are delimited with semi-colons (;). To view or change ActionScript 3.0 Classpath settings, use [Flash.as3PackagePaths](../Flash_object/Flash2.md).

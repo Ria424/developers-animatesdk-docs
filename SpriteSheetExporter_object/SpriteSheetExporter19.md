@@ -4,10 +4,6 @@
 
 Flash Pro CC.
 
-## Usage
-
-SpriteSheetExporter.maxSheetHeight
-
 ## Description
 
 Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.

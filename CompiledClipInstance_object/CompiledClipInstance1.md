@@ -4,10 +4,6 @@
 
 Flash MX 2004. *Dropped in Adobe Animate*.
 
-## Usage
-
-CompiledClipInstance.actionScript
-
 ## Description
 
 Property; `string`; A string that represents the ActionScript for this instance; equivalent to [SymbolInstance.actionScript - dropped](../SymbolInstance_object/SymbolInstance1.md).

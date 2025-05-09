@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Rectangle.topLeftRadius
-
 ## Description
 
 Read-only property; a float value that sets the radius of all corners of the rectangle (if [Rectangle.lockFlag](../Rectangle_object/Rectangle2.md) is

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-matrix.tx
-
 ## Description
 
 Property; a floating-point value that specifies the *x*-axis location of a symbol’s registration point (also *origin point* or

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.characterPosition*
-
 ## Description
 
 Property; a string that determines the baseline for the text. Acceptable values are *"normal", "subscript",* and *"superscript"*. This property applies only to static text.

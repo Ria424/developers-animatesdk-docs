@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-presetItem.path
-
 ## Description
 
 Read-only property: a string that represents the path to the item in the Motion Presets panel folder tree, and the item name.

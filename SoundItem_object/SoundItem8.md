@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*soundItem.quality*
-
 ## Description
 
 Property; a string that specifies the playback quality of a sound in the library. This property is available only for the MP3 compression type. Acceptable values are "Fast", "Medium", and "Best".

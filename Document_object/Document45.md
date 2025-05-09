@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.description
-
 ## Description
 
 Property; `string`; A string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.bold*
-
 ## Description
 
 Property; a Boolean value. A value of true causes text to appear with the bold version of the font.

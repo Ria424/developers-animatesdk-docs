@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.leftMargin*
-
 ## Description
 
 Property; an integer that specifies the paragraph’s left margin. Acceptable values are 0 through 720.

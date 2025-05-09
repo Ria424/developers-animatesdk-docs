@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Contour.orientation
-
 ## Description
 
 Read-only property; `integer`; An integer indicating the orientation of the contour. The value of the integer is -1 if the orientation is counterclockwise, 1 if it is clockwise, and 0 if it is a contour with no area.

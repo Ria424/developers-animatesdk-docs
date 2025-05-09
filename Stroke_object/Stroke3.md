@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-stroke.curve
-
 ## Description
 
 Property; a string that specifies the type of hatching for the stroke. This property can be set only if the stroke.style property is set to "hatched" (see [Stroke.style](../Stroke_object/Stroke20.md)). Acceptable values are "straight", "slight curve", "medium curve", and "very curved".

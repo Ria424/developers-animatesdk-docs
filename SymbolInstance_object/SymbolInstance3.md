@@ -4,10 +4,6 @@
 
 Flash CS5.5 Professional.
 
-## Usage
-
-SymbolInstance.bitmapRenderMode
-
 ## Description
 
 Property; `"none" | "cache" | "export"`; Sets the display type for the symbol. Acceptable values include:

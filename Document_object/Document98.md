@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.library
-
 ## Description
 
 Read-only property; `Library`; The [Library object](../Library_object/Library_summary.md) for a document.

@@ -4,10 +4,6 @@
 
 Adobe Animate.
 
-## Usage
-
-swfPanel.dpiScaleFactorY
-
 ## Description
 
 Read-only property: a string that contains the DPI scale factor (scaleY) for swfPanel. Depending on this scale-factor, SwfPanel can adjust its contents.

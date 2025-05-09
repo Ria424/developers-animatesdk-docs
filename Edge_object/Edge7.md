@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-Edge.stroke
-
 ## Description
 
 Property; `Stroke`; a [Stroke object](../Stroke_object/Stroke_summary.md).

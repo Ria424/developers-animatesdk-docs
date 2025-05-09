@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.labelType
-
 ## Description
 
 Property; `"none" | "name" | "comment" | "anchor"`; A string that specifies the type of Frame name. Acceptable values are "none", "name", "comment", and

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.duration
-
 ## Description
 
 Read-only property; `integer`; The number of frames in a frame sequence.

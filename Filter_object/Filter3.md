@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.brightness
-
 ## Description
 
 Property; `float`; a float value that specifies the brightness of the filter. Acceptable values are between -100 and 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [Filter.name](../Filter_object/Filter13.md) property.

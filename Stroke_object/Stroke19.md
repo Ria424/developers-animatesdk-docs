@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-stroke.strokeHinting
-
 ## Description
 
 Property; a Boolean value that specifies whether stroke hinting is set on the stroke.

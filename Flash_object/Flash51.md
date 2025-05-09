@@ -4,10 +4,6 @@
 
 Flash CS5.5 Professional.
 
-## Usage
-
-fl.publishCacheEnabled
-
 ## Description
 
 Property: a boolean value that sets whether the publish cache is enabled.

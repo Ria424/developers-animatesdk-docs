@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-Edge.cubicSegmentIndex
-
 ## Description
 
 Read-only property; `integer`; Specifies the index value of a cubic segment of the edge (see [Shape.getCubicSegmentPoints()](../Shape_object/Shape5.md)).

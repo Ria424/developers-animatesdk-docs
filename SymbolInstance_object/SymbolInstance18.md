@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-SymbolInstance.filters
-
 ## Description
 
 Property; `Filter[]`; An array of [Filter object](../Filter_object/Filter_summary.md)s. To modify filter properties, you don’t write to this array directly. Instead, retrieve the array, set the individual properties, and then set the array to reflect the new properties.

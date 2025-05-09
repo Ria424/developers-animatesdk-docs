@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.publishProfiles
-
 ## Description
 
 Read-only property; `string[]`; An array of the publish profile names for the document.

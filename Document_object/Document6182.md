@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.width
-
 ## Description
 
 Property; `integer`; The width of the document (Stage) in pixels.

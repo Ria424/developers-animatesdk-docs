@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.backgroundColor
-
 ## Description
 
 Property; `integer | string`; The color of the background, in one of the following formats:

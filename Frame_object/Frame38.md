@@ -4,10 +4,6 @@
 
 Flash Professional CS5.
 
-## Usage
-
-Frame.tweenInstanceName()
-
 ## Description
 
 Property; `string`; A string that assigns an instance name to the selected motion object.

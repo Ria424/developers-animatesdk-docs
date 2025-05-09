@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-BitmapItem.allowSmoothing
-
 ## Description
 
 Property; `boolean`; A boolean value that specifies whether to allow smoothing of a bitmap *(true)* or not *(false)*.

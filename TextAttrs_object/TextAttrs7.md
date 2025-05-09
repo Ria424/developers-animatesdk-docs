@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.fillColor*
-
 ## Description
 
 Property; the color of the fill, in one of the following formats:

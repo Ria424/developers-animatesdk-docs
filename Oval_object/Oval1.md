@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Oval.endAngle
-
 ## Description
 
 Read-only property; a float value that specifies the end angle of the Oval object. Acceptable values are from 0 to 360. To set this value, use [Document.setOvalObjectProperty()](../Document_object/Document590.md).

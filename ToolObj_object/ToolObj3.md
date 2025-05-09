@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-ToolObj.position
-
 ## Description
 
 Read-only property; `integer`; The position of the tool in the Tools panel. This property is used only when you create extensible tools.

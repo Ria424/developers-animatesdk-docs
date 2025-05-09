@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Timeline.layers
-
 ## Description
 
 Read-only property; `Layer[]`; An array of layer objects.

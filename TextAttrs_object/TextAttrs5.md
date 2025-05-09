@@ -4,10 +4,6 @@
 
 Flash MX 2004. Deprecated in Flash 8 in favor of [TextAttrs.letterSpacing](../TextAttrs_object/TextAttrs11.md).
 
-## Usage
-
-*textAttrs.characterSpacing*
-
 ## Description
 
 Property; an integer that represents the space between characters. Acceptable values are -60 through 60.

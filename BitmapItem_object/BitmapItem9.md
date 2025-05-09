@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-BitmapItem.sourceFileExists
-
 ## Description
 
 Read-only property; `boolean`; A boolean value of true if the file that was imported to the Library still exists in the location from where it was imported; false otherwise.

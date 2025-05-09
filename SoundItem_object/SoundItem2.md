@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*soundItem.compressionType*
-
 ## Description
 
 Property; a string that specifies that compression type for a sound in the library. Acceptable values are *"Default", "ADPCM", "MP3", "Raw",* and *"Speech"*.

@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Rectangle.bottomLeftRadius
-
 ## Description
 
 Read-only property; a float value that sets the radius of the bottom-left corner of the Rectangle object. If

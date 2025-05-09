@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.selectable
-
 ## Description
 
 Property; a Boolean value. If the value is true, the text can be selected.

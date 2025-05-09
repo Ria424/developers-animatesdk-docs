@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*element.name*
-
 ## Description
 
 Property; `string`; A string that specifies the name of the element, normally referred to as the Instance name. If the value of

@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*shape.members*
-
 ## Description
 
 Read-only property; an array of objects in the currently selected group. This property is available only if the value of

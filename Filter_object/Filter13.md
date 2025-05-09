@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.name
-
 ## Description
 
 Read-only property; `string`; A string that specifies the type of filter. The value of this property determines which other properties of the Filter object are available. The value is one of the following: "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter".

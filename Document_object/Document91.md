@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.height
-
 ## Description
 
 Property; `integer`; Specifies the height of the document (Stage) in pixels.

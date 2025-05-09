@@ -4,10 +4,6 @@
 
 Flash CS6 Professional.
 
-## Usage
-
-BitmapItem.vPixels
-
 ## Description
 
 Read-only property; `integer`; Specifies the height of the bitmap, in pixels.

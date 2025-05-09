@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-stroke.shapeFill
-
 ## Description
 
 Property; a [Fill object](../Fill_object/Fill_summary.md) that represents the fill settings of the stroke.

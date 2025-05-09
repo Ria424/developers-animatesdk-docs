@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-stroke.scaleType
-
 ## Description
 
 Property; a string that specifies the type of scale to be applied to the stroke. Acceptable values are "normal", "horizontal", "vertical", and "none".

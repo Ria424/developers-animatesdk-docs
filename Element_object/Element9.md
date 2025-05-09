@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*element.locked*
-
 ## Description
 
 Property; `boolean`; True if the element is locked; false otherwise. If the value of [Element.elementType](../Element_object/Element1.md) is

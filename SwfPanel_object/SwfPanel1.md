@@ -4,10 +4,6 @@
 
 Adobe Animate.
 
-## Usage
-
-swfPanel.dpiScaleFactorX
-
 ## Description
 
 Read-only property: a string that contains the DPI scale factor (scaleX) for swfPanel. Depending on this scale-factor, SwfPanel can adjust its contents.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Vertex.y
-
 ## Description
 
 Read-only property; `number`; The *y* location of the vertex, in pixels.

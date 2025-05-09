@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*videoItem.sourceFileIsCurrent*
-
 ## Description
 
 Read-only property: a Boolean value of true if the file modification date of the Library item is the same as the modification date (on disk) of the file that was imported; false otherwise.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.scrollable
-
 ## Description
 
 Property; a Boolean value. If the value is true, the text can be scrolled.

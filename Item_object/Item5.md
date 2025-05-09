@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Item.linkageBaseClass
-
 ## Description
 
 Property; `string`; Specifies the ActionScript 3.0 class that will be associated with the symbol. The value specified here appears in the Linkage dialog box in the authoring environment, and in other dialog boxes that include the Linkage dialog box controls, such as the Symbol Properties dialog box. (To specify this value for an ActionScript 2.0 class, use [Item.linkageClassName](../Item_object/Item6.md) )

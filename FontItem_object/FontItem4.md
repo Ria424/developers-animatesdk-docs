@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-FontItem.embedVariantGlyphs
-
 ## Description
 
 ***Note:** While this property is available in Flash CS5 Professional, it has no effect when applied to Text Layout Framework (TLF) text. Beginning in Flash Professional CS5, variant glyphs are always embedded in fonts used with TLF text. The flash.text.engine (FTE) referenced below is only available in Flash Professional CS4.*

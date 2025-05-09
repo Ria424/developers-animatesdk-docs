@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.variableName
-
 ## Description
 
 Property; a string that contains the name of the variable associated with the Text object. This property works only with dynamic or input text; it generates a warning if used with other text types.

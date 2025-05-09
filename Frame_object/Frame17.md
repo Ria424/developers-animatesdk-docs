@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.motionTweenRotate
-
 ## Description
 
 Property; `"none" | "auto" | "clockwise" | "counter-clockwise"`; A string that specifies how the tweened element rotates. Acceptable values are *"none", "auto", "clockwise"*, and *"counter-clockwise"*. A value of "auto" means the object will rotate in the direction requiring the least motion to match the rotation of the object in the following keyframe.

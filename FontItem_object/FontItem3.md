@@ -4,10 +4,6 @@
 
 Flash CS5 Professional.
 
-## Usage
-
-FontItem.embedRanges
-
 ## Description
 
 Property; `string`; Specifies a series of delimited integers that correspond to items that can be selected in the Font Embedding dialog box.

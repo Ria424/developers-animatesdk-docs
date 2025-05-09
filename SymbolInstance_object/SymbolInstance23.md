@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolInstance.shortcut
-
 ## Description
 
 Property; `string`; A string that is equivalent to the shortcut key associated with the symbol. This property is equivalent to the Shortcut field in the Accessibility panel. This key is read by the screen readers.

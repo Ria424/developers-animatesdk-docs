@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolInstance.accName
-
 ## Description
 
 Property; `string`; A string that is equivalent to the Name field in the Accessibility panel. Screen readers identify objects by reading the name aloud. This property is not available for graphic symbols.

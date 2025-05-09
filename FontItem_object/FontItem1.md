@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-FontItem.bold
-
 ## Description
 
 Property; `boolean`; Specifies whether the Font item is bold (true) or not (false).

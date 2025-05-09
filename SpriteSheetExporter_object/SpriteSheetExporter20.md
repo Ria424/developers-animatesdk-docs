@@ -4,10 +4,6 @@
 
 Flash Pro CC.
 
-## Usage
-
-SpriteSheetExporter.maxSheetWidth
-
 ## Description
 
 Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.

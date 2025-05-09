@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-shape.vertices
-
 ## Description
 
 Read-only property; an array of Vertex objects (see [Vertex object](../Vertex_object/Vertex_summary.md)).

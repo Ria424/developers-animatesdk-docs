@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-fl.contactSensitiveSelection
-
 ## Description
 
 `boolean`; A boolean value that specifies whether Contact Sensitive selection mode is enabled (true) or not (false).

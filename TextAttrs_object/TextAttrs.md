@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.aliasText*
-
 ## Description
 
 Property; a Boolean value that specifies that Flash should draw the text using a method optimized for increasing the legibility of small text.

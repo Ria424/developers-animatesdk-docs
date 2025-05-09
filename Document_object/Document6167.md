@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.viewMatrix
-
 ## Description
 
 Read-only property; `Matrix`; A Matrix object. The viewMatrix is used to transform from object space to document space when the document is in edit mode. The mouse location, as a tool receives it, is relative to the object that is currently being edited. See [Matrix object](../Matrix_object/Matrix_summary.md).

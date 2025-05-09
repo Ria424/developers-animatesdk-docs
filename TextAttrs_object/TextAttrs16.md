@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.target*
-
 ## Description
 
 Property; a string that represents the target property of the text field. This property works only with static text.

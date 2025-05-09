@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-SpriteSheetExporter.autoSize
-
 ## Description
 
 Property; `boolean`; A boolean value indicating whether the sprite sheet exporter should calculate the overall size of the sprite sheet on its own.

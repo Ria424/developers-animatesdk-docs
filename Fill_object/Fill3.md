@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fill.colorArray
-
 ## Description
 
 Property; an array of colors in the gradient, expressed as integers. This property is available only if the value of the

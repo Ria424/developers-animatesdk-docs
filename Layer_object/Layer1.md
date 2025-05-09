@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Layer.color
-
 ## Description
 
 Property; `integer | string`; the color assigned to outline the layer, in one of the following formats:

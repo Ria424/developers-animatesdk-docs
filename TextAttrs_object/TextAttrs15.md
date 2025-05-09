@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.size*
-
 ## Description
 
 Property; an integer that specifies the size of the font.

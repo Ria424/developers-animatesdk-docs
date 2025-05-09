@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Layer.locked
-
 ## Description
 
 Property; `boolean`; Specifies the locked status of the layer. If set to true, the layer is locked. The default value is false.

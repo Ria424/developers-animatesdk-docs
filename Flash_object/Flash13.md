@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fl.configURI
-
 ## Description
 
 Read-only property; `string`; A string that specifies the full path for the local user’s Configuration directory as a file:/// URI. See also [Flash.configDirectory](../Flash_object/Flash12.md).

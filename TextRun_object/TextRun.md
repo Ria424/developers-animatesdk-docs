@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textRun.textAttrs*
-
 ## Description
 
 Property; the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md) containing the attributes of the run of text.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*shape.contours*
-
 ## Description
 
 Read-only property; an array of Contour objects for the shape (see [Contour object](../Contour_object/Contour_summary.md)).

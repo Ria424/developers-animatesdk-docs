@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-filter.enabled
-
 ## Description
 
 Property; `boolean`; A boolean value that specifies whether the specified filter is enabled (true) or disabled (false).

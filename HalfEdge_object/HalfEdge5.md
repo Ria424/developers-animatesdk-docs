@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-halfEdge.id
-
 ## Description
 
 Read-only property; a unique integer identifier for the HalfEdge object.

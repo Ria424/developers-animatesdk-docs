@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-FontItem.size
-
 ## Description
 
 Property; `integer`; Represents the size of the Font item, in points.

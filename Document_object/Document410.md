@@ -4,10 +4,6 @@
 
 Flash MX 2004. *Dropped in Adobe Animate.*
 
-## Usage
-
-Document.screenOutline
-
 ## Example
 
 The following example displays the array of values in the screenOutline property:

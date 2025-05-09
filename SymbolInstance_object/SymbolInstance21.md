@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-SymbolInstance.is3D
-
 ## Description
 
 Read-only property; `boolean`; Indicates whether the symbol instance contains a 3D matrix (transform).

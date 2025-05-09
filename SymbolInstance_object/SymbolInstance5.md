@@ -4,10 +4,6 @@
 
 Adobe Animate.
 
-## Usage
-
-SymbolInstance.brightness
-
 ## Description
 
 Read-only property; Returns the value set in the color effect Property Inspector for brightness (percentage between - 100 and 100) when colorMode == "brightness". Error if colorMode is a different setting.

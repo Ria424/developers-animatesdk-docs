@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-fill.bitmapPath
-
 ## Description
 
 Property; a string that specifies the path and name of the bitmap fill in the Library. This property is available only if the value of the [Fill.style](../Fill_object/Fill9.md) property is "bitmap".

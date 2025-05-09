@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.name
-
 ## Description
 
 Property; `string`; A string that specifies the name of the frame.

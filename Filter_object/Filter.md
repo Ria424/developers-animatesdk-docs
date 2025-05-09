@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.angle
-
 ## Description
 
 Property; `float`; a float value that specifies the angle of the shadow or highlight color, in degrees. Acceptable values are between 0 and 360. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.

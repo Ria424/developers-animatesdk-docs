@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Timeline.currentFrame
-
 ## Description
 
 Property; `integer`; The zero-based index for the frame at the current playhead location.

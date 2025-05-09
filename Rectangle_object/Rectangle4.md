@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Rectangle.topRightRadius
-
 ## Description
 
 Read-only property; a float value that sets the radius of the top-right corner of the Rectangle object. If

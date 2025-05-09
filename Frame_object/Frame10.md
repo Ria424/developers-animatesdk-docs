@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-Frame.hasCustomEase
-
 ## Description
 
 Property; `boolean`; If true, the frame gets its ease information from the custom ease curve. If false, the frame gets its ease information from the ease value.

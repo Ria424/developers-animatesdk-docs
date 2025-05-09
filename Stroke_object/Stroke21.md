@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-stroke.thickness
-
 ## Description
 
 Property; an integer that specifies the stroke size.

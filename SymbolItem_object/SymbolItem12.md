@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolItem.timeline
-
 ## Description
 
 Read-only property; `Timeline`; A [Timeline object](../Timeline_object/Timeline_summary.md).

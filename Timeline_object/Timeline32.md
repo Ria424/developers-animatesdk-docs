@@ -4,10 +4,6 @@
 
 Flash Professional CS5.
 
-## Usage
-
-Timeline.libraryItem
-
 ## Description
 
 Read-only property; `Item | null`; If the timeline's libraryItem property is null, the timeline belongs to a scene. If it's not null, you can treat it like a LibraryItem object.

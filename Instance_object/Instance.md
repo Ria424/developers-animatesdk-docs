@@ -4,10 +4,6 @@
 
 Flash MX 2004; possible value of "video" added in Flash 8.
 
-## Usage
-
-instance.instanceType
-
 ## Description
 
 Read-only property; `"symbol" | "bitmap" | "embedded video" | "linked video" | "video" | "compiled clip"`; A string that represents the type of instance. Possible values are "symbol", "bitmap", "embedded video", "linked video", "video", and "compiled clip".

@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-SpriteSheetExporter.borderPadding
-
 ## Description
 
 Property; `integer`; An integer indicating the number of pixels of padding to add around each sprite in the sprite sheet.

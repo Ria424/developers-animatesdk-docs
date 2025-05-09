@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-swfPanel.path
-
 ## Description
 
 Read-only property: a string that represents the path to the SWF file used in the specified Window SWF panel.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.textRuns
-
 ## Description
 
 Read-only property; an array of TextRun objects (see [TextRun object](../TextRun_object/TextRun_summary.md)).

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fill.matrix
-
 ## Description
 
 Property; a [Matrix object](../Matrix_object/Matrix_summary.md) that defines the placement, orientation, and scales for gradient fills.

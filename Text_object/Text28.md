@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.textType
-
 ## Description
 
 Property; a string that specifies the type of text field. Acceptable values are "static", "dynamic", and "input".

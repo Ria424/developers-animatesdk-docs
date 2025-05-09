@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fl.Math
-
 ## Description
 
 Read-only property; `Math`; the [Math object](../Math_object/Math_summary.md) provides methods for matrix and point operations.

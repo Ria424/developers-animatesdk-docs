@@ -4,10 +4,6 @@
 
 Adobe Animate.
 
-## Usage
-
-CompiledClipInstance.useBackgroundColor
-
 ## Description
 
 Property; `boolean`; A boolean that sets the background color:

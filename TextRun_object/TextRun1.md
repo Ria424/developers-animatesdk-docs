@@ -6,10 +6,6 @@ Flash MX 2004.
 
 **TextRun object**
 
-## Usage
-
-*textRun.characters*
-
 ## Description
 
 Property; the text contained in the TextRun object.

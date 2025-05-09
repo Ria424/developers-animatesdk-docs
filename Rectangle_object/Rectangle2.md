@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Rectangle.lockFlag
-
 ## Description
 
 Read-only property; a Boolean value that determines whether different corners of the rectangle can have different radius values. If this value is true, all corners have the value assigned to Rectangle.topLeftRadius. If it is false, each corner radius can be set independently.

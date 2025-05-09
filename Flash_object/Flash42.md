@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fl.mruRecentFileList
-
 ## Description
 
 Read-only property; an array of the complete filenames in the Most Recently Used (MRU) list that the Flash authoring tool manages.

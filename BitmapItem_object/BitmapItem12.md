@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-BitmapItem.useDeblocking
-
 ## Description
 
 Property; `boolean`; Specifies whether deblocking is enabled (*true*) or not (*false*).

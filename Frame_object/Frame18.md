@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.motionTweenRotateTimes
-
 ## Description
 
 Property; `integer`; An integer that specifies the number of times the tweened element rotates between the starting keyframe and the next keyframe.

@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-Document.asVersion
-
 ## Description
 
 Property; `integer`; Specifies which version of ActionScript is being used in the specified document. Acceptable values are 1, 2, and 3.

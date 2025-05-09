@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-swfPanel.name
-
 ## Description
 
 Read-only property: a string that represents the name of the specified Window SWF panel.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.actionScript
-
 ## Description
 
 Property; `string`; A string that represents ActionScript code. To insert a new line character, use "\n".

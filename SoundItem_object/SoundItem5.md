@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*soundItem.fileLastModifiedDate*
-
 ## Description
 
 Read-only property: a string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970, and the modification date of the original file (on disk) at the time the file was imported to the library. If the file no longer exists, this value is "00000000".

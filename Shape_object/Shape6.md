@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-*shape.isDrawingObject*
-
 ## Description
 
 Read-only property; if true, the shape is a drawing object.

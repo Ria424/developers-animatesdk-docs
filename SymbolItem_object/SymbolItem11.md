@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolItem.symbolType
-
 ## Description
 
 Property; `"movie clip" | "button" | "graphic"`; Specifies the type of symbol. Acceptable values are *"movie clip"*, *"button"*, and *"graphic"*.

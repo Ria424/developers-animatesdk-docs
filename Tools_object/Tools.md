@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Tools.activeTool
-
 ## Description
 
 Read-only property; `ToolObj`; Returns the [ToolObj object](../ToolObj_object/ToolObj_summary.md) for the currently active tool.

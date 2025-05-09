@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-text.embedVariantGlyphs
-
 ## Description
 
 Property; a Boolean value that specifies whether to enable the embedding of variant glyphs (true) or not (false). This property works only with dynamic or input text; it is ignored if used with static text. The default value is false.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.embeddedCharacters
-
 ## Description
 
 Property; a string that specifies characters to embed. This is equivalent to entering text in the Character Embedding dialog box.

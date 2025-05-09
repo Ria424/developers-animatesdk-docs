@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-BitmapItem.compressionType
-
 ## Description
 
 Property; `"photo" | "lossless"`; A string that determines the type of image compression applied to the bitmap. Acceptable values are "photo" or "lossless". If the value of `BitmapItem.useImportedJPEGQuality` is false, "photo" corresponds to JPEG with a quality from 0 to 100; if `BitmapItem.useImportedJPEGQuality` is true, "photo" corresponds to JPEG using the default document quality value. The value "lossless" corresponds to GIF or PNG format (see [BitmapItem.useImportedJPEGQuality](../BitmapItem_object/BitmapItem13.md)).

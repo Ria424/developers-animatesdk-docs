@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*soundItem.sampleRate*
-
 ## Description
 
 Property; a string that specifies the sample rate for the audio clip. This property is available only for the ADPCM, Raw, and Speech compression types. Acceptable values are *"5 kHz", "11 kHz", "22 kHz",* and *"44 kHz"*.

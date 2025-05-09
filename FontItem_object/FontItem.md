@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-FontItem.bitmap
-
 ## Description
 
 Property; `boolean`; Specifies whether the Font item is bitmapped (true) or not (false).

@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-presetItem.level
-
 ## Description
 
 Read-only property: an integer that specifies the level of the item in the folder structure of the Motion Presets panel. The Default Folder and Custom Presets folder are level 0.

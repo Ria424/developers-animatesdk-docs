@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*textAttrs.url*
-
 ## Description
 
 Property; a string that represents the URL property of the text field. This property works only with static text.

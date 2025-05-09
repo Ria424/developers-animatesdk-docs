@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-stroke.capType
-
 ## Description
 
 Property; a string that specifies the type of cap for the stroke. Acceptable values are "none", "round", and "square".

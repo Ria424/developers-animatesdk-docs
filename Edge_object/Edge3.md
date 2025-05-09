@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Edge.id
-
 ## Description
 
 Read-only property; `integer`; An integer that represents a unique identifier for the edge.

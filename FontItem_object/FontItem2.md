@@ -4,10 +4,6 @@
 
 Flash CS5 Professional.
 
-## Usage
-
-FontItem.embeddedCharacters
-
 ## Description
 
 Property; `string`; A string value that allows you to specify characters to embed within a SWF file so that the characters do not need to be present on the devices the SWF file eventually plays back on. This property provides the same functionality as the Font Embedding dialog box.

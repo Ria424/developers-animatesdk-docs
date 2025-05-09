@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Library.items
-
 ## Description
 
 Property; `Item[]`; An array of item objects in the library.

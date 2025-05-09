@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolItem.sourceLibraryName
-
 ## Description
 
 Property; `string`; Specifies the name of the item in the source file library. It is used for shared library symbols.

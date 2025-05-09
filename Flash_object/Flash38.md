@@ -4,10 +4,6 @@
 
 Flash CS5 Professional.
 
-## Usage
-
-fl.languageCode
-
 ## Description
 
 Property; a string that returns the five character code identifying the locale of the application’s user interface.

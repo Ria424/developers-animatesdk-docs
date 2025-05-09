@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-matrix.ty
-
 ## Description
 
 Property; a floating-point value that specifies the *y*-axis location of a symbol’s registration point or the center of a shape. It defines the *y* translation of the transformation.

@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-SymbolInstance.cacheAsBitmap
-
 ## Description
 
 Property; `boolean`; Specifies whether run-time bitmap caching is enabled.

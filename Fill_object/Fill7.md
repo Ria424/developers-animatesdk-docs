@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-fill.overflow
-
 ## Description
 
 Property; a string that specifies the behavior of a gradient’s overflow. Acceptable values are "extend", "repeat", and

@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-fl.objectDrawingMode
-
 ## Description
 
 Property; a Boolean value that specifies whether the object drawing mode is enabled (true) or the merge drawing mode is enabled (false).

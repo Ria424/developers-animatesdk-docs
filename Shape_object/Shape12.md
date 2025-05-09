@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*shape.numCubicSegments*
-
 ## Description
 
 Read-only property; the number of cubic segments in the shape.

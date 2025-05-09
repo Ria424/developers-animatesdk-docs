@@ -4,10 +4,6 @@
 
 Animate 2019
 
-## Usage
-
-Camera.tintEnabled
-
 ## Description
 
 `boolean`; Used to Enable/Disable tint. The value true is if camera is enabled otherwise false.

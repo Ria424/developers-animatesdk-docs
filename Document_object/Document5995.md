@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.timelines
-
 ## Description
 
 Read-only property; `Timeline[]`; An array of [Timeline object](../Timeline_object/Timeline_summary.md)s.

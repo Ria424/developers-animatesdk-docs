@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.maxCharacters
-
 ## Description
 
 Property; an integer that specifies the maximum number of characters the user can enter in this Text object.

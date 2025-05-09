@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-*shape.isOvalObject*
-
 ## Description
 
 Read-only property; if true, the shape is a primitive Oval object (was created using the Oval Primitive tool).

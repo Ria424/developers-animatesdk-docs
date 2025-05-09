@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Item.linkageExportForAS
-
 ## Description
 
 Property; `boolean`; If this property is true, the item is exported for ActionScript. You can also set the

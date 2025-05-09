@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Layer.name
-
 ## Description
 
 Property; `string`; Specifies the name of the layer.

@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.shadowColor
-
 ## Description
 
 Property; `integer | string`; the color of the shadow, in one of the following formats:

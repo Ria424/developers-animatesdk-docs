@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Layer.frames
-
 ## Description
 
 Read-only property; `Frame[]`; An array of [Frame object](../Frame_object/Frame_summary.md)s.

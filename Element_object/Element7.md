@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-element.layer
-
 ## Description
 
 Read-only property; `Layer`; represents the [Layer object](../Layer_object/Layer_summary.md) on which the element is located.

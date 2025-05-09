@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-FontItem.font
-
 ## Description
 
 Property; `string`; Specifies the name of the device font associated with the Font item. If you enter a string that does not correspond to an installed device font, an error message is displayed. To determine if a font exists on the system, use [Flash.isFontInstalled()](../Flash_object/Flash37.md).

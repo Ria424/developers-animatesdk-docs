@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*soundItem.sourceFilePath*
-
 ## Description
 
 Read-only property: a string, expressed as a file:/// URI, that represents the path and name of the file that was imported into the Library.

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fill.posArray
-
 ## Description
 
 Property; an array of integers, each in the range of zero to 255, indicating the position of the corresponding color. This property is available only if the value of the [Fill.style](../Fill_object/Fill9.md) property is either "radialGradient" or "linearGradient".

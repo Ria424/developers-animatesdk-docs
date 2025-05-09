@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-path.nPts
-
 ## Description
 
 Read-only property; an integer representing the number of points in the path. A new path has 0 points.

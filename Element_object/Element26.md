@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-*element.x*
-
 ## Description
 
 Property; `float`; a float value that specifies the *x* value of the selected element’s registration point.

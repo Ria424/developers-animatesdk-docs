@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Frame.soundName
-
 ## Description
 
 Property; The name of a sound that is attached directly to a frame ([Frame.soundLibraryItem](../Frame_object/Frame31.md)), as stored in the library.

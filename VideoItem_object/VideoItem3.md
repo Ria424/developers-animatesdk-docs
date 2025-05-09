@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*videoItem.sourceFileExists*
-
 ## Description
 
 Read-only property: a Boolean value of true if the file that was imported to the Library still exists in the location from where it was imported; false otherwise.

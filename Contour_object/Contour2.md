@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Contour.interior
-
 ## Description
 
 Read-only property; `boolean`; The value is true if the contour encloses an area; false otherwise.

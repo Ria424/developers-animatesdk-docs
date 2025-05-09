@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-fill.bitmapIsClipped
-
 ## Description
 
 Property; a Boolean value that specifies whether the bitmap fill for a shape that is larger than the bitmap is clipped (true) or repeated (false). This property is available only if the value of the [Fill.style](../Fill_object/Fill9.md) property is "bitmap". If the shape is smaller than the bitmap, this value is false.

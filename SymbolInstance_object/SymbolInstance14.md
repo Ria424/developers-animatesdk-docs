@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-SymbolInstance.colorMode
-
 ## Description
 
 Property; `"none" | "brightness" | "tint" | "alpha" | "advanced"`; Specifies the color mode as identified in the symbol Property inspector Color pop-up menu. Acceptable values are "none", "brightness", "tint", "alpha", and "advanced".

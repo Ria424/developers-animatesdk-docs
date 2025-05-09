@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-fill.focalPoint
-
 ## Description
 
 Property; an integer that specifies the gradient focal point horizontal offset from the transformation point. A value of 10, for example, would place the focal point at 10/255 of the distance from the transformation point to the edge of the gradient. A value of -255 would place the focal point at the left boundary of the gradient. The default value is 0.

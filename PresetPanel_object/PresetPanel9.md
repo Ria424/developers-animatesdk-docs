@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-*presetPanel.items*
-
 ## Description
 
 Property; an array of presetItem objects in the Motion Presets panel (see [PresetItem object](../PresetItem_object/PresetItem_summary.md)). Each item in the array represents either a folder or a preset.

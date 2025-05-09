@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Document.selection
-
 ## Description
 
 Property; `Element[]`; An array of the selected objects in the document. If nothing is selected, returns an array of length zero. If no document is open, returns null.

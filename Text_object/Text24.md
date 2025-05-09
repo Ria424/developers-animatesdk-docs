@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.shortcut
-
 ## Description
 
 Property; a string that is equivalent to the Shortcut field in the Accessibility panel. The shortcut is read by the screen reader. This property cannot be used with dynamic text.

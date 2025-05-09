@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-SymbolInstance.blendMode
-
 ## Description
 
 Property; A string that specifies the blending mode to be applied to a movie clip symbol. Acceptable values are "normal", "layer", "multiply", "screen", "overlay", "hardlight", "lighten", "darken", "difference", "add", "subtract", "invert", "alpha", and "erase".

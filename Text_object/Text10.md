@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-text.fontRenderingMode
-
 ## Description
 
 Property; a string that specifies the rendering mode for the text. This property affects how the text is displayed both on the Stage and in Flash Player. Acceptable values are described in the following table:

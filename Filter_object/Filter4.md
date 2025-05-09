@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.color
-
 ## Description
 
 Property; `integer | string`; the color of the filter, in one of the following formats:

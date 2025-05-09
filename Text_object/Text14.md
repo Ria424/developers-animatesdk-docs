@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-text.lineType
-
 ## Description
 
 Property; a string that sets the line type. Acceptable values are "single line", "multiline", "multiline no wrap", and "password".

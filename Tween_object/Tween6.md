@@ -4,10 +4,6 @@
 
 Flash Pro CC
 
-## Usage
-
-Tween.tweenType
-
 ## Description
 
 `"motion" | "shape"`; Specifies the type of tween. For example, Motion or Shape.

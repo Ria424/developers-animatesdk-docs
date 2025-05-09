@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.distance
-
 ## Description
 
 Property; `float`; a float value that specifies the distance between the filter’s effect and an object, in pixels. Acceptable values are from -255 to 255. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [Filter.name](../Filter_object/Filter13.md) property.

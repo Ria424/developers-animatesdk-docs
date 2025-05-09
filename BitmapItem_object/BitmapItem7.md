@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-BitmapItem.originalCompressionType
-
 ## Description
 
 Read-only property; `string`; Specifies whether the specified item was imported as an jpeg file. Possible values for this property are "photo" (for jpeg files) and "lossless" (for uncompressed file types such as GIF and PNG).

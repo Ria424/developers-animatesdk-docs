@@ -4,10 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-*element.rotation*
-
 ## Description
 
 Property; `integer`; an integer or float value between -180 and 180 that specifies the object’s clockwise rotation, in degrees.

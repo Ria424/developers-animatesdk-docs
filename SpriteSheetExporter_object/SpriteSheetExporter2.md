@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-SpriteSheetExporter.algorithm
-
 ## Description
 
 Property; `"basic" | "maxRects"`; A string indicating which algorithm to use to pack the sprite sheet. Valid values are "basic" (the default), and "maxRects".

@@ -4,10 +4,6 @@
 
 Flash CS4 Professional.
 
-## Usage
-
-presetItem.open
-
 ## Description
 
 Read-only property: specifies whether a folder in the Motion Presets panel is currently expanded (true) or not (false).

@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-Item.linkageClassName
-
 ## Description
 
 Property; `string`; Specifies the ActionScript 2.0 class that will be associated with the symbol. (To specify this value for an ActionScript 3.0 class, use [Item.linkageBaseClass](../Item_object/Item5.md))

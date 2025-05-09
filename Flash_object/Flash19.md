@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-fl.createNewTemplateList
-
 ## Description
 
 Read-only property; `string[]`; an array of strings that represent the various types of templates that can be created.

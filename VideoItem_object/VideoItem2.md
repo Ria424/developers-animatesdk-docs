@@ -4,10 +4,6 @@
 
 Flash Pro CS6.
 
-## Usage
-
-*videoItem.lastModifiedDate*
-
 ## Description
 
 Read-only property; a hexadecimal value indicating the modification date and time of the video item. This value is incremented every time the video item is imported.

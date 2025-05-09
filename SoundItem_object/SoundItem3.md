@@ -4,10 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-*soundItem.convertStereoToMono*
-
 ## Description
 
 Property; a Boolean value available only for MP3 and Raw compression types. Setting this value to true converts a stereo sound to mono; false leaves it as stereo. For the MP3 compression type, if *soundItem.bitRate* is less than 20 Kbps, this property is ignored and forced to *true* (see [SoundItem.bitRate](../SoundItem_object/SoundItem.md)).

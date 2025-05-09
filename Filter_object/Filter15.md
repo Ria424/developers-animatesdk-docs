@@ -4,10 +4,6 @@
 
 Flash 8.
 
-## Usage
-
-filter.saturation
-
 ## Description
 
 Property; `float`; a float value that specifies the saturation value of the filter. Acceptable values are from -100 to 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [Filter.name](../Filter_object/Filter13.md) property.

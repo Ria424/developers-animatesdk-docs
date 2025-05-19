@@ -12,7 +12,7 @@ Camera.getPosition(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 `Point`; e.g. {x: 0, y: 0}
 

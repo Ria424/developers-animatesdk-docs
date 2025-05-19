@@ -12,7 +12,7 @@ Camera.getRotation(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 `integer`;
 

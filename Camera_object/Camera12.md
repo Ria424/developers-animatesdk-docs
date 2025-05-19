@@ -12,7 +12,7 @@ Camera.resetRotation(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 Nothing.
 

@@ -12,7 +12,7 @@ Camera.getZDepth(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 `integer`;
 

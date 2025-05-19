@@ -20,7 +20,7 @@ Camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
 **hue** `number`;
 
-## Return
+## Returns
 
 Nothing.
 

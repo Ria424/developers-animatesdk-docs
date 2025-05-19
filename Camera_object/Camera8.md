@@ -14,7 +14,7 @@ Camera.setRotation(frameIndex, angleDegree)
 
 **angleDegree** `integer`; The angleDegree for rotation.
 
-## Return
+## Returns
 
 nothing
 

@@ -12,7 +12,7 @@ Camera.resetColorFilter(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 Nothing.
 

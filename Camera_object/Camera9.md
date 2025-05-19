@@ -20,7 +20,7 @@ Camera.setTint(frameIndex, amount, red, green, blue)
 
 **blue** `integer`;
 
-## Return
+## Returns
 
 Nothing.
 

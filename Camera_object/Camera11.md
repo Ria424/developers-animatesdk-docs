@@ -12,7 +12,7 @@ Camera.resetZoom(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 Nothing.
 

@@ -12,7 +12,7 @@ Camera.resetTint(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 Nothing.
 

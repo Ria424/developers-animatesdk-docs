@@ -12,7 +12,7 @@ camera.getColorFilter(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 `{brightness: number, contrast: number, saturation: number, hue: number}`;
 

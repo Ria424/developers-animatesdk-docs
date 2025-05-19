@@ -14,7 +14,7 @@ Camera.setZDepth(frameIndex, tz)
 
 **tz** `integer`; Pixels.
 
-## Return
+## Returns
 
 Nothing.
 

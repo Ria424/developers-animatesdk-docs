@@ -12,7 +12,7 @@ Camera.getZoom(frameIndex)
 
 **frameIndex** `integer`;
 
-## Return
+## Returns
 
 `double`;
 

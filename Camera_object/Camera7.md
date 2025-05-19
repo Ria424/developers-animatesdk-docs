@@ -14,7 +14,7 @@ Camera.setZoom(frameIndex, zoomVal)
 
 **zoomVal** `integer`;
 
-## Return
+## Returns
 
 Nothing.
 

@@ -15,7 +15,7 @@ The following example specifies the colors to use in a linear gradient for the c
 
 ```javascript
 var fill = fl.getDocumentDOM().getCustomFill();
-fill.style= "linearGradient";
+fill.style = "linearGradient";
 fill.colorArray = [0x00ff00, 0xff0000, 0x0000ff];
 fill.posArray= [0, 100, 200];
 fl.getDocumentDOM().setCustomFill(fill);

@@ -31,8 +31,8 @@ Method; Sets the specified textAttrs property of the selected text items to the 
 The following examples set the fillColor, italic, and bold text attributes for the selected text items:
 
 ```javascript
-var document = fl.getDocumentDOM();
-var success = document.setElementTextAttr("fillColor", "#00ff00");
-var pass = document.setElementTextAttr("italic", true, 10);
-var ok = document.setElementTextAttr("bold", true, 5, 15);
+var doc = fl.getDocumentDOM();
+var success = doc.setElementTextAttr("fillColor", "#00ff00");
+var pass = doc.setElementTextAttr("italic", true, 10);
+var ok = doc.setElementTextAttr("bold", true, 5, 15);
 ```

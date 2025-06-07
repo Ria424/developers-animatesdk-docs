@@ -2,11 +2,8 @@
 
 ## Availability
 
-Flash MX 2004. *Dropped in Adobe Animate.*
-
-## Usage
-
-Document.allowScreens()
+Flash MX 2004
+*Dropped in Adobe Animate*
 
 ## Parameters
 

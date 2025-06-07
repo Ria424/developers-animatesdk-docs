@@ -2,36 +2,76 @@
 
 ## Availability
 
-Flash 8.
-
-## Usage
-
-Document.setFilterProperty(property, filterIndex, value)
+Flash 8
 
 ## Parameters
 
-**property** `"blurX" | "blurY" | "quality" | "angle" | "distance" | "strength" | "knockout" | "inner" | "bevelType" | "color" | "shadowColor"` The property to be set. Acceptable values are "blurX", "blurY", "quality", "angle", "distance", "strength", "knockout", "inner", "bevelType", "color", "shadowColor", and
-"highlightColor".
+### **property**
 
-**filterIndex** `integer`; An integer specifying the zero-based index of the filter in the Filters list.
+#### Type
 
-**value** `number | string` A number or string specifying the value to be set for the specified filter property. Acceptable values depend on the property and the filter being set.
+```typescript
+"angle"
+| "bevelType"
+| "blurX"
+| "blurY"
+| "color"
+| "distance"
+| "knockout"
+| "inner"
+| "quality"
+| "shadowColor"
+| "strength"
+```
+
+#### Description
+
+The property to be set.
+
+### **filterIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer specifying the zero-based index of the filter in the Filters list.
+
+### **value**
+
+#### Type
+
+```typescript
+number | string
+```
+
+#### Description
+
+A number or string specifying the value to be set for the specified filter property. Acceptable values depend on the property and the filter being set.
 
 ## Returns
 
-Nothing.
+### Type
+
+```typescript
+void
+```
 
 ## Description
 
-Method; Sets a specified filter property for the currently selected objects (assuming that the object supports the specified filter).
+Sets a specified filter property for the currently selected objects (assuming that the object supports the specified filter).
 
 ## Example
 
 The following example sets the quality property to 2 for the second filter (index value of 1) in the Filters list of the selected objects and then sets the shadowColor property of the first filter in the Filters list on the selected objects:
 
 ```javascript
-fl.getDocumentDOM().setFilterProperty("quality", 1, 2);
-fl.getDocumentDOM().setFilterProperty("shadowColor", 0, "#FF00FF");
+var doc = fl.getDocumentDOM();
+doc.setFilterProperty("quality", 1, 2);
+doc.setFilterProperty("shadowColor", 0, "#FF00FF");
 ```
 
 ## See also

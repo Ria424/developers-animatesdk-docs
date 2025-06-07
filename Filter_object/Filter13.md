@@ -6,7 +6,21 @@ Flash 8.
 
 ## Description
 
-Read-only property; `string`; A string that specifies the type of filter. The value of this property determines which other properties of the Filter object are available. The value is one of the following: "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter".
+Read-only property.  
+A string that specifies the type of filter.  
+The value of this property determines which other properties of the Filter object are available.
+
+## Type
+
+```typescript
+"adjustColorFilter"
+| "bevelFilter"
+| "blurFilter"
+| "dropShadowFilter"
+| "glowFilter"
+| "gradientBevelFilter"
+| "gradientGlowFilter"
+```
 
 ## Example
 
@@ -23,4 +37,5 @@ fl.trace(traceStr);
 
 ## See also
 
-[Document.getFilters()](../Document_object/Document79.md), [Document.setFilterProperty()](../Document_object/Document520.md)
+- [Document.getFilters()](../Document_object/Document79.md)
+- [Document.setFilterProperty()](../Document_object/Document520.md)

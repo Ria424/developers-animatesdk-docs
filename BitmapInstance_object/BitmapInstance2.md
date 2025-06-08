@@ -6,11 +6,28 @@ Flash MX 2004.
 
 ## Usage
 
-BitmapInstance.setBits(bitmap)
+setBits(bitmap)
 
 ## Parameters
 
-**bitmap** `{height: integer; width: integer; depth: integer; bits: integer; cTab: integer}`; An object that contains height, width, depth, bits, and cTab properties. The height, width, and depth propertiesare integers. The bits property is a byte array. The cTab property is required only for bitmaps with a bit depth of 8 or less and is a string that represents a color value in the form "\#RRGGBB".
+### **bitmap**
+
+#### Type
+
+```typescript
+{
+    height: number;
+    width: number;
+    depth: number;
+    bits: number;
+    cTab: number;
+}
+```
+
+#### Description
+
+An object that contains height, width, depth, bits, and cTab properties. The height, width, and depth propertiesare integers. The bits property is a byte array. The cTab property is required only for bitmaps with a bit depth of 8 or less and is a string that represents a color value in the form "\#RRGGBB".
+
 ***Note:** The byte array is meaningful only when referenced by an external library. You typically use it only when creating an extensible tool or effect.*
 
 ## Returns

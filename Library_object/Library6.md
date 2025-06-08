@@ -10,7 +10,17 @@ Library.getItemProperty(property)
 
 ## Parameters
 
-**property** `string`; For a list of values that you can use as a *property* parameter, see the Property summary table for the [Item object](../Item_object/Item_summary.md), along with property summaries for its subclasses.
+### **property**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+For a list of values that you can use as a *property* parameter, see the Property summary table for the [Item object](../Item_object/Item_summary.md), along with property summaries for its subclasses.
 
 ## Returns
 

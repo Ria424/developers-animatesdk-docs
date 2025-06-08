@@ -10,12 +10,41 @@ OutputPanel.save(fileURI [, bAppendToFile [ , bUseSystemEncoding] ] )
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the local file to contain the contents of the Output panel.
+### **fileURI**
 
-**bAppendToFile** `boolean?false`; An optional boolean value. If true, it appends the Output panel’s contents to the output file, and if
-false, the method overwrites the output file if it already exists. The default value is false.
+#### Type
 
-**bUseSystemEncoding** `boolean?false`; An optional boolean value. If true, it saves the Output panel text using the system encoding; if false, it saves the Output panel text using UTF-8 encoding, with Byte Order Mark characters at the beginning of the text. The default value is false.
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the local file to contain the contents of the Output panel.
+
+### **bAppendToFile**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+An optional boolean. If true, appends the Output panel’s contents to the file; if false, overwrites the file. Default is false.
+
+### **bUseSystemEncoding**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+An optional boolean value. If true, it saves the Output panel text using the system encoding; if false, it saves the Output panel text using UTF-8 encoding, with Byte Order Mark characters at the beginning of the text. The default value is false.
 
 ## Returns
 

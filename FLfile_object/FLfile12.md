@@ -10,7 +10,17 @@ FLfile.remove(fileOrFolderURI)
 
 ## Parameters
 
-**fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder you want to remove (delete).
+### **fileOrFolderURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the file or folder you want to remove (delete).
 
 ## Returns
 

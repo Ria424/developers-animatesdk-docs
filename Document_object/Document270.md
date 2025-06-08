@@ -10,7 +10,17 @@ Document.removeFilter(filterIndex)
 
 ## Parameters
 
-**filterIndex** `integer`; The zero-based index of the filter to remove from the selected objects.
+### **filterIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+The zero-based index of the filter to remove from the selected objects.
 
 ## Returns
 

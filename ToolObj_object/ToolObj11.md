@@ -10,7 +10,17 @@ ToolObj.showTransformHandles(bShow)
 
 ## Parameters
 
-**bShow** `boolean`; A boolean value that determines whether to show or hide the free transform handles for the current tool (true shows the handles; false hides them).
+### **bShow**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that determines whether to show or hide the free transform handles for the current tool (true shows the handles; false hides them).
 
 ## Returns
 

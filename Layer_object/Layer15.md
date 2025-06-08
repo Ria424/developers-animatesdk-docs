@@ -10,7 +10,17 @@ layer.getFiltersAtFrame(frameIndex)
 
 ## Parameters
 
-**frameIndex** `integer`; Specifies absolute frame index.
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies absolute frame index.
 
 ## Returns
 

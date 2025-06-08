@@ -10,7 +10,17 @@ Timeline.findLayerIndex(name)
 
 ## Parameters
 
-**name** `string`; The name of the layer to find.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the layer to find.
 
 ## Returns
 

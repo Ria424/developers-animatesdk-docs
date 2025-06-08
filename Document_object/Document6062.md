@@ -10,7 +10,17 @@ Document.getTaggedSwatchByName(name:string).
 
 ## Parameters
 
-**name** `string`; Specifies the name of the tagged swatch.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the tagged swatch.
 
 ## Returns
 

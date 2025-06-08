@@ -10,9 +10,29 @@ Document.exportSWF([fileURI [, bCurrentSettings]])
 
 ## Parameters
 
-**fileURI** `string?`; A string, expressed as a file:/// URI, that specifies the name of the exported file. If *fileURI* is empty or not specified, Flash displays the Export Movie dialog box. This parameter is optional.
+### **fileURI**
 
-**bCurrentSettings** `boolean?false`; A boolean value that, when set to true, causes Flash to use current SWF publish settings. Otherwise, Flash displays the Export Flash Player dialog box. The default is false. This parameter is optional.
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the name of the exported file. If *fileURI* is empty or not specified, Flash displays the Export Movie dialog box. This parameter is optional.
+
+### **bCurrentSettings**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, when set to true, causes Flash to use current SWF publish settings. Otherwise, Flash displays the Export Flash Player dialog box. The default is false. This parameter is optional.
 
 ## Returns
 

@@ -6,13 +6,33 @@ Animate 2020.
 
 ## Usage
 
-layer. setFiltersAtFrame (frameIndex,filterArray)
+Layer.setFiltersAtFrame(frameIndex, filterArray)
 
 ## Parameters
 
-**frameIndex** `integer`; Specifies absolute frame index.
+### **frameIndex**
 
-**filterArray** `Filter[]`; The array of filters to be set
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies absolute frame index.
+
+### **filterArray**
+
+#### Type
+
+```typescript
+Filter[]
+```
+
+#### Description
+
+The array of filters to be set.
 
 ## Returns
 

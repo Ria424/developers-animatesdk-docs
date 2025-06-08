@@ -10,7 +10,17 @@ Document.setInstanceTint( color, strength )
 
 ## Parameters
 
-**color** `integer | string`; The color of the tint, in one of the following formats:
+### **color**
+
+#### Type
+
+```typescript
+number | string
+```
+
+#### Description
+
+The color of the tint, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 
@@ -18,7 +28,17 @@ Document.setInstanceTint( color, strength )
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-**strength** `integer`; An integer between 0 and 100 that specifies the opacity of the tint.
+### **strength**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer between 0 and 100 that specifies the opacity of the tint.
 
 ## Returns
 

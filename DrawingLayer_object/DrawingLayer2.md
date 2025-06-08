@@ -10,17 +10,77 @@ DrawingLayer.cubicCurveTo(x1Ctrl, y1Ctrl, x2Ctl, y2Ctl, xEnd, yEnd)
 
 ## Parameters
 
-**x1Ctl** `number`; A floating-point value that is the *x* location of the first control point.
+### **x1Ctl**
 
-**y1Ctl** `number`; A floating-point value that is the *y* location of the first control point.
+#### Type
 
-**x2Ctl** `number`; A floating-point value that is the *x* position of the middle control point.
+```typescript
+number
+```
 
-**y2Ctl** `number`; A floating-point value that is the *y* position of the middle control point.
+#### Description
 
-**xEnd** `number`; A floating-point value that is the *x* position of the end control point.
+A floating-point value that is the *x* location of the first control point.
 
-**yEnd** `number`; A floating-point value that is the *y* position of the end control point.
+### **y1Ctl**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *y* location of the first control point.
+
+### **x2Ctl**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *x* position of the middle control point.
+
+### **y2Ctl**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *y* position of the middle control point.
+
+### **xEnd**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *x* position of the end control point.
+
+### **yEnd**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *y* position of the end control point.
 
 ## Returns
 

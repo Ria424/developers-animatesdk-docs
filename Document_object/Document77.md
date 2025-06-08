@@ -10,7 +10,17 @@ Document.getElementProperty(propertyName)
 
 ## Parameters
 
-**propertyName** `string`; Specifies the name of the Element property for which to retrieve the value.
+### **propertyName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the Element property for which to retrieve the value.
 
 ## Returns
 

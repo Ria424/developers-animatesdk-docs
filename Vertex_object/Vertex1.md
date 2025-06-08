@@ -10,9 +10,29 @@ Vertex.setLocation(x, y)
 
 ## Parameters
 
-**x** `float`; A floating-point value that specifies the *x* coordinate of where the vertex should be positioned, in pixels.
+### **x**
 
-**y** `float`; A floating-point value that specifies the *y* coordinate of where the vertex should be positioned, in pixels.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the *x* coordinate of where the vertex should be positioned, in pixels.
+
+### **y**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the *y* coordinate of where the vertex should be positioned, in pixels.
 
 ## Returns
 

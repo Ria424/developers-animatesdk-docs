@@ -10,7 +10,17 @@ ToolObj.setOptionsFile(xmlFile)
 
 ## Parameters
 
-**xmlFile** `string`; The name of the XML file that has the description of the tool’s options. The XML file must be placed in the same folder as the JSFL file.
+### **xmlFile**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the XML file that has the description of the tool’s options. The XML file must be placed in the same folder as the JSFL file.
 
 ## Returns
 

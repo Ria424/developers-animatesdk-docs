@@ -10,12 +10,41 @@ Timeline.getFrameProperty(property \[, startframeIndex \[, endFrameIndex\]\])
 
 ## Parameters
 
-**property** `string`; The name of the property for which to get the value. See the Property summary for the [Frame object](../Frame_object/Frame_summary.md) for a complete list of properties.
+### **property**
 
-**startFrameIndex** `integer?`; A zero-based index that specifies the starting frame number for which to get the value. If you omit
-*startFrameIndex*, the method uses the current selection. This parameter is optional.
+#### Type
 
-**endFrameIndex** `integer?`; A zero-based index that specifies the end of the range of frames to select. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+```typescript
+string
+```
+
+#### Description
+
+The name of the property for which to get the value. See the Property summary for the [Frame object](../Frame_object/Frame_summary.md) for a complete list of properties.
+
+### **startFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the starting frame for which to get the property value. If omitted, the current selection is used. This parameter is optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the end frame (exclusive) of the range. If omitted, it defaults to the value of **`startFrameIndex`**. Optional.
 
 ## Returns
 

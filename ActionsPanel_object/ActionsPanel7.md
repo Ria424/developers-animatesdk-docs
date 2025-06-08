@@ -6,13 +6,33 @@ Flash CS3 Professional.
 
 ## Usage
 
-actionsPanel.setSelection(startIndex, numberOfChars)
+setSelection(startIndex, numberOfChars)
 
 ## Parameters
 
-**startIndex** `integer`; A zero-based integer that specifies the first character to be selected.
+### **startIndex**
 
-**numberOfChars** `integer`; An integer that specifies how many characters to select.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A zero-based integer that specifies the first character to be selected.
+
+### **numberOfChars**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that specifies how many characters to select.
 
 ## Returns
 

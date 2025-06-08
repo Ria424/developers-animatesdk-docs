@@ -10,16 +10,56 @@ fl.browseForFileURL(browseType [, title [, fileDescription [, fileFilter]]])
 
 ## Parameters
 
-**browseType** `"open" | "save" | "select"`; A string that specifies the type of file browse operation. Valid values are "open", "select" or "save". The values "open" and "select" open the system File Open dialog box. Each value is provided for compatibility with Dreamweaver. The value "save" opens a system File Save dialog box.
+### **browseType**
 
-**title** `string?`; An optional string that specifies the title for the File Open or File Save dialog box. If this parameter is omitted, a default value is used.
+#### Type
 
-**fileDescription** `string?`; An optional string that specifies a file description, for example:
+```typescript
+"open" | "save" | "select"
+```
+
+#### Description
+
+A string that specifies the type of file browse operation. Valid values are "open", "select" or "save". The values "open" and "select" open the system File Open dialog box. Each value is provided for compatibility with Dreamweaver. The value "save" opens a system File Save dialog box.
+
+### **title**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+An optional string that specifies the title for the File Open or File Save dialog box. If this parameter is omitted, a default value is used.
+
+### **fileDescription**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+An optional string that specifies a file description, for example:
 
 - FLA Document (*.fla)
 - ActionScript File (*.as)
 
-**fileFilter** `string?`; An optional string that specifies a filter, such that only files that match the filters are displayed in the dialog, for example:
+### **fileFilter**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+An optional string that specifies a filter, such that only files that match the filters are displayed in the dialog, for example:
 
 - "fla"
 - "fla;as"

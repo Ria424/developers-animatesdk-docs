@@ -10,13 +10,53 @@ SymbolItem.exportToPNGSequence(outputURI [, startFrameNum ] [, endFrameNum ] [, 
 
 ## Parameters
 
-**outputURI** `string`; The URI to export the PNG sequence files to. This URI must reference a local file. For example: file:///c|/tests/mytest.png.
+### **outputURI**
 
-**startFrameNum** `integer`; An integer indicating the first frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
+#### Type
 
-**endFrameNum** `integer`; An integer indicating the last frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
+```typescript
+string
+```
 
-**matrix** `Matrix?`; Optional. A matrix to be appended to the exported PNG sequence.
+#### Description
+
+The URI to export the PNG sequence files to. This URI must reference a local file. For example: file:///c|/tests/mytest.png.
+
+### **startFrameNum**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer indicating the first frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
+
+### **endFrameNum**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer indicating the last frame within the symbol to be exported. If this parameter is omitted, all frames are exported.
+
+### **matrix**
+
+#### Type
+
+```typescript
+Matrix?
+```
+
+#### Description
+
+Optional. A matrix to be appended to the exported PNG sequence.
 
 ## Returns
 

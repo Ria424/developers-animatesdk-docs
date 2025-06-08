@@ -10,7 +10,17 @@ Document.addNewScene([name])
 
 ## Parameters
 
-**name** `string`; Specifies the name of the scene. If you do not specify a name, a new scene name is generated.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the scene. If you do not specify a name, a new scene name is generated.
 
 ## Returns
 

@@ -10,13 +10,53 @@ Document.setElementTextAttr(attrName, attrValue [, startIndex [, endIndex]])
 
 ## Parameters
 
-**attrName** `string`; The name of the TextAttrs property to change.
+### **attrName**
 
-**attrValue** `any`; The value to which to set the TextAttrs property. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
+#### Type
 
-**startIndex** `integer?`; The index of the first character that is affected. This parameter is optional.
+```typescript
+string
+```
 
-**endIndex** `integer?`; The index of the last character that is affected. This parameter is optional.
+#### Description
+
+The name of the TextAttrs property to change.
+
+### **attrValue**
+
+#### Type
+
+```typescript
+any
+```
+
+#### Description
+
+The value to which to set the TextAttrs property. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
+
+### **startIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+The index of the first character that is affected. This parameter is optional.
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+The index of the last character that is affected. This parameter is optional.
 
 ## Returns
 

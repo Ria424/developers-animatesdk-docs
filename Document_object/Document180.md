@@ -10,9 +10,29 @@ Document.optimizeCurves(smoothing, bUseMultiplePasses)
 
 ## Parameters
 
-**smoothing** `integer`; An integer in the range from 0 to 100, with 0 specifying no smoothing and 100 specifying maximum smoothing.
+### **smoothing**
 
-**bUseMultiplePasses** `boolean`; A boolean value that, when set to true, indicates that the method should use multiple passes, which is slower but produces a better result. This parameter has the same effect as clicking the Use Multiple Passes button in the Optimize Curves dialog box.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer in the range from 0 to 100, with 0 specifying no smoothing and 100 specifying maximum smoothing.
+
+### **bUseMultiplePasses**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that, when set to true, indicates that the method should use multiple passes, which is slower but produces a better result. This parameter has the same effect as clicking the Use Multiple Passes button in the Optimize Curves dialog box.
 
 ## Returns
 

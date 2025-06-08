@@ -10,7 +10,17 @@ Timeline.deleteLayer([index])
 
 ## Parameters
 
-**index** `integer?`; A zero-based index that specifies the layer to be deleted. If there is only one layer in the timeline, this method has no effect. This parameter is optional.
+### **index**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer specifying which layer to delete. If omitted, the currently selected layers are deleted. If only one layer exists, the method does nothing.
 
 ## Returns
 

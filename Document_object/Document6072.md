@@ -10,21 +10,101 @@ Document.exportMedia(fileURI, format, preset [,bTransparent [, bRunBatch [, scen
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension).
+### **fileURI**
 
-**format** `string`; Specifies the format of the file to be exported.
+#### Type
 
-**preset** `string`; Specifies the preset to be used.
+```typescript
+string
+```
 
-**bTransparent** `boolean?false`; A optional boolean that specifies whether to ignore the stage colour. Default value is false.
+#### Description
 
-**bRunBatch** `boolean?true`; A optional boolean that specifies whether to run AME batch automatically. Default value is true.
+A string, expressed as a file:/// URI, that specifies the output file path (without file extension).
 
-**sceneName** `string?`; A optional string that specifies the name of the scene if only that specific scene should be exported. By default all scenes will be exported.
+### **format**
 
-**startFrame** `integer?`; An optional integer, index of start frame in specific scene. Applicable only when a specific scene is exported. By default it will be either first frame of timeline or the start frame of the timeline loop range if defined.
+#### Type
 
-**endFrame** `integer?`; An optional integer, index of end frame in specific scene. Applicable only when a specific scene is exported. By default it will be last frame of timeline or the end frame of the timeline loop range if defined.
+```typescript
+string
+```
+
+#### Description
+
+Specifies the format of the file to be exported.
+
+### **preset**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the preset to be used.
+
+### **bTransparent**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A optional boolean that specifies whether to ignore the stage colour. Default value is false.
+
+### **bRunBatch**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A optional boolean that specifies whether to run AME batch automatically. Default value is true.
+
+### **sceneName**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+A optional string that specifies the name of the scene if only that specific scene should be exported. By default all scenes will be exported.
+
+### **startFrame**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An optional integer, index of start frame in specific scene. Applicable only when a specific scene is exported. By default it will be either first frame of timeline or the start frame of the timeline loop range if defined.
+
+### **endFrame**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An optional integer, index of end frame in specific scene. Applicable only when a specific scene is exported. By default it will be last frame of timeline or the end frame of the timeline loop range if defined.
 
 ## Returns
 

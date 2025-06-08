@@ -10,11 +10,41 @@ Timeline.reorderLayer(layerToMove, layerToPutItBy \[, bAddBefore\])
 
 ## Parameters
 
-**layerToMove** `integer`; A zero-based index that specifies which layer to move.
+### **layerToMove**
 
-**layerToPutItBy** `integer`; A zero-based index that specifies which layer you want to move the layer next to. For example, if you specify 1 for *layerToMove* and 0 for *layerToPutItBy*, the second layer is placed next to the first layer.
+#### Type
 
-**bAddBefore** `boolean?`; Specifies whether to move the layer before or after *layerToPutItBy*. If you specify false, the layer is moved after *layerToPutItBy*. The default value is true. This parameter is optional.
+```typescript
+number
+```
+
+#### Description
+
+A zero-based index that specifies which layer to move.
+
+### **layerToPutItBy**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A zero-based integer index indicating the layer to position the moved layer next to.
+
+### **bAddBefore**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Optional. If true (default), moves the layer before **`layerToPutItBy`**; if false, moves it after.
 
 ## Returns
 

@@ -10,7 +10,17 @@ Document.DebugMovie(abortIfErrorsExist)
 
 ## Parameters
 
-**abortIfErrorsExist** `boolean?false`; The default value is false. If set to true, the debug session will not start and the .swf window will not open if there are compiler errors. Compiler warnings will not abort the command.
+### **abortIfErrorsExist**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+The default value is false. If set to true, the debug session will not start and the .swf window will not open if there are compiler errors. Compiler warnings will not abort the command.
 
 ## Description
 

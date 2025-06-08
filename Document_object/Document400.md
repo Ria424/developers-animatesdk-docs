@@ -10,11 +10,41 @@ Document.scaleSelection(xScale, yScale [, whichCorner])
 
 ## Parameters
 
-**xScale** `number`; A floating-point value that specifies the amount of *x* by which to scale.
+### **xScale**
 
-**yScale** `number`; A floating-point value that specifies the amount of *y* by which to scale.
+#### Type
 
-**whichCorner** `"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"?`; The edge about which the transformation occurs. If omitted, scaling occurs about the transformation point. Acceptable values are: "bottom left", "bottom right", "top right", "top left", "top center", "right center", "bottom center", and "left center". This parameter is optional.
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the amount of *x* by which to scale.
+
+### **yScale**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the amount of *y* by which to scale.
+
+### **whichCorner**
+
+#### Type
+
+```typescript
+"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"?
+```
+
+#### Description
+
+The edge about which the transformation occurs. If omitted, scaling occurs about the transformation point. Acceptable values are: "bottom left", "bottom right", "top right", "top left", "top center", "right center", "bottom center", and "left center". This parameter is optional.
 
 ## Returns
 

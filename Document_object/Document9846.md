@@ -10,7 +10,17 @@ document.setTextRectangle(boundingRectangle)
 
 ## Parameters
 
-**boundingRectangle** `RectangleBounds`; A rectangle that specifies the new size within which the text item should flow. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+### **boundingRectangle**
+
+#### Type
+
+```typescript
+RectangleBounds
+```
+
+#### Description
+
+A rectangle that specifies the new size within which the text item should flow. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
 
 ## Returns
 

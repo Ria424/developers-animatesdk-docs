@@ -10,11 +10,41 @@ Document.convertToSymbol(type, name, registrationPoint)
 
 ## Parameters
 
-**type** `"button" | "graphic" | "movie clip"`; A string that specifies the type of symbol to create. Acceptable values are "movie clip", "button", and "graphic".
+### **type**
 
-**name** `string`; A string that specifies the name for the new symbol, which must be unique. You can submit an empty string to have this method create a unique symbol name for you.
+#### Type
 
-**registrationPoint** `"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"`; Specifies the point that represents the 0, 0 location for the symbol. Acceptable values are: "top left", "top center", "top right", "center left", "center", "center right", "bottom left", "bottom center", and "bottom right".
+```typescript
+"button" | "graphic" | "movie clip"
+```
+
+#### Description
+
+A string that specifies the type of symbol to create. Acceptable values are "movie clip", "button", and "graphic".
+
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the name for the new symbol, which must be unique. You can submit an empty string to have this method create a unique symbol name for you.
+
+### **registrationPoint**
+
+#### Type
+
+```typescript
+"top left" | "top center" | "top right" | "center left" | "center" | "center right" | "bottom left" | "bottom center" | "bottom right"
+```
+
+#### Description
+
+Specifies the point that represents the 0, 0 location for the symbol. Acceptable values are: "top left", "top center", "top right", "center left", "center", "center right", "bottom left", "bottom center", and "bottom right".
 
 ## Returns
 

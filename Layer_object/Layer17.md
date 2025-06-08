@@ -10,9 +10,29 @@ layer.setColorTransformAtFrame(frameIndex,cxformObject)
 
 ## Parameters
 
-**frameIndex** `integer`; Specifies absolute frame index.
+### **frameIndex**
 
-**cxFormObject** The cxform to be set.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies absolute frame index.
+
+### **cxFormObject**
+
+#### Type
+
+```typescript
+ColorTransform
+```
+
+#### Description
+
+The cxform to be set.
 
 ## Returns
 

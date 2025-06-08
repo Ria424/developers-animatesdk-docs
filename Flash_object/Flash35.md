@@ -10,9 +10,29 @@ fl.getSwfPanel(panelName, [useLocalizedPanelName])
 
 ## Parameters
 
-**panelName** `string`; The localized panel name or the root filename of the panel's SWF file. Pass in false as the second parameter if using the latter.
+### **panelName**
 
-**useLocalizedPanelName** Optional. Defaults to true. If false, the panelName parameter is assumed to be the English (unlocalized) name of the panel, which corresponds to the SWF filename without the file extension.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The localized panel name or the root filename of the panel's SWF file. Pass in false as the second parameter if using the latter.
+
+### **useLocalizedPanelName**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Optional. Defaults to true. If false, the panelName parameter is assumed to be the English (unlocalized) name of the panel, which corresponds to the SWF filename without the file extension.
 
 ## Returns
 

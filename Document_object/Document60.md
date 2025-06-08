@@ -10,7 +10,17 @@ Document.enterEditMode([editMode])
 
 ## Parameters
 
-**editMode** `"inPlace" | "newWindow"?`; Specifies the editing mode. Acceptable values are "inPlace" or "newWindow". If no parameter is specified, the default is symbol-editing mode. This parameter is optional.
+### **editMode**
+
+#### Type
+
+```typescript
+"inPlace" | "newWindow"?
+```
+
+#### Description
+
+Specifies the editing mode. Acceptable values are "inPlace" or "newWindow". If no parameter is specified, the default is symbol-editing mode. This parameter is optional.
 
 ## Returns
 

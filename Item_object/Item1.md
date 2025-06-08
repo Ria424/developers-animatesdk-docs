@@ -10,7 +10,17 @@ Item.getData(name)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the data to retrieve.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the data to retrieve.
 
 ## Returns
 

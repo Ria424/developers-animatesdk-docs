@@ -10,7 +10,17 @@ FLfile.uriToPlatformPath(fileURI)
 
 ## Parameters
 
-**fileURI** `string`; Expressed as a file:/// URI, specifying the filename you want to convert.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the filename you want to convert.
 
 ## Returns
 

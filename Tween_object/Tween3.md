@@ -10,7 +10,17 @@ Tween.getShape(frameIndex)
 
 ## Parameters
 
-**frameIndex** `integer`; Offset index of the frame from which shape data has to be retrieved.
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Offset (integer) index of the frame from which shape data has to be retrieved.
 
 ## Returns
 

@@ -10,11 +10,41 @@ Item.addData(name, type, data)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the data.
+### **name**
 
-**type** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"`; Specifies the type of data. Valid types are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+#### Type
 
-**data** `byte[] | double | double[] | integer | integer[] | string`; The data to add to the specified library item. The type of data depends on the value of the type parameter. For example, if type is "integer", the value of data must be an integer, and so on.
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the data.
+
+### **type**
+
+#### Type
+
+```typescript
+"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"
+```
+
+#### Description
+
+Specifies the type of data. Valid types are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+
+### **data**
+
+#### Type
+
+```typescript
+number | number[] | string
+```
+
+#### Description
+
+The data to add to the specified library item. The type of data depends on the value of the type parameter. For example, if type is "integer", the value of data must be an integer, and so on.
 
 ## Returns
 

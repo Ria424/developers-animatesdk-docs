@@ -10,15 +10,55 @@ Timeline.setFrameProperty(property, value \[, startFrameIndex \[, endFrameIndex\
 
 ## Parameters
 
-**property** `string`; The name of the property to be modified. For a complete list of properties and values, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
+### **property**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the property to be modified. For a complete list of properties and values, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
+
 You can’t use this method to set values for read-only properties such as [Frame.duration](../Frame_object/Frame4.md) and [Frame.elements](../Frame_object/Frame5.md).
 
-**value** `any`; Specifies the value to which you want to set the property. To determine the appropriate values and type, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
+### **value**
 
-**startFrameIndex** `integer?`; A zero-based index that specifies the starting frame number to modify. If you omit
-*startFrameIndex*, the method uses the current selection. This parameter is optional.
+#### Type
 
-**endFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to stop. The range of frames goes up to, but does not include, *endFrameIndex*. If you specify *startFrameIndex* but omit *endFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+```typescript
+any
+```
+
+#### Description
+
+Specifies the value to which you want to set the property. To determine the appropriate values and type, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
+
+### **startFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the first frame to modify. If omitted, the current selection is used. Optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the frame at which to stop (exclusive). The range includes frames from **`startFrameIndex`** up to, but not including, **`endFrameIndex`**. If omitted, it defaults to **`startFrameIndex`**. Optional.
 
 ## Returns
 

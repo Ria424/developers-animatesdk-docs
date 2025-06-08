@@ -10,7 +10,17 @@ Tween.getGeometricTransform(frameIndex)
 
 ## Parameters
 
-**frameIndex** `integer`; Offset index of the frame from which geometric transformations have to be retrieved.
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Offset (integer) index of the frame from which geometric transformations have to be retrieved.
 
 ## Returns
 

@@ -10,7 +10,17 @@ Flash MX 2004.
 
 ## Parameters
 
-**name** `string`; A string that specifies the name of the data to remove.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the name of the data to remove.
 
 ## Returns
 

@@ -10,10 +10,29 @@ Timeline.convertToKeyframes([startFrameIndex [, endFrameIndex]])
 
 ## Parameters
 
-**startFrameIndex** `integer?`; A zero-based index that specifies the first frame to convert to keyframes. If you omit
-*startFrameIndex*, the method converts the currently selected frames. This parameter is optional.
+### **startFrameIndex**
 
-**endFrameIndex** `integer?`; A zero-based index that specifies the frame at which conversion to keyframes will stop. The range of frames to convert goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the first frame to convert to keyframes. If omitted, the method converts the currently selected frames. Optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the frame where conversion to keyframes stops (exclusive). If omitted, only the frame at **`startFrameIndex`** is converted. Optional.
 
 ## Returns
 

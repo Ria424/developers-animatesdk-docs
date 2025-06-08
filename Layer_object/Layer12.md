@@ -10,9 +10,29 @@ layer.setZDepthAtFrame(FrameNumber,ZVal)
 
 ## Parameters
 
-**FrameNumber** `integer`; It is an integer that specifies the frame index starting from 0.
+### **FrameNumber**
 
-**ZVal** `integer`; It is an integer that specifies the ZDepth value ranges between -5000 to 10000.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+It is an integer that specifies the frame index starting from 0.
+
+### **ZVal**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+It is an integer that specifies the ZDepth value ranges between -5000 to 10000.
 
 ## Returns
 

@@ -10,7 +10,17 @@ Edge.getControl(i)
 
 ## Parameters
 
-**i** `integer`; Specifies which control point of the edge to return. Specify 0 for the first control point, 1 for the middle control point, or 2 for the end control point. If the [Edge.isLine](../Edge_object/Edge4.md) property is true, the middle control point is set to the midpoint of the segment joining the beginning and ending control points.
+### **i**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies which control point of the edge to return. Specify 0 for the first control point, 1 for the middle control point, or 2 for the end control point. If the [Edge.isLine](../Edge_object/Edge4.md) property is true, the middle control point is set to the midpoint of the segment joining the beginning and ending control points.
 
 ## Returns
 

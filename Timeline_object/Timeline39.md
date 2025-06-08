@@ -10,9 +10,29 @@ Timeline.removeMotionObject(\[startFrame \[,endFrame\])
 
 ## Parameters
 
-**startFrame** `integer?`; Specifies the first frame at which to start removing motion objects. If you omit *startFrame*, the method uses the current selection; if there is no selection, all frames at the current playhead on all layers are removed. This parameter is optional.
+### **startFrame**
 
-**endFrame** `integer?`; Specifies the frame at which to stop removing motion objects; the range of frames goes up to, but does not include, *endFrame*. If you specify only *startFrame*, *endFrame* defaults to the *startFrame* value. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Specifies the first frame to start removing motion objects. If omitted, the method uses the current selection; if nothing is selected, it removes motion objects from all frames at the current playhead position on all layers. Optional.
+
+### **endFrame**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Specifies the frame where removal stops; frames up to but not including **`endFrame`** are affected. If omitted, only **`startFrame`** is used. Optional.
 
 ## Returns
 

@@ -10,9 +10,29 @@ Library.addItemToDocument(position [, namePath])
 
 ## Parameters
 
-**position** `Point`; Specifies the *x,y* position of the center of the item on the Stage.
+### **position**
 
-**namePath** `string`; Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation. If *namePath* is not specified, the current library selection is used. This parameter is optional.
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+Specifies the *x*, *y* position of the center of the item on the Stage.
+
+### **namePath**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation. If *namePath* is not specified, the current library selection is used. This parameter is optional.
 
 ## Returns
 

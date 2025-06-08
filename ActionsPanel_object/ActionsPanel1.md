@@ -4,14 +4,6 @@
 
 Flash CS3 Professional. *Dropped in Adobe Animate*.
 
-## Usage
-
-ActionsPanel.getScriptAssistMode()
-
-## Parameters
-
-None.
-
 ## Returns
 
 `boolean`; A boolean value that specifies whether Script Assist mode is enabled (true) or not (false).

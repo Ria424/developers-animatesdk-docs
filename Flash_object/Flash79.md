@@ -10,7 +10,17 @@ fl.xmlPanel(xmlURI)
 
 ## Parameters
 
-**xmlURI** `string`; A URI specifying the XML file that defines the controls in the panel. You must specify the full path name.
+### **xmlURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A URI specifying the XML file that defines the controls in the panel. You must specify the full path name.
 
 ## Returns
 

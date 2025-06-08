@@ -10,7 +10,17 @@ Document.setStrokeStyle(strokeType)
 
 ## Parameters
 
-**strokeType** `"hairline" | "solid" | "dashed" | "dotted" | "ragged" | "stipple" | "hatched"`; The stroke style for the current selection. Acceptable values are "hairline", "solid", "dashed", "dotted", "ragged", "stipple", and "hatched".
+### **strokeType**
+
+#### Type
+
+```typescript
+"hairline" | "solid" | "dashed" | "dotted" | "ragged" | "stipple" | "hatched"
+```
+
+#### Description
+
+The stroke style for the current selection. Acceptable values are "hairline", "solid", "dashed", "dotted", "ragged", "stipple", and "hatched".
 
 ## Returns
 

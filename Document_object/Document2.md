@@ -10,11 +10,41 @@ Document.addDataToSelection(name, type, data)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the persistent data.
+### **name**
 
-**type** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"`; Defines the type of data. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+#### Type
 
-**data** `byte[] | double | double[] | integer | integer[] | string`; The value to add. Valid types depend on the *type* parameter.
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the persistent data.
+
+### **type**
+
+#### Type
+
+```typescript
+"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"
+```
+
+#### Description
+
+Defines the type of data. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+
+### **data**
+
+#### Type
+
+```typescript
+number | number[] | string
+```
+
+#### Description
+
+The value to add. Valid types depend on the *type* parameter.
 
 ## Returns
 

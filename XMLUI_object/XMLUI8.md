@@ -10,9 +10,29 @@ XMLUI.setControlItemElements(controlID, elementItemArray)
 
 ## Parameters
 
-**controlID** `string`; Specifies the ID attribute of the control you want to set.
+### **controlID**
 
-**elementItemArray** `{label: string; value?: string;}[]` An array of JavaScript objects, where each object has a string property named *label* and an optional string property named value. If the value property does not exist, then it is created and assigned the same value as *label*.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the ID attribute of the control you want to set.
+
+### **elementItemArray**
+
+#### Type
+
+```typescript
+{label: string; value?: string;}[]
+```
+
+#### Description
+
+An array of JavaScript objects, where each object has a string property named *label* and an optional string property named value. If the value property does not exist, then it is created and assigned the same value as *label*.
 
 ## Returns
 

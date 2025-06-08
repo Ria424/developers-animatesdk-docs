@@ -10,11 +10,21 @@ Timeline.pasteLayers(\[layerIndex\])
 
 ## Parameters
 
-**layerIndex** `integer?`; Optional. A zero-based index that specifies the layer above which the layers on the clipboard are pasted. If you omit layerIndex, the method uses the current selection.
+### **layerIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer specifying the layer above which the clipboard layers are pasted. If omitted, the current selection is used.
 
 ## Returns
 
-Integer indicating the lowest layer index of the layers that were pasted.
+`number`; Integer indicating the lowest layer index of the layers that were pasted.
 
 ## Description
 

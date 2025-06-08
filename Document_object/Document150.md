@@ -10,7 +10,17 @@ Document.moveSelectedBezierPointsBy(delta)
 
 ## Parameters
 
-**delta** `Point`; A pair of floating-point values that specify the *x* and *y* coordinates in pixels by which the selected Bézier points are moved. For example, passing ({x: 1, y: 2}) specifies a location that is to the right by one pixel and down by two pixels from the current location.
+### **delta**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A pair of floating-point values that specify the *x* and *y* coordinates in pixels by which the selected Bézier points are moved. For example, passing ({x: 1, y: 2}) specifies a location that is to the right by one pixel and down by two pixels from the current location.
 
 ## Returns
 

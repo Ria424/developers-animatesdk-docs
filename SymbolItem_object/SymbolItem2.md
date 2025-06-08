@@ -10,7 +10,17 @@ SymbolItem.exportSWF(outputURI)
 
 ## Parameters
 
-**outputURI** `string`; A string, expressed as a file:/// URI, that specifies the SWF file to which the method will export the symbol. The *outputURI* must reference a local file. Flash does not create a folder if *outputURI* doesn’t exist.
+### **outputURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the SWF file to which the method will export the symbol. The *outputURI* must reference a local file. Flash does not create a folder if *outputURI* doesn’t exist.
 
 ## Returns
 

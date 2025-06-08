@@ -6,11 +6,21 @@ Flash CS3 Professional.
 
 ## Usage
 
-ActionsPanel.setText(replacementText)
+setText(replacementText)
 
 ## Parameters
 
-**replacementText** `string`; A string that represents text to place in the Actions panel.
+### **replacementText**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that represents text to place in the Actions panel.
 
 ## Returns
 
@@ -30,4 +40,5 @@ fl.actionsPanel.setText("// Deleted this code - no longer needed");
 
 ## See also
 
-[ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md), [ActionsPanel.replaceSelectedText()](../ActionsPanel_object/ActionsPanel5.md)
+- [ActionsPanel.getText()](../ActionsPanel_object/ActionsPanel3.md)
+- [ActionsPanel.replaceSelectedText()](../ActionsPanel_object/ActionsPanel5.md)

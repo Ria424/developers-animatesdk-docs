@@ -10,11 +10,41 @@ Document.getElementTextAttr(attrName [, startIndex [, endIndex]])
 
 ## Parameters
 
-**attrName** `string`; Specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
+### **attrName**
 
-**startIndex** `integer?`; Specifies the index of first character, with 0 (zero) specifying the first position. This parameter is optional.
+#### Type
 
-**endIndex** `integer?`; Specifies the index of last character. This parameter is optional.
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
+
+### **startIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Specifies the index of first character, with 0 (zero) specifying the first position. This parameter is optional.
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Specifies the index of last character. This parameter is optional.
 
 ## Returns
 

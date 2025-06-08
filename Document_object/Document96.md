@@ -10,7 +10,17 @@ document.importSWF(fileURI)
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the file for the SWF file to import.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the file for the SWF file to import.
 
 ## Returns
 

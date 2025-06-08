@@ -10,7 +10,17 @@ ToolObj.enablePIControl(control, bEnable)
 
 ## Parameters
 
-**control** `string`; The name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md).
+### **control**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md).
 
 A shape Property inspector has the following controls:
 
@@ -36,7 +46,17 @@ A movie Property inspector has the following controls:
 | --- | --- | --- |
 | framerate | player | profile |
 
-**bEnable** `boolean`; A boolean value that determines whether to enable (true) or disable (false) the control.
+### **bEnable**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that determines whether to enable (true) or disable (false) the control.
 
 ## Returns
 

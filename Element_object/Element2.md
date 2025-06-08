@@ -10,15 +10,25 @@ element.getPersistentData(name)
 
 ## Parameters
 
-**name** `string`; A string that identifies the data to be returned.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that identifies the data to be returned.
 
 ## Returns
 
-The data specified by the *name* parameter, or 0 if the data doesn’t exist.
+The data specified by the **`name`** parameter, or 0 if the data doesn’t exist.
 
 ## Description
 
-Method; Retrieves the value of the data specified by the *name* parameter. The type of data depends on the type of the data that was stored (see [Element.setPersistentData()](../Element_object/Element17.md)). Only symbols and bitmaps support persistent data.
+Method; Retrieves the value of the data specified by the **`name`** parameter. The type of data depends on the type of the data that was stored (see [Element.setPersistentData()](../Element_object/Element17.md)). Only symbols and bitmaps support persistent data.
 
 ## Example
 

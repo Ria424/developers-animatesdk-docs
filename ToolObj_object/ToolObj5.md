@@ -10,7 +10,17 @@ ToolObj.setMenuString(menuStr)
 
 ## Parameters
 
-**menuStr** `string`; The name that appears in the pop-up menu as the name for the tool.
+### **menuStr**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name that appears in the pop-up menu as the name for the tool.
 
 ## Returns
 

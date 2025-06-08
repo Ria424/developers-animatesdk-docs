@@ -10,7 +10,17 @@ DrawingLayer.drawPath(path)
 
 ## Parameters
 
-**path** `Path`; A [Path object](../Path_object/Path_summary.md) to draw.
+### **path**
+
+#### Type
+
+```typescript
+Path
+```
+
+#### Description
+
+A [Path object](../Path_object/Path_summary.md) to draw.
 
 ## Returns
 

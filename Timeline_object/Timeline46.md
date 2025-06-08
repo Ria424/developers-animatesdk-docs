@@ -4,20 +4,60 @@
 
 Flash MX 2004.
 
-## Usage
+## Overload
 
-timeline.setSelectedFrames(startFrameIndex, endFrameIndex [, bReplaceCurrentSelection])
-timeline.setSelectedFrames(selectionList [, bReplaceCurrentSelection])
+- setSelectedFrames(startFrameIndex, endFrameIndex, bReplaceCurrentSelection)
+- setSelectedFrames(selectionList, bReplaceCurrentSelection)
 
 ## Parameters
 
-**startFrameIndex** `integer`; A zero-based index that specifies the beginning frame to set.
+### **startFrameIndex**
 
-**endFrameIndex** `integer`; A zero-based index that specifies the end of the selection; *endFrameIndex* is the frame after the last frame in the range to select.
+#### Type
 
-**bReplaceCurrentSelection** `boolean?true` A boolean value that, if it is set to true, causes the currently selected frames to be deselected before the specified frames are selected. The default value is true.
+```typescript
+number
+```
 
-**selectionList** `integer[]`; An array of three integers, as returned by timeline.getSelectedFrames().
+#### Description
+
+A zero-based integer index that specifies the beginning frame to set.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A zero-based integer index that specifies the end of the selection; *endFrameIndex* is the frame after the last frame in the range to select.
+
+### **bReplaceCurrentSelection**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, if it is set to true, causes the currently selected frames to be deselected before the specified frames are selected. The default value is true.
+
+### **selectionList**
+
+#### Type
+
+```typescript
+number[]
+```
+
+#### Description
+
+An array of three integers, as returned by timeline.getSelectedFrames().
 
 ## Returns
 

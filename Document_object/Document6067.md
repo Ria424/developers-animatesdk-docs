@@ -10,11 +10,41 @@ Document.setTaggedSwatchAtIndex(oldSwatchIndex:int, newSwatch:Object [,palette:i
 
 ## Parameters
 
-**oldSwatchIndex** `integer`; Specifies the index of the tagged swatch to update.
+### **oldSwatchIndex**
 
-**newSwatch** `Swatch`; Swatch object to replace with.
+#### Type
 
-**palette** `integer?0`; An optional integer that specifies the index of the tagged swatch palette, default value is 0.
+```typescript
+number
+```
+
+#### Description
+
+Specifies the index of the tagged swatch to update.
+
+### **newSwatch**
+
+#### Type
+
+```typescript
+Swatch
+```
+
+#### Description
+
+Swatch object to replace with.
+
+### **palette**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An optional integer that specifies the index of the tagged swatch palette, default value is 0.
 
 ## Returns
 

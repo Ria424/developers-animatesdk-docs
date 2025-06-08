@@ -10,7 +10,17 @@ XMLUI.getVisible(controlID)
 
 ## Parameters
 
-**controlID** `string`; Specifies the ID attribute of the control whose visibility status you want to retrieve.
+### **controlID**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the ID attribute of the control whose visibility status you want to retrieve.
 
 ## Returns
 

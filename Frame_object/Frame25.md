@@ -10,9 +10,29 @@ Frame.setMotionObjectDuration(duration [, stretchExistingKeyframes])
 
 ## Parameters
 
-**duration** `integer`; Specifies the number of frames for the tween span of the selected motion object.
+### **duration**
 
-**stretchExistingKeyframes** `boolean`; A boolean value that determines whether the tween span is stretched, or if frames are added, to the end of the last frame.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies the number of frames for the tween span of the selected motion object.
+
+### **stretchExistingKeyframes**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that determines whether the tween span is stretched, or if frames are added, to the end of the last frame.
 
 ## Description
 

@@ -10,7 +10,17 @@ Document.exportPublishProfileString( [profileName] )
 
 ## Parameters
 
-**profileName** `string?`; Specifies the name of the profile to export to an XML string. This parameter is optional.
+### **profileName**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+Specifies the name of the profile to export to an XML string. This parameter is optional.
 
 ## Returns
 

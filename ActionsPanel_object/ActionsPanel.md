@@ -6,11 +6,21 @@ Flash CS3 Professional. *Dropped in Adobe Animate*.
 
 ## Usage
 
-ActionsPanel.getClassForObject(ASvariableName)
+getClassForObject(ASvariableName)
 
 ## Parameters
 
-**ASvariableName** `string`; The name of an ActionScript variable.
+### **ASvariableName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of an ActionScript variable.
 
 ## Returns
 

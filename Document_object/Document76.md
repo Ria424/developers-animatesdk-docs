@@ -10,7 +10,17 @@ document.getDataFromDocument(name)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the data to return.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the data to return.
 
 ## Returns
 

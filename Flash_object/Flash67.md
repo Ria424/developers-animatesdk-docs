@@ -10,13 +10,33 @@ fl.selectElement(elementObject, editMode)
 
 ## Parameters
 
-**elementObject** `Element`; The [Element object](../Element_object/Element_summary.md) you want to select.
+### **elementObject**
 
-**editMode** A Boolean value that specifies whether you want to edit the element (true) or want only to select it (false).
+#### Type
+
+```typescript
+Element
+```
+
+#### Description
+
+The [Element object](../Element_object/Element_summary.md) you want to select.
+
+### **editMode**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that specifies whether you want to edit the element (true) or want only to select it (false).
 
 ## Returns
 
-A Boolean value of true if the element was successfully selected; false otherwise.
+`boolean`; A boolean value of true if the element was successfully selected; false otherwise.
 
 ## Description
 

@@ -10,7 +10,17 @@ Library.itemExists(namePath)
 
 ## Parameters
 
-**namePath** `string`; Specifies the name of the item. If the item is in a folder, specify its name and path using slash notation.
+### **namePath**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the item. If the item is in a folder, specify its name and path using slash notation.
 
 ## Returns
 

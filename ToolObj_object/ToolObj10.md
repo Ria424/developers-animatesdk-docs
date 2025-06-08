@@ -10,7 +10,17 @@ ToolObj.showPIControl(control, bShow)
 
 ## Parameters
 
-**control** `string`; The name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md)).
+### **control**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [ToolObj.setPI()](../ToolObj_object/ToolObj7.md)).
 
 A shape Property inspector has the following controls:
 
@@ -36,7 +46,18 @@ The movie Property inspector has the following controls:
 | --- | --- | --- |
 | framerate | player | profile |
 
-**bShow** `boolean`; A boolean value that determines whether to show or hide the specified control (true shows the control; false
+### **bShow**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that determines whether to show or hide the specified control (true shows the control; false
+
 hides the control).
 
 ## Returns

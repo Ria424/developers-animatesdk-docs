@@ -10,10 +10,29 @@ Timeline.convertToBlankKeyframes([startFrameIndex [, endFrameIndex]])
 
 ## Parameters
 
-**startFrameIndex** `integer?`; A zero-based index that specifies the starting frame to convert to keyframes. If you omit
-*startFrameIndex*, the method converts the currently selected frames. This parameter is optional.
+### **startFrameIndex**
 
-**endFrameIndex** `integer?`; A zero-based index that specifies the frame at which the conversion to keyframes will stop. The range of frames to convert goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the starting frame to convert to blank keyframes. If omitted, the method uses the currently selected frames. This parameter is optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the frame where the conversion stops (not inclusive). If omitted, only the frame at **`startFrameIndex`** is converted. Optional.
 
 ## Returns
 

@@ -10,7 +10,17 @@ FLfile.getCreationDate(fileOrFolderURI)
 
 ## Parameters
 
-**fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file or folder whose creation date and time you want to retrieve as a hexadecimal string.
+### **fileOrFolderURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the file or folder whose creation date and time you want to retrieve as a hexadecimal string.
 
 ## Returns
 

@@ -10,11 +10,41 @@ Document.setTextString(text [, startIndex [, endIndex]])
 
 ## Parameters
 
-**text** `string`; A string of the characters to insert in the text field.
+### **text**
 
-**startIndex** `integer?`; An optional integer that specifies the first character to replace. The first character position is 0 (zero).
+#### Type
 
-**endIndex** `integer?`; An integer that specifies the last character to replace.
+```typescript
+string
+```
+
+#### Description
+
+A string of the characters to insert in the text field.
+
+### **startIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An optional integer that specifies the first character to replace. The first character position is 0 (zero).
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An integer that specifies the last character to replace.
 
 ## Returns
 

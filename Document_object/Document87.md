@@ -10,9 +10,29 @@ Document.getTextString([startIndex [, endIndex]])
 
 ## Parameters
 
-**startIndex** `integer?`; An integer that is an index of first character to get. This parameter is optional.
+### **startIndex**
 
-**endIndex** `integer?`; An integer that is an index of last character to get. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An integer that is an index of first character to get. This parameter is optional.
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An integer that is an index of last character to get. This parameter is optional.
 
 ## Returns
 

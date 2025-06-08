@@ -10,7 +10,17 @@ parameter.removeItem(index)
 
 ## Parameters
 
-**index** `integer`; The zero-based integer index of the item to be removed from the screen or component property.
+### **index**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+The zero-based integer index of the item to be removed from the screen or component property.
 
 ## Returns
 

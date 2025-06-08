@@ -4,9 +4,15 @@
 
 Flash MX 2004.
 
+## Type
+
+```typescript
+boolean
+```
+
 ## Description
 
-Property; `boolean`; A boolean value that specifies whether to allow smoothing of a bitmap *(true)* or not *(false)*.
+Property; A boolean value that specifies whether to allow smoothing of a bitmap *(true)* or not *(false)*.
 
 ## Example
 

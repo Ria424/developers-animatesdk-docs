@@ -10,7 +10,17 @@ Document.setFillColor(color)
 
 ## Parameters
 
-**color** `integer | string | null`; The color of the fill, in one of the following formats:
+### **color**
+
+#### Type
+
+```typescript
+number | string | null
+```
+
+#### Description
+
+The color of the fill, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 

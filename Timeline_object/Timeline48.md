@@ -10,7 +10,17 @@ Timeline.showLayerMasking(Animate[layer])
 
 ## Parameters
 
-**layer** `integer`; A zero-based index of a mask or masked layer to show masking during authoring. This parameter is optional.
+### **layer**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A zero-based integer index of a mask or masked layer to show masking during authoring. This parameter is optional.
 
 ## Returns
 

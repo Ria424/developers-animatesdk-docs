@@ -10,7 +10,17 @@ Edge.getHalfEdge(index)
 
 ## Parameters
 
-**index** `integer`; Specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
+### **index**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
 
 ## Returns
 

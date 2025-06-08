@@ -10,7 +10,17 @@ Timeline.insertKeyframe(\[frameNumIndex\])
 
 ## Parameters
 
-**frameNumIndex** `integer?`; A zero-based index that specifies the frame index at which to insert the keyframe in the current layer. If you omit *frameNumIndex*, the method uses the frame number of the current playhead or selected frame. This parameter is optional.
+### **frameNumIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer specifying the frame index in the current layer where the keyframe will be inserted. If omitted, the current playhead or selected frame is used. This parameter is optional.
 
 ## Returns
 

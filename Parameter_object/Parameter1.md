@@ -10,13 +10,53 @@ Parameter.insertItem(index, name, value, type)
 
 ## Parameters
 
-**index** `integer`; A zero-based integer index that indicates where the item will be inserted in the object or array. If the index is 0, the item is inserted at the beginning. If the index is greater than the list size, the new item is inserted at the end.
+### **index**
 
-**name** `string`; Specifies the name of the item to insert. This is a required parameter for object parameters.
+#### Type
 
-**value** `string`; Specifies the value of the item to insert.
+```typescript
+number
+```
 
-**type** `string`; Specifies the type of item to insert.
+#### Description
+
+A zero-based integer index that indicates where the item will be inserted in the object or array. If the index is 0, the item is inserted at the beginning. If the index is greater than the list size, the new item is inserted at the end.
+
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the item to insert. This is a required parameter for object parameters.
+
+### **value**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the value of the item to insert.
+
+### **type**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the type of item to insert.
 
 ## Returns
 

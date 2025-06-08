@@ -10,7 +10,17 @@ Document.setMobileSettings(xmlString)
 
 ## Parameters
 
-**xmlString** `string`; The XML settings in a mobile FLA file.
+### **xmlString**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The XML settings in a mobile FLA file.
 
 ## Returns
 

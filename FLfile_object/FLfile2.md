@@ -10,7 +10,17 @@ FLfile.exists(fileURI)
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the file you want to verify.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the file you want to verify.
 
 ## Returns
 

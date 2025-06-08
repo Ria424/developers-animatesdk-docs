@@ -10,7 +10,17 @@ Document.renamePublishProfile([profileNewName])
 
 ## Parameters
 
-**profileNewName** `string?`; An optional parameter that specifies the new name for the profile. The new name must be unique. If the name is not specified, a default name is provided.
+### **profileNewName**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+An optional parameter that specifies the new name for the profile. The new name must be unique. If the name is not specified, a default name is provided.
 
 ## Returns
 

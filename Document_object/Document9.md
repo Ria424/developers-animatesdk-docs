@@ -10,7 +10,17 @@ Document.addNewPublishProfile([profileName])
 
 ## Parameters
 
-**profileName** `string`; The unique name of the new profile. If you do not specify a name, a default name is provided. This parameter is optional.
+### **profileName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The unique name of the new profile. If you do not specify a name, a default name is provided. This parameter is optional.
 
 ## Returns
 

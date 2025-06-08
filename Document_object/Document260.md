@@ -10,7 +10,17 @@ Document.removeDataFromSelection(name)
 
 ## Parameters
 
-**name** `string`; The name of the persistent data to remove.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the persistent data to remove.
 
 ## Returns
 

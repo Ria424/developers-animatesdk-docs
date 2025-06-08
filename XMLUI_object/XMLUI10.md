@@ -10,9 +10,29 @@ XMLUI.setVisible(controlID, visible)
 
 ## Parameters
 
-**controlID** `string`; Specifies the ID attribute of the control you want to show or hide.
+### **controlID**
 
-**visible** `boolean`; *true* if you want to show the control; *false* if you want to hide it.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the ID attribute of the control you want to show or hide.
+
+### **visible**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+*true* if you want to show the control; *false* if you want to hide it.
 
 ## Returns
 

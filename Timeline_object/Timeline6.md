@@ -10,10 +10,29 @@ Timeline.copyFrames([startFrameIndex [, endFrameIndex]])
 
 ## Parameters
 
-**startFrameIndex** `integer?`; A zero-based index that specifies the beginning of the range of frames to copy. If you omit
-*startFrameIndex*, the method uses the current selection. This parameter is optional.
+### **startFrameIndex**
 
-**endFrameIndex** `integer?`; A zero-based index that specifies the frame at which to stop copying. The range of frames to copy goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index indicating the first frame to copy. If omitted, the method copies the currently selected frames. This parameter is optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index indicating the frame to stop copying at (not inclusive). If omitted, only the frame at **`startFrameIndex`** is copied. Optional.
 
 ## Returns
 

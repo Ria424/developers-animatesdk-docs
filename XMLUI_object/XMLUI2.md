@@ -10,7 +10,17 @@ XMLUI.get(controlPropertyName)
 
 ## Parameters
 
-**controlPropertyName** `string`; Specifies the name of the XMLUI property whose value you want to retrieve.
+### **controlPropertyName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the XMLUI property whose value you want to retrieve.
 
 ## Returns
 

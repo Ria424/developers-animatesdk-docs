@@ -10,9 +10,29 @@ Document.getTaggedSwatchAtIndex(index:int [,palette:int ])
 
 ## Parameters
 
-**index** `integer`; Specifies the index of the tagged swatch.
+### **index**
 
-**palette** `integer?0`; It is an optional integer that specifies the index of the tagged swatch palette, default value is 0.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Specifies the index of the tagged swatch.
+
+### **palette**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+It is an optional integer that specifies the index of the tagged swatch palette, default value is 0.
 
 ## Returns
 

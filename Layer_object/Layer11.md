@@ -10,7 +10,17 @@ layer.getZDepthAtFrame(FrameNumber)
 
 ## Parameters
 
-**FrameNumber** `integer`; An integer specifying the frame index starting from 0.
+### **FrameNumber**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer specifying the frame index starting from 0.
 
 ## Returns
 

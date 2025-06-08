@@ -10,7 +10,17 @@ Tools.setCursor(cursor)
 
 ## Parameters
 
-**cursor** `integer`; An integer that defines the pointer appearance, as described in the following list:
+### **cursor**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that defines the pointer appearance, as described in the following list:
 
 - 0 = Plus cursor (+)
 

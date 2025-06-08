@@ -10,7 +10,17 @@ Document.removeDataFromDocument(name)
 
 ## Parameters
 
-**name** `string`; The name of the data to remove.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the data to remove.
 
 ## Returns
 

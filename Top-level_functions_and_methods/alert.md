@@ -10,7 +10,17 @@ alert(alertText)
 
 ## Parameters
 
-**alertText** `string`; Specifies the message you want to display in the Alert dialog box.
+### **alertText**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the message you want to display in the Alert dialog box.
 
 ## Returns
 

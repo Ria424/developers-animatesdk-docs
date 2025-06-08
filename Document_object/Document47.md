@@ -10,7 +10,17 @@ Document.disableFilter(filterIndex)
 
 ## Parameters
 
-**filterIndex** `integer`; An integer representing the zero-based index of the filter in the Filters list.
+### **filterIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer representing the zero-based index of the filter in the Filters list.
 
 ## Returns
 

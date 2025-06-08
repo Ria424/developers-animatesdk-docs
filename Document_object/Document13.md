@@ -10,9 +10,29 @@ Document.align(alignmode [, bUseDocumentBounds])
 
 ## Parameters
 
-**alignmode** `"left" | "right" | "top" | "bottom" | "vertical center" | "horizontal center"`; A string that specifies how to align the selection. Acceptable values are "left", "right", "top", "bottom", "vertical center", and "horizontal center".
+### **alignmode**
 
-**bUseDocumentBounds** `boolean?`; A boolean value that, if set to true, causes the method to align to the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false. This parameter is optional.
+#### Type
+
+```typescript
+"left" | "right" | "top" | "bottom" | "vertical center" | "horizontal center"
+```
+
+#### Description
+
+A string that specifies how to align the selection. Acceptable values are "left", "right", "top", "bottom", "vertical center", and "horizontal center".
+
+### **bUseDocumentBounds**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, if set to true, causes the method to align to the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false. This parameter is optional.
 
 ## Returns
 

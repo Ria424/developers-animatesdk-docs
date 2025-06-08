@@ -10,9 +10,30 @@ Document.setSelectionRect(rect [, bReplaceCurrentSelection [, bContactSensitiveS
 
 ## Parameters
 
-**rect** `RectangleBounds`; A rectangle to set as selected. For information on the format of *rect*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+### **rect**
 
-**bReplaceCurrentSelection** `boolean?true`; Specifies whether the method replaces the current selection (true) or adds to the current selection (false). The default value is true.
+#### Type
+
+```typescript
+RectangleBounds
+```
+
+#### Description
+
+A rectangle to set as selected. For information on the format of *rect*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+
+### **bReplaceCurrentSelection**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether the method replaces the current selection (true) or adds to the current selection (false). The default value is true.
+
 
 **bContactSensitiveSelection** `boolean?false` Specifies whether the Contact Sensitive selection mode is enabled (true) or disabled (false) during object selection. The default value is false.
 

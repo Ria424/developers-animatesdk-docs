@@ -10,9 +10,29 @@ FLfile.copy(fileURI, copyURI)
 
 ## Parameters
 
-**fileURI** `string`; Expressed as a file:/// URI, that specifies the file you want to copy.
+### **fileURI**
 
-**copyURI** `string`; Expressed as a file:/// URI, that specifies the location and name of the copied file.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, that specifies the file you want to copy.
+
+### **copyURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, that specifies the location and name of the copied file.
 
 ## Returns
 

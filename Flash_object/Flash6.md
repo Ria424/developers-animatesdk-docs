@@ -10,7 +10,17 @@ fl.clipCopyString(string)
 
 ## Parameters
 
-**string** `string`; A string to be copied to the Clipboard.
+### **string**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string to be copied to the Clipboard.
 
 ## Returns
 

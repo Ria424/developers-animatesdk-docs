@@ -10,7 +10,17 @@ Timeline.getLayerProperty(property)
 
 ## Parameters
 
-**property** `string`; The name of the property whose value you want to retrieve. For a list of properties, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
+### **property**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the property whose value you want to retrieve. For a list of properties, see the Property summary for the [Frame object](../Frame_object/Frame_summary.md).
 
 ## Returns
 

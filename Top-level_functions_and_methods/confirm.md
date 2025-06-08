@@ -10,7 +10,17 @@ confirm(strAlert)
 
 ## Parameters
 
-**strAlert** `string`; Specifies the message you want to display in the Alert dialog box.
+### **strAlert**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the message you want to display in the Alert dialog box.
 
 ## Returns
 

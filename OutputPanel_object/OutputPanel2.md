@@ -10,7 +10,17 @@ OutputPanel.trace(message)
 
 ## Parameters
 
-**message** `string`; A string that contains the text to add to the Output panel.
+### **message**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that contains the text to add to the Output panel.
 
 ## Returns
 

@@ -10,13 +10,53 @@ DrawingLayer.curveTo(xCtl, yCtl, xEnd, yEnd)
 
 ## Parameters
 
-**xCtl** `number`; A floating-point value that is the *x* position of the control point.
+### **xCtl**
 
-**yCtl** `number`; A floating-point value that is the *y* position of the control point.
+#### Type
 
-**xEnd** `number`; A floating-point value that is the *x* position of the end control point.
+```typescript
+number
+```
 
-**yEnd** `number`; A floating-point value that is the *y* position of the end control point.
+#### Description
+
+A floating-point value that is the *x* position of the control point.
+
+### **yCtl**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *y* position of the control point.
+
+### **xEnd**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *x* position of the end control point.
+
+### **yEnd**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *y* position of the end control point.
 
 ## Returns
 

@@ -14,7 +14,17 @@ function mouseDown([pt]) {
 
 ## Parameters
 
-**pt** `Point`; A point that specifies the location of the mouse when the button is pressed. It is passed to the function when the mouse button is pressed. This parameter is optional.
+### **pt**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A point that specifies the location of the mouse when the button is pressed. It is passed to the function when the mouse button is pressed. This parameter is optional.
 
 ## Returns
 

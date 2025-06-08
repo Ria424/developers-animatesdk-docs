@@ -10,14 +10,33 @@ fl.findObjectInDocByType(elementType, document)
 
 ## Parameters
 
-**elementType** A string that represents the type of element to search for. For acceptable values, see
-[Element.elementType](../Element_object/Element1.md).
+### **elementType**
 
-**document** `Document`; The [Document object](../Document_object/Document_summary.md) in which to search for the specified item.
+#### Type
+
+```typescript
+"shape" | "text" | "tlfText" | "instance" | "shapeObj"
+```
+
+#### Description
+
+A string that represents the type of element to search for.
+
+### **document**
+
+#### Type
+
+```typescript
+Document
+```
+
+#### Description
+
+The [Document object](../Document_object/Document_summary.md) in which to search for the specified item.
 
 ## Returns
 
-An array of generic objects. Use the .obj property of each item in the array to get the element object. Each object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object.
+`{obj: Element; keyframe: number; layer: Layer; timeline: Timeline; parent: SymbolInstance;}[]`; An array of generic objects. Use the .obj property of each item in the array to get the element object. Each object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object.
 
 You can also access methods and properties for the layer and timeline values; they are equivalent to the [Layer object](../Layer_object/Layer_summary.md) and the [Timeline object](../Timeline_object/Timeline_summary.md), respectively.
 

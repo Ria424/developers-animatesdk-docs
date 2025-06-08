@@ -10,7 +10,17 @@ Document.swapElement(name)
 
 ## Parameters
 
-**name** `string`; The name of the library item to use.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the library item to use.
 
 ## Returns
 

@@ -6,13 +6,33 @@ Adobe Animate 2019
 
 ## Usage
 
-Camera.setZDepth(frameIndex, tz)
+setZDepth(frameIndex, tz)
 
 ## Parameters
 
-**frameIndex** `integer`;
+### **frameIndex**
 
-**tz** `integer`; Pixels.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **tz**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Pixels.
 
 ## Returns
 

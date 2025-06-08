@@ -10,7 +10,17 @@ Document.setStageViewAngle(angle)
 
 ## Parameters
 
-**angle** `number`; A floating point value between 0.0 and 179.0.
+### **angle**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating point value between 0.0 and 179.0.
 
 ## Returns
 

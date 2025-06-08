@@ -10,9 +10,29 @@ XMLUI.setControlItemElement(controlPropertyName, elementItem)
 
 ## Parameters
 
-**controlPropertyName** `string`; Specifies the control item element to set.
+### **controlPropertyName**
 
-**elementItem** A JavaScript object with a string property named label and an optional string property named *value*. If the *value* property does not exist, then it is created and assigned the same value as label.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the control item element to set.
+
+### **elementItem**
+
+#### Type
+
+```typescript
+{label: string; value?: string;}
+```
+
+#### Description
+
+A JavaScript object with a string property named label and an optional string property named *value*. If the *value* property does not exist, then it is created and assigned the same value as label.
 
 ## Returns
 
@@ -21,7 +41,7 @@ Nothing.
 ## Description
 
 Method; Sets the label and value of the currently selected line in the ListBox or ComboBox control specified by
-*controlPropertyName*.
+**`controlPropertyName`**.
 
 ## Example
 

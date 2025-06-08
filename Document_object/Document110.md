@@ -10,7 +10,17 @@ Document.loadCuepointXML(URI)
 
 ## Parameters
 
-**URI** `string`; The absolute path to the cue point XML file.
+### **URI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The absolute path to the cue point XML file.
 
 ## Description
 

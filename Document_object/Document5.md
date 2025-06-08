@@ -10,9 +10,29 @@ Document.addNewLine(startPoint, endpoint)
 
 ## Parameters
 
-**startpoint** `Point`; A pair of floating-point numbers that specify the *x* and *y* coordinates where the line starts.
+### **startpoint**
 
-**endpoint** `Point`; A pair of floating-point numbers that specify the *x* and *y* coordinates where the line ends.
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A pair of floating-point numbers that specify the *x* and *y* coordinates where the line starts.
+
+### **endpoint**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A pair of floating-point numbers that specify the *x* and *y* coordinates where the line ends.
 
 ## Returns
 

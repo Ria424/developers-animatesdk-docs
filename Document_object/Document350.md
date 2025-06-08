@@ -10,9 +10,29 @@ Document.rotate3DSelection(xyzCoordinate, bGlobalTransform)
 
 ## Parameters
 
-**xyzCoordinate** `Point3D`; An XYZ coordinate point that specifies the axes for 3D rotation.
+### **xyzCoordinate**
 
-**bGlobalTransform** `boolean`; Specifies whether the transformation mode should be global (true) or local (false).
+#### Type
+
+```typescript
+Point3D
+```
+
+#### Description
+
+An XYZ coordinate point that specifies the axes for 3D rotation.
+
+### **bGlobalTransform**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+Specifies whether the transformation mode should be global (true) or local (false).
 
 ## Returns
 

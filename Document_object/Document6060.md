@@ -10,7 +10,17 @@ Document.getIndexForTaggedSwatchesPalette(paletteName:string)
 
 ## Parameters
 
-**paletteName** `string`; A string that indicates tagged swatch palette name.
+### **paletteName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that indicates tagged swatch palette name.
 
 ## Returns
 

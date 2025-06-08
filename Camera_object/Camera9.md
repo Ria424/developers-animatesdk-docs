@@ -6,19 +6,69 @@ Adobe Animate 2019.
 
 ## Usage
 
-Camera.setTint(frameIndex, amount, red, green, blue)
+setTint(frameIndex, amount, red, green, blue)
 
 ## Parameters
 
-**frameIndex** `integer`;
+### **frameIndex**
 
-**amount** `integer`;
+#### Type
 
-**red** `integer`;
+```typescript
+number
+```
 
-**green** `integer`;
+#### Description
 
-**blue** `integer`;
+integer
+
+### **amount**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **red**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **green**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **blue**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
 
 ## Returns
 

@@ -4,14 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-ActionsPanel.getSelectedText()
-
-## Parameters
-
-None.
-
 ## Returns
 
 `string`; A string that contains the text that is currently selected in the Actions panel.

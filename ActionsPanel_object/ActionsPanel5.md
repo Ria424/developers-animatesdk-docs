@@ -6,11 +6,21 @@ Flash CS3 Professional.
 
 ## Usage
 
-actionsPanel.replaceSelectedText(replacementText)
+replaceSelectedText(replacementText)
 
 ## Parameters
 
-**replacementText** `string`; A string that represents text to replace selected text in the Actions panel.
+### **replacementText**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that represents text to replace selected text in the Actions panel.
 
 ## Returns
 

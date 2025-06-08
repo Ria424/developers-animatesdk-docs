@@ -6,11 +6,21 @@ Adobe Animate 2019.
 
 ## Usage
 
-camera.getColorFilter(frameIndex)
+getColorFilter(frameIndex)
 
 ## Parameters
 
-**frameIndex** `integer`;
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
 
 ## Returns
 

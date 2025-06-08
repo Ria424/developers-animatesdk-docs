@@ -10,9 +10,29 @@ XMLUI.set(controlPropertyName, value)
 
 ## Parameters
 
-**controlPropertyName** `string`; Specifies the name of XMLUI property to modify.
+### **controlPropertyName**
 
-**value** `string`; Specifies the value to which you want to set the XMLUI property.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of XMLUI property to modify.
+
+### **value**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the value to which you want to set the XMLUI property.
 
 ## Returns
 

@@ -10,13 +10,53 @@ SpriteSheetExporter.addSymbol(symbol [, name] [, beginFrame] [, endFrame])
 
 ## Parameters
 
-**symbol** `SymbolItem | SymbolInstance`; The SymbolItem or SymbolInstance to include in the sprite sheet.
+### **symbol**
 
-**name** `string?`; The name of the symbol instance to add to the sprite sheet.
+#### Type
 
-**beginFrame** The beginning frame of the symbol to include in the sprite sheet.
+```typescript
+SymbolItem | SymbolInstance
+```
 
-**endFrame** The last frame of the symbol to include in the sprite sheet.
+#### Description
+
+The SymbolItem or SymbolInstance to include in the sprite sheet.
+
+### **name**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+The name of the symbol instance to add to the sprite sheet.
+
+### **beginFrame**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+The beginning frame of the symbol to include in the sprite sheet.
+
+### **endFrame**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+The last frame of the symbol to include in the sprite sheet.
 
 ## Returns
 

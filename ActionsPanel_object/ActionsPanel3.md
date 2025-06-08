@@ -4,14 +4,6 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-ActionsPanel.getText()
-
-## Parameters
-
-None.
-
 ## Returns
 
 `string`; A string that contains all the text in the Actions panel.

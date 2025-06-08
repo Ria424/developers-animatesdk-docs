@@ -10,16 +10,26 @@ XMLUI.getControlItemElement(controlPropertyName)
 
 ## Parameters
 
-**controlPropertyName** `string`; Specifies the property whose control item element you want to retrieve.
+### **controlPropertyName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the property whose control item element you want to retrieve.
 
 ## Returns
 
-An object that represents the current control item for the control specified by *controlPropertyName*.
+An object that represents the current control item for the control specified by **`controlPropertyName`**.
 
 ## Description
 
 Method; Returns the label and value of the line selected in a ListBox or ComboBox control for the control specified by
-*controlPropertyName*.
+**`controlPropertyName`**.
 
 ## Example
 

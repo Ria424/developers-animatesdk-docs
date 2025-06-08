@@ -10,7 +10,17 @@ Tools.snapPoint(pt)
 
 ## Parameters
 
-**pt** `Point`; Specifies the location of the point for which you want to return a snap point.
+### **pt**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+Specifies the location of the point for which you want to return a snap point.
 
 ## Returns
 

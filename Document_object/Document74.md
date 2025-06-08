@@ -10,7 +10,18 @@ Document.getCustomFill([objectToFill])
 
 ## Parameters
 
-**objectToFill** `"toolbar" | "selection"?"selection"`; Specifies the location of the fill object. The following values are valid:
+### **objectToFill**
+
+#### Type
+
+```typescript
+"toolbar" | "selection"?
+```
+
+#### Description
+
+Specifies the location of the fill object. The following values are valid:
+
 
 - "toolbar" returns the fill object of the Tools panel and Property inspector.
 

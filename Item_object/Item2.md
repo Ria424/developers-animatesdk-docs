@@ -10,9 +10,30 @@ Item.getPublishData(name, format)
 
 ## Parameters
 
-**name** `string`; A string that contains the name of the persistent data item, as specified in "[Item.addData()](../Item_object/Item.md)".
+### **name**
 
-**format** `string`; Specifies the publishing format.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that contains the name of the persistent data item, as specified in "[Item.addData()](../Item_object/Item.md)".
+
+### **format**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the publishing format.
+
 ***Note:** \_EMBED\_SWF\_ is a special built-in publishing format for persistent data. If set, the persistent data is embedded in the SWF file every time a document is published. The persistent data can then be accessed via ActionScript with the*
 *.metaData property. This feature applies to SWF version 19 (Flash Player 11.6) and above and only for symbol instances onstage. Other custom publishing formats may be specified for custom JSFL scripts if getPublishPersistentData() is called with the same format.*
 

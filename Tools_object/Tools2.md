@@ -10,12 +10,33 @@ Tools.constrainPoint(pt1, pt2)
 
 ## Parameters
 
-**pt1** `Point`; Point that specify the starting-click point and the drag-to point.
-**pt2** `Point`; Point that specify the starting-click point and the drag-to point.
+### **pt1**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+Point that specify the starting-click point and the drag-to point.
+
+### **pt2**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+Point that specify the starting-click point and the drag-to point.
 
 ## Returns
 
-A new adjusted or constrained point.
+`Point`; A new adjusted or constrained point.
 
 ## Description
 

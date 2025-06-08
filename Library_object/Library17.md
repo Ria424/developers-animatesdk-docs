@@ -10,9 +10,29 @@ Library.setItemProperty(property, value)
 
 ## Parameters
 
-**property** `string`; The name of the property to set. For a list of properties, see the Property summary table for the [Item object](../Item_object/Item_summary.md) and property summaries for its subclasses. To see which objects are subclasses of the Item object, see ["Summary of the DOM structure" on Given Page](../Introduction/JavaScript_API_objects.md).
+### **property**
 
-**value** `any`; The value to assign to the specified property.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the property to set. For a list of properties, see the Property summary table for the [Item object](../Item_object/Item_summary.md) and property summaries for its subclasses. To see which objects are subclasses of the Item object, see ["Summary of the DOM structure" on Given Page](../Introduction/JavaScript_API_objects.md).
+
+### **value**
+
+#### Type
+
+```typescript
+any
+```
+
+#### Description
+
+The value to assign to the specified property.
 
 ## Returns
 

@@ -10,7 +10,18 @@ Document.getCustomStroke([locationOfStroke])
 
 ## Parameters
 
-**locationOfStroke** `"toolbar" | "selection"?"selection"`; A string that specifies the location of the stroke object. The following values are valid:
+### **locationOfStroke**
+
+#### Type
+
+```typescript
+"toolbar" | "selection"?
+```
+
+#### Description
+
+A string that specifies the location of the stroke object. The following values are valid:
+
 
 - "toolbar", if set, returns the stroke object of the Tools panel and Property inspector.
 

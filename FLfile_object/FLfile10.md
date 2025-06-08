@@ -10,7 +10,17 @@ FLfile.platformPathToURI(fileName)
 
 ## Parameters
 
-**fileName** `string`; Expressed in a platform-specific format, specifying the filename you want to convert.
+### **fileName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed in a platform-specific format, specifying the filename you want to convert.
 
 ## Returns
 

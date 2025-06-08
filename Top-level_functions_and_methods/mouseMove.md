@@ -14,7 +14,17 @@ function mouseMove([pt]) {
 
 ## Parameters
 
-**pt** `Point?`; A point that specifies the current location of the mouse. It is passed to the function whenever the mouse moves, which tracks the mouse location. If the Stage is in edit or edit-in-place mode, the point coordinates are relative to the object being edited. Otherwise, the point coordinates are relative to the Stage. This parameter is optional.
+### **pt**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A point that specifies the current location of the mouse. It is passed to the function whenever the mouse moves, which tracks the mouse location. If the Stage is in edit or edit-in-place mode, the point coordinates are relative to the object being edited. Otherwise, the point coordinates are relative to the Stage. This parameter is optional.
 
 ## Returns
 

@@ -10,13 +10,53 @@ Document.transformSelection(a, b, c, d)
 
 ## Parameters
 
-**a** `number`; A floating-point number that specifies the (0, 0) element of the transformation matrix.
+### **a**
 
-**b** `number`; A floating-point number that specifies the (0, 1) element of the transformation matrix.
+#### Type
 
-**c** `number`; A floating-point number that specifies the (1, 0) element of the transformation matrix.
+```typescript
+number
+```
 
-**d** `number`; A floating-point number that specifies the (1, 1) element of the transformation matrix.
+#### Description
+
+A floating-point number that specifies the (0, 0) element of the transformation matrix.
+
+### **b**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point number that specifies the (0, 1) element of the transformation matrix.
+
+### **c**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point number that specifies the (1, 0) element of the transformation matrix.
+
+### **d**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point number that specifies the (1, 1) element of the transformation matrix.
 
 ## Returns
 

@@ -10,7 +10,17 @@ Document.setCustomFill(fill)
 
 ## Parameters
 
-**fill** `Fill`; The fill settings to be used. See [Fill object](../Fill_object/Fill_summary.md).
+### **fill**
+
+#### Type
+
+```typescript
+Fill
+```
+
+#### Description
+
+The fill settings to be used. See [Fill object](../Fill_object/Fill_summary.md).
 
 ## Returns
 

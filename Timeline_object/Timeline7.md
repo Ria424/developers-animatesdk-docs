@@ -10,10 +10,29 @@ timeline.copyLayers([startLayerIndex [, endLayerIndex]])
 
 ## Parameters
 
-**startLayerIndex** `integer?`; Optional. A zero-based index that specifies the beginning of the range of layers to copy. If you omit
-startLayerIndex, the method uses the current selection.
+### **startLayerIndex**
 
-**endLayerIndex** `integer?`; Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer index that specifies the first layer to copy. If omitted, the method copies the currently selected layers.
+
+### **endLayerIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer index indicating the last layer to copy, inclusive. If omitted, only the layer at **`startLayerIndex`** is copied.
 
 ## Returns
 

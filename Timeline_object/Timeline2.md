@@ -10,10 +10,29 @@ Timeline.clearFrames([startFrameIndex [, endFrameIndex]])
 
 ## Parameters
 
-**startFrameIndex** `integer?`; A zero-based index that defines the beginning of the range of frames to clear. If you omit
-*startFrameIndex*, the method uses the current selection. This parameter is optional.
+### **startFrameIndex**
 
-**endFrameIndex** `integer?`; A zero-based index that defines the end of the range of frames to clear. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index indicating where to start clearing frames. If omitted, the current selection is used. Optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index indicating the end (exclusive) of the frames to clear. If omitted, only the frame at **`startFrameIndex`** is cleared. Optional.
 
 ## Returns
 

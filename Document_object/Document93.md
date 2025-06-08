@@ -10,13 +10,53 @@ Document.importFile(fileURI [, importToLibrary [, showDialog [, showImporterUI ]
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the file to import.
+### **fileURI**
 
-**importToLibrary** `boolean?false`; Specifies whether to import the file only into the document’s library (true) or to also place a copy on the Stage (false). The default value is false.
+#### Type
 
-**showDialog** `boolean?true`; Specifies whether to display the Import dialog box. Specifying true displays the import dialog. If you specify false, the function imports the file using specifications set in the Preferences dialog. The default is true.
+```typescript
+string
+```
 
-**showImporterUI** `boolean?false`; Specifies whether to display errors visually (for example, using the Library Conflict dialog box). The default is false.
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path of the file to import.
+
+### **importToLibrary**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether to import the file only into the document’s library (true) or to also place a copy on the Stage (false). The default value is false.
+
+### **showDialog**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether to display the Import dialog box. Specifying true displays the import dialog. If you specify false, the function imports the file using specifications set in the Preferences dialog. The default is true.
+
+### **showImporterUI**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether to display errors visually (for example, using the Library Conflict dialog box). The default is false.
 
 ## Returns
 

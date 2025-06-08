@@ -10,7 +10,17 @@ FLfile.getSize(fileURI)
 
 ## Parameters
 
-**fileURI** `string`; Expressed as a file:/// URI, specifying the file whose size you want to retrieve.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the file whose size you want to retrieve.
 
 ## Returns
 

@@ -10,7 +10,17 @@ Document.clipPaste([bInPlace])
 
 ## Parameters
 
-**bInPlace** `boolean?false`; A boolean value that, when set to true, causes the method to perform a paste-in-place operation. The default value is false, which causes the method to perform a paste operation to the center of the document. This parameter is optional.
+### **bInPlace**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, when set to true, causes the method to perform a paste-in-place operation. The default value is false, which causes the method to perform a paste operation to the center of the document. This parameter is optional.
 
 ## Returns
 

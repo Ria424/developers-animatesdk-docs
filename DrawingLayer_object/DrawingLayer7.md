@@ -10,9 +10,29 @@ DrawingLayer.lineTo(x, y)
 
 ## Parameters
 
-**x** `number`; A floating-point value that is the *x* coordinate of the end point of the line to draw.
+### **x**
 
-**y** `number`; A floating-point value that is the *y* coordinate of the end point of the line to draw.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *x* coordinate of the end point of the line to draw.
+
+### **y**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that is the *y* coordinate of the end point of the line to draw.
 
 ## Returns
 

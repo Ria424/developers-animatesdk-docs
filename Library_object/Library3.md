@@ -10,7 +10,17 @@ Library.duplicateItem( [ namePath ] )
 
 ## Parameters
 
-**namePath** `string?`; Specifies the name of the item to duplicate. If the item is in a folder, you can specify its name and path using slash notation. This parameter is optional.
+### **namePath**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+Specifies the name of the item to duplicate. If the item is in a folder, you can specify its name and path using slash notation. This parameter is optional.
 
 ## Returns
 

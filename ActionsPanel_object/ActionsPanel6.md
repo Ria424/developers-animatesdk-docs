@@ -6,11 +6,21 @@ Flash CS3 Professional. *Dropped in Adobe Animate*.
 
 ## Usage
 
-ActionsPanel.setScriptAssistMode(bScriptAssist)
+setScriptAssistMode(bScriptAssist)
 
 ## Parameters
 
-**bScriptAssist** `boolean`; A boolean value that specifies whether to enable or disable Script Assist mode.
+### **bScriptAssist**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that specifies whether to enable or disable Script Assist mode.
 
 ## Returns
 

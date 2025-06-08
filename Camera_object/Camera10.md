@@ -6,19 +6,65 @@ Adobe Animate 2019.
 
 ## Usage
 
-Camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
+setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
 ## Parameters
 
-**frameIndex** `integer`;
+### **frameIndex**
 
-**brightness** `number`;
+#### Type
 
-**contrast** `number`;
+```typescript
+number
+```
 
-**saturation** `number`;
+#### Description
 
-**hue** `number`;
+integer
+
+### **brightness**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **contrast**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **saturation**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **hue**
+
+#### Type
+
+```typescript
+number
+```
 
 ## Returns
 

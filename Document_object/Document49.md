@@ -10,9 +10,29 @@ Document.distribute(distributemode [, bUseDocumentBounds])
 
 ## Parameters
 
-**distributemode** `"left edge" | "horizontal center" | "right edge" | "top edge" | "vertical center" | "bottom edge"`; Specifies where to distribute the selected objects. Acceptable values are "left edge", "horizontal center", "right edge", "top edge", "vertical center", and "bottom edge".
+### **distributemode**
 
-**bUseDocumentBounds** `boolean?false`; A boolean value that, when set to true, distributes the selected objects using the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false.
+#### Type
+
+```typescript
+"left edge" | "horizontal center" | "right edge" | "top edge" | "vertical center" | "bottom edge"
+```
+
+#### Description
+
+Specifies where to distribute the selected objects. Acceptable values are "left edge", "horizontal center", "right edge", "top edge", "vertical center", and "bottom edge".
+
+### **bUseDocumentBounds**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, when set to true, distributes the selected objects using the bounds of the document. Otherwise, the method uses the bounds of the selected objects. The default is false.
 
 ## Returns
 

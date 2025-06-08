@@ -10,7 +10,17 @@ Document.translate3DCenter(xyzCoordinate)
 
 ## Parameters
 
-**xyzCoordinate** `Point3D`; An XYZ coordinate that specifies the center point for 3D rotation or translation.
+### **xyzCoordinate**
+
+#### Type
+
+```typescript
+Point3D
+```
+
+#### Description
+
+An XYZ coordinate that specifies the center point for 3D rotation or translation.
 
 ## Returns
 

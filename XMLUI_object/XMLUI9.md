@@ -10,9 +10,29 @@ XMLUI.setEnabled(controlID, enable)
 
 ## Parameters
 
-**controlID** `string`; Specifies the ID attribute of the control you want to enable or disable.
+### **controlID**
 
-**enable** `boolean`; true if you want to enable the control, or false if you want to disable (dim) it.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the ID attribute of the control you want to enable or disable.
+
+### **enable**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+true if you want to enable the control, or false if you want to disable (dim) it.
 
 ## Returns
 

@@ -10,7 +10,17 @@ FLfile.createFolder(folderURI)
 
 ## Parameters
 
-**folderURI** `string`; A folder URI that specifies the folder structure you want to create.
+### **folderURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A folder URI that specifies the folder structure you want to create.
 
 ## Returns
 

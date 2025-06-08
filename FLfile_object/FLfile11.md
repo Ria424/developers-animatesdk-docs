@@ -10,7 +10,17 @@ FLfile.read(fileURI)
 
 ## Parameters
 
-**fileURI** `string`; Expressed as a file:/// URI, specifying the text-based file (such as .js, .txt, or .jsfl) that you want to read.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the text-based file (such as .js, .txt, or .jsfl) that you want to read.
 
 ## Returns
 

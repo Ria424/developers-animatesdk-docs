@@ -10,7 +10,17 @@ Library.selectAll([bSelectAll])
 
 ## Parameters
 
-**bSelectAll** `boolean?`; Specifies whether to select or deselect all items in the library. Omit this parameter or use the default value of true to select all the items in the library; false deselects all library items. This parameter is optional.
+### **bSelectAll**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether to select or deselect all items in the library. Omit this parameter or use the default value of true to select all the items in the library; false deselects all library items. This parameter is optional.
 
 ## Returns
 

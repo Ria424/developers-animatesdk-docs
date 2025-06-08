@@ -10,7 +10,17 @@ Document.setStroke(color, size, strokeType)
 
 ## Parameters
 
-**color** `integer | string`; The color of the stroke, in one of the following formats:
+### **color**
+
+#### Type
+
+```typescript
+number | string
+```
+
+#### Description
+
+The color of the stroke, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 
@@ -18,9 +28,29 @@ Document.setStroke(color, size, strokeType)
 
 - An integer that represents the decimal equivalent of a hexadecimal number
 
-**size** `number`; A floating-point value that specifies the new stroke size for the selection.
+### **size**
 
-**strokeType** `"hairline" | "solid" | "dashed" | "dotted" | "ragged" | "stipple" | "hatched"`; A string that specifies the new type of stroke for the selection. Acceptable values are "hairline", "solid", "dashed", "dotted", "ragged", "stipple", and "hatched".
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the new stroke size for the selection.
+
+### **strokeType**
+
+#### Type
+
+```typescript
+"hairline" | "solid" | "dashed" | "dotted" | "ragged" | "stipple" | "hatched"
+```
+
+#### Description
+
+A string that specifies the new type of stroke for the selection. Acceptable values are "hairline", "solid", "dashed", "dotted", "ragged", "stipple", and "hatched".
 
 ## Returns
 

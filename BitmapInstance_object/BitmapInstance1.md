@@ -4,9 +4,15 @@
 
 Flash MX 2004.
 
+## Type
+
+```typescript
+number
+```
+
 ## Description
 
-Read-only property; `integer`; An integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
+Read-only property; An integer that represents the width of the bitmap—that is, the number of pixels in the horizontal dimension.
 
 ## Example
 

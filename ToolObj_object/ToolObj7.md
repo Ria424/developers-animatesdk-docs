@@ -10,7 +10,17 @@ ToolObj.setPI(pi)
 
 ## Parameters
 
-**pi** `string`; A string that specifies the Property inspector to invoke for this tool.
+### **pi**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the Property inspector to invoke for this tool.
 
 ## Returns
 

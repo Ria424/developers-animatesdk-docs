@@ -10,7 +10,17 @@ ToolObj.setIcon(file)
 
 ## Parameters
 
-**file** `string`; The name of the PNG file to use as the icon. The PNG file must be placed in the same folder as the JSFL file.
+### **file**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The name of the PNG file to use as the icon. The PNG file must be placed in the same folder as the JSFL file.
 
 ## Returns
 

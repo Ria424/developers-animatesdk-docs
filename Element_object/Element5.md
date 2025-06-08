@@ -10,7 +10,17 @@ element.hasPersistentData(name)
 
 ## Parameters
 
-**name** `string`; A string that specifies the name of the data item to test.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the name of the data item to test.
 
 ## Returns
 

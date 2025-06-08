@@ -10,11 +10,41 @@ SpriteSheetExporter.changeSymbol( symbol [, beginFrame] [, endFrame] )
 
 ## Parameters
 
-**symbol** `SymbolItem | SymbolInstance`; A SymbolItem or SymbolInstance that has already been added to the sprite sheet.
+### **symbol**
 
-**beginFrame** Optional. The beginning frame of the symbol to include in the sprite sheet.
+#### Type
 
-**endFrame** Optional. The last frame of the symbol to include in the sprite sheet.
+```typescript
+SymbolItem | SymbolInstance
+```
+
+#### Description
+
+A SymbolItem or SymbolInstance that has already been added to the sprite sheet.
+
+### **beginFrame**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Optional. The beginning frame of the symbol to include in the sprite sheet.
+
+### **endFrame**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Optional. The last frame of the symbol to include in the sprite sheet.
 
 ## Returns
 

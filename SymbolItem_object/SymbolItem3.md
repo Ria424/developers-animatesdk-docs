@@ -10,9 +10,29 @@ SymbolItem.exportToLibrary(frameNumber, bitmapName)
 
 ## Parameters
 
-**frameNumber** `integer`; An integer indicating the frame within the symbol to be exported.
+### **frameNumber**
 
-**bitmapName** `string`; A string indicating the name of the new bitmap to be added to the Library.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer indicating the frame within the symbol to be exported.
+
+### **bitmapName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string indicating the name of the new bitmap to be added to the Library.
 
 ## Returns
 

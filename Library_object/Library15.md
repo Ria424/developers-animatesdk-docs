@@ -10,11 +10,41 @@ Library.selectItem(namePath [, bReplaceCurrentSelection [, bSelect]])
 
 ## Parameters
 
-**namePath** `string`; Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation.
+### **namePath**
 
-**bReplaceCurrentSelection** `boolean?true`; Specifies whether to replace the current selection or add the item to the current selection. The default value is true (replace current selection). This parameter is optional.
+#### Type
 
-**bSelect** `boolean?true`; Specifies whether to select or deselect an item. The default value is *true* (select). This parameter is optional.
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation.
+
+### **bReplaceCurrentSelection**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether to replace the current selection or add the item to the current selection. The default value is true (replace current selection). This parameter is optional.
+
+### **bSelect**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether to select or deselect an item. The default value is *true* (select). This parameter is optional.
 
 ## Returns
 

@@ -10,7 +10,17 @@ Document.setStrokeColor(color)
 
 ## Parameters
 
-**color** `integer | string`; The color of the stroke, in one of the following formats:
+### **color**
+
+#### Type
+
+```typescript
+number | string
+```
+
+#### Description
+
+The color of the stroke, in one of the following formats:
 
 - A string in the format "#RRGGBB" or "#RRGGBBAA"
 

@@ -10,11 +10,41 @@ Timeline.insertFrames(\[numFrames \[, bAllLayers \[, frameNumIndex\]\]\])
 
 ## Parameters
 
-**numFrames** `integer?`; The number of frames to insert. If you omit this parameter, the method inserts frames at the current selection in the current layer. This parameter is optional.
+### **numFrames**
 
-**bAllLayers** `boolean?false`; A boolean value that, if set to true, causes the method to insert the specified number of frames in the *numFrames* parameter into all layers; if set to false (the default), the method inserts frames into the current layer. This parameter is optional.
+#### Type
 
-**frameNumIndex** `integer?`; A zero-based index that specifies the frame at which to insert a new frame. This parameter is optional.
+```typescript
+number?
+```
+
+#### Description
+
+The number of frames to insert. If omitted, the method determines the number of frames based on the current selection. Optional.
+
+### **bAllLayers**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, if set to true, causes the method to insert the specified number of frames in the *numFrames* parameter into all layers; if set to false (the default), the method inserts frames into the current layer. This parameter is optional.
+
+### **frameNumIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer specifying the frame index where frames will be inserted. Optional; if omitted, frames are inserted at the current frame.
 
 ## Returns
 

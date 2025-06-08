@@ -10,9 +10,29 @@ prompt(promptMsg, [text])
 
 ## Parameters
 
-**promptMsg** `string`; A string to display in the Prompt dialog box (limited to 256 characters in Mac OS X).
+### **promptMsg**
 
-**text** `string?`; An optional string to display as a default value for the text field.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string to display in the Prompt dialog box (limited to 256 characters in Mac OS X).
+
+### **text**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+An optional string to display as a default value for the text field.
 
 ## Returns
 

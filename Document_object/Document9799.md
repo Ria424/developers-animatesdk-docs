@@ -10,7 +10,17 @@ Document.setStrokeSize(size)
 
 ## Parameters
 
-**size** `number`; A floating-point value from 0.25 to 250that specifies the stroke size. The method ignores precision greater than two decimal places.
+### **size**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value from 0.25 to 250that specifies the stroke size. The method ignores precision greater than two decimal places.
 
 ## Returns
 

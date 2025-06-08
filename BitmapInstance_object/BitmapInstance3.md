@@ -4,9 +4,15 @@
 
 Flash MX 2004.
 
+## Type
+
+```typescript
+number
+```
+
 ## Description
 
-Read-only property; `integer`; an integer that represents the height of the bitmap—that is, the number of pixels in the vertical dimension.
+Read-only property; An integer that represents the height of the bitmap—that is, the number of pixels in the vertical dimension.
 
 ## Example
 

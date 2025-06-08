@@ -10,9 +10,29 @@ FLfile.listFolder(folderURI \[, filesOrDirectories\])
 
 ## Parameters
 
-**folderURI** `string`; Expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
+### **folderURI**
 
-**filesOrDirectories** `"directories" | "files"?`; An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
+
+### **filesOrDirectories**
+
+#### Type
+
+```typescript
+"directories" | "files"?
+```
+
+#### Description
+
+An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are *"files"* and *"directories"*.
 
 ## Returns
 

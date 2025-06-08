@@ -10,9 +10,29 @@ Document.setTextSelection(startIndex, endIndex)
 
 ## Parameters
 
-**startIndex** `integer`; The position of the first character to select. The first character position is 0 (zero).
+### **startIndex**
 
-**endIndex** `integer`; The end position of the selection up to, but not including, *endIndex*. The first character position is 0 (zero).
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+The position of the first character to select. The first character position is 0 (zero).
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+The end position of the selection up to, but not including, *endIndex*. The first character position is 0 (zero).
 
 ## Returns
 

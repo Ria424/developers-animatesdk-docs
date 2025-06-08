@@ -10,7 +10,18 @@ element.setTransformationPoint(transformationPoint)
 
 ## Parameters
 
-**transformationPoint** `Point`; A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies values for an element’s or group’s transformation point.
+### **transformationPoint**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies values for an element’s or group’s transformation point.
+
 
 - Shapes: *transformationPoint* is set relative to the document (0,0 is the upper-left corner of the Stage).
 

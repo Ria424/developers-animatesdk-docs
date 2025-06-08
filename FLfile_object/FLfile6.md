@@ -10,7 +10,17 @@ FLfile.getModificationDate(fileOrFolderURI)
 
 ## Parameters
 
-**fileOrFolderURI** `string`; Expressed as a file:/// URI, specifying the file whose modification date and time you want to retrieve as a hexadecimal string.
+### **fileOrFolderURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the file whose modification date and time you want to retrieve as a hexadecimal string.
 
 ## Returns
 

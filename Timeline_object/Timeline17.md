@@ -10,9 +10,29 @@ Timeline.duplicateLayers(\[startLayerIndex \[, endLayerIndex\]\])
 
 ## Parameters
 
-**startLayerIndex** `integer?`; Optional. A zero-based index that specifies the beginning of the range of layers to copy. It also specifies the layer above which the layers on the clipboard are pasted. If you omit startLayerIndex, the method uses the current layer selection.
+### **startLayerIndex**
 
-**endLayerIndex** `integer?`; Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based index indicating the first layer to duplicate. If omitted, the currently selected layers are duplicated.
+
+### **endLayerIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer indicating the last layer to duplicate. The duplication includes all layers from **`startLayerIndex`** to **`endLayerIndex`**, inclusive. If omitted, only the layer at **`startLayerIndex`** is duplicated.
 
 ## Returns
 
@@ -33,8 +53,7 @@ fl.getDocumentDOM().getTimeline().duplicateLayers();
 The following example duplicates the layers from index 2 to index 7 above layer index 2:
 
 ```javascript
-fl.getDocumentDOM().getTimeline().duplicatedLayers(2,7);
-
+fl.getDocumentDOM().getTimeline().duplicatedLayers(2, 7);
 ```
 
 ## See also

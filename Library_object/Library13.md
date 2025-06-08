@@ -10,7 +10,17 @@ Library.renameItem(name)
 
 ## Parameters
 
-**name** `string`; Specifies a new name for the library item.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies a new name for the library item.
 
 ## Returns
 

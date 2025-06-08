@@ -10,10 +10,29 @@ Timeline.cutLayers([startLayerIndex [, endLayerIndex]])
 
 ## Parameters
 
-**startLayerIndex** `integer?`; Optional. A zero-based index that specifies the beginning of the range of layers to cut. If you omit
-startLayerIndex, the method uses the current selection.
+### **startLayerIndex**
 
-**endLayerIndex** `integer?`; Optional. A zero-based index that specifies the layer at which to stop cutting. The range of layers to cut goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer index that specifies the first layer to cut. If omitted, the method uses the currently selected layers.
+
+### **endLayerIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+Optional. A zero-based integer index specifying the last layer to cut, inclusive. If omitted, only the **`startLayerIndex`** layer is cut.
 
 ## Returns
 

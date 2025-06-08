@@ -10,11 +10,41 @@ Edge.setControl(index, x, y)
 
 ## Parameters
 
-**index** `integer`; Specifies which control point to set. Use values 0, 1, or 2 to specify the beginning, middle, and end control points, respectively.
+### **index**
 
-**x** `number`; A floating-point value that specifies the horizontal location of the control point. If the Stage is in edit or edit-in-place mode, the point coordinate is relative to the edited object. Otherwise, the point coordinate is relative to the Stage.
+#### Type
 
-**y** `number`; A floating-point value that specifies the vertical location of the control point. If the Stage is in edit or edit-in-place mode, the point coordinate is relative to the edited object. Otherwise, the point coordinate is relative to the Stage.
+```typescript
+number
+```
+
+#### Description
+
+Specifies which control point to set. Use values 0, 1, or 2 to specify the beginning, middle, and end control points, respectively.
+
+### **x**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the horizontal location of the control point. If the Stage is in edit or edit-in-place mode, the point coordinate is relative to the edited object. Otherwise, the point coordinate is relative to the Stage.
+
+### **y**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the vertical location of the control point. If the Stage is in edit or edit-in-place mode, the point coordinate is relative to the edited object. Otherwise, the point coordinate is relative to the Stage.
 
 ## Returns
 

@@ -10,9 +10,29 @@ Document.changeFilterOrder(oldIndex, newIndex)
 
 ## Parameters
 
-**oldIndex** `integer`; An integer that represents the current zero-based index position of the filter you want to reposition in the Filters list.
+### **oldIndex**
 
-**newIndex** `integer`; An integer that represents the new index position of the filter in the list.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that represents the current zero-based index position of the filter you want to reposition in the Filters list.
+
+### **newIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that represents the new index position of the filter in the list.
 
 ## Returns
 

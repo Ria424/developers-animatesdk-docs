@@ -10,11 +10,41 @@ Element.setPersistentData(name, type, value)
 
 ## Parameters
 
-**name** `string`; A string that specifies the name to associate with the data. This name is used to retrieve the data.
+### **name**
 
-**type** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"`; A string that defines the type of the data. The allowable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+#### Type
 
-**value** `byte[] | double | double[] | integer | integer[] | string`; Specifies the value to associate with the object. The data type of *value* depends on the value of the *type*
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the name to associate with the data. This name is used to retrieve the data.
+
+### **type**
+
+#### Type
+
+```typescript
+"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"
+```
+
+#### Description
+
+A string that defines the type of the data. The allowable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+
+### **value**
+
+#### Type
+
+```typescript
+number | number[] | string
+```
+
+#### Description
+
+Specifies the value to associate with the object. The data type of *value* depends on the value of the *type*
 parameter. The specified value should be appropriate to the data type specified by the *type* parameter.
 
 ## Returns

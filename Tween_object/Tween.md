@@ -10,7 +10,17 @@ Tween.getGeometricTransform(frameIndex)
 
 ## Parameters
 
-**frameIndex** `integer`; Offset index of interpolated frame.
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+Offset (integer) index of interpolated frame.
 
 ## Returns
 

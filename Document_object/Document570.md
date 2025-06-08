@@ -10,7 +10,17 @@ Document.setMetadata(strMetadata)
 
 ## Parameters
 
-**strMetadata** `string`; A string containing the XML metadata to be associated with the document. For more information, see the following description.
+### **strMetadata**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string containing the XML metadata to be associated with the document. For more information, see the following description.
 
 ## Returns
 

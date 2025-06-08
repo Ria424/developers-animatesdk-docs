@@ -10,9 +10,29 @@ FLfile.setAttributes(fileURI, strAttrs)
 
 ## Parameters
 
-**fileURI** `string`; Expressed as a file:/// URI, specifying the file whose attributes you want to set.
+### **fileURI**
 
-**strAttrs** `string`; A string specifying values for the attribute(s) you want to set. For acceptable values for *strAttrs*, see the "Description" section below.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Expressed as a file:/// URI, specifying the file whose attributes you want to set.
+
+### **strAttrs**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string specifying values for the attribute(s) you want to set. For acceptable values for *strAttrs*, see the "Description" section below.
 
 ## Returns
 

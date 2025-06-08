@@ -10,7 +10,17 @@ Camera.resetColorFilter(frameIndex)
 
 ## Parameters
 
-**frameIndex** `integer`;
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
 
 ## Returns
 

@@ -10,7 +10,17 @@ Document.saveAndCompact([bOkToSaveAs])
 
 ## Parameters
 
-**bOkToSaveAs** `boolean?true`; An optional parameter that, if true or omitted and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved. The default value is true.
+### **bOkToSaveAs**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+An optional parameter that, if true or omitted and the file was never saved, opens the Save As dialog box. If false and the file was never saved, the file is not saved. The default value is true.
 
 ## Returns
 

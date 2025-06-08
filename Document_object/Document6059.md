@@ -10,13 +10,53 @@ Document.addTaggedSwatchWithColor(color:string[,name:string [, index:int [, pale
 
 ## Parameters
 
-**color** `string`; Specifies the color for which swatch is created like "#CCFF34".
+### **color**
 
-**name** `integer?`; It is an optional integer that specifies the name of the tagged swatch.
+#### Type
 
-**index** `integer?`; It is an optional integer that specifies the index where to add swatch.
+```typescript
+string
+```
 
-**palette** `integer?0`; It is an optional integer that specifies the index of the tagged swatch palette, default value is 0.
+#### Description
+
+Specifies the color for which swatch is created like "#CCFF34".
+
+### **name**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+It is an optional integer that specifies the name of the tagged swatch.
+
+### **index**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+It is an optional integer that specifies the index where to add swatch.
+
+### **palette**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+It is an optional integer that specifies the index of the tagged swatch palette, default value is 0.
 
 ## Returns
 

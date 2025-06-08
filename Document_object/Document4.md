@@ -10,9 +10,29 @@ Document.addItem(position, item)
 
 ## Parameters
 
-**position** `Point`; Specifies the *x* and *y* coordinates of the location at which to add the item. It uses the center of a symbol or the upper left corner of a bitmap or video.
+### **position**
 
-**item** `Item`; Specifies the item to add and the library from which to add it (see [Item object](../Item_object/item_summary.md)).
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+Specifies the *x* and *y* coordinates of the location at which to add the item. It uses the center of a symbol or the upper left corner of a bitmap or video.
+
+### **item**
+
+#### Type
+
+```typescript
+Item
+```
+
+#### Description
+
+Specifies the item to add and the library from which to add it (see [Item object](../Item_object/item_summary.md)).
 
 ## Returns
 

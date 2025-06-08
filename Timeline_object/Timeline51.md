@@ -10,9 +10,29 @@ Timeline.mergeLayers(startLayerNum:int, endLayerNum:int).
 
 ## Parameters
 
-**startLayerNum** `integer`; It is an integer that specifies the starting layer index.
+### **startLayerNum**
 
-**endLayerNum** `integer`; It is an integer that specifies the ending layer index.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+It is an integer that specifies the starting layer index.
+
+### **endLayerNum**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+It is an integer that specifies the ending layer index.
 
 ## Returns
 

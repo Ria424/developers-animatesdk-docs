@@ -10,13 +10,53 @@ Document.addNewPrimitiveRectangle(boundingRectangle, roundness, [, bSuppressFill
 
 ## Parameters
 
-**rect** `RectangleBounds`; Specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+### **rect**
 
-**roundness** `integer`; An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
+#### Type
 
-**bSuppressFill** `boolean?false`; A boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
+```typescript
+RectangleBounds
+```
 
-**bSuppressStroke** `boolean?false`; A boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
+#### Description
+
+Specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [Document.addNewRectangle()](../Document_object/Document10.md).
+
+### **roundness**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
+
+### **bSuppressFill**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
+
+### **bSuppressStroke**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
 
 ## Returns
 

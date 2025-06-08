@@ -10,7 +10,17 @@ Document.setInstanceAlpha(opacity)
 
 ## Parameters
 
-**opacity** `integer`; An integer between 0 (transparent) and 100 (completely saturated) that adjusts the transparency of the instance.
+### **opacity**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer between 0 (transparent) and 100 (completely saturated) that adjusts the transparency of the instance.
 
 ## Returns
 

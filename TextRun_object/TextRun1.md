@@ -4,8 +4,6 @@
 
 Flash MX 2004.
 
-**TextRun object**
-
 ## Description
 
 Property; the text contained in the TextRun object.

@@ -10,7 +10,17 @@ Document.deleteTaggedSwatchByName(name:string)
 
 ## Parameters
 
-**name** `string`; A string that indicates the name of the tagged swatch to delete.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that indicates the name of the tagged swatch to delete.
 
 ## Returns
 

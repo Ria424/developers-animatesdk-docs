@@ -10,10 +10,29 @@ Timeline.reverseFrames(\[startFrameIndex \[, endFrameIndex\]\])
 
 ## Parameters
 
-**startFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to start reversing frames. If you omit
-*startFrameIndex*, the method uses the current selection. This parameter is optional.
+### **startFrameIndex**
 
-**endFrameIndex** `integer?`; A zero-based index that specifies the first frame at which to stop reversing frames; the range of frames goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index that specifies the first frame to start reversing. If omitted, the current selection is used. Optional.
+
+### **endFrameIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based integer index specifying the frame at which to stop reversing. The range includes frames from **`startFrameIndex`** up to, but not including, **`endFrameIndex`**. If omitted, it defaults to **`startFrameIndex`**. Optional.
 
 ## Returns
 

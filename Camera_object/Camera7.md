@@ -6,13 +6,33 @@ Adobe Animate 2019
 
 ## Usage
 
-Camera.setZoom(frameIndex, zoomVal)
+setZoom(frameIndex, zoomVal)
 
 ## Parameters
 
-**frameIndex** `integer`;
+### **frameIndex**
 
-**zoomVal** `integer`;
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
+
+### **zoomVal**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+integer
 
 ## Returns
 

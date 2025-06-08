@@ -10,11 +10,41 @@ Document.exportSVG(fileURI, currentSettings, currentFrame);
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the output file path (without file extension)
+### **fileURI**
 
-**currentSettings** `boolean`; Specifies whether to use the current SVG export settings (true) or to display the Export SVG dialog box (false)
+#### Type
 
-**currentFrame** `boolean`; Specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate SVG file (false)
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the output file path (without file extension)
+
+### **currentSettings**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+Specifies whether to use the current SVG export settings (true) or to display the Export SVG dialog box (false)
+
+### **currentFrame**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+Specifies whether to export only the current frame (true) or to export all frames, with each frame as a separate SVG file (false)
 
 ## Returns
 

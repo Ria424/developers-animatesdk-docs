@@ -10,7 +10,17 @@ Document.duplicatePublishProfile([profileName])
 
 ## Parameters
 
-**profileName** `string?`; A string that specifies the unique name of the duplicated profile. If you do not specify a name, the method uses the default name. This parameter is optional.
+### **profileName**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+A string that specifies the unique name of the duplicated profile. If you do not specify a name, the method uses the default name. This parameter is optional.
 
 ## Returns
 

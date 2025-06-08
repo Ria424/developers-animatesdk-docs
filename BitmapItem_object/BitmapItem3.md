@@ -4,9 +4,15 @@
 
 Flash CS4 Professional.
 
+## Type
+
+```typescript
+string
+```
+
 ## Description
 
-Read-only property; `string`; A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the modification date of the original file at the time the file was imported to the library. If the file no longer exists, this value is *"00000000"*.
+Read-only property; A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the modification date of the original file at the time the file was imported to the library. If the file no longer exists, this value is *"00000000"*.
 
 ## Example
 

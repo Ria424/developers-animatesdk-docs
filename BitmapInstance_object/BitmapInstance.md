@@ -4,14 +4,6 @@
 
 Flash MX 2004.
 
-## Usage
-
-BitmapInstance.getBits()
-
-## Parameters
-
-None.
-
 ## Returns
 
 `{width: integer; height: integer; depth: integer; cTab: integer}`; An object that contains width, height, depth, bits, and, if the bitmap has a color table, cTab properties. The bits element is an array of bytes. The cTab element is an array of color values of the form "\#RRGGBB". The length of the array is the length of the color table.

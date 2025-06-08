@@ -10,7 +10,17 @@ Document.setAlignToDocument(bToStage)
 
 ## Parameters
 
-**bToStage** `boolean`; A boolean value that, if set to true, aligns objects to the Stage. If set to false, it does not.
+### **bToStage**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that, if set to true, aligns objects to the Stage. If set to false, it does not.
 
 ## Returns
 

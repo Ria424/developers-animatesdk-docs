@@ -10,7 +10,17 @@ Document.importPublishProfileString(xmlString)
 
 ## Parameters
 
-**xmlString** `string`; A string that contains the XML data to be imported as the current profile.
+### **xmlString**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that contains the XML data to be imported as the current profile.
 
 ## Returns
 

@@ -10,9 +10,29 @@ Frame.setMotionObjectXML(xmlstr [, endAtCurrentLocation])
 
 ## Parameters
 
-**xmlstr** `string`; Specifies the XML string.
+### **xmlstr**
 
-**endAtCurrentLocation** `boolean`; Determines whether the tween starts or ends at the current position.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the XML string.
+
+### **endAtCurrentLocation**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+Determines whether the tween starts or ends at the current position.
 
 ## Description
 

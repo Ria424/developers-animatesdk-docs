@@ -10,11 +10,41 @@ ComponentsPanel.addItemToDocument(position, categoryName, componentName)
 
 ## Parameters
 
-**position** `Point`; A point (for example, {x: 0, y: 100}) that specifies the location at which to add the component. Specify *position* relative to the center point of the component—not the component’s registration point (also *origin point* or *zero point*).
+### **position**
 
-**categoryName** `string`; Specifies the name of the component category (for example, *"Data"*). The valid category names are listed in the Components panel.
+#### Type
 
-**componentName** `string`; Specifies the name of the component in the specified category (for example, *"WebServiceConnector"*). The valid component names are listed in the Components panel.
+```typescript
+Point
+```
+
+#### Description
+
+A point (for example, {x: 0, y: 100}) that specifies the location at which to add the component. Specify *position* relative to the center point of the component—not the component’s registration point (also *origin point* or *zero point*).
+
+### **categoryName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the component category (for example, *"Data"*). The valid category names are listed in the Components panel.
+
+### **componentName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the component in the specified category (for example, *"WebServiceConnector"*). The valid component names are listed in the Components panel.
 
 ## Returns
 

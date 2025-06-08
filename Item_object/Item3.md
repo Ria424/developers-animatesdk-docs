@@ -10,7 +10,17 @@ Item.hasData(name)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the data to check for in the library item.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the data to check for in the library item.
 
 ## Returns
 

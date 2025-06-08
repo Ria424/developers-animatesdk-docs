@@ -10,7 +10,17 @@ Document.importPublishProfile(fileURI)
 
 ## Parameters
 
-**fileURI** `string`; A string, expressed as a file:/// URI, that specifies the path of the XML file defining the profile to import.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path of the XML file defining the profile to import.
 
 ## Returns
 

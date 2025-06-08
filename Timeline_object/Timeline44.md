@@ -10,7 +10,17 @@ Timeline.setGuidelines(xmlString)
 
 ## Parameters
 
-**xmlString** `string`; An XML string that contains information on the guidelines to apply.
+### **xmlString**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+An XML string that contains information on the guidelines to apply.
 
 ## Returns
 

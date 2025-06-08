@@ -10,7 +10,17 @@ Document.setCustomStroke(stroke)
 
 ## Parameters
 
-**stroke** `Stroke`; A [Stroke object](../Stroke_object/Stroke_summary.md).
+### **stroke**
+
+#### Type
+
+```typescript
+Stroke
+```
+
+#### Description
+
+A [Stroke object](../Stroke_object/Stroke_summary.md).
 
 ## Returns
 

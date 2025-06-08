@@ -10,7 +10,17 @@ Document.renameScene(name)
 
 ## Parameters
 
-**name** `string`; The new name of the scene.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The new name of the scene.
 
 ## Returns
 

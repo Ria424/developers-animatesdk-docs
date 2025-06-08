@@ -10,11 +10,41 @@ Timeline.expandFolder(bExpand \[, bRecurseNestedParents \[, index\]\])
 
 ## Parameters
 
-**bExpand** `boolean`; A boolean value that, if set to true, causes the method to expand the folder; false causes the method to collapse the folder.
+### **bExpand**
 
-**bRecurseNestedParents** `boolean?`; A Boolean value that, if set to true, causes all the layers within the specified folder to be opened or closed, based on the *bExpand* parameter. This parameter is optional.
+#### Type
 
-**index** `integer?`; A zero-based index of the folder to expand or collapse. Use -1 to apply to all layers (you also must set *bRecurseNestedParents* to true). This property is equivalent to the Expand All/Collapse All menu items in the Animate authoring tool. This parameter is optional.
+```typescript
+boolean
+```
+
+#### Description
+
+A boolean value that, if set to true, causes the method to expand the folder; false causes the method to collapse the folder.
+
+### **bRecurseNestedParents**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+A Boolean value that, if set to true, causes all the layers within the specified folder to be opened or closed, based on the *bExpand* parameter. This parameter is optional.
+
+### **index**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+A zero-based index of the folder to expand or collapse. Use -1 to apply to all layers (you also must set *bRecurseNestedParents* to true). This property is equivalent to the Expand All/Collapse All menu items in the Animate authoring tool. This parameter is optional.
 
 ## Returns
 

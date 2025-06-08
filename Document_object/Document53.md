@@ -10,7 +10,17 @@ Document.documentHasData(name)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the data to check.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the data to check.
 
 ## Returns
 

@@ -10,11 +10,21 @@ fl.toggleBreakpoint(String fileURI, int line, Boolean enable)
 
 ## Parameters
 
-**fileURI** A string; the URI of the the AS file in which to toggle the breakpoint.
+**fileURI** `string`; A string; the URI of the the AS file in which to toggle the breakpoint.
 
-**line** An integer; the line number at which to toggle the breakpoint.
+**line** `number`; An integer; the line number at which to toggle the breakpoint.
 
-**enable** `boolean`; If set to true, the breakpoint is enabled. If set to false, the breakpoint is disabled.
+### **enable**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+If set to true, the breakpoint is enabled. If set to false, the breakpoint is disabled.
 
 ## Description
 

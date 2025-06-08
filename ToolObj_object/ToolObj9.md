@@ -10,7 +10,17 @@ ToolObj.setToolTip(toolTip)
 
 ## Parameters
 
-**toolTip** `string`; The tooltip to use for the tool.
+### **toolTip**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The tooltip to use for the tool.
 
 ## Returns
 

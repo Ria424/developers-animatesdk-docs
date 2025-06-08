@@ -10,7 +10,17 @@ fl.saveDocumentAs(document)
 
 ## Parameters
 
-**document** `Document`; A [Document object](../Document_object/Document_summary.md) that specifies the document to save. If *document* is null, the active document is saved.
+### **document**
+
+#### Type
+
+```typescript
+Document
+```
+
+#### Description
+
+A [Document object](../Document_object/Document_summary.md) that specifies the document to save. If *document* is null, the active document is saved.
 
 ## Returns
 

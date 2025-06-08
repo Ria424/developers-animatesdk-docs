@@ -10,9 +10,29 @@ DrawingLayer.moveTo(x, y)
 
 ## Parameters
 
-**x** `number`; A floating-point value that specifies the *x* coordinate of the position at which to start drawing.
+### **x**
 
-**y** `number`; A floating-point value that specifies the *y* coordinate of the position at which to start drawing.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the *x* coordinate of the position at which to start drawing.
+
+### **y**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point value that specifies the *y* coordinate of the position at which to start drawing.
 
 ## Returns
 

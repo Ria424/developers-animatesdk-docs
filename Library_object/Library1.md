@@ -10,9 +10,29 @@ Library.addNewItem(type [, namePath])
 
 ## Parameters
 
-**type** `string`; Specifies the type of item to create. The only acceptable values for *type* are *"video", "movie clip", "button", "graphic", "bitmap", "screen", and "folder"* (so, for example, you cannot add a sound to the library with this method). Specifying a folder path is the same as using [Library.newFolder()](../Library_object/Library12.md) before calling this method.
+### **type**
 
-**namePath** `string?`; Specifies the name of the item to be added. If the item is in a folder, specify its name and path using slash notation. This parameter is optional.
+#### Type
+
+```typescript
+"video" | "movie clip" | "button" | "graphic" | "bitmap" | "screen" | "folder"
+```
+
+#### Description
+
+Specifies the type of item to create. Valid values are: `"video"`, `"movie clip"`, `"button"`, `"graphic"`, `"bitmap"`, `"screen"`, and `"folder"`. You cannot use this method to add sounds. Creating a folder is equivalent to calling [Library.newFolder()](../Library_object/Library12.md) first.
+
+### **namePath**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+Specifies the name of the item to be added. If the item is in a folder, specify its name and path using slash notation. This parameter is optional.
 
 ## Returns
 

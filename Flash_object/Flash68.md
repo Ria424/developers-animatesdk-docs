@@ -4,17 +4,57 @@
 
 Flash CS3 Professional.
 
-## Usage
-
-fl.selectTool(toolName)
-
 ## Parameters
 
-**toolName** A string that specifies the name of the tool to select. See "Description" below for information on acceptable values for this parameter.
+### **toolName**
+
+#### Type
+
+```typescript
+"arrow"
+| "bezierSelect"
+| "freeXform"
+| "fillXform"
+| "lasso"
+| "pen"
+| "penplus"
+| "penminus"
+| "penmodify"
+| "text"
+| "line"
+| "rect"
+| "oval"
+| "rectPrimitive"
+| "ovalPrimitive"
+| "polystar"
+| "pencil"
+| "brush"
+| "inkBottle"
+| "bucket"
+| "eyeDropper"
+| "eraser"
+| "hand"
+| "magnifier"
+| "GPUBrush"
+| "ThreeDRotate"
+| "ThreeDXform"
+| "lassoPoly"
+| "magicWand"
+| "paintBrush"
+| "camera"
+| "width"
+| "stageRotation"
+| "timeScrub"
+| "puppet"
+```
+
+#### Description
+
+A string that specifies the name of the tool to select. See "Description" below for information on acceptable values for this parameter.
 
 ## Description
 
-Method; selects the specified tool in the Tools panel. The acceptable values for *toolName* are "arrow", "bezierSelect", "freeXform", "fillXform", "lasso", "pen", "penplus", "penminus", "penmodify", "text", "line", "rect", "oval", "rectPrimitive", "ovalPrimitive", "polystar", "pencil", "brush", "inkBottle", "bucket", "eyeDropper", "eraser", "hand", "magnifier", "GPUBrush", "ThreeDRotate", "ThreeDXform", "lassoPoly", "magicWand", "paintBrush", "camera", "width", "stageRotation", "timeScrub" and "puppet".
+Method; Selects the specified tool in the Tools panel. The acceptable values for **`toolName`** are "arrow", "bezierSelect", "freeXform", "fillXform", "lasso", "pen", "penplus", "penminus", "penmodify", "text", "line", "rect", "oval", "rectPrimitive", "ovalPrimitive", "polystar", "pencil", "brush", "inkBottle", "bucket", "eyeDropper", "eraser", "hand", "magnifier", "GPUBrush", "ThreeDRotate", "ThreeDXform", "lassoPoly", "magicWand", "paintBrush", "camera", "width", "stageRotation", "timeScrub" and "puppet".
 If you or a user creates custom tools, the names of those tools can also be passed as the *toolName* parameter.
 
 ## Example

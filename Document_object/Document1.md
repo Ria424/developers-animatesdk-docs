@@ -10,11 +10,41 @@ Document.addDataToDocument(name, type, data)
 
 ## Parameters
 
-**name** `string`; Specifies the name of the data to add.
+### **name**
 
-**type** `"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"`; A string that defines the type of data to add. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+#### Type
 
-**data** `byte[] | double | double[] | integer | integer[] | string`; The value to add. Valid types depend on the *type* parameter.
+```typescript
+string
+```
+
+#### Description
+
+Specifies the name of the data to add.
+
+### **type**
+
+#### Type
+
+```typescript
+"byteArray" | "double" | "doubleArray" | "integer" | "integerArray" | "string"
+```
+
+#### Description
+
+A string that defines the type of data to add. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
+
+### **data**
+
+#### Type
+
+```typescript
+number | number[] | string
+```
+
+#### Description
+
+The value to add. Valid types depend on the *type* parameter.
 
 ## Returns
 

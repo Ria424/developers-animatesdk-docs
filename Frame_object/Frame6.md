@@ -10,7 +10,17 @@ Frame.getCustomEase([property])
 
 ## Parameters
 
-**property** `"all" | "position" | "rotation" | "scale" | "color" | "filters"?"all"`; An optional string that specifies the property for which you want to return the custom ease value. Acceptable values are *"all", "position", "rotation", "scale", "color", and "filters"*. The default value is *"all"*.
+### **property**
+
+#### Type
+
+```typescript
+"all" | "position" | "rotation" | "scale" | "color" | "filters"?
+```
+
+#### Description
+
+An optional string that specifies the property for which you want to return the custom ease value. Acceptable values are *"all", "position", "rotation", "scale", "color", and "filters"*. The default value is *"all"*.
 
 ## Returns
 

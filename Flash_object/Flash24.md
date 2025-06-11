@@ -10,7 +10,17 @@ fl.fileExists(fileURI)
 
 ## Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that contains the path to the file.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that contains the path to the file.
 
 ## Returns
 

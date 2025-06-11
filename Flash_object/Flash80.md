@@ -10,7 +10,17 @@ fl.xmlPanelFromString(xmlString)
 
 ## Parameters
 
-**xmlString** A string containing XML that defines a dialog.
+### **xmlString**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string containing XML that defines a dialog.
 
 ## Returns
 

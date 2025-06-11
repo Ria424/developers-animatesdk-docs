@@ -10,7 +10,17 @@ fl.findDocumentDOM(id)
 
 ## Parameters
 
-**id** An integer that represents a unique identifier for a document.
+### **id**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that represents a unique identifier for a document.
 
 ## Returns
 

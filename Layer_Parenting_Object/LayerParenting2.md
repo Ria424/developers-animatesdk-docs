@@ -4,18 +4,39 @@
 
 Adobe Animate 2020.
 
-## Parameters
-
-**frameIndex** – It is an integer that specifies absolute frame index.
-**layer** - The layer object to be set as parent.
-
 ## Usage
 
- layer.setRigParentAtFrame(frameIndex,layer)
+Layer.setRigParentAtFrame(frameIndex, layer)
+
+## Parameters
+
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that specifies absolute frame index.
+
+### **layer**
+
+#### Type
+
+```typescript
+Layer
+```
+
+#### Description
+
+The layer object to be set as parent.
 
 ## Returns
 
-Nothing
+Nothing.
 
 ## Description
 

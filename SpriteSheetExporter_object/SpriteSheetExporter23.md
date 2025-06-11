@@ -10,7 +10,17 @@ SpriteSheetExporter.removeSymbol(symbol)
 
 ## Parameters
 
-**symbol** Object; The SymbolItem or SymbolInstance to remove from the sprite sheet.
+### **symbol**
+
+#### Type
+
+```typescript
+SymbolItem | SymbolInstance
+```
+
+#### Description
+
+The SymbolItem or SymbolInstance to remove from the sprite sheet.
 
 ## Returns
 

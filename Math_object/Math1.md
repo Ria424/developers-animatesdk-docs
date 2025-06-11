@@ -10,7 +10,17 @@ Math.invertMatrix(mat)
 
 ## Parameters
 
-**mat** Indicates the Matrix object to invert (see [Matrix object](../Matrix_object/Matrix_summary.md)). It must have the following fields: a, b, c, d, tx, and ty.
+### **mat**
+
+#### Type
+
+```typescript
+Matrix
+```
+
+#### Description
+
+Indicates the Matrix object to invert (see [Matrix object](../Matrix_object/Matrix_summary.md)). It must have the following fields: a, b, c, d, tx, and ty.
 
 ## Returns
 
@@ -18,7 +28,7 @@ A Matrix object that is the inverse of the original matrix.
 
 ## Description
 
-Method; returns the inverse of the specified matrix.
+Method; Returns the inverse of the specified matrix.
 
 ## Example
 

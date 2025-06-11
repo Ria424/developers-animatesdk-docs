@@ -10,9 +10,29 @@ fl.exportPublishProfileString( ucfURI [, profileName] )
 
 ## Parameters
 
-**ucfURI** A string that specifies the file Uniform Resource Identifier (URI) from which to export the publish settings.
+### **ucfURI**
 
-**profileName** A string that specifies the profile name to export. This parameter is optional.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the file Uniform Resource Identifier (URI) from which to export the publish settings.
+
+### **profileName**
+
+#### Type
+
+```typescript
+string?
+```
+
+#### Description
+
+A string that specifies the profile name to export. This parameter is optional.
 
 ## Returns
 

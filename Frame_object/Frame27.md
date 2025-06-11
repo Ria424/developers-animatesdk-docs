@@ -10,7 +10,21 @@ Frame.setSoundEnvelope(soundEnv)
 
 ## Parameters
 
-**soundEnv** A sound envelope.
+### **soundEnv**
+
+#### Type
+
+```typescript
+{
+    mark: number;
+    leftChannel: number;
+    rightChannel: number;
+}[]
+```
+
+#### Description
+
+A sound envelope.
 
 ## Returns
 

@@ -10,7 +10,17 @@ swfPanel.call(request)
 
 ## Parameters
 
-**request** Parameters to pass to the function (see "Description" and "Example" below).
+### **request**
+
+#### Type
+
+```typescript
+any
+```
+
+#### Description
+
+Parameters to pass to the function (see "Description" and "Example" below).
 
 ## Returns
 

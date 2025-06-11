@@ -10,7 +10,17 @@ Document.moveSelectionBy(distanceToMove)
 
 ## Parameters
 
-**distanceToMove** `Point`, A pair of floating-point values that specify the *x* and *y* coordinate values by which the method moves the selection. For example, passing ({x: 1, y: 2}) specifies a location one pixel to the right and two pixels down from the current location.
+### **distanceToMove**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+A pair of floating-point values that specify the *x* and *y* coordinate values by which the method moves the selection. For example, passing ({x: 1, y: 2}) specifies a location one pixel to the right and two pixels down from the current location.
 
 ## Returns
 

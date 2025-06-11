@@ -10,9 +10,29 @@ fl.publishDocument( flaURI [, publishProfile] )
 
 ## Parameters
 
-**flaURI** A string, expressed as a file:/// URI, that specifies the path of the FLA file that should be silently published.
+### **flaURI**
 
-**publishProfile** A string that specifies the publish profile to use when publishing. If this parameter is omitted, the default publish profile is used.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path of the FLA file that should be silently published.
+
+### **publishProfile**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the publish profile to use when publishing. If this parameter is omitted, the default publish profile is used.
 
 ## Returns
 

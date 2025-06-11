@@ -10,7 +10,17 @@ fl.openDocument(fileURI)
 
 ## Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the name of the file to be opened.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the name of the file to be opened.
 
 ## Returns
 

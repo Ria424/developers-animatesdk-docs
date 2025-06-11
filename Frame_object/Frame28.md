@@ -10,7 +10,17 @@ Frame.setSoundEnvelopeLimits(limits)
 
 ## Parameters
 
-**limits** `{start: any; end: any;}`; A structure that contains start and end fields that signify the limits for a custom sound envelope.
+### **limits**
+
+#### Type
+
+```typescript
+{start: number; end: number;}
+```
+
+#### Description
+
+`{start: number; end: number;}`; A structure that contains start and end fields that signify the limits for a custom sound envelope.
 
 ## Returns
 

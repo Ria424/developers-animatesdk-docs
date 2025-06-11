@@ -10,7 +10,17 @@ Flash CS4 Professional.
 
 ## Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
 
 ## Returns
 

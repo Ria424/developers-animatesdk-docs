@@ -10,7 +10,17 @@ Flash CS4 Professional.
 
 ## Parameters
 
-**cubicSegmentIndex** An integer that specifies the cubic segment for which points are returned.
+### **cubicSegmentIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that specifies the cubic segment for which points are returned.
 
 ## Returns
 

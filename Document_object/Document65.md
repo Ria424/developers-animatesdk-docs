@@ -10,7 +10,17 @@ Document.exportPublishProfile(fileURI)
 
 ## Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the path of the XML file to which the profile is exported.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path of the XML file to which the profile is exported.
 
 ## Returns
 

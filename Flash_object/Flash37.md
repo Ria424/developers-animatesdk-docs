@@ -10,7 +10,17 @@ fl.isFontInstalled(fontName)
 
 ## Parameters
 
-**fontName** A string that specifies the name of a device font.
+### **fontName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that specifies the name of a device font.
 
 ## Returns
 

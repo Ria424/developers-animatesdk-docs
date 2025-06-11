@@ -10,7 +10,17 @@ Document.setFilters(filterArray)
 
 ## Parameters
 
-**filterArray** `Filter[]`; The array of filters currently specified.
+### **filterArray**
+
+#### Type
+
+```typescript
+Filter[]
+```
+
+#### Description
+
+The array of filters currently specified.
 
 ## Returns
 

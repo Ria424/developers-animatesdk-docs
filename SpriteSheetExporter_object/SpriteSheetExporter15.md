@@ -6,18 +6,49 @@ Flash Pro CS6.
 
 ## Usage
 
-SpriteSheetExporter.exportSpriteSheet( path, imageFormat [, writeMetaData] )
+SpriteSheetExporter.exportSpriteSheet(path, imageFormat [, writeMetaData])
 
 ## Parameters
 
-**path** String; A file path with no extension to be used as the base name of the exported files.
-**imageFormat** String or Object. A string or an object that describes the type of image format to generate.
+### **path**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A file path with no extension to be used as the base name of the exported files.
+
+### **imageFormat**
+
+#### Type
+
+```typescript
+"png" | "jpg" | {format: "png" | "jpg"; backgroundColor?: string; quality?: number; bitDepth?: 8 | 24 | 32}
+```
+
+#### Description
+
+A string or an object that describes the type of image format to generate.
 
 - String: Valid values are either "png" or "jpg", the exporter use whatever values where last used.
 
 - Object: If you pass an object, it needs at least a string property "format" which is either "png" or "jpg". Optionally the object may include "backgroundColor," which is a valid color value (alpha may be included); "quality" (jpg only), which is an integer from 1 to 100; and "bitDepth" (png only) which can be 8, 24 or 32.
 
-**writeMetaData** Optional. Boolean; Whether or not to write the metadata file with the image file. The default value is true.
+### **writeMetaData**
+
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Optional. Whether or not to write the metadata file with the image file. The default value is true.
 
 ## Returns
 

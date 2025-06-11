@@ -10,7 +10,17 @@ fl.getAppMemoryInfo(memType)
 
 ## Parameters
 
-**memType** An integer that specifies the memory utilization area to be queried. For a list of acceptable values, see the following description.
+### **memType**
+
+#### Type
+
+```typescript
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+```
+
+#### Description
+
+An integer that specifies the memory utilization area to be queried. For a list of acceptable values, see the following description.
 
 ## Returns
 
@@ -25,9 +35,6 @@ Method (Windows only); returns an integer that represents the number of bytes be
 | 0 | PAGEFAULTCOUNT |
 | 1 | PEAKWORKINGSETSIZE |
 | 2 | WORKINGSETSIZE |
-
-| **memType** | **Resource data** |
-| --- | --- |
 | 3 | QUOTAPEAKPAGEDPOOLUSAGE |
 | 4 | QUOTAPAGEDPOOLUSAGE |
 | 5 | QUOTAPEAKNONPAGEDPOOLUSAGE |

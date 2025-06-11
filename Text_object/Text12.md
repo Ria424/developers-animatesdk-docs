@@ -10,9 +10,29 @@ text.getTextString([startIndex [, endIndex]])
 
 ## Parameters
 
-**startIndex** An integer that specifies the index (zero-based) of the first character. This parameter is optional.
+### **startIndex**
 
-**endIndex** An integer that specifies the end of the range of text, which starts from *startIndex* and goes up to, but does not include, *endIndex*. This parameter is optional.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+An integer that specifies the index (zero-based) of the first character. This parameter is optional.
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An integer that specifies the end of the range of text, which starts from **`startIndex`** and goes up to, but does not include, **`endIndex`**. This parameter is optional.
 
 ## Returns
 
@@ -20,7 +40,7 @@ A string of the text in the specified range.
 
 ## Description
 
-Method; retrieves the specified range of text. If you omit the optional parameters *startIndex* and *endIndex*, the whole text string is returned. If you specify only *startIndex*, the method returns the string starting at the index location and ending at the end of the field. If you specify both *startIndex* and *endIndex*, the method returns the string starting from *startIndex* and goes up to, but does not include, *endIndex*.
+Method; retrieves the specified range of text. If you omit the optional parameters **`startIndex`** and **`endIndex`**, the whole text string is returned. If you specify only **`startIndex`**, the method returns the string starting at the index location and ending at the end of the field. If you specify both **`startIndex`** and **`endIndex`**, the method returns the string starting from **`startIndex`** and goes up to, but does not include, **`endIndex`**.
 
 ## Example
 

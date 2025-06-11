@@ -10,11 +10,21 @@ TextureAtlasExporter.exportTextureAtlas(symbol, path)
 
 ## Parameters
 
-**_symbol_**:  Object; The SymbolItem or SymbolInstance on which texture atlas should be generated.
+### **symbol**
+
+#### Type
+
+```typescript
+SymbolItem | SymbolInstance
+```
+
+#### Description
+
+The SymbolItem or SymbolInstance on which texture atlas should be generated.
 
 ## Returns
 
-Boolean.
+`boolean`;
 
 ## Description
 

@@ -10,9 +10,29 @@ Document.setTaggedSwatchByName(oldSwatchName:name, newSwatch:object).
 
 ## Parameters
 
-**oldSwatchName**: `string`; A string that indicates the name of the tagged swatch to update.
+### **oldSwatchName**
 
-**newSwatch**: `Swatch`; New swatch Object.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that indicates the name of the tagged swatch to update.
+
+### **newSwatch**
+
+#### Type
+
+```typescript
+Swatch
+```
+
+#### Description
+
+New swatch Object.
 
 ## Returns
 

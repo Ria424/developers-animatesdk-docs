@@ -10,9 +10,29 @@ path.addPoint(x, y)
 
 ## Parameters
 
-**x**  A floating-point number that specifies the *x* position of the point.
+### **x**
 
-**y**  A floating-point number that specifies the *y* position of the point.
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point number that specifies the *x* position of the point.
+
+### **y**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A floating-point number that specifies the *y* position of the point.
 
 ## Returns
 

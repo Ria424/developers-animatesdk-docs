@@ -6,11 +6,21 @@ Flash MX 2004.
 
 ## Usage
 
-*shape.deleteEdge(index)*
+Shape.deleteEdge(index)
 
 ## Parameters
 
-**index** A zero-based index that specifies the edge to delete from the [Shape.edges](../Shape_object/Shape3.md) array. This method changes the length of the shape.edges array.
+### **index**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+A zero-based index that specifies the edge to delete from the [Shape.edges](../Shape_object/Shape3.md) array. This method changes the length of the shape.edges array.
 
 ## Returns
 

@@ -10,13 +10,33 @@ fl.copyLibraryItem(fileURI, libraryItemPath)
 
 ## Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that contains the path to the FLA or XFL file.
+### **fileURI**
 
-**libraryItemPath** A string, that specifies the path to the library item to be copied.
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that contains the path to the FLA or XFL file.
+
+### **libraryItemPath**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, that specifies the path to the library item to be copied.
 
 ## Returns
 
-A Boolean value: true if the copy succeeds; false otherwise.
+`boolean`; True if the copy succeeds; false otherwise.
 
 ## Description
 

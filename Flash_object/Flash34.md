@@ -10,13 +10,33 @@ fl.getThemeFontInfo(infoType, size)
 
 ## Parameters
 
-**infoType** A string that contains one of the following:
+### **infoType**
+
+#### Type
+
+```typescript
+"fontStyle" | "fontSize"
+```
+
+#### Description
+
+A string that contains one of the following:
 
 - fontStyle - Return the font style for the size specified by the *size* parameter.
 
 - fontSize - Return the font size for the size specified by the *size* parameter.
 
-**size** A string that specifies either "large" or "small".
+### **size**
+
+#### Type
+
+```typescript
+"large" | "small"
+```
+
+#### Description
+
+A string that specifies either "large" or "small".
 
 ## Returns
 

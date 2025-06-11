@@ -10,7 +10,17 @@ SpriteSheetExporter.addBitmap(bitmap)
 
 ## Parameters
 
-**bitmap** The BitmapItem or Bitmap to include in the sprite sheet.
+### **bitmap**
+
+#### Type
+
+```typescript
+BitmapItem | Bitmap
+```
+
+#### Description
+
+The BitmapItem or Bitmap to include in the sprite sheet.
 
 ## Returns
 

@@ -10,7 +10,17 @@ fl.findDocumentIndex(name)
 
 ## Parameters
 
-**name** The document name for which you want to find the index. The document must be open.
+### **name**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+The document name for which you want to find the index. The document must be open.
 
 ## Returns
 

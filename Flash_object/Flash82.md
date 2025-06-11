@@ -1,4 +1,4 @@
-# Flash.addToolInToolbar() 
+# Flash.addToolInToolbar()
 
 ## Availability
 
@@ -10,7 +10,51 @@ fl.addToolInToolbar(toolName)
 
 ## Parameters
 
-**toolName** A string that specifies the name of the tool to select. Refer [Flash.selectTool](../Flash_object/Flash68.md) description for the acceptable *toolName* values.
+### **toolName**
+
+#### Type
+
+```typescript
+"arrow"
+| "bezierSelect"
+| "freeXform"
+| "fillXform"
+| "lasso"
+| "pen"
+| "penplus"
+| "penminus"
+| "penmodify"
+| "text"
+| "line"
+| "rect"
+| "oval"
+| "rectPrimitive"
+| "ovalPrimitive"
+| "polystar"
+| "pencil"
+| "brush"
+| "inkBottle"
+| "bucket"
+| "eyeDropper"
+| "eraser"
+| "hand"
+| "magnifier"
+| "GPUBrush"
+| "ThreeDRotate"
+| "ThreeDXform"
+| "lassoPoly"
+| "magicWand"
+| "paintBrush"
+| "camera"
+| "width"
+| "stageRotation"
+| "timeScrub"
+| "puppet"
+```
+
+#### Description
+
+A string that specifies the name of the tool to select. Refer [Flash.selectTool](../Flash_object/Flash68.md) description for the acceptable **`toolName`** values.
 
 ## Returns
 

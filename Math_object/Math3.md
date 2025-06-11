@@ -10,16 +10,37 @@ Math.transformPoint(matrix, point)
 
 ## Parameters
 
-**matrix** Contains the matrix obejct applied to the point.
-**point** Contains the point to which the matrix is applied.
+### **matrix**
+
+#### Type
+
+```typescript
+Matrix
+```
+
+#### Description
+
+Contains the matrix obejct applied to the point.
+
+### **point**
+
+#### Type
+
+```typescript
+Point
+```
+
+#### Description
+
+Contains the point to which the matrix is applied.
 
 ## Returns
 
-The transformed point.
+`Point`; The transformed point.
 
 ## Description
 
-Method; applies a matrix to a point.
+Method; Applies a matrix to a point.
 
 ## Example
 

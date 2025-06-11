@@ -10,7 +10,17 @@ SpriteSheetExporter.removeBitmap(bitmap)
 
 ## Parameters
 
-**bitmap** The BitmapItem or Bitmap to remove from the sprite sheet.
+### **bitmap**
+
+#### Type
+
+```typescript
+BitmapItem | Bitmap
+```
+
+#### Description
+
+The BitmapItem or Bitmap to remove from the sprite sheet.
 
 ## Returns
 

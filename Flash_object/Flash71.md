@@ -10,11 +10,41 @@ fl.setPrefBoolean(keySection, keyName, keyValue)
 
 ## Parameters
 
-**keySection** A string that contains the preferences section that contains keyName. (usually this is "Settings").
+### **keySection**
 
-**keyName** A string that contains the name of the boolean preference setting to be set.
+#### Type
 
-**keyValue** A string that contains the value to be set (true ohr false).
+```typescript
+string
+```
+
+#### Description
+
+A string that contains the preferences section that contains keyName. (usually this is "Settings").
+
+### **keyName**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that contains the name of the boolean preference setting to be set.
+
+### **keyValue**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string that contains the value to be set (true or false).
 
 ## Returns
 
@@ -22,7 +52,7 @@ None.
 
 ## Description
 
-Method; sets a boolean preference value.
+Method; Sets a boolean preference value.
 
 ## Example
 

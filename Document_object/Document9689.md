@@ -34,8 +34,17 @@ boolean?
 
 Specifies whether the method replaces the current selection (true) or adds to the current selection (false). The default value is true.
 
+### **bContactSensitiveSelection**
 
-**bContactSensitiveSelection** `boolean?false` Specifies whether the Contact Sensitive selection mode is enabled (true) or disabled (false) during object selection. The default value is false.
+#### Type
+
+```typescript
+boolean?
+```
+
+#### Description
+
+Specifies whether the Contact Sensitive selection mode is enabled (true) or disabled (false) during object selection. The default value is false.
 
 ## Returns
 

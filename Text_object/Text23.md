@@ -10,11 +10,41 @@ text.setTextString(text [, startIndex [, endIndex]])
 
 ## Parameters
 
-**text** A string that consists of the characters to be inserted into this Text object.
+### **text**
 
-**startIndex** An integer that specifies the index (zero-based) of the character in the string where the text will be inserted. This parameter is optional.
+#### Type
 
-**endIndex** An integer that specifies the index of the end point in the selected text string. The new text overwrites the text from *startIndex* up to, but not including, *endIndex*. This parameter is optional.
+```typescript
+string
+```
+
+#### Description
+
+A string that consists of the characters to be inserted into this Text object.
+
+### **startIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An integer that specifies the index (zero-based) of the character in the string where the text will be inserted. This parameter is optional.
+
+### **endIndex**
+
+#### Type
+
+```typescript
+number?
+```
+
+#### Description
+
+An integer that specifies the index of the end point in the selected text string. The new text overwrites the text from **`startIndex`** up to, but not including, **`endIndex`**. This parameter is optional.
 
 ## Returns
 
@@ -22,7 +52,7 @@ Nothing.
 
 ## Description
 
-Property; changes the text string within this Text object. If you omit the optional parameters, the whole Text object is replaced. If you specify only *startIndex*, the specified string is inserted at the *startIndex* position. If you specify both *startIndex* and *endIndex*, the specified string replaces the segment of text starting from *startIndex* up to, but not including, *endIndex*.
+Property; changes the text string within this Text object. If you omit the optional parameters, the whole Text object is replaced. If you specify only **`startIndex`**, the specified string is inserted at the **`startIndex`** position. If you specify both **`startIndex`** and **`endIndex`**, the specified string replaces the segment of text starting from **`startIndex`** up to, but not including, **`endIndex`**.
 
 ## Example
 

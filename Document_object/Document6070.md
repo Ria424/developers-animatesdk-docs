@@ -10,7 +10,17 @@ Document.exportCanvasPublishTemplate(pathURI).
 
 ## Parameters
 
-**pathURI**: `string`; A string, expressed as a file:/// URI, that specifies the path of the generated HTML template.
+### **pathURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path of the generated HTML template.
 
 ## Returns
 

@@ -4,17 +4,27 @@
 
 Adobe Animate 2020.
 
-## Parameters
-
-**frameIndex** – It is an integer that specifies absolute frame index.
-
 ## Usage
 
-layer.getRigMatrixAtFrame(frameIndex)
+Layer.getRigMatrixAtFrame(frameIndex)
+
+## Parameters
+
+### **frameIndex**
+
+#### Type
+
+```typescript
+number
+```
+
+#### Description
+
+It is an integer that specifies absolute frame index.
 
 ## Returns
 
-matrix object
+`Matrix`; Matrix object
 
 ## Description
 

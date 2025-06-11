@@ -14,7 +14,7 @@ None.
 
 ## Returns
 
-`SoundItem`; Returns [SoundItem object](../SoundItem_object/SoundItem_summary.md)
+`{mark: number; leftChannel: number; rightChannel: number;}[]`; Returns SoundEnvelope object.
 
 ## Description
 

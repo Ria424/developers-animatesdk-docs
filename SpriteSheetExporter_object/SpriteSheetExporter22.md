@@ -15,7 +15,7 @@ SpriteSheetExporter.removeBitmap(bitmap)
 #### Type
 
 ```typescript
-BitmapItem | Bitmap
+BitmapItem | BitmapInstance
 ```
 
 #### Description

@@ -15,7 +15,7 @@ SpriteSheetExporter.addBitmap(bitmap)
 #### Type
 
 ```typescript
-BitmapItem | Bitmap
+BitmapItem | BitmapInstance
 ```
 
 #### Description

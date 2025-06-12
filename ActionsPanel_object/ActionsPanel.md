@@ -24,7 +24,7 @@ The name of an ActionScript variable.
 
 ## Returns
 
-`string`; The class of which *ASvariableName* is a member.
+`string`; The class of which **`ASvariableName`** is a member.
 
 ## Description
 

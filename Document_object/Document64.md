@@ -48,7 +48,13 @@ A boolean value that specifies whether to export only the current frame (true) o
 
 ## Returns
 
-`boolean`; true if the file is successfully exported as a PNG file; false otherwise.
+true if the file is successfully exported as a PNG file; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

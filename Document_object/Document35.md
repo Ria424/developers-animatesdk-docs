@@ -14,7 +14,11 @@ None.
 
 ## Returns
 
-`boolean`;
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

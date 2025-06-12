@@ -24,7 +24,13 @@ A URI specifying the XML file that defines the controls in the panel. You must s
 
 ## Returns
 
-`XMLUI`; The object returned contains properties for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss," which will have a string value that is either "accept" or "cancel".
+The object returned contains properties for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss," which will have a string value that is either "accept" or "cancel".
+
+### Type
+
+```typescript
+XMLUI
+```
 
 ## Description
 

@@ -36,7 +36,13 @@ Point that specify the starting-click point and the drag-to point.
 
 ## Returns
 
-`Point`; A new adjusted or constrained point.
+A new adjusted or constrained point.
+
+### Type
+
+```typescript
+Point
+```
 
 ## Description
 

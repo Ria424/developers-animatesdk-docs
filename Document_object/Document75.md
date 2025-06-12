@@ -31,7 +31,13 @@ If you omit this parameter, it defaults to "selection". If there is no selection
 
 ## Returns
 
-`Stroke | undefined`; The [Stroke object](../Stroke_object/Stroke_summary.md) specified by the *locationOfStroke* parameter, if successful; otherwise, it returns undefined.
+The [Stroke object](../Stroke_object/Stroke_summary.md) specified by the *locationOfStroke* parameter, if successful; otherwise, it returns undefined.
+
+### Type
+
+```typescript
+Stroke | undefined
+```
 
 ## Description
 

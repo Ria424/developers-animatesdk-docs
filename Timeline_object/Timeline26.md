@@ -10,7 +10,13 @@ None.
 
 ## Returns
 
-`integer`; An array of the zero-based index values of the selected layers.
+An array of the zero-based index values of the selected layers.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

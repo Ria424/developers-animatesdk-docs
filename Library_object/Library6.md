@@ -24,7 +24,13 @@ For a list of values that you can use as a *property* parameter, see the Propert
 
 ## Returns
 
-`string`; A string value for the property.
+A string value for the property.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

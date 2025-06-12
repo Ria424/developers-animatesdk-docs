@@ -36,7 +36,13 @@ Specifies the item to add and the library from which to add it (see [Item object
 
 ## Returns
 
-`boolean`; true if successful; false otherwise.
+true if successful; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

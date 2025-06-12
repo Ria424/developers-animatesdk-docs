@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that specifies the path of the HTML templ
 
 ## Returns
 
-`boolean`; True if imported successfully.False otherwise.
+True if imported successfully.False otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

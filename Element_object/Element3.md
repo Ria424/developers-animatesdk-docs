@@ -39,7 +39,13 @@ A string that specifies the publishing format.
 
 ## Returns
 
-`boolean`; True if the specified persistent data is enabled for the specified format. Otherwise False.
+True if the specified persistent data is enabled for the specified format. Otherwise False.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

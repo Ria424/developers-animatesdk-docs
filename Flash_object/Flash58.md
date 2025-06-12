@@ -43,7 +43,13 @@ An integer that specifies the listener ID returned from the corresponding fl.add
 
 ## Returns
 
-`boolean`; A boolean value of true if the event listener was successfully removed; false if the function was never added to the list with the `fl.addEventListener()` method.
+A boolean value of true if the event listener was successfully removed; false if the function was never added to the list with the `fl.addEventListener()` method.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

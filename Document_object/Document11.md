@@ -24,7 +24,13 @@ Specifies the name of the scene. If you do not specify a name, a new scene name 
 
 ## Returns
 
-`boolean`; true if the scene is added successfully; false otherwise.
+true if the scene is added successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

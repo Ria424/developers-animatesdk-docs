@@ -24,7 +24,13 @@ A string that specifies the unique name of the duplicated profile. If you do not
 
 ## Returns
 
-`integer`; An integer that is the index of the new profile in the profile list. Returns -1 if the profile cannot be duplicated.
+An integer that is the index of the new profile in the profile list. Returns -1 if the profile cannot be duplicated.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

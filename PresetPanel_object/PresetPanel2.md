@@ -24,7 +24,13 @@ A string that specifies the folder to delete from the Motion Presets panel. This
 
 ## Returns
 
-`boolean`; A boolean value of *true* if the folder or folders are successfully deleted; false otherwise.
+A boolean value of *true* if the folder or folders are successfully deleted; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

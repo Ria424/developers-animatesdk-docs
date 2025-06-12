@@ -24,7 +24,13 @@ A folder URI that specifies the folder structure you want to create.
 
 ## Returns
 
-`boolean`; A boolean value of true if successful; false if *folderURI* already exists.
+A boolean value of true if successful; false if *folderURI* already exists.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

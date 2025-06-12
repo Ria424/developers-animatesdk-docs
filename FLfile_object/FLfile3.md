@@ -24,8 +24,14 @@ Expressed as a file:/// URI, specifying the file or folder whose attributes you 
 
 ## Returns
 
-`string`; A string that represents the attributes of the specified file or folder.
+A string that represents the attributes of the specified file or folder.
 Results are unpredictable if the file or folder doesn’t exist. You should use [FLfile.exists()](../FLfile_object/FLfile2.md) before using this method.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

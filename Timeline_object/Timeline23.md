@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`string`; An XML string.
+An XML string.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

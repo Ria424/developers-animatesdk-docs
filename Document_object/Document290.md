@@ -24,7 +24,13 @@ The new name of the scene.
 
 ## Returns
 
-`boolean`; true if the name is changed successfully; false otherwise. If the new name is not unique, for example, the method returns false.
+true if the name is changed successfully; false otherwise. If the new name is not unique, for example, the method returns false.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -58,7 +58,13 @@ A string that specifies the name of the tool to select. Refer [Flash.selectTool]
 
 ## Returns
 
-`boolean`; Returns true if the specified tool was added successfully in the Tools Panel.
+Returns true if the specified tool was added successfully in the Tools Panel.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

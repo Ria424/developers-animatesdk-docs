@@ -24,7 +24,13 @@ Specifies the name of the item. If the item is in a folder, specify its name and
 
 ## Returns
 
-`boolean`; *true* if Flash updated the item successfully; *false* otherwise.
+*true* if Flash updated the item successfully; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

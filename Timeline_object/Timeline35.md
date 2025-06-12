@@ -24,7 +24,13 @@ Optional. A zero-based integer specifying the layer above which the clipboard la
 
 ## Returns
 
-`number`; Integer indicating the lowest layer index of the layers that were pasted.
+Integer indicating the lowest layer index of the layers that were pasted.
+
+### Type
+
+```typescript
+number
+```
 
 ## Description
 

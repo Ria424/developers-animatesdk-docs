@@ -48,7 +48,13 @@ A Boolean value that specifies whether to select the item (*true*) or deselect t
 
 ## Returns
 
-`boolean`; A boolean value of true if the item was successfully selected or deselected; false otherwise.
+A boolean value of true if the item was successfully selected or deselected; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

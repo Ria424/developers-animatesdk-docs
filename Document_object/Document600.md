@@ -24,7 +24,13 @@ A string that represents the version of Flash Player targeted by the specified d
 
 ## Returns
 
-`boolean`; true if the player version was successfully set; false otherwise.
+true if the player version was successfully set; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -6,7 +6,13 @@ Flash CS3 Professional.
 
 ## Returns
 
-`boolean`; A boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
+A boolean value that specifies whether any text is selected in the Actions panel (true) or not (false).
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

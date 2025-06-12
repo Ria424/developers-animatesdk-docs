@@ -24,7 +24,13 @@ A string that specifies where to add a new folder in the Motion Presets panel, a
 
 ## Returns
 
-`boolean`; A boolean value of true if the folder is successfully added; false otherwise.
+A boolean value of true if the folder is successfully added; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

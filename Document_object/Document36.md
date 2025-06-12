@@ -48,7 +48,13 @@ Specifies the point that represents the 0, 0 location for the symbol. Acceptable
 
 ## Returns
 
-`SymbolItem`; An object for the newly created symbol, or null if it cannot create the symbol.
+An object for the newly created symbol, or null if it cannot create the symbol.
+
+### Type
+
+```typescript
+SymbolItem
+```
 
 ## Description
 

@@ -36,7 +36,13 @@ The end position of the selection up to, but not including, *endIndex*. The firs
 
 ## Returns
 
-`boolean`; true if the method can successfully set the text selection; false otherwise.
+true if the method can successfully set the text selection; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

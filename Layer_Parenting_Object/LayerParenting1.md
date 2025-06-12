@@ -24,7 +24,13 @@ An integer that specifies absolute frame index.
 
 ## Returns
 
-`Layer`; Layer object
+Layer object
+
+### Type
+
+```typescript
+Layer
+```
 
 ## Description
 

@@ -24,7 +24,13 @@ Specifies which half edge to return. The value of *index* must be either 0 for t
 
 ## Returns
 
-`HalfEdge`; A HalfEdge object.
+A HalfEdge object.
+
+### Type
+
+```typescript
+HalfEdge
+```
 
 ## Description
 

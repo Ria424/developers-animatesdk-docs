@@ -24,7 +24,11 @@ integer
 
 ## Returns
 
-`integer`;
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

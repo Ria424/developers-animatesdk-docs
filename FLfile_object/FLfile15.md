@@ -48,7 +48,13 @@ An optional string with the value "append", which specifies that you want to app
 
 ## Returns
 
-`boolean`; A boolean value of true if successful; *false* otherwise.
+A boolean value of true if successful; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

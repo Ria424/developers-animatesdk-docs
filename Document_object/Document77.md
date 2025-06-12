@@ -24,7 +24,13 @@ Specifies the name of the Element property for which to retrieve the value.
 
 ## Returns
 
-`integer | null | undefined`; The value of the specified property. Returns null if the property is an indeterminate state, as when multiple elements are selected with different property values. Returns undefined if the property is not a valid property of the selected element.
+The value of the specified property. Returns null if the property is an indeterminate state, as when multiple elements are selected with different property values. Returns undefined if the property is not a valid property of the selected element.
+
+### Type
+
+```typescript
+integer | null | undefined
+```
 
 ## Description
 

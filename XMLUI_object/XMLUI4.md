@@ -24,7 +24,13 @@ Specifies the ID attribute of the control whose status you want to retrieve.
 
 ## Returns
 
-`boolean`; A boolean value of *true* if the control is enabled; *false* otherwise.
+A boolean value of *true* if the control is enabled; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

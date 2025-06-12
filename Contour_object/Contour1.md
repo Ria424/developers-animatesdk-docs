@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`HalfEdge`; A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
+A [HalfEdge object](../HalfEdge_object/HalfEdge_summary.md).
+
+### Type
+
+```typescript
+HalfEdge
+```
 
 ## Description
 

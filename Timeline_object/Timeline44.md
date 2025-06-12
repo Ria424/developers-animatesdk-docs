@@ -24,7 +24,13 @@ An XML string that contains information on the guidelines to apply.
 
 ## Returns
 
-`boolean`; true if the guidelines are successfully applied; false otherwise.
+true if the guidelines are successfully applied; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

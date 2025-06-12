@@ -24,7 +24,13 @@ Specifies the name of the data to check for in the library item.
 
 ## Returns
 
-`boolean`; *true* if the specified data exists; *false* otherwise.
+*true* if the specified data exists; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -14,8 +14,14 @@ None.
 
 ## Returns
 
-`boolean`; true if you can use the document.revert() or fl.revertDocument() methods successfully;
+true if you can use the document.revert() or fl.revertDocument() methods successfully;
 false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

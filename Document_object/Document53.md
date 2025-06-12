@@ -24,7 +24,13 @@ Specifies the name of the data to check.
 
 ## Returns
 
-`boolean`; true if the document has persistent data; false otherwise.
+true if the document has persistent data; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

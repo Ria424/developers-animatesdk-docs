@@ -48,7 +48,13 @@ A zero-based integer index specifying the end frame (exclusive) of the range. If
 
 ## Returns
 
-`any | undefined`; A value for the specified property, or undefined if all the selected frames do not have the same property value.
+A value for the specified property, or undefined if all the selected frames do not have the same property value.
+
+### Type
+
+```typescript
+any | undefined
+```
 
 ## Description
 

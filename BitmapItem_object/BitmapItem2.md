@@ -36,7 +36,13 @@ A integer, from 1-100, that determines the quality of the exported image file. A
 
 ## Returns
 
-`boolean`; A boolean value of true if the file was exported successfully; *false* otherwise.
+A boolean value of true if the file was exported successfully; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

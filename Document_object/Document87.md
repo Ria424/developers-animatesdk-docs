@@ -36,7 +36,13 @@ An integer that is an index of last character to get. This parameter is optional
 
 ## Returns
 
-`string`; A string that contains the selected text.
+A string that contains the selected text.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

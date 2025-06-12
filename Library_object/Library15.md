@@ -48,7 +48,13 @@ Specifies whether to select or deselect an item. The default value is *true* (se
 
 ## Returns
 
-`boolean`; *true* if the specified item exists; false otherwise.
+*true* if the specified item exists; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

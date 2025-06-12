@@ -24,7 +24,13 @@ A string that specifies the name of the data to remove.
 
 ## Returns
 
-`boolean`; True if data was removed; False* otherwise.
+True if data was removed; False* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

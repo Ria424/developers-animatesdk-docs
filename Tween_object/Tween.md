@@ -24,7 +24,7 @@ Offset (integer) index of interpolated frame.
 
 ## Returns
 
-`ColorTransform`; ColorTransform object:
+ColorTransform object:
 
 ```typescript
 declare type ColorTransform = {
@@ -37,6 +37,12 @@ declare type ColorTransform = {
     colorBlueAmount: number;
     colorBluePercent: number;
 }
+```
+
+### Type
+
+```typescript
+ColorTransform
 ```
 
 ## Description

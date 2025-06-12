@@ -24,7 +24,13 @@ Expressed as a file:/// URI, specifying the file or folder whose creation date a
 
 ## Returns
 
-`string`; A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the time the file or folder was created, or *"00000000"* if the file or folder doesn’t exist.
+A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the time the file or folder was created, or *"00000000"* if the file or folder doesn’t exist.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

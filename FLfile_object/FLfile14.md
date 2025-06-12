@@ -24,7 +24,13 @@ Expressed as a file:/// URI, specifying the filename you want to convert.
 
 ## Returns
 
-`string`; A string representing a platform-specific path.
+A string representing a platform-specific path.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

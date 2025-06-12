@@ -24,7 +24,13 @@ A string containing the XML metadata to be associated with the document. For mor
 
 ## Returns
 
-`boolean`; True if successful; false otherwise.
+True if successful; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

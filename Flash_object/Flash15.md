@@ -36,7 +36,13 @@ A string, that specifies the path to the library item to be copied.
 
 ## Returns
 
-`boolean`; True if the copy succeeds; false otherwise.
+True if the copy succeeds; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

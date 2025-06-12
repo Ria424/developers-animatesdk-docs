@@ -10,7 +10,13 @@ Frame.convertToFrameByFrameAnimation()
 
 ## Returns
 
-`boolean`; Returns true if the frame contains animation that can be converted to frame by frame animation. For example: return *true* for Motion Tween frame or Classic Tween frame; return *false* for other type of frame such as static.
+Returns true if the frame contains animation that can be converted to frame by frame animation. For example: return *true* for Motion Tween frame or Classic Tween frame; return *false* for other type of frame such as static.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

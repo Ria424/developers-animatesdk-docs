@@ -24,7 +24,13 @@ A string that specifies the path and name of the item to add to the Motion Prese
 
 ## Returns
 
-`boolean`; A boolean value of true if the item was successfully added; *false* otherwise.
+A boolean value of true if the item was successfully added; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

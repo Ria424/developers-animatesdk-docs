@@ -24,7 +24,13 @@ The name of the property whose value you want to retrieve. For a list of propert
 
 ## Returns
 
-`any | undefined`; The value of the specified property. Animate looks at the layer’s properties to determine the type. If all the specified layers don’t have the same property value, Animate returns undefined.
+The value of the specified property. Animate looks at the layer’s properties to determine the type. If all the specified layers don’t have the same property value, Animate returns undefined.
+
+### Type
+
+```typescript
+any | undefined
+```
 
 ## Description
 

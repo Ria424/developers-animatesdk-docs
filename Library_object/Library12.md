@@ -24,7 +24,13 @@ A string that specifies the name of the folder to be created. If it is specified
 
 ## Returns
 
-`boolean`; true if folder is created successfully; *false* otherwise.
+true if folder is created successfully; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

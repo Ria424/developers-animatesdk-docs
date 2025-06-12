@@ -24,7 +24,13 @@ A string that specifies the name of the item to be deleted. If the item is in a 
 
 ## Returns
 
-`boolean`; *true* if the items are successfully deleted; *false* otherwise.
+*true* if the items are successfully deleted; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

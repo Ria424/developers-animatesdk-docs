@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`string`; A string containing the XML metadata associated with the document or an empty string if there is no metadata.
+A string containing the XML metadata associated with the document or an empty string if there is no metadata.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

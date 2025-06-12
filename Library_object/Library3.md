@@ -24,7 +24,13 @@ Specifies the name of the item to duplicate. If the item is in a folder, you can
 
 ## Returns
 
-`boolean`; *true* if the item is duplicated successfully; *false* otherwise. If more than one item is selected, Flash returns *false*.
+*true* if the item is duplicated successfully; *false* otherwise. If more than one item is selected, Flash returns *false*.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

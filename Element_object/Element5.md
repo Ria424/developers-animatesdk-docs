@@ -24,7 +24,13 @@ A string that specifies the name of the data item to test.
 
 ## Returns
 
-`boolean`; *true* if the specified data is attached to the object; *false* otherwise.
+*true* if the specified data is attached to the object; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -24,7 +24,13 @@ Specifies the ID attribute of the control whose visibility status you want to re
 
 ## Returns
 
-`boolean`; A boolean value of *true* if the control is visible, or *false* if it is invisible (hidden).
+A boolean value of *true* if the control is visible, or *false* if it is invisible (hidden).
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

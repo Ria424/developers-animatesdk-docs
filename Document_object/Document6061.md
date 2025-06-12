@@ -36,7 +36,13 @@ It is an optional integer that specifies the index of the tagged swatch palette,
 
 ## Returns
 
-`Swatch`; Swatch object.
+Swatch object.
+
+### Type
+
+```typescript
+Swatch
+```
 
 ## Description
 

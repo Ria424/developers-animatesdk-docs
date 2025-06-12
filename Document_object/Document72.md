@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; true if the preference is set to align the objects to the Stage; false otherwise.
+true if the preference is set to align the objects to the Stage; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

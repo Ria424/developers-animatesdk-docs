@@ -36,7 +36,13 @@ Expressed as a file:/// URI, that specifies the location and name of the copied 
 
 ## Returns
 
-`boolean`; A boolean value of true if successful; false otherwise.
+A boolean value of true if successful; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

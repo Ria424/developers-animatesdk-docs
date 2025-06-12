@@ -6,7 +6,13 @@ Flash CS3 Professional. *Dropped in Adobe Animate*.
 
 ## Returns
 
-`boolean`; A boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
+A boolean value that specifies whether Script Assist mode is enabled (true) or not (false).
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

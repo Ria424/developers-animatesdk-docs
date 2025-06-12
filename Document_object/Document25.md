@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; true if the Edit Symbols menu and functionality are available for use; false otherwise.
+true if the Edit Symbols menu and functionality are available for use; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -24,8 +24,14 @@ A string that specifies the type of document to create. docType values are "time
 
 ## Returns
 
-`Document`; The Document object for the newly created document, if the method is successful. If an error occurs, the value is
+The Document object for the newly created document, if the method is successful. If an error occurs, the value is
 undefined.
+
+### Type
+
+```typescript
+Document
+```
 
 ## Description
 

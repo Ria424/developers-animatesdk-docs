@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; true if the scene is successfully deleted; false otherwise.
+true if the scene is successfully deleted; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

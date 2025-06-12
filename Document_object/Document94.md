@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that specifies the path of the XML file d
 
 ## Returns
 
-`integer`; An integer that is the index of the imported profile in the profiles list. Returns -1 if the profile cannot be imported.
+An integer that is the index of the imported profile in the profiles list. Returns -1 if the profile cannot be imported.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

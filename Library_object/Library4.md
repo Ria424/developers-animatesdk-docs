@@ -24,7 +24,13 @@ Specifies the name of the item. If the item is in a folder, you can specify its 
 
 ## Returns
 
-`boolean`; *true* if the specified item exists and can be edited; *false* otherwise.
+*true* if the specified item exists and can be edited; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

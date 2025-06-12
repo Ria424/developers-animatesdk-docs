@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`integer`; The integer value of the key.
+The integer value of the key.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

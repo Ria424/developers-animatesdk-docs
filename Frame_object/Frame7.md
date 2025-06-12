@@ -10,7 +10,13 @@ Frame.getMotionObjectXML()
 
 ## Returns
 
-`string`; Motion XML from the selected motion object.
+Motion XML from the selected motion object.
+
+### Type
+
+```typescript
+string
+```
 
 ## Example
 

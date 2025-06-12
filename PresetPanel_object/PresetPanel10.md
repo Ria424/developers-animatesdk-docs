@@ -36,7 +36,13 @@ A string that specifies the path and name of the item to move. This parameter is
 
 ## Returns
 
-`boolean`; A boolean value of true if the items are successfully moved; false otherwise.
+A boolean value of true if the items are successfully moved; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

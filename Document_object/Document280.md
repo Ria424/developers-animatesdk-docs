@@ -24,7 +24,13 @@ An optional parameter that specifies the new name for the profile. The new name 
 
 ## Returns
 
-`boolean`; true if the name is changed successfully; false otherwise.
+true if the name is changed successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

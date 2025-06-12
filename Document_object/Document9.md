@@ -24,7 +24,13 @@ The unique name of the new profile. If you do not specify a name, a default name
 
 ## Returns
 
-`integer`; An integer that is the index of the new profile in the profiles list. Returns -1 if a new profile cannot be created.
+An integer that is the index of the new profile in the profiles list. Returns -1 if a new profile cannot be created.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

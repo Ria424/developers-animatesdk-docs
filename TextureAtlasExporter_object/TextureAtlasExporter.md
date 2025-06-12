@@ -24,7 +24,11 @@ The SymbolItem or SymbolInstance on which texture atlas should be generated.
 
 ## Returns
 
-`boolean`;
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

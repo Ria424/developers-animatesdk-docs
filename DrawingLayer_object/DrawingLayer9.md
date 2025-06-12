@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`Path`; A Path object.
+A Path object.
+
+### Type
+
+```typescript
+Path
+```
 
 ## Description
 

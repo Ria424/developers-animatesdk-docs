@@ -48,7 +48,13 @@ An integer that specifies the last character to replace.
 
 ## Returns
 
-`boolean`; A boolean value: true if the text of at least one text string is set; false otherwise.
+A boolean value: true if the text of at least one text string is set; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

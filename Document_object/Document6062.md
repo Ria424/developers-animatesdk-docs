@@ -24,7 +24,13 @@ Specifies the name of the tagged swatch.
 
 ## Returns
 
-`Swatch`; Swatch object.
+Swatch object.
+
+### Type
+
+```typescript
+Swatch
+```
 
 ## Description
 

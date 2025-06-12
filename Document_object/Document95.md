@@ -24,7 +24,13 @@ A string that contains the XML data to be imported as the current profile.
 
 ## Returns
 
-`boolean`; true if the string was successfully imported; false otherwise.
+true if the string was successfully imported; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

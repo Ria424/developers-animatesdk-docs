@@ -26,7 +26,13 @@ Specifies the publishing format.
 
 ## Returns
 
-`boolean`; True if publishing of the specified persistent data is enabled for the specified format in this document. Otherwise False.
+True if publishing of the specified persistent data is enabled for the specified format in this document. Otherwise False.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

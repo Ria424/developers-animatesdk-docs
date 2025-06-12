@@ -48,7 +48,13 @@ Specifies whether to close the generated file after conversion. Specifying true 
 
 ## Returns
 
-`boolean`; True if document converted to expected document type successfully. False otherwise.
+True if document converted to expected document type successfully. False otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

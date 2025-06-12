@@ -24,7 +24,13 @@ Specifies the name of the profile to export to an XML string. This parameter is 
 
 ## Returns
 
-`string`; An XML string.
+An XML string.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

@@ -24,7 +24,13 @@ integer
 
 ## Returns
 
-`Point`; e.g. {x: 0, y: 0}
+e.g. {x: 0, y: 0}
+
+### Type
+
+```typescript
+Point
+```
 
 ## Description
 

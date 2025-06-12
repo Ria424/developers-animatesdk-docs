@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; A boolean value: true if one or more movie windows were open; false otherwise.
+A boolean value: true if one or more movie windows were open; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

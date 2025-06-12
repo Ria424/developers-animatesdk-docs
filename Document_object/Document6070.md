@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that specifies the path of the generated 
 
 ## Returns
 
-`boolean`; True if exported successfully.False otherwise.
+True if exported successfully.False otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

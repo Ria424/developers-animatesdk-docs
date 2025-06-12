@@ -24,8 +24,14 @@ Specifies the name of the XMLUI property whose value you want to retrieve.
 
 ## Returns
 
-`string`; A string that represents the value of the specified property. In cases where you might expect a Boolean value of *true
+A string that represents the value of the specified property. In cases where you might expect a Boolean value of *true
 or false*, it returns the string *true* or *false*.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

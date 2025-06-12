@@ -48,7 +48,13 @@ If an item with the same name already exists, specifying true for the *bReplace*
 
 ## Returns
 
-`boolean`; *true* if the item moves successfully; *false* otherwise.
+*true* if the item moves successfully; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

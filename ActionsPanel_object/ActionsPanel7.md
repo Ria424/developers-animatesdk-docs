@@ -36,7 +36,13 @@ An integer that specifies how many characters to select.
 
 ## Returns
 
-`boolean`; A boolean value that specifies whether the requested characters can be selected (true) or not (false).
+A boolean value that specifies whether the requested characters can be selected (true) or not (false).
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

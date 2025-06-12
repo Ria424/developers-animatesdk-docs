@@ -24,7 +24,11 @@ integer
 
 ## Returns
 
-`double`;
+### Type
+
+```typescript
+double
+```
 
 ## Description
 

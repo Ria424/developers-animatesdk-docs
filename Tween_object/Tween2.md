@@ -24,7 +24,13 @@ Offset (integer) index of the frame from which geometric transformations have to
 
 ## Returns
 
-`Matrix`; Matrix object that represents geometric transformations at the frame offset.
+Matrix object that represents geometric transformations at the frame offset.
+
+### Type
+
+```typescript
+Matrix
+```
 
 ## Description
 

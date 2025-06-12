@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`string`; A string that represents the XML settings for the document. If no value has been set, returns an empty string.
+A string that represents the XML settings for the document. If no value has been set, returns an empty string.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

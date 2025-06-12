@@ -36,8 +36,14 @@ A string specifying values for the attribute(s) you want to set. For acceptable 
 
 ## Returns
 
-`boolean`; A boolean value of true if successful.
+A boolean value of true if successful.
 ***Note:** Results are unpredictable if the file or folder doesn’t exist. You should use* *[FLfile.exists()](../FLfile_object/FLfile2.md) before using this method.*
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

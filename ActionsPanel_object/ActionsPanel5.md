@@ -24,7 +24,13 @@ A string that represents text to replace selected text in the Actions panel.
 
 ## Returns
 
-`boolean`; A boolean value of true if the Actions panel is found; false otherwise.
+A boolean value of true if the Actions panel is found; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

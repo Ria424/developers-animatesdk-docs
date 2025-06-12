@@ -24,7 +24,13 @@ It is an integer that specifies absolute frame index.
 
 ## Returns
 
-`Matrix`; Matrix object
+Matrix object
+
+### Type
+
+```typescript
+Matrix
+```
 
 ## Description
 

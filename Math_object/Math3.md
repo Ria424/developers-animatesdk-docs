@@ -36,7 +36,13 @@ Contains the point to which the matrix is applied.
 
 ## Returns
 
-`Point`; The transformed point.
+The transformed point.
+
+### Type
+
+```typescript
+Point
+```
 
 ## Description
 

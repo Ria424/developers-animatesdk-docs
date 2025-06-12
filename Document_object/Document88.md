@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`Timeline`; The current [Timeline object](../Timeline_object/Timeline_summary.md) object.
+The current [Timeline object](../Timeline_object/Timeline_summary.md) object.
+
+### Type
+
+```typescript
+Timeline
+```
 
 ## Description
 

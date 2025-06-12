@@ -24,7 +24,13 @@ An integer specifying the frame index starting from 0.
 
 ## Returns
 
-`integer`; ZVal: An integer value that specifies the ZDepth value of the frame.
+ZVal: An integer value that specifies the ZDepth value of the frame.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

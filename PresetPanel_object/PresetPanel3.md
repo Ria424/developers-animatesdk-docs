@@ -24,7 +24,13 @@ A string that specifies the path and name of the item to delete from the Motion 
 
 ## Returns
 
-`boolean`; A boolean value of true if the item or items are successfully deleted; false otherwise.
+A boolean value of true if the item or items are successfully deleted; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

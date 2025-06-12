@@ -36,7 +36,13 @@ A boolean value that specifies whether you want to edit the element (true) or wa
 
 ## Returns
 
-`boolean`; A boolean value of true if the element was successfully selected; false otherwise.
+A boolean value of true if the element was successfully selected; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

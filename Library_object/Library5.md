@@ -24,7 +24,13 @@ Specifies the name of the item. If the item is in a folder, you can specify its 
 
 ## Returns
 
-`integer`; An integer value representing the item’s zero-based index value.
+An integer value representing the item’s zero-based index value.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

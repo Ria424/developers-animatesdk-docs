@@ -60,7 +60,13 @@ The index of the last character that is affected. This parameter is optional.
 
 ## Returns
 
-`boolean`; A boolean value: true if at least one text attribute property is changed; false otherwise.
+A boolean value: true if at least one text attribute property is changed; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

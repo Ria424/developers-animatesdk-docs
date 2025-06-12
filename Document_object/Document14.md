@@ -11,7 +11,13 @@ None.
 
 ## Returns
 
-`boolean`; true if `Document.screenOutline` can be used safely; false otherwise.
+true if `Document.screenOutline` can be used safely; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Example
 

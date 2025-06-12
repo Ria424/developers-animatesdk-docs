@@ -36,7 +36,13 @@ A string that specifies in which folder to place the imported file and what to n
 
 ## Returns
 
-`boolean`; A boolean value of true if the file is successfully imported; false otherwise.
+A boolean value of true if the file is successfully imported; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

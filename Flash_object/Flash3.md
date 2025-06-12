@@ -67,7 +67,13 @@ An optional string that specifies a filter, such that only files that match the 
 
 ## Returns
 
-`string | null`; The URL of the file, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+The URL of the file, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+
+### Type
+
+```typescript
+string | null
+```
 
 ## Description
 

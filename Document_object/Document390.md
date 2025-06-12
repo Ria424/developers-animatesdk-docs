@@ -36,7 +36,11 @@ Optional. A boolean indicating whether only the current Stage selection should b
 
 ## Returns
 
-`boolean`;
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

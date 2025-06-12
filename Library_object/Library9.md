@@ -24,7 +24,13 @@ Specifies the name of the item. If the item is in a folder, specify its name and
 
 ## Returns
 
-`boolean`; True if the specified item exists in the library; *false* otherwise.
+True if the specified item exists in the library; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

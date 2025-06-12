@@ -36,7 +36,13 @@ Optional. Defaults to true. If false, the panelName parameter is assumed to be t
 
 ## Returns
 
-`SwfPanel`; SWFPanel object.
+SWFPanel object.
+
+### Type
+
+```typescript
+SwfPanel
+```
 
 ## Description
 

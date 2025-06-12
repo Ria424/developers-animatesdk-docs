@@ -20,7 +20,11 @@ number
 
 ## Returns
 
-`integer`;
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

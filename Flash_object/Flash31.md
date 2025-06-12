@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`Document`; A [Document object](../Document_object/Document_summary.md), or null if no documents are open.
+A [Document object](../Document_object/Document_summary.md), or null if no documents are open.
+
+### Type
+
+```typescript
+Document
+```
 
 ## Description
 

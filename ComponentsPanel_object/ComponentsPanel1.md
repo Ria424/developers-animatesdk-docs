@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; A boolean value of *true* if the Component panel list is refreshed, *false* otherwise.
+A boolean value of *true* if the Component panel list is refreshed, *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -32,7 +32,13 @@ undefined. This parameter is optional.
 
 ## Returns
 
-`Fill | undefined`; The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
+The [Fill object](../Fill_object/Fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
+
+### Type
+
+```typescript
+Fill | undefined
+```
 
 ## Description
 

@@ -24,7 +24,13 @@ A string that specifies the new name for the preset or folder.
 
 ## Returns
 
-`boolean`; A boolean value of true if the preset or folder is successfully renamed; false otherwise.
+A boolean value of true if the preset or folder is successfully renamed; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

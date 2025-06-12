@@ -24,7 +24,13 @@ A string that specifies the name of the item. If the item is in a folder, specif
 
 ## Returns
 
-`string`; A string value specifying the type of object. For possible return values, see [Item.itemType](../Item_object/Item4.md).
+A string value specifying the type of object. For possible return values, see [Item.itemType](../Item_object/Item4.md).
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

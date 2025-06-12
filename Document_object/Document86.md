@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; Returns true if the "Enable detailed telemetry" checkbox is selected; otherwise false.
+Returns true if the "Enable detailed telemetry" checkbox is selected; otherwise false.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

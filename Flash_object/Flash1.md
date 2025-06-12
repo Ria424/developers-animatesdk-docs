@@ -38,7 +38,13 @@ The name of the function you want to execute every time the event occurs.
 
 ## Returns
 
-`integer`; An integer that identifies the event listener. Use this identifier when calling `fl.removeEventListener()`.
+An integer that identifies the event listener. Use this identifier when calling `fl.removeEventListener()`.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

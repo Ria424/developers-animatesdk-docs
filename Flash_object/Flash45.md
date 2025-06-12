@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that specifies the name of the file to be
 
 ## Returns
 
-`Document`; The [Document object](../Document_object/Document_summary.md) for the newly opened document, if the method is successful. If the file is not found or is not a valid FLA file, an error is reported and the script is cancelled.
+The [Document object](../Document_object/Document_summary.md) for the newly opened document, if the method is successful. If the file is not found or is not a valid FLA file, an error is reported and the script is cancelled.
+
+### Type
+
+```typescript
+Document
+```
 
 ## Description
 

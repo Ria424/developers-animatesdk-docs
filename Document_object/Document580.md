@@ -24,7 +24,13 @@ The XML settings in a mobile FLA file.
 
 ## Returns
 
-`boolean`; A value of true if the settings were successfully set; false otherwise.
+A value of true if the settings were successfully set; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

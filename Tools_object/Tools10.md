@@ -24,7 +24,13 @@ Specifies the location of the point for which you want to return a snap point.
 
 ## Returns
 
-`Point`; A new point that may be adjusted or snapped to the nearest geometric object.
+A new point that may be adjusted or snapped to the nearest geometric object.
+
+### Type
+
+```typescript
+Point
+```
 
 ## Description
 

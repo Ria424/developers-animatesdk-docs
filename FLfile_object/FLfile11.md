@@ -24,7 +24,13 @@ Expressed as a file:/// URI, specifying the text-based file (such as .js, .txt, 
 
 ## Returns
 
-`string | null`; The contents of the specified file as a string, or null if the read fails.
+The contents of the specified file as a string, or null if the read fails.
+
+### Type
+
+```typescript
+string | null
+```
 
 ## Description
 

@@ -24,7 +24,13 @@ A string that represents text to place in the Actions panel.
 
 ## Returns
 
-`boolean`; A boolean value of true if the specified text was placed in the Actions panel; false otherwise.
+A boolean value of true if the specified text was placed in the Actions panel; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

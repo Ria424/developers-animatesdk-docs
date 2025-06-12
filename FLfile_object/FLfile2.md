@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that specifies the file you want to verif
 
 ## Returns
 
-`boolean`; A boolean value of true if successful; false otherwise.
+A boolean value of true if successful; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

@@ -36,7 +36,13 @@ A string, expressed as a file:/// URI, that specifies the name of the saved docu
 
 ## Returns
 
-`boolean`; true if the save operation completes successfully; false otherwise. This method save the file regardless of whether it is new, modified, or unmodified.
+true if the save operation completes successfully; false otherwise. This method save the file regardless of whether it is new, modified, or unmodified.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

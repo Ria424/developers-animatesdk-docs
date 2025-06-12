@@ -6,7 +6,13 @@ Flash CS3 Professional.
 
 ## Returns
 
-`string`; A string that contains the text that is currently selected in the Actions panel.
+A string that contains the text that is currently selected in the Actions panel.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

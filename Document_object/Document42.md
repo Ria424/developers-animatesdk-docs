@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`integer`; An integer that is the index of the new current profile. If a new profile is not available, the method leaves the current profile unchanged and returns its index.
+An integer that is the index of the new current profile. If a new profile is not available, the method leaves the current profile unchanged and returns its index.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

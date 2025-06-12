@@ -24,7 +24,13 @@ An optional parameter that, if true or omitted and the file was never saved, ope
 
 ## Returns
 
-`boolean`; true if the save-and-compact operation completes successfully; false otherwise.
+true if the save-and-compact operation completes successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Example
 

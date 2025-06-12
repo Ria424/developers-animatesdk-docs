@@ -24,7 +24,13 @@ Specifies a new name for the library item.
 
 ## Returns
 
-`boolean`; *true* if the name of the item changes successfully, *false* otherwise. If multiple items are selected, no names are changed, and the return value is *false* (to match user interface behavior).
+*true* if the name of the item changes successfully, *false* otherwise. If multiple items are selected, no names are changed, and the return value is *false* (to match user interface behavior).
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

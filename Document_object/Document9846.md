@@ -24,7 +24,13 @@ A rectangle that specifies the new size within which the text item should flow. 
 
 ## Returns
 
-`boolean`; true if the size of at least one text field is changed; false otherwise.
+true if the size of at least one text field is changed; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

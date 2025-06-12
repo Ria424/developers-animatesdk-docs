@@ -24,7 +24,13 @@ A string that indicates tagged swatch palette name.
 
 ## Returns
 
-`integer`; An integer that specifies the index of the palette.
+An integer that specifies the index of the palette.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

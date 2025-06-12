@@ -24,7 +24,13 @@ Expressed as a file:/// URI, specifying the file whose size you want to retrieve
 
 ## Returns
 
-`integer`; An integer that represents the size of the specified file, in bytes, or 0 if the file doesn’t exist.
+An integer that represents the size of the specified file, in bytes, or 0 if the file doesn’t exist.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

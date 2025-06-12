@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`string`; The full path to the SWF file that is set in the current Publish profile.
+The full path to the SWF file that is set in the current Publish profile.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

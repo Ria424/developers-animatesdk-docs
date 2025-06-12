@@ -24,7 +24,13 @@ A boolean value that specifies whether to enable or disable Script Assist mode.
 
 ## Returns
 
-`boolean`; A boolean value that specifies whether Script Assist mode was enabled or disabled successfully.
+A boolean value that specifies whether Script Assist mode was enabled or disabled successfully.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

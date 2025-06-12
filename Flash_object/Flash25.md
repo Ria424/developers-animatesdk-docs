@@ -24,7 +24,13 @@ An integer that represents a unique identifier for a document.
 
 ## Returns
 
-`Document`; A Document object, or null if no document exists with the specified *id*.
+A Document object, or null if no document exists with the specified *id*.
+
+### Type
+
+```typescript
+Document
+```
 
 ## Description
 

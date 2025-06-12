@@ -24,7 +24,13 @@ An optional string that specifies the description of the Browse For Folder dialo
 
 ## Returns
 
-`string | null`; The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+
+### Type
+
+```typescript
+string | null
+```
 
 ## Description
 

@@ -36,7 +36,13 @@ Specifies the name of the item. If the item is in a folder, you can specify its 
 
 ## Returns
 
-`boolean`; *true* if the item is successfully added to the document; *false* otherwise.
+*true* if the item is successfully added to the document; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

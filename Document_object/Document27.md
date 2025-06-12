@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; true if you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully: false otherwise.
+true if you can use the [Document.testMovie()](../Document_object/Document5948.md) method successfully: false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

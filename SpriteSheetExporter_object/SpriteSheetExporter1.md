@@ -60,7 +60,11 @@ The last frame of the symbol to include in the sprite sheet.
 
 ## Returns
 
-`boolean`;
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

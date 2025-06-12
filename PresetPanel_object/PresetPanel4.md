@@ -48,7 +48,13 @@ A string that specifies the path to the folder to expand or collapse. This param
 
 ## Returns
 
-`boolean`; A boolean value of *true* if the folder or folders are successfully expanded or collapsed; *false* otherwise.
+A boolean value of *true* if the folder or folders are successfully expanded or collapsed; *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

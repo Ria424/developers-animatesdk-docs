@@ -24,7 +24,13 @@ A string that specifies the full path and name of the preset to be applied, as i
 
 ## Returns
 
-`boolean`; A boolean value of true if the preset is successfully applied, *false* otherwise.
+A boolean value of true if the preset is successfully applied, *false* otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

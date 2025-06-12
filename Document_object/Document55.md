@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`boolean`; true if the scene is duplicated successfully; false otherwise.
+true if the scene is duplicated successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

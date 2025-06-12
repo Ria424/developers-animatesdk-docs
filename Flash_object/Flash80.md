@@ -24,7 +24,11 @@ A string containing XML that defines a dialog.
 
 ## Returns
 
-`XMLUI`;
+### Type
+
+```typescript
+XMLUI
+```
 
 ## Description
 

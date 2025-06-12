@@ -50,7 +50,13 @@ false causes Animate to add the layer below the current layer. This parameter is
 
 ## Returns
 
-`integer`; An integer value of the zero-based index of the newly added layer.
+An integer value of the zero-based index of the newly added layer.
+
+### Type
+
+```typescript
+integer
+```
 
 ## Description
 

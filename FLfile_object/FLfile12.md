@@ -24,7 +24,13 @@ Expressed as a file:/// URI, specifying the file or folder you want to remove (d
 
 ## Returns
 
-`boolean`; A boolean value of true if successful; false otherwise.
+A boolean value of true if successful; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

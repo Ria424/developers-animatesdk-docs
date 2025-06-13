@@ -55,7 +55,7 @@ The following methods and properties for existing objects are new in Animate 202
 
   - [Layer.getFiltersAtFrame()](../Layer_object/Layer15.md)
 
-  - [Layer. setFiltersAtFrame()](../Layer_object/Layer18.md)
+  - [Layer.setFiltersAtFrame()](../Layer_object/Layer18.md)
 
   - [Layer.getColorTransformAtFrame()](../Layer_object/Layer14.md)
 
@@ -153,7 +153,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
   - Document.getTelemetryForSwf()
 
-  - Document.importFile() showDialog and showImporterUI properties
+  - Document.importFile() "showDialog" and "showImporterUI" parameters
 
   - Document.setPublishDocumenData()
 
@@ -165,7 +165,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
 - [Flash object (fl)](../Flash_object/Flash_summary.md)
 
-  - Flash.addEventListener() prePublish, postPublish, selectionChanged, and dpiChanged events
+  - Flash.addEventListener() "prePublish", "postPublish", "selectionChanged", and "dpiChanged" events
 
   - Flash.getThemeColor()
 
@@ -273,7 +273,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
 - [BitmapItem object](../BitmapItem_object/BitmapItem_summary.md)
 
-  - BitmapItem.exportToFile()quality parameter
+  - BitmapItem.exportToFile() "quality" parameter
 
   - BitmapItem.hasValidAlphaLayer
 

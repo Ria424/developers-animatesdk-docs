@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; saves all open documents.

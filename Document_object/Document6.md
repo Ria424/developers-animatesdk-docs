@@ -50,6 +50,12 @@ A boolean value that, if set to true, causes the method to create the shape with
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Adds a new Oval object in the specified bounding rectangle. This method performs the same operation as the Oval tool. The method uses the document’s current default stroke and fill attributes and adds the oval on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.

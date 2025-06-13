@@ -26,6 +26,12 @@ A string to be copied to the Clipboard.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; copies the specified string to the Clipboard.

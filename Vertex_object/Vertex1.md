@@ -38,6 +38,12 @@ A floating-point value that specifies the *y* coordinate of where the vertex sho
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the location of the vertex. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.

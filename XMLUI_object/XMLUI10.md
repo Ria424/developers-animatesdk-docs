@@ -38,6 +38,12 @@ boolean
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Shows or hides a control.

@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Converts lines to fills on the selected objects.

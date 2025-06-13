@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Selects all the frames in the current timeline.

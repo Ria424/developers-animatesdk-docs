@@ -38,6 +38,12 @@ A zero-based integer index specifying the frame at which to stop reversing. The 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Reverses a range of frames.

@@ -16,6 +16,12 @@ None.
 
 A HalfEdge object.
 
+### Type
+
+```typescript
+HalfEdge
+```
+
 ## Description
 
 Method; gets the next half edge on the current contour.

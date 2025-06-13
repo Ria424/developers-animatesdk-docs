@@ -26,6 +26,12 @@ A zero-based integer specifying the frame index in the current layer where the k
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Inserts a keyframe at the specified frame. If you omit the parameter, the method inserts a keyframe using the playhead or selection location.

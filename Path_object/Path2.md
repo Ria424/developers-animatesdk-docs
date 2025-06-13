@@ -38,6 +38,12 @@ A floating-point number that specifies the *y* position of the point.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; adds a point to the path.

@@ -26,6 +26,12 @@ A string, expressed as a file:/// URI, that specifies the SWF file to which the 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Exports the symbol item to a SWF file.

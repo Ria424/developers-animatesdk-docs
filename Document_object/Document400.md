@@ -50,6 +50,12 @@ The edge about which the transformation occurs. If omitted, scaling occurs about
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Scales the selection by a specified amount. This method is equivalent to using the Free Transform tool to scale the object.

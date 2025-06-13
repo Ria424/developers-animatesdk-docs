@@ -26,6 +26,12 @@ A string, expressed as a file:/// URI, that specifies the file for the SWF file 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Example
 
 The following example imports the "mySwf.swf" file from the Flash Configuration folder:

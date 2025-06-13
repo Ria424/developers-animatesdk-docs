@@ -68,6 +68,12 @@ A boolean value that, if set to true, causes the method to create the rectangle 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Adds a new rectangle or rounded rectangle, fitting it into the specified bounds. This method performs the same operation as the Rectangle tool. The method uses the document’s current default stroke and fill attributes and adds the rectangle on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.

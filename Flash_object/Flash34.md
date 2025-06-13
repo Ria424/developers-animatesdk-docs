@@ -40,7 +40,13 @@ A string that specifies either "large" or "small".
 
 ## Returns
 
-A String containing either the font style or the font size for the specifie size.
+A string containing either the font style or the font size for the specifie size.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

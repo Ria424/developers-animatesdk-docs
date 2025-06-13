@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Deselects any selected items.

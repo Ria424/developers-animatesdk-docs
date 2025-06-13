@@ -10,7 +10,13 @@ None.
 
 ## Returns
 
-`Item[]`; An array of values for all currently selected items in the library.
+An array of values for all currently selected items in the library.
+
+### Type
+
+```typescript
+Item[]
+```
 
 ## Description
 

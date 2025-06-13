@@ -50,6 +50,12 @@ A string that identifies which layers should be modified. Acceptable values are 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the specified property on all the selected layers to a specified value.

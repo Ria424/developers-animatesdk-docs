@@ -26,6 +26,12 @@ An integer between 0 (transparent) and 100 (completely saturated) that adjusts t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Methods; Sets the opacity of the instance.

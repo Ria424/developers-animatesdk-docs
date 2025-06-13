@@ -26,6 +26,12 @@ The zero-based index of the filter to remove from the selected objects.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Removes the specified filter from the Filters list of the selected objects.

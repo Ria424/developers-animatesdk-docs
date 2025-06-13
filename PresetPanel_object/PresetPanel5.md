@@ -36,7 +36,13 @@ A string that specifies the path and name of the item to select from the Motion 
 
 ## Returns
 
-A boolean value of true if the preset was exported successfully; false otherwise.
+True if the preset was exported successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

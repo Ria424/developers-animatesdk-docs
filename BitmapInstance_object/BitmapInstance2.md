@@ -34,6 +34,12 @@ An object that contains height, width, depth, bits, and cTab properties. The hei
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the bits of an existing bitmap element. This lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning the bitmap to Animate.

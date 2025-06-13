@@ -38,6 +38,12 @@ A zero-based integer index marking the end of the range of frames to clear (not 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Converts a keyframe to a regular frame and deletes its contents on the current layer.

@@ -62,6 +62,12 @@ It is an optional integer that specifies the index of the tagged swatch palette,
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; To add new tagged swatch with the given color string and name at the given index. Name and index are optional, in case no name is given, adds a unique name by itself and in case no index is given ,adds swatch to end of the tagged swatches. Name is required for index argument.

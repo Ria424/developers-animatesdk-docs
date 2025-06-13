@@ -62,6 +62,12 @@ A boolean value that determines whether to enable (true) or disable (false) the 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Enables or disables the specified control in a Property inspector. Used only when creating extensible tools.

@@ -30,6 +30,12 @@ A sound envelope.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the sound envelope of any frame with sound file. The soundEnv object is an array and every element of array contains the following properties:

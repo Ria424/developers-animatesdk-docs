@@ -50,6 +50,12 @@ The value to add. Valid types depend on the *type* parameter.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Stores specified data with a document. Data is written to the FLA file and is available to JavaScript when the file reopens.

@@ -24,7 +24,13 @@ A [Document object](../Document_object/Document_summary.md) that specifies the d
 
 ## Returns
 
-A Boolean value: true if the Save As operation completes successfully; false otherwise.
+True if the Save As operation completes successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

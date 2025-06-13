@@ -26,6 +26,12 @@ Specifies the direction in which to move the selection. Acceptable values are "b
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Arranges the selection on the Stage. This method applies only to non-shape objects.

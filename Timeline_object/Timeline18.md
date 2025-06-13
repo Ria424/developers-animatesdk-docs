@@ -50,6 +50,12 @@ A zero-based index of the folder to expand or collapse. Use -1 to apply to all l
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Expands or collapses the specified folder or folders. If you do not specify a layer, this method operates on the current layer.

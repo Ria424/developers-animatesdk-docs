@@ -38,6 +38,12 @@ true if you want to enable the control, or false if you want to disable (dim) it
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Enables or disables (dims) a control.

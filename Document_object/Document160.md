@@ -26,6 +26,12 @@ A pair of floating-point values that specify the *x* and *y* coordinate values b
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Moves selected objects by a specified distance.

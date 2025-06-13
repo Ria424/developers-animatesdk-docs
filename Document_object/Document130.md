@@ -50,6 +50,12 @@ The state of the application preference Shift select: true for on; false for off
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Performs a mouse click from the Selection tool.

@@ -16,6 +16,12 @@ None.
 
 An [Edge object](../Edge_object/Edge_summary.md).
 
+### Type
+
+```typescript
+Edge
+```
+
 ## Description
 
 Method; gets the Edge object for the HalfEdge object. See [Edge object](../Edge_object/Edge_summary.md).

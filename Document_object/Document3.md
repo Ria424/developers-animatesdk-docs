@@ -26,6 +26,12 @@ A string specifying the filter to be added to the Filters list and enabled for t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Applies a filter to the selected objects and places the filter at the end of the Filters list.

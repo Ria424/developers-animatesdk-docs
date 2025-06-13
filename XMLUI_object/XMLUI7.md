@@ -38,6 +38,12 @@ A JavaScript object with a string property named label and an optional string pr
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the label and value of the currently selected line in the ListBox or ComboBox control specified by

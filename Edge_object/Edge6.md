@@ -26,6 +26,12 @@ A floating-point value between 0 and 1 that specifies where to split the edge. A
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Splits the edge into two pieces. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.

@@ -24,7 +24,13 @@ number
 
 ## Returns
 
-`Filter[]`; Returns array of Filter objects.
+Array of Filter objects.
+
+### Type
+
+```typescript
+Filter[]
+```
 
 ## Description
 

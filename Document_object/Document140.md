@@ -35,6 +35,7 @@ boolean
 A boolean value that records whether the Alt key is down at the time of the event: true for pressed; false
 
 for not pressed.
+
 ### **bShiftDown**
 
 #### Type
@@ -48,6 +49,7 @@ boolean
 A boolean value that records whether the Shift key was down when the event occurred: true for pressed;
 
 false for not pressed.
+
 ### **bShiftSelect**
 
 #### Type
@@ -63,6 +65,12 @@ A boolean value that indicates the state of the application preference Shift sel
 ## Returns
 
 Nothing.
+
+### Type
+
+```typescript
+void
+```
 
 ## Description
 

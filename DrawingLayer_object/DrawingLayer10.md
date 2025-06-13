@@ -32,6 +32,12 @@ The color of subsequently drawn data, in one of the following formats:
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the color of subsequently drawn data. Applies only to persistent data. To use this method, the parameter passed to drawingLayer.beginDraw() must be set to true. You typically use this method only when creating extensible tools. See [DrawingLayer.beginDraw()](../DrawingLayer_object/DrawingLayer.md).

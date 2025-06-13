@@ -28,6 +28,12 @@ the latter case, any modifications in open documents will be discarded and the a
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Quits Flash, prompting the user to save any changed documents.

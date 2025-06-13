@@ -38,6 +38,12 @@ Specifies the scene before which you want to move the scene specified by *sceneT
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Moves the specified scene before another specified scene.

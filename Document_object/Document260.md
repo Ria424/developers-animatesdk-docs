@@ -26,6 +26,12 @@ The name of the persistent data to remove.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Removes persistent data with the specified name that has been attached to the selection.

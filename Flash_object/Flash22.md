@@ -36,7 +36,11 @@ A string that specifies the profile name to export. This parameter is optional.
 
 ## Returns
 
-String.
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

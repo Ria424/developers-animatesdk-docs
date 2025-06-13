@@ -64,6 +64,12 @@ hides the control).
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Shows or hides a control in the Property inspector. This method is used only when you create extensible tools.

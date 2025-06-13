@@ -64,6 +64,12 @@ A zero-based integer index specifying the frame at which to stop (exclusive). Th
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the property of the Frame object for the selected frames.

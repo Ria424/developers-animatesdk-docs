@@ -62,6 +62,12 @@ Specifies whether to display errors visually (for example, using the Library Con
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Imports a file into a document. This method performs the same operation as the Import To Library or Import To Stage menu command. To import a publish profile, use [Document.importPublishProfile()](../Document_object/Document94.md).

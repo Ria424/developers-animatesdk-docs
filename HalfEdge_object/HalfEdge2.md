@@ -16,6 +16,12 @@ None.
 
 A HalfEdge object.
 
+### Type
+
+```typescript
+HalfEdge
+```
+
 ## Description
 
 Method; gets the HalfEdge object on the other side of the edge.

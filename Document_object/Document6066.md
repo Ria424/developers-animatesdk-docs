@@ -26,6 +26,12 @@ A string that indicates the name of the tagged swatch to delete.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Delete tagged swatch with given name.

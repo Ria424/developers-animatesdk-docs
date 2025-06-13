@@ -38,6 +38,12 @@ A boolean value that, when set to true, causes Flash to use current SWF publish 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Exports the document in the Flash SWF format.

@@ -40,6 +40,12 @@ A boolean that indicates whether to enable or disable publishing of persistent d
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Enables or disables publishing of persistent data for an entire document.

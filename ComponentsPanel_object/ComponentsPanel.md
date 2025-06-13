@@ -50,6 +50,12 @@ Specifies the name of the component in the specified category (for example, *"We
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Adds the specified component to the document at the specified position.

@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Reverts the specified document to its previously saved version. This method is equivalent to selecting File >Revert.

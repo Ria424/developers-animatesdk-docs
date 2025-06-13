@@ -38,6 +38,12 @@ A boolean value that, when set to true, distributes the selected objects using t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Distributes the selection.

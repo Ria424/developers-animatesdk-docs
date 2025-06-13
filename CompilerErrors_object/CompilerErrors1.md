@@ -50,6 +50,12 @@ An optional boolean value that specifies whether to save the Compiler Errors pan
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Saves the contents of the Compiler Errors panel to a local text file.

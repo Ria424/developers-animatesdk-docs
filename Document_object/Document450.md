@@ -26,6 +26,12 @@ A boolean value that, if set to true, aligns objects to the Stage. If set to fal
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the preferences for [Document.align()](../Document_object/Document13.md), [Document.distribute()](../Document_object/Document49.md), [Document.match()](../Document_object/Document120.md), and [Document.space()](../Document_object/Document67.md) to act on the document. This method is equivalent to enabling the To Stage button in the Align panel.

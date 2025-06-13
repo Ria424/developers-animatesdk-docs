@@ -50,6 +50,12 @@ A boolean value that, when set to true, causes the method to match the size of t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Makes the size of the selected objects the same.

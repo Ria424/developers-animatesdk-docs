@@ -15,7 +15,7 @@ text.getTextString([startIndex [, endIndex]])
 #### Type
 
 ```typescript
-number
+number?
 ```
 
 #### Description
@@ -37,6 +37,12 @@ An integer that specifies the end of the range of text, which starts from **`sta
 ## Returns
 
 A string of the text in the specified range.
+
+### Type
+
+```typescript
+string
+```
 
 ## Description
 

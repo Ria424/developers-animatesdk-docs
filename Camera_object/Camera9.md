@@ -74,6 +74,12 @@ integer
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Set camera tint using tint color(RGB) & tint percent (percentage of tint).

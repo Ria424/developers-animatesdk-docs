@@ -50,6 +50,12 @@ An integer that specifies the index of the end point in the selected text string
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Property; changes the text string within this Text object. If you omit the optional parameters, the whole Text object is replaced. If you specify only **`startIndex`**, the specified string is inserted at the **`startIndex`** position. If you specify both **`startIndex`** and **`endIndex`**, the specified string replaces the segment of text starting from **`startIndex`** up to, but not including, **`endIndex`**.

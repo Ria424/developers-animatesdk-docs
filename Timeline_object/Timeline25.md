@@ -10,7 +10,13 @@ None.
 
 ## Returns
 
-`integer[]`; An array containing 3*n* integers, where *n* is the number of selected regions. The first integer in each group is the layer index, the second integer is the start frame of the beginning of the selection, and the third integer specifies the ending frame of that selection range. The ending frame is not included in the selection.
+An array containing 3 × *n* integers, where *n* is the number of selected regions. The first integer in each group is the layer index, the second integer is the start frame of the beginning of the selection, and the third integer specifies the ending frame of that selection range. The ending frame is not included in the selection.
+
+### Type
+
+```typescript
+number[]
+```
 
 ## Description
 
@@ -22,7 +28,7 @@ With the top layer being the current layer, the following example displays 0, 5,
 
 ```javascript
 var timeline = fl.getDocumentDOM().getTimeline();
-timeline.setSelectedFrames(5,10);
+timeline.setSelectedFrames(5, 10);
 timeline.setSelectedFrames(20, 25, false);
 var theSelectedFrames = timeline.getSelectedFrames();
 fl.trace(theSelectedFrames);

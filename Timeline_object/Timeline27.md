@@ -26,6 +26,12 @@ A zero-based integer indicating the frame index where the blank keyframe will be
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Inserts a blank keyframe at the specified frame index; if the index is not specified, the method inserts the blank keyframe by using the playhead/selection. See also [Timeline.insertKeyframe()](../Timeline_object/Timeline29.md).

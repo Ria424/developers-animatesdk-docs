@@ -24,7 +24,13 @@ integer
 
 ## Returns
 
-`{percent: number; red: number; green: number; blue: number}`; Tint object. e.g. {percent: 0, red: 0, green: 0, blue: 0}
+Tint object. e.g. {percent: 0, red: 0, green: 0, blue: 0}
+
+### Type
+
+```typescript
+{percent: number; red: number; green: number; blue: number}
+```
 
 ## Description
 

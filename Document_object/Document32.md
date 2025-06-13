@@ -26,6 +26,12 @@ A boolean value that, when set to true, causes the method to perform a paste-in-
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Pastes the contents of the Clipboard into the document.

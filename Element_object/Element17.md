@@ -51,6 +51,12 @@ parameter. The specified value should be appropriate to the data type specified 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Stores data with an element. The data is available when the FLA file containing the element is reopened. Only symbols and bitmaps support persistent data.

@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 ## Usage
 
-*presetPanel.getSelectedItems()*
+PresetPanel.getSelectedItems()
 
 ## Parameters
 
@@ -16,9 +16,15 @@ None.
 
 An array of presetItem objects.
 
+### Type
+
+```typescript
+PresetItem[]
+```
+
 ## Description
 
-Method; returns an array of presetItem objects corresponding to the currently selected items in the Motion Presets panel (see [PresetItem object](../PresetItem_object/PresetItem_summary.md)). Each item in the array represents either a folder or a preset.
+Method; Returns an array of presetItem objects corresponding to the currently selected items in the Motion Presets panel (see [PresetItem object](../PresetItem_object/PresetItem_summary.md)). Each item in the array represents either a folder or a preset.
 
 ## Example
 

@@ -24,7 +24,13 @@ Offset (integer) index of the frame from which shape data has to be retrieved.
 
 ## Returns
 
-`{x: number; y: number; width: number; height: number;}`; Returns shape coordinates at the frame offset.
+Shape coordinates at the frame offset.
+
+### Type
+
+```typescript
+{x: number; y: number; width: number; height: number;}
+```
 
 ## Description
 

@@ -16,9 +16,16 @@ None.
 
 A HalfEdge object.
 
+### Type
+
+```typescript
+HalfEdge
+```
+
 ## Description
 
 Method; gets the preceding HalfEdge object on the current contour.
+
 ***Note:** Although half edges have a direction and a sequence order, edges do not.*
 
 ## Example

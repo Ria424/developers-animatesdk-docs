@@ -26,6 +26,12 @@ A string, expressed as a file:/// URI, that specifies the path to the XML file d
 
 An object that has properties defined for all controls defined in the XML file. All properties are returned as strings. The returned object will have one predefined property named "dismiss" that will have the string value "accept" or "cancel".
 
+### Type
+
+```typescript
+any | {dismiss: "accept" | "cancel"}
+```
+
 ## Description
 
 Method; Posts an XMLUI dialog box. See [Flash.xmlui](../Flash_object/Flash81.md).

@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that contains the path to the file.
 
 ## Returns
 
-A Boolean value: true if the file exists on disk; false otherwise.
+True if the file exists on disk; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

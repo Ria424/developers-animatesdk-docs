@@ -26,6 +26,12 @@ A floating point value between 0.0 and 179.0.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Specifies the perspective angle for viewing 3D objects.

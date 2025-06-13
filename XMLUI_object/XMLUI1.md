@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Closes the current XMLUI dialog box with a cancel state, which is equivalent to the user clicking the Cancel button.

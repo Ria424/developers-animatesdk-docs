@@ -36,11 +36,17 @@ The [Document object](../Document_object/Document_summary.md) in which to search
 
 ## Returns
 
-`{obj: Element; keyframe: number; layer: Layer; timeline: Timeline; parent: SymbolInstance;}[]`; An array of generic objects. Use the .obj property of each item in the array to get the element object. Each object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object.
+An array of generic objects. Use the .obj property of each item in the array to get the element object. Each object has the following properties: keyframe, layer, timeline, and parent. You can use these properties to access the hierarchy of the object.
 
 You can also access methods and properties for the layer and timeline values; they are equivalent to the [Layer object](../Layer_object/Layer_summary.md) and the [Timeline object](../Timeline_object/Timeline_summary.md), respectively.
 
 The second and third examples in the Examples section show how to access these properties.
+
+### Type
+
+```typescript
+{obj: Element; keyframe: number; layer: Layer; timeline: Timeline; parent: SymbolInstance;}[]
+```
 
 ## Description
 

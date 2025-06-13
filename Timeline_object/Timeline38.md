@@ -38,6 +38,12 @@ A zero-based integer index indicating the frame where removal stops (not inclusi
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Deletes the frame.

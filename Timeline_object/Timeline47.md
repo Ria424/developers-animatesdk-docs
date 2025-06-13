@@ -38,6 +38,12 @@ A boolean value that, if it is set to true, causes the method to replace the cur
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the layer to be selected, and also makes the specified layer the current layer. Selecting a layer also means that all the frames in the layer are selected.

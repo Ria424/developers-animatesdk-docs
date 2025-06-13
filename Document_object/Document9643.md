@@ -38,6 +38,12 @@ The value to be assigned to the property. Acceptable values vary depending on th
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Specifies a value for a specified property of primitive Rectangle objects.

@@ -32,11 +32,17 @@ Point[]
 
 #### Description
 
-`Point[]`; An array of objects that defines the ease curve. Each array element must be a JavaScript object with *x* and *y* properties.
+An array of objects that defines the ease curve. Each array element must be a JavaScript object with *x* and *y* properties.
 
 ## Returns
 
 Nothing.
+
+### Type
+
+```typescript
+void
+```
 
 ## Description
 

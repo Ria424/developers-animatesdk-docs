@@ -56,6 +56,12 @@ A string that specifies the new type of stroke for the selection. Acceptable val
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the color, width, and style of the selected stroke. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).

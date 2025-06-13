@@ -62,6 +62,12 @@ Optional. A matrix to be appended to the exported PNG sequence.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Exports a movie clip, graphic, or button symbol to a sequence of PNG files on disk.

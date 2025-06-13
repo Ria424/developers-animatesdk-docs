@@ -16,6 +16,12 @@ None.
 
 None.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Deletes the envelope (bounding box that contains one or more objects) from the selected objects. If no objects are selected, calling this method results in an error and the script breaks at that point.

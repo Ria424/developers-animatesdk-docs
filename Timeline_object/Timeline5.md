@@ -38,6 +38,12 @@ A zero-based integer index specifying the frame where conversion to keyframes st
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Converts a range of frames to keyframes (or converts the selection if no frames are specified) on the current layer.

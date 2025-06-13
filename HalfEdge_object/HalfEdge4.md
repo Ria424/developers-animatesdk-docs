@@ -16,6 +16,12 @@ None.
 
 A [Vertex object](../Vertex_object/Vertex_summary.md)
 
+### Type
+
+```typescript
+Vertex
+```
+
 ## Description
 
 Method; gets the Vertex object at the head of the HalfEdge object. See [Vertex object](../Vertex_object/Vertex_summary.md)

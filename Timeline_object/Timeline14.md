@@ -38,6 +38,12 @@ A zero-based index indicating the frame where cutting stops (not included in the
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; cuts a range of frames on the current layer from the timeline and saves them to the clipboard.

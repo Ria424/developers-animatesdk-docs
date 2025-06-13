@@ -26,6 +26,12 @@ A pair of floating-point values that specify the *x* and *y* coordinates in pixe
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; If the selection contains at least one path with at least one Bézier point selected, moves all selected Bézier points on all selected paths by the specified amount.

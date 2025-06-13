@@ -36,7 +36,11 @@ A string that specifies the publish profile to use when publishing. If this para
 
 ## Returns
 
-Boolean
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

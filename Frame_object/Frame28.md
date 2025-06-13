@@ -26,6 +26,12 @@ Frame.setSoundEnvelopeLimits(limits)
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the sound envelope limits of any frame with a sound file.

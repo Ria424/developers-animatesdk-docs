@@ -26,6 +26,12 @@ integer
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Reset camera zoom to it's default zoom value i.e 100%.

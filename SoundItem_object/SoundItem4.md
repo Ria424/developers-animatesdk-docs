@@ -24,7 +24,13 @@ A string, expressed as a file:/// URI, that specifies the path and name of the e
 
 ## Returns
 
-A Boolean value of *true* if the file was exported successfully; *false* otherwise.
+True if the file was exported successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

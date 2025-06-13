@@ -62,6 +62,12 @@ Specifies the type of item to insert.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Inserts an item in an object or array. If a parameter is an object or array, the *value* property is an array.

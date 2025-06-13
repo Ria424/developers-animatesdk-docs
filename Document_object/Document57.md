@@ -26,6 +26,12 @@ A zero-based integer that specifies which scene to edit.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Makes the specified scene the currently selected scene for editing.

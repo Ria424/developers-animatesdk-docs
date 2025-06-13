@@ -26,6 +26,12 @@ The name that appears in the pop-up menu as the name for the tool.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the string that appears in the pop-up menu as the name for the tool. This method is used only when you create extensible tools.

@@ -20,15 +20,37 @@ number
 
 #### Description
 
-Specifies absolute frame index.
+Absolute zero-based frame index.
 
 ## Returns
 
-Value object
+ColorTransform object.
+
+If there's no ColorTransform in frame, this default object will be returned.
+
+```typescript
+{
+    mode: "Advanced";
+    colorAlphaAmount: 0;
+    colorAlphaPercent: 100;
+    colorRedAmount: 0;
+    colorRedPercent: 100;
+    colorGreenAmount: 0;
+    colorGreenPercent: 100;
+    colorBlueAmount: 0;
+    colorBluePercent: 100;
+}
+```
+
+### Type
+
+```typescript
+FrameAdvancedColorTransform | FrameBrightnessColorTransform | FrameTintColorTransform | FrameAlphaColorTransform
+```
 
 ## Description
 
-Returns: Value object {"mode","tintPercent","tintRed","tintBlue","tintGreen","brightnessPercent","alphaPercent","colorAlphaAmount", "colorAlphaPercent", "colorRedAmount", "colorRedPercent", "colorGreenAmount", "colorGreenPercent", "colorBlueAmount", "colorBluePercent"}.
+Returns ColorTransform object.
 
 Based on the mode, the paramters will be updated here. For example, if tint is present, the value corresponding to tint only will be present along with the color matrix values.
 
@@ -37,5 +59,9 @@ Based on the mode, the paramters will be updated here. For example, if tint is p
 The following example gets the color transform at the fifth frame of first layer:
 
 ```javascript
-var myCxform = an.getDocumentDOM().getTimeline().layers[0].getColorTransformAtFrame(4);
+var cxform = an.getDocumentDOM().getTimeline().layers[0].getColorTransformAtFrame(4);
 ```
+
+## See also
+
+- [Layer.setColorTransformAtFrame()](../Layer_object/Layer17.md)

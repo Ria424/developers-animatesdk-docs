@@ -16,6 +16,12 @@ None.
 
 An integer that represents the zero-based index of the newly added guide layer. If the current layer type is not of type "Normal", Animate returns -1.
 
+### Type
+
+```typescript
+number
+```
+
 ## Description
 
 Method; Adds a motion guide layer above the current layer and attaches the current layer to the newly added guide layer, converting the current layer to a layer of type "Guided".

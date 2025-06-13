@@ -26,6 +26,12 @@ A string, expressed as a file:/// URI, that specifies the path of the JSFL, AS, 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; opens an existing file or creates a new script (JSFL, AS, ASC) or other file (XML, TXT) in Flash.

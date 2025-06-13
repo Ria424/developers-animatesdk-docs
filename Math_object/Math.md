@@ -10,15 +10,43 @@ Math.concatMatrix(mat1, mat2)
 
 ## Parameters
 
-**mat1, mat2** Specify the Matrix objects to be concatenated (see [Matrix object](../Matrix_object/Matrix_summary.md)). Each parameter must be an object with fields a, b, c, d, tx, and ty.
+### **mat1**
+
+#### Type
+
+```typescript
+Matrix
+```
+
+#### Description
+
+The Matrix object to be concatenated (see [Matrix object](../Matrix_object/Matrix_summary.md)).
+
+### **mat2**
+
+#### Type
+
+```typescript
+Matrix
+```
+
+#### Description
+
+The Matrix object to be concatenated (see [Matrix object](../Matrix_object/Matrix_summary.md)).
 
 ## Returns
 
-A concatenated object matrix.
+A concatenated Matrix object.
+
+### Type
+
+```typescript
+Matrix
+```
 
 ## Description
 
-Method; performs a matrix concatenation and returns the result.
+Method; Performs a matrix concatenation and returns the result.
 
 ## Example
 

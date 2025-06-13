@@ -70,6 +70,12 @@ number
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Set camera color filter using decomposed values of (brightness, contrast, saturation, hue).

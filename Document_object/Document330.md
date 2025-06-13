@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Resets the transformation matrix. This method is equivalent to selecting Modify>Transform >Remove Transform.

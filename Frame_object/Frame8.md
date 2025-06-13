@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`{mark: number; leftChannel: number; rightChannel: number;}[]`; Returns SoundEnvelope object.
+Returns SoundEnvelope object.
+
+### Type
+
+```typescript
+{mark: number; leftChannel: number; rightChannel: number;}[]
+```
 
 ## Description
 

@@ -32,6 +32,12 @@ The color of the stroke, in one of the following formats:
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Changes the stroke color of the selection to the specified color. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).

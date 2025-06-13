@@ -74,6 +74,12 @@ If stopAtFrame is true, this is an integer specifying the number of frames to re
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Exports a video from the document and optionally sends it to Adobe Media Encoder to convert the video.

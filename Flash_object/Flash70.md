@@ -26,6 +26,12 @@ A boolean value specifying whether to enable or disable the warning about a scri
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Lets you disable the warning about a script running too long (pass false for *show*). You might want to do this when processing batch operations that take a long time to complete. To re-enable the alert, issue the command again, this time passing true for *show*.

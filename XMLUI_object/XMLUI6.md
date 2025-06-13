@@ -38,6 +38,12 @@ Specifies the value to which you want to set the XMLUI property.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Modifies the value of the specified property of the current XMLUI dialog box.

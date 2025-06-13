@@ -26,6 +26,12 @@ A boolean value (optional). If set to *true*, it indicates that the drawing in t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Puts Flash in drawing mode. Drawing mode is used for temporary drawing while the mouse button is pressed. You typically use this method only when creating extensible tools.

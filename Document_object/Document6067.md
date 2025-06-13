@@ -50,6 +50,12 @@ An optional integer that specifies the index of the tagged swatch palette, defau
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Replace the tagged swatch with the given index to the given new swatch object.

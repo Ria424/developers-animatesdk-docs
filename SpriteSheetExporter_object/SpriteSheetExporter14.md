@@ -27,7 +27,7 @@ A SymbolItem or SymbolInstance that has already been added to the sprite sheet.
 #### Type
 
 ```typescript
-number
+number?
 ```
 
 #### Description
@@ -39,7 +39,7 @@ Optional. The beginning frame of the symbol to include in the sprite sheet.
 #### Type
 
 ```typescript
-number
+number?
 ```
 
 #### Description
@@ -48,7 +48,11 @@ Optional. The last frame of the symbol to include in the sprite sheet.
 
 ## Returns
 
-Boolean.
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

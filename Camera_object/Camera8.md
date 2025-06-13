@@ -38,6 +38,12 @@ number
 
 nothing
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Rotate camera by absolute angle given as input parameters.

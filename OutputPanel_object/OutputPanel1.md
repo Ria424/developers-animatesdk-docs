@@ -50,6 +50,12 @@ An optional boolean value. If true, it saves the Output panel text using the sys
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Saves the contents of the Output panel to a local text file, either by overwriting the file or by appending to the file.

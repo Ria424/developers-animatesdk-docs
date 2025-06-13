@@ -20,7 +20,7 @@ number
 
 #### Description
 
-Specifies absolute frame index.
+Absolute zero-based frame index.
 
 ### **filterArray**
 
@@ -38,6 +38,12 @@ The array of filters to be set.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Apply filters at a particular frame.
@@ -47,6 +53,7 @@ Method; Apply filters at a particular frame.
 The following example copies the filter applied at the first frame and sets it to the tenth frame:
 
 ```javascript
-var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);
-an. getDocumentDOM().getTimeline().layers[0].setFiltersAtFrame(9, myFilters);
+var layer = an.getDocumentDOM().getTimeline().layers[0]
+var filters = layer.getFiltersAtFrame(0);
+layer.setFiltersAtFrame(9, filters);
 ```

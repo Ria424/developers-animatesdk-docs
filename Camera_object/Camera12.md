@@ -26,6 +26,12 @@ integer
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Reset camera angle to zero.

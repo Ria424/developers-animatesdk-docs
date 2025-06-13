@@ -110,6 +110,12 @@ A floating-point number that specifies the *y* position of the fourth control po
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; appends a cubic Bézier curve segment to the path.

@@ -38,6 +38,12 @@ A boolean value that you must set to true if you want an escaped MBCS path retur
 
 A string that is the converted URL.
 
+### Type
+
+```typescript
+string
+```
+
 ## Description
 
 Method; Maps an escaped Unicode URL to a UTF-8 or MBCS URL. Use this method when the string will be used in ActionScript to access an external resource. You must use this method if you need to handle multibyte characters.

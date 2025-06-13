@@ -38,6 +38,12 @@ A zero-based integer index indicating the end (exclusive) of the frames to clear
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Deletes all the contents from a frame or range of frames on the current layer.

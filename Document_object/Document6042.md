@@ -26,6 +26,12 @@ An XYZ coordinate that specifies the center point for 3D rotation or translation
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method: Sets the XYZ position around which the selection is translated or rotated. This method is available only for movie clips.

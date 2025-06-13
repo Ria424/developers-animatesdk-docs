@@ -38,6 +38,12 @@ A boolean value. When *bPromptToSaveChanges* is false, the user is not prompted 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; closes the specified document.

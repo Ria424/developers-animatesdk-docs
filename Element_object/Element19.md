@@ -37,6 +37,12 @@ A point (for example, {x:10, y:20}, where x and y are floating-point numbers) th
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the position of the element’s transformation point.

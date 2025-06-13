@@ -26,9 +26,15 @@ Parameters to pass to the function (see "Description" and "Example" below).
 
 Either null or a string that is returned by the function call. The function result could be an empty string.
 
+### Type
+
+```typescript
+string | null
+```
+
 ## Description
 
-Method; works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute()
+Method; Works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute()
 methods to communicate with the SWF panel from the authoring environment.
 
 ## Example

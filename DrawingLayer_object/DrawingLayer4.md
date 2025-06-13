@@ -26,6 +26,12 @@ A [Path object](../Path_object/Path_summary.md) to draw.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Draws the path specified by the *path* parameter. You typically use this method only when creating extensible tools.

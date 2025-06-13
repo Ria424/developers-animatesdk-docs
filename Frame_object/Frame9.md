@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`{start: any; end: any;}`; Returns a structure that contain start and end fields.
+Returns a structure that contain start and end fields.
+
+### Type
+
+```typescript
+{start: any; end: any;}
+```
 
 ## Description
 

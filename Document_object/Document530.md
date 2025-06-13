@@ -26,6 +26,12 @@ The array of filters currently specified.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Applies filters to the selected objects. Use this method after calling document.getFilters() and making any desired changes to the filters.

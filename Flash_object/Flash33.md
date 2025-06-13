@@ -14,82 +14,53 @@ None.
 
 ## Returns
 
-An Array of strings that contain the theme color parameters.
+An array of strings that contain the theme color parameters.
+
+### Type
+
+```typescript
+string[]
+```
 
 ## Description
 
 Method; returns an Array of strings that contain the theme color parameters. The available theme color parameters are as follows:
 
 - themeAppBackgroundColor
-
 - themeItemSelectedColor
-
 - themeItemHighlightedColor
-
 - themeHotTextNormalColor
-
 - themeHotTextRolloverColor
-
 - themeHotTextDisableColor
-
 - themeStaticTextNormalColor
-
 - themeStaticTextDisableColor
-
 - themeTextEditNormalBackgroundColor
-
 - themeTextEditDisableBackgroundColor
-
 - themeUseGradients
-
 - themeEnableShading
-
 - themeDividerLine
-
 - themeDividerLineBevel
-
 - themeControlFocus
-
 - themeControlBorderNormal
-
 - themeControlBorderDisabled
-
 - themeControlFillNormal
-
 - themeControlFillTopNormal
-
 - themeControlFillBottomNormal
-
 - themeControlFillOver
-
 - themeControlFillTopOver
-
 - themeControlFillBottomOver
-
 - themeControlFillDown
-
 - themeControlFillTopDown
-
 - themeControlFillBottomDown
-
 - themeControlFillDisabled
-
 - themeControlFillTopDisabled
-
 - themeControlFillBottomDisabled
-
 - themeControlFillSelectedOver
-
 - themeControlFillTopSelectedOver
-
 - themeControlFillBottomSelectedOver
-
 - themeGenericIconNormal
-
 - themeGenericIconShadowNormal
-
 - themeGenericIconDisabled
-
 - themeGenericIconShadowDisabled
 
 Adobe Animate introduced 2 UI themes: Dark and Light UI, and this method retrieves the current theme color parameters to help you render your custom content.

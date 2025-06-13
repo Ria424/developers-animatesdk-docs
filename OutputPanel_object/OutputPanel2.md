@@ -26,6 +26,12 @@ A string that contains the text to add to the Output panel.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sends a text string to the Output panel, terminated by a new line, and displays the Output panel if it is not already visible. This method is identical to [Flash.trace()](../Flash_object/Flash77.md), and works in the same way as the trace() statement in ActionScript.

@@ -38,6 +38,12 @@ Optional. A zero-based integer indicating the last layer to duplicate. The dupli
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Duplicates the layers that are currently selected in the Timeline, or the layers in the specified range. Optional arguments can be provided in order to specify a layer or range of layers to duplicate.

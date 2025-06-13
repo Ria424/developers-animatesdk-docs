@@ -6,11 +6,11 @@ Animate 2019.
 
 ## Usage
 
-layer.setZDepthAtFrame(FrameNumber,ZVal)
+Layer.setZDepthAtFrame(frameIndex, zDepth)
 
 ## Parameters
 
-### **FrameNumber**
+### **frameIndex**
 
 #### Type
 
@@ -20,9 +20,9 @@ number
 
 #### Description
 
-It is an integer that specifies the frame index starting from 0.
+Integer that specifies the frame index starting from 0.
 
-### **ZVal**
+### **zDepth**
 
 #### Type
 
@@ -32,15 +32,21 @@ number
 
 #### Description
 
-It is an integer that specifies the ZDepth value ranges between -5000 to 10000.
+Integer that specifies the Z depth value ranges between -5000 to 10000.
 
 ## Returns
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
-Method; Sets the ZDepth at the specified frame number.
+Method; Sets the Z depth at the specified frame number.
 
 ## Example
 

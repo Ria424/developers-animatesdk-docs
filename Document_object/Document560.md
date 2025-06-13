@@ -44,6 +44,12 @@ An integer between 0 and 100 that specifies the opacity of the tint.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the tint for the instance.

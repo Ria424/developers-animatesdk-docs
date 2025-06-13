@@ -26,6 +26,12 @@ An optional Boolean value that specifies whether to display the Save dialog box 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; closes all open files (FLA files, SWF files, JSFL files, and so on). If you want to close all open files without saving changes to any of them, pass false for *bPromptToSave*. This method does not terminate the application.

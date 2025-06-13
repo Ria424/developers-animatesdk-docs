@@ -26,6 +26,12 @@ An integer representing the zero-based index of the filter in the Filters list.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Disables the specified filter in the Filters list.

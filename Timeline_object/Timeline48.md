@@ -26,6 +26,12 @@ A zero-based integer index of a mask or masked layer to show masking during auth
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Shows the layer masking during authoring by locking the mask and masked layers. This method uses the current layer if no layer is specified. If you use this method on a layer that is not of type Mask or Masked, Animate displays an error in the Output panel.

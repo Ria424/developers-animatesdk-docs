@@ -38,6 +38,12 @@ A zero-based integer index specifying the frame where the conversion stops (not 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Converts frames to blank keyframes on the current layer.

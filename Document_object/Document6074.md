@@ -50,6 +50,12 @@ Specifies whether to export only the current frame (true) or to export all frame
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; It generates SVG File.

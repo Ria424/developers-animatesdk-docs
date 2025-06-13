@@ -110,6 +110,12 @@ An optional integer, index of end frame in specific scene. Applicable only when 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Generates the required media from the document by making use of Adobe Media Encoder.

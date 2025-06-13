@@ -14,7 +14,13 @@ None.
 
 ## Returns
 
-`Filter[]`; An array that contains a list of filters applied to the currently selected objects.
+An array that contains a list of filters applied to the currently selected objects.
+
+### Type
+
+```typescript
+Filter[]
+```
 
 ## Description
 

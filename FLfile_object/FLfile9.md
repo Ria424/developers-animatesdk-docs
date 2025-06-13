@@ -36,7 +36,13 @@ An optional string that specifies whether to return only filenames or only folde
 
 ## Returns
 
-`string[]`; An array of strings representing the contents of the folder. If the folder doesn’t exist or if no files or folders match the specified criteria, returns an empty array.
+An array of strings representing the contents of the folder. If the folder doesn’t exist or if no files or folders match the specified criteria, returns an empty array.
+
+### Type
+
+```typescript
+string[]
+```
 
 ## Description
 

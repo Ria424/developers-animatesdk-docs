@@ -26,6 +26,12 @@ Optional. A zero-based integer specifying which layer to delete. If omitted, the
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Deletes a layer. If the layer is a folder, all layers within the folder are deleted. If you do not specify the layer index, Animate deletes the currently selected layers.

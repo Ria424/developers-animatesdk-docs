@@ -26,6 +26,12 @@ A zero-based index that specifies the edge to delete from the [Shape.edges](../S
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; deletes the specified edge. You must call [Shape.beginEdit()](../Shape_object/Shape.md) before using this method.

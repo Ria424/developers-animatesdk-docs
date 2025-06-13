@@ -38,6 +38,12 @@ A boolean value that, when set to true, indicates that the method should use mul
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing. This method is equivalent to selecting `Modify > Shape > Optimize`.

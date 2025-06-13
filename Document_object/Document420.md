@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Selects all items on the Stage. This method is equivalent to pressing `Control` + `A` (Windows) or `Command` + `A` (Macintosh) or selecting `Edit > Select All`.

@@ -38,6 +38,12 @@ New swatch Object.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Replace the tagged swatch with the given name to the given new swatch object.

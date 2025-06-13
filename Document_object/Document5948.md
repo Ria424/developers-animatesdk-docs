@@ -28,6 +28,12 @@ The default value is false. If set to true, the test movie session will not star
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Executes a Test Movie operation on the document.

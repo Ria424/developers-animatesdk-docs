@@ -62,6 +62,12 @@ A string that is similar to *curveFit*, but it pertains to the corners of the bi
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Performs a trace bitmap on the current selection. This method is equivalent to selecting Modify >Bitmap>Trace Bitmap.

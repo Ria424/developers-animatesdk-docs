@@ -38,6 +38,12 @@ The value to assign to the specified property.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the property for all selected library items (ignoring folders).

@@ -50,6 +50,12 @@ A floating-point value that specifies the vertical location of the control point
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the position of the control point of the edge. You must call shape.beginEdit() before using this method. See [Shape.beginEdit()](../Shape_object/Shape.md).

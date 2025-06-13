@@ -34,6 +34,12 @@ If set to null, no fill color is set, which is the same as setting the Fill colo
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Changes the selection and the tools panel to the specified fill color. For additional information on changing the fill color in the Tools panel and Property inspector, see [Document.setCustomFill()](../Document_object/Document470.md).

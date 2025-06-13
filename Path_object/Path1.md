@@ -86,6 +86,12 @@ A floating-point number that specifies the *y* position of the third control poi
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; appends a quadratic Bézier segment to the path.

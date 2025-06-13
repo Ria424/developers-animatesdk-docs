@@ -24,7 +24,13 @@ A [Document object](../Document_object/Document_summary.md). If *documentObject*
 
 ## Returns
 
-A Boolean value: true if the Revert operation completes successfully; false otherwise.
+True if the Revert operation completes successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

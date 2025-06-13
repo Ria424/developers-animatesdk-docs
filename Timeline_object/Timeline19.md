@@ -24,7 +24,13 @@ The name of the layer to find.
 
 ## Returns
 
-`integer[] | undefined`; An array of index values for the specified layer. If the specified layer is not found, Animate returns undefined.
+An array of index values for the specified layer. If the specified layer is not found, Animate returns undefined.
+
+### Type
+
+```typescript
+integer[] | undefined
+```
 
 ## Description
 

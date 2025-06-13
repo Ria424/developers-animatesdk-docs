@@ -50,6 +50,12 @@ The data to add to the specified library item. The type of data depends on the v
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Adds specified data to a library item.

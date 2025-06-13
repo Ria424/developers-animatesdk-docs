@@ -26,6 +26,12 @@ The stroke style for the current selection. Acceptable values are "hairline", "s
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Changes the stroke style of the selection to the specified style. For information on changing the stroke in the Tools panel and Property inspector, see [Document.setCustomStroke()](../Document_object/Document480.md).

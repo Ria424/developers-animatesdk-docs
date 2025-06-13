@@ -20,7 +20,7 @@ number
 
 #### Description
 
-It is an integer that specifies the starting layer index.
+Integer that specifies the starting layer index.
 
 ### **endLayerNum**
 
@@ -32,11 +32,17 @@ number
 
 #### Description
 
-It is an integer that specifies the ending layer index.
+Integer that specifies the ending layer index.
 
 ## Returns
 
-Layer Object of the merged layer.
+Layer object of the merged layer.
+
+### Type
+
+```typescript
+Layer
+```
 
 ## Description
 

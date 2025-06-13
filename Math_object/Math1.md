@@ -26,6 +26,12 @@ Indicates the Matrix object to invert (see [Matrix object](../Matrix_object/Matr
 
 A Matrix object that is the inverse of the original matrix.
 
+### Type
+
+```typescript
+Matrix
+```
+
 ## Description
 
 Method; Returns the inverse of the specified matrix.

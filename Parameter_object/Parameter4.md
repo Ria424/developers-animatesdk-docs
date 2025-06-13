@@ -26,6 +26,12 @@ The zero-based integer index of the item to be removed from the screen or compon
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Removes an element of the object or array type of a screen or component parameter.

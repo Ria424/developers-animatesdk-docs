@@ -26,6 +26,12 @@ Specifies the name of the data to return.
 
 The specified data.
 
+### Type
+
+```typescript
+any
+```
+
 ## Description
 
 Method; Retrieves the value of the specified data. The type returned depends on the type of data that was stored.

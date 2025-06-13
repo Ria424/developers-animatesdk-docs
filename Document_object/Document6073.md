@@ -62,6 +62,12 @@ A floating-point number that specifies the (1, 1) element of the transformation 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Performs a general transformation on the current selection by applying the matrix specified in the arguments. For more information, see the [Element.matrix](../Element_object/Element10.md) property.

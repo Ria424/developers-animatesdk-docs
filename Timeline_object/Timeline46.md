@@ -63,6 +63,12 @@ An array of three integers, as returned by timeline.getSelectedFrames().
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Selects a range of frames in the current layer or sets the selected frames to the selection array passed into this method.

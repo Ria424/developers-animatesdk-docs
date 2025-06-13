@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Copies the current selection from the document to the Clipboard. To copy a string to the Clipboard, use [Flash.clipCopyString()](../Flash_object/Flash6.md).

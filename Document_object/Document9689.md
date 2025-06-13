@@ -50,6 +50,12 @@ Specifies whether the Contact Sensitive selection mode is enabled (true) or disa
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Draws a rectangular selection marquee relative to the Stage, using the specified coordinates. This is unlike

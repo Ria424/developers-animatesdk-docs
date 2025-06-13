@@ -20,16 +20,21 @@ string
 
 #### Description
 
-Specifies the property whose control item element you want to retrieve.
+The property whose control item element you want to retrieve.
 
 ## Returns
 
 An object that represents the current control item for the control specified by **`controlPropertyName`**.
 
+### Type
+
+```typescript
+any
+```
+
 ## Description
 
-Method; Returns the label and value of the line selected in a ListBox or ComboBox control for the control specified by
-**`controlPropertyName`**.
+Method; Returns the label and value of the line selected in a ListBox or ComboBox control for the control specified by **`controlPropertyName`**.
 
 ## Example
 

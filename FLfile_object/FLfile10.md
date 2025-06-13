@@ -26,6 +26,12 @@ Expressed in a platform-specific format, specifying the filename you want to con
 
 A string expressed as a file:/// URI.
 
+### Type
+
+```typescript
+string
+```
+
 ## Description
 
 Method; Converts a filename in a platform-specific format to a file:/// URI.

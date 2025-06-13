@@ -50,6 +50,12 @@ An optional parameter that specifies one or more arguments to be passed to *func
 
 The function's result as a string, if *funcName* is specified; otherwise, nothing.
 
+### Type
+
+```typescript
+string | void
+```
+
 ## Description
 
 Method; executes a JavaScript file. If a function is specified as one of the arguments, it runs the function and also any code in the script that is not within the function. The rest of the code in the script runs before the function is run.

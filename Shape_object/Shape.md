@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; defines the start of an edit session. You must use this method before issuing any commands that change the Shape object or any of its subordinate parts.

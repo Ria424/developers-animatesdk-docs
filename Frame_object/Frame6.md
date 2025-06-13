@@ -24,7 +24,13 @@ An optional string that specifies the property for which you want to return the 
 
 ## Returns
 
-`Point[]`; Returns an array of JavaScript objects, each of which has an *x* and *y* property.
+Returns an array of JavaScript objects, each of which has an *x* and *y* property.
+
+### Type
+
+```typescript
+Point[]
+```
 
 ## Description
 

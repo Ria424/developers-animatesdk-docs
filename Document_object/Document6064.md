@@ -24,7 +24,13 @@ Specifies the index of the tagged swatch palette, it is optional. Default value 
 
 ## Returns
 
-`Swatch[]`; Array of tagged swatches.
+Array of tagged swatches.
+
+### Type
+
+```typescript
+Swatch[]
+```
 
 ## Description
 

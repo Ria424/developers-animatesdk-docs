@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Publishes the document according to the active publish settings (`File > Publish Settings`). This method is equivalent to selecting `File > Publish`.

@@ -27,6 +27,12 @@ An integer that specifies the cubic segment for which points are returned.
 An array of points that define a cubic curve for the Edge object that corresponds to the specified *cubicSegmentIndex*
 (see [Edge.cubicSegmentIndex](../Edge_object/Edge.md)).
 
+### Type
+
+```typescript
+Point[]
+```
+
 ## Description
 
 Method; returns an array of points that define a cubic curve.

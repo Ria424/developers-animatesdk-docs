@@ -24,7 +24,11 @@ The SymbolItem or SymbolInstance to remove from the sprite sheet.
 
 ## Returns
 
-Boolean.
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

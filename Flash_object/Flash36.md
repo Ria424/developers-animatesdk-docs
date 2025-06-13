@@ -12,6 +12,12 @@ None.
 
 An array of generic objects corresponding to the list of installed Flash Players in the document PI.
 
+### Type
+
+```typescript
+{name: string; version: string; minASVersion: number; maxASVersion: number; stageWidth: number; stageHeight: number}[]
+```
+
 ## Description
 
 Read-only property; The array of generic objects corresponding to the list of installed Flash Players in the document PI. Each object in the array contains the following properties:

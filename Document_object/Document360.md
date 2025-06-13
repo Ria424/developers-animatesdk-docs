@@ -38,6 +38,12 @@ Specifies which side of the bounding box to rotate. Acceptable values are "top r
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Rotates the selection by a specified number of degrees. The effect is the same as using the Free Transform tool to rotate the object.

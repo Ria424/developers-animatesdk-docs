@@ -20,11 +20,17 @@ BitmapItem | BitmapInstance
 
 #### Description
 
-The BitmapItem or Bitmap to remove from the sprite sheet.
+The BitmapItem or BitmapInstance to remove from the sprite sheet.
 
 ## Returns
 
 Nothing.
+
+### Type
+
+```typescript
+void
+```
 
 ## Description
 

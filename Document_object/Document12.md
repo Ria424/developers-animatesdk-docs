@@ -38,6 +38,12 @@ An optional string that specifies the text to place in the field. If you omit th
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Inserts a new text field and optionally places text into the field. If you omit the *text* parameter, you can call

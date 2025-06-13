@@ -26,6 +26,12 @@ Specifies the name of the data to retrieve.
 
 The data specified by the *name* parameter. The type of data returned depends on the type of stored data.
 
+### Type
+
+```typescript
+any
+```
+
 ## Description
 
 Method; Retrieves the value of the specified data.

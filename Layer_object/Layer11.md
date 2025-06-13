@@ -1,4 +1,4 @@
-# Layer.getZDepthAtFrame() 
+# Layer.getZDepthAtFrame()
 
 ## Availability
 
@@ -6,11 +6,11 @@ Animate 2019.
 
 ## Usage
 
-layer.getZDepthAtFrame(FrameNumber)
+Layer.getZDepthAtFrame(frameIndex)
 
 ## Parameters
 
-### **FrameNumber**
+### **frameIndex**
 
 #### Type
 
@@ -20,21 +20,21 @@ number
 
 #### Description
 
-An integer specifying the frame index starting from 0.
+Absolute zero-based frame index.
 
 ## Returns
 
-ZVal: An integer value that specifies the ZDepth value of the frame.
+Integer value that specifies the Z depth value of the frame.
 
 ### Type
 
 ```typescript
-integer
+number
 ```
 
 ## Description
 
-Method; An integer value that specifies the ZDepth value at the frame.
+Method; Gets the Z depth at the specified frame number.
 
 ## Example
 

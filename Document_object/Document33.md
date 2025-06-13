@@ -26,6 +26,12 @@ A boolean value that, when set to true, causes the method to prompt the user wit
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Closes the specified document.

@@ -38,6 +38,12 @@ Specifies whether the transformation mode should be global (true) or local (fals
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Applies a 3D rotation to the selection. This method is available only for movie clips.

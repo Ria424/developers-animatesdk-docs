@@ -20,11 +20,17 @@ BitmapItem | BitmapInstance
 
 #### Description
 
-The BitmapItem or Bitmap to include in the sprite sheet.
+The BitmapItem or BitmapInstance to include in the sprite sheet.
 
 ## Returns
 
 Nothing.
+
+### Type
+
+```typescript
+void
+```
 
 ## Description
 

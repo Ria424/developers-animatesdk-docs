@@ -38,6 +38,12 @@ integer
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Zooms camera to absolute value given by input parameter in percentage.

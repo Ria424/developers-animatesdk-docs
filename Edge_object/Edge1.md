@@ -15,7 +15,7 @@ Edge.getControl(i)
 #### Type
 
 ```typescript
-number
+0 | 1 | 2
 ```
 
 #### Description
@@ -25,6 +25,12 @@ Specifies which control point of the edge to return. Specify 0 for the first con
 ## Returns
 
 The specified control point.
+
+### Type
+
+```typescript
+Point
+```
 
 ## Description
 

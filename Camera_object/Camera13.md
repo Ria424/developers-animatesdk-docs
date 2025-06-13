@@ -26,6 +26,12 @@ integer
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Reset camera position to the original position i.e (0, 0, 0).

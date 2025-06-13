@@ -20,7 +20,7 @@ string
 
 #### Description
 
-A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for *attrName*, see the Property summary for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
+A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for **`attrName`**, see the Property summary for the [TextAttrs object](../TextAttrs_object/TextAttrs_summary.md).
 
 ### **startIndex**
 
@@ -50,9 +50,15 @@ An integer that specifies the end of the range of text, which starts with **`sta
 
 The value of the attribute specified in the **`attrName`** parameter.
 
+### Type
+
+```typescript
+any
+```
+
 ## Description
 
-Method; retrieves the attribute specified by the **`attrName`** parameter for the text identified by the optional **`startIndex`** and **`endIndex`** parameters. If the attribute is not consistent for the specified range, Flash returns undefined. If you omit the optional parameters **`startIndex`** and **`endIndex`**, the method uses the entire text range. If you specify only **`startIndex`**, the range used is a single character at that position. If you specify both **`startIndex`** and **`endIndex`**, the range starts from **`startIndex`** and goes up to, but does not include, **`endIndex`**.
+Method; Retrieves the attribute specified by the **`attrName`** parameter for the text identified by the optional **`startIndex`** and **`endIndex`** parameters. If the attribute is not consistent for the specified range, Flash returns undefined. If you omit the optional parameters **`startIndex`** and **`endIndex`**, the method uses the entire text range. If you specify only **`startIndex`**, the range used is a single character at that position. If you specify both **`startIndex`** and **`endIndex`**, the range starts from **`startIndex`** and goes up to, but does not include, **`endIndex`**.
 
 ## Example
 

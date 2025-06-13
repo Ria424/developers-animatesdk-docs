@@ -40,6 +40,12 @@ An array of generic objects. Use the .obj property of each item in the array to 
 
 You can also access methods and properties for the layer and timeline values; they are equivalent to the [Layer object](../Layer_object/Layer_summary.md) and the [Timeline object](../Timeline_object/Timeline_summary.md), respectively.
 
+### Type
+
+```typescript
+{obj: Element; keyframe: number; layer: Layer; timeline: Timeline; parent: SymbolInstance;}[]
+```
+
 ## Description
 
 Method; exposes elements in a document with instance names that match the specified text.

@@ -20,11 +20,17 @@ number
 
 #### Description
 
-Specifies absolute frame index.
+Absolute zero-based frame index.
 
 ## Returns
 
-`Filter[]`; An array that contains a list of filters applied to the frame at frameIndex
+An array that contains a list of filters applied to the frame at frameIndex
+
+### Type
+
+```typescript
+Filter[]
+```
 
 ## Description
 
@@ -35,5 +41,5 @@ Method; An array that contains a list of filters applied to the frame at frameIn
 The following example gets the filters at the first frame of the first layer:
 
 ```javascript
-var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);
+var filters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);
 ```

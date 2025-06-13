@@ -26,6 +26,12 @@ The name of the XML file that has the description of the tool’s options. The X
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Associates an XML file with the tool. The file specifies the options to appear in a modal panel that is invoked by an Options button in the Property inspector. You would usually use this method in the configureTool() function inside your JSFL file. See [ConfigureTool()](../Top-Level_Functions_and_Methods/configureTool.md).

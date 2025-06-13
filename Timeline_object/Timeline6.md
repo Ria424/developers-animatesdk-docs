@@ -38,6 +38,12 @@ A zero-based integer index indicating the frame to stop copying at (not inclusiv
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Copies a range of frames on the current layer to the clipboard.

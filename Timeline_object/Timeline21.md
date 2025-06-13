@@ -15,7 +15,7 @@ Timeline.getBounds(\[frame \[, includeHiddenLayers\]\])
 #### Type
 
 ```typescript
-number
+number?
 ```
 
 #### Description
@@ -37,6 +37,12 @@ Indicates whether to include element bounds from hidden layers. Defaults to the 
 ## Returns
 
 The bounding rectangle for all elements on all layers on the Timeline, for the specified frame.
+
+### Type
+
+```typescript
+RectangleBounds
+```
 
 ## Description
 

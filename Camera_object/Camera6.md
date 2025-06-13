@@ -38,6 +38,12 @@ Pixels.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Sets camera's Z Depth value.

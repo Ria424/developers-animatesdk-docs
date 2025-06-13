@@ -14,7 +14,13 @@ Nothing.
 
 ## Returns
 
-`string[]`; Array of tagged swatches palette name list.
+Array of tagged swatches palette name list.
+
+### Type
+
+```typescript
+string[]
+```
 
 ## Description
 

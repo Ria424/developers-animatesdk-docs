@@ -26,6 +26,12 @@ A point that specifies the *x* and *y* coordinates of the location at which to s
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Specifies the vanishing point for viewing 3D objects.

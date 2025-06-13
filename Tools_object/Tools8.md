@@ -42,6 +42,12 @@ An integer that defines the pointer appearance, as described in the following li
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the pointer to a specified appearance.

@@ -6,19 +6,35 @@ Flash CS4 Professional.
 
 ## Usage
 
-*videoItem.exportToFLV(fileURI)*
+VideoItem.exportToFLV(fileURI)
 
 ## Parameters
 
-**fileURI** A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
+### **fileURI**
+
+#### Type
+
+```typescript
+string
+```
+
+#### Description
+
+A string, expressed as a file:/// URI, that specifies the path and name of the exported file.
 
 ## Returns
 
-A Boolean value of true if the file is exported successfully; false otherwise.
+True if the file is exported successfully; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 
-Method; exports the specified item to an FLV file.
+Method; Exports the specified item to an FLV file.
 
 ## Example
 

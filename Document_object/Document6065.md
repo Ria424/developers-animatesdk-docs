@@ -38,6 +38,12 @@ An optional integer that speifies the index of the tagged swatch palette, defaul
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Delete tagged swatch with given index.

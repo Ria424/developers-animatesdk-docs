@@ -64,6 +64,12 @@ An integer that specifies the index of the end point in the selected text string
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; sets the attribute specified by the **`attrName`** parameter associated with the text identified by **`startIndex`** and **`endIndex`** to the value specified by **`attrValue`**. This method can be used to change attributes of text that might span TextRun elements (see [TextRun object](../TextRun_object/TextRun_summary.md)), or that are portions of existing TextRun elements. Using it may change the position and number of TextRun elements within this object’s text.textRuns array (see [Text.textRuns](../Text_object/Text27.md)).

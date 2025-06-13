@@ -38,6 +38,12 @@ A zero-based integer index that specifies the frame where the motion object ends
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Creates a new motion object. The parameters are optional, and if specified set the timeline selection to the indicated frames prior to creating the motion object.

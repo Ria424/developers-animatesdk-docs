@@ -26,6 +26,12 @@ The name of the PNG file to use as the icon. The PNG file must be placed in the 
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Identifies a PNG file to use as a tool icon in the Tools panel. This method is used only when you create extensible tools.

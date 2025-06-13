@@ -53,6 +53,12 @@ A boolean that indicates whether to enable or disable publishing of persistent d
 
 None.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Enables publishing of persistent data for a library item.
@@ -63,7 +69,8 @@ The following example illustrates use of this method:
 
 ```javascript
 var doc = fl.getDocumentDOM();
-// example setting library data
+
+// Example setting library data
 if (doc) {
     var libItem = doc.library.items[0];
     if (libItem) {
@@ -73,14 +80,13 @@ if (doc) {
         doc.setPublishDocumentData("_EXTERN_JSON_", true);
     }
 }
-// example getting instance data
+
+// Example getting instance data
 if (doc && doc.getPublishDocumentData("_EXTERN_JSON_")) {
     var libItem = doc.library.items[0];
     if (libItem) {
-        if (libItem.hasData("sampleData") && libItem.getPublishData("sampleData",
-            "_EXTERN_JSON_")) {
-            alert("publish persistent data for libElem: sampleData = '" +
-                libItem.getData("sampleData") + "'");
+        if (libItem.hasData("sampleData") && libItem.getPublishData("sampleData", "_EXTERN_JSON_")) {
+            alert("publish persistent data for libElem: sampleData = '" + libItem.getData("sampleData") + "'");
         }
     }
 }

@@ -50,6 +50,12 @@ Optional. If true (default), moves the layer before **`layerToPutItBy`**; if fal
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Moves the first specified layer before or after the second specified layer.

@@ -26,6 +26,12 @@ The desired blending mode for the selected objects. Acceptable values are "norma
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the blending mode for the selected objects.

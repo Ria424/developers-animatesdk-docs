@@ -41,6 +41,12 @@ The value to set in the specified Element property.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the specified Element property on selected objects in the document. This method does nothing if there is no selection.

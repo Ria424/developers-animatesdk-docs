@@ -26,6 +26,12 @@ Specifies whether to select or deselect all items in the library. Omit this para
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Selects or deselects all items in the library.

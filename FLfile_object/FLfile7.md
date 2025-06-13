@@ -26,6 +26,12 @@ Expressed as a file:/// URI, specifying the file or folder whose modification da
 
 A JavaScript Date object that represents the date and time when the specified file or folder was last modified. If the file or folder doesn’t exist, the object contains information indicating that the file or folder was created at midnight GMT on December 31, 1969.
 
+### Type
+
+```typescript
+Date
+```
+
 ## Description
 
 Method; Returns a JavaScript Date object that represents the date and time when the specified file or folder was last modified.

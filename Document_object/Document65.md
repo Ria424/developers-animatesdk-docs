@@ -26,6 +26,12 @@ A string, expressed as a file:/// URI, that specifies the path of the XML file t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Exports the currently active profile to an XML file.

@@ -38,6 +38,12 @@ Optional. A zero-based integer index specifying the last layer to cut, inclusive
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Cuts the layers that are currently selected in the Timeline, or the layers in the specified range. Optional arguments can be provided in order to specify a layer or range of layers to cut.

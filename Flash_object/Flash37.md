@@ -24,7 +24,13 @@ A string that specifies the name of a device font.
 
 ## Returns
 
-A Boolean value of true if the specified font is installed; false otherwise.
+True if the specified font is installed; false otherwise.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

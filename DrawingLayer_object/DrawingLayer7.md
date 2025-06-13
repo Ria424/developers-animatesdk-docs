@@ -38,6 +38,12 @@ A floating-point value that is the *y* coordinate of the end point of the line t
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Draws a line from the current drawing position to the point (*x, y*). You typically use this method only when creating extensible tools.

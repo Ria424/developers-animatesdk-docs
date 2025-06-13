@@ -26,9 +26,15 @@ An integer that specifies the memory utilization area to be queried. For a list 
 
 An integer that represents the number of bytes being used in a specified area of Flash.exe memory.
 
+### Type
+
+```typescript
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+```
+
 ## Description
 
-Method (Windows only); returns an integer that represents the number of bytes being used in a specified area of Flash.exe memory. Use the following table to determine which value you want to pass as *memType*:
+Method (Windows only); returns an integer that represents the number of bytes being used in a specified area of Flash.exe memory. Use the following table to determine which value you want to pass as **`memType`**:
 
 | **memType** | **Resource data** |
 | --- | --- |

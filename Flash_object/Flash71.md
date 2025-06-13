@@ -50,6 +50,12 @@ A string that contains the value to be set (true or false).
 
 None.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets a boolean preference value.

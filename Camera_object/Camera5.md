@@ -24,7 +24,11 @@ integer
 
 ## Returns
 
-`{brightness: number, contrast: number, saturation: number, hue: number}`;
+### Type
+
+```typescript
+{brightness: number, contrast: number, saturation: number, hue: number}
+```
 
 ## Description
 

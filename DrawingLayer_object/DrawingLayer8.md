@@ -38,6 +38,12 @@ A floating-point value that specifies the *y* coordinate of the position at whic
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the current drawing position. You typically use this method only when creating extensible tools.

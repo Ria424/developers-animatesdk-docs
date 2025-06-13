@@ -38,6 +38,12 @@ A zero-based integer index indicating the frame where pasting stops (not include
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Pastes the range of frames from the clipboard into the specified frames.

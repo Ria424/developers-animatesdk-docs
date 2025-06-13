@@ -38,6 +38,12 @@ A string representing the name of the bitmap to be added to the Library.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Exports a selected instance of a movie clip, graphic, or button symbol on the Stage to a bitmap in Library.

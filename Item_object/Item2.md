@@ -39,7 +39,13 @@ Specifies the publishing format.
 
 ## Returns
 
-A Boolean value that indicates whether publishing of the specified persistent data is enabled for the specified format on this library item.
+A boolean value that indicates whether publishing of the specified persistent data is enabled for the specified format on this library item.
+
+### Type
+
+```typescript
+boolean
+```
 
 ## Description
 

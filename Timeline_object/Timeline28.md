@@ -50,6 +50,12 @@ A zero-based integer specifying the frame index where frames will be inserted. O
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Inserts the specified number of frames at the specified index. If no parameters are specified, this method works as follows:

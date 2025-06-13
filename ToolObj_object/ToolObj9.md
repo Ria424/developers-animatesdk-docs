@@ -26,6 +26,12 @@ The tooltip to use for the tool.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the tooltip that appears when the mouse is held over the tool icon. This method is used only when you create extensible tools.

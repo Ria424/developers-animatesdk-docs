@@ -38,6 +38,12 @@ A boolean value that specifies whether the Contact Sensitive selection mode is e
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Moves and resizes the selection in a single operation.

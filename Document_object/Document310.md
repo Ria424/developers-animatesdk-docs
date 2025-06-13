@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets all values in the Property inspector to default Oval object settings. If any Oval objects are selected, their properties are reset to default values as well.

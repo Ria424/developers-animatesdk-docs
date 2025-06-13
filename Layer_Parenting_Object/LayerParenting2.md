@@ -38,6 +38,12 @@ The layer object to be set as parent.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; It will set the layer parent of the particular frame.

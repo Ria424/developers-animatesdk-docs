@@ -16,6 +16,12 @@ None.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Combines all selected shapes into a drawing object. If no objects are selected, calling this method results in an error and the script breaks at that point.

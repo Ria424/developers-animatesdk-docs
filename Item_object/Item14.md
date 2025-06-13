@@ -26,6 +26,12 @@ Specifies the name of the data to remove from the library item.
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Property; Removes persistent data from the library item.

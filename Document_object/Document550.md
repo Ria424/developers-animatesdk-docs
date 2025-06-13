@@ -26,6 +26,12 @@ An integer that specifies brightness as a value from -100 (black) to 100 (white)
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Sets the brightness for the instance.

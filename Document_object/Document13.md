@@ -38,6 +38,12 @@ A boolean value that, if set to true, causes the method to align to the bounds o
 
 Nothing.
 
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Aligns the selection.

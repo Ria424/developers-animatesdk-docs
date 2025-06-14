@@ -6,11 +6,33 @@ Flash Professional CS5.
 
 ## Usage
 
-Frame.selectMotionPath()
+Frame.selectMotionPath(selectValue)
+
+## Parameters
+
+### **selectValue**
+
+#### Type
+
+```typescript
+boolean
+```
+
+#### Description
+
+Specifies whether to select (`true`) or deselect (`false`) the motion path of the current motion object.
+
+## Returns
+
+### Type
+
+```typescript
+void
+```
 
 ## Description
 
-Method; `boolean`; Selects *(true)* or deselects *(false)* the motion path of the current motion object.
+Method; Selects or deselects the motion path of the current motion object.
 
 ## Example
 

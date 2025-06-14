@@ -27,12 +27,20 @@ Specifies the number of frames for the tween span of the selected motion object.
 #### Type
 
 ```typescript
-boolean
+boolean?
 ```
 
 #### Description
 
 A boolean value that determines whether the tween span is stretched, or if frames are added, to the end of the last frame.
+
+## Returns
+
+### Type
+
+```typescript
+void
+```
 
 ## Description
 

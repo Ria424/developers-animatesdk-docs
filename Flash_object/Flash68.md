@@ -52,6 +52,14 @@ Flash CS3 Professional.
 
 A string that specifies the name of the tool to select. See "Description" below for information on acceptable values for this parameter.
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Selects the specified tool in the Tools panel. The acceptable values for **`toolName`** are "arrow", "bezierSelect", "freeXform", "fillXform", "lasso", "pen", "penplus", "penminus", "penmodify", "text", "line", "rect", "oval", "rectPrimitive", "ovalPrimitive", "polystar", "pencil", "brush", "inkBottle", "bucket", "eyeDropper", "eraser", "hand", "magnifier", "GPUBrush", "ThreeDRotate", "ThreeDXform", "lassoPoly", "magicWand", "paintBrush", "camera", "width", "stageRotation", "timeScrub" and "puppet".

@@ -12,6 +12,14 @@ fl.resetAS3PackagePaths()
 
 None.
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; resets the global Classpath setting in the ActionScript 3.0 Settings dialog box to the default value. To reset the ActionScript 2.0 global Classpath, use [Flash.resetPackagePaths() - dropped](../Flash_object/Flash60.md).

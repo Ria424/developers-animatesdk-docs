@@ -46,6 +46,14 @@ boolean
 
 If set to true, the breakpoint is enabled. If set to false, the breakpoint is disabled.
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Toggles a breakpoint for the given .as file at the given line. If enable is false, the breakpoint currently stored at that line will be erased.

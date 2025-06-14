@@ -8,9 +8,17 @@ Flash CS5.5 Professional.
 
 swfPanel.setFocus()
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
-Method: Sets the keyboard focus to the specified SWF panel.
+Method; Sets the keyboard focus to the specified SWF panel.
 
 ## Example
 
@@ -28,8 +36,11 @@ Please do the followings steps before running this command:
 
 5. Press the tab key. You should see an insertion cursor in one of the text fields in the Create File dialog box.
 
-flash.getSwfPanel("Project").setFocus();
+```javascript
+fl.getSwfPanel("Project").setFocus();
+```
 
 ## See also
 
-[SwfPanel.name](../SwfPanel_object/SwfPanel3.md), [Flash.swfPanels](../Flash_object/Flash74.md)
+- [SwfPanel.name](../SwfPanel_object/SwfPanel3.md)
+- [Flash.swfPanels](../Flash_object/Flash74.md)

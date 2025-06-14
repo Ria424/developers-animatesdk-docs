@@ -8,9 +8,19 @@ Flash Professional CS5.
 
 Frame.isMotionObject()
 
+## Returns
+
+whether the current selection is a motion object.
+
+### Type
+
+```typescript
+boolean
+```
+
 ## Description
 
-Method; `boolean`; A boolean value. Lets you know whether the current selection is a motion object.
+Method; Lets you know whether the current selection is a motion object.
 
 ## Example
 

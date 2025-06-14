@@ -8,9 +8,19 @@ Adobe Animate.
 
 Frame.isEmpty()
 
+## Returns
+
+whether the frame contains any elements.
+
+### Type
+
+```typescript
+boolean
+```
+
 ## Description
 
-Method; `boolean`; A boolean value. Lets you know whether the frame contains any elements.
+Method; Lets you know whether the frame contains any elements.
 
 ## Example
 

@@ -8,9 +8,19 @@ Flash Professional CS5.
 
 Frame.is3DMotionObject()
 
+## Returns
+
+whether the current selection is a 3D motion object.
+
+### Type
+
+```typescript
+boolean
+```
+
 ## Description
 
-Method; `boolean`; A boolean value. Lets you know whether the current selection is a 3D motion object.
+Method; A boolean value. Lets you know whether the current selection is a 3D motion object.
 
 ## Example
 

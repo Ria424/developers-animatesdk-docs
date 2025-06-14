@@ -8,9 +8,19 @@ Flash Professional CS5.
 
 Frame.hasMotionPath()
 
+## Returns
+
+whether the current selection includes a motion path.
+
+### Type
+
+```typescript
+boolean
+```
+
 ## Description
 
-Method; `boolean`; Lets you know whether the current selection includes a motion path.
+Method; Lets you know whether the current selection includes a motion path.
 
 ## Example
 

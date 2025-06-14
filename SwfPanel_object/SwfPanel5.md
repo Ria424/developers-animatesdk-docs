@@ -8,6 +8,14 @@ Flash rofessional CC.
 
 swfPanel.reload()
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method: Reloads content in the SWF panel.

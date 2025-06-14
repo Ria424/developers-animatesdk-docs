@@ -8,6 +8,14 @@ Flash Professional CS5.
 
 Frame.convertMotionObjectTo3D()
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Converts the selected motion object to a 3D motion object.

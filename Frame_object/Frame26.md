@@ -34,6 +34,14 @@ boolean
 
 Determines whether the tween starts or ends at the current position.
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Applies the specified motion XML to the selected motion object.

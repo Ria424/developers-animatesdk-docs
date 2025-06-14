@@ -8,6 +8,14 @@ Flash Professional CS5.
 
 Frame.convertMotionObjectTo2D()
 
+## Returns
+
+### Type
+
+```typescript
+void
+```
+
 ## Description
 
 Method; Converts the selected motion object to a 2D motion object.
